@@ -1,0 +1,112 @@
+% Job posting: https://jobs.ashbyhq.com/baseten/db6477fc-111a-4340-bf00-525fe023e6f3
+% =====================================================================
+%  CV — Nishal Stanislaus Silva, PhD
+%  Variant: V1 (AI-Industry) with FDE framing — Baseten AI Inference Engineer, Forward Deployed
+%  Engineering: ambiguous business goal -> reliable, observable production service; client-facing.
+%  Changelog: V1 chosen (no dedicated FDE variant; V1 = production ML lifecycle + business outcomes).
+%  Bullets weighted to MAS + Forestpin (client-facing translation); postdoc adds benchmark rigor.
+%  Honest pre-sales/customer-success gap in the CL. Pubs = 3. Metrics 14 ms / F1 0.76 / 300% / 99.5%.
+%  Page target 2. No forced \newpage.
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.05}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 -- #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{AI Forward Deployed Engineer | Production ML Deployment, Client-Facing Delivery, Real-Time Systems}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \cvTagline}
+    \\[1pt]
+    {\footnotesize\textit{\cvStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}
+    \,\,|\,\, \href{https://github.com/ns2max}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+
+Engineer who owns the full path from an ambiguous business problem to a production AI system, working directly with the people who need the result. At MAS Holdings, translated live manufacturing-floor requirements into deployed CV/ML systems, up to 300\% throughput improvement and 99.5\% inspection-time reduction, on the client's production line rather than in a lab. At Forestpin, sat between compliance stakeholders and engineering, turning risk requirements into deployed anomaly-detection services. PhD (University of Trento, 2025) added benchmark-first rigor (F1, ablations, latency budgets): ship a working, measured system at 14 ms and F1 0.76, then improve it. Direct about where depth is still building (formal pre-sales motion), and backs that with a record of ramping fast on unfamiliar stacks under real deadlines.
+
+\section*{Core Competencies}
+
+\textbf{Client-Facing Delivery:} stakeholder requirement translation · cross-functional ownership · production deployment under client constraints · rapid prototyping · technical documentation and training\\
+\textbf{ML \& Engineering Practice:} end-to-end pipeline ownership (problem framing $\rightarrow$ eval $\rightarrow$ deployment $\rightarrow$ monitoring) · real-time / low-latency inference · benchmarking and ablations · Python-first development · observability\\
+\textbf{Domains:} computer vision · real-time / embedded inference · anomaly detection · IoT time-series at scale · signal processing
+
+\section*{Technical Stack}
+
+\textbf{Languages:} Python · C++ (C++17) · C · JavaScript · MATLAB · Shell\\
+\textbf{ML / AI:} PyTorch · TensorFlow, Keras · scikit-learn · HuggingFace Transformers · ONNX · model compression\\
+\textbf{Data \& Cloud:} AWS (EC2, S3, ECS, MWAA, RDS) · Snowflake · SQL · ETL pipelines · NumPy, Pandas\\
+\textbf{Dev \& MLOps:} Docker · Kubernetes · MLflow · Airflow · Jenkins · Git · CI/CD · REST APIs
+
+\section*{Education}
+\textbf{Ph.D -- Information Engineering and Computer Science} \textit{\small{ -- University of Trento, Italy}} \hfill \textit{Jan 2025}\\[2pt]
+\noindent\textbf{M.Sc -- Telecommunication and Electronic Engineering} \textit{\small{ -- Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[2pt]
+\noindent\textbf{B.Eng (Hons) -- Electronic Engineering} \textit{\small{ -- Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+\section*{Professional Experience}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Owned end-to-end ML and CV system delivery for manufacturing clients: took ambiguous production-floor problems and shipped deployed systems, 300\% operational efficiency improvement, 99.5\% inspection-time reduction, 50\% operator headcount reduction on fabric QC.
+    \item Built real-time C++/Python inference engines on embedded / IoT hardware, tuned for throughput and reliability under continuous client production load.
+    \item Worked directly with product, operations and engineering stakeholders to convert business needs into measurable technical specs, the same motion this role calls ``problem framing $\rightarrow$ evaluation $\rightarrow$ production deployment.''
+    \item Established CI/CD and code-review practice; mentored engineers; authored technical docs and delivered training for client teams.
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item Designed and deployed ML and statistical pipelines for financial forensics, compliance monitoring and risk detection on large enterprise datasets.
+    \item Built Python backend scoring services for anomaly flagging and production triage; translated compliance and risk requirements into technical specs, a direct precedent for FDE-style business-to-engineering alignment.
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Owned the full ML pipeline, acquisition through edge deployment and monitoring, achieving 14 ms inference at F1 0.76 on a Raspberry Pi 4, 74$\times$ faster than the DTW baseline (JAES 2026); EU-funded MUSMET.
+    \item Designed benchmark suites (baselines + ablations) to quantify architecture, latency and compute trade-offs before committing to a design; delivered maintainable, production-grade components with reproducible pipelines and deployment docs.
+\end{cvrole}
+
+\section*{Selected Publications \footnotesize {\normalfont{(full list: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Vol.~74, No.~3, Mar. 2026. \textit{(F1 0.76 at 14 ms on RPi4, 74$\times$ faster than DTW)}
+    \item Silva, N., Boem, A. and Turchet, L. \textit{Interactive IoMusT-Based Concerts: Real-Time Pattern Recognition and Audience Experience}. IEEE International Conference on Immersive and 3D Audio (I3DA), Sep. 2025.
+    \item Silva, N. and Turchet, L. \textit{A Structural Similarity Index Based Method to Detect Symbolic Monophonic Patterns in Real-Time}. 25th Int. Conference on Digital Audio Effects (DAFx), Sep. 2022. \textit{(95\% detection, training-free)}
+\end{itemize}
+
+\vspace{-1em}
+\section*{Independent Research, Highlights, \& Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{MIDI Innovation Awards:} Finalist (Sep 2023) -- real-time symbolic pattern detection for smart instruments.
+    \item \textbf{GMOA Recognition (Sri Lanka):} Government Medical Officers' Association, for a COVID-19 remote patient monitoring system deployed in hospital wards.
+    \item \textbf{Open source:} Nebula (C++17 audio-feature library, ARM latency benchmarks); LiveLaTeX (published VS Code extension).
+\end{itemize}
+
+\end{document}

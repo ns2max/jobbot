@@ -1,0 +1,69 @@
+% Job posting: https://jobs.ashbyhq.com/nexxa/df3caaa1-e0e5-4942-b5cc-b30c74cdea62
+% =====================================================================
+%  COVER LETTER — Nishal Stanislaus Silva, PhD
+%  Variant: V5 (CV/Industrial, edge tilt) — same tagline as the CV.
+%  Changelog: one page, 4 paragraphs. Hook = production industrial CV + real-time edge inference;
+%  14 ms / 74x. Evidence = MAS care-label QC / fabric defect / PLC integration; MUSMET benchmarking.
+%  VLMs / multimodal reasoning named as the newer edge (honest). F1 0.76, no patent mention. Toronto.
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Computer Vision \& ML Engineer | Industrial Inspection, Real-Time Edge \& Cloud Inference}
+\newcommand{\clRole}{AI Vision Engineer}
+\newcommand{\clCompany}{Nexxa.AI}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+Dear Hiring Team,
+
+I am applying for the \clRole{} position. Production computer vision for heavy industry, across the full stack, classical and deep learning, running in real time at the edge and in the cloud, is exactly the work I did for five years at MAS Holdings and sharpened during my PhD. My published detector runs at 14 ms on a Raspberry Pi 4, F1 0.76, 74$\times$ faster than the baseline (JAES 2026).
+
+At MAS I built and deployed camera CV across manufacturing lines: automated label inspection with OpenCV template and feature matching and an explainable overlay that cut inspection time 99.5\% and raised throughput 300\%; a real-time microscopic camera array detecting fabric defects at the loom that cut operators 50\%; and the geometry-alignment algorithm plus RIP integration for an on-demand printing product now deployed across four countries. That work ran next to the camera on constrained hardware and tied into PLC-driven machinery, so algorithm choices had to respect the system, not just the benchmark. My research added the discipline: profiling feature extraction, architecture and OS scheduling to hit latency budgets, and quantifying every trade-off with baselines and ablations.
+
+On vision-language models and multimodal reasoning I am earlier in the curve, my multimodal work has been audio, IMU and sensor fusion rather than image-and-text, but the fusion instinct transfers (a hierarchical fusion state machine got me F1 0.78 on a 500-event corpus), and my cross-domain record, repurposing SSIM from computer vision into an award-shortlisted audio method, is evidence I move methods across domains fast. The classical-plus-deep vision stack and real-time edge deployment are where I am strongest, and that is the core of this role.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, and available immediately. I would welcome the chance to discuss how my production industrial CV and edge-inference experience can support \clCompany{}. My portfolio, publications and open datasets are at \href{https://nishal.xyz}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

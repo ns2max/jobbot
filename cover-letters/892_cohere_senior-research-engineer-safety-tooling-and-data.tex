@@ -1,0 +1,71 @@
+% Job posting: https://jobs.ashbyhq.com/cohere/2d4d224f-94d4-40ce-88d5-5d340bc0da4e
+% =====================================================================
+%  COVER LETTER — Nishal Stanislaus Silva, PhD
+%  Variant: V1 (AI-Industry) — same tagline as the CV.
+%  Changelog: one page, 4 paragraphs. Hook = data tooling + benchmarking + infra ownership; 14 ms / F1 0.76.
+%  Evidence = MUSMET data pipeline + benchmark suites; McGill real+synthetic data; MAS millions of
+%  events/day + CI/CD standards. Why-them = safety tooling depends on rigorous low-friction data infra.
+%  ET timezone match. F1 0.76, no patent mention.
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Machine Learning Research Engineer | Data Pipelines, Benchmarking \& Real-Time Inference}
+\newcommand{\clRole}{Senior Research Engineer -- Safety Tooling and Data}
+\newcommand{\clCompany}{Cohere}
+\newcommand{\clTeam}{the Modelling Safety and Trust team}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+Dear Hiring Team,
+
+I am applying for the \clRole{} position at \clCompany{}. With a PhD in Information Engineering and Computer Science from the University of Trento and 10+ years deploying ML systems across industry and academia, I bring research depth and production discipline to the same role, and my most recent pipeline shipped real-time inference at 14 ms and F1 0.76 (JAES 2026).
+
+Throughout my career I have owned data pipelines end to end: acquisition, feature engineering, integrating real and synthetic data, benchmarking against baselines, and shipping into production, always in close collaboration with modelling and research teams. In my postdoctoral work on the EU-funded MUSMET project I built the full data pipeline for streaming audio, sensor and gesture data, acquisition through edge deployment and monitoring, and designed benchmark suites that quantified architecture and feature trade-offs under latency constraints. At McGill I combined diffusion- and VAE-based synthetic data generation with real multimodal sensor data to improve robustness under limited-label regimes, the exact ``real and synthetic data'' combination this role is built around. Earlier, at MAS Holdings, I built real-time ETL pipelines processing millions of IoT events per day across distributed sites and established the CI/CD and code-review standards that scaled ML adoption across engineering teams.
+
+What pulls me toward \clTeam{} is that building safer, more reliable models depends on the tooling underneath being rigorous and low-friction, exactly the opinionated, standards-setting data infrastructure work I have owned throughout my career, now applied at frontier-lab scale. In the first months I would expect to contribute on benchmark and evaluation tooling and on the data-quality processes that keep safety work honest.
+
+I am a Canadian permanent resident based in Toronto (ET), eligible to work without sponsorship, and available immediately, which aligns with the role's timezone requirement. My portfolio, publications and open datasets are at \href{https://nishal.xyz}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

@@ -1,0 +1,68 @@
+% Job posting: https://ca.linkedin.com/jobs/view/computer-vision-engineer-at-assembler-ai-4459590886
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Computer Vision \& ML Engineer | Industrial Inspection, IoT \& Edge Deployment}
+\newcommand{\clRole}{Computer Vision Engineer}
+\newcommand{\clCompany}{Assembler AI}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+Dear Hiring Manager,
+
+I am writing to apply for the Computer Vision Engineer role on Assembler AI's founding team. For 5.5 years at MAS Holdings, South Asia's largest apparel manufacturer, I built and ran computer vision systems on live production floors, not in a lab: an automated multilingual care-label QC system (OpenCV template and feature matching, iterated from handheld scanner to industrial camera to a PLC-controlled conveyor reject, cutting inspection time 99.5\%) and a microscopic camera-array system for loom-side fabric defect detection that cut operator headcount 50\%. Operator Vision's premise, that most manual work in a factory is invisible while it happens, is the exact problem I spent those years solving.
+
+Two parts of the role map directly onto that background. For training and evaluating vision models on production video, I owned training data end to end at MAS: sourcing, annotation-quality review, and continuous retraining against real footage rather than a fixed benchmark, with PyTorch and TensorFlow in my postdoctoral work since. For evaluation methodology, my PhD at the University of Trento centered on frozen-protocol benchmark and ablation design and quantified precision/recall and latency trade-offs, work I used to validate a real-time detector running at 14 ms on a Raspberry Pi 4 (F1 0.76, 74x faster than a DTW baseline, published JAES 2026).
+
+One point I want to raise directly: the posting asks for professional working proficiency in both French and English. My English is native. My French is currently basic, around A2, from ongoing classroom study, not yet professional working level. I would rather flag this honestly than overstate it, and I recognize it may be a hard requirement for a Montreal-based founding-team role. What draws me here beyond the technical fit is the founding-team stage itself: a small team with direct ownership over the vision stack is where the MAS and PhD work has been strongest.
+
+I am a Canadian permanent resident and do not require sponsorship, based in Toronto and open to relocating to Montreal, available immediately. I would welcome the chance to discuss how my industrial computer vision background fits your team, and to let you judge the French requirement against my ongoing progress.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

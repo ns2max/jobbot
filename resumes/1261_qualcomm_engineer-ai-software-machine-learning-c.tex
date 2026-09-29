@@ -1,0 +1,115 @@
+% Job posting: https://ca.linkedin.com/jobs/view/engineer-ai-software-machine-learning-c%2B%2B-at-qualcomm-4457950472
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.04}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{ML Research Engineer | Real-Time \& Edge Inference | Audio, Sensor \& Time-Series}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \cvTagline}\\[1pt]
+    {\footnotesize\textit{\cvStatus}}\\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
+    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+ML Research Engineer specializing in real-time and on-device inference for audio, sensor and time-series data, with 10+ years shipping constrained embedded systems in modern C++ and Python. Builds the engineering layer around trained models rather than training them: C++17 inference libraries, model-analysis and benchmarking tooling, and latency/CPU profiling tuned to hard compute and power budgets on ARM and embedded Linux hardware. PhD (University of Trento, 2025) on embedded real-time pattern detection, plus 5.5 years at MAS Holdings building C++/Python inference engines and PLC-integrated automation on embedded and industrial hardware. Author of Nebula, an open-source C++17 audio-feature library with per-feature ARM latency benchmarks, and publisher of a detector running at 14 ms on a Raspberry Pi 4 (F1 0.76, 74x faster than a DTW baseline; JAES 2026). Works daily across TensorFlow, PyTorch and ONNX as the consumer-side engineer who has to make a trained model run fast on constrained silicon, with Git, Docker and cross-platform embedded toolchains as the rest of the kit.
+
+\section*{Core Competencies}
+\textbf{ML Engineering:} TensorFlow, Keras, PyTorch, ONNX-based model deployment, feature engineering, DSP/MFCC pipelines, model-analysis and benchmarking tooling, ablation-driven accuracy/latency/CPU trade-off design.\\[2pt]
+\textbf{Edge \& System Optimization:} C++17 real-time inference engines, ARM and embedded-Linux CPU profiling, hard latency/compute/power-budget engineering, cross-platform embedded toolchains, PLC and hardware-in-the-loop integration, design-pattern-driven library architecture.\\[2pt]
+\textbf{Research Engineering:} Benchmark and dataset design, ablation studies, technical writing and peer review, mentoring and code-review practice, cross-domain systems translation.
+
+\section*{Technical Stack}
+\textbf{Languages:} Python, C++17, C, MATLAB, JavaScript/TypeScript, Shell.\\
+\textbf{ML / AI:} TensorFlow, Keras, PyTorch, scikit-learn, ONNX.\\
+\textbf{Edge \& Systems:} Raspberry Pi, ARM CPU profiling, embedded Linux, Elk Audio OS, JUCE, OpenCV, PLC integration.\\
+\textbf{Data \& Cloud:} AWS (EC2, S3, ECS, MWAA, RDS), SQL, Pandas/NumPy, ETL pipelines.\\
+\textbf{Dev \& MLOps:} Git, Docker, CI/CD, Jenkins, pytest.
+
+\section*{Portfolio and Demos \footnotesize {\normalfont{(full portfolio: \href{https://nishal.xyz/research}{\textit{nishal.xyz/research}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Nebula}: open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks: \href{https://github.com/ns2max/nebula}{\textit{github.com/ns2max/nebula}}
+    \item Real-time embedded pattern detector on Raspberry Pi 4 (MIDI Innovation Awards 2023 finalist): \href{https://youtu.be/gkOqfOT8zXM}{\textit{youtu.be/gkOqfOT8zXM}}
+\end{itemize}
+
+\section*{Education}
+\noindent\textbf{PhD, Information Engineering and Computer Science} -- University of Trento, Italy \hfill 2021 - 2025 \\
+\noindent\textbf{MSc, Telecommunication and Electronic Engineering} -- Sheffield Hallam University, UK \hfill 2016 - 2018 \\
+\noindent\textbf{BEng (Hons), Electronic Engineering} -- Sheffield Hallam University, UK \hfill 2013 - 2014
+
+\section*{Research and Work Experience}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+\item Owned the full ML pipeline for streaming audio and IMU/gesture data: acquisition, DSP/feature engineering, training and evaluation, and C++/embedded deployment on Raspberry Pi 4, with monitoring.
+\item Shipped a real-time detector at 14 ms inference on Raspberry Pi 4, F1 0.76, 31.4\% CPU utilization -- 74x faster than a DTW baseline (JAES 2026).
+\item Designed frozen-protocol benchmark suites and ablation studies quantifying accuracy/latency/CPU trade-offs, the same discipline needed to characterize a C++ library across processor targets.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University, IDMIL/CIRMMT}{Montreal, Canada}{May 2024}{Aug 2024}
+\item Fused IMU and audio sensor streams via a hierarchical finite-state machine on embedded hardware (Raspberry Pi 4, BNO055 IMU), achieving F1 0.78 on a 500-event corpus (IEEE IS2 2025).
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+\item Conducted a human-centred evaluation of embedded pattern-detection systems (IEEE I3DA 2025).
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+\item Built SQL and Python backend scoring services for financial-forensics anomaly detection running in production.
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+\item Built C++/Python real-time inference engines running on embedded and IoT hardware across manufacturing sites in South Asia, North America and Africa, lifting operational efficiency up to 300\%.
+\item Reverse-engineered PLC trigger points and built three closed-loop automation subsystems in custom C++ for the Aeoon Kyo DTG printer integration.
+\item Designed and shipped an automated multilingual care-label QC system (OpenCV template and feature matching, conveyor with PLC-controlled reject), cutting inspection time 99.5\%.
+\item Introduced CI/CD and code-review practice; mentored engineers and delivered group-wide computer-vision and embedded-systems training.
+\end{cvrole}
+
+\section*{Selected Publications \footnotesize {\normalfont{(full list: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Vol.~74, No.~3, Mar. 2026. \textit{(F1 0.76 at 14 ms on Raspberry Pi 4, 74$\times$ faster than baseline)}
+    \item Silva, N. and Turchet, L. \textit{Music Information Retrieval as a Service: Latency Characterization of an Edge-to-Server Architecture for Near-Real-Time Audio Analysis}. IEEE International Symposium on the Internet of Sounds, 2026 (accepted).
+    \item Silva, N. and Turchet, L. \textit{A Structural Similarity Index Based Method to Detect Symbolic Monophonic Patterns in Real-Time}. 25th International Conference on Digital Audio Effects (DAFx), Sep. 2022.
+\end{itemize}
+
+\section*{Independent Research, Highlights, \& Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Independent research (Jan 2026 -- present):} maintaining Nebula (C++17 audio-feature library, ARM latency benchmarks); MIRaaS paper accepted at IEEE IS2 2026; Smart Drums paper in press at JAES.
+    \item \textbf{MIDI Innovation Awards:} Finalist (Sep 2023), Prototypes \& Non-Commercial Software category -- ``Hot Licks'' real-time embedded pattern detector.
+    \item \textbf{GMOA Recognition (Sri Lanka):} Computer-vision device for COVID-19 patient vitals monitoring deployed across hospital wards.
+    \item Builds real-time ML prototypes for audio and sensor streams under constrained embedded compute, using AI-assisted engineering workflows including Claude Code for tooling and pipeline development.
+\end{itemize}
+
+\end{document}

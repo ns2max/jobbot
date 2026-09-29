@@ -1,0 +1,128 @@
+                        NISHAL STANISLAUS SILVA, PhD
+
+                          Computer Vision & ML Engineer | Industrial Inspection, IoT & Edge Deployment
+                                    Canadian Permanent Resident, Eligible to work in Canada without sponsorship
+
+nishal.silva@hotmail.com | +1 613 200 2030 | Toronto, ON | nishal.xyz | linkedin.com/in/nishal-silva | github.com/ns2max
+
+PROFESSIONAL SUMMARY
+
+Computer vision engineer with 5.5 years building and deploying production machine-vision systems on live manufac-
+turing floors at MAS Holdings, South Asia’s largest apparel manufacturer – training and evaluating vision models end
+to end, from raw camera footage through annotation, evaluation-framework design and deployment, on real produc-
+tion data rather than curated benchmarks. Automated a multilingual care-label QC system with OpenCV template and
+feature matching driving a PLC-controlled conveyor reject, cutting inspection time 99.5%, and a microscopic camera-
+array system for loom-side fabric defect detection that cut operator headcount 50%. A PhD in Information Engineering
+and Computer Science (University of Trento) added rigor in evaluation methodology, benchmark and ablation design,
+and real-time embedded inference: a published detector running at 14 ms on a Raspberry Pi 4, F1 0.76, 74x faster than
+a DTW baseline. Strong Python and PyTorch proficiency, hands-on OpenCV and ARM/embedded deployment expe-
+rience under hard latency budgets, and a track record of investigating model failures against real-world footage rather
+than lab conditions. Canadian Permanent Resident, no sponsorship required, based in Toronto and open to relocating
+to Montreal.
+
+CORE COMPETENCIES
+
+Computer Vision & Perception: training and evaluating vision models on production video and camera footage
+(PyTorch, OpenCV), template and feature matching, image registration and warping, corner/edge detection, explain-
+able defect overlays for human-in-the-loop QC, evaluation-framework design for real deployment conditions (preci-
+sion/recall trade-offs, train/test protocol design).
+Data & Model Lifecycle: owning training datasets end to end, from sourcing and annotation-quality review through
+failure-mode investigation on live footage; running end-to-end experiments; industrial and microscopic camera-array
+systems; multilingual label and print inspection.
+Embedded & Real-Time Systems: Raspberry Pi and ARM CPU profiling, C++17 real-time inference engines, hard
+latency-budget deployment (14 ms on-device), PLC integration for automated reject/sort actuation, high-frequency IoT
+sensor ingestion and ETL, Linux/SSH-based development.
+
+TECHNICAL STACK
+
+Python, PyTorch, OpenCV, C++17, TensorFlow, Keras, scikit-learn, NumPy, pandas, Raspberry Pi / ARM, AWS, Git,
+Docker, CI/CD, pytest.
+
+EDUCATION                                                                            2021 - 2025
+                                                                                     2016 - 2018
+PhD, Information Engineering and Computer Science – University of Trento, Italy      2013 - 2014
+MSc, Telecommunication and Electronic Engineering – Sheffield Hallam University, UK
+BEng (Hons), Electronic Engineering – Sheffield Hallam University, UK
+
+RESEARCH AND WORK EXPERIENCE
+
+Independent Researcher | Self-directed, Toronto, Canada                              Jan 2026 - Present
+
+• Two peer-reviewed papers accepted (Smart Drums, JAES; MIRaaS, IEEE IS2 2026) covering real-time inference
+
+and edge deployment.
+• Maintain Nebula, an open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi
+  latency benchmarks; used AI-assisted development workflows, including Claude Code, throughout.
+
+Postdoctoral Researcher | University of Trento, Trento, Italy                       Jan 2025 - Dec 2025
+
+• Owned the full ML pipeline for streaming audio and sensor data: acquisition, feature engineering, training and
+
+evaluation, edge deployment on Raspberry Pi 4, and monitoring.
+
+• Published a real-time detector achieving 14 ms inference on Raspberry Pi 4, F1 0.76, 31.4% CPU utilization –
+
+74x faster than a DTW baseline (JAES 2026).
+
+• Designed frozen-protocol benchmark suites and ablation studies quantifying accuracy/latency/CPU trade-offs for
+
+embedded deployment.
+
+Visiting Researcher | McGill University, IDMIL/CIRMMT, Montreal, Canada             May 2024 - Aug 2024
+
+• Built a self-powered embedded sensor system (BNO055 IMU + HiFiBerry + Raspberry Pi 4); fused IMU and
+
+audio signals via a hierarchical finite-state machine, achieving F1 0.78 on a 500-event corpus (IEEE IS2 2025).
+
+Visiting Researcher | University of Visual and Performing Arts, Colombo, Sri Lanka  Jan 2024 - Mar 2024
+
+• Conducted a human-centred evaluation of a real-time detection system against user footage and feedback (IEEE
+
+I3DA 2025).
+
+Technical Consultant | Forestpin (Pvt) Ltd, Colombo, Sri Lanka                      Aug 2020 - Feb 2021
+
+• Built ML and statistical pipelines for financial forensics, compliance monitoring, and anomaly detection on large
+
+structured enterprise data.
+
+Research Engineer | MAS Holdings (Pvt) Ltd, Colombo, Sri Lanka                      Jan 2015 - Jul 2020
+
+• Designed and deployed end-to-end computer-vision and IoT systems for manufacturing at scale, taking camera
+
+and sensor streams directly into production workflows; drove operational efficiency gains of up to 300%.
+
+• Built an automated multilingual care-label QC system using OpenCV template and feature matching with an
+
+explainable defect overlay; iterated from handheld scanner to industrial camera to a conveyor with PLC-controlled
+
+reject, cutting inspection time 99.5%, with a human-in-the-loop path for borderline cases and continuous failure-
+
+mode review against production footage.
+
+• Developed a loom-side fabric structural-defect detection system using a microscopic camera array, cutting oper-
+
+ator headcount 50%.
+
+• Owned training data end to end for these systems: sourcing, annotation review, and iterative retraining against
+
+real production footage rather than a fixed benchmark set.
+
+• Introduced CI/CD and code review practices; mentored engineers and delivered group-wide computer-vision
+
+training.
+
+• Designed and deployed a remote patient-vitals computer-vision monitoring device for COVID-19 hospital wards,
+
+recognized by Sri Lanka’s Government Medical Officers’ Association.
+
+PUBLICATIONS
+
+Silva, N. & Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. Journal of the
+Audio Engineering Society, 74(3). Silva, N. & Turchet, L. (2026, in press). Smart Drums. Journal of the Audio
+Engineering Society.
+
+LANGUAGES
+
+English (native/C2) | Sinhala (mother tongue) | Italian (B1) | French (basic, A2, actively learning)
+

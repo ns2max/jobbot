@@ -1,0 +1,114 @@
+% Job posting: https://jobs.ashbyhq.com/nexxa/df3caaa1-e0e5-4942-b5cc-b30c74cdea62
+% =====================================================================
+%  CV — Nishal Stanislaus Silva, PhD
+%  Variant: V5 (Computer Vision / Industrial) with edge tilt — Nexxa.AI AI Vision Engineer:
+%  production industrial CV + real-time edge/cloud inference for manufacturing & infrastructure.
+%  Changelog: V5 chosen (industrial CV core = MAS). MAS 4 bullets, postdoc 2. Stack line 3 = CV.
+%  Projects = P14/P15/P16/P1. Pubs = 3. VLMs framed in CL as the newer edge. Metrics 14 ms / F1 0.76
+%  / 74x first, then MAS 300% / 99.5% / 50%. Page target 2. No forced \newpage.
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.05}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 -- #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{Computer Vision \& ML Engineer | Industrial Inspection, Real-Time Edge \& Cloud Inference}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \cvTagline}
+    \\[1pt]
+    {\footnotesize\textit{\cvStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}
+    \,\,|\,\, \href{https://github.com/ns2max}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+
+Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years building computer-vision systems for heavy industry. Led production camera CV across manufacturing lines for five years at MAS Holdings, up to 300\% throughput improvement, 99.5\% inspection-time reduction, 50\% operator headcount reduction, deployed on live production floors. Published research on highly optimized real-time inference: 14 ms on a Raspberry Pi 4, F1 0.76, 74$\times$ faster than the DTW baseline (JAES 2026). Works the full vision stack, classical CV and deep learning, from camera geometry and feature engineering through training, benchmarking, and real-time deployment at the edge and in the cloud. Benchmark-first methodology; 10 peer-reviewed publications.
+
+\section*{Core Competencies}
+
+\textbf{Computer Vision \& Perception:} object detection and classification · classical CV (OpenCV template + feature matching, segmentation, registration, warping, corner detection) · deep-learning CV (CNNs, SSIM-based methods) · industrial and microscopic camera arrays · image-quality validation · explainable defect overlays · OCR and layout segmentation\\
+\textbf{ML Engineering \& Inference:} PyTorch, TensorFlow training · model compression, quantization · ONNX · real-time inference at the edge (Raspberry Pi-class, ARM profiling) and in the cloud (AWS) · benchmark suites (baselines + ablations) · multimodal modelling (vision + sensor + audio)\\
+\textbf{Systems \& Deployment:} end-to-end ML pipelines · closed-loop integration on PLC-driven hardware · real-time ingestion and ETL · CI/CD and code review · production monitoring · mentoring
+
+\section*{Technical Stack}
+
+\textbf{Languages:} Python · C++ (C++17) · C · MATLAB · Shell\\
+\textbf{ML / AI:} PyTorch · TensorFlow, Keras · scikit-learn · HuggingFace Transformers · ONNX · model compression / quantization · diffusion models, VAEs · transfer learning\\
+\textbf{Computer Vision:} OpenCV · template + feature matching · segmentation, warping, registration · OCR + layout segmentation · industrial / microscopic camera arrays · projector-camera AR · Cognex VisionPro, HALCON (working)\\
+\textbf{Data \& Dev:} AWS (EC2, S3, ECS, RDS, SageMaker) · SQL · NumPy, Pandas · Docker, Kubernetes · Airflow · Git · CI/CD · pytest
+
+\section*{Education}
+\textbf{Ph.D -- Information Engineering and Computer Science} \textit{\small{ -- University of Trento, Italy}} \hfill \textit{Jan 2025}\\[2pt]
+\noindent\textbf{M.Sc -- Telecommunication and Electronic Engineering} \textit{\small{ -- Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[2pt]
+\noindent\textbf{B.Eng (Hons) -- Electronic Engineering} \textit{\small{ -- Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+\section*{Professional Experience}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Led end-to-end computer-vision systems for manufacturing at scale across distributed sites; operational efficiency improved by up to 300\%; integrated camera, sensor and IoT streams into production workflows.
+    \item Automated care-label QC (OpenCV template + feature matching, explainable overlay, conveyor + PLC reject): inspection time cut 99.5\%; iterated from scanner to industrial camera to conveyor over three deployments.
+    \item Loom-side fabric-defect detection with a real-time microscopic camera array (overlapping FOV across 60-in rolls, 5--6 s alert budget): operator headcount cut 50\%. Built the geometry-alignment algorithm and RIP integration for the Promptly on-demand printing product (no patent claim).
+    \item Developed C++/Python real-time inference engines on embedded / IoT hardware; reverse-engineered a PLC-driven machine and coordinated three closed-loop control subsystems in custom C++; established CI/CD and code-review practice and mentored engineers.
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Developed and deployed highly optimized real-time ML on edge-class devices: 14 ms on a Raspberry Pi 4, F1 0.76, 74$\times$ faster than the DTW baseline at 31.4\% CPU (JAES 2026); EU-funded MUSMET.
+    \item Designed benchmark suites (baselines + ablations) quantifying architecture and feature trade-offs under device constraints; built multimodal models over vision-adjacent sensor streams (audio + IMU + gesture).
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Real-time multimodal detection on sensor and time-series data; diffusion- and VAE-based synthetic data for limited-label regimes; power and compute profiling for on-device feasibility.
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item ML and statistical pipelines for financial forensics and risk detection; Python + SQL backend scoring services for anomaly flagging in production.
+\end{cvrole}
+
+\section*{Selected Publications \footnotesize {\normalfont{(full list: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Vol.~74, No.~3, Mar. 2026. \textit{(F1 0.76 at 14 ms on RPi4, 74$\times$ faster than baseline)}
+    \item Silva, N. and Turchet, L. \textit{A Structural Similarity Index Based Method to Detect Symbolic Monophonic Patterns in Real-Time}. 25th Int. Conference on Digital Audio Effects (DAFx), Sep. 2022. \textit{(SSIM repurposed cross-domain from CV; training-free, 95\%)}
+    \item Silva, N., Wanderley, M. and Turchet, L. \textit{Melody and Motion: Integrating Guitar Gestures with Musical Patterns}. IEEE International Symposium on the Internet of Sounds, Oct. 2025. \textit{(multimodal IMU + audio fusion, F1 0.78)}
+\end{itemize}
+
+\vspace{-1em}
+\section*{Independent Research, Highlights, \& Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Promptly:} geometry-alignment algorithm and RIP integration for an on-demand printing product deployed across four countries (Twinery / MAS). \textbf{Open source:} Nebula (C++17 audio-feature library, ARM latency benchmarks).
+    \item \textbf{Open datasets:} four open-access datasets (DoMP, DoPP, DoDP, DoDP2), 9,800+ recordings, on Zenodo. \textbf{MIDI Innovation Awards:} Finalist (Sep 2023).
+    \item \textbf{GMOA Recognition (Sri Lanka):} CV system for COVID-19 patient vitals monitoring deployed across hospital wards. Reviewer, IEEE Access.
+\end{itemize}
+
+\end{document}

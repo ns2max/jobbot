@@ -1,0 +1,68 @@
+% Job posting: https://ca.linkedin.com/jobs/view/machine-learning-engineer-iii-data-at-acv-auctions-4436410354
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Machine Learning Engineer | Computer Vision, Real-Time Inference \& Model Serving | PhD}
+\newcommand{\clRole}{Machine Learning Engineer III, Data}
+\newcommand{\clCompany}{ACV Auctions}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+Dear Hiring Manager,
+
+I am writing to apply for the Machine Learning Engineer III, Data role at ACV Auctions. Your posting's call for "optimizing high-latency models for real-time inference" closely describes my own postdoctoral research: a published detector running at 14 ms on a Raspberry Pi 4, F1 0.76, 74x faster than the 1038 ms baseline it replaced (Journal of the Audio Engineering Society, 2026). Paired with 5.5 years of production computer vision at MAS Holdings, South Asia's largest apparel manufacturer, this feels like a direct match for a team building damage-detection models on live vehicle imagery.
+
+Three parts of the role map onto my track record. For CV model design and training, I built an OpenCV-based defect-detection system through three hardware generations (handheld scanner, industrial camera, PLC-controlled conveyor reject), cutting inspection time 99.5\%, with PyTorch and TensorFlow in my postdoctoral work since. For backend engineering in cloud environments, I have run production services on AWS (EC2, S3, ECS) containerized with Docker, with CI/CD practice I introduced at MAS. For streaming data pipelines, I have not used Kafka specifically, but I have built comparable high-throughput ETL: Airflow DAGs feeding real-time IoT sensor ingestion across manufacturing sites on three continents. Picking up Kafka's API is a natural next step from that base, not a new discipline.
+
+ACV's acquisition of Monk and the VIPER inspection towers show this team pushing damage detection from single photos toward multi-angle imaging pipelines at scale, exactly where evaluation-framework design matters as much as the model. In the first six months I would expect to contribute on the evaluation side: frozen-protocol benchmarks for the visual annotation pipeline, the same rigor I used to validate models before every production rollout at MAS.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, available immediately for this onsite role. I would welcome the chance to discuss how my computer vision and real-time inference background can support ACV's inspection team. My portfolio is at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

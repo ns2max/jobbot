@@ -1,0 +1,71 @@
+% Job posting: https://job-boards.greenhouse.io/reddit/jobs/8127022
+% =====================================================================
+%  COVER LETTER — Nishal Stanislaus Silva, PhD
+%  Variant: V1 (AI-Industry) — same tagline as the CV.
+%  Changelog: one page, 4 paragraphs. Hook = own ML components end-to-end + reliable serving;
+%  14 ms / F1 0.76. Evidence = MUSMET pipeline ownership; benchmark suite -> 74x; MAS millions
+%  of events/day + C++ inference engines. Honest "no internet-scale embedding training" gap.
+%  F1 0.76, no patent mention.
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Machine Learning Infrastructure Engineer | Real-Time Inference, End-to-End Pipeline Ownership, Ranking \& Embeddings}
+\newcommand{\clRole}{Senior Machine Learning Infrastructure Engineer, Embedding Platform}
+\newcommand{\clCompany}{Reddit}
+\newcommand{\clTeam}{the Embedding Platform team}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+Dear Hiring Team,
+
+Your posting asks for someone who can own ML components end to end, from problem definition through production deployment, and build reliable serving for low-latency, high-throughput systems. That is the job I have done for the last decade, most recently on the EU-funded MUSMET project at the University of Trento, where I owned a full ML pipeline, acquisition through monitoring, for streaming sensor and audio data.
+
+Two results from that work speak to what you are building. The inference services I shipped ran at 14 ms latency and F1 0.76 on edge hardware, a tighter constraint than most cloud ranking systems operate under. And a benchmark suite I designed to test architecture and feature trade-offs led to a model 74$\times$ faster than the existing baseline while improving accuracy, the same baselines-plus-ablations discipline your team uses for offline and online evaluation. Before the PhD I led ML and computer-vision development at MAS Holdings, building real-time ETL pipelines processing millions of IoT events per day across distributed sites and writing the C++ and Python inference engines that ran on embedded hardware in production, which taught me the difference between a model that works in a notebook and a system that survives real load, partial failures, and stakeholders who need to trust it.
+
+I do not have direct experience training embedding models at internet scale, and I would rather say that plainly than let the resume imply otherwise. What I bring instead is the pipeline-ownership and latency-optimization instinct that scale problems are built on, plus a research background that treats evaluation as a first-class engineering problem. Reddit's embedding platform sits under recommendation, search and safety at once, and I would expect to contribute on serving reliability and evaluation tooling early.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, and available immediately. I would welcome the chance to discuss how this experience maps onto \clTeam{}'s work. My portfolio and publications are at \href{https://nishal.xyz}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

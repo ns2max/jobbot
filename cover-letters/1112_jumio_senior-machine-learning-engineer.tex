@@ -1,0 +1,71 @@
+% Job posting: https://job-boards.greenhouse.io/jumio/jobs/4709657005
+% =====================================================================
+%  COVER LETTER — Nishal Stanislaus Silva, PhD
+%  Variant: V5 (CV/Industrial, edge tilt) — same tagline as the CV.
+%  Changelog: one page, 4 paragraphs. Hook = camera CV at scale + 14 ms / 74x. Evidence =
+%  MAS care-label QC / fabric defect (detection + quality assessment + deployment), MUSMET
+%  benchmarking + inference optimization. Face-biometrics named as the JD's stated ramp.
+%  F1 0.76, no patent mention. Montreal.
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Computer Vision \& ML Engineer | Production Inspection, Edge Inference \& Benchmarking}
+\newcommand{\clRole}{Senior Machine Learning Engineer}
+\newcommand{\clCompany}{Jumio}
+\newcommand{\clTeam}{the Biometrics team}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{} (Montreal)}
+
+Dear Hiring Team,
+
+I am applying for the \clRole{} position on \clTeam{}. Computer-vision models that run under real hardware constraints, benchmarked across operating conditions, and optimized for low-latency inference, that describes both this role and the past decade of my work. My PhD (University of Trento, 2025) and postdoc produced a detector that runs at 14 ms on a Raspberry Pi 4, F1 0.76, 74$\times$ faster than the baseline (JAES 2026).
+
+I spent five years leading production camera CV at MAS Holdings. Automated label inspection with OpenCV template and feature matching and an explainable quality overlay cut inspection time 99.5\% and raised throughput 300\%; a real-time microscopic camera array detected fabric defects at the loom; and I built and iterated those systems from a flatbed scanner to an industrial camera to a conveyor with PLC reject. My research sharpened the optimization side: profiling feature extraction, model architecture and OS-level scheduling to hit hard latency budgets, and quantifying every trade-off with systematic benchmarks and ablations. I train in PyTorch, TensorFlow and JAX, own end-to-end pipelines with Airflow on AWS, and have the C++ depth to influence system design rather than hand off models.
+
+I will be direct: I have not worked on face biometrics specifically. Your posting frames the role as ramping up on the biometrics domain, and the transferable core, detection and classification pipelines, quality assessment, benchmarking across datasets and operating conditions, and inference optimization, is exactly where I work. My cross-domain record (I once repurposed SSIM from computer vision into an award-shortlisted audio method) is evidence I ramp into new problem spaces fast.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, and available immediately; Montreal is a preferred location for me. I would welcome the chance to discuss how my experience in production CV and edge inference can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are at \href{https://nishal.xyz}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

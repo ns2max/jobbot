@@ -1,0 +1,82 @@
+% Job posting: https://careers.qualcomm.com/careers/job/446718101467-staff-ai-software-engineer-c-markham-ontario-canada
+% =====================================================================
+%  COVER LETTER — Nishal Stanislaus Silva, PhD
+%  Variant: V3 (Edge / Embedded) — same tagline as the CV.
+%  Changelog: one page, 4 paragraphs. Hook = 14 ms / 74x (JAES 2026). Evidence =
+%  MAS C++ inference engines + PLC reverse-engineering + MUSMET stack profiling.
+%  Why-them = on-device AI stack, no model training (suits the inference/systems
+%  strength). F1 0.76, no patent mention.
+% =====================================================================
+\documentclass[11pt]{article}
+
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+\newcommand{\clTagline}{ML Research Engineer | Real-Time \& Edge Inference | High-Performance C++ for On-Device ML}
+\newcommand{\clRole}{Staff AI Software Engineer (C++)}
+\newcommand{\clCompany}{Qualcomm}
+\newcommand{\clTeam}{the AI Software team}
+\newcommand{\clAddressee}{Dear Hiring Team,}
+\newcommand{\clReqID}{Markham, ON}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{} \ifx\clReqID\empty\else(\clReqID)\fi}
+
+\clAddressee
+
+I am applying for the \clRole{} position on \clTeam{} in Markham. Making neural networks run fast on dedicated processors has been the through-line of my career: my PhD (University of Trento, 2025) and postdoc centred on real-time inference under hard latency budgets, and the published system runs at 14 ms on a Raspberry Pi 4, 74$\times$ faster than the DTW baseline, at 31.4\% CPU (Journal of the Audio Engineering Society, 2026).
+
+Your team builds the on-device AI stack, and I have spent ten years at that layer. At MAS Holdings I developed C++ real-time inference engines on embedded and IoT hardware, tuned for throughput, latency and reliability, contributing to a 300\% operational efficiency improvement at industrial scale. That work included reverse-engineering a PLC-driven industrial machine and coordinating three closed-loop control subsystems in custom C++ against undocumented hardware, and building the RIP integration for an on-demand printing product now deployed across four countries. Reaching the 14 ms research number meant profiling bottlenecks across the whole stack, feature extraction, model architecture and OS-level scheduling on a dedicated real-time audio OS, and quantifying every trade-off with systematic benchmarks. My mathematics-for-ML foundation is strong: DSP, vectorized numerical computation, and an electronic engineering background (BEng/MSc) that makes processor architecture familiar territory.
+
+I note the team does not train models, and that suits me. My strength is the inference and systems side: taking other people's models and making them run brilliantly on real hardware, with the profiling discipline and low-level debugging that on-device support demands. Qualcomm's silicon is where that work matters most, and I would expect to be productive on runtime optimization and operator-level performance within the first few months.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, with Markham an easy commute, and available immediately. I would welcome the chance to discuss how my experience in real-time C++ and edge inference can support \clTeam{} at \clCompany{}. My portfolio, publications and open-source work are at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}
