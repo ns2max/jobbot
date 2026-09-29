@@ -1,0 +1,19 @@
+Role location: San Francisco/NYC, US-only. Hard-exclude per your Canada-only scope policy (`modes/_profile.md` — 2026-08-20 filter, not scoring penalty). No CA-remote option mentioned in JD.
+
+Stopping pipeline here — no eval, no report, no PDF, no tracker entry, per policy.
+
+```json
+{
+  "status": "failed",
+  "id": "10",
+  "report_num": "726",
+  "company": "Anthropic",
+  "role": "Staff+ Software Engineer, Safeguards Evals",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role location is SF/NYC (US), not Canada or Canada-remote. Violates location scope in modes/_profile.md."
+}
+```
+
+Say the word if you want this evaluated anyway (override).

@@ -1,0 +1,17 @@
+Both JD sources dead: local file missing, Greenhouse API 404s (job posting removed/invalid ID). Per pipeline rule — stop here, no fabricated eval.
+
+Job unreachable. Both sources fail — no local JD file, Greenhouse API 404 (posting removed/expired). Per protocol, halting rather than fabricating an evaluation. No report/PDF/tracker line generated.
+
+```json
+{
+  "status": "failed",
+  "id": "40",
+  "report_num": "895",
+  "company": "Anthropic",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "JD unavailable: /tmp/batch-jd-40.txt missing, Greenhouse job 5278065008 returns 404 (posting likely removed/expired)"
+}
+```

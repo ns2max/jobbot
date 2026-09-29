@@ -1,0 +1,187 @@
+- generic [ref=f767e2]:
+  - generic [ref=f767e7]:
+    - heading "Want to help shape the future of AI?" [level=1] [ref=f767e9]
+    - paragraph [ref=f767e11]: We're always on the lookout for talent! Explore all our current openings below.
+  - main [ref=f767e13]:
+    - generic [ref=f767e17]:
+      - heading "Non-Academic Positions" [level=3] [ref=f767e18]
+      - heading "Open Roles at Amii:" [level=5] [ref=f767e19]
+      - paragraph [ref=f767e20]: Loading...
+      - heading "Open Roles at University of Alberta:" [level=5] [ref=f767e21]
+      - paragraph [ref=f767e22]:
+        - link "Lab Manager, the Fyshe Lab (Part-Time, Contract)" [ref=f767e23] [cursor=pointer]:
+          - /url: https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4127/
+    - generic [ref=f767e27]:
+      - heading "Academic Positions" [level=3] [ref=f767e28]
+      - heading "University of Alberta:" [level=5] [ref=f767e29]
+      - list [ref=f767e30]:
+        - listitem [ref=f767e31]:
+          - paragraph [ref=f767e32]:
+            - link "Postdoctoral Fellow - Multimodal Models and Machine Learning" [ref=f767e33] [cursor=pointer]:
+              - /url: https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3754
+    - generic [ref=f767e38]:
+      - heading "Additional Opportunities" [level=2] [ref=f767e42]
+      - generic [ref=f767e46]:
+        - generic [ref=f767e47]:
+          - heading "Future Forged | AI Innovation Research Fellowship" [level=3] [ref=f767e49]
+          - generic [ref=f767e50]:
+            - paragraph [ref=f767e51]: For AI Researchers Who Think Beyond the Expected.
+            - paragraph [ref=f767e52]: "The Future Forged: AI Innovation Fellowship is a 10-month program for AI researchers to explore bold questions in areas that matter: health, biology, data centres and energy, and real-time reinforcement learning systems."
+        - link "Apply Now" [ref=f767e54] [cursor=pointer]:
+          - /url: /research-talent/future-forged-research-fellowship
+    - generic [ref=f767e66]:
+      - generic [ref=f767e68]:
+        - heading "Working at Amii" [level=2] [ref=f767e70]
+        - generic [ref=f767e71]: "Working at Amii is a unique opportunity to lead the way in AI innovation. Some things you can look forward to include:"
+      - generic [ref=f767e74]:
+        - generic [ref=f767e77]:
+          - heading "Dynamic Growth" [level=3] [ref=f767e78]
+          - paragraph [ref=f767e80]: A professional yet relaxed setting that fosters skill development and encourages your curiosity.
+        - generic [ref=f767e83]:
+          - heading "Collaborative Culture" [level=3] [ref=f767e84]
+          - paragraph [ref=f767e86]: Work alongside inspiring teammates who support each other's success, creating a community where ideas flourish.
+        - generic [ref=f767e89]:
+          - heading "Vibrant Workspace" [level=3] [ref=f767e90]
+          - paragraph [ref=f767e92]: Access to our modern downtown office in Edmonton, Alberta, designed to inspire innovation.
+        - generic [ref=f767e95]:
+          - heading "Engaging Community" [level=3] [ref=f767e96]
+          - paragraph [ref=f767e98]: Become part of the Amii network and participate in exclusive events that spark creativity.
+        - generic [ref=f767e101]:
+          - heading "Career Development" [level=3] [ref=f767e102]
+          - paragraph [ref=f767e104]: Opportunities for professional development and networking to propel your career forward.
+        - generic [ref=f767e107]:
+          - heading "Tailored Benefits" [level=3] [ref=f767e108]
+          - paragraph [ref=f767e110]: Enjoy perks and benefits specific to your role, supporting your unique journey with us.
+    - generic [ref=f767e116]:
+      - heading "About Amii" [level=2] [ref=f767e118]
+      - paragraph [ref=f767e121]: Amii is one of Canada’s three national AI institutes. Through innovative research and practical real-world applications, Amii helps businesses and communities harness the power of AI to solve today’s challenges and shape a better future.
+      - link "Learn about Our Values" [ref=f767e123] [cursor=pointer]:
+        - /url: /about
+  - contentinfo [ref=f767e131]:
+    - generic [ref=f767e142]:
+      - heading "Stay in the loop" [level=2] [ref=f767e144]
+      - paragraph [ref=f767e146]: Sign up for regular email updates from Amii, including news and events, new podcast episodes, research updates, and more. You can update your email preferences or unsubscribe at any time.
+    - generic [ref=f767e147]:
+      - heading "Footer" [level=2] [ref=f767e148]
+      - generic [ref=f767e151]:
+        - generic [ref=f767e152]:
+          - generic [ref=f767e153]:
+            - heading [level=3] [ref=f767e154]:
+              - link "Business Solutions" [ref=f767e155] [cursor=pointer]:
+                - /url: /business-solutions
+            - list [ref=f767e156]:
+              - listitem [ref=f767e157]:
+                - link "AI Strategy" [ref=f767e158] [cursor=pointer]:
+                  - /url: /business-solutions/ai-strategy
+              - listitem [ref=f767e159]:
+                - link "AI Development" [ref=f767e160] [cursor=pointer]:
+                  - /url: /business-solutions/ai-development
+              - listitem [ref=f767e161]:
+                - link "AI Training" [ref=f767e162] [cursor=pointer]:
+                  - /url: /business-solutions/ai-training
+              - listitem [ref=f767e163]:
+                - link "Startups & Investors" [ref=f767e164] [cursor=pointer]:
+                  - /url: /startups-investors
+          - generic [ref=f767e165]:
+            - heading [level=3] [ref=f767e166]:
+              - link "Courses & Literacy" [ref=f767e167] [cursor=pointer]:
+                - /url: /courses-literacy
+            - list [ref=f767e168]:
+              - listitem [ref=f767e169]:
+                - link "Amii Brightspace Login" [ref=f767e170] [cursor=pointer]:
+                  - /url: https://brightspace.amii.ca/d2l/login
+              - listitem [ref=f767e171]:
+                - link "AI Literacy for Everyone" [ref=f767e172] [cursor=pointer]:
+                  - /url: /ai-literacy-for-everyone-platform
+              - listitem [ref=f767e173]:
+                - 'link "AI Pathways: Energizing Canada''s Low-Carbon Workforce" [ref=f767e174] [cursor=pointer]':
+                  - /url: /ai-pathways-energy-copy
+              - listitem [ref=f767e175]:
+                - link "AI Workforce Readiness" [ref=f767e176] [cursor=pointer]:
+                  - /url: /courses-literacy/ai-workforce-readiness
+              - listitem [ref=f767e177]:
+                - link "K-12 AI Literacy" [ref=f767e178] [cursor=pointer]:
+                  - /url: /courses-literacy/k-12-ai-literacy
+          - generic [ref=f767e179]:
+            - heading [level=3] [ref=f767e180]:
+              - link "Research & Talent" [ref=f767e181] [cursor=pointer]:
+                - /url: /research-talent
+            - list [ref=f767e182]:
+              - listitem [ref=f767e183]:
+                - link "Research Expertise" [ref=f767e184] [cursor=pointer]:
+                  - /url: /research-talent/research-expertise
+              - listitem [ref=f767e185]:
+                - link "Research Fellows" [ref=f767e186] [cursor=pointer]:
+                  - /url: /research-talent/research-fellows
+              - listitem [ref=f767e187]:
+                - link "Staff Scientists" [ref=f767e188] [cursor=pointer]:
+                  - /url: /research-talent/staff-scientists
+              - listitem [ref=f767e189]:
+                - link "Students & Early-Career" [ref=f767e190] [cursor=pointer]:
+                  - /url: /research-talent/talent-development
+          - generic [ref=f767e191]:
+            - heading [level=3] [ref=f767e192]:
+              - link "About Amii" [ref=f767e193] [cursor=pointer]:
+                - /url: /about
+            - list [ref=f767e194]:
+              - listitem [ref=f767e195]:
+                - link "About Amii" [ref=f767e196] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f767e197]:
+                - link "Meet the Team" [ref=f767e198] [cursor=pointer]:
+                  - /url: /about/amii-team
+              - listitem [ref=f767e199]:
+                - link "Career Opportunities" [ref=f767e200] [cursor=pointer]:
+                  - /url: /about/career-opportunities
+          - generic [ref=f767e201]:
+            - heading "Get Involved" [level=3] [ref=f767e202]
+            - list [ref=f767e203]:
+              - listitem [ref=f767e204]:
+                - link "Events" [ref=f767e205] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=f767e206]:
+                - link "Updates & Insights" [ref=f767e207] [cursor=pointer]:
+                  - /url: /updates-insights
+              - listitem [ref=f767e208]:
+                - link "Press & Media" [ref=f767e209] [cursor=pointer]:
+                  - /url: /press-and-media
+              - listitem [ref=f767e210]:
+                - link "Contact Us" [ref=f767e211] [cursor=pointer]:
+                  - /url: /contact
+        - generic [ref=f767e212]:
+          - heading "Proudly Supported by" [level=3] [ref=f767e213]
+          - generic [ref=f767e214]:
+            - link [ref=f767e215] [cursor=pointer]:
+              - /url: https://albertainnovates.ca/
+              - img "Alberta Innovates" [ref=f767e216]
+            - link [ref=f767e217] [cursor=pointer]:
+              - /url: https://cifar.ca/
+              - img "CIFAR" [ref=f767e218]
+            - link [ref=f767e219] [cursor=pointer]:
+              - /url: https://www.alberta.ca/
+              - img "Alberta" [ref=f767e220]
+            - link [ref=f767e221] [cursor=pointer]:
+              - /url: https://www.canada.ca/en.html
+              - img "Canada" [ref=f767e222]
+            - link [ref=f767e223] [cursor=pointer]:
+              - /url: https://www.ualberta.ca/en/index.html
+              - img "University of Alberta" [ref=f767e224]
+        - generic [ref=f767e225]:
+          - generic [ref=f767e226]: © 2026 Alberta Machine Intelligence Institute. All rights reserved.
+          - generic [ref=f767e228]:
+            - link "Visit Amii on Facebook" [ref=f767e229] [cursor=pointer]:
+              - /url: https://www.facebook.com/amiithinks/
+            - link "Visit Amii on Twitter" [ref=f767e232] [cursor=pointer]:
+              - /url: https://x.com/AmiiThinks
+            - link "Visit Amii on Instagram" [ref=f767e235] [cursor=pointer]:
+              - /url: https://www.instagram.com/amiithinks/
+            - link "Visit Amii on LinkedIn" [ref=f767e240] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/amii
+            - link "Visit Amii on Github" [ref=f767e243] [cursor=pointer]:
+              - /url: https://github.com/Amii-Open-Source
+            - link "Visit Amii on YouTube" [ref=f767e246] [cursor=pointer]:
+              - /url: https://www.youtube.com/@amiithinks
+          - list [ref=f767e249]:
+            - listitem [ref=f767e250]:
+              - link "Privacy Policy" [ref=f767e251] [cursor=pointer]:
+                - /url: /privacy-policy

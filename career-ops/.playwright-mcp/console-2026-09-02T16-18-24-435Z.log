@@ -1,0 +1,5 @@
+[     986ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.phenompeople.com/CareerConnectResources/BECACA/en_ca/desktop/assets/fonts/satoshi-variable.woff2:0
+[    1010ms] [LOG] applying roles @ https://cdn.phenompeople.com/CareerConnectResources/common/js/common/ph-common-bundle-part1-4.63.js:33
+[    1148ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.phenompeople.com/CareerConnectResources/BECACA/en_ca/desktop/assets/fonts/satoshi-variable.woff:0
+[    1309ms] [WARNING] A11y autocomplete setup is improper.Check errors  [Missing clearFieldValue(fieldName) fn on widget elem] @ https://jobs.bell.ca/ca/en/phenomtrack.min.js:1
+[    1535ms] [INFO] Chatbot is disabled!! @ https://d7pkvxpsevxsc.cloudfront.net/txm-bot/prod-ca/prod-ca.js?v=1788365905418:30

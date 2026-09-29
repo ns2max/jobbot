@@ -1,0 +1,169 @@
+- generic [active] [ref=f46e1]:
+  - main [ref=f46e2]:
+    - generic [ref=f46e3]:
+      - link [ref=f46e5] [cursor=pointer]:
+        - /url: https://x.ai/
+        - img "SpaceXAI Logo" [ref=f46e6]
+      - generic [ref=f46e7]:
+        - link "Back to jobs" [ref=f46e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/xai
+        - generic [ref=f46e12]:
+          - generic [ref=f46e13]:
+            - heading "Software Engineer - Evals" [level=1] [ref=f46e14]
+            - generic [ref=f46e15]: Palo Alto, California
+          - button "Apply" [ref=f46e19] [cursor=pointer]
+        - generic [ref=f46e20]:
+          - paragraph [ref=f46e22]: SpaceXAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge. Our team is small, highly motivated, and focused on engineering excellence. This organization is for individuals who appreciate challenging themselves and thrive on curiosity. We operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important. All employees are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates.
+          - generic [ref=f46e23]:
+            - paragraph [ref=f46e24]: You will own and elevate our mission-critical research platform that directly accelerates SpaceXAI's frontier work.
+            - paragraph [ref=f46e25]: The evals team creates and executes instruments for measuring model capabilities and behaviors. These instruments are used to clean datasets, provide feedback for experiments, and track growth throughout training. The evals team also diagnoses why agents fail and how to make improvements both short and long term. We manage the execution infrastructure, design data sets and grading schemes.
+            - paragraph [ref=f46e26]: You will design, build, and ship delightful and bulletproof systems that engineers love to use every day. This role values a strong attention to details, first principles reasoning, and great taste.
+            - paragraph [ref=f46e27]: We are open to all levels from new grads to senior engineers.
+            - paragraph [ref=f46e28]: Requirements
+            - list [ref=f46e29]:
+              - listitem [ref=f46e30]: Software engineering proficiency and 3+ years of experience actively writing code.
+              - listitem [ref=f46e31]: A track record of shipping high quality projects and a strong sense of urgency.
+              - listitem [ref=f46e32]: Exceptional product taste - you have a sharp sense for what “good” looks like in outputs, and you can translate fuzzy notions of quality, helpfulness, truthfulness, and safety into concrete, measurable criteria.
+              - listitem [ref=f46e33]: Strong attention to detail.
+            - paragraph [ref=f46e34]: Bonus Points
+            - list [ref=f46e35]:
+              - listitem [ref=f46e36]: Previously founded a startup or joined a fast-growing early-stage startup.
+              - listitem [ref=f46e37]: Familiarity with AI/ML workflows, annotation tools, or evals.
+              - listitem [ref=f46e38]: Experience creating and maintaining component libraries, design systems, or internal tools.
+            - paragraph [ref=f46e39]:
+              - strong [ref=f46e40]: "COMPENSATION AND BENEFITS:"
+            - paragraph [ref=f46e41]:
+              - strong [ref=f46e42]: $175,000 - $275,000 USD
+            - paragraph [ref=f46e43]: Base salary is just one part of our total rewards package at SpaceXAI, which also includes equity, comprehensive medical, vision, and dental coverage, access to a 401(k) retirement plan, short & long-term disability insurance, life insurance, and various other discounts and perks.
+          - paragraph [ref=f46e45]:
+            - emphasis [ref=f46e46]: SpaceXAI is an equal opportunity employer. For details on data processing, view our
+            - emphasis [ref=f46e47]:
+              - link "Recruitment Privacy Notice" [ref=f46e48] [cursor=pointer]:
+                - /url: https://x.ai/legal/recruitment-privacy-notice
+              - text: .
+        - generic [ref=f46e52]:
+          - paragraph [ref=f46e53]: Get new jobs like this in your inbox
+          - paragraph [ref=f46e54]: We'll email you when SpaceXAI posts a job like this one.
+          - link "Create alert" [ref=f46e55] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=xai&source=job_alert_post&variant=job_alert_post_b
+      - separator [ref=f46e56]
+      - generic [ref=f46e57]:
+        - generic [ref=f46e58]:
+          - generic [ref=f46e59]:
+            - heading "Apply for this job" [level=2] [ref=f46e61]
+            - generic [ref=f46e62]:
+              - paragraph [ref=f46e64]: "*"
+              - paragraph [ref=f46e65]: indicates a required field
+          - button "Autofill my application" [ref=f46e68] [cursor=pointer]
+        - generic [ref=f46e69]:
+          - generic [ref=f46e70]:
+            - generic [ref=f46e73]:
+              - generic [ref=f46e74]: First Name*
+              - textbox "First Name" [ref=f46e75]
+            - generic [ref=f46e78]:
+              - generic [ref=f46e79]: Last Name*
+              - textbox "Last Name" [ref=f46e80]
+            - generic [ref=f46e83]:
+              - generic [ref=f46e84]: Email*
+              - textbox "Email" [ref=f46e85]
+            - group "Phone" [ref=f46e87]:
+              - generic [ref=f46e91]:
+                - generic [ref=f46e92]: Country*
+                - generic [ref=f46e93]:
+                  - log [ref=f46e95]
+                  - generic [ref=f46e97]:
+                    - combobox "Country" [ref=f46e100]
+                    - button "Toggle flyout" [ref=f46e102] [cursor=pointer]
+                  - textbox
+              - generic [ref=f46e107]:
+                - generic [ref=f46e108]: Phone*
+                - textbox "Phone" [ref=f46e110]
+            - group "Resume/CV*" [ref=f46e112]:
+              - generic [ref=f46e115]:
+                - generic [ref=f46e117]:
+                  - button "Attach" [ref=f46e118] [cursor=pointer]
+                  - generic [ref=f46e119]: Attach
+                  - button "Attach" [ref=f46e120]
+                - button "Dropbox" [ref=f46e122] [cursor=pointer]
+                - button "Google Drive" [ref=f46e124] [cursor=pointer]
+                - generic [ref=f46e126]:
+                  - button "Enter manually" [ref=f46e127] [cursor=pointer]
+                  - generic [ref=f46e128]: Enter manually
+                - paragraph [ref=f46e129]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f46e130]:
+            - separator [ref=f46e131]
+            - generic [ref=f46e134]:
+              - generic [ref=f46e135]: Full Legal Name*
+              - textbox "Full Legal Name" [ref=f46e136]
+            - generic [ref=f46e139]:
+              - generic [ref=f46e140]: Full Legal Name in Native Language (e.g. Chinese Characters, Cyrillic, Farsi etc)*
+              - textbox "Full Legal Name in Native Language (e.g. Chinese Characters, Cyrillic, Farsi etc)" [ref=f46e141]
+            - generic [ref=f46e144]:
+              - generic [ref=f46e145]: Website
+              - textbox "Website" [ref=f46e146]
+            - generic [ref=f46e149]:
+              - generic [ref=f46e150]: LinkedIn Profile
+              - textbox "LinkedIn Profile" [ref=f46e151]
+            - generic [ref=f46e152]:
+              - generic [ref=f46e154]:
+                - generic [ref=f46e155]: Google Scholar
+                - textbox "Google Scholar" [ref=f46e156]
+              - paragraph [ref=f46e159]: If you have a Google Scholar page, please provide its URL.
+            - generic [ref=f46e162]:
+              - generic [ref=f46e163]: GitHub Profile
+              - textbox "GitHub Profile" [ref=f46e164]
+            - generic [ref=f46e167]:
+              - generic [ref=f46e168]: X Profile
+              - textbox "X Profile" [ref=f46e169]
+            - generic [ref=f46e172]:
+              - generic [ref=f46e173]: Your Location*
+              - textbox "Your Location" [ref=f46e174]
+            - generic [ref=f46e177]:
+              - generic [ref=f46e178]: If working in the US, will you now, or in the future, require sponsorship for employment visa status (e.g., H-1B visa) to legally work in the US?*
+              - generic [ref=f46e179]:
+                - log [ref=f46e181]
+                - generic [ref=f46e183]:
+                  - generic [ref=f46e184]:
+                    - generic [ref=f46e185]: Select...
+                    - combobox "If working in the US, will you now, or in the future, require sponsorship for employment visa status (e.g., H-1B visa) to legally work in the US?" [ref=f46e187]
+                  - button "Toggle flyout" [ref=f46e189] [cursor=pointer]
+                - textbox
+            - generic [ref=f46e194]:
+              - generic [ref=f46e195]: Have you worked with us before?*
+              - generic [ref=f46e196]:
+                - log [ref=f46e198]
+                - generic [ref=f46e200]:
+                  - generic [ref=f46e201]:
+                    - generic [ref=f46e202]: Select...
+                    - combobox "Have you worked with us before?" [ref=f46e204]
+                  - button "Toggle flyout" [ref=f46e206] [cursor=pointer]
+                - textbox
+            - generic [ref=f46e209]:
+              - generic [ref=f46e211]:
+                - generic [ref=f46e212]: What exceptional work have you done?*
+                - textbox "What exceptional work have you done?" [ref=f46e213]
+              - paragraph [ref=f46e216]: In 100 words or less, tell us about a piece of work you are most proud of.
+            - generic [ref=f46e219]:
+              - generic [ref=f46e220]: What makes you the ideal candidate for this position?
+              - textbox "What makes you the ideal candidate for this position?" [ref=f46e221]
+            - generic [ref=f46e224]:
+              - generic [ref=f46e225]: How did you hear about us?*
+              - generic [ref=f46e226]:
+                - log [ref=f46e228]
+                - generic [ref=f46e230]:
+                  - generic [ref=f46e231]:
+                    - generic [ref=f46e232]: Select...
+                    - combobox "How did you hear about us?" [ref=f46e234]
+                  - button "Toggle flyout" [ref=f46e236] [cursor=pointer]
+                - textbox
+          - button "Submit application" [ref=f46e240] [cursor=pointer]
+  - contentinfo [ref=f46e241]:
+    - generic [ref=f46e242]:
+      - paragraph [ref=f46e243]: Powered by
+      - link [ref=f46e244] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f46e245]
+  - iframe [ref=f46e259]:
+    - generic [ref=f47e6]:
+      - text: protected by
+      - strong [ref=f47e7]: reCAPTCHA

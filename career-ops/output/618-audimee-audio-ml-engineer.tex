@@ -1,0 +1,124 @@
+% Job posting: https://careers.audimee.com/jobs/7167136-audio-machine-learning-engineer-machine-learning-developer
+% =====================================================================
+%  CV — Nishal Stanislaus Silva, PhD
+%  Variant: V4 (Music-Tech) — generative audio, DSP, real-time inference; musician-engineer.
+%  Changelog: V4 chosen (audio ML, MIR, creative tools). Portfolio & Demos moved up after
+%  the summary; Education moved near the end. 4 publications incl. the PhD thesis. Guitarist
+%  line kept in Highlights. PR/sponsorship line kept. Honest SVS/vocoder gap noted in the CL.
+%  Metrics: 14 ms / 74x / F1 0.76. Page target 2.
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.05}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 -- #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{Music Technology ML Research Engineer | Audio, DSP \& Real-Time Systems}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \cvTagline}
+    \\[1pt]
+    {\footnotesize\textit{\cvStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON (EDT, fully remote)
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}
+    \,\,|\,\, \href{https://github.com/ns2max}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+
+Music-technology ML researcher and engineer with a PhD and 10 peer-reviewed publications in AES and IEEE venues, and 10+ years across audio ML research and production systems. Hands-on with diffusion- and VAE-based generative audio modelling (McGill University) and deep DSP and audio feature-engineering foundations (MFCC, STFT, spectral methods, S-transform). Track record of making audio models fast in production: 14 ms real-time inference, F1 0.76, 74$\times$ faster than the DTW baseline (JAES 2026). Performing and recording guitarist; the musical background is core to how model output quality gets judged. Strong Python/PyTorch; owns the full pipeline from data through deployed, monitored inference.
+
+\section*{Portfolio and Demos \footnotesize {\normalfont{(full portfolio: \href{https://nishal.xyz/research}{\textit{nishal.xyz/research}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \href{https://youtu.be/gkOqfOT8zXM}{\textbf{Hot Licks}} -- real-time audio pattern detection for smart instruments; MIDI Innovation Awards 2023 finalist.
+    \item \href{https://github.com/ns2max/nebula}{\textbf{Nebula}} -- C++17 audio feature-extraction library (time-domain, spectral, cepstral, pitch, chroma) with ARM latency benchmarks.
+    \item \href{https://youtu.be/axEHkdnxFB8}{\textbf{Multisensory concert}} enabled by smart musical instruments and real-time pattern detection.
+    \item \href{https://zenodo.org/record/10818617}{\textbf{DoMP / DoPP / DoDP / DoDP2}} -- four open audio and MIDI datasets, 9,800+ recordings from 70+ musicians.
+\end{itemize}
+
+\section*{Core Competencies}
+
+\textbf{Music Tech \& Audio ML:} diffusion-based audio synthesis · VAE-based synthesis · MFCC, STFT, spectral and cepstral features · Librosa/SciPy pipelines · onset and beat tracking · music information retrieval · symbolic music and MIDI · audio dataset design (9,800+ recordings)\\
+\textbf{ML Engineering:} PyTorch sequence models (stacked RNNs, LSTM/GRU) · benchmark-first evaluation (baselines + ablations) · inference optimization to 14 ms budgets · model compression · ONNX · production integration and monitoring · robustness under limited labelled data\\
+\textbf{Research \& Cross-Domain Depth:} experimental design · statistical evaluation and user studies · technical writing (10+ papers) · real-time embedded deployment (Raspberry Pi, Elk Audio OS, VST) · computer vision and industrial ML background
+
+\section*{Technical Stack}
+
+\textbf{Languages:} Python (primary) · C++ (C++17) · C · MATLAB · Shell\\
+\textbf{ML / AI:} PyTorch · TensorFlow, Keras · HuggingFace Transformers · diffusion models · VAEs · scikit-learn · ONNX\\
+\textbf{Audio \& Signals:} Librosa · SciPy · FFTW · DSP · JUCE · Elk Audio OS · VST · MIDI, OSC · real-time streaming audio · YIN pitch, CQT, chroma\\
+\textbf{Data \& Dev:} AWS · SQL · NumPy, Pandas · Docker · Airflow · MLflow · Git · CI/CD · pytest
+
+\section*{Research and Work Experience}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Owned the full audio ML pipeline: streaming audio acquisition, feature-extraction pipeline design (MFCC, 30 ms windows / 10 ms hop), training and evaluation, edge deployment and monitoring; EU-funded MUSMET (EIC Pathfinder).
+    \item Improved model quality, robustness and inference performance iteratively: published detector at 14 ms on a Raspberry Pi 4, F1 0.76, 74$\times$ faster than the DTW baseline (JAES 2026); Smart Drums audio-vs-MIDI study in press at JAES.
+    \item Integrated models into live production systems (smart instruments used on stage), delivered as Elk Audio OS VST plugins with OSC output; 4 peer-reviewed outputs in 2025.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Built diffusion-based and VAE-based synthetic audio generation to improve model robustness under limited labelled data.
+    \item Real-time audio and gesture detection prototypes for expressive musical control; fused audio pattern detection with IMU data via a hierarchical state machine (F1 0.78).
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+    \item User study of musicians' perception of embedded real-time pattern detection; quantitative metrics plus interviews into usability and adoption recommendations (IEEE I3DA 2025).
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Production ML at industrial scale: real-time pipelines, C++/Python inference engines on embedded hardware, up to 300\% efficiency improvement; full ownership from data ingestion to deployed, monitored systems.
+    \item Established CI/CD and code-review practice; mentored engineers; delivered group-wide training.
+\end{cvrole}
+
+\section*{Selected Publications \footnotesize {\normalfont{(full list: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Vol.~74, No.~3, Mar. 2026. \textit{(F1 0.76 at 14 ms on RPi4, 74$\times$ faster than baseline)}
+    \item Silva, N. and Turchet, L. \textit{Smart Drums: Comparing Audio and MIDI in Embedded Real-Time Drum Pattern Recognition}. Journal of the Audio Engineering Society, 2026 (in press).
+    \item Silva, N., Wanderley, M. and Turchet, L. \textit{Melody and Motion: Integrating Guitar Gestures with Musical Patterns}. IEEE International Symposium on the Internet of Sounds, Oct. 2025.
+    \item Silva, N. \textit{Embedded Real-Time Musical Pattern Detection for Smart Musical Instruments}. PhD Thesis, University of Trento, Jan. 2025.
+\end{itemize}
+
+\section*{Education}
+\textbf{Ph.D -- Information Engineering and Computer Science} \textit{\small{ -- University of Trento, Italy}} \hfill \textit{Jan 2025}\\[2pt]
+\noindent\textbf{M.Sc -- Telecommunication and Electronic Engineering} \textit{\small{ -- Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[2pt]
+\noindent\textbf{B.Eng (Hons) -- Electronic Engineering} \textit{\small{ -- Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}\\[2pt]
+\noindent\textbf{Rock \& Pop Guitar, Grade 8} \textit{\small{ -- Trinity College London, UK}} \hfill \textit{Jul 2015}
+
+\vspace{-0.6em}
+\section*{Highlights \& Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{MIDI Innovation Awards:} Finalist (Sep 2023), Prototypes \& Non-Commercial Software category.
+    \item Performing and recording guitarist (Trinity Grade 8), studio and session work; applies performer intuition to human--AI interaction in live music. Currently researching foundation-model music generation and synthetic variation generation.
+    \item Reviewer, IEEE Access; program committee, IEEE Internet of Sounds and IEEE I3DA. GMOA recognition (Sri Lanka) for a COVID-19 remote vitals monitoring system.
+\end{itemize}
+
+\end{document}

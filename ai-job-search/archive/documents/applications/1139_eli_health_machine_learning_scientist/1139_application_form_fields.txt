@@ -1,0 +1,133 @@
+================================================================
+APPLICATION FORM FIELDS — Eli Health
+Role: Machine Learning Scientist (job id 1139)
+Portal: Ashby (jobs.ashbyhq.com/eli)
+Prepared: 2026-09-03
+Paste the labelled text below into the matching form box. Do NOT paste the
+NOTE TO SELF blocks.
+================================================================
+
+
+----------------------------------------------------------------
+FIELD 1 — "Can you share examples of past work or relevant links?"
+----------------------------------------------------------------
+
+Papers
+
+- Real-Time Audio Pattern Detection for Smart Musical Instruments. Journal of
+  the Audio Engineering Society 74(3), 2026. https://doi.org/10.17743/jaes.2022.0250
+  My core PhD result: a real-time detector on noisy streaming audio that runs
+  inference in 14 ms on a Raspberry Pi 4 (F1 0.76, 74x faster than the
+  1038 ms baseline it replaced). The paper is as much about the benchmark
+  protocol and ablations used to show the gain was real as about the model.
+
+- User-Centered Evaluation of Smart Musical Instruments with Embedded Real-Time
+  Pattern Detection. IEEE I3DA 2025. https://doi.org/10.1109/i3da65421.2025.11202088
+  A study combining quantitative metrics with structured interviews to check
+  whether the system's improvements held up with real users, not just on a
+  test set.
+
+- On Musical Onset Detection via the S-Transform. 52nd Asilomar Conference on
+  Signals, Systems and Computers, 2018. https://doi.org/10.1109/ACSSC.2018.8645367
+  Signal-processing work: using the Stockwell transform to detect events in
+  noisy audio where a fixed time-frequency resolution fails.
+
+Full list and citation metrics: https://scholar.google.com/citations?user=pdintvAAAAAJ
+
+Video
+
+- Hot Licks, real-time audio pattern detection running on a Raspberry Pi
+  (MIDI Innovation Awards 2023 finalist): https://youtu.be/gkOqfOT8zXM
+- An Internet of Musical Things performance ecosystem, end-to-end system demo:
+  https://youtu.be/jfm5L3DYIcc
+- A live multisensory concert synchronising audio, EEG and mixed-reality
+  headset tracking across four performers, with a 26-participant user study:
+  https://youtu.be/axEHkdnxFB8
+
+Code
+
+- Nebula, a C++17 audio-feature-extraction library with per-feature ARM /
+  Raspberry Pi latency benchmarks: https://github.com/ns2max/nebula
+
+Datasets
+
+- Four open-access musical-pattern datasets on Zenodo (9,800+ recordings,
+  70+ musicians), each published with a frozen evaluation protocol:
+  10.5281/zenodo.10818617, .14497998, .14497974, .18395007
+
+Portfolio: https://nishal.xyz
+
+[word count: ~250. If the box is tight, cut the Datasets block first, then
+the Portfolio line, then trim each paper note to one sentence.]
+
+NOTE TO SELF — every link above is already on the CV / knowledge graph and is
+verified. The JAES DOI (10.17743/jaes.2022.0250) is correct even though it
+reads like a 2022 number; it is the 2026 74(3) article. If they ask which one
+to read first: the JAES paper.
+
+
+----------------------------------------------------------------
+FIELD 2 — "What do you think we should know about you, and why are
+you excited to join Eli?"
+----------------------------------------------------------------
+
+The through-line of my work is turning imperfect, noisy real-world sensor data
+into models that hold up. In my PhD I owned the full pipeline for a real-time
+audio system, from the DSP front end through training and evaluation to
+deployment on a Raspberry Pi, and most of the effort went into the part your
+posting names directly: designing experiments and frozen benchmarks that could
+tell a genuine improvement apart from one that only moved a metric, and keeping
+an honest record of what did not work. Before that I spent five and a half
+years at MAS Holdings shipping computer-vision and sensor systems onto factory
+floors, where a model's output had to survive real conditions and real
+operators, and one deployment was a COVID-19 remote-vitals device used across
+hospital wards. That is the closest I have come to health signals. Assay
+chemistry and hormone monitoring would be new to me, but learning an applied
+field cold is a pattern in my record, from apparel manufacturing to financial
+forensics.
+
+I am excited about Eli because it puts machine learning to work on a problem
+that matters to people's everyday health, in an early team where the work has
+direct impact. Making a difficult measurement reliable enough to trust at home
+is exactly the kind of applied problem I want to spend my time on, and a small
+team with real ownership is where I have always done my best work.
+
+[word count: 250. Short variant below is ~150 words — use if the field caps
+at 200 or fewer.]
+
+SHORT VARIANT (~150 words):
+The through-line of my work is turning noisy, imperfect real-world sensor data
+into models that hold up. In my PhD I owned a real-time audio pipeline end to
+end, and most of the effort went into the part your posting names: designing
+experiments and frozen benchmarks that tell a genuine improvement apart from
+one that only moves a metric, and recording what did not work. Before that I
+spent five and a half years at MAS Holdings shipping vision and sensor systems
+onto factory floors, including a COVID-19 remote-vitals device used across
+hospital wards. Assay chemistry would be new to me, but learning an applied
+field cold is a pattern in my record. I am excited about Eli because a reliable
+at-home hormone reading is a measurement problem at heart, confounding and
+a difficult measurement made reliable enough to trust at home, in an early team
+where the work has direct impact, is exactly the kind of problem I want to spend
+my time on, and a small team with real ownership is where I do my best work.
+
+NOTE TO SELF — this must not contradict the cover letter. The cover letter
+already says: assay/biochemistry is new; the COVID vitals device is the closest
+health work; the "what can we conclude with confidence" line is how he works;
+small mission-driven team is his fit. Consistent. If asked in interview "why
+not stay in audio", the honest answer is medical-signal / continuous-monitoring
+is a stated target sector and this is the strongest behavioral match he has
+seen.
+
+
+----------------------------------------------------------------
+DATES QUICK-REFERENCE (keep any date fields consistent)
+----------------------------------------------------------------
+PhD, University of Trento — Jan 2021 to Jan 2025 (defended 31 Jan 2025)
+Postdoctoral Researcher, University of Trento — Jan 2025 to Dec 2025
+Visiting Researcher, McGill University (IDMIL / CIRMMT) — May 2024 to Aug 2024
+Visiting Researcher, University of Visual and Performing Arts (Colombo) — Jan 2024 to Mar 2024
+Technical Consultant, Forestpin — Aug 2020 to Feb 2021
+Research Engineer, MAS Holdings — Jan 2015 to Jul 2020
+MSc, Sheffield Hallam University — 2016 to 2018
+BEng (Hons), Sheffield Hallam University — 2013 to 2014
+Available: immediately (postdoc contract ended 31 Dec 2025)

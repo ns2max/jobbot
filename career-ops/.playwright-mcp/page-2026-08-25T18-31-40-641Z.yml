@@ -1,0 +1,338 @@
+- generic [active] [ref=f829e1]:
+  - link "Skip to content" [ref=f829e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=f829e3]:
+    - banner [ref=f829e4]:
+      - generic [ref=f829e7]:
+        - figure [ref=f829e8]:
+          - link [ref=f829e9] [cursor=pointer]:
+            - /url: https://employmenthero.com/en-ca/
+            - img "Employment Hero Canada" [ref=f829e10]
+        - generic [ref=f829e12]:
+          - generic [ref=f829e13] [cursor=pointer]
+          - generic [ref=f829e17]:
+            - generic [ref=f829e18] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - link "Employee Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Business HR Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Business Payroll Login":
+                      - /url: https://employmenthero.yourpayroll.com.au/
+                - generic:
+                  - generic:
+                    - link "Business Recruitment Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Jobseeker Login (Jobs Board)":
+                      - /url: https://jobs.employmenthero.com/AU/sign_in?callbackUrl=https%3A%2F%2Fjobs.employmenthero.com%2FAU%2F
+                - generic:
+                  - generic:
+                    - link "Humi by Employment Hero Login":
+                      - /url: https://hr.humi.ca/login
+          - img "Group" [ref=f829e25] [cursor=pointer]
+    - generic [ref=f829e34]:
+      - generic [ref=f829e35]:
+        - button "Share" [ref=f829e36] [cursor=pointer]
+        - button "Report this job" [ref=f829e41] [cursor=pointer]
+        - button "Refer a friend" [ref=f829e42] [cursor=pointer]
+      - navigation "breadcrumb" [ref=f829e44]:
+        - list [ref=f829e45]:
+          - listitem [ref=f829e46]:
+            - link "Jobs" [ref=f829e47] [cursor=pointer]:
+              - /url: https://employmenthero.com/en-ca/jobs/
+          - listitem [ref=f829e49]:
+            - link "Science & Research" [ref=f829e50] [cursor=pointer]:
+              - /url: https://employmenthero.com/en-ca/jobs/science-research/
+          - listitem [ref=f829e52]:
+            - 'link "Machine Learning Resident – Client: Nialli (12 month term)"':
+              - /url: https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-resident-client-nialli-12-month-term-4ohcb/
+    - generic [ref=f829e55]:
+      - 'heading "Machine Learning Resident – Client: Nialli (12 month term)" [level=1] [ref=f829e56]'
+      - generic [ref=f829e58]:
+        - text: at
+        - link "Alberta Machine Intelligence Institute" [ref=f829e59] [cursor=pointer]:
+          - /url: https://employmenthero.com/en-ca/jobs/organisations/alberta-machine-intelligence-institute/
+      - generic [ref=f829e60]:
+        - link "Edmonton, Alberta" [ref=f829e61] [cursor=pointer]:
+          - /url: https://employmenthero.com/en-ca/jobs/edmonton/
+        - text: ", Canada • Full-time"
+    - main [ref=f829e62]:
+      - generic [ref=f829e63]:
+        - generic [ref=f829e64]:
+          - generic [ref=f829e65]:
+            - generic [ref=f829e71]: AI Job Summary
+            - button "About AI Job Summary" [ref=f829e72] [cursor=pointer]
+          - list [ref=f829e78]:
+            - listitem [ref=f829e79]: • Completion of an MSc. or PhD. in Computer Science or a related graduate degree program.
+            - listitem [ref=f829e80]: • Proficient in developing, training, fine-tuning, and evaluating ML/deep neural network models in PyTorch and/or Tensor
+            - listitem [ref=f829e81]: • Proficient in Python and related ML frameworks/libraries/toolkits (e.g., Scikit-learn, HuggingFace, Langchain).
+          - button "Sign up or log in to analyse my fit" [ref=f829e83] [cursor=pointer]
+        - generic [ref=f829e88]:
+          - heading "Role Type" [level=3] [ref=f829e89]
+          - generic [ref=f829e90]: Contract • Full-time • Entry Level
+        - generic [ref=f829e91]:
+          - heading "Description" [level=3] [ref=f829e92]
+          - generic [ref=f829e93]:
+            - paragraph [ref=f829e94]: “If you are interested in the application of predictive and prescriptive machine learning for construction project management, this is the right opportunity for you. Be a part of the team of research and machine learning scientists building a next-generation AI intelligence platform for construction from the ground up and get mentored by some of the best minds in AI during the process.”
+            - paragraph [ref=f829e95]: "-Soumik Farhan, Machine Learning Scientist, Advanced Technology"
+            - heading [level=2] [ref=f829e96]:
+              - strong [ref=f829e97]: About the Role
+            - paragraph [ref=f829e98]: "This is a paid residency that will be undertaken over a 12-month period with the potential to be hired by our client, Nialli, afterwards (note: at the discretion of the client). The Resident will report to an Amii Scientist and regularly consult with the client team to share insights and engage in knowledge transfer activities. Successful candidates will be members of a cross-functional project team with backgrounds in ML research, project management, software engineering, and new product development. This is a rare opportunity to be mentored by world-class scientists and to develop something truly impactful."
+            - heading [level=2] [ref=f829e99]:
+              - strong [ref=f829e100]: About the Client
+            - paragraph [ref=f829e101]: Nialli is a fast-growing Calgary-based technology company developing next-generation, AI-powered solutions for the construction industry. Its platform brings together project data, intuitive visualization, and artificial intelligence to help construction teams improve collaboration, identify risks earlier, and make faster, better-informed decisions.
+            - paragraph [ref=f829e102]: The company operates in a highly iterative, product-driven environment where new ideas are rapidly designed, tested, and validated. Nialli works closely with leading construction firms across North America and the United Kingdom to develop Proofs of Concept, evaluate emerging AI capabilities, and translate promising innovations into practical tools that address real-world project management challenges.
+            - paragraph [ref=f829e103]: Learn more at nialli.com.
+            - heading [level=2] [ref=f829e104]:
+              - strong [ref=f829e105]: About the Project
+            - paragraph [ref=f829e106]: This project will support Nialli’s artificial intelligence research and commercialization program focused on transforming construction project data into predictive, prescriptive, and continuously improving intelligence.
+            - paragraph [ref=f829e107]: The work will explore how machine learning can help construction teams anticipate project risks, identify schedule and productivity issues earlier, recommend corrective actions, and learn from the outcomes of those recommendations.
+            - paragraph [ref=f829e108]: Research areas may include construction-specific AI and knowledge systems, predictive risk modelling, recommendation engines, portfolio benchmarking, and agentic systems that can monitor projects and perform routine analysis.
+            - paragraph [ref=f829e109]: The goal is to translate this research into practical, customer-facing capabilities that move Nialli beyond reporting and analytics toward an AI-powered platform that helps project teams make better decisions and improve project performance over time.
+            - heading [level=2] [ref=f829e110]:
+              - strong [ref=f829e111]: Required Skills / Expertise
+            - paragraph [ref=f829e112]: Are you passionate about building great solutions? You’ll be presented with opportunities to both personally and professionally develop as you build your career. We’re looking for a talented and enthusiastic individual with a solid background in machine learning, specifically generative AI, predictive modeling, or LLM agentic systems..
+            - heading [level=2] [ref=f829e113]:
+              - strong [ref=f829e114]: "Key Responsibilities:"
+            - list [ref=f829e115]:
+              - listitem [ref=f829e116]: Design, implement, optimize, and evaluate models for predictive risk detection, prescriptive recommendations, or AI-assisted workflow tasks in the construction domain.
+              - listitem [ref=f829e117]: Prepare, curate, and preprocess high-quality datasets for training or fine-tuning, and validating models.
+              - listitem [ref=f829e118]: Utilize state-of-the-art Large Language Models (LLMs), retrieval-augmented generation (RAG), agentic systems, and ML frameworks, tools and open-source libraries to enhance model performance, accelerate workflows, and optimize data processing.
+              - listitem [ref=f829e119]: Undertake applied research on ML and generative AI / natural language processing techniques to address the limitations in existing models.
+              - listitem [ref=f829e120]: Optimize ML pipelines to ensure efficiency, scalability, and real-time processing capabilities.
+              - listitem [ref=f829e121]: Collaborate with the project team and stakeholders to develop MVP and client focused solutions.
+              - listitem [ref=f829e122]: Engage in regular client meetings, contributing to presentations and reports on project progress.
+            - heading [level=2] [ref=f829e123]:
+              - strong [ref=f829e124]: "Required Qualifications:"
+            - list [ref=f829e125]:
+              - listitem [ref=f829e126]: Completion of a Computer Science (or a related graduate degree program) MSc. or PhD.
+              - listitem [ref=f829e127]: Proficient in developing and training, fine-tuning and evaluating machine learning and deep neural network models in PyTorch and/or TensorFlow.
+              - listitem [ref=f829e128]: Proficient in Python programming language and related ML frameworks, libraries, and toolkits (e.g., Scikit-learn, PyTorch, OpenCV, Pandas, HuggingFace, Langchain, LlamaIndex).
+              - listitem [ref=f829e129]: Solid understanding of classical statistics and its application in model validation.
+              - listitem [ref=f829e130]: Familiarity with Linux, Git version control, and writing clean code.
+              - listitem [ref=f829e131]: Strong understanding of modern AI application concepts, including prompt design, data grounding, context management, and evaluation methodologies.
+              - listitem [ref=f829e132]: Experience with or understanding of cloud-based AI integration, particularly within the Microsoft Azure ecosystem.
+              - listitem [ref=f829e133]: A positive attitude towards learning and understanding a new applied domain .
+              - listitem [ref=f829e134]: Must be legally eligible to work in Canada.
+            - heading [level=2] [ref=f829e135]:
+              - strong [ref=f829e136]: "Preferred Qualifications:"
+            - list [ref=f829e137]:
+              - listitem [ref=f829e138]: Familiarity with and hands-on experience with construction project management, scheduling, or complex enterprise B2B data.
+              - listitem [ref=f829e139]: Exposure to generative AI frameworks, RAG (Retrieval-Augmented Generation) architectures, vector search, and model orchestration tools (e.g., Azure AI Foundry, OpenAI, Claude).
+              - listitem [ref=f829e140]: Research or practical experience with agentic AI systems capable of autonomous workflow monitoring, analysis, and multi-agent coordination.
+              - listitem [ref=f829e141]: Background knowledge or a strong interest in construction technology, lean construction principles, project scheduling, or other complex B2B industrial domains.
+              - listitem [ref=f829e142]: Experience analyzing large datasets to identify predictive indicators, such as schedule slippage, constraint bottlenecks, or resource conflicts.
+              - listitem [ref=f829e143]: Experience/familiarity with software engineering best practices.
+              - listitem [ref=f829e144]: Experience with deploying machine learning models in production environments or strong software engineering (or MLE) skills is a plus.
+            - heading [level=2] [ref=f829e145]:
+              - strong [ref=f829e146]: "Non-Technical Requirements:"
+            - list [ref=f829e147]:
+              - listitem [ref=f829e148]: Desire to take ownership of a problem and demonstrate leadership skills.
+              - listitem [ref=f829e149]: Interdisciplinary team player enthusiastic about working together to achieve excellence.
+              - listitem [ref=f829e150]: Capable of critical and independent thought.
+              - listitem [ref=f829e151]: Able to communicate technical concepts clearly and advise on the application of machine intelligence.
+              - listitem [ref=f829e152]: Intellectual curiosity and the desire to learn new things, techniques, and technologies.
+              - listitem [ref=f829e153]: Candidates residing in or willing to relocate to Calgary, AB are preferred.
+            - heading [level=2] [ref=f829e154]:
+              - strong [ref=f829e155]: Why You Should Apply
+            - paragraph [ref=f829e156]: "Besides gaining industry experience, additional perks include:"
+            - list [ref=f829e157]:
+              - listitem [ref=f829e158]: Work under the mentorship of an Amii Scientist for the duration of the project
+              - listitem [ref=f829e159]: Participate in professional development activities
+              - listitem [ref=f829e160]: Gain access to the Amii community and events
+              - listitem [ref=f829e161]: Get paid for your work (a fair and equitable rate of pay will be negotiated at the time of offer)
+              - listitem [ref=f829e162]: Build your professional network
+              - listitem [ref=f829e163]: The opportunity for an ongoing machine learning role at the client’s organization at the end of the term (at the client’s discretion)
+            - heading [level=2] [ref=f829e164]:
+              - strong [ref=f829e165]: About Amii
+            - paragraph [ref=f829e166]: One of Canada’s three main institutes for artificial intelligence (AI) and machine learning, our world-renowned researchers drive fundamental and applied research at the University of Alberta (and other academic institutions), training some of the world’s top scientific talent. Our cross-functional teams work collaboratively with Alberta-based businesses and organizations to build AI capacity and translate scientific advancement into industry adoption and economic impact.
+            - heading [level=2] [ref=f829e167]:
+              - strong [ref=f829e168]: How to Apply
+            - paragraph [ref=f829e169]:
+              - text: If this sounds like the opportunity you’ve been waiting for, please don’t wait for the closing August 27, 2026 to apply – we’re excited to add a new member to the Amii team for this role, and the posting may come down sooner than the closing date if we find the right candidate before the posting closes! When sending your application, please send your
+              - strong [ref=f829e170]: resume and cover letter
+              - text: indicating why you think you’d be a fit for Amii. In your cover letter, please include one professional accomplishment you are most proud of and why.
+            - paragraph
+            - paragraph [ref=f829e171]:
+              - strong [ref=f829e172]: Applicants must be legally eligible to work in Canada at the time of application.
+            - paragraph:
+              - strong
+            - paragraph [ref=f829e173]: Amii is an equal opportunity employer and values a diverse workforce. We encourage applications from all qualified individuals without regard to ethnicity, religion, gender identity, sexual orientation, age or disability. Accommodations for disability-related needs throughout the recruitment and selection process are available upon request. Any information provided by you for accommodations will be kept confidential and won’t be used in the selection process.
+            - paragraph [ref=f829e174]
+    - button "Apply now" [ref=f829e176] [cursor=pointer]
+    - contentinfo [ref=f829e179]:
+      - contentinfo [ref=f829e180]:
+        - generic [ref=f829e181]:
+          - generic [ref=f829e182]:
+            - paragraph [ref=f829e183]:
+              - strong [ref=f829e184]: Company
+            - paragraph [ref=f829e185]:
+              - link "About us" [ref=f829e186] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/about-us/
+            - paragraph [ref=f829e187]:
+              - link "About humi" [ref=f829e188] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/about-humi/
+            - paragraph [ref=f829e189]:
+              - link "Careers" [ref=f829e190] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/careers/
+            - paragraph [ref=f829e191]:
+              - link "Become a partner" [ref=f829e192] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/partner-network/
+            - paragraph [ref=f829e193]:
+              - link "Newsroom" [ref=f829e194] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/news/
+          - generic [ref=f829e195]:
+            - paragraph [ref=f829e196]:
+              - strong [ref=f829e197]: Get in Touch
+            - paragraph [ref=f829e198]:
+              - link "Contact Us" [ref=f829e199] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/contact/
+            - paragraph [ref=f829e200]:
+              - link "Sales" [ref=f829e201] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/request-a-demo/
+            - paragraph [ref=f829e202]:
+              - link "Report a bug" [ref=f829e203] [cursor=pointer]:
+                - /url: mailto:casupport@employmenthero.com
+            - paragraph [ref=f829e204]:
+              - link "HR login" [ref=f829e205] [cursor=pointer]:
+                - /url: https://secure.employmenthero.com/users/sign_in
+          - generic [ref=f829e206]:
+            - paragraph [ref=f829e207]:
+              - strong [ref=f829e208]: Support
+            - paragraph [ref=f829e209]:
+              - link "Help Centre" [ref=f829e210] [cursor=pointer]:
+                - /url: https://help.employmenthero.info/hc/en-ca/
+            - paragraph [ref=f829e211]:
+              - link "Humi by EH Help Centre" [ref=f829e212] [cursor=pointer]:
+                - /url: https://support.humi.ca/hc/en-us
+          - generic [ref=f829e213]:
+            - paragraph [ref=f829e214]:
+              - strong [ref=f829e215]: Pick your region
+            - paragraph [ref=f829e216]:
+              - link "Australia" [ref=f829e217] [cursor=pointer]:
+                - /url: https://employmenthero.com/
+            - paragraph [ref=f829e218]:
+              - link "New Zealand" [ref=f829e219] [cursor=pointer]:
+                - /url: https://employmenthero.com/nz/
+            - paragraph [ref=f829e220]:
+              - link "United Kingdom" [ref=f829e221] [cursor=pointer]:
+                - /url: https://employmenthero.com/uk/
+            - paragraph [ref=f829e222]:
+              - link "Singapore" [ref=f829e223] [cursor=pointer]:
+                - /url: https://employmenthero.com/sg/
+            - paragraph [ref=f829e224]:
+              - link "Malaysia" [ref=f829e225] [cursor=pointer]:
+                - /url: https://employmenthero.com/my/
+            - paragraph [ref=f829e226]:
+              - link "Canada" [ref=f829e227] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/
+          - generic [ref=f829e228]:
+            - paragraph [ref=f829e229]:
+              - strong [ref=f829e230]: Product
+            - paragraph [ref=f829e231]:
+              - link "Products" [ref=f829e232] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/products/
+            - paragraph [ref=f829e233]:
+              - link "Integrations" [ref=f829e234] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/integrations/
+            - paragraph [ref=f829e235]:
+              - link "Quick Demos" [ref=f829e236] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/quick-demos/
+            - paragraph [ref=f829e237]:
+              - link "Employment Hero work app" [ref=f829e238] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/products/work-app/
+          - generic [ref=f829e239]:
+            - paragraph [ref=f829e240]:
+              - strong [ref=f829e241]: Connect
+            - list [ref=f829e242]:
+              - listitem [ref=f829e243]:
+                - link "LinkedIn" [ref=f829e244] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/employment-hero/%20
+              - listitem [ref=f829e247]:
+                - link "X" [ref=f829e248] [cursor=pointer]:
+                  - /url: https://x.com/EmploymentHero
+              - listitem [ref=f829e251]:
+                - link "YouTube" [ref=f829e252] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@Employmenthero
+              - listitem [ref=f829e255]:
+                - link "Facebook" [ref=f829e256] [cursor=pointer]:
+                  - /url: https://www.facebook.com/EmploymentHero
+              - listitem [ref=f829e259]:
+                - link "Instagram" [ref=f829e260] [cursor=pointer]:
+                  - /url: https://www.instagram.com/employmenthero/
+              - listitem [ref=f829e263]:
+                - link "TikTok" [ref=f829e264] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@employmenthero
+        - separator [ref=f829e267]
+        - generic [ref=f829e268]:
+          - generic [ref=f829e269]:
+            - paragraph [ref=f829e270]:
+              - strong [ref=f829e271]: Land acknowledgement
+            - paragraph [ref=f829e272]: We acknowledge the traditional and unceded territory of First Nations, Inuit and Métis peoples on which we live, learn and work.
+            - paragraph [ref=f829e273]:
+              - strong [ref=f829e274]: What we do
+            - paragraph [ref=f829e275]: Employment Hero is an end-to-end HR, payroll and recruitment solution designed for Canadian businesses. Our suite of powerful employment tools help streamline your workday, so you can focus on what matters.
+          - generic [ref=f829e276]:
+            - paragraph [ref=f829e277]:
+              - strong [ref=f829e278]: News, resources and insights – delivered to your inbox. Subscribe.
+            - generic [ref=f829e281]:
+              - generic [ref=f829e284]:
+                - generic: "*"
+                - textbox "*" [ref=f829e285]:
+                  - /placeholder: Work email
+              - generic [ref=f829e289]:
+                - text: By clicking ‘Subscribe’, you consent to receiving marketing from the
+                - link "Employment Hero Group" [ref=f829e290] [cursor=pointer]:
+                  - /url: https://employmenthero.com/legals/privacy-policy/data-processing/affiliates/
+                - text: by email, text, and social media channels about its services and activities. You may withdraw your consent at any time. See the
+                - link "Privacy Policy" [ref=f829e291] [cursor=pointer]:
+                  - /url: https://employmenthero.com/legals/privacy-policy/
+                - text: for information on how your data is processed.
+              - button "Subscribe" [ref=f829e294] [cursor=pointer]
+        - separator [ref=f829e295]
+        - generic [ref=f829e296]:
+          - paragraph [ref=f829e297]: Copyright © 2026 Employment Hero
+          - list [ref=f829e298]:
+            - listitem [ref=f829e299]:
+              - link "Trust & Legal Centre" [ref=f829e300] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/
+            - listitem [ref=f829e301]:
+              - link "Terms & Conditions" [ref=f829e302] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/terms-conditions/
+            - listitem [ref=f829e303]:
+              - link "Privacy Policy" [ref=f829e304] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/privacy-policy/
+            - listitem [ref=f829e305]:
+              - link "Data Processing Addendum" [ref=f829e306] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/privacy-policy/data-processing/
+            - listitem [ref=f829e307]:
+              - link "Cookie Policy" [ref=f829e308] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/cookie-policy/
+            - listitem [ref=f829e309]:
+              - link "Accessibility" [ref=f829e310] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/#compliance
+  - region "Cookie banner" [ref=f829e312]:
+    - dialog "Cookie notice" [ref=f829e313]:
+      - generic [ref=f829e314]:
+        - generic [ref=f829e316]:
+          - heading "Cookie notice" [level=2] [ref=f829e317]
+          - generic [ref=f829e318]:
+            - text: We use cookies or similar technologies on our sites to perform analytics, provide you with tailored content, and make your experience better. By clicking 'Allow', you agree to our use of cookies on the journey you take with us. Learn more by reading
+            - link "Cookie policy, opens in a new tab" [ref=f829e319] [cursor=pointer]:
+              - /url: https://employmenthero.com/legals/cookie-policy/
+              - text: our cookie policy
+        - generic [ref=f829e321]:
+          - button "Your choices, Opens the preference center dialog" [ref=f829e322] [cursor=pointer]: Your choices
+          - generic [ref=f829e323]:
+            - button "Reject All" [ref=f829e324] [cursor=pointer]
+            - button "Allow" [ref=f829e325] [cursor=pointer]
+        - button "Continue without Accepting" [ref=f829e327] [cursor=pointer]

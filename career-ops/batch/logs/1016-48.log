@@ -1,0 +1,21 @@
+Stop. Role fails hard filter: NYC on-site (US), not Canada. Profile policy (`config/profile.yml` location section, set 2026-08-20): non-Canadian roles = **hard exclude** — no eval, no score, no report, no PDF.
+
+Batch 48 — Decagon, Senior Research Engineer Voice+Speech, NYC onsite, $200-400K+equity. Skipped per your Canada-only scope filter. No report/PDF/tracker line generated (per rule).
+
+Output JSON:
+
+```json
+{
+  "status": "failed",
+  "id": "48",
+  "report_num": "1016",
+  "company": "Decagon",
+  "role": "Senior Research Engineer, Voice + Speech",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role location = New York City, OnSite (US). Profile location policy (config/profile.yml) restricts to Canada-only roles as of 2026-08-20. No evaluation performed per policy."
+}
+```
+
+Want scope widened to include US onsite roles, or leave filter as-is?

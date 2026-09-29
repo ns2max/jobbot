@@ -1,0 +1,17 @@
+JD unavailable — file empty, WebFetch returns generic careers listing, Greenhouse API confirms job ID 7589442 not in current 262 active postings, direct fetch shows 404 signals. Posting dead/removed. Stopping here per pipeline rule (JD fetch failure = report error, terminate).
+
+```json
+{
+  "status": "failed",
+  "id": "57",
+  "report_num": "1023",
+  "company": "Samsara",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "JD unavailable: /tmp/batch-jd-57.txt empty/missing, WebFetch of posting URL returned generic careers listing page (not the specific role), Greenhouse API (boards-api.greenhouse.io/v1/boards/samsara/jobs) shows job ID 7589442 is not among the 262 currently active postings, and direct HTML fetch contains multiple '404' markers. Posting appears closed/removed — cannot evaluate."
+}
+```
+
+No report/PDF/tracker line generated — nada que evaluar, oferta caída. User: verify manually si crees que sigue activa, o pásame otra URL/JD pegado directo.

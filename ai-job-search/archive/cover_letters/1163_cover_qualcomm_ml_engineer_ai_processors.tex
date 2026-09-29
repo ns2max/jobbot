@@ -1,0 +1,69 @@
+% Job posting: https://ca.linkedin.com/jobs/view/machine-learning-engineer-ai-processors-sr-to-staff-at-qualcomm-4439865484
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: Qualcomm Canada ULC - Machine Learning Engineer, AI Processors (Sr to Staff)
+%          AI Processor Solutions team, Markham ON
+%  Variant: V3 (Edge / Embedded). Applied edge-ML engineering framing.
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.03}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{ML Research Engineer | Real-Time \& Edge Inference | Audio, Sensor \& Time-Series}
+\newcommand{\clRole}{Machine Learning Engineer, AI Processors (Sr to Staff)}
+\newcommand{\clCompany}{Qualcomm Canada ULC}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{}, \clCompany{}}
+
+\clAddressee
+
+I am applying for the Machine Learning Engineer, AI Processors position with the Qualcomm AI Processor Solutions team in Markham. I am an ML engineer who translates ML algorithms into efficient software on real devices, with a PhD from the University of Trento and 10+ years across industry and academia. My published detector is a compact proof of exactly that work: it runs inference in 14 ms on a Raspberry Pi 4 at 31.4\% CPU, F1 0.76, 74 times faster than the 1038 ms baseline it replaced (JAES 2026). Getting there meant engineering the hardware and software trade-offs, model size, feature cost, window length, against accuracy and responsiveness, until the algorithm fit the device budget.
+
+That is most of what this role asks. I translate ML algorithms into edge software end to end: at MAS Holdings I built and shipped computer-vision and IoT systems into live manufacturing (care-label QC inspection time cut 99.5\%), in my postdoc I owned deployment on Raspberry Pi with embedded Linux and monitoring, and at McGill I built an instrument-mounted RPi4 system self-powered within its energy envelope. I evaluate and balance hardware and software trade-offs for performance, power efficiency and user experience under real budgets. My work covers computer vision (OpenCV inspection deployed at scale) and multimodal AI (fusion of audio, IMU, BCI/EEG and mixed-reality telemetry, F1 0.78), with audio and speech processing as a research specialisation and video and image processing from the industrial CV side. I build reference applications and live demonstrators: two MUSMET multisensory concerts fusing audio, EEG and MR tracking, and Hot Licks, a MIDI Innovation Awards finalist.
+
+I want to be direct about where I would ramp. I use AI-assisted workflows including Claude Code, but I do not build agentic AI systems, and my deployed models are compact RNN and CNN systems rather than foundation models. Qualcomm's own on-device toolchain, the AI Engine and QNN, I have not used. Those sit on top of a foundation I do have: ARM CPU latency and memory profiling on real hardware, model quantization for deployment, and a benchmark methodology for accuracy, latency and compute trade-offs on the target device.
+
+Markham is Qualcomm's Global Centre of Excellence for Machine Learning, and the mission, moving model capability onto the device so latency, power and privacy improve, is the problem I have spent my research career on: most ML assumes the compute is free, and I have spent years proving with benchmarks that it does not have to be. I am a Canadian permanent resident, eligible to work without sponsorship, based in Toronto so no relocation is needed for this Markham role, and available immediately. My publications, datasets and portfolio are at \href{\clSite}{nishal.xyz}.
+
+\vspace{10pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

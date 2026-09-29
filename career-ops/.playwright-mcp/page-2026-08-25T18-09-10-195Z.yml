@@ -1,0 +1,95 @@
+- generic [active] [ref=f602e1]:
+  - dialog "cookieconsent" [ref=f602e2]:
+    - generic [ref=f602e4]:
+      - generic [ref=f602e5]: 🍪
+      - heading "Privacy Notice" [level=4] [ref=f602e6]
+      - paragraph [ref=f602e7]: This website uses cookies to improve your web experience. By using the site, you agree to the use of cookies.
+      - button "Dismiss" [ref=f602e9] [cursor=pointer]
+  - link [ref=f602e12] [cursor=pointer]:
+    - /url: https://jobs.lever.co/tri
+    - img "Toyota Research Institute logo" [ref=f602e13]
+  - generic [ref=f602e15]:
+    - generic [ref=f602e17]:
+      - generic [ref=f602e18]:
+        - heading "Senior Research Engineer, Computer Vision (LFV/WFM)" [level=2] [ref=f602e19]
+        - generic [ref=f602e20]:
+          - generic [ref=f602e21]: Los Altos, CA
+          - generic [ref=f602e22]: Automated Driving Advanced Development – Automated Driving Advanced Development /
+          - generic [ref=f602e23]: Full-time /
+          - generic [ref=f602e24]: Hybrid
+      - link "apply for this job" [ref=f602e26] [cursor=pointer]:
+        - /url: https://jobs.lever.co/tri/fcfe4b57-d1a0-47f6-b14f-98a4d30313eb/apply
+    - generic [ref=f602e27]:
+      - generic [ref=f602e28]:
+        - paragraph [ref=f602e29]: At Toyota Research Institute (TRI), we’re on a mission to improve the quality of human life. We’re developing new tools and capabilities to amplify the human experience. To lead this transformative shift in mobility, we’ve built a world-class team advancing the state of the art in AI, robotics, driving, and material sciences.
+        - generic [ref=f602e31]:
+          - paragraph [ref=f602e32]: The Learning From Videos (LFV) team develops world foundation models that leverage large-scale multi-modal data (RGB, depth, flow, semantics, actions, tactile, audio, etc.) from multiple domains to power downstream embodied AI tasks. Our topics of interest include Video Generation, World Models, 4D Reconstruction, Multi-Modal Models, Multi-View Geometry, Data Augmentation, and Video-Language-Action models, with a primary focus on embodied applications such as robotics and driving. We are making progress on some of the hardest scientific challenges around spatio-temporal reasoning, and how it can lead to the deployment of autonomous agents in real-world unstructured environments.
+          - paragraph [ref=f602e33]
+          - paragraph [ref=f602e34]: Our team is looking for a Research Engineer to help develop and deploy our world foundation models (WFMs) toward their key milestones in the autonomous driving domain. As our WFMs scale in both capability and ambition, we need a strong engineer who can bridge the gap between research ideas and production-grade systems. This is not a traditional software engineering role; you will work directly alongside research scientists, understand the research deeply enough to make independent technical decisions, and play a key role in enabling the deployment of key research breakthroughs into close-to-production environments.
+          - paragraph [ref=f602e35]
+          - paragraph [ref=f602e36]: As a Research Engineer, you will be responsible for supporting and optimizing large-scale distributed training of diffusion and transformer models; maintaining the infrastructure that ingests, unifies, and serves heterogeneous multi-modal datasets at scale; and developing tools and pipelines that accelerate the research-to-results cycle. You will work closely with researchers to prototype new ideas, run experiments, and help ship our most successful models toward real-world applications with real-world impact.
+          - paragraph [ref=f602e37]: This role requires close collaboration with multiple TRI divisions (Robotics, Automated Driving, Human-Interactive Driving, etc.) as well external Toyota and University partners, and the ability to reconcile and prioritize possibly competing requirements in a fast-paced combination of research and production environments.
+      - generic [ref=f602e39]:
+        - heading "Responsibilities" [level=3] [ref=f602e40]
+        - list [ref=f602e44]:
+          - listitem [ref=f602e45]:
+            - paragraph [ref=f602e46]: Collaborate directly with research scientists to implement, iterate on, and evaluate new architectures, objectives, datasets, and training strategies. Translate research prototypes into clean, maintainable, reusable code that will be shared across multiple TRI teams and the broader Toyota ecosystem.
+          - listitem [ref=f602e47]:
+            - paragraph [ref=f602e48]: Build and maintain scalable pipelines for ingesting, converting, validating, and serving heterogeneous datasets (multi-view, multi-modal, multi-embodiment, etc.), across robotics and autonomous driving, into unified training-ready formats. Track and integrate new public and internal datasets as they become available.
+          - listitem [ref=f602e49]:
+            - paragraph [ref=f602e50]: Support and optimize large-scale distributed training of world foundation models on multi-GPU and multi-node clusters. Manage experiment workflows, profiling, debugging, and hyperparameter sweeps to ensure optimal performance in a timely manner.
+          - listitem [ref=f602e51]:
+            - paragraph [ref=f602e52]: Develop tools for dataset inspection, experiment tracking, model evaluation, GPU resource management, and visualization. Automate repetitive workflows to improve team velocity.
+          - listitem [ref=f602e53]:
+            - paragraph [ref=f602e54]: Work with other TRI teams and Toyota affiliates to set up shared pipelines, onboard their data, and support joint training and evaluation efforts.
+          - listitem [ref=f602e55]:
+            - paragraph [ref=f602e56]: Produce maintainable, well-documented code. Contribute to internal tooling and open-source releases to the scientific community.
+      - generic [ref=f602e58]:
+        - heading "Qualifications" [level=3] [ref=f602e59]
+        - list [ref=f602e63]:
+          - listitem [ref=f602e64]:
+            - paragraph [ref=f602e65]: Master’s or PhD in Computer Science, Electrical Engineering, Machine Learning, or a related field, with a minimum of 3 years of relevant experience and strong software engineering skills.
+          - listitem [ref=f602e66]:
+            - paragraph [ref=f602e67]: Deep proficiency in Python, PyTorch, and the Unix/Linux toolchain. Comfort working in terminal-heavy, SSH-based workflows on shared GPU clusters.
+          - listitem [ref=f602e68]:
+            - paragraph [ref=f602e69]: Hands-on experience with large-scale deep learning training, including distributed training (DDP, FSDP, DeepSpeed, or similar), GPU profiling, and debugging training failures at scale.
+          - listitem [ref=f602e70]:
+            - paragraph [ref=f602e71]: Experience building data pipelines for heterogeneous or multi-modal datasets (images, video, depth, point clouds, actions, etc).
+          - listitem [ref=f602e72]:
+            - paragraph [ref=f602e73]: Experience with video diffusion models, 3D/4D reconstruction, and multi-view geometry.
+          - listitem [ref=f602e74]:
+            - paragraph [ref=f602e75]: You are proactive, self-directed, and comfortable operating with ambiguity in a research-driven environment that spans multiple divisions.
+          - listitem [ref=f602e76]:
+            - paragraph [ref=f602e77]: You are a reliable teammate who communicates clearly and takes ownership of problems end-to-end.
+      - generic [ref=f602e79]:
+        - heading "Bonus Qualifications" [level=3] [ref=f602e80]
+        - list [ref=f602e84]:
+          - listitem [ref=f602e85]: Experience with cloud training infrastructure (AWS SageMaker, EC2) and containerized workflows (Docker, Kubernetes).
+          - listitem [ref=f602e86]:
+            - paragraph [ref=f602e87]: Familiarity with standard data formats and collection pipelines (ROS, MCAP, HDF5, etc.) as well as simulation environments.
+          - listitem [ref=f602e88]:
+            - paragraph [ref=f602e89]: Proficiency with modern AI-assisted development tools (e.g., Copilot, Cursor, Claude Code) for accelerating engineering workflows.
+          - listitem [ref=f602e90]:
+            - paragraph [ref=f602e91]: Track record of contributions to open-source projects or publications at top venues (CVPR, ICLR, NeurIPS, RSS, ICRA, etc.) is a plus but not required.
+      - generic [ref=f602e92]:
+        - generic [ref=f602e93]:
+          - strong [ref=f602e95]: Please include links to any relevant open-source contributions or technical project write-ups with your application.
+          - emphasis [ref=f602e98]: The pay range for this position at commencement of employment is expected to be between $180,000 and $258,750/year for California-based roles. Base pay offered will depend on multiple individualized factors, including, but not limited to, a candidate's experience, skills, job-related knowledge, and market location. TRI offers a generous benefits package including medical, dental, and vision insurance, 401(k) eligibility, paid time off benefits (including vacation, sick time, and parental leave), and an annual cash bonus structure. Additional details regarding these benefit plans will be provided if an employee receives an offer of employment.
+        - generic [ref=f602e100]:
+          - text: Please reference this
+          - link "Candidate Privacy Notice" [ref=f602e101] [cursor=pointer]:
+            - /url: https://www.tri.global/ccpa-privacy-policy/
+          - text: to inform you of the categories of personal information that we collect from individuals who inquire about and/or apply to work for Toyota Research Institute, Inc. or its subsidiaries, including Toyota A.I. Ventures GP, L.P., and the purposes for which we use such personal information.
+        - generic [ref=f602e103]: TRI is fueled by a diverse and inclusive community of people with unique backgrounds, education and life experiences. We are dedicated to fostering an innovative and collaborative environment by living the values that are an essential part of our culture. We believe diversity makes us stronger and are proud to provide Equal Employment Opportunity for all, without regard to an applicant’s race, color, creed, gender, gender identity or expression, sexual orientation, national origin, age, physical or mental disability, medical condition, religion, marital status, genetic information, veteran status, or any other status protected under federal, state or local laws.
+        - generic [ref=f602e105]: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability. Pursuant to the San Francisco Fair Chance Ordinance, we will consider qualified applicants with arrest and conviction records for employment.
+      - generic [ref=f602e106]: We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+      - link "apply for this job" [ref=f602e109] [cursor=pointer]:
+        - /url: https://jobs.lever.co/tri/fcfe4b57-d1a0-47f6-b14f-98a4d30313eb/apply
+  - generic [ref=f602e111]:
+    - paragraph [ref=f602e112]:
+      - link "Toyota Research Institute Home Page" [ref=f602e113] [cursor=pointer]:
+        - /url: http://www.tri.global
+    - link "Jobs powered by Lever logo" [ref=f602e114] [cursor=pointer]:
+      - /url: https://www.lever.co/job-seeker-support/
+      - generic [ref=f602e115]: Jobs powered by
+      - img "Lever logo" [ref=f602e116]

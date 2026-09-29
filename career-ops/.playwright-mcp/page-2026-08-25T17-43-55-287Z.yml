@@ -1,0 +1,255 @@
+- generic [active] [ref=f271e1]:
+  - img "Banner" [ref=f271e3]
+  - main [ref=f271e4]:
+    - generic [ref=f271e5]:
+      - img "Reddit Logo" [ref=f271e7]
+      - generic [ref=f271e8]:
+        - link "Back to jobs" [ref=f271e9] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/reddit
+        - generic [ref=f271e13]:
+          - generic [ref=f271e14]:
+            - heading "Sr. Staff Data Scientist - Ads Measurement, Signals, Privacy" [level=1] [ref=f271e15]
+            - generic [ref=f271e16]: Toronto, Canada
+          - button "Apply" [ref=f271e20] [cursor=pointer]
+        - generic [ref=f271e21]:
+          - generic [ref=f271e28]:
+            - text: Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit
+            - link "www.redditinc.com" [ref=f271e29] [cursor=pointer]:
+              - /url: http://www.redditinc.com/
+            - text: .
+          - generic [ref=f271e30]:
+            - paragraph [ref=f271e31]: Reddit’s Ads Data Science team is looking for a Senior Staff Data Scientist to lead the scientific strategy behind Reddit’s ads measurement and signal systems. This role sits at the center of how Reddit proves advertiser value, improves signal quality, builds privacy-aware measurement systems, and connects ads exposure to real advertiser outcomes.
+            - paragraph [ref=f271e32]: As a Senior Staff Data Scientist for Ads Measurement, you will be the principal architect of our technical vision and the driving force behind the next generation of our measurement ecosystem. In a landscape rapidly shifting due to privacy regulations, browser changes, and evolving platform dynamics, you will spearhead innovation across experimental design (incrementality/lift), identity, signals, and privacy-safe 1P/3P measurement.
+            - paragraph [ref=f271e33]: This is a high-visibility, high-impact role requiring a rare blend of deep experimentation & causal inference expertise, strategic foresight, and the ability to influence cross-functional executives and industry standards. You will not just adapt to the changing ad-tech environment, you will redefine how we measure value.
+            - heading [level=3] [ref=f271e34]:
+              - strong [ref=f271e35]: Responsibilities
+            - list [ref=f271e36]:
+              - listitem [ref=f271e37]:
+                - strong [ref=f271e38]: "Technical Vision & Strategy:"
+                - text: Define the long-term data science vision & strategy across ads measurement, signal quality, identity, attribution, and privacy. Establish how Reddit should evaluate advertiser value, measurement quality, and signal utility across first-party and third-party products.
+              - listitem [ref=f271e39]:
+                - strong [ref=f271e40]: "Set the Cross-Pillar Measurement Science Strategy:"
+                - text: Define the long-term data science strategy across ads measurement, signal quality, identity, attribution, and privacy. Establish how Reddit should evaluate advertiser value, measurement quality, and signal utility across first-party and third-party products.
+              - listitem [ref=f271e41]:
+                - strong [ref=f271e42]: "Build Trusted Measurement and Evaluation Frameworks:"
+                - text: Create rigorous frameworks for validating lift, attribution, identity quality, modeled conversions, signal loss recovery, and privacy-aware measurement. Define ground truth, objective functions, quality metrics, guardrails, and decision frameworks that guide product and engineering investments.
+              - listitem [ref=f271e43]:
+                - strong [ref=f271e44]: "Advance Experimentation and Causal Inference at Scale:"
+                - text: Lead the evolution of Reddit’s experimentation and lift methodologies across Brand Lift, Conversion Lift, Split Testing, and emerging measurement products. Improve study quality, reduce bias and contamination, and develop scalable diagnostics for experiment health, feasibility, and interpretability. Partner with Ads Engineering to operationalize complex causal models, ensuring that scientific methodologies are not only accurate but also performant, scalable, and resilient in high-throughput production environments.
+              - listitem [ref=f271e45]:
+                - strong [ref=f271e46]: "Connect Signals, Identity, and Ranking Outcomes:"
+                - text: Quantify how signal quality, match rates, identity resolution, modeled conversions, and privacy changes affect bidding efficiency, CPA, ROAS, and advertiser outcomes. Partner with modeling and ranking teams to translate measurement improvements into performance gains.
+              - listitem [ref=f271e47]:
+                - strong [ref=f271e48]: "Guide Privacy-Aware Ads Measurement:"
+                - text: Lead a privacy-first measurement paradigm, positioning Reddit as a market leader in trusted advertising by recovering signal utility through compliant modeling.
+              - listitem [ref=f271e49]:
+                - strong [ref=f271e50]: "Create Durable Data Science Infrastructure and Standards:"
+                - text: Lead cross-org efforts to define reusable methodologies, dashboards, scorecards, quality metrics, and best practices. Build repeatable systems that improve how Ads DS evaluates launches, monitors regressions, sizes opportunities, and communicates impact.
+              - listitem [ref=f271e51]:
+                - strong [ref=f271e52]: "Influence Senior Cross-Functional Strategy:"
+                - text: Partner with senior leaders across Product, Engineering, Sales, Marketing Science, Legal/Privacy, and Ads leadership to shape roadmap decisions. Translate complex scientific tradeoffs into clear business and product recommendations.
+              - listitem [ref=f271e53]:
+                - strong [ref=f271e54]: "Uplevel the Data Science Organization:"
+                - text: Mentor Staff and Senior data scientists, sponsor high-impact technical work, and raise the bar for causal inference, measurement science, identity evaluation, data quality, and cross-functional decision-making across Ads DS.
+            - heading [level=3] [ref=f271e55]:
+              - strong [ref=f271e56]: Qualifications
+            - heading [level=4] [ref=f271e57]:
+              - strong [ref=f271e58]: Required
+            - list [ref=f271e59]:
+              - listitem [ref=f271e60]: Advanced degree in Statistics, Economics, Mathematics, Computer Science, Operations Research, Physics, or a related quantitative field, or equivalent industry experience.
+              - listitem [ref=f271e61]: 10+ years of industry experience in data science, applied science, economics, statistics, or a related quantitative role.
+              - listitem [ref=f271e62]: Deep expertise in ads measurement, experimentation, causal inference, attribution, marketplace measurement, or ads optimization.
+              - listitem [ref=f271e63]: Proven track record leading ambiguous, cross-functional, multi-pillar problem spaces with measurable business impact.
+              - listitem [ref=f271e64]: Strong command of statistical modeling, experimental design, causal inference, and measurement methodology.
+              - listitem [ref=f271e65]: Experience defining metrics, evaluation frameworks, quality guardrails, and decision systems for complex products.
+              - listitem [ref=f271e66]: Demonstrated ability to balance long-term strategic vision with hands-on execution of complex technical ideas.
+              - listitem [ref=f271e67]: Advanced proficiency in SQL and Python or R.
+              - listitem [ref=f271e68]: Ability to influence senior product, engineering, and business leaders through clear technical judgment and communication.
+              - listitem [ref=f271e69]: Demonstrated ability to mentor senior ICs and improve technical standards across a data science organization.
+              - listitem [ref=f271e70]: Demonstrated agility in adopting AI tools to amplify your personal output, turning complex methodologies into working prototypes with modern speed and efficiency.
+            - heading [level=4] [ref=f271e71]:
+              - strong [ref=f271e72]: Preferred
+            - list [ref=f271e73]:
+              - listitem [ref=f271e74]: Experience with ads identity, conversion modeling, signal loss, modeled conversions, match-rate optimization, or identity graph evaluation.
+              - listitem [ref=f271e75]: Experience with lift measurement, brand lift, conversion lift, incrementality testing, MMM, MTA, or third-party measurement partnerships.
+              - listitem [ref=f271e76]: Experience working on privacy-constrained measurement, clean rooms, aggregation, consent-aware systems, or privacy-preserving modeling.
+              - listitem [ref=f271e77]: Experience partnering with ranking, bidding, or machine learning teams to connect measurement quality to optimization outcomes.
+              - listitem [ref=f271e78]: Familiarity with two-sided marketplaces, auction systems, performance advertising, or advertiser-facing measurement products.
+              - listitem [ref=f271e79]: Experience building durable internal frameworks, training programs, scorecards, or methodology standards adopted across an organization.
+            - paragraph [ref=f271e80]:
+              - strong [ref=f271e81]: "Benefits:"
+            - list [ref=f271e82]:
+              - listitem [ref=f271e83]: Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support
+              - listitem [ref=f271e84]: Family Planning Support
+              - listitem [ref=f271e85]: Gender-Affirming Care
+              - listitem [ref=f271e86]: Mental Health & Coaching Benefits
+              - listitem [ref=f271e87]: Comprehensive Medical Benefits & Health Care Spending Account
+              - listitem [ref=f271e88]: Registered Retirement Savings Plan with matching contributions
+              - listitem [ref=f271e89]: Income Replacement Programs
+              - listitem [ref=f271e90]: Flexible Vacation & Paid Volunteer Time Off
+              - listitem [ref=f271e91]: Generous Paid Parental Leave
+            - paragraph [ref=f271e92]
+            - paragraph [ref=f271e93]: "#LI-Remote"
+            - paragraph [ref=f271e94]
+          - generic [ref=f271e95]:
+            - paragraph [ref=f271e96]: In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews.
+            - paragraph [ref=f271e97]:
+              - generic [ref=f271e98]:
+                - text: "During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our"
+                - link "Candidate Privacy Policy for Potential Employees and Contractors" [ref=f271e99] [cursor=pointer]:
+                  - /url: https://redditinc.com/policies/candidate-privacy-policy
+                - text: .
+            - paragraph [ref=f271e100]:
+              - emphasis [ref=f271e101]: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.
+      - separator [ref=f271e102]
+      - generic [ref=f271e103]:
+        - generic [ref=f271e105]:
+          - heading "Apply for this job" [level=2] [ref=f271e107]
+          - generic [ref=f271e108]:
+            - paragraph [ref=f271e110]: "*"
+            - paragraph [ref=f271e111]: indicates a required field
+        - generic [ref=f271e112]:
+          - generic [ref=f271e113]:
+            - generic [ref=f271e116]:
+              - generic [ref=f271e117]: First Name*
+              - textbox "First Name" [ref=f271e118]
+            - generic [ref=f271e121]:
+              - generic [ref=f271e122]: Last Name*
+              - textbox "Last Name" [ref=f271e123]
+            - generic [ref=f271e126]:
+              - generic [ref=f271e127]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f271e128]
+            - generic [ref=f271e131]:
+              - generic [ref=f271e132]: Email*
+              - textbox "Email" [ref=f271e133]
+            - group "Phone" [ref=f271e135]:
+              - generic [ref=f271e139]:
+                - generic [ref=f271e140]: Country*
+                - generic [ref=f271e141]:
+                  - log [ref=f271e143]
+                  - generic [ref=f271e145]:
+                    - combobox "Country" [ref=f271e148]
+                    - button "Toggle flyout" [ref=f271e150] [cursor=pointer]
+                  - textbox
+              - generic [ref=f271e155]:
+                - generic [ref=f271e156]: Phone*
+                - textbox "Phone" [ref=f271e157]
+            - group "Resume/CV*" [ref=f271e159]:
+              - generic [ref=f271e162]:
+                - generic [ref=f271e164]:
+                  - button "Attach" [ref=f271e165] [cursor=pointer]
+                  - generic [ref=f271e166]: Attach
+                  - button "Attach" [ref=f271e167]
+                - button "Dropbox" [ref=f271e169] [cursor=pointer]
+                - button "Google Drive" [ref=f271e171] [cursor=pointer]
+                - generic [ref=f271e173]:
+                  - button "Enter manually" [ref=f271e174] [cursor=pointer]
+                  - generic [ref=f271e175]: Enter manually
+                - paragraph [ref=f271e176]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f271e178]:
+              - generic [ref=f271e181]:
+                - generic [ref=f271e183]:
+                  - button "Attach" [ref=f271e184] [cursor=pointer]
+                  - generic [ref=f271e185]: Attach
+                  - button "Attach" [ref=f271e186]
+                - button "Dropbox" [ref=f271e188] [cursor=pointer]
+                - button "Google Drive" [ref=f271e190] [cursor=pointer]
+                - generic [ref=f271e192]:
+                  - button "Enter manually" [ref=f271e193] [cursor=pointer]
+                  - generic [ref=f271e194]: Enter manually
+                - paragraph [ref=f271e195]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f271e196]:
+            - separator [ref=f271e197]
+            - generic [ref=f271e200]:
+              - generic [ref=f271e201]: LinkedIn Profile*
+              - textbox "LinkedIn Profile" [ref=f271e202]
+            - generic [ref=f271e205]:
+              - generic [ref=f271e206]: How did you hear about this job?*
+              - textbox "How did you hear about this job?" [ref=f271e207]
+            - generic [ref=f271e208]:
+              - generic [ref=f271e210]:
+                - generic [ref=f271e211]: Please provide the name of your current (or most recent) company*
+                - textbox "Please provide the name of your current (or most recent) company" [ref=f271e212]
+              - paragraph [ref=f271e215]: "Note: if you're currently employed at Reddit, please submit your application via our Internal Job Board"
+            - generic [ref=f271e218]:
+              - generic [ref=f271e219]: Are you currently authorized to work in Canada?*
+              - generic [ref=f271e220]:
+                - log [ref=f271e222]
+                - generic [ref=f271e224]:
+                  - generic [ref=f271e225]:
+                    - generic [ref=f271e226]: Select...
+                    - combobox "Are you currently authorized to work in Canada?" [ref=f271e228]
+                  - button "Toggle flyout" [ref=f271e230] [cursor=pointer]
+                - textbox
+            - generic [ref=f271e235]:
+              - generic [ref=f271e236]: Do you now, or will you in the future, require immigration sponsorship to work at Reddit?*
+              - generic [ref=f271e237]:
+                - log [ref=f271e239]
+                - generic [ref=f271e241]:
+                  - generic [ref=f271e242]:
+                    - generic [ref=f271e243]: Select...
+                    - combobox "Do you now, or will you in the future, require immigration sponsorship to work at Reddit?" [ref=f271e245]
+                  - button "Toggle flyout" [ref=f271e247] [cursor=pointer]
+                - textbox
+            - generic [ref=f271e250]:
+              - generic [ref=f271e252]:
+                - generic [ref=f271e253]: By selecting "I agree," I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy. *
+                - generic [ref=f271e254]:
+                  - log [ref=f271e256]
+                  - generic [ref=f271e258]:
+                    - generic [ref=f271e259]:
+                      - generic [ref=f271e260]: Select...
+                      - combobox "By selecting \"I agree,\" I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy." [ref=f271e262]
+                    - button "Toggle flyout" [ref=f271e264] [cursor=pointer]
+                  - textbox
+              - paragraph [ref=f271e269]:
+                - link "Reddit's Candidate Privacy Policy" [ref=f271e270] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/candidate-privacy-policy
+          - separator [ref=f271e271]
+          - generic [ref=f271e272]:
+            - heading "Reddit Canada Equal Employment Information" [level=3] [ref=f271e273]
+            - generic [ref=f271e275]:
+              - paragraph [ref=f271e276]: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. To bring community and belonging to everyone in the world, Reddit’s employees must represent communities and redditors on our platform.
+              - paragraph [ref=f271e277]: The Company is committed to treating all people in a way that allows them to maintain their dignity and independence. We believe in integration and equal opportunity. Accommodations are available throughout the recruitment process and applicants with a disability may request to be accommodated throughout the recruitment process.
+              - paragraph [ref=f271e278]: We will work with all applicants to accommodate their individual accessibility needs
+              - paragraph [ref=f271e279]: Our vision at Reddit is to have a workforce representative of people with different perspectives and experiences, including but not limited to, gender, race and ethnicity, sexual orientation, age, national origin, religion, and political views.
+              - paragraph [ref=f271e280]: We invite you to self-identify across the identities below so we can better understand our talent pools and assess our effectiveness in attracting and recruiting people to Reddit from all backgrounds.
+              - paragraph [ref=f271e281]: Answering these questions will not impact your application, nor will this information be shared with anyone making a hiring decision.
+            - generic [ref=f271e283]:
+              - generic [ref=f271e284]: What gender identity do you most closely identify with? *
+              - generic [ref=f271e285]:
+                - log [ref=f271e287]
+                - generic [ref=f271e289]:
+                  - generic [ref=f271e290]:
+                    - generic [ref=f271e291]: Select...
+                    - combobox "What gender identity do you most closely identify with?" [ref=f271e293]
+                  - button "Toggle flyout" [ref=f271e295] [cursor=pointer]
+                - textbox
+            - generic [ref=f271e299]:
+              - generic [ref=f271e300]: Are you a person of transgender experience?*
+              - generic [ref=f271e301]:
+                - log [ref=f271e303]
+                - generic [ref=f271e305]:
+                  - generic [ref=f271e306]:
+                    - generic [ref=f271e307]: Select...
+                    - combobox "Are you a person of transgender experience?" [ref=f271e309]
+                  - button "Toggle flyout" [ref=f271e311] [cursor=pointer]
+                - textbox
+            - generic [ref=f271e315]:
+              - generic [ref=f271e316]: What sexual orientation do you most closely identify with? *
+              - generic [ref=f271e317]:
+                - log [ref=f271e319]
+                - generic [ref=f271e321]:
+                  - generic [ref=f271e322]:
+                    - generic [ref=f271e323]: Select...
+                    - combobox "What sexual orientation do you most closely identify with?" [ref=f271e325]
+                  - button "Toggle flyout" [ref=f271e327] [cursor=pointer]
+                - textbox
+          - separator [ref=f271e330]
+          - button "Submit application" [ref=f271e332] [cursor=pointer]
+  - contentinfo [ref=f271e333]:
+    - generic [ref=f271e334]:
+      - paragraph [ref=f271e335]: Powered by
+      - link [ref=f271e336] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f271e337]

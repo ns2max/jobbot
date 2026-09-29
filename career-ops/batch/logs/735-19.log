@@ -1,0 +1,17 @@
+JD unobtainable both ways. No report/PDF/tracker generated — stopping per pipeline rule (Paso 1: ambos fallan → reporta error y termina).
+
+```json
+{
+  "status": "failed",
+  "id": "19",
+  "report_num": "735",
+  "company": "unknown",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "JD file /tmp/batch-jd-19.txt missing/empty, and WebFetch on Ashby URL returned empty shell (client-rendered page, no JD text — Playwright unavailable in batch mode). Cannot evaluate without JD content."
+}
+```
+
+Note: URL is Cursor (jobs.ashbyhq.com/cursor) — likely US-based role. Per `modes/_profile.md` location policy, Canada-only is a hard exclude; worth checking manually if you have Playwright access before retry.

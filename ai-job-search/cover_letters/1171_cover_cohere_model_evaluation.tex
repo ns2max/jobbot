@@ -1,0 +1,41 @@
+% Job posting: https://ca.linkedin.com/jobs/view/senior-research-scientist-model-evaluation-at-cohere-4317722029
+\documentclass[11pt]{article}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.1}
+\pagenumbering{gobble}
+\begin{document}
+\pagestyle{empty}
+
+\begin{flushleft}
+Nishal Stanislaus Silva, PhD \\
+Toronto, ON \\
+nishal.silva@hotmail.com \,|\, +1 613 200 2030 \\
+\href{https://nishal.xyz}{nishal.xyz} \,|\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}
+\end{flushleft}
+
+\vspace{1em}
+
+Dear Hiring Manager,
+
+Most of my research career has been organized around a single habit: design the test before trusting the result. At the University of Trento, before I let a real-time pattern-detection model near a headline number, I built frozen-protocol benchmark suites and systematic ablations -- RNN versus DTW, audio versus MIDI, pattern-set sizes of 1, 3, and 10 -- that isolated exactly which design choices bought accuracy and which bought latency, and I kept a written record of what failed as carefully as what worked. That discipline produced a published detector running in 14 ms on a Raspberry Pi 4 at F1 0.76, 74 times faster than the DTW baseline it replaced (JAES 2026), but the number is downstream of the protocol, not the point of it. My earlier DAFx 2022 paper pushed the same instinct further: a training-free, zero-shot method evaluated at 95\% detection accuracy with no training data at all, specifically to remove the evaluation's dependence on a particular training run. Most recently, my MIRaaS work (IEEE IS2 2026) is a latency-characterization study of an edge-to-server architecture -- evaluation methodology applied to systems behavior rather than task accuracy.
+
+That same instinct is why I release data the way I do. Each of my four open-access Zenodo datasets -- 9,800+ recordings across 70+ musicians -- ships with a documented, frozen evaluation protocol, not an informal train/test split left to whoever downloads it next. That is, functionally, dataset-and-benchmark design at scale, which I understand to be close to the center of this role. I have also built and run mixed-methods human evaluations: a study at the University of Visual and Performing Arts (Colombo) combined quantitative usability metrics with structured interviews to produce concrete adoption recommendations, the kind of evaluation that has to hold up to a person's judgment, not just a metric's.
+
+I want to be direct about where my experience does not yet reach: I have not evaluated large-scale foundation or language models specifically -- my benchmark and ablation work has been in real-time audio, sensor, and time-series domains. What transfers is the methodology itself: protocol design, ablation discipline, honest reporting of negative results, and building the infrastructure to measure latency and behavior rigorously rather than anecdotally. I expect the ramp onto LLM-specific evaluation to be a fast one, because the hard part -- designing a test you can trust -- is the part I have spent a decade building.
+
+I am a Canadian Permanent Resident based in Toronto, eligible to work without sponsorship, and available immediately. I would welcome the chance to discuss how this background could contribute to Cohere's model evaluation work.
+
+\vspace{1em}
+
+Sincerely, \\
+Nishal Stanislaus Silva
+
+\end{document}

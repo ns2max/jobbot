@@ -1,0 +1,18 @@
+Done — eval below apply threshold (3.0/5, infra/distributed-systems SWE role, not core ML-research match). Per your memory prefs: skipped PDF, generated tailored CV + cover letter as Markdown instead.
+
+```json
+{
+  "status": "completed",
+  "id": "24",
+  "report_num": "879",
+  "company": "Baseten",
+  "role": "Software Engineer - Baseten Inference Stack",
+  "score": 3.0,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/879-baseten-2026-08-24.md",
+  "error": null
+}
+```
+
+Files: report `reports/879-baseten-2026-08-24.md`, CV `output/879-baseten-swe-inference-stack.md`, cover letter `output/879-baseten-swe-inference-stack-coverletter.md`, tracker line `batch/tracker-additions/24.tsv` (needs `node merge-tracker.mjs` to merge).

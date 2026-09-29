@@ -1,0 +1,79 @@
+% Job posting: https://picovoice.ai/careers/deep-learning-researcher/
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: Picovoice - Deep Learning Researcher (Vancouver)
+%  Variant: V3 (Edge / Embedded), research-forward
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+\newcommand{\clTagline}{ML Research Engineer | Real-Time \& Edge Inference | Audio, Sensor \& Time-Series}
+\newcommand{\clRole}{Deep Learning Researcher}
+\newcommand{\clCompany}{Picovoice}
+\newcommand{\clTeam}{the research team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Deep Learning Researcher role at Picovoice. I am a deep learning researcher and engineer with a PhD from the University of Trento whose thesis is the same problem Picovoice solves: real-time audio understanding that runs entirely on the device, under tight latency and compute budgets. My published work runs audio pattern detection in 14 ms on a Raspberry Pi 4 at 31.4 percent CPU, F1 0.76, which is 74 times faster than the dynamic time warping baseline it replaced (JAES 2026).
+
+The role asks for someone who understands deep learning theory and its limits, can build complex and extensible software in Python and C, and can solve vague problems on a tight schedule. My PhD and postdoc were exactly that: I designed the model architectures, feature representations and training regimes, built the baseline and ablation suites that showed which choices actually mattered against latency and CPU, and shipped the result as a running system on embedded hardware. I wrote and maintain Nebula, an open-source C++17 audio-feature library with per-feature ARM latency benchmarks, and I work daily with PyTorch and statistical evaluation. My GPU work has been training rather than CUDA kernel development, so that is where I would ramp, and I would ramp fast given the C and profiling background behind it.
+
+What draws me to Picovoice is the conviction that voice AI should run offline, on the user's hardware, with no cloud in the loop. I have spent years making models small and fast enough to earn that place, and I would bring a benchmark and dataset discipline, four open datasets and 70+ contributors' worth, to how new models are measured before they ship. In the first months I would contribute to model efficiency and evaluation on the on-device speech and audio work.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, available immediately, and glad to relocate to Vancouver for this role. I would welcome the opportunity to discuss how my experience in real-time and on-device ML can support \clTeam{} at Picovoice. My portfolio, publications and open datasets are at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

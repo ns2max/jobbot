@@ -1,0 +1,173 @@
+- generic [active] [ref=f147e1]:
+  - main [ref=f147e2]:
+    - generic [ref=f147e3]:
+      - generic [ref=f147e4]:
+        - link "Back to jobs" [ref=f147e5] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/scaleai
+        - generic [ref=f147e9]:
+          - generic [ref=f147e10]:
+            - heading "Staff Applied AI Engineer" [level=1] [ref=f147e11]
+            - generic [ref=f147e12]: London, UK
+          - button "Apply" [ref=f147e16] [cursor=pointer]
+        - generic [ref=f147e17]:
+          - generic [ref=f147e18]:
+            - heading [level=3] [ref=f147e19]:
+              - strong [ref=f147e20]: About the role
+            - paragraph [ref=f147e21]: Scale's Global Public Sector team is focused on using AI to address critical challenges facing the public sector around the world. As a Staff Applied AI Engineer, you'll raise the bar for how AI gets built, governed, and evaluated across the team. You'll define standards that other engineers adopt, such as evaluation methodologies for agents and MLOps practices, while acting as the senior technical voice for the most sensitive AI decisions our clients face.
+            - paragraph [ref=f147e22]:
+              - strong [ref=f147e23]: What you'll do
+            - list [ref=f147e24]:
+              - listitem [ref=f147e25]: Define standards for responsible AI, model governance, and production MLOps that get adopted broadly across the Global Public Sector team
+              - listitem [ref=f147e26]: Build or validate the highest-risk parts of strategic AI systems and use those systems to establish standards other teams can adopt.
+              - listitem [ref=f147e27]: Architect AI systems designed to prevent systemic failure, and lead the resolution of the most severe incidents tied to model safety or data integrity
+              - listitem [ref=f147e28]: Build reusable AI capabilities, such as production-ready agent implementations built on proven architectures, fine-tuned models, or evaluation methodologies, that other engineers and clients can build on
+              - listitem [ref=f147e29]: Advise on which new AI developments are worth adopting, and help set the technical roadmap for the domain
+              - listitem [ref=f147e30]: Act as the senior technical partner to client leadership on AI strategy
+              - listitem [ref=f147e31]: Coach Senior Applied AI Engineers, delegate ownership of technical domains, and build systems and practices that enable multiple teams to deliver safer AI
+              - listitem [ref=f147e32]: Contribute to recruiting and representing Scale's AI work externally
+            - paragraph [ref=f147e33]:
+              - strong [ref=f147e34]: What we look for
+            - list [ref=f147e35]:
+              - listitem [ref=f147e36]: 7+ years of engineering experience, with a multi-year track record owning AI/ML systems in production
+              - listitem [ref=f147e37]: Experience judging the quality of training data, selecting the right adaptation method for a given model, evaluating fine-tuning results, and balancing serving cost, latency, and quality trade-offs
+              - listitem [ref=f147e38]: Experience owning an AI-powered product end to end, including direct involvement in the AI's behaviour rather than implementing ML work scoped by another team
+              - listitem [ref=f147e39]: A track record of establishing standards that outlived the projects they were built for, such as an evaluation methodology, an MLOps practice, or an architectural pattern
+              - listitem [ref=f147e40]: Comfort operating with executive-level clients and leadership, including defending a technical position under pressure
+              - listitem [ref=f147e41]: Deep experience with regulated, sovereign, or on-premise AI deployment, including hallucination mitigation and auditability
+            - paragraph [ref=f147e42]:
+              - strong [ref=f147e43]: Where this role sits
+            - paragraph [ref=f147e44]: Your primary accountability covers production AI behaviour, its backend integration, and the evaluation required for a specific customer. Senior Full-Stack Engineers own the complete user-facing application and its infrastructure. ML Research Engineers lead novel agent architecture and the benchmark methodology used across accounts. The roles work together on agents and evaluation, with accountability set by the scope of the problem.
+            - paragraph [ref=f147e45]:
+              - strong [ref=f147e46]: The Public Sector context
+            - paragraph [ref=f147e47]: Location, travel, and vetting requirements vary by assignment. Some UK assignments require BPSS screening and may require SC or DV clearance. Requirements depend on the account and each candidate's circumstances. We discuss assignment-specific eligibility early in the hiring process.
+            - paragraph [ref=f147e48]
+          - generic [ref=f147e49]:
+            - paragraph [ref=f147e50]:
+              - strong [ref=f147e51]:
+                - emphasis [ref=f147e52]: "PLEASE NOTE:"
+              - emphasis [ref=f147e53]: Our policy requires a 90-day waiting period before reconsidering candidates for the same role. This allows us to ensure a fair and thorough evaluation of all applicants.
+            - paragraph [ref=f147e54]:
+              - strong [ref=f147e55]: "About Us:"
+            - paragraph [ref=f147e56]:
+              - emphasis [ref=f147e57]: At Scale, our mission is to develop reliable AI systems for the world's most important decisions. Our products provide the high-quality data and full-stack technologies that power the world's leading models, and help enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta,
+              - emphasis [ref=f147e58]: Ernst
+              - emphasis [ref=f147e59]
+              - emphasis [ref=f147e60]: "&"
+              - emphasis [ref=f147e61]: Young, Mayo Clinic, Time Inc., the Government of Qatar, and U.S. government agencies including the Army and Air Force. We are expanding our team to accelerate the development of AI applications.
+            - paragraph [ref=f147e62]:
+              - emphasis [ref=f147e63]: We believe that everyone should be able to bring their whole selves to work, which is why we are proud to be an inclusive and equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability status, gender identity or Veteran status.
+            - paragraph [ref=f147e64]:
+              - emphasis [ref=f147e65]: We are committed to working with and providing reasonable accommodations to applicants with physical and mental disabilities. If you need assistance and/or a reasonable accommodation in the application or recruiting process due to a disability, please contact us at accommodations@scale.com. Please see the United States Department of Labor's
+              - link [ref=f147e66] [cursor=pointer]:
+                - /url: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf
+                - emphasis [ref=f147e67]: Know Your Rights poster
+              - emphasis [ref=f147e68]: for additional information.
+            - paragraph [ref=f147e69]:
+              - emphasis [ref=f147e70]: We comply with the United States Department of Labor's
+              - emphasis [ref=f147e71]: Pay Transparency provision
+              - emphasis [ref=f147e72]: .
+            - paragraph [ref=f147e73]:
+              - emphasis [ref=f147e74]:
+                - strong [ref=f147e75]: "PLEASE NOTE:"
+                - text: We collect, retain and use personal data for our professional business purposes, including notifying you of job opportunities that may be of interest and sharing with our affiliates. We limit the personal data we collect to that which we believe is appropriate and necessary to manage applicants’ needs, provide our services, and comply with applicable laws. Any information we collect in connection with your application will be treated in accordance with our internal policies and programs designed to protect personal data. Please see our
+                - link "privacy policy" [ref=f147e76] [cursor=pointer]:
+                  - /url: https://scale.com/legal/privacy
+                - text: for additional information.
+        - generic [ref=f147e80]:
+          - paragraph [ref=f147e81]: Get new jobs like this in your inbox
+          - paragraph [ref=f147e82]: We'll email you when Scale AI posts a job like this one.
+          - link "Create alert" [ref=f147e83] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=scaleai&source=job_alert_post&variant=job_alert_post_b
+      - separator [ref=f147e84]
+      - generic [ref=f147e85]:
+        - generic [ref=f147e86]:
+          - generic [ref=f147e87]:
+            - heading "Apply for this job" [level=2] [ref=f147e89]
+            - generic [ref=f147e90]:
+              - paragraph [ref=f147e92]: "*"
+              - paragraph [ref=f147e93]: indicates a required field
+          - button "Autofill my application" [ref=f147e96] [cursor=pointer]
+        - generic [ref=f147e97]:
+          - generic [ref=f147e98]:
+            - generic [ref=f147e101]:
+              - generic [ref=f147e102]: First Name*
+              - textbox "First Name" [ref=f147e103]
+            - generic [ref=f147e106]:
+              - generic [ref=f147e107]: Last Name*
+              - textbox "Last Name" [ref=f147e108]
+            - generic [ref=f147e111]:
+              - generic [ref=f147e112]: Email*
+              - textbox "Email" [ref=f147e113]
+            - group "Phone" [ref=f147e115]:
+              - generic [ref=f147e119]:
+                - generic [ref=f147e120]: Country*
+                - generic [ref=f147e121]:
+                  - log [ref=f147e123]
+                  - generic [ref=f147e125]:
+                    - combobox "Country" [ref=f147e128]
+                    - button "Toggle flyout" [ref=f147e130] [cursor=pointer]
+                  - textbox
+              - generic [ref=f147e135]:
+                - generic [ref=f147e136]: Phone*
+                - textbox "Phone" [ref=f147e138]
+            - generic [ref=f147e139]:
+              - generic [ref=f147e141]:
+                - generic [ref=f147e142]: Location (City)*
+                - generic [ref=f147e143]:
+                  - log [ref=f147e145]
+                  - combobox "Location (City)" [ref=f147e150]
+                  - textbox
+              - button "Locate me" [ref=f147e151] [cursor=pointer]
+            - group "Resume/CV*" [ref=f147e153]:
+              - generic [ref=f147e156]:
+                - generic [ref=f147e158]:
+                  - button "Attach" [ref=f147e159] [cursor=pointer]
+                  - generic [ref=f147e160]: Attach
+                  - button "Attach" [ref=f147e161]
+                - button "Dropbox" [ref=f147e163] [cursor=pointer]
+                - button "Google Drive" [ref=f147e165] [cursor=pointer]
+                - generic [ref=f147e167]:
+                  - button "Enter manually" [ref=f147e168] [cursor=pointer]
+                  - generic [ref=f147e169]: Enter manually
+                - paragraph [ref=f147e170]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f147e172]:
+              - generic [ref=f147e175]:
+                - generic [ref=f147e177]:
+                  - button "Attach" [ref=f147e178] [cursor=pointer]
+                  - generic [ref=f147e179]: Attach
+                  - button "Attach" [ref=f147e180]
+                - button "Dropbox" [ref=f147e182] [cursor=pointer]
+                - button "Google Drive" [ref=f147e184] [cursor=pointer]
+                - generic [ref=f147e186]:
+                  - button "Enter manually" [ref=f147e187] [cursor=pointer]
+                  - generic [ref=f147e188]: Enter manually
+                - paragraph [ref=f147e189]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f147e190]:
+            - separator [ref=f147e191]
+            - generic [ref=f147e194]:
+              - generic [ref=f147e195]: LinkedIn Profile*
+              - textbox "LinkedIn Profile" [ref=f147e196]
+            - generic [ref=f147e199]:
+              - generic [ref=f147e200]: Can you meet the 3x per week in-office requirement for this role in London? This is required. *
+              - generic [ref=f147e201]:
+                - log [ref=f147e203]
+                - generic [ref=f147e205]:
+                  - generic [ref=f147e206]:
+                    - generic [ref=f147e207]: Select...
+                    - combobox "Can you meet the 3x per week in-office requirement for this role in London? This is required." [ref=f147e209]
+                  - button "Toggle flyout" [ref=f147e211] [cursor=pointer]
+                - textbox
+            - generic [ref=f147e216]:
+              - generic [ref=f147e217]: Website
+              - textbox "Website" [ref=f147e218]
+          - button "Submit application" [ref=f147e220] [cursor=pointer]
+  - contentinfo [ref=f147e221]:
+    - generic [ref=f147e222]:
+      - paragraph [ref=f147e223]: Powered by
+      - link [ref=f147e224] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f147e225]
+  - iframe [ref=f147e239]:
+    - generic [ref=f148e6]:
+      - text: protected by
+      - strong [ref=f148e7]: reCAPTCHA

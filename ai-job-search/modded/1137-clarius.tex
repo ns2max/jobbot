@@ -1,0 +1,138 @@
+% Job posting: https://clarius.com/career/co/research-development-rd/0D.17C/machine-learning-engineer/all/
+% =====================================================================
+%  CV - Nishal Stanislaus Silva, PhD
+%  Target: Clarius Mobile Health - Machine Learning Engineer (R&D, 24-month project)
+%  Location: Remote, Canada (Vancouver BC hybrid preferred)
+%  Variant: V5 (Computer Vision / Industrial)
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.05}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{Machine Learning Engineer | Industrial Inspection, IoT \& Edge Deployment}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \cvTagline}\\[1pt]
+    {\footnotesize\textit{\cvStatus}}\\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
+    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+
+Machine Learning Engineer (PhD, University of Trento) and 10+ years across industry and academia, experienced in taking ML models from research through production on real hardware. At MAS Holdings I built and deployed production computer-vision inspection for apparel manufacturing at scale, feeding camera, sensor and IoT streams into live workflows and cutting inspection time 99.5\%. My doctoral work saw development of a real-time detector with 14 ms  inference a Raspberry Pi 4 at 30\% CPU, 0.76 F1. Deep experience in optimizing model performance and inference speed for deployment. My closest health work is a COVID-19 remote-vitals computer-vision device deployed across hospital wards to reduce healthcare workers exposure.
+
+\section*{Core Competencies}
+
+\textbf{Deep Learning \& Computer Vision:} deep learning for vision and sensor data, production OpenCV inspection pipelines, template and feature matching, image registration and geometric warping, OCR and layout segmentation, CNN and sequence architectures (RNN, LSTM, GRU), similarity-based and open-set matching\\
+\textbf{ML Engineering:} research-to-production model delivery, training and evaluation under domain shift, automated model retraining, evaluation and monitoring, failure diagnosis and root-cause analysis, benchmark and dataset design, statistical validation, metrics tied to operational outcomes, TensorFlow/Keras, PyTorch, scikit-learn\\
+\textbf{Systems \& Deployment:} model-performance optimization, real-time systems, memory and CPU profiling, embedded Linux, C++ real-time engines, ML data pipelines, version control, testing and code review, ML technical-debt reduction
+
+\section*{Technical Stack}
+
+\textbf{Languages:} Python (with Unix/Linux), C++, C, JavaScript/TypeScript, SQL, MATLAB, Shell\\
+\textbf{ML \& AI:} TensorFlow, Keras, PyTorch, scikit-learn, NumPy, Pandas, SciPy; RNN/CNN, embedding and similarity matching, VAE, diffusion; model compression, quantization, ONNX, TFLite; latency profiling\\
+\textbf{Computer Vision:} OpenCV, template and feature matching, OCR, image registration and warping, corner detection, explainable overlays, industrial and microscopic cameras\\
+\textbf{Data \& Dev:} AWS (EC2, S3, ECS, MWAA, RDS), ETL and real-time ingestion pipelines, Docker, Airflow, Jenkins, Git, Linux/UNIX, pytest, CI/CD, REST APIs; Kubernetes
+
+\section*{Education}
+\textbf{Ph.D - Information Engineering and Computer Science} \textit{\small{ - University of Trento, Italy}} \hfill \textit{Jan 2025}\\[2pt]
+% \noindent\textit{\small Thesis: Embedded Real-time Musical Pattern Detection for Smart Musical Instruments}\\[3pt]
+\noindent\textbf{M.Sc - Telecommunication and Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[2pt]
+\noindent\textbf{B.Eng (Hons) - Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+\section*{Professional Experience}
+
+\begin{cvrole}{Independent Machine Learning Researcher}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+    \item Researching foundation model based generation for low-training data regimes.
+    \item Released Nebula, an open-source C++ feature extraction library, and four public benchmark datasets on Zenodo used for evaluating real-time pattern detection systems. 
+\end{cvrole}
+
+
+\newpage
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Owned full ML pipelines for streaming audio and IMU/gesture data: acquisition, feature engineering, data labeling, training and evaluation under domain shift, edge deployment on Raspberry Pi 4 with production monitoring; EU Horizon EIC Pathfinder project MUSMET.
+    \item Delivered real-time inference at 14 ms and F1 0.76; designed the frozen-protocol benchmark suites and ablations that quantified the accuracy, latency and CPU trade-offs.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University (IDMIL / CIRMMT)}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Fused inertial (IMU) and audio streams through a stacked deep-learning and hierarchical finite-state machine to develop a multimodal pattern detection system; profiled compute and power for real-time feasibility.
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item Designed and deployed SQL and Python anomaly-detection scoring services for financial forensics, compliance monitoring and risk detection on large structured enterprise datasets.
+\end{cvrole}
+
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Deployed end-to-end computer-vision and sensor systems for apparel manufacturing at scale, taking model-based inspection from prototype to production on the factory floor; operational efficiency improved by up to 300\%.
+    \item Shipped automated QC pipelines (OpenCV template and feature matching, conveyor with PLC reject); inspection time cut 99.5\% with a human-in-the-loop path for borderline cases.
+    \item Built loom-side fabric defect detection with a microscopic camera array; cut operator headcount 50\%.
+    \item Delivered the Promptly on-demand garment-printing system: designed the camera-to-warp geometry-alignment algorithm; now a Twinery/MAS commercial product across four countries.
+    \item Built real-time ingestion and ETL for high-frequency IoT and operational time-series across distributed sites; ran C++/Python inference on embedded hardware; mentored engineers and delivered group-wide CV training.
+\end{cvrole}
+
+
+
+\section*{Selected Projects \footnotesize {\normalfont{(full portfolio: \href{https://nishal.xyz/research}{\textit{nishal.xyz/research}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{COVID-19 remote vitals device:} computer-vision system digitizing patient vitals into a unified dashboard, deployed across hospitals for remote monitoring; recognized by the Government Medical Officers' Association of Sri Lanka.
+    \item \textbf{Real-time audio pattern detection:} MFCC front end into a stacked RNN on 30 ms windows; Raspberry Pi 4 at 14 ms, 31.4\% CPU, F1 0.76 against a DTW baseline at 1038 ms.
+    \item \textbf{SSIM-based training-free detection:} four-attribute representation with bicubic resizing for variable length; 95\% detection across human, synthetic and JKUPDD sets with no training data.
+    \item \textbf{Tech-pack digitization and lace archive (MAS, Noyon Dentelle):} pre-LLM OCR and layout segmentation of physical blueprints; flatbed and microscopic capture with context-aware ERP search, still in production use.
+
+    
+    
+    \item \textbf{Open benchmark datasets:} four open-access datasets for pattern detection, 9,800+ samples from 70+ contributors, published on Zenodo with frozen evaluation protocols.
+\end{itemize}
+
+\enlargethispage{3\baselineskip}
+\vspace{-0.5em}
+\section*{Publications \& Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item 10+ peer-reviewed papers (JAES, IEEE, ACM) {\normalfont{Complete publications portfolio: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}})}}.
+    \item MIDI Innovation Awards 2023 finalist.
+    
+    % \item Released four open-access Zenodo datasets for evaluating pattern detection methods.
+    % \item Released Nebula, a C++17 feature-extraction library with per-feature ARM latency benchmarks.
+    \item Currently researching foundation model based generation for low-training data regimes.
+    % \item Silva, N. \& Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. \textit{J. Audio Eng. Soc.} 74(3).
+    % \item 10+ peer-reviewed papers (JAES, IEEE IS\textsuperscript{2}, IEEE I3DA, ACM Audio Mostly, DAFx, IEEE Asilomar); four open-access Zenodo datasets (9,800+ recordings, 70+ musicians); MIDI Innovation Awards 2023 Finalist.
+    \item Released Nebula, a C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks.
+\end{itemize}
+
+\end{document}

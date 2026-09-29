@@ -1,0 +1,122 @@
+- generic [active] [ref=f639e1]:
+  - link "Skip to main content" [ref=f639e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f639e4]:
+    - link "Français" [ref=f639e8] [cursor=pointer]:
+      - /url: https://www.academicwork.ca/lang/fr
+    - generic [ref=f639e9]:
+      - link [ref=f639e10] [cursor=pointer]:
+        - /url: /
+        - img "AcademicWork.ca" [ref=f639e11]
+      - paragraph [ref=f639e12]: CAUT’s online source for professionals looking for a job in higher education or trying to fill a position.
+  - navigation [ref=f639e13]:
+    - list [ref=f639e15]:
+      - listitem [ref=f639e16]:
+        - link "Post a Job" [ref=f639e17] [cursor=pointer]:
+          - /url: https://www.academicwork.ca/jobs/create
+      - listitem [ref=f639e18]:
+        - link "Post a Banner" [ref=f639e19] [cursor=pointer]:
+          - /url: https://www.academicwork.ca/ads/create
+      - listitem [ref=f639e20]:
+        - link "Contact" [ref=f639e21] [cursor=pointer]:
+          - /url: https://www.academicwork.ca/contact
+  - main [ref=f639e23]:
+    - generic [ref=f639e24]:
+      - generic [ref=f639e25]:
+        - link "« Back" [ref=f639e26] [cursor=pointer]:
+          - /url: https://www.academicwork.ca
+        - generic [ref=f639e27]:
+          - generic [ref=f639e28]:
+            - text: "Share:"
+            - link "Share via Twitter (opens in new window)" [ref=f639e29] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?text=Associate+Professor+or+Professor%2C+Artificial+Intelligence+via+%40CAUT_ACPPU&url=https%3A%2F%2Fwww.academicwork.ca%2Fjobs%2Fassociate-professor-or-professor-artificial-intelligence-university-of-toronto
+              - generic [ref=f639e30]: 
+            - link "Share via Facebook (opens in new window)" [ref=f639e32] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?display=popup&redirect_uri=http%3A%2F%2Fwww.facebook.com&u=https%3A%2F%2Fwww.academicwork.ca%2Fjobs%2Fassociate-professor-or-professor-artificial-intelligence-university-of-toronto&t=Associate+Professor+or+Professor%2C+Artificial+Intelligence
+              - generic [ref=f639e33]: 
+            - link "Share via LinkedIn (opens in new window)" [ref=f639e35] [cursor=pointer]:
+              - /url: https://www.linkedin.com/shareArticle?mini=1&url=https%3A%2F%2Fwww.academicwork.ca%2Fjobs%2Fassociate-professor-or-professor-artificial-intelligence-university-of-toronto&title=Associate+Professor+or+Professor%2C+Artificial+Intelligence&summary=
+              - generic [ref=f639e36]: 
+            - link "Share via E-Mail (opens in new window)" [ref=f639e38] [cursor=pointer]:
+              - /url: mailto:?subject=Associate%20Professor%20or%20Professor%2C%20Artificial%20Intelligence&body=https%3A%2F%2Fwww.academicwork.ca%2Fjobs%2Fassociate-professor-or-professor-artificial-intelligence-university-of-toronto
+              - generic [ref=f639e39]: 
+          - text: "|"
+          - link "Print" [ref=f639e41] [cursor=pointer]:
+            - /url: "#"
+      - article [ref=f639e42]:
+        - heading "Associate Professor or Professor, Artificial Intelligence" [level=2] [ref=f639e43]
+        - heading "University of Toronto" [level=3] [ref=f639e44]
+        - generic [ref=f639e46]:
+          - text: "Posted:"
+          - strong [ref=f639e47]: June 29, 2026
+        - generic [ref=f639e48]:
+          - paragraph [ref=f639e49]: The Department of Computer Science in the Faculty of Arts & Science at the University of Toronto invites applications for a full-time tenure stream position in the area of Artificial Intelligence. The appointment will be at the rank of Associate Professor or Professor, with an anticipated start date of July 1, 2027.
+          - paragraph [ref=f639e50]: The successful candidate will also be eligible to be named the Hinton Chair in Artificial Intelligence. This endowed chair appointment would be for a five-year term and is renewable following a favourable review.
+          - paragraph [ref=f639e51]:
+            - text: Applicants must have earned a PhD degree in Computer Science or a related area with a clearly demonstrated record of excellence in research and teaching. We seek candidates whose research and teaching interests complement and enhance our existing
+            - link "departmental strengths" [ref=f639e52] [cursor=pointer]:
+              - /url: https://web.cs.toronto.edu/people/faculty-directory
+            - text: . The University of Toronto is an international leader in Computer Science research and education. Candidates will have an established international reputation and will be expected to sustain and lead innovative and independent research, to maintain an outstanding, competitive, and externally funded research program; to contribute to the enrichment of both undergraduate and graduate programs in the department; and to participate in service and leadership within the academic community.
+          - paragraph [ref=f639e53]: Candidates must provide evidence of excellence in research which can be demonstrated by a record of sustained high-impact contributions and publications in top-ranked and field relevant journals, the submitted research statement, presentations at significant conferences, awards and accolades, and other noteworthy activities that contribute to the visibility and prominence of the discipline, as well as strong endorsements by referees of top international stature.
+          - paragraph [ref=f639e54]: Evidence of excellence in teaching at the undergraduate and graduate levels will be provided through teaching accomplishments, the teaching dossier submitted as part of the application (with required materials outlined below), as well as strong letters of reference. Professional or lived experiences that enhance the ability to teach a diverse student body are highly valued.
+          - paragraph [ref=f639e55]:
+            - text: Equity, diversity and inclusion are essential to academic excellence as articulated in the University of Toronto’s
+            - link "Statement on Equity, Diversity and Excellence" [ref=f639e56] [cursor=pointer]:
+              - /url: https://governingcouncil.utoronto.ca/secretariat/policies/equity-diversity-and-excellence-statement-december-14-2006
+            - text: . We seek candidates who share these values and who demonstrate throughout the application materials their commitment and efforts to advance equity, diversity, inclusion and the promotion of a respectful and collegial learning and working environment.
+          - paragraph [ref=f639e57]: The salary will be commensurate with qualifications and experience. The salary range of this position exceeds $200,000 CAD per annum.
+          - paragraph [ref=f639e58]:
+            - text: The University of Toronto offers the opportunity to teach, conduct research, and live in one of the most diverse metropolitan areas in the world. For more information about the Department of Computer Science see our website at
+            - link "https://www.cs.toronto.edu" [ref=f639e59] [cursor=pointer]:
+              - /url: https://www.cs.toronto.edu
+            - text: . If you have any questions about the position, please contact
+            - link "recruit@cs.toronto.edu" [ref=f639e60] [cursor=pointer]:
+              - /url: mailto:recruit@cs.toronto.edu
+            - text: .
+          - paragraph [ref=f639e61]:
+            - text: Application materials for the position must be submitted online through AcademicJobsOnline
+            - link "https://academicjobsonline.org/ajo/jobs/32102" [ref=f639e62] [cursor=pointer]:
+              - /url: https://academicjobsonline.org/ajo/jobs/32102
+            - text: . The required materials are the candidate's current curriculum vitae, list of publications, research statement outlining current and future research interests, a teaching dossier that includes a teaching statement, sample course materials and teaching evaluations, statement of contributions to equity and diversity, and three to five (3–5) current reference letters (on letterhead, signed, dated and scanned) uploaded to AcademicJobsOnline directly by the writers.
+          - paragraph [ref=f639e63]: Review of applications will begin on August 6, 2026 and applicants should endeavor to have all materials including reference letters submitted by then; however, applications will be accepted until the position is filled. Only complete applications will be considered.
+          - paragraph [ref=f639e64]:
+            - text: The University of Toronto has adopted the
+            - link "AAU Principles on Preventing Sexual Harassment in Academia" [ref=f639e65] [cursor=pointer]:
+              - /url: https://www.aau.edu/key-issues/campus-climate-and-safety/aau-principles-preventing-sexual-harassment-academia
+            - text: ", including the requirement that applicants release personnel information from prior employers regarding sexual misconduct. Full details and requirements can be found"
+            - link "here" [ref=f639e66] [cursor=pointer]:
+              - /url: https://memos.provost.utoronto.ca/implementation-of-reference-check-process-to-discourage-passing-the-harasser-pdadc-17/
+            - text: .
+          - paragraph [ref=f639e67]:
+            - strong [ref=f639e68]: "Caution:"
+            - text: This ad is “posted only” to the U of T faculty job board. Please see the information above for the application instructions. Applications submitted via the U of T platform will NOT be considered for this position.
+          - paragraph [ref=f639e69]: All qualified candidates are encouraged to apply; however, Canadians and permanent residents will be given priority.
+          - paragraph [ref=f639e70]:
+            - strong [ref=f639e71]: Diversity Statement
+            - text: The University of Toronto embraces Diversity and is building a culture of belonging that increases our capacity to effectively address and serve the interests of our global community. We strongly encourage applications from Indigenous Peoples, Black and racialized persons, women, persons with disabilities, and people of diverse sexual and gender identities. We value applicants who have demonstrated a commitment to equity, diversity and inclusion and recognize that diverse perspectives, experiences, and expertise are essential to strengthening our academic mission.
+          - paragraph [ref=f639e72]:
+            - strong [ref=f639e73]: Accessibility Statement
+            - text: The University strives to be an equitable and inclusive community, and proactively seeks to increase diversity among its community members. Our values regarding equity and diversity are linked with our unwavering commitment to excellence in the pursuit of our academic mission.The University is committed to the principles of the Accessibility for Ontarians with Disabilities Act (AODA). As such, we strive to make our recruitment, assessment and selection processes as accessible as possible and provide accommodations as required for applicants with disabilities.If you require any accommodations at any point during the application and hiring process, please contact
+            - link "uoft.careers@utoronto.ca" [ref=f639e74] [cursor=pointer]:
+              - /url: mailto:uoft.careers@utoronto.ca
+            - text: .
+  - contentinfo [ref=f639e75]:
+    - link "▲ Back to top" [ref=f639e79] [cursor=pointer]:
+      - /url: "#top"
+    - generic [ref=f639e81]:
+      - generic [ref=f639e82]:
+        - link "Job Seeker Notification" [ref=f639e83] [cursor=pointer]:
+          - /url: https://www.academicwork.ca/search/create
+        - link "CAUT.ca" [ref=f639e85] [cursor=pointer]:
+          - /url: http://caut.ca/
+      - paragraph [ref=f639e86]:
+        - text: ©
+        - strong [ref=f639e87]: 2026 Canadian Association of University Teachers
+      - paragraph [ref=f639e88]: 2705 Queensview Drive, Ottawa (Ontario) Canada K2B 8K2 | Tel. (613) 820-2270 | Fax (613) 820-7244
+      - paragraph [ref=f639e89]:
+        - link "ads@caut.ca" [ref=f639e90] [cursor=pointer]:
+          - /url: mailto:ads@caut.ca
+        - text: All rights reserved.
+        - link "Privacy policy" [ref=f639e91] [cursor=pointer]:
+          - /url: https://www.caut.ca/content/privacy-policy
+        - text: .

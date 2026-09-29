@@ -1,0 +1,288 @@
+- generic [active] [ref=f119e1]:
+  - main [ref=f119e2]:
+    - generic [ref=f119e3]:
+      - img "Glean Logo" [ref=f119e5]
+      - generic [ref=f119e6]:
+        - link "Back to jobs" [ref=f119e7] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/gleanwork
+        - generic [ref=f119e11]:
+          - generic [ref=f119e12]:
+            - heading "Machine Learning Engineer, Assistant Quality" [level=1] [ref=f119e13]
+            - generic [ref=f119e14]: San Francisco, CA
+          - button "Apply" [ref=f119e18] [cursor=pointer]
+        - generic [ref=f119e19]:
+          - generic [ref=f119e20]:
+            - strong [ref=f119e23]: "About Glean:"
+            - generic [ref=f119e25]: Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles.
+            - generic [ref=f119e27]: "At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilities - AI agents that automate real work across teams by accessing the industry’s broadest range of data: enterprise and world, structured and unstructured, historical and real-time. The result: measurable business impact through faster onboarding, hours of productivity gained each week, and smarter, safer decisions at every level."
+            - generic [ref=f119e29]: Recognized by Fast Company as one of the World’s Most Innovative Companies (Top 10, 2025), by CNBC’s Disruptor 50, Bloomberg’s AI Startups to Watch (2026), Forbes AI 50, and Gartner’s Tech Innovators in Agentic AI, Glean continues to accelerate its global impact. With customers across 50+ industries and 1,000+ employees in more than 25 countries, we’re helping the world’s largest organizations make every employee AI-fluent, and turning the superintelligent enterprise from concept into reality.
+            - generic [ref=f119e31]: If you’re excited to shape how the world works, you’ll help build systems used daily across Microsoft Teams, Zoom, ServiceNow, Zendesk, GitHub, and many more - deeply embedded where people get things done. You’ll ship agentic capabilities on an open, extensible stack, with the craft and care required for enterprise trust, as we bring Work AI to every employee, in every company.
+          - generic [ref=f119e33]:
+            - strong [ref=f119e37]: "About the Role:"
+            - generic [ref=f119e39]:
+              - text: Glean is seeking a Machine Learning Engineer to improve the quality of our AI Assistant and autonomous agents. This role sits at the intersection of production machine learning, LLM-powered systems, and product engineering, with a focus on building, evaluating, and iterating on assistant experiences that are useful, reliable, and grounded in real enterprise workflows.
+              - paragraph [ref=f119e40]: You will work on applied problems across agent quality, evaluation, personalization, retrieval, and orchestration. The ideal person is excited by shipping production systems, not pure research, and wants to help shape how Glean’s assistant gets better over time through stronger signals, tighter feedback loops, and better end-to-end execution quality.
+            - strong [ref=f119e44]: "You will:"
+            - list [ref=f119e46]:
+              - listitem [ref=f119e47]: Build and improve ML and LLM-powered systems that raise the quality of Glean’s AI Assistant and autonomous agents across real user workflows.
+              - listitem [ref=f119e48]: Design evaluation, benchmarking, and monitoring loops to measure assistant quality, model quality, and end-to-end system performance.
+              - listitem [ref=f119e49]: Develop and iterate on signals, prompts, workflows, and model-driven logic that improve reasoning, planning, personalization, and task completion quality.
+              - listitem [ref=f119e50]: Work across areas such as RAG, semantic search, recommendation-style systems, post-training or reinforcement learning, and agent orchestration where they materially improve product outcomes.
+              - listitem [ref=f119e51]: Partner closely with product, design, and engineering teammates to understand customer pain points and ship high-quality production systems quickly.
+              - listitem [ref=f119e52]: Contribute to the data and ML infrastructure needed to support robust experimentation, offline and online evaluation, and continuous model improvement.
+            - strong [ref=f119e55]: "About you:"
+            - list [ref=f119e57]:
+              - listitem [ref=f119e58]: 2+ years of industry experience in machine learning, applied AI, or software engineering with significant ML ownership.
+              - listitem [ref=f119e59]: Strong hands-on coding ability and a track record of shipping production systems, not just prototypes or research projects.
+              - listitem [ref=f119e60]: "Experience in one or more of the following areas: LLM applications, NLP, search, retrieval, recommendations, evaluation frameworks, agent systems, or personalization."
+              - listitem [ref=f119e61]: Comfort working across both modeling and product engineering details, including experimentation, quality measurement, and production iteration.
+              - listitem [ref=f119e62]: Proficiency in common ML tooling and strong software engineering fundamentals in languages such as Python, Go, Java, or C++.
+              - listitem [ref=f119e63]: A pragmatic, product-minded approach. You know when to use sophisticated ML techniques and when simple, reliable systems are the better answer.
+              - listitem [ref=f119e64]: A proactive, low-ego working style and excitement about learning quickly in a high-velocity environment.
+            - strong [ref=f119e67]: "Location:"
+            - list [ref=f119e69]:
+              - listitem [ref=f119e70]: This role is hybrid (4 days a week in our San Francisco office)
+            - strong [ref=f119e73]: "Compensation & Benefits:"
+            - generic [ref=f119e75]: The standard base salary range for this position is $180,000 - $205,000 annually. Compensation offered will be determined by factors such as location, level, job-related knowledge, skills, and experience. Certain roles may be eligible for variable compensation, equity, and benefits.
+            - generic [ref=f119e77]: We offer a comprehensive benefits package including competitive compensation, Medical, Vision, and Dental coverage, generous time-off policy, and the opportunity to contribute to your 401k plan to support your long-term goals. When you join, you'll receive a home office improvement stipend, as well as an annual education and wellness stipends to support your growth and wellbeing. We foster a vibrant company culture through regular events, and provide healthy lunches daily to keep you fueled and focused.
+            - generic [ref=f119e79]: We’re committed to building and sustaining a diverse, inclusive workplace. We strive to attract and retain people with a wide range of backgrounds, experiences, and perspectives, and we do not discriminate on the basis of gender, ethnicity, sexual orientation, religion, civil or family status, age, disability, or race.
+            - generic [ref=f119e82]: "#LI-HYBRID"
+          - generic [ref=f119e84]:
+            - strong [ref=f119e88]: "AI-First Mindset at Glean:"
+            - generic [ref=f119e91]:
+              - text: At Glean, AI fluency is core to how we work and we're committed to ensuring every new hire feels confident integrating AI into their everyday work.
+              - strong [ref=f119e92]: As part of the interview process, you'll complete a brief AI-focused exercise or discussion so we can understand how you think about, design, and use AI to drive impact in your role.
+              - text: Feel free to reference any tools, platforms, or workflows you use today — prior Glean experience isn't required.
+            - strong [ref=f119e96]: "Global Data Privacy Notice for Job Candidates and Applicants:"
+            - generic [ref=f119e99]:
+              - text: Depending on your location, the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), or other privacy laws may regulate the way we manage the data of job applicants. Our full notice outlining how data will be processed as part of the application procedure for applicable locations is available in our
+              - link [ref=f119e100] [cursor=pointer]:
+                - /url: https://www.glean.com/privacy
+                - strong [ref=f119e101]: Privacy Policy
+              - text: . By submitting your application, you are agreeing to our use and processing of your data as required. US applicants and their applications are subject to arbitration of disputes as outlined in our
+              - link [ref=f119e102] [cursor=pointer]:
+                - /url: https://www.glean.com/arbitrationagreement
+                - strong [ref=f119e103]: Applicant Arbitration Agreement
+              - text: .
+            - generic [ref=f119e105]:
+              - text: By clicking “Submit Application,” I confirm that I have read the Global Data Privacy Notice and the
+              - link [ref=f119e106] [cursor=pointer]:
+                - /url: https://www.glean.com/arbitrationagreement
+                - strong [ref=f119e107]: Applicant Arbitration Agreement
+              - text: ", and I agree to the terms."
+        - generic [ref=f119e111]:
+          - paragraph [ref=f119e112]: Create a Job Alert
+          - paragraph [ref=f119e113]: Interested in building your career at Glean? Get future opportunities sent straight to your email.
+          - link "Create alert" [ref=f119e114] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=gleanwork&source=job_alert_post&variant=job_alert_post_a
+      - separator [ref=f119e115]
+      - generic [ref=f119e116]:
+        - generic [ref=f119e117]:
+          - generic [ref=f119e118]:
+            - heading "Apply for this job" [level=2] [ref=f119e120]
+            - generic [ref=f119e121]:
+              - paragraph [ref=f119e123]: "*"
+              - paragraph [ref=f119e124]: indicates a required field
+          - button "Autofill my application" [ref=f119e127] [cursor=pointer]
+        - generic [ref=f119e128]:
+          - generic [ref=f119e129]:
+            - generic [ref=f119e132]:
+              - generic [ref=f119e133]: First Name*
+              - textbox "First Name" [ref=f119e134]
+            - generic [ref=f119e137]:
+              - generic [ref=f119e138]: Last Name*
+              - textbox "Last Name" [ref=f119e139]
+            - generic [ref=f119e142]:
+              - generic [ref=f119e143]: Email*
+              - textbox "Email" [ref=f119e144]
+            - group "Phone" [ref=f119e146]:
+              - generic [ref=f119e150]:
+                - generic [ref=f119e151]: Country*
+                - generic [ref=f119e152]:
+                  - log [ref=f119e154]
+                  - generic [ref=f119e156]:
+                    - combobox "Country" [ref=f119e159]
+                    - button "Toggle flyout" [ref=f119e161] [cursor=pointer]
+                  - textbox
+              - generic [ref=f119e166]:
+                - generic [ref=f119e167]: Phone*
+                - textbox "Phone" [ref=f119e169]
+            - group "Resume/CV*" [ref=f119e171]:
+              - generic [ref=f119e174]:
+                - generic [ref=f119e176]:
+                  - button "Attach" [ref=f119e177] [cursor=pointer]
+                  - generic [ref=f119e178]: Attach
+                  - button "Attach" [ref=f119e179]
+                - button "Dropbox" [ref=f119e181] [cursor=pointer]
+                - button "Google Drive" [ref=f119e183] [cursor=pointer]
+                - generic [ref=f119e185]:
+                  - button "Enter manually" [ref=f119e186] [cursor=pointer]
+                  - generic [ref=f119e187]: Enter manually
+                - paragraph [ref=f119e188]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f119e190]:
+              - generic [ref=f119e193]:
+                - generic [ref=f119e195]:
+                  - button "Attach" [ref=f119e196] [cursor=pointer]
+                  - generic [ref=f119e197]: Attach
+                  - button "Attach" [ref=f119e198]
+                - button "Dropbox" [ref=f119e200] [cursor=pointer]
+                - button "Google Drive" [ref=f119e202] [cursor=pointer]
+                - generic [ref=f119e204]:
+                  - button "Enter manually" [ref=f119e205] [cursor=pointer]
+                  - generic [ref=f119e206]: Enter manually
+                - paragraph [ref=f119e207]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f119e208]:
+            - separator [ref=f119e209]
+            - generic [ref=f119e212]:
+              - generic [ref=f119e213]: How did you hear about Glean?*
+              - generic [ref=f119e214]:
+                - log [ref=f119e216]
+                - generic [ref=f119e218]:
+                  - generic [ref=f119e219]:
+                    - generic [ref=f119e220]: Select...
+                    - combobox "How did you hear about Glean?" [ref=f119e222]
+                  - button "Toggle flyout" [ref=f119e224] [cursor=pointer]
+                - textbox
+            - generic [ref=f119e229]:
+              - generic [ref=f119e230]: LinkedIn Profile*
+              - textbox "LinkedIn Profile" [ref=f119e231]
+            - generic [ref=f119e234]:
+              - generic [ref=f119e235]: Do you know anyone currently at Glean?*
+              - textbox "Do you know anyone currently at Glean?" [ref=f119e236]
+            - generic [ref=f119e237]:
+              - generic [ref=f119e239]:
+                - generic [ref=f119e240]: Are you willing and able to commit to the hybrid policy if hired?*
+                - generic [ref=f119e241]:
+                  - log [ref=f119e243]
+                  - generic [ref=f119e245]:
+                    - generic [ref=f119e246]:
+                      - generic [ref=f119e247]: Select...
+                      - combobox "Are you willing and able to commit to the hybrid policy if hired?" [ref=f119e249]
+                    - button "Toggle flyout" [ref=f119e251] [cursor=pointer]
+                  - textbox
+              - paragraph [ref=f119e256]: We work out of the Palo Alto office on Monday, Wednesday, and Friday.
+            - generic [ref=f119e259]:
+              - generic [ref=f119e260]: Please input the total years of experience you have that are relevant for this role.*
+              - textbox "Please input the total years of experience you have that are relevant for this role." [ref=f119e261]
+            - generic [ref=f119e264]:
+              - generic [ref=f119e265]: Do you require sponsorship?
+              - generic [ref=f119e266]:
+                - log [ref=f119e268]
+                - generic [ref=f119e270]:
+                  - generic [ref=f119e271]:
+                    - generic [ref=f119e272]: Select...
+                    - combobox "Do you require sponsorship?" [ref=f119e274]
+                  - button "Toggle flyout" [ref=f119e276] [cursor=pointer]
+            - generic [ref=f119e281]:
+              - generic [ref=f119e282]: Website
+              - textbox "Website" [ref=f119e283]
+            - generic [ref=f119e286]:
+              - generic [ref=f119e287]: What AI tools are you currently using today and how are you using them?*
+              - textbox "What AI tools are you currently using today and how are you using them?" [ref=f119e288]
+          - generic [ref=f119e289]:
+            - separator [ref=f119e290]
+            - generic [ref=f119e291]:
+              - heading "Voluntary Self-Identification" [level=2] [ref=f119e292]
+              - paragraph [ref=f119e293]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+              - paragraph [ref=f119e294]: As set forth in Glean’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+            - generic [ref=f119e297]:
+              - generic [ref=f119e298]: Gender
+              - generic [ref=f119e299]:
+                - log [ref=f119e301]
+                - generic [ref=f119e303]:
+                  - generic [ref=f119e304]:
+                    - generic [ref=f119e305]: Select...
+                    - combobox "Gender" [ref=f119e307]
+                  - button "Toggle flyout" [ref=f119e309] [cursor=pointer]
+            - generic [ref=f119e312]:
+              - generic [ref=f119e314]:
+                - generic [ref=f119e315]: Are you Hispanic/Latino?
+                - generic [ref=f119e316]:
+                  - log [ref=f119e318]
+                  - generic [ref=f119e320]:
+                    - generic [ref=f119e321]:
+                      - generic [ref=f119e322]: Select...
+                      - combobox "Are you Hispanic/Latino?" [ref=f119e324]
+                    - button "Toggle flyout" [ref=f119e326] [cursor=pointer]
+              - link "Race & Ethnicity Definitions" [ref=f119e329] [cursor=pointer]:
+                - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+            - generic [ref=f119e330]:
+              - paragraph [ref=f119e331]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+              - paragraph [ref=f119e332]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+              - paragraph [ref=f119e333]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+              - paragraph [ref=f119e334]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+              - paragraph [ref=f119e335]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+            - generic [ref=f119e338]:
+              - generic [ref=f119e339]: Veteran Status
+              - generic [ref=f119e340]:
+                - log [ref=f119e342]
+                - generic [ref=f119e344]:
+                  - generic [ref=f119e345]:
+                    - generic [ref=f119e346]: Select...
+                    - combobox "Veteran Status" [ref=f119e348]
+                  - button "Toggle flyout" [ref=f119e350] [cursor=pointer]
+            - separator [ref=f119e353]
+            - generic [ref=f119e354]:
+              - heading "Voluntary Self-Identification of Disability" [level=2] [ref=f119e355]
+              - generic [ref=f119e356]:
+                - generic [ref=f119e357]:
+                  - generic [ref=f119e358]: Form CC-305
+                  - generic [ref=f119e359]: Page 1 of 1
+                - generic [ref=f119e360]:
+                  - generic [ref=f119e361]: OMB Control Number 1250-0005
+                  - generic [ref=f119e362]: Expires 07/31/2029
+              - strong [ref=f119e363]: Why are you being asked to complete this form?
+              - paragraph [ref=f119e364]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+              - paragraph [ref=f119e365]:
+                - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                - link "www.dol.gov/ofccp" [ref=f119e366] [cursor=pointer]:
+                  - /url: https://www.dol.gov/ofccp
+                - text: .
+              - strong [ref=f119e367]: How do you know if you have a disability?
+              - paragraph [ref=f119e368]:
+                - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+                - strong [ref=f119e369]: "Disabilities include, but are not limited to:"
+              - list [ref=f119e370]:
+                - listitem [ref=f119e371]: Alcohol or other substance use disorder (not currently using drugs illegally)
+                - listitem [ref=f119e372]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+                - listitem [ref=f119e373]: Blind or low vision
+                - listitem [ref=f119e374]: Cancer (past or present)
+                - listitem [ref=f119e375]: Cardiovascular or heart disease
+                - listitem [ref=f119e376]: Celiac disease
+                - listitem [ref=f119e377]: Cerebral palsy
+                - listitem [ref=f119e378]: Deaf or serious difficulty hearing
+                - listitem [ref=f119e379]: Diabetes
+                - listitem [ref=f119e380]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+                - listitem [ref=f119e381]: Epilepsy or other seizure disorder
+                - listitem [ref=f119e382]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+                - listitem [ref=f119e383]: Intellectual or developmental disability
+                - listitem [ref=f119e384]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+                - listitem [ref=f119e385]: Missing limbs or partially missing limbs
+                - listitem [ref=f119e386]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+                - listitem [ref=f119e387]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+                - listitem [ref=f119e388]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+                - listitem [ref=f119e389]: Partial or complete paralysis (any cause)
+                - listitem [ref=f119e390]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+                - listitem [ref=f119e391]: Short stature (dwarfism)
+                - listitem [ref=f119e392]: Traumatic brain injury
+            - generic [ref=f119e395]:
+              - generic [ref=f119e396]: Disability Status
+              - generic [ref=f119e397]:
+                - log [ref=f119e399]
+                - generic [ref=f119e401]:
+                  - generic [ref=f119e402]:
+                    - generic [ref=f119e403]: Select...
+                    - combobox "Disability Status" [ref=f119e405]
+                  - button "Toggle flyout" [ref=f119e407] [cursor=pointer]
+            - paragraph [ref=f119e411]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+          - button "Submit application" [ref=f119e413] [cursor=pointer]
+  - contentinfo [ref=f119e414]:
+    - generic [ref=f119e415]:
+      - paragraph [ref=f119e416]: Powered by
+      - link [ref=f119e417] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f119e418]
+  - iframe [ref=f119e432]:
+    - generic [ref=f120e6]:
+      - text: protected by
+      - strong [ref=f120e7]: reCAPTCHA

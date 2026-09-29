@@ -1,0 +1,333 @@
+- generic [active] [ref=f799e1]:
+  - link "Skip to content" [ref=f799e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=f799e3]:
+    - banner [ref=f799e4]:
+      - generic [ref=f799e7]:
+        - figure [ref=f799e8]:
+          - link [ref=f799e9] [cursor=pointer]:
+            - /url: https://employmenthero.com/en-ca/
+            - img "Employment Hero Canada" [ref=f799e10]
+        - generic [ref=f799e12]:
+          - generic [ref=f799e13] [cursor=pointer]
+          - generic [ref=f799e17]:
+            - generic [ref=f799e18] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - link "Employee Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Business HR Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Business Payroll Login":
+                      - /url: https://employmenthero.yourpayroll.com.au/
+                - generic:
+                  - generic:
+                    - link "Business Recruitment Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Jobseeker Login (Jobs Board)":
+                      - /url: https://jobs.employmenthero.com/AU/sign_in?callbackUrl=https%3A%2F%2Fjobs.employmenthero.com%2FAU%2F
+                - generic:
+                  - generic:
+                    - link "Humi by Employment Hero Login":
+                      - /url: https://hr.humi.ca/login
+          - img "Group" [ref=f799e25] [cursor=pointer]
+    - generic [ref=f799e34]:
+      - generic [ref=f799e35]:
+        - button "Share" [ref=f799e36] [cursor=pointer]
+        - button "Report this job" [ref=f799e41] [cursor=pointer]
+        - button "Refer a friend" [ref=f799e42] [cursor=pointer]
+      - navigation "breadcrumb" [ref=f799e44]:
+        - list [ref=f799e45]:
+          - listitem [ref=f799e46]:
+            - link "Jobs" [ref=f799e47] [cursor=pointer]:
+              - /url: https://employmenthero.com/en-ca/jobs/
+          - listitem [ref=f799e49]:
+            - link "Science & Research" [ref=f799e50] [cursor=pointer]:
+              - /url: https://employmenthero.com/en-ca/jobs/science-research/
+          - listitem [ref=f799e52]:
+            - link "Machine Learning Scientist, Training":
+              - /url: https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-scientist-training-45q72/
+    - generic [ref=f799e55]:
+      - heading "Machine Learning Scientist, Training" [level=1] [ref=f799e56]
+      - generic [ref=f799e58]:
+        - text: at
+        - link "Alberta Machine Intelligence Institute" [ref=f799e59] [cursor=pointer]:
+          - /url: https://employmenthero.com/en-ca/jobs/organisations/alberta-machine-intelligence-institute/
+      - generic [ref=f799e60]: Edmonton, Alberta, Canada • Full-time
+    - main [ref=f799e61]:
+      - generic [ref=f799e62]:
+        - generic [ref=f799e63]:
+          - generic [ref=f799e64]:
+            - generic [ref=f799e70]: AI Job Summary
+            - button "About AI Job Summary" [ref=f799e71] [cursor=pointer]
+          - list [ref=f799e77]:
+            - listitem [ref=f799e78]: • Master’s in Computer Science with specialization in Machine Learning or a related field.
+            - listitem [ref=f799e79]: • 3+ years of experience directly leading people and teams.
+            - listitem [ref=f799e80]: • 3+ years of applied AI experience and proficiency in Python and ML tools/frameworks.
+          - button "Sign up or log in to analyse my fit" [ref=f799e82] [cursor=pointer]
+        - generic [ref=f799e87]:
+          - heading "Role Type" [level=3] [ref=f799e88]
+          - generic [ref=f799e89]: Permanent • Full-time • Mid-level
+        - generic [ref=f799e90]:
+          - heading "Description" [level=3] [ref=f799e91]
+          - generic [ref=f799e92]:
+            - paragraph [ref=f799e93]:
+              - emphasis [ref=f799e94]: “Are you a seasoned technical leader ready to guide a high-performing group of ML Educators in crafting world-class AI literacy content? We are seeking a leader with proven experience in building and mentoring top-tier technical teams to serve as a pivotal force in making Canada the world’s most AI-literate workforce.”
+            - paragraph [ref=f799e95]: Adam Danyleyko, Product Owner – Training
+            - paragraph [ref=f799e96]
+            - heading [level=2] [ref=f799e97]:
+              - strong [ref=f799e98]: About Amii
+            - paragraph [ref=f799e99]: Alberta Machine Intelligence Institute (Amii) is one of Canada’s three main institutes for artificial intelligence (AI) and machine learning. Our world-renowned researchers drive fundamental and applied research at the University of Alberta (and other academic institutions), training some of the world’s top scientific talent. Our cross-functional teams collaborate with Alberta-based businesses and organizations to build AI capacity and translate scientific advances into industry adoption and economic impact.
+            - heading [level=2] [ref=f799e100]:
+              - strong [ref=f799e101]: About the Role
+            - paragraph [ref=f799e102]: We are looking for a seasoned technical leader to guide our high-performing group of ML Educators in crafting world-class AI literacy content. As the Machine Learning Scientist, you will serve as a pivotal force in making Canada the world’s most AI-literate workforce, leveraging your proven experience in building and mentoring top-tier technical teams.
+            - paragraph [ref=f799e103]: Reporting to the Product Owner, Training, you will lead the technical and people-management functions essential to Amii’s AI literacy mission. You will be responsible for scaling the technical capabilities of the ML Educator team, ensuring the reliability of Amii’s world-class training programs through robust leadership, deep subject-matter expertise, and strategic resource allocation. By fostering excellence in content development and standardizing technical best practices, you will ensure our educational programs remain cutting-edge and impactful, directly advancing our audience’s AI literacy journey and enabling them to deploy ethical solutions aligned with the mission of ‘AI for good and for all.’
+            - paragraph [ref=f799e104]: "The position focuses on achieving excellence in four main accountabilities:"
+            - list [ref=f799e105]:
+              - listitem [ref=f799e106]: Full Cycle People Leadership
+              - listitem [ref=f799e107]: Machine Learning Expertise
+              - listitem [ref=f799e108]: Technical Coaching & Mentorship
+              - listitem [ref=f799e109]: Resource Planning & Project Management
+            - heading [level=2] [ref=f799e110]:
+              - strong [ref=f799e111]: Required Skills / Expertise
+            - heading [level=2] [ref=f799e112]:
+              - strong [ref=f799e113]: "Key Responsibilities:"
+            - list [ref=f799e114]:
+              - listitem [ref=f799e115]: Establishes and leads an internal technical Community of Practice (CoP) for ML Educators to share knowledge, discuss complex technical challenges, and standardize best practices across all content
+              - listitem [ref=f799e116]: Provides regular, structured technical mentorship and coaching for the team of ML Educators, focusing on advanced ML concepts, instructional best practices, and technical teaching methodologies
+              - listitem [ref=f799e117]: Establishes, documents, and enforces rigorous technical standards for content development, covering code quality, theoretical model explanations, and data usage best practices
+              - listitem [ref=f799e118]: Liaises with teams across Amii to ensure that AI Literacy materials reflect the most current, relevant, and validated ML and AI methodologies
+              - listitem [ref=f799e119]: Serves as the final technical review for all AI Literacy materials (e.g., advanced workshops, executive summaries, public talks) to ensure accuracy and integrity
+              - listitem [ref=f799e120]: Designs and implements quality assurance processes for integrating internal and external technical feedback, ensuring continuous improvement of the content catalogue
+              - listitem [ref=f799e121]: Identifies, recommends, and approves relevant technical training, certifications, and conferences to proactively ensure the team’s skills drive cutting-edge thought and are aligned with Amii’s strategic focus
+              - listitem [ref=f799e122]: Fosters a collaborative and inclusive environment within the ML Educator team, promoting knowledge sharing, peer learning, and continuous technical skill development
+              - listitem [ref=f799e123]: Reviews and validates all incoming technical training requests to accurately define the necessary scope, technical resource requirements, and realistic delivery timelines in alignment with established best practices for content development
+              - listitem [ref=f799e124]: Determines and assigns ML Educators to projects based on their specific technical expertise, current workload, and professional development objectives
+              - listitem [ref=f799e125]: Oversees and tracks project progress against defined milestones for content development (e.g., curriculum design, code sample creation, slide finalization), proactively identifies and mitigates technical or timeline risks
+              - listitem [ref=f799e126]: Manages the team’s technical environment (e.g., cloud access, specialized software, ML tooling) to ensure educators have the necessary, reliable resources to develop and deliver content effectively
+              - listitem [ref=f799e127]: Enables efficient communication, removes roadblocks, and ensures the team is set up for success in delivering high-quality technical content
+              - listitem [ref=f799e128]: Provides supervision to junior team members by overseeing and refining their work, and managing approval processes
+              - listitem [ref=f799e129]: Mentors direct reports on career development and progression, drawing lessons for coaching opportunities
+              - listitem [ref=f799e130]: Fosters a collaborative work environment by facilitating teamwork and the exchange of ideas among team members
+              - listitem [ref=f799e131]: Encourages and maintains a problem-solving approach to work while acting as a coach and collaborator
+              - listitem [ref=f799e132]: Identifies and addresses knowledge gaps, providing solutions or resources to bridge them
+              - listitem [ref=f799e133]: Functions as a point of escalation for addressing challenges and facilitating the resolution of problems
+            - heading [level=2] [ref=f799e134]:
+              - strong [ref=f799e135]: "Required Qualifications:"
+            - list [ref=f799e136]:
+              - listitem [ref=f799e137]: Masters in Computer Science with a specialization in Machine Learning or a related field
+              - listitem [ref=f799e138]: 3 + years of experience directly leading people and teams
+              - listitem [ref=f799e139]: 3+ years of applied AI experience
+              - listitem [ref=f799e140]: Proficient in Python, experience in other programming languages i.e. Java or SQL
+              - listitem [ref=f799e141]: Proficient with machine learning tools and frameworks such as Scikit-learn, Pytorch/Tensorflow, Pandas, Optuna, Wandb, lightgbm/XGBoost, and SciPy
+              - listitem [ref=f799e142]: Publication record in peer-reviewed academic conferences or relevant journals
+              - listitem [ref=f799e143]: Ability to explain complex technical concepts clearly to non-technical audiences
+              - listitem [ref=f799e144]: Thorough understanding of the strengths and weaknesses of a range of ML techniques across supervised learning, unsupervised learning, and reinforcement learning
+              - listitem [ref=f799e145]: Experience with developing and delivering curriculum; designing effective learning exercises, illustrations of technical concepts, training and evaluation tools (nice to have)
+              - listitem [ref=f799e146]: PMP or PMI-ACP Certificate (nice to have)
+            - heading [level=2] [ref=f799e147]:
+              - strong [ref=f799e148]: "Attributes and Expectations:"
+            - list [ref=f799e149]:
+              - listitem [ref=f799e150]: Successfully manages multiple competing priorities in a fast-paced environment
+              - listitem [ref=f799e151]: Works independently and makes informed decisions through a collaborative lens
+              - listitem [ref=f799e152]: Demonstrates strong interpersonal communication skills, both verbal and written
+              - listitem [ref=f799e153]: Establishes credibility while influencing team members to achieve common goals
+              - listitem [ref=f799e154]: Identifies the needs of stakeholders and creates/drives new solutions
+              - listitem [ref=f799e155]: Able to identify gaps in knowledge and triage their own learning appropriately
+              - listitem [ref=f799e156]: Leads with resilience, maintaining team performance through challenges and change
+              - listitem [ref=f799e157]: Exhibits confidence and sound judgment while collaborating with subject matter experts
+            - heading [level=2] [ref=f799e158]:
+              - strong [ref=f799e159]: What you’ll love about us
+            - list [ref=f799e160]:
+              - listitem [ref=f799e161]: A professional yet casual work environment that encourages the growth and development of your skills
+              - listitem [ref=f799e162]: Participate in professional development activities
+              - listitem [ref=f799e163]: Gain access to the Amii community and events
+              - listitem [ref=f799e164]: A chance to learn from amazing teammates who support one another to succeed
+              - listitem [ref=f799e165]: Competitive compensation, including paid time off and flexible health benefits
+              - listitem [ref=f799e166]: A modern office located in downtown Edmonton, Alberta
+            - heading [level=2] [ref=f799e167]:
+              - strong [ref=f799e168]: How to Apply
+            - paragraph [ref=f799e169]:
+              - text: If this sounds like the opportunity you’ve been waiting for, please don’t wait for the closing on June 22, 2026 to apply – we’re excited to add a new member to the Amii team for this role, and the posting may come down sooner than the closing date if we find the right candidate before the posting closes! When sending your application, please send your
+              - strong [ref=f799e170]: resume and cover letter
+              - text: indicating why you think you’d be a fit for Amii. In your cover letter, please include one professional accomplishment you are most proud of and why.
+            - paragraph [ref=f799e171]:
+              - strong [ref=f799e172]: Applicants must be legally eligible to work in Canada at the time of application.
+            - paragraph [ref=f799e173]: Amii is an equal opportunity employer and values a diverse workforce. We encourage applications from all qualified individuals without regard to ethnicity, religion, gender identity, sexual orientation, age or disability. Accommodations for disability-related needs throughout the recruitment and selection process are available upon request. Any information provided by you for accommodations will be kept confidential and won’t be used in the selection process.
+            - paragraph [ref=f799e174]
+    - button "Apply now" [ref=f799e176] [cursor=pointer]
+    - contentinfo [ref=f799e179]:
+      - contentinfo [ref=f799e180]:
+        - generic [ref=f799e181]:
+          - generic [ref=f799e182]:
+            - paragraph [ref=f799e183]:
+              - strong [ref=f799e184]: Company
+            - paragraph [ref=f799e185]:
+              - link "About us" [ref=f799e186] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/about-us/
+            - paragraph [ref=f799e187]:
+              - link "About humi" [ref=f799e188] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/about-humi/
+            - paragraph [ref=f799e189]:
+              - link "Careers" [ref=f799e190] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/careers/
+            - paragraph [ref=f799e191]:
+              - link "Become a partner" [ref=f799e192] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/partner-network/
+            - paragraph [ref=f799e193]:
+              - link "Newsroom" [ref=f799e194] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/news/
+          - generic [ref=f799e195]:
+            - paragraph [ref=f799e196]:
+              - strong [ref=f799e197]: Get in Touch
+            - paragraph [ref=f799e198]:
+              - link "Contact Us" [ref=f799e199] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/contact/
+            - paragraph [ref=f799e200]:
+              - link "Sales" [ref=f799e201] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/request-a-demo/
+            - paragraph [ref=f799e202]:
+              - link "Report a bug" [ref=f799e203] [cursor=pointer]:
+                - /url: mailto:casupport@employmenthero.com
+            - paragraph [ref=f799e204]:
+              - link "HR login" [ref=f799e205] [cursor=pointer]:
+                - /url: https://secure.employmenthero.com/users/sign_in
+          - generic [ref=f799e206]:
+            - paragraph [ref=f799e207]:
+              - strong [ref=f799e208]: Support
+            - paragraph [ref=f799e209]:
+              - link "Help Centre" [ref=f799e210] [cursor=pointer]:
+                - /url: https://help.employmenthero.info/hc/en-ca/
+            - paragraph [ref=f799e211]:
+              - link "Humi by EH Help Centre" [ref=f799e212] [cursor=pointer]:
+                - /url: https://support.humi.ca/hc/en-us
+          - generic [ref=f799e213]:
+            - paragraph [ref=f799e214]:
+              - strong [ref=f799e215]: Pick your region
+            - paragraph [ref=f799e216]:
+              - link "Australia" [ref=f799e217] [cursor=pointer]:
+                - /url: https://employmenthero.com/
+            - paragraph [ref=f799e218]:
+              - link "New Zealand" [ref=f799e219] [cursor=pointer]:
+                - /url: https://employmenthero.com/nz/
+            - paragraph [ref=f799e220]:
+              - link "United Kingdom" [ref=f799e221] [cursor=pointer]:
+                - /url: https://employmenthero.com/uk/
+            - paragraph [ref=f799e222]:
+              - link "Singapore" [ref=f799e223] [cursor=pointer]:
+                - /url: https://employmenthero.com/sg/
+            - paragraph [ref=f799e224]:
+              - link "Malaysia" [ref=f799e225] [cursor=pointer]:
+                - /url: https://employmenthero.com/my/
+            - paragraph [ref=f799e226]:
+              - link "Canada" [ref=f799e227] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/
+          - generic [ref=f799e228]:
+            - paragraph [ref=f799e229]:
+              - strong [ref=f799e230]: Product
+            - paragraph [ref=f799e231]:
+              - link "Products" [ref=f799e232] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/products/
+            - paragraph [ref=f799e233]:
+              - link "Integrations" [ref=f799e234] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/integrations/
+            - paragraph [ref=f799e235]:
+              - link "Quick Demos" [ref=f799e236] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/quick-demos/
+            - paragraph [ref=f799e237]:
+              - link "Employment Hero work app" [ref=f799e238] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/products/work-app/
+          - generic [ref=f799e239]:
+            - paragraph [ref=f799e240]:
+              - strong [ref=f799e241]: Connect
+            - list [ref=f799e242]:
+              - listitem [ref=f799e243]:
+                - link "LinkedIn" [ref=f799e244] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/employment-hero/%20
+              - listitem [ref=f799e247]:
+                - link "X" [ref=f799e248] [cursor=pointer]:
+                  - /url: https://x.com/EmploymentHero
+              - listitem [ref=f799e251]:
+                - link "YouTube" [ref=f799e252] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@Employmenthero
+              - listitem [ref=f799e255]:
+                - link "Facebook" [ref=f799e256] [cursor=pointer]:
+                  - /url: https://www.facebook.com/EmploymentHero
+              - listitem [ref=f799e259]:
+                - link "Instagram" [ref=f799e260] [cursor=pointer]:
+                  - /url: https://www.instagram.com/employmenthero/
+              - listitem [ref=f799e263]:
+                - link "TikTok" [ref=f799e264] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@employmenthero
+        - separator [ref=f799e267]
+        - generic [ref=f799e268]:
+          - generic [ref=f799e269]:
+            - paragraph [ref=f799e270]:
+              - strong [ref=f799e271]: Land acknowledgement
+            - paragraph [ref=f799e272]: We acknowledge the traditional and unceded territory of First Nations, Inuit and Métis peoples on which we live, learn and work.
+            - paragraph [ref=f799e273]:
+              - strong [ref=f799e274]: What we do
+            - paragraph [ref=f799e275]: Employment Hero is an end-to-end HR, payroll and recruitment solution designed for Canadian businesses. Our suite of powerful employment tools help streamline your workday, so you can focus on what matters.
+          - generic [ref=f799e276]:
+            - paragraph [ref=f799e277]:
+              - strong [ref=f799e278]: News, resources and insights – delivered to your inbox. Subscribe.
+            - generic [ref=f799e281]:
+              - generic [ref=f799e284]:
+                - generic: "*"
+                - textbox "*" [ref=f799e285]:
+                  - /placeholder: Work email
+              - generic [ref=f799e289]:
+                - text: By clicking ‘Subscribe’, you consent to receiving marketing from the
+                - link "Employment Hero Group" [ref=f799e290] [cursor=pointer]:
+                  - /url: https://employmenthero.com/legals/privacy-policy/data-processing/affiliates/
+                - text: by email, text, and social media channels about its services and activities. You may withdraw your consent at any time. See the
+                - link "Privacy Policy" [ref=f799e291] [cursor=pointer]:
+                  - /url: https://employmenthero.com/legals/privacy-policy/
+                - text: for information on how your data is processed.
+              - button "Subscribe" [ref=f799e294] [cursor=pointer]
+        - separator [ref=f799e295]
+        - generic [ref=f799e296]:
+          - paragraph [ref=f799e297]: Copyright © 2026 Employment Hero
+          - list [ref=f799e298]:
+            - listitem [ref=f799e299]:
+              - link "Trust & Legal Centre" [ref=f799e300] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/
+            - listitem [ref=f799e301]:
+              - link "Terms & Conditions" [ref=f799e302] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/terms-conditions/
+            - listitem [ref=f799e303]:
+              - link "Privacy Policy" [ref=f799e304] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/privacy-policy/
+            - listitem [ref=f799e305]:
+              - link "Data Processing Addendum" [ref=f799e306] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/privacy-policy/data-processing/
+            - listitem [ref=f799e307]:
+              - link "Cookie Policy" [ref=f799e308] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/cookie-policy/
+            - listitem [ref=f799e309]:
+              - link "Accessibility" [ref=f799e310] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/#compliance
+  - region "Cookie banner" [ref=f799e312]:
+    - dialog "Cookie notice" [ref=f799e313]:
+      - generic [ref=f799e314]:
+        - generic [ref=f799e316]:
+          - heading "Cookie notice" [level=2] [ref=f799e317]
+          - generic [ref=f799e318]:
+            - text: We use cookies or similar technologies on our sites to perform analytics, provide you with tailored content, and make your experience better. By clicking 'Allow', you agree to our use of cookies on the journey you take with us. Learn more by reading
+            - link "Cookie policy, opens in a new tab" [ref=f799e319] [cursor=pointer]:
+              - /url: https://employmenthero.com/legals/cookie-policy/
+              - text: our cookie policy
+        - generic [ref=f799e321]:
+          - button "Your choices, Opens the preference center dialog" [ref=f799e322] [cursor=pointer]: Your choices
+          - generic [ref=f799e323]:
+            - button "Reject All" [ref=f799e324] [cursor=pointer]
+            - button "Allow" [ref=f799e325] [cursor=pointer]
+        - button "Continue without Accepting" [ref=f799e327] [cursor=pointer]

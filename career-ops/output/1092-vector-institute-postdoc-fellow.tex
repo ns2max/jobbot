@@ -1,0 +1,137 @@
+% Job posting: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4ed2be93-8bc5-40e2-915f-931884eac404&ccId=9200420850870_2&lang=en_CA&jobId=442841
+% =====================================================================
+%  CV — Nishal Stanislaus Silva, PhD
+%  Variant: V2 (AI-Research) — Vector Distinguished Postdoctoral Fellowship.
+%  Changelog: V2 chosen (fellowship / research scientist track). 3 pages. Full publications +
+%  datasets + peer review + talks + student supervision (KG 4.1a). Portfolio dropped (links live
+%  in Publications). ML/AI stack leads JAX, HuggingFace, PyTorch. Metrics: F1 0.76 (never ">76%"
+%  or ">90%"). Google Scholar: 27 citations, h-index 3.
+%  NOTE: the posting requires naming a Vector Faculty Member as proposed supervisor before
+%  submission — see the cover letter placeholder.
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.05}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 -- #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{Research Scientist | Real-Time Multimodal ML, Benchmarks \& Open Datasets}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \cvTagline}
+    \\[1pt]
+    {\footnotesize\textit{\cvStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://orcid.org/0000-0003-0406-7459}{ORCID 0000-0003-0406-7459}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\section*{Professional Summary}
+
+PhD (Jan 2025, University of Trento) with a peer-reviewed record of 10 publications in real-time signal processing, embedded machine learning, and time-series pattern detection (Google Scholar: 27 citations, h-index 3). Research sits at the intersection of classical signal processing and modern deep learning, the technical-overlap pivot into broader ML research this fellowship is designed for. Brings a benchmark-first discipline (F1, ablations, latency budgets), four open-access datasets used as community benchmarks, EU-funded research (MUSMET, EIC Pathfinder), and hands-on production ML experience (MAS Holdings, Forestpin) that grounds the work in deployment realities.
+
+\section*{Research Interests}
+
+Real-time and embedded ML; signal processing and time-series pattern recognition; multimodal sensor fusion (audio, gesture, BCI/EEG, XR telemetry); benchmark methodology for resource-constrained deployment. Open to framing this within Vector's core areas, particularly multimodal models, time-series, and applied embedded ML.
+
+\section*{Core Competencies}
+
+\textbf{ML Engineering:} end-to-end ML lifecycle · real-time / low-latency inference · edge deployment · model compression · sequence models (LSTM/GRU), CNNs, DTW baselines, VAE and diffusion prototypes\\
+\textbf{Domain Expertise:} signal processing and DSP · music information retrieval · time-series and symbolic-sequence modelling · multimodal audio + IMU + BCI fusion · computer vision (industrial) · anomaly detection\\
+\textbf{Research \& Leadership:} experimental and benchmark design · ablation studies · statistical evaluation and user studies · open-data curation (4 Zenodo datasets) · peer review and program committees · student supervision · technical writing (10+ papers)
+
+\section*{Technical Stack}
+
+\textbf{Languages:} Python · C++ (C++17) · C · MATLAB · JavaScript · Shell · LaTeX\\
+\textbf{ML / AI:} JAX · HuggingFace Transformers · PyTorch · TensorFlow, Keras · scikit-learn · ONNX · diffusion models · VAEs\\
+\textbf{Signal \& Audio:} DSP · STFT, MFCC, S-transform, CQT, chroma · Librosa, SciPy, FFTW · JUCE, Elk Audio OS, VST, MIDI, OSC · real-time signal analysis\\
+\textbf{Data \& Dev:} AWS (EC2, S3, ECS, MWAA, RDS) · SQL · NumPy, Pandas · Docker · Airflow · Git · pytest · CI/CD
+
+\section*{Education}
+\textbf{Ph.D -- Information Engineering and Computer Science} \textit{\small{ -- University of Trento (CIMIL), Italy}} \hfill \textit{Jan 2025}\\
+{\footnotesize Thesis: \textit{Embedded Real-Time Musical Pattern Detection for Smart Musical Instruments}. Supervisor: Prof.~Luca Turchet.}\\[3pt]
+\noindent\textbf{M.Sc -- Telecommunication and Electronic Engineering} \textit{\small{ -- Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[2pt]
+\noindent\textbf{B.Eng (Hons) -- Electronic Engineering} \textit{\small{ -- Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+\section*{Research and Work Experience}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento (CIMIL)}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Owned the full ML pipeline for streaming audio and IMU/gesture data on the EU-funded MUSMET project (EIC Pathfinder Open, grant 101184379): acquisition, DSP/feature engineering, training/evaluation, edge deployment (Raspberry Pi 4, Elk Audio OS, VST, OSC), and monitoring.
+    \item Published real-time inference at 14 ms on a Raspberry Pi 4, F1 0.76, 74$\times$ faster than the DTW baseline (JAES 2026); designed benchmark suites (RNN vs DTW; audio vs MIDI; set sizes 1/3/10) quantifying accuracy--latency--CPU trade-offs.
+    \item Built a real-time multimodal pipeline synchronising audio, BCI/EEG (g.tec) and MR-headset head/hand tracking across four musicians live (with SAE Barcelona and g.tec); built MIRaaS, an edge-to-server MIR offload architecture (IEEE IS\textsuperscript{2} 2026). 4 peer-reviewed outputs in 2025 plus the PhD thesis.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University (IDMIL / CIRMMT)}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Built a self-powered smart electric guitar (IMU + audio); real-time gesture detection fused with audio pattern detection via a hierarchical FSM, F1 0.78 on a 500-event corpus (IEEE IS\textsuperscript{2} 2025); explored diffusion/VAE synthetic audio for low-label regimes. Host: Prof.~M. Wanderley.
+    \item Earlier: user study of musicians' perception of embedded pattern detection at UVPA Colombo (IEEE I3DA 2025); ML anomaly-detection pipelines for financial forensics at Forestpin (2020--21).
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Led end-to-end ML and computer-vision systems for manufacturing at scale (care-label QC, loom-side fabric inspection, on-demand printing); operational efficiency up to 300\%, inspection time cut 99.5\%. Real-time IoT time-series ETL, C++/Python embedded inference engines; mentored engineers and set CI/CD practice.
+\end{cvrole}
+
+\section*{Publications \footnotesize {\normalfont{(Google Scholar: 27 citations, h-index 3)}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.2em]
+    \item Silva, N. and Turchet, L. \textit{Smart Drums: Comparing Audio and MIDI in Embedded Real-Time Drum Pattern Recognition}. Journal of the Audio Engineering Society, 2026 (in press).
+    \item Silva, N. and Turchet, L. \textit{Music Information Retrieval as a Service: Latency Characterization of an Edge-to-Server Architecture for Near-Real-Time Audio Analysis}. IEEE International Symposium on the Internet of Sounds (IS\textsuperscript{2}), 2026 (accepted).
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Vol.~74, No.~3, Mar. 2026. \textit{(F1 0.76 at 14 ms on RPi4, 74$\times$ faster than DTW)}
+    \item Silva, N., Wanderley, M. and Turchet, L. \textit{Melody and Motion: Integrating Guitar Gestures with Musical Patterns for Extended Control in Live Performance and Metaverse Applications}. IEEE IS\textsuperscript{2}, Oct. 2025.
+    \item Silva, N., Boem, A. and Turchet, L. \textit{Interactive IoMusT-Based Concerts: Real-Time Pattern Recognition and Audience Experience}. IEEE International Conference on Immersive and 3D Audio (I3DA), Sep. 2025.
+    \item Silva, N. and Turchet, L. \textit{User-Centered Evaluation of Smart Musical Instruments with Embedded Real-Time Pattern Detection}. IEEE I3DA, Sep. 2025.
+    \item Silva, N. \textit{Embedded Real-Time Musical Pattern Detection for Smart Musical Instruments}. PhD Thesis, University of Trento (IRIS 11572/445071), Jan. 2025.
+    \item Silva, N. and Turchet, L. \textit{Real-Time Pattern Recognition of Symbolic Monophonic Music}. 19th International Audio Mostly Conference (ACM), Sep. 2024.
+    \item Silva, N. and Turchet, L. \textit{A Structural Similarity Index Based Method to Detect Symbolic Monophonic Patterns in Real-Time}. 25th International Conference on Digital Audio Effects (DAFx), Sep. 2022.
+    \item Silva, N., Weeraddana, P.C. and Fischione, C. \textit{On Musical Onset Detection via the S-Transform}. 52nd Asilomar Conference, Oct. 2018 (also FRUCT 2020, arXiv 1712.02567).
+\end{itemize}
+
+\section*{Datasets \footnotesize {\normalfont{(open access, Zenodo)}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{DoMP / DoPP / DoDP / DoDP2} -- four datasets of live-played musical patterns with expressive variation: 9,839 files from 70+ musicians, MIDI and audio (44.1 kHz/24-bit), designed as worst-case benchmarks for real-time pattern detection. \href{https://zenodo.org/record/10818617}{\textit{zenodo.org/record/10818617}}
+\end{itemize}
+
+\section*{Scientific Committee and Peer Review}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Reviewer:} IEEE Access; Journal of the National Science Foundation of Sri Lanka; CIM. \textbf{Program Committee:} IEEE Internet of Sounds (IS\textsuperscript{2}); IEEE I3DA.
+\end{itemize}
+
+\section*{Student Supervision}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Two BSc theses supervised at the University of Trento on real-time musical pattern recognition (MIDI plugin; plugin implementation + GUI), 2023 and 2026.
+\end{itemize}
+
+\section*{Independent Research, Highlights, \& Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{MIDI Innovation Awards:} Finalist (Sep 2023), Prototypes \& Non-Commercial Software category (Sound On Sound / MusicRadar coverage). \textbf{EU MUSMET:} postdoc on an EIC Pathfinder Open, EUR 3 M consortium.
+    \item \textbf{Open source:} Nebula (C++17 audio-feature library, ARM latency benchmarks); LiveLaTeX (published VS Code extension).
+    \item \textbf{GMOA Recognition (Sri Lanka):} computer-vision system for COVID-19 patient vitals monitoring deployed across hospital wards.
+\end{itemize}
+
+\end{document}

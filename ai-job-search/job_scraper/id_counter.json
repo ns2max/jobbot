@@ -1,0 +1,9 @@
+{
+  "scheme": "Job IDs are shared with the career-ops tool and never overlap.",
+  "authority": "career-ops max ID lives in ~/PROJECTS/career-ops/data/applications.md (leading integer of each row) and its data/pipeline.md (#NNN).",
+  "career_ops_max_at_last_sync": 1311,
+  "last_sync_date": "2026-09-20",
+  "next_id": 1619,
+  "assign_rule": "Before assigning IDs in a scrape, re-read career-ops' max ID. Set next_id to max(career_ops_max + 1, this file's next_id). Assign sequentially in discovery order, increment next_id, never reuse. Write the assigned id into each seen_jobs.json entry, the tracker row, and the archived job_posting.md header.",
+  "conflict_rule": "career-ops always wins a collision. The two tools sometimes run in parallel and land on the same IDs. At the start of every scrape, and whenever a collision is noticed: read all IDs career-ops now holds; for any ai-job-search ID that career-ops uses for a DIFFERENT job (different URL), renumber the ai-job-search job to a fresh ID above the combined max and propagate to seen_jobs.json, job_search_tracker.csv and the job_posting.md header. Same ID for the same posting URL is not a conflict. Never renumber a career-ops job; never reuse a vacated ai-job-search ID. Full procedure in CLAUDE.md."
+}

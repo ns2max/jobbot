@@ -1,0 +1,266 @@
+- generic [active] [ref=f199e1]:
+  - main [ref=f199e2]:
+    - generic [ref=f199e3]:
+      - link [ref=f199e5] [cursor=pointer]:
+        - /url: https://grafana.com/
+        - img "Grafana Labs Logo" [ref=f199e6]
+      - generic [ref=f199e7]:
+        - link "Back to jobs" [ref=f199e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/grafanalabs
+        - generic [ref=f199e12]:
+          - generic [ref=f199e13]:
+            - heading "Staff AI Engineer - 2nd Horizon | Germany | Remote" [level=1] [ref=f199e14]
+            - generic [ref=f199e15]: Germany (Remote)
+          - button "Apply" [ref=f199e19] [cursor=pointer]
+        - generic [ref=f199e20]:
+          - generic [ref=f199e21]:
+            - paragraph [ref=f199e22]:
+              - text: Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Cloud's actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000+ customers – including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce – trust Grafana Labs to ensure reliability of their applications and systems, resolve incidents quickly, and optimize their telemetry to reduce noise and cost. We are a 100% remote company with 1,600+ team members across 40+ countries, and we’re backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at
+              - link "grafana.com" [ref=f199e25] [cursor=pointer]:
+                - /url: http://grafana.com
+              - text: and follow us on
+              - link "LinkedIn" [ref=f199e28] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/grafana-labs/
+              - text: and
+              - link "X" [ref=f199e31] [cursor=pointer]:
+                - /url: https://twitter.com/grafana
+              - text: .
+            - paragraph [ref=f199e32]: "We’re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do."
+            - paragraph [ref=f199e33]: You may not meet every requirement, and that’s okay. If this role excites you, we’d love you to raise your hand for what could be a truly career-defining opportunity.
+          - generic [ref=f199e34]:
+            - paragraph [ref=f199e35]:
+              - strong [ref=f199e36]: This is a remote position. We are considering candidates in Germany, Ireland, Sweden, Spain and the UK only.
+            - paragraph [ref=f199e37]:
+              - strong [ref=f199e38]: "The Opportunity:"
+            - paragraph [ref=f199e39]: At Grafana Labs, we build observability tools that help users understand, respond to, and improve their systems – regardless of scale, complexity, or tech stack. We recently started a skunkworks initiative with a mission to bring observability to the rest of the business via general data analytics. Our goal is to make Grafana the single best place where humans and AI agents understand and act on data from across the enterprise. We build systems that help users make sense of their sea of data through AI-driven features in use cases like product analytics and sales data. These capabilities lower the barrier of domain expertise and surface meaningful signals from messy data.
+            - paragraph [ref=f199e40]: The 2H team is a mix of seasoned Grafanistas and new hires. We operate with a high degree of autonomy and ownership, both as individuals and as a team. Engineers are empowered to make decisions, move quickly, and validate ideas early – while being supported by a deeply collaborative culture that values curiosity, feedback, and cross-functional partnership.
+            - paragraph [ref=f199e41]: We’re looking for an AI Software Engineer with a strong software engineering background, a quick iteration mindset, and a passion for experimentation – balanced by a focus on shipping and scaling impactful features that deliver value to users. As part of our skunkworks initiative, you'll wear multiple hats and won't rely on cross-functional teams that typically support other teams inside Grafana Labs engineering. You will design, develop, test, and ship AI-powered features that can manage dealing with large datasets, while also expanding the capabilities of analytics-focused AI agents to assist users with information retrieval. As the team matures, there’s a broad opportunity to expand or redefine this role based on impact and initiative.
+            - paragraph [ref=f199e42]:
+              - strong [ref=f199e43]: "What You’ll Be Doing:"
+            - list [ref=f199e44]:
+              - listitem [ref=f199e45]: "Build and deliver AI solutions: Take ownership of developing delightful, high-performance AI features to help users discover, organize, and optimize access to large datasets."
+              - listitem [ref=f199e46]: "Rapid experimentation and iteration: Implement a highly iterative process where you quickly prototype, test, and validate with real users, including shipping and evolving LLM- or agent-powered workflows for the data engineering lifecycle."
+              - listitem [ref=f199e47]: "Collaborate: Work with the rest of the team to shape AI-driven product features, including the integration of agentic components with internal tools like Slack and alerting systems while engaging with internal data teams for dogfooding."
+              - listitem [ref=f199e48]: "Utilize AI tools effectively: Use AI and automation tools to enhance both product functionality and your own development workflows."
+              - listitem [ref=f199e49]: "Effective communication: You’ll be working in a highly dynamic and collaborative environment, so we need someone who can communicate effectively and contribute across teams."
+              - listitem [ref=f199e50]: "Ownership and impact: Take full ownership of the AI solutions you develop, ensuring they are not only innovative but also scalable, maintainable, and aligned with real user workflows."
+            - paragraph [ref=f199e51]:
+              - strong [ref=f199e52]: "What Makes You a Great Fit:"
+            - list [ref=f199e53]:
+              - listitem [ref=f199e54]: "Strong engineering skills: Solid experience building production-grade, user-facing software systems. You’re a self-starter, capable of tackling complex engineering problems and making UI design decisions with minimal supervision."
+              - listitem [ref=f199e55]: "AI experience with a practical mindset: You’re familiar with AI technologies and frameworks, and you focus on delivering high-quality solutions that work in the real world, not just in theory."
+              - listitem [ref=f199e56]: "Quick iteration and experimentation: You’re comfortable releasing prototypes, collecting feedback, and iterating with a pragmatic mindset."
+              - listitem [ref=f199e57]: "Proven initiative: You take ownership and drive projects forward, pushing boundaries to find the most impactful solutions. You can deal with ambiguity and are able to define scope where things are loosely defined."
+              - listitem [ref=f199e58]: "Collaborative attitude: You communicate effectively with your peers. You’re open to feedback, and you bring a solutions-oriented mindset to the table."
+            - paragraph [ref=f199e59]:
+              - strong [ref=f199e60]: "Requirements:"
+            - list [ref=f199e61]:
+              - listitem [ref=f199e62]: Experience with LLMs, context engineering, and building applications powered by GenAI.
+              - listitem [ref=f199e63]: Proven track record of delivering software that made it into production and is actively used by users.
+              - listitem [ref=f199e64]: Exposure to working in cloud-native environments (e.g., AWS, GCP, Azure).
+              - listitem [ref=f199e65]: Experience using observability tools to understand and troubleshoot system behavior.
+            - paragraph [ref=f199e66]:
+              - strong [ref=f199e67]: "Bonus Points For:"
+            - list [ref=f199e68]:
+              - listitem [ref=f199e69]: Experience building or working with agent frameworks or multi‑agent workflows.
+              - listitem [ref=f199e70]: Experience as a data analyst or work with data platforms (e.g., Looker, Tableau, PowerBI, Snowflake, DataBricks)
+              - listitem [ref=f199e71]: Experience building tools for data engineering.
+            - paragraph [ref=f199e72]:
+              - strong [ref=f199e73]: "Compensation & Rewards:"
+            - paragraph [ref=f199e74]:
+              - text: In Germany, the Base compensation range for this role is €109,000 - €137,000. Actual compensation may vary based on level, experience, and skillset as assessed in the interview process. Benefits include equity, bonus (if applicable) and other benefits listed
+              - link "here" [ref=f199e75] [cursor=pointer]:
+                - /url: https://grafana.com/about/careers/#jobs
+              - text: .
+            - paragraph [ref=f199e76]
+          - generic [ref=f199e77]:
+            - generic [ref=f199e78]:
+              - paragraph [ref=f199e79]:
+                - emphasis [ref=f199e80]: "*Compensation ranges are country specific. If you are applying for this role from a different location than listed above, your recruiter will discuss your specific market’s defined pay range & benefits at the beginning of the process."
+              - paragraph [ref=f199e81]:
+                - strong [ref=f199e82]: "Why You’ll Thrive at Grafana Labs:"
+              - list [ref=f199e83]:
+                - listitem [ref=f199e84]:
+                  - strong [ref=f199e85]: 100% Remote, Global Culture -
+                  - text: As a remote-only company, we bring together talent from around the world, united by a culture of collaboration and shared purpose.
+                - listitem [ref=f199e86]:
+                  - strong [ref=f199e87]: Scaling Organization
+                  - text: – Tackle meaningful work in a high-growth, ever-evolving environment.
+                - listitem [ref=f199e88]:
+                  - strong [ref=f199e89]: Transparent Communication
+                  - text: – Expect open decision-making and regular company-wide updates.
+                - listitem [ref=f199e90]:
+                  - strong [ref=f199e91]: Innovation-Driven
+                  - text: – Autonomy and support to ship great work and try new things.
+                - listitem [ref=f199e92]:
+                  - strong [ref=f199e93]: Open Source Roots
+                  - text: – Built on community-driven values that shape how we work.
+                - listitem [ref=f199e94]:
+                  - strong [ref=f199e95]: Empowered Teams
+                  - text: – High trust, low ego culture that values outcomes over optics.
+                - listitem [ref=f199e96]:
+                  - strong [ref=f199e97]: Career Growth Pathways
+                  - text: – Defined opportunities to grow and develop your career.
+                - listitem [ref=f199e98]:
+                  - strong [ref=f199e99]: Approachable Leadership
+                  - text: – Transparent execs who are involved, visible, and human.
+                - listitem [ref=f199e100]:
+                  - strong [ref=f199e101]: Passionate People
+                  - text: – Join a team of smart, supportive folks who care deeply about what they do.
+                - listitem [ref=f199e102]:
+                  - strong [ref=f199e103]: In-Person onboarding
+                  - text: "- We want you to thrive from day 1 with your fellow new ‘Grafanistas’ to learn all about what we do and how we do it."
+                - listitem [ref=f199e104]:
+                  - strong [ref=f199e105]: Balance is Key
+                  - text: "- We operate a global annual leave policy of 30 days per annum. 3 days of your annual leave entitlement are reserved for Grafana Shutdown Days to allow the team to really disconnect."
+                  - emphasis [ref=f199e106]: "*We will comply with local legislation where applicable."
+              - paragraph [ref=f199e107]:
+                - strong [ref=f199e108]: "Equal Opportunity Employer:"
+                - emphasis [ref=f199e109]: Grafana Labs is an equal opportunities employer. We welcome applications from everyone regardless of race, colour, nationality, origin, caste, sex, gender reassignment identity or expression, sexual orientation, age, religion or belief, disability, veteran status, genetic information, pregnancy, maternity, marital, family or carer status, or any other characteristic which is protected by local law. We believe that equality and diversity build a strong organisation, and we work hard to ensure that is the foundation of our organisation as we grow.
+              - paragraph [ref=f199e110]:
+                - emphasis [ref=f199e111]: Grafana Labs may utilize AI tools in its recruitment process to assist in matching information provided in CVs to job postings. The recruitment team will continue to review inbound CVs manually to identify alignment with current openings.
+              - paragraph [ref=f199e112]: "#LI-Remote"
+            - emphasis [ref=f199e114]:
+              - text: For information about how your personal data is used once you’ve applied to a job, check out our
+              - link "privacy policy" [ref=f199e115] [cursor=pointer]:
+                - /url: https://grafana.com/legal/applicant-and-candidate-privacy-policy/
+              - text: .
+        - generic [ref=f199e120]:
+          - paragraph [ref=f199e121]: Get new jobs like this in your inbox
+          - paragraph [ref=f199e122]: We'll email you when Grafana Labs posts a job like this one.
+          - link "Create alert" [ref=f199e123] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=grafanalabs&source=job_alert_post&variant=job_alert_post_b
+      - separator [ref=f199e124]
+      - generic [ref=f199e125]:
+        - generic [ref=f199e127]:
+          - heading "Apply for this job" [level=2] [ref=f199e129]
+          - generic [ref=f199e130]:
+            - paragraph [ref=f199e132]: "*"
+            - paragraph [ref=f199e133]: indicates a required field
+        - generic [ref=f199e134]:
+          - generic [ref=f199e135]:
+            - generic [ref=f199e138]:
+              - generic [ref=f199e139]: First Name*
+              - textbox "First Name" [ref=f199e140]
+            - generic [ref=f199e143]:
+              - generic [ref=f199e144]: Last Name*
+              - textbox "Last Name" [ref=f199e145]
+            - generic [ref=f199e148]:
+              - generic [ref=f199e149]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f199e150]
+            - generic [ref=f199e153]:
+              - generic [ref=f199e154]: Email*
+              - textbox "Email" [ref=f199e155]
+            - group "Phone" [ref=f199e157]:
+              - generic [ref=f199e161]:
+                - generic [ref=f199e162]: Country*
+                - generic [ref=f199e163]:
+                  - log [ref=f199e165]
+                  - generic [ref=f199e167]:
+                    - combobox "Country" [ref=f199e170]
+                    - button "Toggle flyout" [ref=f199e172] [cursor=pointer]
+                  - textbox
+              - generic [ref=f199e177]:
+                - generic [ref=f199e178]: Phone*
+                - textbox "Phone" [ref=f199e180]
+            - generic [ref=f199e181]:
+              - generic [ref=f199e183]:
+                - generic [ref=f199e184]: Location (City)*
+                - generic [ref=f199e185]:
+                  - log [ref=f199e187]
+                  - combobox "Location (City)" [ref=f199e192]
+                  - textbox
+              - button "Locate me" [ref=f199e193] [cursor=pointer]
+            - group "Resume/CV" [ref=f199e195]:
+              - generic [ref=f199e198]:
+                - generic [ref=f199e200]:
+                  - button "Attach" [ref=f199e201] [cursor=pointer]
+                  - generic [ref=f199e202]: Attach
+                  - button "Attach" [ref=f199e203]
+                - button "Dropbox" [ref=f199e205] [cursor=pointer]
+                - button "Google Drive" [ref=f199e207] [cursor=pointer]
+                - generic [ref=f199e209]:
+                  - button "Enter manually" [ref=f199e210] [cursor=pointer]
+                  - generic [ref=f199e211]: Enter manually
+                - paragraph [ref=f199e212]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f199e214]:
+              - generic [ref=f199e217]:
+                - generic [ref=f199e219]:
+                  - button "Attach" [ref=f199e220] [cursor=pointer]
+                  - generic [ref=f199e221]: Attach
+                  - button "Attach" [ref=f199e222]
+                - button "Dropbox" [ref=f199e224] [cursor=pointer]
+                - button "Google Drive" [ref=f199e226] [cursor=pointer]
+                - generic [ref=f199e228]:
+                  - button "Enter manually" [ref=f199e229] [cursor=pointer]
+                  - generic [ref=f199e230]: Enter manually
+                - paragraph [ref=f199e231]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f199e232]:
+            - separator [ref=f199e233]
+            - generic [ref=f199e236]:
+              - generic [ref=f199e237]: Are you located in the UK, Ireland, Spain, Sweden or Germany?*
+              - generic [ref=f199e238]:
+                - log [ref=f199e240]
+                - generic [ref=f199e242]:
+                  - generic [ref=f199e243]:
+                    - generic [ref=f199e244]: Select...
+                    - combobox "Are you located in the UK, Ireland, Spain, Sweden or Germany?" [ref=f199e246]
+                  - button "Toggle flyout" [ref=f199e248] [cursor=pointer]
+                - textbox
+            - generic [ref=f199e253]:
+              - generic [ref=f199e254]: Are you currently eligible to work in your country of residence?*
+              - generic [ref=f199e255]:
+                - log [ref=f199e257]
+                - generic [ref=f199e259]:
+                  - generic [ref=f199e260]:
+                    - generic [ref=f199e261]: Select...
+                    - combobox "Are you currently eligible to work in your country of residence?" [ref=f199e263]
+                  - button "Toggle flyout" [ref=f199e265] [cursor=pointer]
+                - textbox
+            - generic [ref=f199e270]:
+              - generic [ref=f199e271]: Do you now or in the future require visa sponsorship to continue working in your country of residence?*
+              - generic [ref=f199e272]:
+                - log [ref=f199e274]
+                - generic [ref=f199e276]:
+                  - generic [ref=f199e277]:
+                    - generic [ref=f199e278]: Select...
+                    - combobox "Do you now or in the future require visa sponsorship to continue working in your country of residence?" [ref=f199e280]
+                  - button "Toggle flyout" [ref=f199e282] [cursor=pointer]
+                - textbox
+            - generic [ref=f199e287]:
+              - generic [ref=f199e288]: Anything else you'd like to share with our hiring team?
+              - textbox "Anything else you'd like to share with our hiring team?" [ref=f199e289]
+            - generic [ref=f199e292]:
+              - generic [ref=f199e293]: Which of the following best describes you?*
+              - generic [ref=f199e294]:
+                - log [ref=f199e296]
+                - generic [ref=f199e298]:
+                  - generic [ref=f199e299]:
+                    - generic [ref=f199e300]: Select...
+                    - combobox "Which of the following best describes you?" [ref=f199e302]
+                  - button "Toggle flyout" [ref=f199e304] [cursor=pointer]
+                - textbox
+            - generic [ref=f199e309]:
+              - generic [ref=f199e310]: How did you hear about this opportunity at Grafana?*
+              - generic [ref=f199e311]:
+                - log [ref=f199e313]
+                - generic [ref=f199e315]:
+                  - generic [ref=f199e316]:
+                    - generic [ref=f199e317]: Select...
+                    - combobox "How did you hear about this opportunity at Grafana?" [ref=f199e319]
+                  - button "Toggle flyout" [ref=f199e321] [cursor=pointer]
+                - textbox
+            - generic [ref=f199e324]:
+              - generic [ref=f199e326]:
+                - generic [ref=f199e327]: LinkedIn Profile*
+                - textbox "LinkedIn Profile" [ref=f199e328]
+              - paragraph [ref=f199e331]: Share a link to your LI profile.
+          - button "Submit application" [ref=f199e333] [cursor=pointer]
+  - contentinfo [ref=f199e334]:
+    - generic [ref=f199e335]:
+      - paragraph [ref=f199e336]: Powered by
+      - link [ref=f199e337] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f199e338]
+  - iframe [ref=f199e352]:
+    

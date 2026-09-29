@@ -1,0 +1,18 @@
+Done. Role blocked by location policy — no CV/PDF generated, no A-G score.
+
+```json
+{
+  "status": "completed",
+  "id": "8",
+  "report_num": "724",
+  "company": "Anthropic",
+  "role": "Data Scientist, Safeguards",
+  "score": null,
+  "legitimacy": "Not assessed",
+  "pdf": null,
+  "report": "reports/724-anthropic-2026-08-24.md",
+  "error": "Excluded pre-evaluation: role location (NYC/SF/Seattle) fails Canada-only hard exclude policy in modes/_profile.md"
+}
+```
+
+Job locked to NYC/SF/Seattle, no Canada option — hard-excluded per your location policy. Wrote skip-reason report + SKIP tracker line, no PDF/CV generated.

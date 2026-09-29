@@ -1,0 +1,71 @@
+% Job posting: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4ed2be93-8bc5-40e2-915f-931884eac404&ccId=9200420850870_2&lang=en_CA&jobId=442841
+% =====================================================================
+%  COVER LETTER — Nishal Stanislaus Silva, PhD
+%  Variant: V2 (AI-Research) — same tagline as the CV.
+%  Changelog: one page. Hook = signal processing x deep learning pivot; 14 ms / F1 0.76 with
+%  full ablation methodology. Evidence = MUSMET benchmark discipline; 10 pubs + 4 datasets;
+%  MAS/Forestpin deployment grounding. F1 0.76 (never ">76%"). No patent mention.
+%  ACTION REQUIRED: the posting requires naming a Vector Faculty Member as proposed supervisor
+%  before submitting. \clFaculty is a placeholder -- identify and ideally contact a compatible
+%  faculty member first, then also fill the [Vector research area] bracket in paragraph 3.
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Research Scientist | Real-Time Multimodal ML, Benchmarks \& Open Datasets}
+\newcommand{\clFaculty}{[Vector Faculty Member -- TBD, see file header note]}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://orcid.org/0000-0003-0406-7459}{ORCID 0000-0003-0406-7459}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: Vector Distinguished Postdoctoral Fellowship}
+
+Dear Vector Institute Hiring Committee,
+
+I am applying for the Vector Distinguished Postdoctoral Fellowship, proposing to work with \clFaculty{}.
+
+My PhD (University of Trento, January 2025) sits at the intersection of classical signal processing and modern deep learning: real-time pattern detection in audio and multimodal sensor data, published across JAES, IEEE and DAFx venues (10 peer-reviewed papers; Google Scholar 27 citations, h-index 3). My core contribution has been showing that rigorous, benchmark-first evaluation, not just raw model capability, is what makes real-time ML trustworthy on resource-constrained hardware. My most recent work (JAES 2026) reached F1 0.76 at 14 ms on a Raspberry Pi 4, 74$\times$ faster than a widely used baseline, with the full ablation methodology published alongside the result. On the same project I built a real-time pipeline synchronising audio, BCI/EEG and XR head/hand tracking across four musicians live, with SAE Barcelona and g.tec.
+
+I am proposing to pivot from music- and audio-specific applications into [Vector research area most aligned with the chosen faculty member's work, e.g.\ multimodal models, time-series, or applied embedded ML], bringing the same benchmark discipline and real-time systems background to a broader class of problems. I believe this technical overlap, rigorous evaluation methodology under real-world constraints, is exactly the kind of pivot the fellowship is designed to support. I also curate four open-access datasets used as community benchmarks and have supervised two BSc theses on the smart-instrument pattern-detection line.
+
+My hands-on production ML experience (MAS Holdings, Forestpin) grounds this research in deployment realities rather than theoretical results. I am a Canadian permanent resident based in Toronto, available immediately, and I would welcome the opportunity to discuss how my background could contribute to \clFaculty{}'s research program.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

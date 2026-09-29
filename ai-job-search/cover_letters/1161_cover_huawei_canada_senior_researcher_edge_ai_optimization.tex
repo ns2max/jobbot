@@ -1,0 +1,69 @@
+% Job posting: https://ca.linkedin.com/jobs/view/senior-researcher-edge-ai-optimization-hardware-aware-ml-at-huawei-canada-4460122614
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: Huawei Canada - Senior Researcher, Edge AI Optimization / Hardware-Aware ML
+%          Software-Hardware System Optimization Lab, Edmonton AB
+%  Variant: V3 (Edge / Embedded). Honest reach-role letter per 1161_evaluation.md.
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.03}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{ML Research Engineer | Real-Time \& Edge Inference | Audio, Sensor \& Time-Series}
+\newcommand{\clRole}{Senior Researcher, Edge AI Optimization / Hardware-Aware ML}
+\newcommand{\clCompany}{Huawei Canada}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{}, \clCompany{}}
+
+\clAddressee
+
+I am applying for the Senior Researcher position in edge AI optimization with the Software-Hardware System Optimization Lab. I am an ML research engineer specializing in real-time and edge inference on audio, sensor and time-series data, with a PhD from the University of Trento and 10+ years across industry and academia. My published detector answers the core question the role poses, how much a model keeps once it is compressed to a hard device budget: it runs inference in 14 ms on a Raspberry Pi 4 at 31.4\% CPU, F1 0.76, 74 times faster than the 1038 ms DTW baseline it replaced (JAES 2026). That result came out of the benchmark methodology behind it as much as the model, a frozen-protocol suite of baselines and ablations quantifying the accuracy, latency and CPU cost of every design choice on the target device.
+
+I have a working position on several parts of the role. I prototype and evaluate efficient inference under device constraints (thermal limits, memory bandwidth, intermittent connectivity), and I build and maintain hardware-aware benchmarking methodology and performance-regression suites for ARM CPU targets, with a written record of experiments that includes negative results. I do latency measurement, memory profiling and real-device traces on Raspberry Pi and ARM embedded Linux, and I apply model quantization for deployment. Nebula, my open C++17 audio-feature library, ships per-feature ARM latency benchmarks across time-domain, spectral and cepstral features. My MIRaaS work characterized where on-device compute beats a network round-trip in a latency-aware edge-to-server split. Reproducibility is how I already work: frozen protocols, versioned data splits, and a unified artist-ID namespace across four open datasets so cross-device evaluation stays honest.
+
+I want to be direct about where I would be building. Compilers and runtimes (TVM, MLIR, TensorRT, operator lowering, kernel autotuning, memory arenas), advanced quantization research (QAT, GPTQ-like methods, smooth quant, mixed precision), accelerator kernels (NPU, DSP, mobile-GPU, ARM NEON, CPU-NPU handoff), and efficient LLM/VLM edge inference are areas I have read into but not shipped; they are the deliberate growth path on top of the edge-deployment and measurement foundation I do have. My publication venues, JAES, IEEE IS\textsuperscript{2}, DAFx and Asilomar, are strong in audio and signal processing but are not the NeurIPS or MLSys tier the posting names. What stands alongside them is the benchmark methodology, the open datasets, and reviewer and programme-committee service for IEEE venues.
+
+Huawei's Edmonton lab is a good match for how I work: consumer-device power and performance research through software-hardware co-optimization, an explicit mandate to raise the bar for measurement rigor and reproducibility, and ties to University of Alberta academia. That mandate is my signature, most audio ML assumes the compute is free and I spent four years proving with benchmarks that it does not have to be. I am a Canadian permanent resident, eligible to work without sponsorship, available immediately, and open to relocating to Edmonton for this permanent role. My publications, datasets and portfolio are at \href{\clSite}{nishal.xyz}.
+
+\vspace{10pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

@@ -1,0 +1,69 @@
+% Job posting: https://job-boards.greenhouse.io/assemblyai/jobs/4729804005
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: AssemblyAI - Senior Software Engineer, Inference (Toronto)
+%  Variant: V3 (Edge / Embedded), systems-forward
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{ML Research Engineer | Real-Time \& Edge Inference | Audio, Sensor \& Time-Series}
+\newcommand{\clRole}{Senior Software Engineer, Inference}
+\newcommand{\clCompany}{AssemblyAI}
+\newcommand{\clTeam}{the Inference team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Senior Software Engineer, Inference role at AssemblyAI in Toronto. I am an engineer and researcher who turns audio ML research into running, low-latency systems, with a PhD from the University of Trento and more than ten years in C++ and Python across industry and academia. Most recently I built MIRaaS, an edge-to-server architecture that offloads audio analysis over the network, and characterized its end-to-end latency for near-real-time use (IEEE IS\textsuperscript{2} 2026). That is the same shape of problem as taking a model capability from proof of concept to an API customers can depend on.
+
+The role sits between research and the Applied teams, productionizing new techniques and scaling inference. My work has lived on both sides of that line. I have designed model architectures and the benchmark and ablation suites that turn a research question into measured latency, CPU and accuracy trade-offs, and I have shipped C++ and Python inference engines on production hardware across MAS Holdings factories on three continents, processing millions of events per day with CI/CD, code review and monitoring that I put in place. I have taken more than one computer-vision prototype from a notebook to a production line with hard reliability requirements. What I have not done is operate an API at the scale of a million users, and that is the part I would be learning, on top of a solid base in service design, streaming I/O and profiling.
+
+AssemblyAI is a compelling place to do this. Universal-3.5 Pro Realtime ships configurable latency modes that let customers tune speed against accuracy, which is exactly the trade-off my research quantifies, and the Voice Agent API collapsing speech, language and speech synthesis into one streaming path is the kind of latency-sensitive system I most enjoy building. A lean team where one engineer owns a capability end to end is how I do my best work. In the first months I would take ownership of one or two model-backed APIs from prototype through launch and iteration, and bring measurement discipline to where latency is being spent.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship and available immediately, so this role needs no relocation. I would welcome the opportunity to discuss how my experience turning audio research into production systems can support \clTeam{} at AssemblyAI. My portfolio, publications and open datasets are at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

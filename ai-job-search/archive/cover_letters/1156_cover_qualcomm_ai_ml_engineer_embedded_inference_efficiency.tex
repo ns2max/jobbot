@@ -1,0 +1,70 @@
+% Job posting: https://ca.linkedin.com/jobs/view/ai-machine-learning-engineer-embedded-systems-inference-efficiency-at-qualcomm-4447193368
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: Qualcomm Canada ULC - AI/Machine Learning Engineer
+%          (Embedded Systems, Inference Efficiency), Low Power AI Solution team
+%          Markham, ON
+%  Variant: V3 (Edge / Embedded). Honest reach-role letter per 1156_evaluation.md.
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.03}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{ML Research Engineer | Real-Time \& Edge Inference | Audio, Sensor \& Time-Series}
+\newcommand{\clRole}{AI/Machine Learning Engineer (Embedded Systems, Inference Efficiency)}
+\newcommand{\clCompany}{Qualcomm Canada ULC}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{}, \clCompany{}}
+
+\clAddressee
+
+I am applying for the AI/Machine Learning Engineer role on the Low Power AI Solution team in Markham. I am an ML research engineer specializing in real-time and edge inference on audio, sensor and time-series data, with a PhD from the University of Trento and 10+ years across industry and academia. My published detector answers the question this role is built around, how much a model keeps once it is pushed to a hard on-device budget: it runs inference in 14 ms on a Raspberry Pi 4 at 31.4\% CPU, F1 0.76, 74 times faster than the 1038 ms DTW baseline it replaced (JAES 2026). That result came from the benchmark methodology behind it as much as from the model, a frozen-protocol suite of baselines and ablations that quantified the accuracy, latency and CPU cost of every design choice on the target device.
+
+I have a working position on several parts of this role. I prototype and evaluate efficient inference under device constraints (latency, compute, power, thermal, memory), and I build and maintain hardware-aware benchmarking methodology and performance-regression suites for ARM CPU targets, with a written record of experiments that includes negative results. I do latency measurement, memory profiling and real-device traces on Raspberry Pi and ARM embedded Linux, and I apply model quantization for deployment. I own model-development pipelines end to end, from training and fine-tuning through evaluation under domain shift to performance optimization. Nebula, my open C++17 audio-feature library, ships per-feature ARM latency benchmarks across time-domain, spectral and cepstral features, and my MIRaaS work characterized where on-device compute beats a network round-trip in a latency-aware edge-to-server split.
+
+I want to be direct about where I would be building. Compiler stack and ML system optimization for AI accelerators (graph transformation, graph tiling and scheduling, tensor-layout and memory optimization), advanced model-compression research (research-grade quantization, structured pruning, knowledge distillation, PEFT, efficient architecture design), and software-hardware co-design at the accelerator-dataflow level are areas I have read into but not shipped. They are the deliberate growth path on top of the edge-deployment and measurement foundation I already have. My publication venues, JAES, IEEE IS\textsuperscript{2}, DAFx and Asilomar, are strong in audio and signal processing but are not the NeurIPS, ICML or CVPR tier the posting names. What stands alongside them is the benchmark methodology, four open datasets, and reviewer and programme-committee service for IEEE venues.
+
+Qualcomm's Markham site, the Global Centre of Excellence for Machine Learning, is a good match for how I work. The Low Power AI Solution team's mission, on-device and low-power AI through software-hardware co-design converted into production solutions, is research with a shipping target, which is the mode I am strongest in, and the constrained-compute problem is the one I chose to spend four years on. I am a Canadian permanent resident, eligible to work without sponsorship, Toronto-based so this Markham role needs no relocation, and available immediately. My publications, datasets and portfolio are at \href{\clSite}{nishal.xyz}.
+
+\vspace{10pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

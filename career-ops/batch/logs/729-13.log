@@ -1,0 +1,18 @@
+Done. Report + tracker line only.
+
+```json
+{
+  "status": "completed",
+  "id": "13",
+  "report_num": "729",
+  "company": "Anthropic",
+  "role": "Staff + Sr. Software Engineer, Cloud Inference",
+  "score": null,
+  "legitimacy": "Proceed with Caution",
+  "pdf": null,
+  "report": "reports/729-anthropic-2026-08-24.md",
+  "error": "Excluded pre-evaluation: role location SF, CA — candidate scope Canada-only hard exclude (modes/_profile.md)"
+}
+```
+
+SF role, no Canada option. Hard exclude per scope policy — same as report 724. No score, no PDF, just report+tracker line.

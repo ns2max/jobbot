@@ -1,0 +1,18 @@
+Pipeline done. Score too low, big domain/stack gaps (GCP, multi-agent, marketing ops) — no CV/cover letter generated, no PDF (per md-only preference).
+
+```json
+{
+  "status": "completed",
+  "id": "53",
+  "report_num": "1019",
+  "company": "Grafana Labs",
+  "role": "Staff AI Engineer (AI & Automation)",
+  "score": 2.1,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/1019-grafana-labs-2026-08-25.md",
+  "error": null
+}
+```
+
+Report + tracker line done, score 2.1/5, recommend SKIP (GCP/multi-agent/marketing-domain gaps outweigh good comp). No CV/cover letter generated — score below 4.0 threshold, gaps not a defensible stretch.

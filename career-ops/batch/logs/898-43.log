@@ -1,0 +1,20 @@
+Hard stop. Role location: SF/Seattle/NYC (US offices, 25% in-office min), no Canada option. Profile policy (`modes/_profile.md`) sets Canada-only hard exclude — non-Canadian roles skip evaluation entirely, no report/PDF/CV generated. This also isn't a fit archetype (Rust/CUDA inference-runtime infra vs your audio ML/research profile) but location alone kills it.
+
+No report, no tracker line, no PDF per policy.
+
+```json
+{
+  "status": "skipped",
+  "id": "43",
+  "report_num": "898",
+  "company": "Anthropic",
+  "role": "Staff+ Software Engineer, Inference Runtime",
+  "score": null,
+  "legitimacy": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role location SF/Seattle/NYC (US, 25% in-office min) — violates Canada-only scope policy in modes/_profile.md (2026-08-20). Not evaluated per policy."
+}
+```
+
+Note: this evaluation would also have used your .md-only CV/cover-letter workflow (per memory), not the PDF pipeline in this batch prompt — moot here since role's excluded.

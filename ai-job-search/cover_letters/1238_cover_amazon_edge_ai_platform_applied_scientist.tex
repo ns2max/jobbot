@@ -1,0 +1,42 @@
+% Job posting: https://ca.linkedin.com/jobs/view/sr-applied-scientist-silicon-and-systems-group-edge-ai-edge-ai-platform-at-amazon-4455794613
+\documentclass[11pt]{article}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.1}
+\pagenumbering{gobble}
+\begin{document}
+\pagestyle{empty}
+
+\begin{flushleft}
+Nishal Stanislaus Silva, PhD \\
+Toronto, ON \\
+nishal.silva@hotmail.com \,|\, +1 613 200 2030 \\[1em]
+\today \\[1em]
+\end{flushleft}
+
+\noindent Dear Hiring Manager,
+
+\vspace{0.5em}
+\noindent I am writing to apply for the Sr. Applied Scientist role on the Silicon and Systems Group's Edge AI Platform team. My PhD research and postdoctoral work have centred on exactly the problem this team owns: making ML models run well on real, constrained hardware, not just in a benchmark on a workstation. At the University of Trento, I published a real-time audio pattern detector running at 14 ms inference on a Raspberry Pi 4 -- an ARM Cortex-class device comparable in constraint profile to embedded silicon -- with F1 0.76 at 31.4\% CPU utilization, 74 times faster than the 1038 ms DTW baseline it replaced (JAES 2026). I also architected MIRaaS, a UDP edge-to-server offload system that characterizes the latency and compute trade-offs of running inference on-device versus off-loading to a server (accepted, IEEE IS2 2026) -- the same class of question an edge-AI platform team has to answer for every workload it takes on.
+
+\vspace{0.5em}
+\noindent That result came from treating hardware constraints as a first-class design input rather than an afterthought. I designed frozen-protocol benchmark suites and ablations to quantify accuracy/latency/CPU trade-offs, and kept a written record of negative results rather than only the wins. As a visiting researcher at McGill's IDMIL, I built a self-powered smart electric guitar and profiled its compute and power draw to validate real-time feasibility under a hard power budget -- the kind of power-aware engineering that custom silicon platforms depend on. Underneath both is five and a half years of production discipline from MAS Holdings, where I shipped C++ and Python inference on embedded manufacturing hardware, introduced CI/CD and code review, and mentored engineers on a shared codebase.
+
+\vspace{0.5em}
+\noindent I have not worked directly on custom AI silicon or ASIC design, and I want to be upfront about that. What transfers directly is the applied-science discipline behind it: characterizing a model's behaviour under a fixed latency, compute, and power envelope, and iterating until it fits -- which is the substance of everything above.
+
+\vspace{0.5em}
+\noindent I am a Canadian permanent resident, eligible to work in Canada without sponsorship, based in Toronto and open to relocating to Vancouver for this role. I am available immediately and would welcome the chance to discuss how my edge-inference and benchmarking background could contribute to the Edge AI Platform team.
+
+\vspace{1em}
+\noindent Sincerely, \\
+Nishal Stanislaus Silva
+
+\end{document}

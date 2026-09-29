@@ -1,0 +1,19 @@
+Hard exclude. `_profile.md` policy (2026-08-20): Canada-only scope, non-Canadian roles = hard exclude, no eval/score/report. This role: xAI MTS – X Money, location New York/Palo Alto, US. Stop pipeline — no evaluation, no report, no PDF, no tracker line generated.
+
+Output:
+
+```json
+{
+  "status": "failed",
+  "id": "3",
+  "report_num": "717",
+  "company": "xAI",
+  "role": "Member of Technical Staff - X Money",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude per modes/_profile.md location policy (Canada-only scope, 2026-08-20): role is US-based (New York/Palo Alto), not Canada-remote. No evaluation, report, or PDF generated per policy."
+}
+```
+
+No files written. Want override for this one, or skip stands?

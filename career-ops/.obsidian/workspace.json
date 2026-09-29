@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "775eb604486cbf45",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecc6e2491f3a40bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75468e0f0c82f1fa",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.4"
+            }
+          },
+          {
+            "id": "ea377d2a0aec9f12",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "34c5c5bc1fb9d665",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7d0b92ea0cce0bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fa288a280a093c3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bcf828e29eba28fe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c8c1ac5cdd611301",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f029af415261b7c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c970b30664cdff66",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f0cca14a8746f81",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "8eef9a69c890cdaf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "bf87c48e6cc46fd2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "64dc541092e3c7e7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6a1eb193ebbe9c8c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ea377d2a0aec9f12",
+  "lastOpenFiles": [
+    "output/1121-nexxa-ai-vision-engineer-coverletter.tex",
+    "output/1121-nexxa-ai-vision-engineer.tex",
+    "output/1112-jumio-senior-ml-engineer-coverletter.tex",
+    "output/1112-jumio-senior-ml-engineer.tex",
+    "batch/tracker-additions/merged/1135-thomsonreuterslabs.tsv",
+    "batch/tracker-additions/merged/1134-xyzreality.tsv",
+    "batch/tracker-additions/merged/1133-xyzreality.tsv",
+    "batch/tracker-additions/merged/1132-nexxaai.tsv",
+    "batch/tracker-additions/merged/1131-affinity.tsv",
+    "batch/tracker-additions/merged/1130-stratumai.tsv",
+    "batch/tracker-additions/merged/1129-npvlabspulsepoint.tsv",
+    "reports/1123-pipeline-skips-2026-09-03.md",
+    "reports/1122-nexxa-2026-09-03.md",
+    "reports/1121-nexxa-2026-09-03.md",
+    "reports/1120-oscilar-2026-09-03.md",
+    "reports/1119-stratum-ai-2026-09-03.md",
+    "reports/1118-helm-ai-2026-09-03.md",
+    "reports/1117-wave-hq-2026-09-03.md",
+    "reports/1116-extreme-networks-2026-09-03.md",
+    "reports/1115-affirm-2026-09-03.md",
+    "reports/1114-innodata-2026-09-03.md",
+    "reports/1113-innodata-2026-09-03.md",
+    "reports/1112-jumio-2026-09-03.md",
+    "reports/1111-kogniz-2026-09-03.md",
+    "reports/1110-wealthsimple-2026-09-03.md",
+    "reports/1109-afresh-2026-09-03.md",
+    "archive/output/1092-vector-institute-postdoc-fellow-coverletter.md",
+    "archive/output/1092-vector-institute-postdoc-fellow.md",
+    "archive/output/1074-cohere-applied-ai-agents-coverletter.md",
+    "archive/output/1074-cohere-applied-ai-agents.md",
+    "archive/output/1071-baseten-ai-inference-fde-coverletter.md",
+    "archive/output/1071-baseten-ai-inference-fde.md",
+    "archive/output/892-cohere-sr-research-engineer-coverletter.md",
+    "archive/output/892-cohere-sr-research-engineer.md",
+    "archive/output/681-waabi-perception-engineer-coverletter.md",
+    "archive/output/681-waabi-perception-engineer.md"
+  ]
+}

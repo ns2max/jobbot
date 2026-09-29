@@ -1,0 +1,17 @@
+JD unobtainable both ways — no report, no PDF, no tracker line written.
+
+```json
+{
+  "status": "failed",
+  "id": "26",
+  "report_num": "881",
+  "company": "Samsara",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "JD file /tmp/batch-jd-26.txt empty/missing. WebFetch of careers URL returned only listing index, no JD content (JS-rendered SPA). Greenhouse API confirms job ID 7618581 is NOT in Samsara's current 266 active postings — role appears closed/removed. Cannot evaluate."
+}
+```
+
+Job 7618581 not live anymore — dropped from Samsara active board. No content to evaluate.

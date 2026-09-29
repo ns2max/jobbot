@@ -1,0 +1,157 @@
+- generic [active] [ref=f618e1]:
+  - paragraph [ref=f618e8]: The job you are looking for is no longer open.
+  - main [ref=f618e9]:
+    - generic [ref=f618e10]:
+      - link [ref=f618e12] [cursor=pointer]:
+        - /url: https://www.assemblyai.com/careers
+        - img "AssemblyAI Logo" [ref=f618e13]
+      - heading "Current openings at AssemblyAI" [level=1] [ref=f618e14]
+      - generic [ref=f618e18]:
+        - heading [level=2] [ref=f618e19]:
+          - strong [ref=f618e20]: About AssemblyAI
+        - paragraph [ref=f618e21]: AssemblyAI builds the best-in-class Speech AI models powering the next generation of voice applications. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power 2 billion+ end-user experiences—from voice agents and meeting assistants to contact centers and medical scribes. Companies like Zoom, Granola, Fireflies, Cluely, and Calabrio rely on AssemblyAI to ship production-ready voice AI.
+        - paragraph [ref=f618e22]:
+          - text: "We're at an inflection point in Speech AI. We released Universal-Streaming in mid-2025, and it has quickly earned its place as the model offering the best accuracy-latency-cost tradeoff on the market. The adoption has been significant: we now process ~1.5M streaming hours per week, with 25x usage growth in the last six months alone. Our research team drives these advances and ships with relentless velocity. Since releasing Universal-Streaming, we've already launched"
+          - link "keyterms prompting feature" [ref=f618e24] [cursor=pointer]:
+            - /url: https://www.assemblyai.com/blog/streaming-keyterms-prompting
+          - text: and
+          - link "multilingual support" [ref=f618e26] [cursor=pointer]:
+            - /url: https://www.assemblyai.com/blog/introducing-multilingual-universal-streaming
+          - text: —with more significant improvements on the roadmap.
+        - paragraph [ref=f618e27]: We've raised $115M+ from Accel, Insight Partners, Y Combinator's AI Fund, Patrick and John Collison, Nat Friedman, and Daniel Gross. We're a remote team building one of the next great AI companies—and we're looking for people who will shape its future.
+      - generic [ref=f618e31]:
+        - paragraph [ref=f618e32]: Create a Job Alert
+        - paragraph [ref=f618e33]: Level-up your career by having opportunities at AssemblyAI sent directly to your inbox.
+        - link "Create alert" [ref=f618e34] [cursor=pointer]:
+          - /url: https://my.greenhouse.io/users/sign_in?job_board=assemblyai&source=job_alert_board
+      - generic [ref=f618e35]:
+        - generic [ref=f618e36]:
+          - generic [ref=f618e38]:
+            - generic [ref=f618e39]: Search
+            - textbox "Search" [ref=f618e40]
+          - generic [ref=f618e42]:
+            - generic [ref=f618e43]: Department
+            - generic [ref=f618e44]:
+              - log [ref=f618e46]
+              - generic [ref=f618e48]:
+                - generic [ref=f618e49]:
+                  - generic [ref=f618e50]: Select...
+                  - combobox "Department" [ref=f618e52]
+                - button "Toggle flyout" [ref=f618e54] [cursor=pointer]
+        - generic [ref=f618e57]:
+          - heading "12 jobs" [level=2] [ref=f618e58]
+          - generic [ref=f618e59]:
+            - generic [ref=f618e60]:
+              - heading "Customer Experience" [level=3] [ref=f618e61]
+              - table [ref=f618e63]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f618e64]:
+                      - paragraph [ref=f618e65]: Job
+                - rowgroup [ref=f618e66]:
+                  - row [ref=f618e67]:
+                    - cell [ref=f618e68]:
+                      - link [ref=f618e69] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/assemblyai/jobs/4714838005
+                        - paragraph [ref=f618e70]: Senior Forward Deployed Engineer
+                        - paragraph [ref=f618e71]: San Francisco
+                  - row [ref=f618e72]:
+                    - cell [ref=f618e73]:
+                      - link [ref=f618e74] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/assemblyai/jobs/4715911005
+                        - paragraph [ref=f618e75]: Senior Forward Deployed Engineer
+                        - paragraph [ref=f618e76]: London, England
+            - generic [ref=f618e77]:
+              - heading "Engineering" [level=3] [ref=f618e78]
+              - table [ref=f618e80]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f618e81]:
+                      - paragraph [ref=f618e82]: Job
+                - rowgroup [ref=f618e83]:
+                  - row [ref=f618e84]:
+                    - cell [ref=f618e85]:
+                      - link [ref=f618e86] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/assemblyai/jobs/4723627005
+                        - paragraph [ref=f618e87]: Senior Design Engineer
+                        - paragraph [ref=f618e88]: United States
+                  - row [ref=f618e89]:
+                    - cell [ref=f618e90]:
+                      - link "Senior Design Engineer New San Francisco" [ref=f618e91] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/assemblyai/jobs/4726286005
+                        - paragraph [ref=f618e92]:
+                          - text: Senior Design Engineer
+                          - generic [ref=f618e93]: New
+                        - paragraph [ref=f618e95]: San Francisco
+                  - row [ref=f618e96]:
+                    - cell [ref=f618e97]:
+                      - link "Senior Design Engineer New New York City" [ref=f618e98] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/assemblyai/jobs/4726288005
+                        - paragraph [ref=f618e99]:
+                          - text: Senior Design Engineer
+                          - generic [ref=f618e100]: New
+                        - paragraph [ref=f618e102]: New York City
+                  - row [ref=f618e103]:
+                    - cell [ref=f618e104]:
+                      - link "Senior Design Engineer New Seattle" [ref=f618e105] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/assemblyai/jobs/4726289005
+                        - paragraph [ref=f618e106]:
+                          - text: Senior Design Engineer
+                          - generic [ref=f618e107]: New
+                        - paragraph [ref=f618e109]: Seattle
+                  - row [ref=f618e110]:
+                    - cell [ref=f618e111]:
+                      - link "Senior Design Engineer New Los Angeles" [ref=f618e112] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/assemblyai/jobs/4726291005
+                        - paragraph [ref=f618e113]:
+                          - text: Senior Design Engineer
+                          - generic [ref=f618e114]: New
+                        - paragraph [ref=f618e116]: Los Angeles
+                  - row [ref=f618e117]:
+                    - cell [ref=f618e118]:
+                      - link "Senior Design Engineer New Chicago" [ref=f618e119] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/assemblyai/jobs/4726292005
+                        - paragraph [ref=f618e120]:
+                          - text: Senior Design Engineer
+                          - generic [ref=f618e121]: New
+                        - paragraph [ref=f618e123]: Chicago
+                  - row [ref=f618e124]:
+                    - cell [ref=f618e125]:
+                      - link "Senior Design Engineer New Denver" [ref=f618e126] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/assemblyai/jobs/4726297005
+                        - paragraph [ref=f618e127]:
+                          - text: Senior Design Engineer
+                          - generic [ref=f618e128]: New
+                        - paragraph [ref=f618e130]: Denver
+                  - row [ref=f618e131]:
+                    - cell [ref=f618e132]:
+                      - link [ref=f618e133] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/assemblyai/jobs/4699429005
+                        - paragraph [ref=f618e134]: Senior Software Engineer, Security
+                        - paragraph [ref=f618e135]: Remote
+            - generic [ref=f618e136]:
+              - heading "Sales" [level=3] [ref=f618e137]
+              - table [ref=f618e139]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f618e140]:
+                      - paragraph [ref=f618e141]: Job
+                - rowgroup [ref=f618e142]:
+                  - row [ref=f618e143]:
+                    - cell [ref=f618e144]:
+                      - link [ref=f618e145] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/assemblyai/jobs/4715890005
+                        - paragraph [ref=f618e146]: Business Development Representative
+                        - paragraph [ref=f618e147]: San Francisco
+                  - row [ref=f618e148]:
+                    - cell [ref=f618e149]:
+                      - link [ref=f618e150] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/assemblyai/jobs/4689754005
+                        - paragraph [ref=f618e151]: Founding Enterprise Account Executive
+                        - paragraph [ref=f618e152]: Remote - San Francisco OR New York
+  - contentinfo [ref=f618e153]:
+    - generic [ref=f618e154]:
+      - paragraph [ref=f618e155]: Powered by
+      - link [ref=f618e156] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f618e157]

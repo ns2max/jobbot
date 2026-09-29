@@ -1,0 +1,74 @@
+- generic [active] [ref=f18e1]:
+  - dialog "cookieconsent" [ref=f18e2]:
+    - generic [ref=f18e4]:
+      - generic [ref=f18e5]: 🍪
+      - heading "Privacy Notice" [level=4] [ref=f18e6]
+      - paragraph [ref=f18e7]: This website uses cookies to improve your web experience. By using the site, you agree to the use of cookies.
+      - button "Dismiss" [ref=f18e9] [cursor=pointer]
+  - link [ref=f18e12] [cursor=pointer]:
+    - /url: https://jobs.lever.co/tri
+    - img "Toyota Research Institute logo" [ref=f18e13]
+  - generic [ref=f18e15]:
+    - generic [ref=f18e17]:
+      - generic [ref=f18e18]:
+        - heading "Senior Research Scientist" [level=2] [ref=f18e19]
+        - generic [ref=f18e20]:
+          - generic [ref=f18e21]: Los Altos, CA
+          - generic [ref=f18e22]: Energy & Materials – Energy & Materials /
+          - generic [ref=f18e23]: Full-time /
+          - generic [ref=f18e24]: Hybrid
+      - link "apply for this job" [ref=f18e26] [cursor=pointer]:
+        - /url: https://jobs.lever.co/tri/e6dee431-b611-43fe-b615-d803d7cea57a/apply
+    - generic [ref=f18e27]:
+      - generic [ref=f18e28]:
+        - paragraph [ref=f18e29]: At Toyota Research Institute (TRI), we’re on a mission to improve the quality of human life. We’re developing new tools and capabilities to amplify the human experience. To lead this transformative shift in mobility, we’ve built a world-class team advancing the state of the art in AI, robotics, driving, and material sciences.
+        - generic [ref=f18e31]:
+          - strong [ref=f18e32]: THE CHALLENGE
+          - text: The long-term vision of TRI’s Accelerated Materials Design and Discovery (AMDD) program is to accelerate the development of truly emissions-free mobility. Realizing this vision will require the discovery of new materials and devices for batteries, fuel cells, and more. Our aim at TRI is to merge sophisticated computational materials modeling, new experimental data, artificial intelligence, and automation to significantly accelerate materials research. Our focus is on developing tools and capability to enable this acceleration. We collaborate closely with colleagues across global Toyota, as well as with universities and national labs. AMDD seeks to develop and translate the newest technologies into practice, both within Toyota and the open research community.
+        - strong [ref=f18e35]: THE OPPORTUNITY
+        - generic [ref=f18e37]: We are hiring a Senior Research Scientist to help deepen the chemistry at the core of our materials-design models. This is a full-time role with the scope to take problems from framing through to validation. We are looking for researchers with expertise in uncovering the chemicalrelationships that govern complex materials and drive their discovery. Our goal is to integrate this fundamental chemical intuition as a primary, first-class input within our models, moving beyond post-hoc analysis. The team is currently developing representations where internal variables are engineered to represent chemical meaning, rather than only statistical correlations. We are ready to expand this vision with a scientist who can further sharpen the underlying chemistry of our approach.
+        - generic [ref=f18e38]:
+          - text: In this role, you will work alongside ML researchers and software engineers to translate these insights into practical tools that drive real-world materials decisions. You will have the opportunity to publish your findings in leading venues across both materials chemistry and the AI-for-materials community. Join us in defining a future where chemical heuristics are central to modern, AI-driven materials discovery.
+          - paragraph [ref=f18e39]:
+            - strong [ref=f18e40]: THE TEAM
+          - paragraph [ref=f18e41]: You will expand your professional network, as part of a creative team of scientists and engineers dedicated to enabling a sustainable future. Our team prioritizes learning new skills together at the interface of materials science and AI. You will be part of the Energy & Materials division which is accelerating Toyota’s path to carbon neutrality. In addition to our work on accelerating materials discovery, the division develops capabilities for AI assisted manufacturing, AI technologies to scale from materials to devices, and provides strategic analysis on carbon neutral pathways and technologies.
+      - generic [ref=f18e43]:
+        - heading "Responsibilities" [level=3] [ref=f18e44]
+        - list [ref=f18e47]:
+          - listitem [ref=f18e48]: Develop chemically grounded hypotheses that guide materials discovery and help clarify which scientific relationships matter most.
+          - listitem [ref=f18e49]: Translate fundamental chemical intuition into scientific inputs, constraints, evaluation criteria, and validation strategies for AI-assisted materials workflows.
+          - listitem [ref=f18e50]: Analyze complex inorganic and functional materials systems to identify structure-property relationships relevant to batteries, fuel cells, and other emissions-free mobility technologies.
+          - listitem [ref=f18e51]: Partner with ML researchers and software engineers to ensure that materials-design tools reflect sound chemical reasoning and are scientifically meaningful.
+          - listitem [ref=f18e52]: Design and assess workflows that connect computational materials modeling, experimental data, literature evidence, and AI-assisted prediction or optimization.
+          - listitem [ref=f18e53]: Evaluate model outputs using domain knowledge, first-principles calculations, experimental data, or other appropriate scientific benchmarks.
+          - listitem [ref=f18e54]: Communicate scientific insights clearly through internal technical discussions, cross-functional collaborations, publications, and presentations.
+          - listitem [ref=f18e55]: Collaborate with colleagues across TRI, Toyota, universities, and national labs to translate emerging materials-discovery methods into useful research capabilities.
+      - generic [ref=f18e57]:
+        - heading "Qualifications" [level=3] [ref=f18e58]
+        - list [ref=f18e61]:
+          - listitem [ref=f18e62]: Hold a PhD in solid-state/inorganic chemistry, materials chemistry, materials science, condensed-matter physics, or a related field.
+          - listitem [ref=f18e63]: Have a strong publication record using chemical reasoning to predict or design functional inorganic materials.
+          - listitem [ref=f18e64]: "Have hands-on experience with at least one of: solid-state synthesis, structural characterization, electrochemistry, or first-principles workflows."
+          - listitem [ref=f18e65]: Are excited to translate fundamental chemical understanding into practicaltools that address real industrial problems.
+          - listitem [ref=f18e66]: Thrive in a culture that values diversity, collaboration, humility, and learning.
+      - generic [ref=f18e67]:
+        - paragraph [ref=f18e68]:
+          - emphasis [ref=f18e69]: The pay range for this position at commencement of employment is expected to be between $180,000 and $258,750/year for California-based roles. Base pay offered will depend on multiple individualized factors, including, but not limited to, a candidate's experience, skills, job-related knowledge, and market location. TRI offers a generous benefits package including medical, dental, and vision insurance, 401(k) eligibility, paid time off benefits (including vacation, sick time, and parental leave), and an annual cash bonus structure. Additional details regarding these benefit plans will be provided if an employee receives an offer of employment.
+        - generic [ref=f18e71]:
+          - text: Please reference this
+          - link "Candidate Privacy Notice" [ref=f18e72] [cursor=pointer]:
+            - /url: https://www.tri.global/ccpa-privacy-policy/
+          - text: to inform you of the categories of personal information that we collect from individuals who inquire about and/or apply to work for Toyota Research Institute, Inc. or its subsidiaries, including Toyota A.I. Ventures GP, L.P., and the purposes for which we use such personal information.
+        - generic [ref=f18e74]: TRI is fueled by a diverse and inclusive community of people with unique backgrounds, education and life experiences. We are dedicated to fostering an innovative and collaborative environment by living the values that are an essential part of our culture. We believe diversity makes us stronger and are proud to provide Equal Employment Opportunity for all, without regard to an applicant’s race, color, creed, gender, gender identity or expression, sexual orientation, national origin, age, physical or mental disability, medical condition, religion, marital status, genetic information, veteran status, or any other status protected under federal, state or local laws.
+        - generic [ref=f18e76]: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability. Pursuant to the San Francisco Fair Chance Ordinance, we will consider qualified applicants with arrest and conviction records for employment.
+      - generic [ref=f18e77]: We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+      - link "apply for this job" [ref=f18e80] [cursor=pointer]:
+        - /url: https://jobs.lever.co/tri/e6dee431-b611-43fe-b615-d803d7cea57a/apply
+  - generic [ref=f18e82]:
+    - paragraph [ref=f18e83]:
+      - link "Toyota Research Institute Home Page" [ref=f18e84] [cursor=pointer]:
+        - /url: http://www.tri.global
+    - link "Jobs powered by Lever logo" [ref=f18e85] [cursor=pointer]:
+      - /url: https://www.lever.co/job-seeker-support/
+      - generic [ref=f18e86]: Jobs powered by
+      - img "Lever logo" [ref=f18e87]

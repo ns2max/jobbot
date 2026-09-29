@@ -1,0 +1,221 @@
+- generic [active] [ref=f6e1]:
+  - img "Banner" [ref=f6e3]
+  - main [ref=f6e4]:
+    - generic [ref=f6e5]:
+      - img "Reddit Logo" [ref=f6e7]
+      - generic [ref=f6e8]:
+        - link "Back to jobs" [ref=f6e9] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/reddit
+        - generic [ref=f6e13]:
+          - generic [ref=f6e14]:
+            - heading "Staff Machine Learning Engineer, Ads Foundational Representations" [level=1] [ref=f6e15]
+            - generic [ref=f6e16]: Remote - The Netherlands
+          - button "Apply" [ref=f6e20] [cursor=pointer]
+        - generic [ref=f6e21]:
+          - generic [ref=f6e28]:
+            - text: Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit
+            - link "www.redditinc.com" [ref=f6e29] [cursor=pointer]:
+              - /url: http://www.redditinc.com/
+            - text: .
+          - generic [ref=f6e30]:
+            - paragraph [ref=f6e31]:
+              - strong [ref=f6e32]: "Location:"
+              - text: "Reddit has a flexible first workforce. Don't live near our office? No worries: you can work remotely from anywhere in the UK or the Netherlands."
+            - paragraph [ref=f6e33]:
+              - text: The
+              - strong [ref=f6e34]: Ads Foundational Representations (AFR)
+              - text: team develops signals and representations of Reddit’s core entities (ads, posts, users, and so on), capturing the semantic, contextual, and behavioral information that Reddit Ads needs. We work on building embeddings to understand content and users' interests based on the content they engage with.
+            - paragraph [ref=f6e35]: "Our team has the potential to highlight one of Reddit's biggest differentiators: genuinely curated, high-quality, extremely relevant, and daily updated organic content. We are a Machine Learning/Data heavy team with a focus on the following areas:"
+            - list [ref=f6e36]:
+              - listitem [ref=f6e37]:
+                - strong [ref=f6e38]: Multimodal & Content Embeddings
+                - text: "- Make sense of organic (posts, comments, subreddits) and promoted (ads, shopping products, their landing pages) text and media content by embedding them into a shared space."
+              - listitem [ref=f6e39]:
+                - strong [ref=f6e40]: Contextual and Behavioral Relevance
+                - text: "- Working with Product & Data Science, establishing definitions of what ads are relevant to users and the content we show them next to, building metrics and fine-tuning embeddings to better reflect relevance."
+              - listitem [ref=f6e41]:
+                - strong [ref=f6e42]: Knowledge Graph Embeddings -
+                - text: Building representations for the Knowledge graph entities, e.g., intellectual properties/brands, to be used for high-precision targeting & business insights.
+              - listitem [ref=f6e43]:
+                - strong [ref=f6e44]: User Intent Modeling -
+                - text: "Leveraging various techniques to introduce user representations based on the content they interact with: batch & real-time sequence modeling, LLM summarization, etc."
+              - listitem [ref=f6e45]:
+                - strong [ref=f6e46]: LLM-based Representations
+                - text: "- Leveraging LLMs, VLMs, and foundational models to build complex representations of Reddit entities that improve ranking outcomes"
+            - paragraph [ref=f6e47]: The signals and features we create become a key piece in the Ads Delivery funnel, from targeting to the auction, as well as the Business Insights product and other advertiser-facing products such as Creative generation and optimization.
+            - paragraph [ref=f6e48]:
+              - text: As a
+              - strong [ref=f6e49]: Staff ML Engineer
+              - text: ", you’ll be in charge of setting the technical direction of multiple pillars the team owns. You will lead cross-functional ML projects end to end - from high-level business gap analysis to engineering execution."
+            - paragraph [ref=f6e50]: Roughly 50% of your time will be spent on technical leadership and mentorship (driving strategy & designs, cross-functional collaboration, raising the quality bar), another 50% being individual hands-on work (data analysis & engineering, modeling & automation).
+            - paragraph [ref=f6e51]:
+              - strong [ref=f6e52]: Responsibilities
+            - list [ref=f6e53]:
+              - listitem [ref=f6e54]: "Providing technical leadership and mentorship to MLEs in the team: driving designs & their review, establishing best practices in analysis, modeling and engineering, keeping the bar high."
+              - listitem [ref=f6e55]: Working closely with team/org leadership developing technical strategy for content-based embeddings & relevance for Ads.
+              - listitem [ref=f6e56]: Developing new or iterating on existing embedding models for advertising use cases, ranging from aggregation pipelines to two-tower architectures and sequence models.
+              - listitem [ref=f6e57]: "Working with local and 3rd-party LLMs/VLMs: extract representations, develop evaluation methodologies, prompt tune and fine-tune large models to build state-of-the-art embeddings."
+              - listitem [ref=f6e58]: Building data processing and inference pipelines for the models we develop.
+              - listitem [ref=f6e59]: Qualitative and quantitative evaluation of the various features we develop, end-to-end experimentation from internal benchmarks to downstream recommender system offline metrics to online experiments.
+              - listitem [ref=f6e60]: Ensuring the reliability, scalability, and performance of the ML systems by writing automated tests, monitoring performance, and implementing best practices for model management.
+              - listitem [ref=f6e61]: "Participating in modeling and coding reviews: You will review work by other team members and provide feedback to ensure that it meets the team's standards for quality and performance."
+              - listitem [ref=f6e62]: Collaborating with cross-functional teams to understand business requirements and translate them into technical solutions.
+            - paragraph [ref=f6e63]:
+              - strong [ref=f6e64]: "Required Qualifications:"
+            - list [ref=f6e65]:
+              - listitem [ref=f6e66]: 7+ years of hands-on experience with the full lifecycle of designing, training, evaluating, testing, and deploying industry-level models.
+              - listitem [ref=f6e67]: "Demonstrated Staff-level technical leadership: mentoring engineers, driving standards and bar raising, leading complex cross-functional projects: from requirements, design to cross-team/functional alignment and execution without direct people-management authority."
+              - listitem [ref=f6e68]: Excellent communication skills, with the ability to translate complex technical concepts to different audiences, both verbally and in writing.
+              - listitem [ref=f6e69]: Strong track record of working on content rich NLP/CV problems at scale, and using embeddings as a tool to solve them.
+              - listitem [ref=f6e70]: Established data-driven approach for ML system development. Excitement about working with data and readiness to look behind the metric numbers.
+              - listitem [ref=f6e71]: Familiarity with the Ads domain and/or Search/Recommender systems.
+              - listitem [ref=f6e72]: "Experience with mainstream DL frameworks: PyTorch or TensorFlow."
+            - paragraph [ref=f6e73]:
+              - strong [ref=f6e74]: "Preferred Qualifications:"
+            - list [ref=f6e75]:
+              - listitem [ref=f6e76]: Experience with our stack (Python, Pytorch, Airflow, BigQuery, Ray, k8s, kafka, GCP)
+              - listitem [ref=f6e77]: "Tech leadership experience: mentoring junior engineers and leading complex projects."
+              - listitem [ref=f6e78]: Hands-on experience with using/fine-tuning/building LLMs.
+            - paragraph [ref=f6e79]:
+              - strong [ref=f6e80]: "Benefits:"
+            - list [ref=f6e81]:
+              - listitem [ref=f6e82]: Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support
+              - listitem [ref=f6e83]: Family Planning Support
+              - listitem [ref=f6e84]: Gender-Affirming Care
+              - listitem [ref=f6e85]: Mental Health & Coaching Benefits
+              - listitem [ref=f6e86]: Private Pension plan with Employer-matching
+              - listitem [ref=f6e87]: 100% employer-sponsored group medical plan
+              - listitem [ref=f6e88]: Income Replacement Programs
+              - listitem [ref=f6e89]: Flexible Vacation & Paid Volunteer Time Off
+              - listitem [ref=f6e90]: Generous Paid Parental Leave
+          - generic [ref=f6e91]:
+            - paragraph [ref=f6e92]: In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews.
+            - paragraph [ref=f6e93]:
+              - generic [ref=f6e94]:
+                - text: "During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our"
+                - link "Candidate Privacy Policy for Potential Employees and Contractors" [ref=f6e95] [cursor=pointer]:
+                  - /url: https://redditinc.com/policies/candidate-privacy-policy
+                - text: .
+            - paragraph [ref=f6e96]:
+              - emphasis [ref=f6e97]: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.
+      - separator [ref=f6e98]
+      - generic [ref=f6e99]:
+        - generic [ref=f6e101]:
+          - heading "Apply for this job" [level=2] [ref=f6e103]
+          - generic [ref=f6e104]:
+            - paragraph [ref=f6e106]: "*"
+            - paragraph [ref=f6e107]: indicates a required field
+        - generic [ref=f6e108]:
+          - generic [ref=f6e109]:
+            - generic [ref=f6e112]:
+              - generic [ref=f6e113]: First Name*
+              - textbox "First Name" [ref=f6e114]
+            - generic [ref=f6e117]:
+              - generic [ref=f6e118]: Last Name*
+              - textbox "Last Name" [ref=f6e119]
+            - generic [ref=f6e122]:
+              - generic [ref=f6e123]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f6e124]
+            - generic [ref=f6e127]:
+              - generic [ref=f6e128]: Email*
+              - textbox "Email" [ref=f6e129]
+            - group "Phone" [ref=f6e131]:
+              - generic [ref=f6e135]:
+                - generic [ref=f6e136]: Country*
+                - generic [ref=f6e137]:
+                  - log [ref=f6e139]
+                  - generic [ref=f6e141]:
+                    - combobox "Country" [ref=f6e144]
+                    - button "Toggle flyout" [ref=f6e146] [cursor=pointer]
+                  - textbox
+              - generic [ref=f6e151]:
+                - generic [ref=f6e152]: Phone*
+                - textbox "Phone" [ref=f6e154]
+            - generic [ref=f6e155]:
+              - generic [ref=f6e157]:
+                - generic [ref=f6e158]: Location (City)*
+                - generic [ref=f6e159]:
+                  - log [ref=f6e161]
+                  - combobox "Location (City)" [ref=f6e166]
+                  - textbox
+              - button "Locate me" [ref=f6e167] [cursor=pointer]
+            - group "Resume/CV*" [ref=f6e169]:
+              - generic [ref=f6e172]:
+                - generic [ref=f6e174]:
+                  - button "Attach" [ref=f6e175] [cursor=pointer]
+                  - generic [ref=f6e176]: Attach
+                  - button "Attach" [ref=f6e177]
+                - button "Dropbox" [ref=f6e179] [cursor=pointer]
+                - button "Google Drive" [ref=f6e181] [cursor=pointer]
+                - generic [ref=f6e183]:
+                  - button "Enter manually" [ref=f6e184] [cursor=pointer]
+                  - generic [ref=f6e185]: Enter manually
+                - paragraph [ref=f6e186]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f6e188]:
+              - generic [ref=f6e191]:
+                - generic [ref=f6e193]:
+                  - button "Attach" [ref=f6e194] [cursor=pointer]
+                  - generic [ref=f6e195]: Attach
+                  - button "Attach" [ref=f6e196]
+                - button "Dropbox" [ref=f6e198] [cursor=pointer]
+                - button "Google Drive" [ref=f6e200] [cursor=pointer]
+                - generic [ref=f6e202]:
+                  - button "Enter manually" [ref=f6e203] [cursor=pointer]
+                  - generic [ref=f6e204]: Enter manually
+                - paragraph [ref=f6e205]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f6e206]:
+            - separator [ref=f6e207]
+            - generic [ref=f6e210]:
+              - generic [ref=f6e211]: LinkedIn Profile
+              - textbox "LinkedIn Profile" [ref=f6e212]
+            - generic [ref=f6e215]:
+              - generic [ref=f6e216]: How did you hear about this job?*
+              - textbox "How did you hear about this job?" [ref=f6e217]
+            - generic [ref=f6e218]:
+              - generic [ref=f6e220]:
+                - generic [ref=f6e221]: Please provide the name of your current (or most recent) company*
+                - textbox "Please provide the name of your current (or most recent) company" [ref=f6e222]
+              - paragraph [ref=f6e225]: "Note: if you're currently employed at Reddit, please submit your application via our Internal Job Board"
+            - generic [ref=f6e228]:
+              - generic [ref=f6e229]: Are you currently authorized to work in this country?*
+              - generic [ref=f6e230]:
+                - log [ref=f6e232]
+                - generic [ref=f6e234]:
+                  - generic [ref=f6e235]:
+                    - generic [ref=f6e236]: Select...
+                    - combobox "Are you currently authorized to work in this country?" [ref=f6e238]
+                  - button "Toggle flyout" [ref=f6e240] [cursor=pointer]
+                - textbox
+            - generic [ref=f6e245]:
+              - generic [ref=f6e246]: Do you now, or will you in the future, require immigration sponsorship to work at Reddit?*
+              - generic [ref=f6e247]:
+                - log [ref=f6e249]
+                - generic [ref=f6e251]:
+                  - generic [ref=f6e252]:
+                    - generic [ref=f6e253]: Select...
+                    - combobox "Do you now, or will you in the future, require immigration sponsorship to work at Reddit?" [ref=f6e255]
+                  - button "Toggle flyout" [ref=f6e257] [cursor=pointer]
+                - textbox
+            - generic [ref=f6e260]:
+              - generic [ref=f6e262]:
+                - generic [ref=f6e263]: By selecting "I agree," I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy. *
+                - generic [ref=f6e264]:
+                  - log [ref=f6e266]
+                  - generic [ref=f6e268]:
+                    - generic [ref=f6e269]:
+                      - generic [ref=f6e270]: Select...
+                      - combobox "By selecting \"I agree,\" I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy." [ref=f6e272]
+                    - button "Toggle flyout" [ref=f6e274] [cursor=pointer]
+                  - textbox
+              - paragraph [ref=f6e279]:
+                - link "Reddit's Candidate Privacy Policy" [ref=f6e280] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/candidate-privacy-policy
+          - button "Submit application" [ref=f6e282] [cursor=pointer]
+  - contentinfo [ref=f6e283]:
+    - generic [ref=f6e284]:
+      - paragraph [ref=f6e285]: Powered by
+      - link [ref=f6e286] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f6e287]
+  - iframe [ref=f6e301]:
+    

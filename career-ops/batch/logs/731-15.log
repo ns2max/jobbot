@@ -1,0 +1,17 @@
+Job ID `96b8ae0d-e2ae-463d-9fc9-0cdeb10ed6df` no longer exists on Vapi's Ashby board — checked live API, only 8 other IDs listed, none match. Posting removed/closed. JD file also empty/missing. No way to evaluate.
+
+```json
+{
+  "status": "failed",
+  "id": "15",
+  "report_num": "731",
+  "company": "Vapi",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "JD file /tmp/batch-jd-15.txt missing/empty, and job ID not found in Vapi's live Ashby job board API (posting removed or closed) — no JD content available to evaluate"
+}
+```
+
+No report/PDF/tracker line generated — nothing to evaluate against. Next step: verify URL manually or pull fresh JD if role reposted.

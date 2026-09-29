@@ -1,0 +1,175 @@
+\documentclass[11pt]{article}
+
+% --------- BASIC PACKAGES ----------
+\usepackage[left=0.68in,top=0.6in,right=0.68in,bottom=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath} % Times-like
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\setstretch{1.0}
+\pagenumbering{gobble}
+
+% ---------- SECTION FORMATTING ----------
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 -- #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+
+% ---------- HEADER ----------
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{Nishal Stanislaus Silva}}{\large \textit {, PhD}}
+    \\[1pt]
+    {\small Machine Learning Research Engineer | Audio and Acoustic Machine Learning, Edge Inference, Benchmark Design}
+    \\[1pt]
+    {\footnotesize\textit{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON M6P 1Z2
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+% =====================================================
+\section*{Professional Summary}
+
+Machine learning research engineer with a PhD and over ten years across industry and academia, focused on deep learning for audio under hard latency and compute constraints. My doctoral and postdoctoral work delivered real-time acoustic pattern detection on edge-class hardware: F1 of 0.76 at 14\,ms inference on a Raspberry Pi 4, a $74\times$ speedup over DSP baselines. I am well experienced in pre-model evaluation, comprehensive benchmarks, ablations, and I have extensive experience in conducting comprehensive and holistic model evaluations. I have released four public audio benchmark datasets with explicit label ontologies. I have published my work at the in Journal of Audio Engineering Society, multiple IEEE venues, AudioMostly, and Digital Audio Effects conference; My scientific service includes review for IEEE Access, Journal of the National Science Foundation of Sri Lanka, program committee for the IEEE Internet of Sounds Symposium.
+
+% =====================================================
+\section*{Core Competencies}
+
+\textbf{Audio and Acoustic Machine Learning:} Sound Event Detection, Audio Classification, Real-Time Audio Pattern Detection, Audio Representation Learning, Feature Front-End Design, Spectrograms and Time--Frequency Trade-offs, Mel and MFCC Representations, Onset Detection, Multimodal Audio and Sensor Learning\\
+\textbf{Edge and Constrained Inference:} Embedded and Edge Deployment, Real-Time Streaming Inference, Latency, Power and Compute Profiling, Designing to a Fixed Compute Budget, C++ Real-Time Inference Engines, ONNX\\
+\textbf{Evaluation and Research Method:} Benchmark Design, Frozen Evaluation Protocols, Ablation Studies, Cross-Site and Cross-Device Generalisation, Dataset Curation and Label Ontology Design, Weak and Scarce Annotation Regimes, Classical Statistics and Model Validation, Peer-Reviewed Publication
+
+% =====================================================
+\section*{Technical Stack}
+
+\textbf{Languages:} Python, C++, C, MATLAB, Linux Shell Scripting, JavaScript\\
+\textbf{Machine Learning and Deep Learning:} PyTorch, TensorFlow, Keras, scikit-learn, HuggingFace Transformers, ONNX, NumPy, SciPy, Pandas\\
+\textbf{Audio and Signal Processing:} Librosa, JUCE, Elk Audio OS, MIDI, Real-Time DSP, Custom C++ Feature Extraction\\
+\textbf{Edge and Systems:} Raspberry Pi, Embedded Linux, Real-Time Audio I/O, IoT Sensor Fleets, Distributed Field Deployment\\
+\textbf{Development and MLOps:} Docker, Git, Linux/UNIX, Pytest, CI/CD, Jenkins, Apache Airflow, AWS
+
+% =====================================================
+\section*{Education}
+\textbf{Ph.D - Information Engineering and Computer Science} \textit{\small{ - University of Trento, Italy}} \hfill \textit{Jan 2025}\\[2pt]
+\noindent\textbf{M.Sc - Telecommunication and Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[2pt]
+\noindent\textbf{B.Eng (Hons) - Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+\section*{Portfolio and Demos \footnotesize {\normalfont{(full portfolio available at: \href{https://nishal.xyz/research}{\textit{nishal.xyz/research}}.})}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Nebula, a comprehensive C++ audio feature extraction library: \href{https://github.com/ns2max/nebula}{\textit{https://github.com/ns2max/nebula}}
+    \item Hot Licks, a real-time audio pattern detection system running on embedded hardware: \href{https://youtu.be/gkOqfOT8zXM}{\textit{https://youtu.be/gkOqfOT8zXM}}
+    \item Multisensory concert enabled by real-time on-device audio inference: \href{https://youtu.be/axEHkdnxFB8}{\textit{https://youtu.be/axEHkdnxFB8}}
+    \item A connected, synchronized Internet of Musical Things Performance Ecosystem: \href{https://youtu.be/jfm5L3DYIcc}{\textit{https://youtu.be/jfm5L3DYIcc}}
+
+\end{itemize}
+
+
+\newpage
+% =====================================================
+\section*{Professional Experience}
+
+\begin{cvrole}{Independent Machine Learning Researcher}{Self-Directed Research}{Toronto, Canada}{Jan 2026}{Present}
+    \item Currently researching foundation-model-based music generation and synthetic variation generation for training under low labelled data.
+    \item Researching on deep learning-based methods to qualitatively evaluate pronunciation for speech applications.
+    \item Released Nebula, an open-source C++ audio feature extraction library designed for constrained hardware.
+    \item 2 manuscripts on edge-to-server offloading and real-time pattern detection accepted for publication.
+    % \item Curating and releasing public audio benchmark datasets with explicit label ontologies and documented collection protocols, extending a four-dataset suite used for real-time detection research.
+    % \item Preparing a controlled comparison of audio against symbolic input representations for embedded real-time drum pattern recognition, currently in review at the Journal of the Audio Engineering Society.
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Owned full research pipelines within the EU-funded MUSMET project on streaming audio and sensor data: collection, feature engineering, training and evaluation, and deployment to edge hardware with runtime monitoring.
+    \item Delivered real-time audio pattern detection at 14\,ms inference on a Raspberry Pi 4 at F1 0.76, experimentally demonstrated that recurrent models over raw polyphonic audio stay viable inside a hard real-time budget.
+    \item Designed frozen benchmark protocols with baselines and ablations to quantify architecture and feature trade-offs under latency and compute constraints.
+    \item Produced three peer-reviewed publications in 2025 (IEEE Internet of Sounds, IEEE I3DA) and presented demonstrations at international research and industry events.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Prototyped diffusion-based and VAE-based synthetic audio generation methods to improve robustness where labelled data was scarce.
+    \item Developed a real-time multimodal detection system over combined audio and inertial streams; profiled compute and power draw to assess feasibility for inference on battery-powered devices.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo 02, Sri Lanka}{Jan 2024}{Mar 2024}
+    \item Ran structured evaluations of machine learning driven interactive systems with domain practitioners, combining quantitative metrics with expert judgement to produce usability and adoption recommendations.
+    \item Worked directly with domain experts to define what counted as correct behaviour; translated practitioner judgements into evaluation criteria to measure models.
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo 05, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item Designed and deployed statistical and machine learning pipelines for anomaly detection over large structured enterprise datasets, supporting financial forensics and compliance monitoring.
+    \item Built Python backend scoring services to flag anomalous records for expert triage.
+    % , tuned so limited analyst review time went to genuine exceptions rather than false positives.
+    \item Translated regulatory and compliance requirements from non-technical stakeholders into detection specifications with measurable acceptance criteria.
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Owned end-to-end development of machine learning and computer vision systems for industrial manufacturing. 
+    \item Integrated camera, sensor, and IoT streams into live production workflows; deployed systems that improved operational efficiency by up to 300\%.
+    \item Developed and deployed C++ and Python real-time inference engines on embedded and IoT hardware, optimized for throughput, latency, and reliability within fixed hardware budgets.
+    \item Maintained deployed models across distributed sites with differing sensors and operating conditions; Addressed for the cross-site and cross-device drift that appeared in the field but not in development.
+    \item Deployed human-in-the-loop inspection models balancing throughput against operational risk; mentored engineers and established code review and CI/CD practice to scale adoption across teams.
+\end{cvrole}
+
+% =====================================================
+\section*{Selected Publications \footnotesize {\normalfont{(full list of publications available at: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}}.})}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Music Information Retrieval as a Service (MIRaaS): Latency Characterization of an Edge-to-Server Architecture for Near-Real-Time Audio Analysis}. IEEE International Symposium on the Internet of Sounds, 2026. \textit{(accepted)}
+    \item Silva, N. and Turchet, L. \textit{Audio vs. MIDI in Embedded Real-Time Drum Pattern Recognition}. Journal of the Audio Engineering Society, 2026. \textit{(accepted)}
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Mar. 2026. 
+    \item Silva, N., Wanderley, M. and Turchet, L. \textit{Melody and Motion: Integrating Guitar Gesture Detection with Musical Patterns for Extended Control in Live Performance and Metaverse Applications}. IEEE International Symposium on the Internet of Sounds, Oct. 2025.
+    \item Silva, N., Boem, A. and Turchet, L. \textit{Interactive IoMusT-Based Concerts: Real-Time Pattern Recognition and Audience Experience}. IEEE International Conference on Immersive and 3D Audio, Sep. 2025.
+    \item Silva, N. and Turchet, L. \textit{User-Centered Evaluation of Smart Musical Instruments with Embedded Real-Time Pattern Detection}. IEEE International Conference on Immersive and 3D Audio, Sep. 2025.
+    \item Silva, N. and Turchet, L. \textit{Real-Time Pattern Recognition of Symbolic Monophonic Music}. 19th International Audio Mostly Conference, Sep. 2024.
+    \item Silva, N. and Turchet, L. \textit{A Structural Similarity Index Based Method to Detect Symbolic Monophonic Patterns in Real-Time}. 25th International Conference on Digital Audio Effects (DAFx), Sep. 2022.
+    \item Silva, N., Fiscione, C. and Turchet, L. \textit{Towards Real-Time Detection of Symbolic Musical Patterns: Probabilistic vs. Deterministic Methods}. 27th FRUCT Conference, Apr. 2021.
+    \item Silva, N., Fiscione, C. and Weeraddana, P.C. \textit{On Musical Onset Detection via the S-Transform}. 52nd Asilomar Conference on Signals, Systems, and Computers, Oct. 2018.
+\end{itemize}
+
+\section*{Public Benchmark Datasets \footnotesize {\normalfont{(7,000+ recordings, 70 contributors, released on Zenodo)}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{DoMP}, 4,000 recordings, symbolic monophonic patterns with expressive variations (\textit{DOI: \href{https://doi.org/10.5281/zenodo.10818617}{\textit{10818617}}})
+    \item \textbf{DoPP}, 2,000 recordings, polyphonic audio patterns with expressive variations (\textit{DOI: \href{https://doi.org/10.5281/zenodo.14497998}{\textit{14497998}}})
+    \item \textbf{DoDP}, 2,000 recordings, percussive audio, rhythmic pattern detection (\textit{DOI: \href{https://doi.org/10.5281/zenodo.14497974}{\textit{14497974}}})
+    \item \textbf{DoDP2}, 2,000 recordings, percussive audio, extended ontology and multi-performer coverage (\textit{DOI: \href{https://doi.org/10.5281/zenodo.18395007}{\textit{18395007}}})
+\end{itemize}
+
+\section*{Scientific Committee and Peer Review}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Reviewer:} IEEE Access, Journal of the National Science Foundation Sri Lanka, Colloquio di Informatica Musicale.
+    \item \textbf{Programme Committee:} IEEE Internet of Sounds Symposium, IEEE Conference on Immersive and 3D Audio.
+\end{itemize}
+
+\section*{Selected Projects}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Real-Time Audio Detection on Edge Hardware:} Recurrent detection model over raw polyphonic audio reaching F1 0.76 at 14\,ms inference on a Raspberry Pi 4, $74\times$ faster than the baseline it replaced.
+    \item \textbf{Nebula, C++ Audio Feature Extraction Library:} Open-source library implementing spectral, temporal, and cepstral feature front-ends, written to run inside the audio callback on constrained hardware without allocation.
+    \item \textbf{Training-Free Detection via Structural Similarity:} Repurposed the structural similarity index from computer vision to match time--frequency structure directly, achieving 95\% detection with zero training data.
+    \item \textbf{Multimodal Audio and Inertial Detection:} Combined audio and IMU streams for real-time gesture recognition with McGill University; developed a prototype instrument. IEEE Internet of Sounds, 2025.
+\end{itemize}
+
+\vspace{-1em}
+\section*{Highlights and Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{MIDI Innovation Awards:} Finalist, Sep 2023, for a real-time embedded audio pattern detection system.
+    \item \textbf{GMOA Recognition (Sri Lanka):} Computer vision system for COVID-19 patient vitals monitoring, deployed across hospital wards during the pandemic.
+\end{itemize}
+
+\end{document}

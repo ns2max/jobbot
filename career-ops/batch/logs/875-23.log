@@ -1,0 +1,19 @@
+Role confirmed: **Software Engineer – Dedicated Inference @ Baseten** — San Francisco, CA, onsite only, US-based (confirmed via independent source, Ashby page itself is JS-rendered so direct fetch gave only title). $165K–$330K.
+
+Your profile (`modes/_profile.md`) has hard scope rule: Canada-only, non-Canadian roles are **hard exclude** — no evaluation, no score, no report/CV. This role is US-onsite (SF), not Canada or Canada-remote. Skipping per policy — no report/PDF/tracker generated.
+
+```json
+{
+  "status": "skipped",
+  "id": "23",
+  "report_num": "875",
+  "company": "Baseten",
+  "role": "Software Engineer - Dedicated Inference",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard-excluded by location policy: US-onsite (San Francisco, CA), non-Canadian role — per modes/_profile.md location scope rule"
+}
+```
+
+No files written for this batch ID. If wrong on location (Ashby page was JS-rendered, couldn't confirm firsthand), say so — will re-verify.

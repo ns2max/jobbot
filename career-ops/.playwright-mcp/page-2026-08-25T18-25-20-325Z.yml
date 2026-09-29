@@ -1,0 +1,156 @@
+- generic [ref=f640e3]:
+  - region "top of page"
+  - generic [ref=f640e9]:
+    - banner [ref=f640e10]:
+      - generic [ref=f640e30]:
+        - link [ref=f640e36] [cursor=pointer]:
+          - /url: https://www.gobindsarvar.ca
+        - navigation "Site" [ref=f640e42]:
+          - list [ref=f640e43]:
+            - listitem [ref=f640e44] [cursor=pointer]:
+              - button [ref=f640e45]:
+                - paragraph [ref=f640e48]: About
+              - button "More About pages" [ref=f640e49]
+            - listitem [ref=f640e52] [cursor=pointer]:
+              - button [ref=f640e53]:
+                - paragraph [ref=f640e56]: Elementary & Secondary
+              - button "More Elementary & Secondary pages" [ref=f640e57]
+            - listitem [ref=f640e60] [cursor=pointer]:
+              - link [ref=f640e61]:
+                - /url: https://www.gobindsarvar.ca/preschool
+                - paragraph [ref=f640e64]: Preschool
+            - listitem [ref=f640e65] [cursor=pointer]:
+              - link [ref=f640e66]:
+                - /url: https://www.gobindsarvar.ca/gurmat-school
+                - paragraph [ref=f640e69]: Gurmat School
+            - listitem [ref=f640e70] [cursor=pointer]:
+              - link [ref=f640e71]:
+                - /url: https://www.gobindsarvar.ca/daycare
+                - paragraph [ref=f640e74]: Daycare
+            - listitem [ref=f640e75] [cursor=pointer]:
+              - button [ref=f640e76]:
+                - paragraph [ref=f640e79]: Gallery
+              - button "More Gallery pages" [ref=f640e80]
+            - listitem [ref=f640e83] [cursor=pointer]:
+              - link [ref=f640e84]:
+                - /url: https://www.gobindsarvar.ca/contact
+                - paragraph [ref=f640e87]: Contact
+        - list "Social Bar" [ref=f640e93]:
+          - listitem [ref=f640e94]:
+            - link "Facebook" [ref=f640e95] [cursor=pointer]:
+              - /url: https://www.facebook.com/GobindSarvar
+              - img "Facebook" [ref=f640e96]
+          - listitem [ref=f640e97]:
+            - link "Instagram" [ref=f640e98] [cursor=pointer]:
+              - /url: https://www.instagram.com/gobindsarvarschool/
+              - img "Instagram" [ref=f640e99]
+          - listitem [ref=f640e100]:
+            - link "Google Places" [ref=f640e101] [cursor=pointer]:
+              - /url: https://maps.google.com/?cid=8255800207453889349
+              - img "Google Places" [ref=f640e102]
+    - main [ref=f640e103]:
+      - generic [ref=f640e109]:
+        - generic:
+          - generic:
+            - generic [ref=f640e118]:
+              - generic:
+                - generic:
+                  - heading "Career Opportunities" [level=1] [ref=f640e122]
+                  - group "Filters" [ref=f640e126]:
+                    - generic:
+                      - generic:
+                        - generic [ref=f640e128]:
+                          - generic [ref=f640e129]: Job Type
+                          - combobox "Job Type" [ref=f640e131] [cursor=pointer]
+                        - generic [ref=f640e132]:
+                          - generic [ref=f640e133]: Workspace
+                          - combobox "Workspace" [ref=f640e135] [cursor=pointer]
+                        - button "Search Jobs" [ref=f640e137] [cursor=pointer]
+            - generic [ref=f640e139]:
+              - generic:
+                - generic:
+                  - paragraph [ref=f640e141]:
+                    - generic [ref=f640e142]: "Number of jobs found:"
+                  - paragraph [ref=f640e143]:
+                    - generic [ref=f640e144]: "1"
+            - list [ref=f640e147]:
+              - listitem [ref=f640e149]:
+                - generic [ref=f640e150]:
+                  - generic:
+                    - generic:
+                      - heading "Teachers (Kindergarten–Grade 12)" [level=2] [ref=f640e154]
+                      - link "View Job" [ref=f640e159] [cursor=pointer]:
+                        - /url: https://www.gobindsarvar.ca/career-opportunities/teacher-(kg-12)
+                      - paragraph [ref=f640e161]:
+                        - generic [ref=f640e162]: Surrey, BC, Canada
+    - contentinfo [ref=f640e165]:
+      - generic [ref=f640e171]:
+        - generic:
+          - generic:
+            - img "87128e_ff53cfd8d43f4c039b3a75136c0f8d6b~mv2.avif" [ref=f640e174]
+            - generic:
+              - paragraph [ref=f640e175]:
+                - generic [ref=f640e179]:
+                  - text: "Phone Number:"
+                  - link "(604) 930-2122" [ref=f640e181] [cursor=pointer]:
+                    - /url: tel:(604) 930-2122
+              - paragraph [ref=f640e182]:
+                - generic [ref=f640e186]:
+                  - text: "Email:"
+                  - link "info@gobindsarvar.ca" [ref=f640e188] [cursor=pointer]:
+                    - /url: mailto:info@gobindsarvar.ca
+              - paragraph [ref=f640e189]:
+                - generic [ref=f640e193]:
+                  - text: "Elementary School Address:"
+                  - link "9115 160 St" [ref=f640e195] [cursor=pointer]:
+                    - /url: https://www.google.com/maps?sca_esv=a4aa018d8e4a65dc&output=search&q=Gobind+Sarvar+Elementary+School,+9115+160+St,+Surrey,+BC+V4N+2X7&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cTs4PJElQ4Z4ROUfAdKhH1pgN3jaVPpJtZ8IN28B_o1kUtC99hiBIfzaTbMI4KhA69DwKBQf9x6VAN6VeZnIMaznxvEpMc0wqrr76zsSoQxszDjssK58MDv8cs9CugHKgQFA9afyBY4xr9IxfYaNZV5KOvUTc_s0bJ4Tak7CWuYmWwsfCwC-BhJTyRNQOP3reuLH7vg&entry=mc&ved=1t:200715&ictx=111
+              - paragraph [ref=f640e196]:
+                - generic [ref=f640e198]:
+                  - generic [ref=f640e199]: "Secondary School, Daycare, Preschool Address:"
+                  - link "8820 168 St" [ref=f640e200] [cursor=pointer]:
+                    - /url: https://www.google.com/maps/place/Gobind+Sarvar+High+School/@49.1632779,-122.7566832,19.03z/data=!4m6!3m5!1s0x5485d0cf14f00001:0x72927e8c2de2a345!8m2!3d49.1633113!4d-122.7561982!16s%2Fg%2F1q6jkbhqr?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D
+            - list "Social Bar" [ref=f640e205]:
+              - listitem [ref=f640e206]:
+                - link "Instagram" [ref=f640e207] [cursor=pointer]:
+                  - /url: https://www.instagram.com/gobindsarvarschool/
+                  - img "Instagram" [ref=f640e208]
+              - listitem [ref=f640e209]:
+                - link "Facebook" [ref=f640e210] [cursor=pointer]:
+                  - /url: https://www.facebook.com/gobindsarvarelementary/
+                  - img "Facebook" [ref=f640e211]
+            - paragraph [ref=f640e212]:
+              - generic [ref=f640e213]: Today's Learners, Tomorrow's Guides
+            - paragraph [ref=f640e217]:
+              - generic [ref=f640e218]: ©2026 by Gobind Sarvar School.
+            - paragraph [ref=f640e221]:
+              - link "Policies & Guidelines" [ref=f640e224] [cursor=pointer]:
+                - /url: https://www.gobindsarvar.ca/_files/ugd/02161a_df273304ea0d4992b0dd9c38346b9a97.pdf
+            - generic:
+              - paragraph [ref=f640e227]:
+                - link "Home" [ref=f640e231] [cursor=pointer]:
+                  - /url: https://www.gobindsarvar.ca
+              - paragraph [ref=f640e232]:
+                - link "About" [ref=f640e236] [cursor=pointer]:
+                  - /url: https://www.gobindsarvar.ca/about-us
+              - paragraph [ref=f640e237]:
+                - link "Career Opportunities" [ref=f640e241] [cursor=pointer]:
+                  - /url: https://www.gobindsarvar.ca/career-opportunities/teacher-(kg-12)
+              - paragraph [ref=f640e242]:
+                - generic [ref=f640e245]:
+                  - link "Admissions" [ref=f640e247] [cursor=pointer]:
+                    - /url: https://www.gobindsarvar.ca/admissions
+                  - link "News Letter" [ref=f640e249] [cursor=pointer]:
+                    - /url: https://www.gobindsarvar.ca/newsletters
+              - paragraph [ref=f640e250]:
+                - link "Callender" [ref=f640e254] [cursor=pointer]:
+                  - /url: https://www.gobindsarvar.ca/calendar
+              - paragraph [ref=f640e255]:
+                - link "Preschool" [ref=f640e259] [cursor=pointer]:
+                  - /url: https://www.gobindsarvar.ca/preschool
+              - paragraph [ref=f640e260]:
+                - link "Daycare" [ref=f640e264] [cursor=pointer]:
+                  - /url: https://www.gobindsarvar.ca/daycare
+              - paragraph [ref=f640e265]:
+                - link "Gurmat School" [ref=f640e269] [cursor=pointer]:
+                  - /url: https://www.gobindsarvar.ca/daycare
+  - region "bottom of page"

@@ -1,0 +1,153 @@
+- generic [active] [ref=f619e1]:
+  - main [ref=f619e2]:
+    - generic [ref=f619e3]:
+      - link [ref=f619e5] [cursor=pointer]:
+        - /url: https://hume.ai/careers
+        - img "Hume AI Logo" [ref=f619e6]
+      - generic [ref=f619e7]:
+        - link "Back to jobs" [ref=f619e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/humeai
+        - generic [ref=f619e12]:
+          - generic [ref=f619e13]:
+            - heading "Senior Software Engineer - Backend & Machine Learning" [level=1] [ref=f619e14]
+            - generic [ref=f619e15]: New York, New York, United States
+          - button "Apply" [ref=f619e19] [cursor=pointer]
+        - generic [ref=f619e20]:
+          - generic [ref=f619e21]:
+            - paragraph [ref=f619e22]: Hume AI is seeking a talented senior software engineer with experience in backend services and ML infrastructure who is interested in working with our team to build state-of-the-art audio models and evaluation tools. Join us in the heart of New York City and contribute to our endeavor to ensure that AI is guided by human values, the most pivotal challenge (and opportunity) of the 21st century.
+            - paragraph [ref=f619e23]:
+              - strong [ref=f619e24]: About Us
+            - paragraph [ref=f619e25]:
+              - text: Hume AI is a Series B startup dedicated to building artificial intelligence that is directly optimized for human well-being. As the first company to release speech language models, we’re focused on expanding our research to encompass audio understanding models and evaluation platforms for enterprises.Our goal is to enable a future in which technology draws on an understanding of human emotional expression to better serve human goals. As part of our mission, we also conduct groundbreaking scientific research, publish in leading scientific journals like
+              - link "Nature" [ref=f619e26] [cursor=pointer]:
+                - /url: https://www.nature.com/articles/s41562-022-01489-2
+              - text: ", and support a non-profit, The Hume Initiative, that has released the first concrete ethical guidelines for empathic AI ("
+              - link "www.thehumeinitiative.org" [ref=f619e27] [cursor=pointer]:
+                - /url: http://www.thehumeinitiative.org/
+              - text: ). You can learn more about us on our website (
+              - link "https://hume.ai/" [ref=f619e28] [cursor=pointer]:
+                - /url: https://hume.ai/
+              - text: ) and read about us in
+              - link "WIRED" [ref=f619e29] [cursor=pointer]:
+                - /url: https://www.wired.com/story/hume-ai-emotional-intelligence/
+              - text: ","
+              - link "Forbes" [ref=f619e30] [cursor=pointer]:
+                - /url: https://www.forbes.com/sites/rashishrivastava/2024/03/27/feeling-sad-excited-or-bored-this-startup-claims-its-ai-can-mostly-tell/
+              - text: ", and"
+              - link "Venturebeat" [ref=f619e31] [cursor=pointer]:
+                - /url: https://venturebeat.com/ai/who-needs-gpt-4o-voice-mode-humes-evi-2-is-here-with-emotionally-inflected-voice-ai-and-api/
+              - text: .
+            - paragraph [ref=f619e32]:
+              - strong [ref=f619e33]: About the Role
+            - paragraph [ref=f619e34]: We are looking for an experienced and motivated senior engineer with experience in backend services and ML infrastructure. In this role you will help us integrate cutting edge AI models into services and toolkits for researchers and developers. You will work closely with research scientists and other engineers to build new capabilities into the Hume platform, and you will have the opportunity to take part in a wide range of engineering initiatives across backend applications, cloud infrastructure, and the ML lifecycle, including evaluation and deployment at scale.
+            - paragraph [ref=f619e35]
+            - paragraph [ref=f619e36]:
+              - strong [ref=f619e37]: Requirements
+            - list [ref=f619e38]:
+              - listitem [ref=f619e39]: Expertise in the Python ecosystem and popular ML libraries and tools (e.g. PyTorch, JAX, TensorFlow, XGBoost, sklearn, pandas, numpy).
+              - listitem [ref=f619e40]: Experience building and deploying models for inference services.
+              - listitem [ref=f619e41]: Experience writing backend services in multiple languages (e.g. Kotlin, Go, Rust, Java, C++).
+              - listitem [ref=f619e42]: Understanding of core ML concepts including model architecture, training, and evaluation.
+              - listitem [ref=f619e43]: Expertise working with storage and compute on a cloud platform (e.g.Google Cloud, AWS).
+              - listitem [ref=f619e44]: Excellent communication and collaboration skills.
+            - paragraph [ref=f619e45]:
+              - strong [ref=f619e46]: Bonus
+            - list [ref=f619e47]:
+              - listitem [ref=f619e48]: Familiarity with data engineering principles and/or building large-scale data pipelines.
+              - listitem [ref=f619e49]: Familiarity with building and deploying LLM-integrated products.
+              - listitem [ref=f619e50]: Experience working at the intersection of machine learning research and engineering.
+              - listitem [ref=f619e51]: Understanding of modern deployment strategies utilizing cloud technologies. (e.g. blue/green, canary deployments, etc).
+              - listitem [ref=f619e52]: Experience using service deployment tooling (e.g. Kubernetes, Helm, Docker, Argo).
+            - paragraph [ref=f619e53]:
+              - strong [ref=f619e54]: Application Note
+            - paragraph [ref=f619e55]:
+              - emphasis [ref=f619e56]: Please apply only to the position that best aligns with your qualifications. If you submit multiple applications or have applied within the past 6 months, only your initial submission will be considered.
+          - generic [ref=f619e58]:
+            - paragraph [ref=f619e59]: Annual Salary
+            - paragraph [ref=f619e60]: $180,000 - $250,000 USD
+        - generic [ref=f619e64]:
+          - paragraph [ref=f619e65]: Create a Job Alert
+          - paragraph [ref=f619e66]: Interested in building your career at Hume AI? Get future opportunities sent straight to your email.
+          - link "Create alert" [ref=f619e67] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=humeai&source=job_alert_post&variant=job_alert_post_a
+      - separator [ref=f619e68]
+      - generic [ref=f619e69]:
+        - generic [ref=f619e70]:
+          - generic [ref=f619e71]:
+            - heading "Apply for this job" [level=2] [ref=f619e73]
+            - generic [ref=f619e74]:
+              - paragraph [ref=f619e76]: "*"
+              - paragraph [ref=f619e77]: indicates a required field
+          - button "Autofill my application" [ref=f619e80] [cursor=pointer]
+        - generic [ref=f619e81]:
+          - generic [ref=f619e82]:
+            - generic [ref=f619e85]:
+              - generic [ref=f619e86]: First Name*
+              - textbox "First Name" [ref=f619e87]
+            - generic [ref=f619e90]:
+              - generic [ref=f619e91]: Last Name*
+              - textbox "Last Name" [ref=f619e92]
+            - generic [ref=f619e95]:
+              - generic [ref=f619e96]: Email*
+              - textbox "Email" [ref=f619e97]
+            - group "Phone" [ref=f619e99]:
+              - generic [ref=f619e103]:
+                - generic [ref=f619e104]: Country
+                - generic [ref=f619e105]:
+                  - log [ref=f619e107]
+                  - generic [ref=f619e109]:
+                    - combobox "Country" [ref=f619e112]
+                    - button "Toggle flyout" [ref=f619e114] [cursor=pointer]
+              - generic [ref=f619e119]:
+                - generic [ref=f619e120]: Phone
+                - textbox "Phone" [ref=f619e122]
+            - group "Resume/CV*" [ref=f619e124]:
+              - generic [ref=f619e127]:
+                - generic [ref=f619e129]:
+                  - button "Attach" [ref=f619e130] [cursor=pointer]
+                  - generic [ref=f619e131]: Attach
+                  - button "Attach" [ref=f619e132]
+                - button "Google Drive" [ref=f619e134] [cursor=pointer]
+                - generic [ref=f619e136]:
+                  - button "Enter manually" [ref=f619e137] [cursor=pointer]
+                  - generic [ref=f619e138]: Enter manually
+                - paragraph [ref=f619e139]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f619e140]:
+            - separator [ref=f619e141]
+            - generic [ref=f619e144]:
+              - generic [ref=f619e145]: Location
+              - textbox "Location" [ref=f619e146]
+            - generic [ref=f619e149]:
+              - generic [ref=f619e150]: Why Hume?
+              - textbox "Why Hume?" [ref=f619e151]
+            - generic [ref=f619e154]:
+              - generic [ref=f619e155]: Are you legally authorized to work in the United States without sponsorship?*
+              - generic [ref=f619e156]:
+                - log [ref=f619e158]
+                - generic [ref=f619e160]:
+                  - generic [ref=f619e161]:
+                    - generic [ref=f619e162]: Select...
+                    - combobox "Are you legally authorized to work in the United States without sponsorship?" [ref=f619e164]
+                  - button "Toggle flyout" [ref=f619e166] [cursor=pointer]
+                - textbox
+            - generic [ref=f619e171]:
+              - generic [ref=f619e172]: Have you applied to any positions at Hume in the past 6 months?*
+              - generic [ref=f619e173]:
+                - log [ref=f619e175]
+                - generic [ref=f619e177]:
+                  - generic [ref=f619e178]:
+                    - generic [ref=f619e179]: Select...
+                    - combobox "Have you applied to any positions at Hume in the past 6 months?" [ref=f619e181]
+                  - button "Toggle flyout" [ref=f619e183] [cursor=pointer]
+                - textbox
+          - button "Submit application" [ref=f619e187] [cursor=pointer]
+  - contentinfo [ref=f619e188]:
+    - generic [ref=f619e189]:
+      - paragraph [ref=f619e190]: Powered by
+      - link [ref=f619e191] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f619e192]
+  - iframe [ref=f619e206]:
+    - generic [ref=f620e6]:
+      - text: protected by
+      - strong [ref=f620e7]: reCAPTCHA

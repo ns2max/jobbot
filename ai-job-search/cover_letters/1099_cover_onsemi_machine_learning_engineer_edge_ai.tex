@@ -1,0 +1,79 @@
+% Job posting: https://ca.linkedin.com/jobs/view/machine-learning-engineer-edge-ai-at-onsemi-4413322899
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: onsemi - Machine Learning Engineer, Edge AI (Waterloo, ON)
+%  Variant: V3 (Edge / Embedded)
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+\newcommand{\clTagline}{ML Research Engineer | Real-Time \& Edge Inference | Audio, Sensor \& Time-Series}
+\newcommand{\clRole}{Machine Learning Engineer, Edge AI}
+\newcommand{\clCompany}{onsemi}
+\newcommand{\clTeam}{the Edge AI team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Machine Learning Engineer, Edge AI role at onsemi. I am a Machine Learning Research Engineer with a PhD from the University of Trento and more than ten years across industry and academia, and my specialty is exactly the boundary this role sits on: getting models to run accurately inside hard latency, compute, power and memory budgets on constrained hardware. My published work runs real-time audio pattern detection in 14 ms on a Raspberry Pi 4 at 31.4 percent CPU, F1 0.76, which is 74 times faster than the dynamic time warping baseline it replaced (JAES 2026).
+
+The posting asks for ML across time-series, audio, computer vision and ultrasonic domains, and for someone who can move a model from framework to constrained target while reasoning about the tradeoffs. That has been my work for a decade. At the University of Trento I owned the full pipeline for streaming audio and sensor data, from DSP and feature engineering through training to deployment on Raspberry Pi with monitoring, and I designed the baseline and ablation suites that quantified how architecture, feature rate and pattern-set size trade against latency and CPU. At MAS Holdings I shipped C++ and Python inference engines on embedded and IoT hardware at manufacturing scale, including computer-vision inspection that cut label QC time by 99.5 percent, and I did that in close co-design with the hardware, firmware and PLC teams. My deep learning work has been primarily in TensorFlow with PyTorch and ONNX alongside it; accelerator kernel programming is where I would ramp fastest, building on the ARM profiling and latency benchmarking behind my open-source C++17 library Nebula. I prototype quickly, including with agentic coding tools such as Claude Code.
+
+What draws me to onsemi specifically is the Treo platform direction: moving analog, sensing and processing into a single device so that intelligence lives where the signal is captured rather than downstream. That is the same problem I have chased from the other side, making the model small and fast enough to belong on the sensor. In the first months I would contribute the model-side rigour that accelerator bring-up needs: principled architecture selection, feature-rate tuning, and a benchmark discipline that makes the accuracy, latency and power tradeoffs measurable rather than guessed.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, available immediately, and glad to relocate to Waterloo for this role. I would welcome the opportunity to discuss how my experience in real-time and edge ML can support \clTeam{} at onsemi. My portfolio, publications and open datasets are at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

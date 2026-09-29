@@ -1,0 +1,21 @@
+SF role — Anthropic Life Sciences Research Scientist. Location San Francisco, CA.
+
+Profile policy (`modes/_profile.md`, 2026-08-20 scope): Canada-only hard exclude. Non-Canadian roles = don't evaluate, don't score, don't generate CV/report. This one hits that wall — no relocation offer, no Canada-remote option, straight SF onsite/hybrid US role.
+
+Stopping pipeline here per policy. No report, no PDF, no tracker line.
+
+```json
+{
+  "status": "failed",
+  "id": "9",
+  "report_num": "725",
+  "company": "Anthropic",
+  "role": "Research Scientist, Life Sciences",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role location San Francisco, CA — outside Canada-only scope policy (modes/_profile.md, 2026-08-20). No evaluation, report, or PDF generated per user policy."
+}
+```
+
+Note also: even absent location policy, domain mismatch big — role wants computational biology / bioinformatics / drug discovery background, candidate has zero bio domain experience (audio/CV/industrial ML only). Would've scored low regardless.

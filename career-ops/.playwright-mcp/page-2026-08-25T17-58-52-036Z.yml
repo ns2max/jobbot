@@ -1,0 +1,306 @@
+- generic [active] [ref=f449e1]:
+  - main [ref=f449e2]:
+    - generic [ref=f449e3]:
+      - link [ref=f449e5] [cursor=pointer]:
+        - /url: https://www.anthropic.com/jobs
+        - img "Anthropic Logo" [ref=f449e6]
+      - generic [ref=f449e7]:
+        - link "Back to jobs" [ref=f449e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/anthropic
+        - generic [ref=f449e12]:
+          - generic [ref=f449e13]:
+            - heading "Research Engineer, RL Scaling Science" [level=1] [ref=f449e14]
+            - generic [ref=f449e15]: London, UK
+          - button "Apply" [ref=f449e19] [cursor=pointer]
+        - generic [ref=f449e20]:
+          - generic [ref=f449e21]:
+            - heading [level=2] [ref=f449e22]:
+              - strong [ref=f449e23]: About Anthropic
+            - paragraph [ref=f449e24]: Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.
+          - generic [ref=f449e25]:
+            - heading [level=2] [ref=f449e26]:
+              - strong [ref=f449e27]: About the role
+            - paragraph [ref=f449e28]: Anthropic's RL Scaling Science team studies how reinforcement learning behaves as we scale it (across model size, compute, and task horizon) and turns that understanding into the training recipes behind our frontier models. As a Research Engineer on this team, you'll design and run large-scale experiments to understand and resolve bottlenecks, build the benchmarks that make long-horizon progress measurable, and ship validated findings directly into production training.
+            - paragraph [ref=f449e29]: This role lives at the boundary between research and engineering. The problems are open, the experiments run at frontier scale, and the path from a robust result to production is short.
+            - heading [level=2] [ref=f449e30]:
+              - strong [ref=f449e31]: Key responsibilities
+            - list [ref=f449e32]:
+              - listitem [ref=f449e33]: Design, run, and interpret large-scale RL experiments, reasoning rigorously about what the data does and doesn't show
+              - listitem [ref=f449e34]: Investigate how RL improves as horizon, compute, and model size grow
+              - listitem [ref=f449e35]: Build and maintain benchmarks for long-horizon RL so progress is measurable and reproducible
+              - listitem [ref=f449e36]: Translate validated findings into production training recipes, exercising judgment about when a result is robust enough to ship
+              - listitem [ref=f449e37]: Debug complex issues at the seam where research meets infrastructure - failures that only appear at scale
+              - listitem [ref=f449e38]: Partner closely with adjacent RL teams across research and engineering and advance our overall RL stack
+            - heading [level=2] [ref=f449e39]:
+              - strong [ref=f449e40]: Minimum qualifications
+            - list [ref=f449e41]:
+              - listitem [ref=f449e42]: Strong empirical research skills in Reinforcement Learning, large-scale ML training, or a closely adjacent area
+              - listitem [ref=f449e43]: Demonstrated ability to own large experiments end-to-end, from design through interpretation
+              - listitem [ref=f449e44]: Proficiency in Python and experience working with large-scale or distributed ML systems
+              - listitem [ref=f449e45]: Comfort operating at the research/systems boundary, including debugging where the two meet
+              - listitem [ref=f449e46]: Care about the societal impacts of AI and responsible scaling
+            - heading [level=2] [ref=f449e47]:
+              - strong [ref=f449e48]: Preferred qualifications
+            - list [ref=f449e49]:
+              - listitem [ref=f449e50]: Published or shipped work in long-horizon RL or RL fundamentals
+              - listitem [ref=f449e51]: Experience translating research findings into production training recipes
+              - listitem [ref=f449e52]: Demonstrated large scale industry impact via RL interventions
+              - listitem [ref=f449e53]: Experience working on frontier-scale training runs with long trajectories
+            - heading [level=2] [ref=f449e54]:
+              - strong [ref=f449e55]: Representative projects
+            - list [ref=f449e56]:
+              - listitem [ref=f449e57]: Design a benchmark suite for long-horizon RL that distinguishes genuine capability gains from artifacts of evaluation setup
+              - listitem [ref=f449e58]: Take a promising experimental finding, stress-test it across model scales, and work with training teams to land it in a production recipe
+              - listitem [ref=f449e59]: Investigate an unexpected scaling trend in an RL run and trace it to a root cause spanning algorithm, data, and infrastructure
+            - paragraph [ref=f449e60]
+          - generic [ref=f449e62]:
+            - generic [ref=f449e65]:
+              - paragraph [ref=f449e66]: The annual compensation range for this role is listed below.
+              - paragraph [ref=f449e67]: For sales roles, the range provided is the role’s On Target Earnings ("OTE") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.
+            - paragraph [ref=f449e68]: "Annual Salary:"
+            - paragraph [ref=f449e69]: £375,000 - £640,000 GBP
+          - generic [ref=f449e70]:
+            - heading [level=2] [ref=f449e71]:
+              - strong [ref=f449e72]: Logistics
+            - paragraph [ref=f449e73]:
+              - strong [ref=f449e74]: "Minimum education:"
+              - text: Bachelor’s degree or an equivalent combination of education, training, and/or experience
+            - paragraph [ref=f449e75]:
+              - strong [ref=f449e76]: "Required field of study:"
+              - text: A field relevant to the role as demonstrated through coursework, training, or professional experience
+            - paragraph [ref=f449e77]:
+              - strong [ref=f449e78]: "Minimum years of experience:"
+              - text: Years of experience required will correlate with the internal job level requirements for the position
+            - paragraph [ref=f449e79]:
+              - strong [ref=f449e80]: "Location-based hybrid policy:"
+              - text: Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.
+            - paragraph [ref=f449e81]:
+              - strong [ref=f449e82]: "Visa sponsorship:"
+              - text: We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.
+            - paragraph [ref=f449e83]:
+              - strong [ref=f449e84]: We encourage you to apply even if you do not believe you meet every single qualification.
+              - text: Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you're interested in this work. We think AI systems like the ones we're building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.
+              - strong [ref=f449e85]: Your safety matters to us.
+              - text: To protect yourself from potential scams, remember that Anthropic recruiters only contact you from @anthropic.com email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you're ever unsure about a communication, don't click any links—visit
+              - link "anthropic.com/careers" [ref=f449e87] [cursor=pointer]:
+                - /url: http://anthropic.com/careers
+              - text: directly for confirmed position openings.
+            - heading [level=2] [ref=f449e88]:
+              - strong [ref=f449e89]: How we're different
+            - paragraph [ref=f449e90]: We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We're an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.
+            - paragraph [ref=f449e91]: "The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI & Compute, Concrete Problems in AI Safety, and Learning from Human Preferences."
+            - heading [level=2] [ref=f449e92]:
+              - strong [ref=f449e93]: Come work with us!
+            - paragraph [ref=f449e94]:
+              - text: Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues.
+              - strong [ref=f449e95]: "Guidance on Candidates' AI Usage:"
+              - text: Learn about
+              - link "our policy" [ref=f449e96] [cursor=pointer]:
+                - /url: https://www.anthropic.com/candidate-ai-guidance
+              - text: for using AI in our application process.
+        - generic [ref=f449e100]:
+          - paragraph [ref=f449e101]: Get new jobs like this in your inbox
+          - paragraph [ref=f449e102]: We'll email you when Anthropic posts a job like this one.
+          - link "Create alert" [ref=f449e103] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=anthropic&source=job_alert_post&variant=job_alert_post_b
+      - separator [ref=f449e104]
+      - generic [ref=f449e105]:
+        - generic [ref=f449e107]:
+          - heading "Apply for this job" [level=2] [ref=f449e109]
+          - generic [ref=f449e110]:
+            - paragraph [ref=f449e112]: "*"
+            - paragraph [ref=f449e113]: indicates a required field
+        - generic [ref=f449e114]:
+          - generic [ref=f449e115]:
+            - generic [ref=f449e118]:
+              - generic [ref=f449e119]: First Name*
+              - textbox "First Name" [ref=f449e120]
+            - generic [ref=f449e123]:
+              - generic [ref=f449e124]: Last Name*
+              - textbox "Last Name" [ref=f449e125]
+            - generic [ref=f449e128]:
+              - generic [ref=f449e129]: Email*
+              - textbox "Email" [ref=f449e130]
+            - group "Phone" [ref=f449e132]:
+              - generic [ref=f449e136]:
+                - generic [ref=f449e137]: Country
+                - generic [ref=f449e138]:
+                  - log [ref=f449e140]
+                  - generic [ref=f449e142]:
+                    - combobox "Country" [ref=f449e145]
+                    - button "Toggle flyout" [ref=f449e147] [cursor=pointer]
+              - generic [ref=f449e152]:
+                - generic [ref=f449e153]: Phone
+                - textbox "Phone" [ref=f449e155]
+            - group "Resume/CV" [ref=f449e157]:
+              - generic [ref=f449e160]:
+                - generic [ref=f449e162]:
+                  - button "Attach" [ref=f449e163] [cursor=pointer]
+                  - generic [ref=f449e164]: Attach
+                  - button "Attach" [ref=f449e165]
+                - button "Dropbox" [ref=f449e167] [cursor=pointer]
+                - button "Google Drive" [ref=f449e169] [cursor=pointer]
+                - generic [ref=f449e171]:
+                  - button "Enter manually" [ref=f449e172] [cursor=pointer]
+                  - generic [ref=f449e173]: Enter manually
+                - paragraph [ref=f449e174]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f449e175]:
+            - separator [ref=f449e176]
+            - generic [ref=f449e177]:
+              - generic [ref=f449e179]:
+                - generic [ref=f449e180]: (Optional) Personal Preferences
+                - textbox "(Optional) Personal Preferences" [ref=f449e181]
+              - paragraph [ref=f449e184]: How do you pronounce your name?
+            - generic [ref=f449e187]:
+              - generic [ref=f449e188]: Website
+              - textbox "Website" [ref=f449e189]
+            - generic [ref=f449e192]:
+              - generic [ref=f449e193]: Are you open to working in-person in one of our offices 25% of the time?*
+              - generic [ref=f449e194]:
+                - log [ref=f449e196]
+                - generic [ref=f449e198]:
+                  - generic [ref=f449e199]:
+                    - generic [ref=f449e200]: Select...
+                    - combobox "Are you open to working in-person in one of our offices 25% of the time?" [ref=f449e202]
+                  - button "Toggle flyout" [ref=f449e204] [cursor=pointer]
+                - textbox
+            - generic [ref=f449e209]:
+              - generic [ref=f449e210]: When is the earliest you would want to start working with us?
+              - textbox "When is the earliest you would want to start working with us?" [ref=f449e211]
+            - generic [ref=f449e214]:
+              - generic [ref=f449e215]: Do you have any deadlines or timeline considerations we should be aware of?
+              - textbox "Do you have any deadlines or timeline considerations we should be aware of?" [ref=f449e216]
+            - generic [ref=f449e217]:
+              - generic [ref=f449e219]:
+                - generic [ref=f449e220]: AI Policy for Application*
+                - generic [ref=f449e221]:
+                  - log [ref=f449e223]
+                  - generic [ref=f449e225]:
+                    - generic [ref=f449e226]:
+                      - generic [ref=f449e227]: Select...
+                      - combobox "AI Policy for Application" [ref=f449e229]
+                    - button "Toggle flyout" [ref=f449e231] [cursor=pointer]
+                  - textbox
+              - paragraph [ref=f449e236]:
+                - text: We believe that AI will have a transformative impact on the world, and we’re seeking exceptional candidates who collaborate thoughtfully with Claude to realize this vision. At the same time, we want to understand your unique skills, expertise, and perspective through our hiring process. We invite you to review our
+                - link "AI partnership guidelines for candidates" [ref=f449e237] [cursor=pointer]:
+                  - /url: https://www.anthropic.com/candidate-ai-guidance
+                - text: and confirm your understanding by selecting “Yes.”
+            - generic [ref=f449e238]:
+              - generic [ref=f449e240]:
+                - generic [ref=f449e241]: Why Anthropic?*
+                - textbox "Why Anthropic?" [ref=f449e242]
+              - paragraph [ref=f449e245]: Why do you want to work at Anthropic? (We value this response highly - great answers are often 200-400 words.)
+            - generic [ref=f449e248]:
+              - generic [ref=f449e249]: Do you require visa sponsorship?*
+              - generic [ref=f449e250]:
+                - log [ref=f449e252]
+                - generic [ref=f449e254]:
+                  - generic [ref=f449e255]:
+                    - generic [ref=f449e256]: Select...
+                    - combobox "Do you require visa sponsorship?" [ref=f449e258]
+                  - button "Toggle flyout" [ref=f449e260] [cursor=pointer]
+                - textbox
+            - generic [ref=f449e265]:
+              - generic [ref=f449e266]: Will you now or will you in the future require employment visa sponsorship to work in the country in which the job you're applying for is located? *
+              - generic [ref=f449e267]:
+                - log [ref=f449e269]
+                - generic [ref=f449e271]:
+                  - generic [ref=f449e272]:
+                    - generic [ref=f449e273]: Select...
+                    - combobox "Will you now or will you in the future require employment visa sponsorship to work in the country in which the job you're applying for is located?" [ref=f449e275]
+                  - button "Toggle flyout" [ref=f449e277] [cursor=pointer]
+                - textbox
+            - generic [ref=f449e280]:
+              - generic [ref=f449e282]:
+                - generic [ref=f449e283]: Additional Information
+                - textbox "Additional Information" [ref=f449e284]
+              - paragraph [ref=f449e287]: Add a cover letter or anything else you want to share.
+            - generic [ref=f449e288]:
+              - generic [ref=f449e290]:
+                - generic [ref=f449e291]: LinkedIn Profile
+                - textbox "LinkedIn Profile" [ref=f449e292]
+              - paragraph [ref=f449e295]:
+                - text: Please ensure to provide
+                - emphasis [ref=f449e296]: either
+                - text: your LinkedIn profile or Resume, we require at least one of the two.
+            - generic [ref=f449e299]:
+              - generic [ref=f449e300]: Are you open to relocation for this role? *
+              - generic [ref=f449e301]:
+                - log [ref=f449e303]
+                - generic [ref=f449e305]:
+                  - generic [ref=f449e306]:
+                    - generic [ref=f449e307]: Select...
+                    - combobox "Are you open to relocation for this role?" [ref=f449e309]
+                  - button "Toggle flyout" [ref=f449e311] [cursor=pointer]
+                - textbox
+            - generic [ref=f449e316]:
+              - generic [ref=f449e317]: What is the address from which you plan on working? If you would need to relocate, please type "relocating".
+              - textbox "What is the address from which you plan on working? If you would need to relocate, please type \"relocating\"." [ref=f449e318]
+            - generic [ref=f449e321]:
+              - generic [ref=f449e322]: Have you ever interviewed at Anthropic before?*
+              - generic [ref=f449e323]:
+                - log [ref=f449e325]
+                - generic [ref=f449e327]:
+                  - generic [ref=f449e328]:
+                    - generic [ref=f449e329]: Select...
+                    - combobox "Have you ever interviewed at Anthropic before?" [ref=f449e331]
+                  - button "Toggle flyout" [ref=f449e333] [cursor=pointer]
+                - textbox
+            - generic [ref=f449e336]:
+              - generic [ref=f449e338]:
+                - generic [ref=f449e339]: Please read the arbitration agreement below*
+                - generic [ref=f449e340]:
+                  - log [ref=f449e342]
+                  - generic [ref=f449e344]:
+                    - generic [ref=f449e345]:
+                      - generic [ref=f449e346]: Select...
+                      - combobox "Please read the arbitration agreement below" [ref=f449e348]
+                    - button "Toggle flyout" [ref=f449e350] [cursor=pointer]
+                  - textbox
+              - generic [ref=f449e354]:
+                - paragraph [ref=f449e355]
+                - paragraph [ref=f449e356]:
+                  - strong [ref=f449e357]:
+                    - emphasis [ref=f449e358]: Agreement to Arbitrate
+                - paragraph [ref=f449e359]:
+                  - emphasis [ref=f449e360]: I understand and agree that both Anthropic and I waive our respective rights to trial by jury in connection with any claims covered by this agreement to arbitrate. Instead, any disputes arising out of or related to my application for employment with Anthropic shall be settled by final and binding arbitration pursuant to the Federal Arbitration Act. I understand and agree that Anthropic’s employees/agents, Anthropic’s clients, and their employees/agents are third-party beneficiaries to this agreement.
+                - paragraph [ref=f449e361]:
+                  - emphasis [ref=f449e362]: The arbitration shall be conducted in accordance with the Employment Arbitration Rules & Procedures of Judicial Arbitration and Mediation Services, Inc. (“JAMS Rules”), available via the internet at
+                  - link [ref=f449e363] [cursor=pointer]:
+                    - /url: https://www.jamsadr.com/rules-employment-arbitration
+                    - emphasis [ref=f449e364]: https://www.jamsadr.com/rules-employment-arbitration
+                  - emphasis [ref=f449e365]: or by searching for “JAMS Employment Arbitration Rules” in an online search service such as
+                  - link [ref=f449e366] [cursor=pointer]:
+                    - /url: http://www.google.com/
+                    - emphasis [ref=f449e367]: www.google.com
+                  - emphasis [ref=f449e368]: . To the extent the JAMS Rules are inconsistent with the terms of this Agreement, this Agreement shall govern to the extent permitted by law. The parties will select one neutral arbitrator, who will have the authority to award all relief in law or equity that is requested by the parties and supported by credible, relevant, and admissible evidence. The arbitrator shall allow adequate discovery and issue a written, signed, and reasoned award. Judgement may be entered on the arbitrator’s award in any court having jurisdiction, and the award shall be subject to correction, confirmation, or vacation as provided by the applicable law concerning judicial review of arbitration awards. Anthropic will bear the costs that are particular to the arbitration, such as the arbitrator fees. The arbitrator will apply the substantive law of the state in which I sought employment with Anthropic. The arbitrator will determine the arbitration venue, based on fairness and convenience to the parties and witnesses, unless otherwise mutually agreed upon by the parties. The Party initiating a claim under this Agreement must make a written demand for arbitration to the other Party. The demand for arbitration shall identify the claims asserted, the facts upon which such claims are based, and any relief or remedy sought. Written demand for arbitration to Anthropic must be sent to Anthropic PBC at
+                  - link [ref=f449e369] [cursor=pointer]:
+                    - /url: mailto:arbdemands@anthropic.com
+                    - emphasis [ref=f449e370]: arbdemands@anthropic.com
+                  - emphasis [ref=f449e371]: . Anthropic’s demand for arbitration shall be sent to the most recent mailing address and/or email address that Anthropic has on file for you.
+                - paragraph [ref=f449e372]:
+                  - emphasis [ref=f449e373]: This agreement to arbitrate does not apply to claims for workers’ compensation, unemployment compensation benefits, claims or charges before any administrative agency having jurisdiction over such claims, or any other claim that is not subject to arbitration under federal law. If any claims are deemed non-arbitrable, then those claims will be stayed until resolution of any arbitrable claims.
+                - paragraph [ref=f449e374]:
+                  - emphasis [ref=f449e375]: I understand and agree that, except where prohibited by federal law, all claims subject to this agreement to arbitrate must be pursued on an individual basis, and that both I and Anthropic waive any right to bring or be a party to any class or collective action. I agree that any issues pertaining to the enforceability, application or validity of this agreement to arbitrate shall be decided only by a court of competent jurisdiction and not by an arbitrator. This agreement to arbitrate applies only in the United States.
+            - generic [ref=f449e378]:
+              - generic [ref=f449e379]: Agreement to Arbitrate*
+              - generic [ref=f449e380]:
+                - log [ref=f449e382]
+                - generic [ref=f449e384]:
+                  - generic [ref=f449e385]:
+                    - generic [ref=f449e386]: Select...
+                    - combobox "Agreement to Arbitrate" [ref=f449e388]
+                  - button "Toggle flyout" [ref=f449e390] [cursor=pointer]
+                - textbox
+          - button "Submit application" [ref=f449e394] [cursor=pointer]
+  - contentinfo [ref=f449e395]:
+    - generic [ref=f449e396]:
+      - paragraph [ref=f449e397]: Powered by
+      - link [ref=f449e398] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f449e399]
+  - iframe [ref=f449e413]:
+    - generic [ref=f450e6]:
+      - text: protected by
+      - strong [ref=f450e7]: reCAPTCHA

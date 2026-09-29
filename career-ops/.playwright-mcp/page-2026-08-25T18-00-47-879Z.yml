@@ -1,0 +1,168 @@
+- generic [ref=f491e2]:
+  - list [ref=f491e4]:
+    - listitem [ref=f491e5]:
+      - link [ref=f491e6] [cursor=pointer]:
+        - /url: https://cohere.com/
+        - img "Cohere" [ref=f491e7]
+    - listitem [ref=f491e8]:
+      - link "Back to Cohere’s Job Listings" [ref=f491e9] [cursor=pointer]:
+        - /url: /cohere
+    - listitem
+  - generic [ref=f491e12]:
+    - heading "Senior Research Engineer - Safety Tooling and Data" [level=1] [ref=f491e14]
+    - generic [ref=f491e15]:
+      - generic [ref=f491e16]:
+        - generic [ref=f491e17]:
+          - heading "Location" [level=2] [ref=f491e18]
+          - paragraph [ref=f491e19]: New York
+        - generic [ref=f491e20]:
+          - heading "Employment Type" [level=2] [ref=f491e21]
+          - paragraph [ref=f491e22]: Full time
+        - generic [ref=f491e23]:
+          - heading "Department" [level=2] [ref=f491e24]
+          - paragraph [ref=f491e25]:
+            - generic [ref=f491e26]: Modeling
+      - generic [ref=f491e27]:
+        - tablist [ref=f491e28]:
+          - tab "Overview" [selected] [ref=f491e29] [cursor=pointer]
+          - tab "Application" [ref=f491e30] [cursor=pointer]
+        - tabpanel "Overview" [ref=f491e32]:
+          - generic [ref=f491e33]:
+            - paragraph [ref=f491e34]:
+              - strong [ref=f491e35]: Who are we?
+            - paragraph [ref=f491e36]: Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems.
+            - paragraph [ref=f491e37]: We’re training and deploying frontier models for enterprises who are building AI systems. We believe that our work is instrumental to the widespread adoption of AI and we are looking for folks that want to be part of that.
+            - paragraph [ref=f491e38]: We obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. Cohere is a team of researchers, engineers, designers, and more, who are all passionate about their craft.
+            - paragraph [ref=f491e39]: We are a global technology company headquartered in Toronto with key offices in London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul. Join us!
+            - paragraph [ref=f491e40]
+            - paragraph [ref=f491e41]:
+              - strong [ref=f491e42]: "Role Overview:"
+            - paragraph [ref=f491e43]: As a Senior Research Engineer in our Safety team, you will play a key role in helping develop safer, more secure, and more reliable models. Your primary focus will be on building tools to enable easy data synthesis, analysis, and management, for complex combinations of real and synthetic data that is used in both model training and evaluation. You will own the cohesive vision of these tooling repositories.
+            - paragraph [ref=f491e44]: You will work closely with a team of research scientists and engineers to create tooling that enables tighter experimentation cycles, better data coverage of the real world, and more scientific rigour. You will have a lot of autonomy and need to be opinionated about what areas of the codebase need elegance and standards, and where that would be overengineering. You will be given high level experimental problems that need to be solved with efficient pipelines, and design and implement the solutions. Your data analysis will collaboratively feed into modelling decisions and experimentation.
+            - paragraph [ref=f491e45]: This role combines expertise in software engineering, statistics, and data science. If any of these topics sound interesting to you, we encourage you to apply.
+            - paragraph [ref=f491e46]: You will be working on the Modelling Safety and Trust team, so interest in these areas is a plus, but is not at all required.
+            - paragraph [ref=f491e47]:
+              - emphasis [ref=f491e48]: "Please Note: We have offices in London, Edinburgh, Paris, Toronto, Montreal and New York, but we also embrace being remote-friendly! This role has timezone restrictions (UK, Europe, or ET) but no location restrictions."
+            - paragraph [ref=f491e49]
+            - paragraph [ref=f491e50]:
+              - strong [ref=f491e51]: "Key Responsibilities:"
+            - list [ref=f491e52]:
+              - listitem [ref=f491e53]:
+                - paragraph [ref=f491e54]: Design and implement robust data pipeline tooling that enables frequent, low-friction data generation and annotation
+              - listitem [ref=f491e55]:
+                - paragraph [ref=f491e56]: Create cohesive data infrastructure that supports continuous parallel operation with model experimentation
+              - listitem [ref=f491e57]:
+                - paragraph [ref=f491e58]: Establish standardized processes for data validation, analysis, and improvement of data both training and evaluation
+              - listitem [ref=f491e59]:
+                - paragraph [ref=f491e60]: Collaborate with the ML modeling team to align data capabilities with experimental needs
+              - listitem [ref=f491e61]:
+                - paragraph [ref=f491e62]: Maintain opinionated, well-documented solutions that become team standards
+              - listitem [ref=f491e63]:
+                - paragraph [ref=f491e64]: Develop systematic analysis frameworks to identify incoming data sources and benchmark coverage gaps
+            - paragraph [ref=f491e65]
+            - paragraph [ref=f491e66]:
+              - strong [ref=f491e67]: "Qualifications:"
+            - list [ref=f491e68]:
+              - listitem [ref=f491e69]:
+                - paragraph [ref=f491e70]: Extremely strong software engineering skills.
+            - list [ref=f491e71]:
+              - listitem [ref=f491e72]:
+                - paragraph [ref=f491e73]: Strong statistical skills and experience evaluating scientific experiments related to data collection and model performance.
+              - listitem [ref=f491e74]:
+                - paragraph [ref=f491e75]: Proficiency in programming languages such as Python and ML frameworks (e.g., PyTorch) and Big Data Analytics (e.g. BigQuery, SQL)
+            - list [ref=f491e76]:
+              - listitem [ref=f491e77]:
+                - paragraph [ref=f491e78]: Demonstrated ability to own complex technical projects from conception to deployment
+              - listitem [ref=f491e79]:
+                - paragraph [ref=f491e80]: Opinionated approach to technical architecture with ability to make principled decisions
+              - listitem [ref=f491e81]:
+                - paragraph [ref=f491e82]: Understanding of ML data requirements and the intersection of data engineering with modeling workflows
+            - paragraph [ref=f491e83]
+            - paragraph [ref=f491e84]:
+              - strong [ref=f491e85]: "Working Location:"
+            - paragraph [ref=f491e86]: This role can be based remotely or from one of our office locations listed on the job description - there is no minimum in-office qualification requirement. We care most about hiring exceptional people regardless of locations, though please check the location listed on the posting for guidance around the core time zone or working hours alignment expected for the role.
+            - paragraph [ref=f491e87]
+            - paragraph [ref=f491e88]:
+              - strong [ref=f491e89]: "Compensation:"
+            - paragraph [ref=f491e90]: "Cohere is committed to fair and transparent pay practices. The salary range listed for this role reflects the expected base compensation. Actual compensation offered will be determined by factors such as location, level, job-related knowledge, skills, education, and experience:"
+            - paragraph [ref=f491e91]
+            - paragraph [ref=f491e92]: "United States:"
+            - list [ref=f491e93]:
+              - listitem [ref=f491e94]:
+                - paragraph [ref=f491e95]: "For candidates based in New York, the compensation range is: $270,000 – $380,000"
+              - listitem [ref=f491e96]:
+                - paragraph [ref=f491e97]: "For candidates based elsewhere in the US (ET), the compensation range is: $230,000 – $325,000"
+            - paragraph [ref=f491e98]: "Canada:"
+            - list [ref=f491e99]:
+              - listitem [ref=f491e100]:
+                - paragraph [ref=f491e101]: "For candidates based in the Toronto GTA and Montreal, the compensation range is: $385,000 – $535,000"
+              - listitem [ref=f491e102]:
+                - paragraph [ref=f491e103]: "For candidates based elsewhere in Canada (ET), the compensation range is: $330,000 – $460,000"
+            - paragraph [ref=f491e104]: "Elsewhere:"
+            - list [ref=f491e105]:
+              - listitem [ref=f491e106]:
+                - paragraph [ref=f491e107]: To be discussed with your recruiter
+            - paragraph [ref=f491e108]
+            - heading [level=2] [ref=f491e109]:
+              - strong [ref=f491e110]: "Full-Time Employees at Cohere enjoy these Perks:"
+            - list [ref=f491e111]:
+              - listitem [ref=f491e112]:
+                - paragraph [ref=f491e113]: A weekly lunch stipend of $75/£75 or equivalent in your local currency for lunch.
+              - listitem [ref=f491e114]:
+                - paragraph [ref=f491e115]: Full health and dental benefits, including a separate budget for mental health.
+              - listitem [ref=f491e116]:
+                - paragraph [ref=f491e117]: RRSP matching, 401K, Pension Scheme.
+              - listitem [ref=f491e118]:
+                - paragraph [ref=f491e119]: 100% Parental Leave top-up for up to 6 months, for either parent.
+              - listitem [ref=f491e120]:
+                - paragraph [ref=f491e121]: "Annual enrichment benefits:"
+                - paragraph [ref=f491e122]: Arts & culture, fitness/wellness, quality time, and a workspace improvement credit.
+                - paragraph [ref=f491e123]: Education & learning stipend for conferences, courses, and coaching.
+            - list [ref=f491e124]:
+              - listitem [ref=f491e125]:
+                - paragraph [ref=f491e126]: 6 weeks of paid vacation (30 working days!)
+              - listitem [ref=f491e127]:
+                - paragraph [ref=f491e128]: Budget for traveling to other offices if you are remote, plus an annual company offsite.
+            - paragraph [ref=f491e129]
+            - heading [level=2] [ref=f491e130]:
+              - strong [ref=f491e131]: "How and Where We Work:"
+            - list [ref=f491e132]:
+              - listitem [ref=f491e133]:
+                - paragraph [ref=f491e134]: Cohere is remote-friendly, but we also have offices in Toronto, London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul with more opening soon.
+              - listitem [ref=f491e135]:
+                - paragraph [ref=f491e136]: "For those in the office: a daily lunch program, plenty of snacks, and regular community and social events."
+              - listitem [ref=f491e137]:
+                - paragraph [ref=f491e138]: "For those not near an office: a co-working benefit so you can work alongside others in your city."
+              - listitem [ref=f491e139]:
+                - paragraph [ref=f491e140]: Everyone receives a $500 home office stipend to set up your workspace properly.
+                - paragraph [ref=f491e141]
+            - paragraph [ref=f491e142]: If any of the above doesn’t line up exactly with your experience, we still encourage you to apply.
+            - paragraph [ref=f491e143]:
+              - text: We strive to create an inclusive work environment for all; we welcome applicants from all backgrounds and are committed to providing equal opportunities. Should you require any accommodations during the recruitment process, please submit an
+              - link "Accommodations Request Form" [ref=f491e144] [cursor=pointer]:
+                - /url: https://docs.google.com/forms/d/12a6IrLdF3kI2nonKSr4tiFuz18rLQbaeYV-JM9L4o9Q/edit
+              - text: ", and we will work together to meet your needs."
+            - paragraph [ref=f491e145]
+            - paragraph [ref=f491e146]: We may use AI-enabled tools to screen and assess applicants against the criteria for this position. This helps our recruiters identify potentially qualified candidates, but it doesn't limit the applications our recruiters may review or consider.
+            - paragraph [ref=f491e147]
+            - paragraph [ref=f491e148]:
+              - emphasis [ref=f491e149]: "Beware of Scams: Cohere will never ask for payment or third-party services (e.g., CV writing) as part of our hiring process. All legitimate roles are listed on the Cohere careers page and LinkedIn only, with all communications from Cohere employees coming from an @cohere.com or @cw.cohere email alias. If jobs are viewed on other sites then please verify these through our"
+              - link [ref=f491e150] [cursor=pointer]:
+                - /url: https://cohere.com/careers
+                - emphasis [ref=f491e151]: official careers
+              - emphasis [ref=f491e152]: page.
+          - link [ref=f491e153] [cursor=pointer]:
+            - /url: /cohere/2d4d224f-94d4-40ce-88d5-5d340bc0da4e/application
+            - button "Apply for this Job" [ref=f491e154]
+  - contentinfo [ref=f491e155]:
+    - link "Learn more about Ashby" [ref=f491e156] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f491e157]: Powered by
+      - img "Ashby" [ref=f491e158]
+    - paragraph [ref=f491e164]:
+      - link "Privacy Policy" [ref=f491e165] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f491e166] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f491e167] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

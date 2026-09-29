@@ -1,0 +1,17 @@
+Precedent confirmed. This role: Reddit, ML Engineering Manager, US-remote — same hard exclude, no eval/report/PDF/tracker.
+
+Reddit role: Remote-US only, not Canada. Hard exclude per profile policy (Canada-only, set 2026-08-20). Skip — no eval, report, PDF, tracker line.
+
+```json
+{
+  "status": "failed",
+  "id": "60",
+  "report_num": "1026",
+  "company": "Reddit",
+  "role": "Machine Learning Engineering Manager - Ads Engagement Modeling",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role location = Remote - United States (US workforce). Profile location policy (config/profile.yml, modes/_profile.md) restricts to Canada-only roles as of 2026-08-20. No evaluation performed per policy."
+}
+```

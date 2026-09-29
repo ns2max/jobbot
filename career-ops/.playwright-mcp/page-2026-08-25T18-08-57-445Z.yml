@@ -1,0 +1,414 @@
+- generic [active] [ref=f601e1]:
+  - img "Banner" [ref=f601e3]
+  - paragraph [ref=f601e10]: The job you are looking for is no longer open.
+  - main [ref=f601e11]:
+    - generic [ref=f601e12]:
+      - img "Reddit Logo" [ref=f601e14]
+      - heading "Current Openings at Reddit" [level=1] [ref=f601e15]
+      - generic [ref=f601e17]:
+        - generic [ref=f601e18]:
+          - generic [ref=f601e20]:
+            - generic [ref=f601e21]: Search
+            - textbox "Search" [ref=f601e22]
+          - generic [ref=f601e24]:
+            - generic [ref=f601e25]: Department
+            - generic [ref=f601e26]:
+              - log [ref=f601e28]
+              - generic [ref=f601e30]:
+                - generic [ref=f601e31]:
+                  - generic [ref=f601e32]: Select...
+                  - combobox "Department" [ref=f601e34]
+                - button "Toggle flyout" [ref=f601e36] [cursor=pointer]
+          - generic [ref=f601e40]:
+            - generic [ref=f601e41]: Office
+            - generic [ref=f601e42]:
+              - log [ref=f601e44]
+              - generic [ref=f601e46]:
+                - generic [ref=f601e47]:
+                  - generic [ref=f601e48]: Select...
+                  - combobox "Office" [ref=f601e50]
+                - button "Toggle flyout" [ref=f601e52] [cursor=pointer]
+        - generic [ref=f601e55]:
+          - heading "148 jobs" [level=2] [ref=f601e56]
+          - generic [ref=f601e57]:
+            - generic [ref=f601e58]:
+              - heading "Community" [level=3] [ref=f601e59]
+              - table [ref=f601e61]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f601e62]:
+                      - paragraph [ref=f601e63]: Job
+                - rowgroup [ref=f601e64]:
+                  - row [ref=f601e65]:
+                    - cell [ref=f601e66]:
+                      - link [ref=f601e67] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7669372
+                        - paragraph [ref=f601e68]: Community Manager - French speaker (contract)
+                        - paragraph [ref=f601e69]: Remote - United Kingdom
+                  - row [ref=f601e70]:
+                    - cell [ref=f601e71]:
+                      - link "Community Manager, French Speaking (Contract) New Remote - United Kingdom" [ref=f601e72] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8143677
+                        - paragraph [ref=f601e73]:
+                          - text: Community Manager, French Speaking (Contract)
+                          - generic [ref=f601e74]: New
+                        - paragraph [ref=f601e76]: Remote - United Kingdom
+                  - row [ref=f601e77]:
+                    - cell [ref=f601e78]:
+                      - link "Senior Growth Manager (Contract) New Remote - United Kingdom" [ref=f601e79] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8143702
+                        - paragraph [ref=f601e80]:
+                          - text: Senior Growth Manager (Contract)
+                          - generic [ref=f601e81]: New
+                        - paragraph [ref=f601e83]: Remote - United Kingdom
+                  - row [ref=f601e84]:
+                    - cell [ref=f601e85]:
+                      - link [ref=f601e86] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8030230
+                        - paragraph [ref=f601e87]: Senior Growth Manager, UK
+                        - paragraph [ref=f601e88]: London, United Kingdom
+            - generic [ref=f601e89]:
+              - paragraph [ref=f601e91]: Corporate Technology
+              - heading "Corporate Engineering" [level=3] [ref=f601e92]
+              - table [ref=f601e94]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f601e95]:
+                      - paragraph [ref=f601e96]: Job
+                - rowgroup [ref=f601e97]:
+                  - row [ref=f601e98]:
+                    - cell [ref=f601e99]:
+                      - link [ref=f601e100] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8108528
+                        - paragraph [ref=f601e101]: Lead Physical Security Engineer
+                        - paragraph [ref=f601e102]: Amsterdam, Netherlands
+            - generic [ref=f601e103]:
+              - paragraph [ref=f601e105]: Data Science
+              - heading "Ads Data Science" [level=3] [ref=f601e106]
+              - table [ref=f601e108]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f601e109]:
+                      - paragraph [ref=f601e110]: Job
+                - rowgroup [ref=f601e111]:
+                  - row [ref=f601e112]:
+                    - cell [ref=f601e113]:
+                      - link [ref=f601e114] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7330347
+                        - paragraph [ref=f601e115]: Principal Data Scientist, Ads
+                        - paragraph [ref=f601e116]: Remote - United States
+                  - row [ref=f601e117]:
+                    - cell [ref=f601e118]:
+                      - link [ref=f601e119] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8104403
+                        - paragraph [ref=f601e120]: Senior Data Scientist, Ads
+                        - paragraph [ref=f601e121]: Remote - United States
+                  - row [ref=f601e122]:
+                    - cell [ref=f601e123]:
+                      - link [ref=f601e124] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8072046
+                        - paragraph [ref=f601e125]: Sr. Staff Data Scientist - Ads Measurement, Signals, Privacy
+                        - paragraph [ref=f601e126]: Remote - United States
+                  - row [ref=f601e127]:
+                    - cell [ref=f601e128]:
+                      - link [ref=f601e129] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8103594
+                        - paragraph [ref=f601e130]: Sr. Staff Data Scientist - Ads Measurement, Signals, Privacy
+                        - paragraph [ref=f601e131]: Toronto, Canada
+                  - row [ref=f601e132]:
+                    - cell [ref=f601e133]:
+                      - link [ref=f601e134] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7721851
+                        - paragraph [ref=f601e135]: Staff Data Scientist, Ads
+                        - paragraph [ref=f601e136]: Remote - Ontario, Canada
+                  - row [ref=f601e137]:
+                    - cell [ref=f601e138]:
+                      - link [ref=f601e139] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7721787
+                        - paragraph [ref=f601e140]: Staff Data Scientist, Ads
+                        - paragraph [ref=f601e141]: Remote - United States
+                  - row [ref=f601e142]:
+                    - cell [ref=f601e143]:
+                      - link [ref=f601e144] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8072076
+                        - paragraph [ref=f601e145]: Staff Data Scientist - Ads Measurement, Signals, Privacy
+                        - paragraph [ref=f601e146]: Remote - United States
+                  - row [ref=f601e147]:
+                    - cell [ref=f601e148]:
+                      - link [ref=f601e149] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8103609
+                        - paragraph [ref=f601e150]: Staff Data Scientist - Ads Measurement, Signals, Privacy
+                        - paragraph [ref=f601e151]: Toronto, Canada
+            - generic [ref=f601e152]:
+              - paragraph [ref=f601e154]: Data Science
+              - heading "Consumer Data Science" [level=3] [ref=f601e155]
+              - table [ref=f601e157]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f601e158]:
+                      - paragraph [ref=f601e159]: Job
+                - rowgroup [ref=f601e160]:
+                  - row [ref=f601e161]:
+                    - cell [ref=f601e162]:
+                      - link [ref=f601e163] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8126946
+                        - paragraph [ref=f601e164]: Senior Data Scientist - Consumer
+                        - paragraph [ref=f601e165]: Remote - United States
+                  - row [ref=f601e166]:
+                    - cell [ref=f601e167]:
+                      - link [ref=f601e168] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7974507
+                        - paragraph [ref=f601e169]: Senior Staff Data Scientist - Consumer Experimentation
+                        - paragraph [ref=f601e170]: Remote - Ontario, Canada
+                  - row [ref=f601e171]:
+                    - cell [ref=f601e172]:
+                      - link [ref=f601e173] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7974504
+                        - paragraph [ref=f601e174]: Senior Staff Data Scientist - Consumer Experimentation
+                        - paragraph [ref=f601e175]: Remote - United States
+                  - row [ref=f601e176]:
+                    - cell [ref=f601e177]:
+                      - link [ref=f601e178] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/6745284
+                        - paragraph [ref=f601e179]: Staff Data Scientist, Consumer
+                        - paragraph [ref=f601e180]: Remote - United States
+                  - row [ref=f601e181]:
+                    - cell [ref=f601e182]:
+                      - link [ref=f601e183] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7931007
+                        - paragraph [ref=f601e184]: Staff Data Scientist, Consumer
+                        - paragraph [ref=f601e185]: Remote - Ontario, Canada
+                  - row [ref=f601e186]:
+                    - cell [ref=f601e187]:
+                      - link [ref=f601e188] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7445240
+                        - paragraph [ref=f601e189]: Staff Data Scientist, Marketing
+                        - paragraph [ref=f601e190]: Remote - United States
+                  - row [ref=f601e191]:
+                    - cell [ref=f601e192]:
+                      - link [ref=f601e193] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7931000
+                        - paragraph [ref=f601e194]: Staff Data Scientist, Marketing
+                        - paragraph [ref=f601e195]: Remote - Ontario, Canada
+            - generic [ref=f601e196]:
+              - heading "Engineering" [level=3] [ref=f601e197]
+              - table [ref=f601e199]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f601e200]:
+                      - paragraph [ref=f601e201]: Job
+                - rowgroup [ref=f601e202]:
+                  - row [ref=f601e203]:
+                    - cell [ref=f601e204]:
+                      - link [ref=f601e205] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8024892
+                        - paragraph [ref=f601e206]: Senior Software Engineer, Presence
+                        - paragraph [ref=f601e207]: Remote - United States
+            - generic [ref=f601e208]:
+              - paragraph [ref=f601e210]: Engineering
+              - heading "Ads Engineering" [level=3] [ref=f601e211]
+              - table [ref=f601e213]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f601e214]:
+                      - paragraph [ref=f601e215]: Job
+                - rowgroup [ref=f601e216]:
+                  - row [ref=f601e217]:
+                    - cell [ref=f601e218]:
+                      - link [ref=f601e219] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7792848
+                        - paragraph [ref=f601e220]: Ads Conversion Modeling, Machine Learning Engineering Manager
+                        - paragraph [ref=f601e221]: Remote - United States
+                  - row [ref=f601e222]:
+                    - cell [ref=f601e223]:
+                      - link [ref=f601e224] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8022366
+                        - paragraph [ref=f601e225]: Engineering Manager, Ads ML Efficiency
+                        - paragraph [ref=f601e226]: Remote - United States
+                  - row [ref=f601e227]:
+                    - cell [ref=f601e228]:
+                      - link [ref=f601e229] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7966985
+                        - paragraph [ref=f601e230]: Engineering Manager, Advanced Signals (SWE)
+                        - paragraph [ref=f601e231]: Remote - United States
+                  - row [ref=f601e232]:
+                    - cell [ref=f601e233]:
+                      - link [ref=f601e234] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8029120
+                        - paragraph [ref=f601e235]: Machine Learning Engineer, Ads Optimization
+                        - paragraph [ref=f601e236]: Remote - United States
+                  - row [ref=f601e237]:
+                    - cell [ref=f601e238]:
+                      - link [ref=f601e239] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7993514
+                        - paragraph [ref=f601e240]: Machine Learning Engineering Manager - Ads Engagement Modeling
+                        - paragraph [ref=f601e241]: Remote - United States
+                  - row [ref=f601e242]:
+                    - cell [ref=f601e243]:
+                      - link [ref=f601e244] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8022937
+                        - paragraph [ref=f601e245]: Machine Learning Systems Engineer, Ads ML Platform
+                        - paragraph [ref=f601e246]: Remote - United Kingdom
+                  - row [ref=f601e247]:
+                    - cell [ref=f601e248]:
+                      - link [ref=f601e249] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8022942
+                        - paragraph [ref=f601e250]: Machine Learning Systems Engineer, Ads ML Platform
+                        - paragraph [ref=f601e251]: Remote - The Netherlands
+                  - row [ref=f601e252]:
+                    - cell [ref=f601e253]:
+                      - link [ref=f601e254] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7954598
+                        - paragraph [ref=f601e255]: Senior Business Engineer - Ads
+                        - paragraph [ref=f601e256]: Remote - United States
+                  - row [ref=f601e257]:
+                    - cell [ref=f601e258]:
+                      - link [ref=f601e259] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8022260
+                        - paragraph [ref=f601e260]: Senior Business Engineer - Ads
+                        - paragraph [ref=f601e261]: Remote - British Columbia, Canada
+                  - row [ref=f601e262]:
+                    - cell [ref=f601e263]:
+                      - link [ref=f601e264] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8112967
+                        - paragraph [ref=f601e265]: Senior Machine Learning Systems Engineer, Ads ML Experience Platform
+                        - paragraph [ref=f601e266]: Remote - United States
+                  - row [ref=f601e267]:
+                    - cell [ref=f601e268]:
+                      - link [ref=f601e269] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/6909093
+                        - paragraph [ref=f601e270]: Senior Software Engineer, Ads
+                        - paragraph [ref=f601e271]: Remote - Ontario, Canada
+                  - row [ref=f601e272]:
+                    - cell [ref=f601e273]:
+                      - link [ref=f601e274] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/6909091
+                        - paragraph [ref=f601e275]: Senior Software Engineer, Ads
+                        - paragraph [ref=f601e276]: Remote - United States
+                  - row [ref=f601e277]:
+                    - cell [ref=f601e278]:
+                      - link [ref=f601e279] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7964461
+                        - paragraph [ref=f601e280]: Senior Software Engineer, Ads Creative Effectiveness
+                        - paragraph [ref=f601e281]: Remote - United States
+                  - row [ref=f601e282]:
+                    - cell [ref=f601e283]:
+                      - link [ref=f601e284] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/6469397
+                        - paragraph [ref=f601e285]: Software Engineer, Ads
+                        - paragraph [ref=f601e286]: Remote - United States
+                  - row [ref=f601e287]:
+                    - cell [ref=f601e288]:
+                      - link [ref=f601e289] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/6512458
+                        - paragraph [ref=f601e290]: Software Engineer, Ads
+                        - paragraph [ref=f601e291]: Remote - Ontario, Canada
+                  - row [ref=f601e292]:
+                    - cell [ref=f601e293]:
+                      - link [ref=f601e294] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8127002
+                        - paragraph [ref=f601e295]: Staff Android Engineer, Brand Ad Formats
+                        - paragraph [ref=f601e296]: Remote - United States
+                  - row [ref=f601e297]:
+                    - cell [ref=f601e298]:
+                      - link [ref=f601e299] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7980795
+                        - paragraph [ref=f601e300]: Staff Engineer, Ads Business Manager
+                        - paragraph [ref=f601e301]: Remote - United States
+                  - row [ref=f601e302]:
+                    - cell [ref=f601e303]:
+                      - link [ref=f601e304] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8082867
+                        - paragraph [ref=f601e305]: Staff Frontend Engineer, Ads Creative
+                        - paragraph [ref=f601e306]: Remote - United States
+                  - row [ref=f601e307]:
+                    - cell [ref=f601e308]:
+                      - link [ref=f601e309] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8018513
+                        - paragraph [ref=f601e310]: Staff Machine Learning Engineer, Ads Foundational Representations
+                        - paragraph [ref=f601e311]: Remote - United Kingdom
+                  - row [ref=f601e312]:
+                    - cell [ref=f601e313]:
+                      - link [ref=f601e314] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8018517
+                        - paragraph [ref=f601e315]: Staff Machine Learning Engineer, Ads Foundational Representations
+                        - paragraph [ref=f601e316]: Remote - The Netherlands
+                  - row [ref=f601e317]:
+                    - cell [ref=f601e318]:
+                      - link [ref=f601e319] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8018527
+                        - paragraph [ref=f601e320]: Staff Machine Learning Engineer, ML Efficiency
+                        - paragraph [ref=f601e321]: Remote - United Kingdom
+                  - row [ref=f601e322]:
+                    - cell [ref=f601e323]:
+                      - link [ref=f601e324] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8018532
+                        - paragraph [ref=f601e325]: Staff Machine Learning Engineer, ML Efficiency
+                        - paragraph [ref=f601e326]: Remote - The Netherlands
+                  - row [ref=f601e327]:
+                    - cell [ref=f601e328]:
+                      - link [ref=f601e329] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8115838
+                        - paragraph [ref=f601e330]: Staff Machine Learning Engineer, Shopping Ads
+                        - paragraph [ref=f601e331]: Remote - United States
+            - generic [ref=f601e332]:
+              - paragraph [ref=f601e334]: Engineering
+              - heading "BE Platform" [level=3] [ref=f601e335]
+              - table [ref=f601e337]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f601e338]:
+                      - paragraph [ref=f601e339]: Job
+                - rowgroup [ref=f601e340]:
+                  - row [ref=f601e341]:
+                    - cell [ref=f601e342]:
+                      - link [ref=f601e343] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/7859086
+                        - paragraph [ref=f601e344]: Engineering Manager, Search Storage
+                        - paragraph [ref=f601e345]: Remote - United States
+                  - row [ref=f601e346]:
+                    - cell [ref=f601e347]:
+                      - link [ref=f601e348] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8044767
+                        - paragraph [ref=f601e349]: Senior Backend Engineer, IAM
+                        - paragraph [ref=f601e350]: Remote - United States
+                  - row [ref=f601e351]:
+                    - cell [ref=f601e352]:
+                      - link [ref=f601e353] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8022441
+                        - paragraph [ref=f601e354]: Senior Software Engineer, Core Platform
+                        - paragraph [ref=f601e355]: Remote - United States
+                  - row [ref=f601e356]:
+                    - cell [ref=f601e357]:
+                      - link [ref=f601e358] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8022446
+                        - paragraph [ref=f601e359]: Senior Software Engineer, Core Platform
+                        - paragraph [ref=f601e360]: San Francisco, CA
+                  - row [ref=f601e361]:
+                    - cell [ref=f601e362]:
+                      - link [ref=f601e363] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8022447
+                        - paragraph [ref=f601e364]: Senior Software Engineer, Core Platform
+                        - paragraph [ref=f601e365]: Los Angeles, CA
+                  - row [ref=f601e366]:
+                    - cell [ref=f601e367]:
+                      - link [ref=f601e368] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/reddit/jobs/8022448
+                        - paragraph [ref=f601e369]: Senior Software Engineer, Core Platform
+                        - paragraph [ref=f601e370]: Chicago, IL
+          - navigation "Pagination" [ref=f601e372]:
+            - button "Previous page" [disabled] [ref=f601e373]
+            - list [ref=f601e376]:
+              - listitem [ref=f601e377]:
+                - button "Go to page 1": "1"
+              - listitem [ref=f601e378]:
+                - button "Go to page 2" [ref=f601e379] [cursor=pointer]: "2"
+              - listitem [ref=f601e380]:
+                - button "Go to page 3" [ref=f601e381] [cursor=pointer]: "3"
+            - button "Next page" [ref=f601e382] [cursor=pointer]
+  - contentinfo [ref=f601e385]:
+    - generic [ref=f601e386]:
+      - paragraph [ref=f601e387]: Powered by
+      - link [ref=f601e388] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f601e389]

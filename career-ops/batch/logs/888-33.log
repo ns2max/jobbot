@@ -1,0 +1,19 @@
+Job location: San Francisco / NYC. Non-Canada — hard exclude per your Canada-only scope policy (modes/_profile.md, set 2026-08-20). Rule says: no evaluate, no score, no report/CV for these.
+
+Skip pipeline. No report, no PDF, no tracker line generated.
+
+```json
+{
+  "status": "failed",
+  "id": "33",
+  "report_num": "888",
+  "company": "Anthropic",
+  "role": "Manager, Applied AI Engineering, Beneficial Deployments (Life Sciences)",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Location exclude: SF/NYC, non-Canada. Hard filter per profile scope policy (Canada-only, set 2026-08-20)."
+}
+```
+
+Want override for this one (comp $320-405K, high-profile), or leave filtered?

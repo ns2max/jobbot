@@ -1,0 +1,115 @@
+% =====================================================================
+%  COVER LETTER TEMPLATE — Nishal Stanislaus Silva, PhD
+%  Fill from knowledge-graph.md (job-search project). Placeholders look like
+%      <<KG §x.y | what to put here | rule>>
+%  Compile: pdflatex (or xelatex). Target length: ONE page, 4 paragraphs.
+% =====================================================================
+%
+%  FILL GUIDE FOR AGENTS
+%  0. Use the SAME variant (V1-V6) chosen for the CV — see the VARIANT PROFILES
+%     table in cv-template.tex or KG §15.1. The variant fixes the tagline and
+%     which evidence leads:
+%       V1 AI-Industry  -> production ML lifecycle, measurable business outcomes
+%       V2 AI-Research  -> benchmarks, ablations, open datasets, publications
+%       V3 Edge         -> latency/compute budgets, embedded deployment
+%       V4 Music-Tech   -> MIR, smart instruments, performer intuition
+%       V5 CV/Industrial-> inspection systems, throughput, deployed at scale
+%       V6 Generic      -> cross-domain breadth, end-to-end ownership
+%  1. \clTagline MUST equal the CV's \cvTagline (KG §15.1 archetype).
+%  2. Paragraph 1 — hook: role + company + the single strongest KG §13 proof
+%     point for this JD (verified numbers first: 14 ms / 74x / F1 0.76).
+%  3. Paragraph 2 — evidence: 2–3 JD requirements, each answered with one
+%     KG §4 experience or §8 project. Mirror the JD's vocabulary via KG §14.
+%  4. Paragraph 3 — why them: something specific about the company/team;
+%     tie to KG §15.5 sector framing (fintech / neurotech / music-tech /
+%     manufacturing / accessibility) and, for Montreal, KG §2.2 McGill link.
+%  5. Paragraph 4 — logistics: PR status, no sponsorship, Toronto-based,
+%     open to hybrid/remote/relocation within Canada (KG §2.2), availability.
+%  6. Never: ">90% F1"; the Promptly patent; languages beyond what KG §15.6
+%     allows. Keep Nishal's voice: concise, technically precise, no fluff.
+%  7. Output a changelog with the letter (Nishal's preference).
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{<<VARIANT | SAME tagline as the CV — copy it verbatim>>}
+\newcommand{\clRole}{<<JD | exact role title>>}
+\newcommand{\clCompany}{<<JD | company name>>}
+\newcommand{\clTeam}{<<JD | team / department, or delete uses below>>}
+\newcommand{\clAddressee}{<<JD | "Dear Hiring Manager," / "Dear Dr.~Surname," / "Dear Search Committee,">>}
+\newcommand{\clReqID}{<<JD | requisition ID, or empty>>}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{} \ifx\clReqID\empty\else(\clReqID)\fi}
+
+\clAddressee
+
+% ---- PARAGRAPH 1: HOOK ----
+<<KG §0, §13 | 3--4 sentences. Name the role and company. State the archetype (e.g. ML Research Engineer specialising in real-time/edge ML on audio, sensor and time-series data), PhD (University of Trento, 2025) and 10+ years across industry and academia. Land ONE verified proof point tied to the JD's core need, e.g. "14 ms inference on a Raspberry Pi 4, 74x faster than the DTW baseline (JAES 2026)" or "computer-vision inspection that cut label QC time by 99.5\% at MAS Holdings">>
+
+% ---- PARAGRAPH 2: EVIDENCE AGAINST THE JD ----
+<<KG §4, §8, §13 | 4--6 sentences. Take the 2--3 most important JD requirements and answer each with a concrete KG item: e.g. end-to-end ML lifecycle -> MUSMET pipeline (KG §4.1); multimodal / time-series -> BCI + XR + audio sync across 4 musicians with SAE Barcelona \& g.tec (KG P3b) or IMU + audio HFSM fusion, F1 0.78 (KG P4); production CV -> care-label QC or Promptly (alignment algorithm, RIP integration --- no patent) (KG P14/P16); anomaly detection -> Forestpin scoring services (KG §4.4); benchmarks \& open science -> 4 Zenodo datasets, RNN-vs-DTW ablations (KG §7, P8); leadership -> mentoring, CI/CD, group-wide training at MAS (KG §4.5). Use verified numbers before self-reported ones.>>
+
+% ---- PARAGRAPH 3: WHY THIS COMPANY ----
+<<JD + KG §15.5, §2.4 | 3--4 sentences. One specific, researched reason this team's problem is interesting (product, paper, platform, mission). Connect it to a KG thread: music-tech -> performer intuition + smart-instrument research (KG §12); neurotech/medical -> BCI pipeline, COVID vitals, audio-to-ultrasound transfer (KG §15.5); manufacturing/product -> Promptly commercial impact (KG P16); ed-tech/accessibility -> teaching-tool \& disabled-musician research (KG P3c); Montreal -> McGill IDMIL/CIRMMT collaboration (KG §2.2). State what he would contribute in the first 6--12 months.>>
+
+% ---- PARAGRAPH 4: LOGISTICS + CLOSE ----
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and <<KG §2.2 | "available immediately" / "open to hybrid, remote, or relocation within Canada" --- pick what the JD needs>>. I would welcome the opportunity to discuss how my experience in <<KG §15.1 | 3--5 word restatement of the archetype, e.g. "real-time ML systems and edge deployment">> can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

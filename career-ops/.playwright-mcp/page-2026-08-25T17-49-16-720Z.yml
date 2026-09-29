@@ -1,0 +1,182 @@
+- generic [active] [ref=f297e1]:
+  - main [ref=f297e2]:
+    - generic [ref=f297e3]:
+      - link [ref=f297e5] [cursor=pointer]:
+        - /url: https://x.ai/
+        - img "SpaceXAI Logo" [ref=f297e6]
+      - generic [ref=f297e7]:
+        - link "Back to jobs" [ref=f297e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/xai
+        - generic [ref=f297e12]:
+          - generic [ref=f297e13]:
+            - heading "Member of Technical Staff - Imagine Safety" [level=1] [ref=f297e14]
+            - generic [ref=f297e15]: Palo Alto, California
+          - button "Apply" [ref=f297e19] [cursor=pointer]
+        - generic [ref=f297e20]:
+          - paragraph [ref=f297e22]: SpaceXAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge. Our team is small, highly motivated, and focused on engineering excellence. This organization is for individuals who appreciate challenging themselves and thrive on curiosity. We operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important. All employees are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates.
+          - generic [ref=f297e23]:
+            - heading "ABOUT THE ROLE:" [level=3] [ref=f297e24]
+            - paragraph [ref=f297e25]: The Imagine team is redefining AI-driven media experiences for Grok users worldwide. As a Product Safety Engineer on the Imagine team, you will build the critical safety systems and infrastructure that ensure Grok’s multimodal generation capabilities (images, video, audio, and beyond) are powerful, delightful, and responsibly deployed. You’ll design and scale safeguards, detection systems, and evaluation frameworks that prevent harm while preserving creativity and user freedom. Your work will directly shape how millions of users experience generative media — balancing rapid innovation with rigorous safety, trustworthiness, and alignment with SpaceXAI's mission.If you’re a driven engineer passionate about AI safety, content integrity, and building robust systems that protect users without stifling innovation, this is your opportunity to make a lasting impact at the frontier of multimodal AI.
+            - heading "RESPONSIBILITIES:" [level=3] [ref=f297e26]
+            - list [ref=f297e27]:
+              - listitem [ref=f297e28]: Design and implement scalable safety systems for Grok’s media generation platform, including real-time content moderation, risk detection, and safeguard enforcement for images, video, and audio.
+              - listitem [ref=f297e29]: Build infrastructure to measure, monitor, and mitigate safety risks such as harmful content, bias, deepfakes, intellectual property issues, and misuse at global scale.
+              - listitem [ref=f297e30]: Develop tools, pipelines, and evaluation frameworks that enable rapid iteration on safety policies in collaboration with researchers, product, and policy teams.
+              - listitem [ref=f297e31]: Architect robust feedback loops between user interactions, model outputs, and training data to continuously improve safety while maintaining high performance and low latency.
+              - listitem [ref=f297e32]: "Own full-cycle development of safety features: from problem definition and prototyping to deployment, monitoring, incident response, and long-term refinement."
+              - listitem [ref=f297e33]: Partner closely with the Imagine engineering, research, and product teams to embed safety into core features and deliver delightful yet responsible user experiences.
+            - heading "BASIC QUALIFICATIONS:" [level=3] [ref=f297e34]
+            - list [ref=f297e35]:
+              - listitem [ref=f297e36]: Proficiency in Rust, with a strong track record of writing clean, efficient, maintainable, and scalable code.
+              - listitem [ref=f297e37]: Experience designing and building production safety, trust & safety, or content moderation systems for consumer-facing products at scale.
+              - listitem [ref=f297e38]: Hands-on expertise developing real-time detection systems, data pipelines, or evaluation frameworks for high-throughput AI applications.
+              - listitem [ref=f297e39]: Proven ability to deliver robust, reliable solutions that reach millions of users while maintaining high standards of uptime and performance.
+              - listitem [ref=f297e40]: Strong problem-solving skills and a passion for turning complex safety challenges into practical, high-impact engineering solutions.
+              - listitem [ref=f297e41]: Deep enthusiasm for responsible AI development and a commitment to building systems that advance humanity’s understanding while protecting users.
+            - heading "PREFERRED SKILLS AND EXPERIENCE:" [level=3] [ref=f297e42]
+            - list [ref=f297e43]:
+              - listitem [ref=f297e44]: Experience with multimodal content safety (images, video, audio) or generative AI safety in production environments.
+              - listitem [ref=f297e45]: Familiarity with machine learning classifiers, safety evaluation, red-teaming, or adversarial testing for media generation models.
+              - listitem [ref=f297e46]: Background in distributed systems, real-time inference serving, Kubernetes, observability tools, or large-scale data infrastructure.
+              - listitem [ref=f297e47]: Track record collaborating across engineering, research, and policy teams to ship safety-critical features quickly and effectively.
+              - listitem [ref=f297e48]: Previous work on content moderation, anti-abuse, model alignment, or responsible AI at consumer AI products.
+            - heading [level=3] [ref=f297e49]:
+              - strong [ref=f297e51]: "COMPENSATION AND BENEFITS:"
+            - paragraph [ref=f297e52]: $180,000 - $440,000 USD
+            - paragraph [ref=f297e53]: Base salary is just one part of our total rewards package at SpaceXAI, which also includes equity, comprehensive medical, vision, and dental coverage, access to a 401(k) retirement plan, short & long-term disability insurance, life insurance, and various other discounts and perks.
+          - paragraph [ref=f297e55]:
+            - emphasis [ref=f297e56]: SpaceXAI is an equal opportunity employer. For details on data processing, view our
+            - emphasis [ref=f297e57]:
+              - link "Recruitment Privacy Notice" [ref=f297e58] [cursor=pointer]:
+                - /url: https://x.ai/legal/recruitment-privacy-notice
+              - text: .
+        - generic [ref=f297e62]:
+          - paragraph [ref=f297e63]: Get new jobs like this in your inbox
+          - paragraph [ref=f297e64]: We'll email you when SpaceXAI posts a job like this one.
+          - link "Create alert" [ref=f297e65] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=xai&source=job_alert_post&variant=job_alert_post_b
+      - separator [ref=f297e66]
+      - generic [ref=f297e67]:
+        - generic [ref=f297e68]:
+          - generic [ref=f297e69]:
+            - heading "Apply for this job" [level=2] [ref=f297e71]
+            - generic [ref=f297e72]:
+              - paragraph [ref=f297e74]: "*"
+              - paragraph [ref=f297e75]: indicates a required field
+          - button "Autofill my application" [ref=f297e78] [cursor=pointer]
+        - generic [ref=f297e79]:
+          - generic [ref=f297e80]:
+            - generic [ref=f297e83]:
+              - generic [ref=f297e84]: First Name*
+              - textbox "First Name" [ref=f297e85]
+            - generic [ref=f297e88]:
+              - generic [ref=f297e89]: Last Name*
+              - textbox "Last Name" [ref=f297e90]
+            - generic [ref=f297e93]:
+              - generic [ref=f297e94]: Email*
+              - textbox "Email" [ref=f297e95]
+            - group "Phone" [ref=f297e97]:
+              - generic [ref=f297e101]:
+                - generic [ref=f297e102]: Country*
+                - generic [ref=f297e103]:
+                  - log [ref=f297e105]
+                  - generic [ref=f297e107]:
+                    - combobox "Country" [ref=f297e110]
+                    - button "Toggle flyout" [ref=f297e112] [cursor=pointer]
+                  - textbox
+              - generic [ref=f297e117]:
+                - generic [ref=f297e118]: Phone*
+                - textbox "Phone" [ref=f297e120]
+            - group "Resume/CV*" [ref=f297e122]:
+              - generic [ref=f297e125]:
+                - generic [ref=f297e127]:
+                  - button "Attach" [ref=f297e128] [cursor=pointer]
+                  - generic [ref=f297e129]: Attach
+                  - button "Attach" [ref=f297e130]
+                - button "Dropbox" [ref=f297e132] [cursor=pointer]
+                - button "Google Drive" [ref=f297e134] [cursor=pointer]
+                - generic [ref=f297e136]:
+                  - button "Enter manually" [ref=f297e137] [cursor=pointer]
+                  - generic [ref=f297e138]: Enter manually
+                - paragraph [ref=f297e139]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f297e140]:
+            - separator [ref=f297e141]
+            - generic [ref=f297e144]:
+              - generic [ref=f297e145]: Full Legal Name*
+              - textbox "Full Legal Name" [ref=f297e146]
+            - generic [ref=f297e149]:
+              - generic [ref=f297e150]: Full Legal Name in Native Language (e.g. Chinese Characters, Cyrillic, Farsi etc)*
+              - textbox "Full Legal Name in Native Language (e.g. Chinese Characters, Cyrillic, Farsi etc)" [ref=f297e151]
+            - generic [ref=f297e154]:
+              - generic [ref=f297e155]: X Profile
+              - textbox "X Profile" [ref=f297e156]
+            - generic [ref=f297e157]:
+              - generic [ref=f297e159]:
+                - generic [ref=f297e160]: Current company
+                - textbox "Current company" [ref=f297e161]
+              - paragraph [ref=f297e164]: If you are currently employed in the field, please tell us the name of your employer.
+            - generic [ref=f297e165]:
+              - generic [ref=f297e167]:
+                - generic [ref=f297e168]: Current title
+                - textbox "Current title" [ref=f297e169]
+              - paragraph [ref=f297e172]: If you are currently employed in the field, please tell us your role including your seniority level (e.g. Software Engineer II).
+            - generic [ref=f297e173]:
+              - generic [ref=f297e175]:
+                - generic [ref=f297e176]: LinkedIn Profile
+                - textbox "LinkedIn Profile" [ref=f297e177]
+              - paragraph [ref=f297e180]: If you have a public LinkedIn profile, please provide its URL.
+            - generic [ref=f297e183]:
+              - generic [ref=f297e184]: GitHub Profile
+              - textbox "GitHub Profile" [ref=f297e185]
+            - generic [ref=f297e186]:
+              - generic [ref=f297e188]:
+                - generic [ref=f297e189]: Google Scholar
+                - textbox "Google Scholar" [ref=f297e190]
+              - paragraph [ref=f297e193]: If you have a Google Scholar page, please provide its URL.
+            - generic [ref=f297e196]:
+              - generic [ref=f297e197]: Your Location*
+              - textbox "Your Location" [ref=f297e198]
+            - generic [ref=f297e201]:
+              - generic [ref=f297e202]: If working in the US, will you now, or in the future, require sponsorship for employment visa status (e.g., H-1B visa) to legally work in the US?*
+              - generic [ref=f297e203]:
+                - log [ref=f297e205]
+                - generic [ref=f297e207]:
+                  - generic [ref=f297e208]:
+                    - generic [ref=f297e209]: Select...
+                    - combobox "If working in the US, will you now, or in the future, require sponsorship for employment visa status (e.g., H-1B visa) to legally work in the US?" [ref=f297e211]
+                  - button "Toggle flyout" [ref=f297e213] [cursor=pointer]
+                - textbox
+            - generic [ref=f297e218]:
+              - generic [ref=f297e219]: Please indicate your SpaceXAI employment history.*
+              - generic [ref=f297e220]:
+                - log [ref=f297e222]
+                - generic [ref=f297e224]:
+                  - generic [ref=f297e225]:
+                    - generic [ref=f297e226]: Select...
+                    - combobox "Please indicate your SpaceXAI employment history." [ref=f297e228]
+                  - button "Toggle flyout" [ref=f297e230] [cursor=pointer]
+                - textbox
+            - generic [ref=f297e233]:
+              - generic [ref=f297e235]:
+                - generic [ref=f297e236]: What exceptional work have you done?*
+                - textbox "What exceptional work have you done?" [ref=f297e237]
+              - paragraph [ref=f297e240]: In 100 words or less, tell us about a piece of work you are most proud of.
+            - generic [ref=f297e243]:
+              - generic [ref=f297e244]: How did you hear about us?*
+              - generic [ref=f297e245]:
+                - log [ref=f297e247]
+                - generic [ref=f297e249]:
+                  - generic [ref=f297e250]:
+                    - generic [ref=f297e251]: Select...
+                    - combobox "How did you hear about us?" [ref=f297e253]
+                  - button "Toggle flyout" [ref=f297e255] [cursor=pointer]
+                - textbox
+          - button "Submit application" [ref=f297e259] [cursor=pointer]
+  - contentinfo [ref=f297e260]:
+    - generic [ref=f297e261]:
+      - paragraph [ref=f297e262]: Powered by
+      - link [ref=f297e263] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f297e264]
+  - iframe [ref=f297e278]:
+    

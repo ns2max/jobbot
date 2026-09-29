@@ -1,0 +1,18 @@
+Report done. No PDF (memory pref: markdown-only CVs). Output JSON summary:
+
+```json
+{
+  "status": "completed",
+  "id": "55",
+  "report_num": "1021",
+  "company": "Grafana Labs",
+  "role": "Staff AI Engineer, Grafana AI/ML",
+  "score": 3.6,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/1021-grafana-labs-2026-08-25.md",
+  "error": null
+}
+```
+
+Report, tailored CV+cover letter (.md), tracker TSV all done. CV/PDF: skipped PDF per remembered pref (md-only CVs) — made `.md` CV + cover letter instead. Tracker num 903 (max pending + 1). Not merged yet — run `merge-tracker.mjs` after batch.

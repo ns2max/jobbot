@@ -1,0 +1,18 @@
+Done. Output summary:
+
+```json
+{
+  "status": "completed",
+  "id": "28",
+  "report_num": "883",
+  "company": "Reddit",
+  "role": "Senior Staff Data Scientist, Consumer Experimentation",
+  "score": 1.9,
+  "legitimacy": "Proceed with Caution",
+  "pdf": null,
+  "report": "reports/883-reddit-2026-08-24.md",
+  "error": null
+}
+```
+
+Score 1.9/5. Domain hard mismatch (causal inference/experimentation vs candidato's embedded/signal ML). No CV/cover letter generated — below 4.0 threshold, ethical-use rule. Tracker line queued at `batch/tracker-additions/883-reddit.tsv`. Comp actually strong ($219K–$300K+) but irrelevant given fit.

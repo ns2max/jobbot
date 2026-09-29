@@ -1,0 +1,15 @@
+Role US-remote (Seattle-based hiring pool, excludes SF/NYC/DC) — not Canada. Profile hard-exclude rule (`modes/_profile.md`): non-Canadian roles = don't evaluate, don't score, don't generate CV/report. Stopping here, no report/PDF/tracker line produced.
+
+```json
+{
+  "status": "skipped",
+  "id": "25",
+  "report_num": "880",
+  "company": "Samsara",
+  "role": "People Analytics AI Engineer",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard-exclude: role is US-remote (Seattle-based pool, excludes SF/NYC/DC), not Canada-based or Canada-remote. Per config/profile.yml location scope (2026-08-20), non-Canadian roles are filtered pre-evaluation — no report/PDF/tracker generated."
+}
+```

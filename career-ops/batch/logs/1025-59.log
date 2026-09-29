@@ -1,0 +1,18 @@
+Reddit role — Remote-US, IC4 ads auction/bidding. Canada-only policy hard excludes it. No scoring, no PDF, per precedent (901-Suno). Report + tracker line written, skip logged.
+
+```json
+{
+  "status": "completed",
+  "id": "59",
+  "report_num": "1025",
+  "company": "Reddit",
+  "role": "Machine Learning Engineer, Ads Optimization",
+  "score": null,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/1025-reddit-2026-08-25.md",
+  "error": null
+}
+```
+
+Excluded by location policy — no CV/PDF built. `merge-tracker.mjs` still pending after batch run.

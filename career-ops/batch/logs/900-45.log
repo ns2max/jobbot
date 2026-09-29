@@ -1,0 +1,18 @@
+Excluded, not full-evaluated. No report, no PDF, per Canada-only hard-exclude policy.
+
+```json
+{
+  "status": "completed",
+  "id": "45",
+  "report_num": "900",
+  "company": "xAI",
+  "role": "Member of Technical Staff - RL Inference",
+  "score": null,
+  "legitimacy": null,
+  "pdf": null,
+  "report": null,
+  "error": "Role location: Palo Alto, CA (onsite, US). Excluded by candidate's Canada-only location policy (modes/_profile.md) — hard exclude, no scoring/report/CV generated per policy. Tracker line written: SKIP, no report link."
+}
+```
+
+Role: xAI, Member of Technical Staff – RL Inference, onsite Palo Alto CA, $180K–$440K USD. Canada-only policy hard-excludes non-Canadian roles — no eval/report/PDF made. Tracker line logged as SKIP for visibility.

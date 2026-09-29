@@ -1,0 +1,17 @@
+No report written — Paso 1 rule says report error and stop, don't fabricate. Outputting failure JSON.
+
+```json
+{
+  "status": "failed",
+  "id": "4",
+  "report_num": "719",
+  "company": "Anthropic",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "JD unobtainable: /tmp/batch-jd-4.txt missing/empty; Greenhouse API boards-api.greenhouse.io/v1/boards/anthropic/jobs/5248983008 returns 404 (job not found — likely closed/expired posting); WebFetch on job URL redirects to Anthropic's job-board index (SPA, no JD content), not the individual posting."
+}
+```
+
+Job 5248983008 muerto o cambió ID. Anthropic index tiene 532 jobs activos ahora — necesita URL fresca de esa lista si querés reintentar.

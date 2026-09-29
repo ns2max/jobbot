@@ -1,0 +1,338 @@
+- generic [active] [ref=f14e1]:
+  - img "Banner" [ref=f14e3]
+  - main [ref=f14e4]:
+    - generic [ref=f14e5]:
+      - generic [ref=f14e6]:
+        - generic [ref=f14e8]:
+          - generic [ref=f14e9]:
+            - heading "Senior Applied AI/ML Scientist - Compass" [level=1] [ref=f14e10]
+            - generic [ref=f14e11]: Kitchener-Waterloo, ON; Toronto, ON
+          - button "Apply" [ref=f14e15] [cursor=pointer]
+        - generic [ref=f14e16]:
+          - generic [ref=f14e17]:
+            - paragraph [ref=f14e18]:
+              - strong [ref=f14e20]: About Faire
+            - paragraph [ref=f14e21]: Faire is a technology wholesale platform built on the belief that the future is local. Independent retailers around the globe collectively represent a multi-hundred-billion-dollar wholesale market that has historically been fragmented and offline. At Faire, we're using the power of tech, data, and machine learning to connect this thriving community of entrepreneurs across the globe. Picture your favorite boutique in town — we help them discover the best products from around the world to sell in their stores. With the right tools and insights, we believe that we can level the playing field so businesses can grow and local communities can thrive.
+            - paragraph [ref=f14e22]: We’re looking for smart, resourceful and passionate people to join us as we power the shop local movement. If you believe in community, come join ours.
+          - generic [ref=f14e23]:
+            - paragraph [ref=f14e24]:
+              - strong [ref=f14e25]: About the role
+            - paragraph [ref=f14e26]:
+              - text: Faire is building the future of wholesale, connecting independent retailers with the brands that will define their stores. At the heart of this mission is
+              - strong [ref=f14e27]: Compass
+              - text: — Faire’s user facing AI bet within the Discovery Pillar — building an always-present, context-aware retailer assistant along the enagement journey. Compass helps retailers make smarter buying decisions by combining Faire’s rich proprietary data with agentic AI and web search, and is increasingly able to take action on retailers’ behalf.
+            - paragraph [ref=f14e28]:
+              - text: As a
+              - strong [ref=f14e29]: Senior Applied AI/ML Scientist
+              - text: "on the Compass team, you will be the science and technical lead for this product — driving agent quality through data, evaluation, and modeling, while shipping product features end-to-end with high velocity. This is a deeply hands-on individual contributor role: no direct reports, keyboard first. You will set the data-grounded direction for how the assistant works, while also being a full-stack (AI, ML, backend) builder who turns ideas into shipped product fast."
+            - paragraph [ref=f14e30]: You will work at the frontier of agentic AI, blending applied science rigor (eval-driven development, experimentation, data strategy) with cross-stack engineering range to build the retailer assistant of the future. This is a rare opportunity to shape a product from near-zero — where your judgment, speed, and instincts will define the outcomes.
+            - paragraph [ref=f14e31]:
+              - strong [ref=f14e32]: What you’ll do
+            - list [ref=f14e33]:
+              - listitem [ref=f14e34]:
+                - strong [ref=f14e35]: Own the science and technical north star
+                - text: "for Compass’s agentic products — the retailer assistant today and whatever comes next: how to leverage Faire’s proprietary data, agent + tool + context strategy (preload vs. tool-calling vs. hybrid), and how to measure and raise agent quality as systems gain the ability to act."
+              - listitem [ref=f14e36]:
+                - text: Ship retailer-assistant features
+                - strong [ref=f14e37]: end-to-end
+                - text: — across the FLARE Python app, data plumbing, tool wrappers, and the frontend surfaces where the assistant appears, using AI-native workflows to multiply your output.
+              - listitem [ref=f14e38]:
+                - text: Translate ambiguous product bets into
+                - strong [ref=f14e39]: sequenced, de-risked tactical plans
+                - text: — what to build now, what to defer, and which bets carry the highest impact × probability-of-success.
+              - listitem [ref=f14e40]:
+                - text: Set and raise the bar for
+                - strong [ref=f14e41]: eval- and experiment-driven development
+                - text: — define how the team knows an agent is good, including offline eval suites, LLM-as-judge metrics, and quality criteria per surface and retailer journey.
+              - listitem [ref=f14e42]:
+                - text: Make
+                - strong [ref=f14e43]: pragmatic engineering choices
+                - text: ": simple enough to ship now, designed to evolve — not over-engineered for imagined future scale, but not throwaway either."
+              - listitem [ref=f14e44]: Partner closely with engineers on architecture and serving tradeoffs, and act as the science/technical interface to adjacent teams (Search, Personalization, Platform/FLARE).
+              - listitem [ref=f14e45]: Raise the team’s collective judgment through prototypes, analyses, design reviews, and pairing.
+            - paragraph [ref=f14e46]:
+              - strong [ref=f14e47]: You’re a great fit if you have…
+            - list [ref=f14e48]:
+              - listitem [ref=f14e49]:
+                - strong [ref=f14e50]: 5+ years
+                - text: of industry experience building and shipping production ML/AI systems with measurable business impact — including
+                - strong [ref=f14e51]: hands-on ownership
+                - text: of the applied-science side (data, evaluation, modeling, quality), not just system plumbing.
+              - listitem [ref=f14e52]:
+                - text: Has shipped
+                - strong [ref=f14e53]: agentic / LLM-powered features
+                - text: "in a core production product — with a deep, opinionated grasp of agent design tradeoffs: eval strategy, latency/cost/quality tension, tool-calling vs. context preload, guardrails, and failure containment."
+              - listitem [ref=f14e54]:
+                - text: Strong
+                - strong [ref=f14e55]: applied ML / data science foundation
+                - text: — reasons from data, designs experiments and evals, and has turned proprietary or structured data into product capability.
+              - listitem [ref=f14e56]:
+                - text: Track record of
+                - strong [ref=f14e57]: shipping fast across multiple stacks
+                - text: (backend, data, and ideally frontend) with quality — not a single-layer specialist; demonstrates cross-stack range.
+              - listitem [ref=f14e58]:
+                - strong [ref=f14e59]: AI-native
+                - text: "in practice: uses AI coding tools and agent workflows as a force multiplier in day-to-day work."
+              - listitem [ref=f14e60]: Architectural maturity — can explain design choices that work simply today but won’t need to be thrown away when requirements grow.
+              - listitem [ref=f14e61]: Operates with high autonomy and resourcefulness, with good judgment about when to escalate and when to just solve it.
+              - listitem [ref=f14e62]: Fluent enough in engineering to make sound architecture calls.
+            - paragraph [ref=f14e63]:
+              - strong [ref=f14e64]: Bonus points for…
+            - list [ref=f14e65]:
+              - listitem [ref=f14e66]: E-commerce, marketplace, or two-sided platform context — understanding of both sides of the retailer/brand dynamic.
+              - listitem [ref=f14e67]:
+                - text: Experience evolving a
+                - strong [ref=f14e68]: read-only assistant into one that takes actions safely
+                - text: — confirm-first patterns, guardrails, and failure containment.
+              - listitem [ref=f14e69]:
+                - text: Hands-on experience with the
+                - strong [ref=f14e70]: OpenAI Agents SDK
+                - text: or similar agentic frameworks in production.
+              - listitem [ref=f14e71]:
+                - text: Familiarity with
+                - strong [ref=f14e72]: preload-over-RAG context strategies
+                - text: ", Snowflake-backed grounding, or hybrid approaches."
+              - listitem [ref=f14e73]: Prior 0→1 / early-stage product experience — has built something meaningful from scratch.
+              - listitem [ref=f14e74]: Recommendation, retrieval, or personalization modeling background.
+              - listitem [ref=f14e75]: Public writing, open-source contributions, or talks that show structured thinking about agentic / applied-AI systems.
+            - paragraph [ref=f14e76]:
+              - strong [ref=f14e77]: Salary Range
+            - paragraph [ref=f14e78]: "Canada: the pay range for this role is $180,000 to $247,500 per year."
+            - paragraph [ref=f14e79]: This role will also be eligible for equity and benefits. Actual base pay will be determined based on permissible factors such as transferable skills, work experience, market demands, and primary work location. The base pay range provided is subject to change and may be modified in the future.
+            - paragraph [ref=f14e80]: Faire uses Artificial Intelligence (AI) to screen and select applicants for this position.
+            - paragraph [ref=f14e81]: This job posting is for an existing vacancy.
+          - generic [ref=f14e82]:
+            - paragraph [ref=f14e83]:
+              - emphasis [ref=f14e84]:
+                - generic [ref=f14e85]:
+                  - emphasis [ref=f14e86]: Hybrid Faire employees currently go into the office 3 days per week on Tuesdays, Thursdays, and a third flex day of their choosing (Monday, Wednesday, or Friday).
+                  - text: Additionally, hybrid in-office roles will have the flexibility to work remotely up to 4 weeks per year. Specific Workplace and Information Technology positions may require onsite attendance 5 days per week as will be indicated in the job posting.
+            - paragraph [ref=f14e87]:
+              - strong [ref=f14e88]: Why you’ll love working at Faire
+            - list [ref=f14e89]:
+              - listitem [ref=f14e90]:
+                - strong [ref=f14e91]: "Move fast:"
+                - text: You'll own meaningful problems that serve customers around the globe with the agency to move fast and see your results clearly.
+              - listitem [ref=f14e92]:
+                - strong [ref=f14e93]: "Equipped to scale:"
+                - text: We invest in what matters, including the latest enterprise AI tools, to help you work smarter and get more out of every day.
+              - listitem [ref=f14e94]:
+                - strong [ref=f14e95]: "Best in class:"
+                - text: Our team is full of sharp, kind, and generous colleagues who care about their craft and about helping you grow in yours.
+              - listitem [ref=f14e96]:
+                - strong [ref=f14e97]: Real rewards.
+                - text: Competitive pay, equity, and comprehensive benefits designed to support your life inside and outside of work.
+              - listitem [ref=f14e98]:
+                - strong [ref=f14e99]: "Belonging:"
+                - text: We're intentional about building an environment where every Faire employee has equal access to opportunities, growth, and success.
+            - paragraph [ref=f14e100]:
+              - text: "Faire was founded in 2017 by a team of early product and engineering leads from Square. We’re backed by some of the top investors in retail and tech including: Y Combinator, Lightspeed Venture Partners, Forerunner Ventures, Khosla Ventures, Sequoia Capital, Founders Fund, and DST Global. We have headquarters in San Francisco and Kitchener-Waterloo, and a global employee presence across offices in Toronto, London, and New York. To learn more about Faire and our customers, you can read more on our"
+              - link "blog" [ref=f14e101] [cursor=pointer]:
+                - /url: https://blog.faire.com/
+              - text: .
+            - paragraph
+            - paragraph [ref=f14e102]: Faire provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, genetics, sexual orientation, gender identity or gender expression.
+            - paragraph [ref=f14e103]:
+              - text: Faire is committed to providing access, equal opportunity and reasonable accommodation for individuals with disabilities in employment, its services, programs, and activities. Accommodations are available throughout the recruitment process and applicants with a disability may request to be accommodated throughout the recruitment process. We will work with all applicants to accommodate their individual accessibility needs. To request reasonable accommodation, please fill out our
+              - link "Accommodation Request Form" [ref=f14e104] [cursor=pointer]:
+                - /url: https://docs.google.com/forms/d/e/1FAIpQLSczpI9me7nYKhunSC6AlagHKv75LHqfi-Qi2TP_3dpin0Uc9Q/viewform
+              - text: (
+              - link "https://bit.ly/faire-form)" [ref=f14e105] [cursor=pointer]:
+                - /url: https://bit.ly/faire-form)
+            - paragraph [ref=f14e106]:
+              - strong [ref=f14e107]: Privacy
+            - paragraph [ref=f14e108]:
+              - text: For information about the type of personal data Faire collects from applicants, as well as your choices regarding the data collected about you, please visit Faire’s
+              - link "Privacy Notice (https://www.faire.com/privacy)" [ref=f14e109] [cursor=pointer]:
+                - /url: https://www.faire.com/privacy
+        - generic [ref=f14e113]:
+          - paragraph [ref=f14e114]: Create a Job Alert
+          - paragraph [ref=f14e115]: Interested in building your career at Faire? Get future opportunities sent straight to your email.
+          - link "Create alert" [ref=f14e116] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=faire&source=job_alert_post&variant=job_alert_post_a
+      - separator [ref=f14e117]
+      - generic [ref=f14e118]:
+        - generic [ref=f14e119]:
+          - generic [ref=f14e120]:
+            - heading "Apply for this job" [level=2] [ref=f14e122]
+            - generic [ref=f14e123]:
+              - paragraph [ref=f14e125]: "*"
+              - paragraph [ref=f14e126]: indicates a required field
+          - button "Autofill my application" [ref=f14e129] [cursor=pointer]
+        - generic [ref=f14e130]:
+          - generic [ref=f14e131]:
+            - generic [ref=f14e134]:
+              - generic [ref=f14e135]: First Name*
+              - textbox "First Name" [ref=f14e136]
+            - generic [ref=f14e139]:
+              - generic [ref=f14e140]: Last Name*
+              - textbox "Last Name" [ref=f14e141]
+            - generic [ref=f14e144]:
+              - generic [ref=f14e145]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f14e146]
+            - generic [ref=f14e149]:
+              - generic [ref=f14e150]: Email*
+              - textbox "Email" [ref=f14e151]
+            - group "Phone" [ref=f14e153]:
+              - generic [ref=f14e157]:
+                - generic [ref=f14e158]: Country*
+                - generic [ref=f14e159]:
+                  - log [ref=f14e161]
+                  - generic [ref=f14e163]:
+                    - combobox "Country" [ref=f14e166]
+                    - button "Toggle flyout" [ref=f14e168] [cursor=pointer]
+                  - textbox
+              - generic [ref=f14e173]:
+                - generic [ref=f14e174]: Phone*
+                - textbox "Phone" [ref=f14e176]
+            - generic [ref=f14e177]:
+              - generic [ref=f14e179]:
+                - generic [ref=f14e180]: Location (City)*
+                - generic [ref=f14e181]:
+                  - log [ref=f14e183]
+                  - combobox "Location (City)" [ref=f14e188]
+                  - textbox
+              - button "Locate me" [ref=f14e189] [cursor=pointer]
+            - group "Resume/CV*" [ref=f14e191]:
+              - generic [ref=f14e194]:
+                - generic [ref=f14e196]:
+                  - button "Attach" [ref=f14e197] [cursor=pointer]
+                  - generic [ref=f14e198]: Attach
+                  - button "Attach" [ref=f14e199]
+                - button "Dropbox" [ref=f14e201] [cursor=pointer]
+                - button "Google Drive" [ref=f14e203] [cursor=pointer]
+                - generic [ref=f14e205]:
+                  - button "Enter manually" [ref=f14e206] [cursor=pointer]
+                  - generic [ref=f14e207]: Enter manually
+                - paragraph [ref=f14e208]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f14e210]:
+              - generic [ref=f14e213]:
+                - generic [ref=f14e215]:
+                  - button "Attach" [ref=f14e216] [cursor=pointer]
+                  - generic [ref=f14e217]: Attach
+                  - button "Attach" [ref=f14e218]
+                - button "Dropbox" [ref=f14e220] [cursor=pointer]
+                - button "Google Drive" [ref=f14e222] [cursor=pointer]
+                - generic [ref=f14e224]:
+                  - button "Enter manually" [ref=f14e225] [cursor=pointer]
+                  - generic [ref=f14e226]: Enter manually
+                - paragraph [ref=f14e227]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f14e228]:
+            - separator [ref=f14e229]
+            - generic [ref=f14e232]:
+              - generic [ref=f14e233]: LinkedIn Profile
+              - textbox "LinkedIn Profile" [ref=f14e234]
+            - generic [ref=f14e237]:
+              - generic [ref=f14e238]: Website
+              - textbox "Website" [ref=f14e239]
+            - generic [ref=f14e242]:
+              - generic [ref=f14e243]: Please select your current province of residence. Select “Not in Canada” if you reside outside of Canada. This information helps us understand our talent pool and ensures we provide accurate resources throughout the hiring process.*
+              - generic [ref=f14e244]:
+                - log [ref=f14e246]
+                - generic [ref=f14e248]:
+                  - generic [ref=f14e249]:
+                    - generic [ref=f14e250]: Select...
+                    - combobox "Please select your current province of residence. Select “Not in Canada” if you reside outside of Canada. This information helps us understand our talent pool and ensures we provide accurate resources throughout the hiring process." [ref=f14e252]
+                  - button "Toggle flyout" [ref=f14e254] [cursor=pointer]
+                - textbox
+            - generic [ref=f14e259]:
+              - generic [ref=f14e260]: This role will be in-office on a hybrid schedule, can you commit to being in-office three days per week at the location where this position is posted?*
+              - generic [ref=f14e261]:
+                - log [ref=f14e263]
+                - generic [ref=f14e265]:
+                  - generic [ref=f14e266]:
+                    - generic [ref=f14e267]: Select...
+                    - combobox "This role will be in-office on a hybrid schedule, can you commit to being in-office three days per week at the location where this position is posted?" [ref=f14e269]
+                  - button "Toggle flyout" [ref=f14e271] [cursor=pointer]
+                - textbox
+            - generic [ref=f14e276]:
+              - generic [ref=f14e277]: Before seeing this job posting, how familiar were you with Faire as a company? (Your response will not impact your application)*
+              - generic [ref=f14e278]:
+                - log [ref=f14e280]
+                - generic [ref=f14e282]:
+                  - generic [ref=f14e283]:
+                    - generic [ref=f14e284]: Select...
+                    - combobox "Before seeing this job posting, how familiar were you with Faire as a company? (Your response will not impact your application)" [ref=f14e286]
+                  - button "Toggle flyout" [ref=f14e288] [cursor=pointer]
+                - textbox
+            - group "How did you hear about Faire? (Select all that apply) *" [ref=f14e292]:
+              - generic [ref=f14e294]:
+                - checkbox "Answered “unaware” to previous question" [ref=f14e296]
+                - generic [ref=f14e297]: Answered “unaware” to previous question
+              - generic [ref=f14e298]:
+                - checkbox "Online advertisement (social media, display ads, etc.)" [ref=f14e300]
+                - generic [ref=f14e301]: Online advertisement (social media, display ads, etc.)
+              - generic [ref=f14e302]:
+                - checkbox "Billboard or outdoor advertising" [ref=f14e304]
+                - generic [ref=f14e305]: Billboard or outdoor advertising
+              - generic [ref=f14e306]:
+                - checkbox "Faire's website" [ref=f14e308]
+                - generic [ref=f14e309]: Faire's website
+              - generic [ref=f14e310]:
+                - checkbox "Faire’s technical blogs (Faire.Tech, The Craft)" [ref=f14e312]
+                - generic [ref=f14e313]: Faire’s technical blogs (Faire.Tech, The Craft)
+              - generic [ref=f14e314]:
+                - checkbox "Someone I know personally (friend, family, former colleague)" [ref=f14e316]
+                - generic [ref=f14e317]: Someone I know personally (friend, family, former colleague)
+              - generic [ref=f14e318]:
+                - checkbox "Job posting on LinkedIn, Indeed, or other job board" [ref=f14e320]
+                - generic [ref=f14e321]: Job posting on LinkedIn, Indeed, or other job board
+              - generic [ref=f14e322]:
+                - checkbox "LinkedIn post or content (not a job posting)" [ref=f14e324]
+                - generic [ref=f14e325]: LinkedIn post or content (not a job posting)
+              - generic [ref=f14e326]:
+                - checkbox "News article or media coverage" [ref=f14e328]
+                - generic [ref=f14e329]: News article or media coverage
+              - generic [ref=f14e330]:
+                - checkbox "Industry event or conference" [ref=f14e332]
+                - generic [ref=f14e333]: Industry event or conference
+              - generic [ref=f14e334]:
+                - checkbox "Other" [ref=f14e336]
+                - generic [ref=f14e337]: Other
+          - separator [ref=f14e338]
+          - generic [ref=f14e339]:
+            - heading "Canada Demographic Questions" [level=3] [ref=f14e340]
+            - generic [ref=f14e342]:
+              - paragraph [ref=f14e343]: We believe the future is local. At the core of that future are our customers, a diverse and unique community of entrepreneurs who have taken a chance on themselves. We’re inspired by these dreamers who work today and every day for a better future for their communities. We are committed to building a community and sense of belonging here at Faire that reflects the customers we serve. We want to ensure that we hold ourselves to that commitment externally and internally because differences in perspectives, experiences, and ideas are what make us successful.
+              - paragraph [ref=f14e344]:
+                - text: Below is a set of
+                - strong [ref=f14e345]: completely voluntary
+                - text: demographic questions that are a part of our Diversity and Inclusion initiatives. All responses are anonymous, self-disclosed and will be kept confidential. Responses will be securely stored and will not be used to identify any individual employee. If you choose to fill out these questions, the responses will be used (in aggregate
+                - strong [ref=f14e346]: only
+                - text: ) to help us identify areas for improvement in our process. Your responses, or your choice to not respond,
+                - strong [ref=f14e348]: will not
+                - text: be associated with your specific application and
+                - strong [ref=f14e350]: will not
+                - text: ", in any way, be used in the hiring decision."
+                - strong [ref=f14e351]
+            - generic [ref=f14e353]:
+              - generic [ref=f14e354]: "Which categories describe you? Select all that apply to you: *"
+              - generic [ref=f14e355]:
+                - log [ref=f14e357]
+                - generic [ref=f14e359]:
+                  - generic [ref=f14e360]:
+                    - generic [ref=f14e361]: Select...
+                    - combobox "Which categories describe you? Select all that apply to you:" [ref=f14e363]
+                  - button "Toggle flyout" [ref=f14e365] [cursor=pointer]
+                - textbox
+            - generic [ref=f14e369]:
+              - generic [ref=f14e370]: How do you currently describe your gender identity? *
+              - generic [ref=f14e371]:
+                - log [ref=f14e373]
+                - generic [ref=f14e375]:
+                  - generic [ref=f14e376]:
+                    - generic [ref=f14e377]: Select...
+                    - combobox "How do you currently describe your gender identity?" [ref=f14e379]
+                  - button "Toggle flyout" [ref=f14e381] [cursor=pointer]
+                - textbox
+          - button "Submit application" [ref=f14e385] [cursor=pointer]
+  - contentinfo [ref=f14e386]:
+    - generic [ref=f14e387]:
+      - paragraph [ref=f14e388]: Powered by
+      - link [ref=f14e389] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f14e390]
+  - iframe [ref=f14e404]:
+    - generic [ref=f16e6]:
+      - text: protected by
+      - strong [ref=f16e7]: reCAPTCHA

@@ -1,0 +1,19 @@
+Done. Job hard-excluded: US-only remote, breaks your Canada-only location policy (`modes/_profile.md`). No full A-G eval, no PDF — per policy those get skipped entirely for non-Canada roles.
+
+Output:
+```json
+{
+  "status": "completed",
+  "id": "54",
+  "report_num": "1020",
+  "company": "Grafana Labs",
+  "role": "Staff AI Engineer (AI & Automation)",
+  "score": null,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/1020-grafana-labs-2026-08-25.md",
+  "error": null
+}
+```
+
+Note: reasonable fit if policy ever opens to US-remote (agentic/RAG/MCP maps to your MUSMET work) — flagged in report for future reference. Tracker line staged at `batch/tracker-additions/108-grafana-labs.tsv`, run `merge-tracker.mjs` when ready.

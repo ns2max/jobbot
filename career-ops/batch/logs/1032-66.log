@@ -1,0 +1,17 @@
+Report written for record-keeping. No PDF, no tracker line (nothing evaluable — score N/A, not a canonical "Evaluated" state worth adding).
+
+```json
+{
+  "status": "failed",
+  "id": "66",
+  "report_num": "1032",
+  "company": "Reddit",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": "reports/1032-reddit-2026-08-25.md",
+  "error": "JD unavailable: batch file missing/empty, Greenhouse job 8022136 returns 404 (posting closed/removed)"
+}
+```
+
+Job dead. Both JD sources fail — batch file gone, Greenhouse ID 404s. Skip, flag for manual check.

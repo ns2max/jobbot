@@ -1,0 +1,322 @@
+=== career-ops batch runner ===
+Parallel: 4 | Max retries: 10
+Input: 158 offers
+
+Pending: 111 offers
+
+--- Processing offer #50: https://jobs.ashbyhq.com/cohere/582c4a60-14a2-49d5-b4d3-24c4ec50508d (report 1014, attempt 3)
+--- Processing offer #51: https://jobs.ashbyhq.com/suno/44860a61-5d54-4ba4-b48e-4378d3040da3 (report 1015, attempt 3)
+--- Processing offer #48: https://jobs.ashbyhq.com/decagon/4a69b01d-6388-462a-8336-7cb288a87a0e (report 1016, attempt 3)
+--- Processing offer #49: https://jobs.ashbyhq.com/cohere/2d4d224f-94d4-40ce-88d5-5d340bc0da4e (report 1017, attempt 3)
+    ✅ Completed (score: -, report: 1016)
+--- Processing offer #52: https://job-boards.greenhouse.io/scaleai/jobs/4711544005 (report 1018, attempt 3)
+    ✅ Completed (score: -, report: 1015)
+--- Processing offer #53: https://job-boards.greenhouse.io/grafanalabs/jobs/6092954004 (report 1019, attempt 3)
+    ✅ Completed (score: -, report: 1018)
+--- Processing offer #54: https://job-boards.greenhouse.io/grafanalabs/jobs/6092955004 (report 1020, attempt 3)
+    ✅ Completed (score: 2.0, report: 1014)
+--- Processing offer #55: https://job-boards.greenhouse.io/grafanalabs/jobs/6100673004 (report 1021, attempt 3)
+    ✅ Completed (score: -, report: 1020)
+--- Processing offer #56: https://job-boards.greenhouse.io/grafanalabs/jobs/6100672004 (report 1022, attempt 3)
+    ✅ Completed (score: -, report: 1017)
+    ✅ Completed (score: 2.1, report: 1019)
+--- Processing offer #57: https://www.samsara.com/company/careers/roles/7589442?gh_jid=7589442 (report 1023, attempt 3)
+--- Processing offer #58: https://www.samsara.com/company/careers/roles/7266357?gh_jid=7266357 (report 1024, attempt 3)
+    ✅ Completed (score: -, report: 1022)
+--- Processing offer #59: https://job-boards.greenhouse.io/reddit/jobs/8029120 (report 1025, attempt 3)
+    ✅ Completed (score: -, report: 1023)
+--- Processing offer #60: https://job-boards.greenhouse.io/reddit/jobs/7993514 (report 1026, attempt 3)
+    ✅ Completed (score: -, report: 1025)
+--- Processing offer #61: https://job-boards.greenhouse.io/reddit/jobs/8022937 (report 1027, attempt 3)
+    ✅ Completed (score: -, report: 1024)
+--- Processing offer #62: https://job-boards.greenhouse.io/reddit/jobs/6042236 (report 1028, attempt 3)
+    ✅ Completed (score: -, report: 1026)
+--- Processing offer #63: https://job-boards.greenhouse.io/reddit/jobs/7931049 (report 1029, attempt 3)
+    ✅ Completed (score: -, report: 1027)
+--- Processing offer #64: https://job-boards.greenhouse.io/reddit/jobs/6960833 (report 1030, attempt 3)
+    ✅ Completed (score: -, report: 1028)
+    ✅ Completed (score: 3.6, report: 1021)
+--- Processing offer #65: https://job-boards.greenhouse.io/reddit/jobs/8018513 (report 1031, attempt 3)
+--- Processing offer #66: https://job-boards.greenhouse.io/reddit/jobs/8022136 (report 1032, attempt 3)
+    ✅ Completed (score: -, report: 1031)
+    ✅ Completed (score: -, report: 1032)
+--- Processing offer #67: https://job-boards.greenhouse.io/reddit/jobs/8009153 (report 1033, attempt 3)
+--- Processing offer #68: https://job-boards.greenhouse.io/reddit/jobs/7974504 (report 1034, attempt 3)
+    ✅ Completed (score: -, report: 1029)
+--- Processing offer #69: https://job-boards.greenhouse.io/reddit/jobs/7974647 (report 1035, attempt 3)
+    ✅ Completed (score: -, report: 1033)
+--- Processing offer #70: https://job-boards.greenhouse.io/reddit/jobs/7844238 (report 1036, attempt 3)
+    ✅ Completed (score: -, report: 1034)
+--- Processing offer #71: https://job-boards.greenhouse.io/reddit/jobs/7721787 (report 1037, attempt 3)
+    ✅ Completed (score: -, report: 1035)
+--- Processing offer #72: https://job-boards.greenhouse.io/reddit/jobs/6745284 (report 1038, attempt 3)
+    ✅ Completed (score: -, report: 1036)
+    ✅ Completed (score: -, report: 1038)
+--- Processing offer #73: https://job-boards.greenhouse.io/reddit/jobs/7931000 (report 1039, attempt 3)
+--- Processing offer #74: https://job-boards.greenhouse.io/reddit/jobs/8018527 (report 1040, attempt 3)
+    ✅ Completed (score: -, report: 1037)
+--- Processing offer #75: https://job-boards.greenhouse.io/reddit/jobs/7992035 (report 1041, attempt 3)
+    ✅ Completed (score: 4.1, report: 1030)
+--- Processing offer #76: https://job-boards.greenhouse.io/reddit/jobs/8001642 (report 1042, attempt 3)
+    ✅ Completed (score: -, report: 1040)
+--- Processing offer #77: https://job-boards.greenhouse.io/reddit/jobs/7555007 (report 1043, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #79: https://jobs.lever.co/tri/d519894c-7feb-430c-9d40-2d9a4a687534 (report 1044, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #78: https://jobs.lever.co/tri/fcfe4b57-d1a0-47f6-b14f-98a4d30313eb (report 1045, attempt 3)
+--- Processing offer #80: https://jobs.lever.co/tri/dad8e0e8-1718-47c2-afbe-6279ae5747a4 (report 1046, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #81: https://jobs.lever.co/mistral/80358670-36c7-4b00-85f9-9051dc8a341e (report 1047, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #82: https://jobs.lever.co/mistral/98e6a2ea-7049-4c8d-88b7-c9d824eea6f1 (report 1048, attempt 3)
+--- Processing offer #83: https://jobs.lever.co/mistral/4eca6d89-c813-4f50-969c-b3ea88b6b956 (report 1049, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #85: https://jobs.lever.co/mistral/ede2a7c2-38d8-4e6a-bd76-4ba3819b2fae (report 1050, attempt 3)
+--- Processing offer #84: https://jobs.lever.co/mistral/e6accd7d-27d5-45f0-9f35-3454064374af (report 1051, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #86: https://jobs.lever.co/mistral/d495bb77-df1f-44ef-9b63-e6f54cc95e41 (report 1052, attempt 3)
+--- Processing offer #87: https://jobs.lever.co/mistral/ceb43b59-b44b-4f39-9ff3-d533e5d77935 (report 1053, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #89: https://jobs.lever.co/mistral/228e68fa-1deb-4e65-bb48-bfae99628acd (report 1054, attempt 3)
+--- Processing offer #88: https://jobs.lever.co/mistral/b985502a-2334-4934-aaf3-8da6501257d0 (report 1055, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #91: https://job-boards.greenhouse.io/xai/jobs/5173208007 (report 1056, attempt 3)
+--- Processing offer #90: https://jobs.lever.co/mistral/d11af6fc-0ba3-4986-bfd9-873074e5f3d8 (report 1057, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #93: https://job-boards.greenhouse.io/humeai/jobs/4816209008 (report 1058, attempt 3)
+--- Processing offer #92: https://job-boards.greenhouse.io/assemblyai/jobs/4707265005 (report 1059, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #94: https://jobs.ashbyhq.com/deepgram/0b7494b3-a91e-4540-9439-5b10a1e5b391 (report 1060, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #95: https://job-boards.greenhouse.io/reddit/jobs/8022942 (report 1061, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #96: https://job-boards.greenhouse.io/reddit/jobs/8018517 (report 1062, attempt 3)
+--- Processing offer #97: https://job-boards.greenhouse.io/reddit/jobs/8018532 (report 1063, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #98: https://jobs.lever.co/tri/e6dee431-b611-43fe-b615-d803d7cea57a (report 1064, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #100: https://job-boards.greenhouse.io/togetherai/jobs/5186628007 (report 1065, attempt 3)
+--- Processing offer #99: https://job-boards.greenhouse.io/togetherai/jobs/5199554007 (report 1066, attempt 3)
+ERROR: Failed to create state lock directory /Users/nishal/PROJECTS/career-ops/batch/.batch-state.lock
+--- Processing offer #101: https://job-boards.greenhouse.io/togetherai/jobs/5202021007 (report 1067, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #103: https://job-boards.greenhouse.io/xai/jobs/5186992007 (report 1068, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #102: https://job-boards.greenhouse.io/xai/jobs/5173147007 (report 1069, attempt 3)
+--- Processing offer #104: https://job-boards.greenhouse.io/xai/jobs/5188230007 (report 1070, attempt 3)
+--- Processing offer #105: https://job-boards.greenhouse.io/anthropic/jobs/5358094008 (report 1071, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #107: https://job-boards.greenhouse.io/anthropic/jobs/5364804008 (report 1072, attempt 3)
+--- Processing offer #106: https://job-boards.greenhouse.io/anthropic/jobs/5367417008 (report 1073, attempt 3)
+--- Processing offer #108: https://job-boards.greenhouse.io/anthropic/jobs/5362838008 (report 1074, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #109: https://job-boards.greenhouse.io/anthropic/jobs/5231612008 (report 1075, attempt 3)
+--- Processing offer #110: https://job-boards.greenhouse.io/anthropic/jobs/5357739008 (report 1076, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #111: https://job-boards.greenhouse.io/anthropic/jobs/5370669008 (report 1077, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #112: https://job-boards.greenhouse.io/anthropic/jobs/5238296008 (report 1078, attempt 3)
+--- Processing offer #113: https://jobs.ashbyhq.com/liquid-ai/4ee965fc-9a9e-43db-a2e9-2da654a73e86 (report 1079, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #114: https://jobs.ashbyhq.com/liquid-ai/24b6d654-d703-4a49-941b-3461f2d7c28e (report 1080, attempt 3)
+--- Processing offer #115: https://jobs.ashbyhq.com/liquid-ai/091f16ad-5d52-4337-89d8-c166c33577bf (report 1081, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #117: https://jobs.ashbyhq.com/suno/f99ae445-cfc9-440b-8b81-046bf071d2d7 (report 1082, attempt 3)
+--- Processing offer #116: https://jobs.ashbyhq.com/liquid-ai/ec3912e6-3751-4b5a-8769-4509bdd750c4 (report 1083, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #118: https://jobs.ashbyhq.com/suno/7b81d3fa-8a84-4d3a-b681-a6b06974e01e (report 1084, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #119: https://job-boards.greenhouse.io/arizeai/jobs/6119757004 (report 1085, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #120: https://jobs.ashbyhq.com/deepgram/2084edc0-2df0-4bd4-b759-0f05c38d5ef5 (report 1086, attempt 3)
+--- Processing offer #121: https://jobs.ashbyhq.com/deepgram/94ae2781-a85f-493a-86c1-ff85a9289355 (report 1087, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #122: https://jobs.ashbyhq.com/deepgram/6f3d761e-4873-43af-a9b1-daeb147661f9 (report 1088, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #123: https://job-boards.greenhouse.io/gleanwork/jobs/4711484005 (report 1089, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #124: https://job-boards.greenhouse.io/gleanwork/jobs/4712438005 (report 1090, attempt 3)
+--- Processing offer #125: https://jobs.ashbyhq.com/decagon/9231a1ba-d9f5-4ddd-b398-158297ea7db9 (report 1091, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #126: https://jobs.ashbyhq.com/cohere/e4603bb7-5bbe-4f73-9556-02c93f78b2af (report 1092, attempt 3)
+--- Processing offer #127: https://job-boards.greenhouse.io/scaleai/jobs/4718431005 (report 1093, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #128: https://job-boards.greenhouse.io/scaleai/jobs/4714527005 (report 1094, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #130: https://jobs.ashbyhq.com/baseten/3622a1ee-50a9-4c45-af6e-aa12bd5de22f (report 1095, attempt 3)
+--- Processing offer #129: https://job-boards.greenhouse.io/scaleai/jobs/4720050005 (report 1096, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #131: https://jobs.ashbyhq.com/baseten/db6477fc-111a-4340-bf00-525fe023e6f3 (report 1097, attempt 3)
+--- Processing offer #132: https://job-boards.greenhouse.io/grafanalabs/jobs/6121756004 (report 1098, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #133: https://job-boards.greenhouse.io/grafanalabs/jobs/6121947004 (report 1099, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #134: https://job-boards.greenhouse.io/grafanalabs/jobs/6121948004 (report 1100, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #135: https://job-boards.greenhouse.io/grafanalabs/jobs/6121949004 (report 1101, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #136: https://job-boards.greenhouse.io/grafanalabs/jobs/6121954004 (report 1102, attempt 3)
+--- Processing offer #137: https://job-boards.greenhouse.io/grafanalabs/jobs/6121956004 (report 1103, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #138: https://job-boards.greenhouse.io/grafanalabs/jobs/6121755004 (report 1104, attempt 3)
+--- Processing offer #139: https://job-boards.greenhouse.io/grafanalabs/jobs/6117334004 (report 1105, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #140: https://job-boards.greenhouse.io/grafanalabs/jobs/6117338004 (report 1106, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #141: https://job-boards.greenhouse.io/grafanalabs/jobs/6117336004 (report 1107, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #142: https://job-boards.greenhouse.io/grafanalabs/jobs/6117340004 (report 1108, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #143: https://job-boards.greenhouse.io/grafanalabs/jobs/6117339004 (report 1109, attempt 3)
+--- Processing offer #144: https://www.samsara.com/company/careers/roles/8020028?gh_jid=8020028 (report 1110, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #146: https://job-boards.greenhouse.io/reddit/jobs/8095009 (report 1111, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #145: https://www.samsara.com/company/careers/roles/8042166?gh_jid=8042166 (report 1112, attempt 3)
+--- Processing offer #147: https://job-boards.greenhouse.io/reddit/jobs/8094985 (report 1113, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #148: https://job-boards.greenhouse.io/reddit/jobs/7729096 (report 1114, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #149: https://job-boards.greenhouse.io/reddit/jobs/8072046 (report 1115, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #150: https://job-boards.greenhouse.io/reddit/jobs/8072076 (report 1116, attempt 3)
+--- Processing offer #151: https://jobs.lever.co/waabi/a51f8167-0aef-4df7-8672-b5ebd8f566f2 (report 1117, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #152: https://jobs.ashbyhq.com/cohere/3fe03041-347a-479f-8361-6b1f5f81338e (report 1118, attempt 3)
+--- Processing offer #154: https://jobs.ashbyhq.com/langchain/0faf969b-33a8-4cf8-9f7b-0b0b0b327bd4 (report 1119, attempt 3)
+--- Processing offer #153: https://jobs.ashbyhq.com/langchain/a16d58f7-e210-495c-9e6f-82222267de3a (report 1120, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #156: https://job-boards.greenhouse.io/reddit/jobs/8103609 (report 1121, attempt 3)
+--- Processing offer #155: https://job-boards.greenhouse.io/reddit/jobs/8103594 (report 1122, attempt 3)
+--- Processing offer #157: https://jobs.ashbyhq.com/elevenlabs/3eede250-d2a7-4f13-b0b2-d8a530cb6130 (report 1123, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+--- Processing offer #158: https://job-boards.greenhouse.io/reddit/jobs/8115838 (report 1124, attempt 3)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+    ❌ Failed (attempt 3, exit code 1)
+
+=== Merging tracker additions ===
+📊 Existing: 160 entries, max #891
+📥 Found 13 pending additions
+➕ Add #892: Cohere — Senior Research Engineer - Safety Tooling and Data (4.2/5)
+➕ Add #893: Cohere — Senior Technical Program Manager, Machine Learning Infrastructure (2.0/5)
+➕ Add #901: Suno — Senior / Staff Software Engineer, AI Engineering (N/A)
+⏭️  Skip: Reddit — Machine Learning Engineer, Ads Optimization (existing #656 3.9 >= new 0)
+➕ Add #902: Reddit — Job 7931049 (unresolved) (N/A)
+🔄 Update: #656 Reddit — Senior Machine Learning Engineer (3.9→4.1)
+➕ Add #903: Reddit — unknown (job ID 7974647) (N/A)
+➕ Add #1036: Reddit — Unknown (posting removed) (N/A)
+⏭️  Skip: Reddit — Staff Data Scientist, Ads (existing #654 2.6 >= new 0)
+➕ Add #1037: Grafana Labs — Staff AI Engineer (N/A/5)
+➕ Add #1038: Grafana Labs — Staff AI Engineer (AI & Automation) (2.1/5)
+🔄 Update: #696 Grafana Labs — Staff AI Engineer, Grafana AI/ML (1.9→3.6)
+🔄 Update: #619 Samsara — Staff Machine Learning Engineer - Edge AI (4.5→5)
+
+✅ Moved 13 TSVs to merged/
+
+📊 Summary: +8 added, 🔄3 updated, ⏭️2 skipped
+
+=== Verifying pipeline integrity ===
+
+📊 Checking 168 entries in applications.md
+
+✅ All statuses are canonical
+⚠️  Possible duplicates: #621, #615 (Qualcomm — Staff AI Software Engineer (C++))
+⚠️  Possible duplicates: #629, #616 (Amazon — Applied Scientist, Ring AI)
+❌ #307: Report not found: reports/307-songscription-founding-music-ai-researcher-2026-05-14.md
+❌ #278: Report not found: reports/278-ifm-research-scientist-speech-audio-2026-04-27.md
+❌ #162: Report not found: reports/162-huawei-canada-senior-researcher-voice-ai-2026-04-17.md
+❌ #137: Report not found: reports/122-affirm-sr-staff-mle-underwriting-2026-04-16.md
+❌ #141: Report not found: reports/127-mercury-sr-mle-remote-canada-2026-04-16.md
+❌ #115: Report not found: reports/117-maintainx-sr-applied-mle-2026-04-17.md
+❌ #109: Report not found: reports/111-stackadapt-sr-staff-ml-engineer-2026-04-14.md
+❌ #110: Report not found: reports/110-stackadapt-sr-staff-applied-ml-scientist-2026-04-14.md
+❌ #202: Report not found: reports/233-spotify-research-scientist-music-2026-04-23.md
+❌ #5: Report not found: reports/005-spotify-sre-music-2026-04-08.md
+❌ #6: Report not found: reports/006-spotify-srs-music-2026-04-08.md
+❌ #8: Report not found: reports/008-assemblyai-re-2026-04-08.md
+❌ #9: Report not found: reports/009-assemblyai-swe-ml-2026-04-08.md
+❌ #10: Report not found: reports/010-waveshaper-ai-2026-04-08.md
+❌ #12: Report not found: reports/012-microsoft-speech-2026-04-08.md
+❌ #14: Report not found: reports/014-cohere-multimodal-ai-2026-04-09.md
+❌ #15: Report not found: reports/015-wave-applied-ai-scientist-2026-04-09.md
+❌ #16: Report not found: reports/016-wave-senior-ml-scientist-2026-04-09.md
+❌ #17: Report not found: reports/017-dolby-sr-foundational-audio-ai-2026-04-09.md
+❌ #18: Report not found: reports/018-dolby-senior-ai-researcher-2026-04-09.md
+❌ #20: Report not found: reports/020-udio-mts-quantitative-research-2026-04-09.md
+❌ #21: Report not found: reports/021-spotify-sre-music-stockholm-2026-04-09.md
+❌ #22: Report not found: reports/022-spotify-srs-music-london-2026-04-09.md
+❌ #24: Report not found: reports/024-spotify-staff-re-music-2026-04-09.md
+❌ #42: Report not found: reports/119-vector-institute-sr-applied-ml-specialist-2026-04-17.md
+❌ #46: Report not found: reports/046-qualcomm-ai-ml-inference-efficiency-2026-04-09.md
+❌ #50: Report not found: reports/050-autodesk-sr-research-engineer-cv-2026-04-09.md
+❌ #52: Report not found: reports/052-lime-staff-applied-scientist-vision-2026-04-09.md
+❌ #57: Report not found: reports/057-thomson-reuters-sr-research-engineer-2026-04-09.md
+❌ #58: Report not found: reports/058-thomson-reuters-lead-research-engineer-2026-04-09.md
+❌ #60: Report not found: reports/060-rbc-sr-ml-research-engineer-2026-04-09.md
+❌ #63: Report not found: reports/063-amazon-applied-scientist-iii-2026-04-09.md
+❌ #64: Report not found: reports/064-maintainx-sr-applied-scientist-2026-04-09.md
+❌ #68: Report not found: reports/068-hume-ai-researcher-2026-04-09.md
+❌ #70: Report not found: reports/070-sprout-social-applied-ai-ml-scientist-2026-04-09.md
+❌ #72: Report not found: reports/072-cohere-research-engineer-labs-2026-04-09.md
+❌ #74: Report not found: reports/074-vector-ml-specialist-sr-2026-04-09.md
+❌ #76: Report not found: reports/076-vector-sr-applied-ml-specialist-2026-04-09.md
+❌ #90: Report not found: reports/090-samsara-sr-mle-platform-2026-04-12.md
+❌ #92: Report not found: reports/092-oncoustics-ml-scientist-medical-imaging-2026-04-12.md
+❌ #93: Report not found: reports/093-semex-applied-ml-scientist-cv-2026-04-12.md
+❌ #96: Report not found: reports/096-kobold-metals-data-scientist-2026-04-12.md
+❌ #99: Report not found: reports/099-stripe-data-scientist-2026-04-12.md
+❌ #103: Report not found: reports/103-ontario-tech-asst-prof-ai-digital-health-2026-04-12.md
+❌ #106: Report not found: reports/106-bree-ml-engineer-2026-04-12.md
+❌ #107: Report not found: reports/107-rbc-borealis-sr-ml-researcher-lead-2026-04-13.md
+❌ #1037: Invalid score format: "N/A/5"
+❌ #888: Invalid score format: "N/A/5"
+❌ #891: Invalid score format: "N/A/5"
+❌ #724: Invalid score format: "N/A/5"
+❌ #733: Invalid score format: "N/A/5"
+❌ #641: Invalid score format: "N/A/5"
+❌ #619: Invalid score format: "N/A/5"
+✅ All rows properly formatted
+✅ No pending TSVs
+✅ No bold in scores
+
+==================================================
+📊 Pipeline Health: 53 errors, 2 warnings
+🔴 Pipeline has errors — fix before proceeding
+⚠️  Verification found issues (see above)
+
+=== Batch Summary ===
+Total: 158 | Completed: 73 | Failed: 84 | Pending: 1
+Average score: 2.8/5 (7 scored)

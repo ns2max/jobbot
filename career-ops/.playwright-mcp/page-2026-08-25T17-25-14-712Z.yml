@@ -1,0 +1,216 @@
+- generic [active] [ref=f27e1]:
+  - main [ref=f27e2]:
+    - generic [ref=f27e3]:
+      - generic [ref=f27e4]:
+        - link "Back to jobs" [ref=f27e5] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/togetherai
+        - generic [ref=f27e9]:
+          - generic [ref=f27e10]:
+            - heading "Staff Software Engineer, Inference / Compute Infrastructure Engineering" [level=1] [ref=f27e11]
+            - generic [ref=f27e12]: San Francisco
+          - button "Apply" [ref=f27e16] [cursor=pointer]
+        - generic [ref=f27e18]:
+          - paragraph [ref=f27e19]:
+            - strong [ref=f27e20]: About the Role
+          - paragraph [ref=f27e21]:
+            - text: We're looking for a Software Engineer to build the systems that treat infrastructure as software. This role owns the software state machines that provision hardware, bring it into service, and manage its full lifecycle — turning racks of GPUs into
+            - strong [ref=f27e22]: running inference clusters
+            - text: "without a human touching a runbook. The Research and Inference team is your customer: today they file tickets and wait; the target state is that they issue a single API call to stand up, scale, or tear down a cluster, and the system takes care of the rest. The platform is manifest-driven such that teams declare the desired state of a cluster or host — shape, topology, software stack — and the system is responsible for reconciling reality to that manifest, continuously, through every stage of its lifecycle. You will design the engines that manifest the schema, the engines that execute against it, and the workflows that carry a piece of hardware or a cluster from one state to the next—taking it from bare metal to a fully functioning AI cluster for training or inference."
+          - paragraph [ref=f27e23]: You'll write production code which is typed, tested, versioned, and deployed through CI/CD that models infrastructure state and reconciles it, the same way a Kubernetes controller reconciles a cluster's desired state. Success looks like eliminating manual provisioning work, not documenting it better.
+          - paragraph [ref=f27e24]:
+            - text: A product mindset - you've built internal platforms or APIs consumed by other engineering teams and care about the developer experience of what you ship.
+            - strong [ref=f27e25]: You build it, you own it.
+            - text: You are not only responsible for delivering the software but also for operating and supporting it in production.
+          - paragraph [ref=f27e26]:
+            - strong [ref=f27e27]: Responsibilities
+          - list [ref=f27e28]:
+            - listitem [ref=f27e29]:
+              - strong [ref=f27e30]: "Build the provisioning state machine:"
+              - text: design and implement the software that models the full lifecycle of a physical host from discovery, inference bring-up to GPU driver/CUDA stack, health validation, and decommission/RMA — as explicit, versioned states and transitions.
+            - listitem [ref=f27e31]:
+              - strong [ref=f27e32]: "Build the self-service API:"
+              - text: design declarative APIs and a control plane so the inference team can request, scale, and tear down inference clusters with one API call — no ticket, no human in the loop.
+            - listitem [ref=f27e33]:
+              - strong [ref=f27e34]: "Automate self-healing:"
+              - text: detect degraded or failed nodes, drain them safely, trigger repair or replacement, and reintroduce healthy capacity into the pool automatically.
+            - listitem [ref=f27e35]:
+              - strong [ref=f27e36]: "Own reliability of the pipeline:"
+              - text: idempotency, retries, rollback, and drift detection so the provisioning system is as dependable as any other production service.
+            - listitem [ref=f27e37]:
+              - strong [ref=f27e38]: "Partner with the inference/ML platform team:"
+              - text: understand the cluster shapes they need — topology, interconnect, scheduling constraints — and encode them as first-class abstractions in the platform.
+            - listitem [ref=f27e39]:
+              - strong [ref=f27e40]: "Engineer it like software:"
+              - text: strong typing, automated tests, code review, versioning, and CI/CD for infrastructure code — this is a product, not a collection of Ansible playbooks.
+          - paragraph [ref=f27e41]:
+            - strong [ref=f27e42]: Requirements
+          - paragraph [ref=f27e43]: "Core requirements (all levels):"
+          - list [ref=f27e44]:
+            - listitem [ref=f27e45]: Strong software engineering background in Go, Python, Rust, or similar — you write and test real software for a living.
+            - listitem [ref=f27e46]: Experience with durable workflow orchestration tools such as Temporal, Cadence, or equivalent to run long-lived, manifest-driven workflows that survive failures and resume mid-execution.
+            - listitem [ref=f27e47]: Experience building software control planes or orchestration systems that model state and reconcile it over time (e.g., Kubernetes controllers/operators, custom reconciliation loops, workflow engines).
+            - listitem [ref=f27e48]: Experience with event-driven systems — designing and building software around message queues, event streams, or pub/sub (e.g., Kafka, NATS, SQS) rather than polling or cron-driven scripts.
+            - listitem [ref=f27e49]: A product mindset. You’ve built internal platforms or APIs consumed by other engineering teams and care about the developer experience of what you ship.
+          - paragraph [ref=f27e50]: "Nice to have:"
+          - list [ref=f27e51]:
+            - listitem [ref=f27e52]: Exposure to bare-metal provisioning (PXE/iPXE, Redfish/IPMI, BMC) and/or networking fundamentals (VLANs, BGP, fabric design), or GPU/accelerator infrastructure.
+            - listitem [ref=f27e53]: Experience with GPU cluster software stacks (NCCL, CUDA, InfiniBand/RoCE).
+            - listitem [ref=f27e54]: Prior work at a hyperscaler, GPU cloud, or datacenter-scale infrastructure organization.
+            - listitem [ref=f27e55]: Systems programming in Rust or Go.
+          - paragraph [ref=f27e56]:
+            - strong [ref=f27e57]: About Together AI
+          - paragraph [ref=f27e58]: Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancement such as FlashAttention, Hyena, FlexGen, and RedPajama. We invite you to join a passionate group of researchers and engineers in our journey in building the next generation AI infrastructure.
+          - paragraph [ref=f27e59]:
+            - strong [ref=f27e60]: Compensation
+          - paragraph [ref=f27e61]: "We offer competitive compensation, startup equity, health insurance and other competitive benefits. The US base salary range for this full-time position is: $240,000 - $280,000 + equity + benefits. Our salary ranges are determined by location, level and role. Individual compensation will be determined by experience, skills, and job-related knowledge."
+          - paragraph [ref=f27e62]:
+            - strong [ref=f27e63]: Equal Opportunity
+          - paragraph [ref=f27e64]: Together AI is an Equal Opportunity Employer and is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and more.
+        - generic [ref=f27e68]:
+          - paragraph [ref=f27e69]: Get new jobs like this in your inbox
+          - paragraph [ref=f27e70]: We'll email you when Together AI posts a job like this one.
+          - link "Create alert" [ref=f27e71] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=togetherai&source=job_alert_post&variant=job_alert_post_b
+      - separator [ref=f27e72]
+      - generic [ref=f27e73]:
+        - generic [ref=f27e74]:
+          - generic [ref=f27e75]:
+            - heading "Apply for this job" [level=2] [ref=f27e77]
+            - generic [ref=f27e78]:
+              - paragraph [ref=f27e80]: "*"
+              - paragraph [ref=f27e81]: indicates a required field
+          - button "Autofill my application" [ref=f27e84] [cursor=pointer]
+        - generic [ref=f27e85]:
+          - generic [ref=f27e86]:
+            - generic [ref=f27e89]:
+              - generic [ref=f27e90]: First Name*
+              - textbox "First Name" [ref=f27e91]
+            - generic [ref=f27e94]:
+              - generic [ref=f27e95]: Last Name*
+              - textbox "Last Name" [ref=f27e96]
+            - generic [ref=f27e99]:
+              - generic [ref=f27e100]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f27e101]
+            - generic [ref=f27e104]:
+              - generic [ref=f27e105]: Email*
+              - textbox "Email" [ref=f27e106]
+            - group "Phone" [ref=f27e108]:
+              - generic [ref=f27e112]:
+                - generic [ref=f27e113]: Country*
+                - generic [ref=f27e114]:
+                  - log [ref=f27e116]
+                  - generic [ref=f27e118]:
+                    - combobox "Country" [ref=f27e121]
+                    - button "Toggle flyout" [ref=f27e123] [cursor=pointer]
+                  - textbox
+              - generic [ref=f27e128]:
+                - generic [ref=f27e129]: Phone*
+                - textbox "Phone" [ref=f27e131]
+            - generic [ref=f27e132]:
+              - generic [ref=f27e134]:
+                - generic [ref=f27e135]: Location (City)*
+                - generic [ref=f27e136]:
+                  - log [ref=f27e138]
+                  - combobox "Location (City)" [ref=f27e143]
+                  - textbox
+              - button "Locate me" [ref=f27e144] [cursor=pointer]
+            - group "Resume/CV*" [ref=f27e146]:
+              - generic [ref=f27e149]:
+                - generic [ref=f27e151]:
+                  - button "Attach" [ref=f27e152] [cursor=pointer]
+                  - generic [ref=f27e153]: Attach
+                  - button "Attach" [ref=f27e154]
+                - button "Dropbox" [ref=f27e156] [cursor=pointer]
+                - button "Google Drive" [ref=f27e158] [cursor=pointer]
+                - generic [ref=f27e160]:
+                  - button "Enter manually" [ref=f27e161] [cursor=pointer]
+                  - generic [ref=f27e162]: Enter manually
+                - paragraph [ref=f27e163]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f27e165]:
+              - generic [ref=f27e168]:
+                - generic [ref=f27e170]:
+                  - button "Attach" [ref=f27e171] [cursor=pointer]
+                  - generic [ref=f27e172]: Attach
+                  - button "Attach" [ref=f27e173]
+                - button "Dropbox" [ref=f27e175] [cursor=pointer]
+                - button "Google Drive" [ref=f27e177] [cursor=pointer]
+                - generic [ref=f27e179]:
+                  - button "Enter manually" [ref=f27e180] [cursor=pointer]
+                  - generic [ref=f27e181]: Enter manually
+                - paragraph [ref=f27e182]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f27e183]:
+            - generic [ref=f27e184]:
+              - separator [ref=f27e185]
+              - paragraph [ref=f27e187]: Education
+              - generic [ref=f27e189]:
+                - generic [ref=f27e190]: School
+                - generic [ref=f27e191]:
+                  - log [ref=f27e193]
+                  - generic [ref=f27e195]:
+                    - generic [ref=f27e196]:
+                      - generic [ref=f27e197]: Select...
+                      - combobox "School" [ref=f27e199]
+                    - button "Toggle flyout" [ref=f27e201] [cursor=pointer]
+              - generic [ref=f27e205]:
+                - generic [ref=f27e206]: Degree
+                - generic [ref=f27e207]:
+                  - log [ref=f27e209]
+                  - generic [ref=f27e211]:
+                    - generic [ref=f27e212]:
+                      - generic [ref=f27e213]: Select...
+                      - combobox "Degree" [ref=f27e215]
+                    - button "Toggle flyout" [ref=f27e217] [cursor=pointer]
+              - generic [ref=f27e221]:
+                - generic [ref=f27e222]: Discipline
+                - generic [ref=f27e223]:
+                  - log [ref=f27e225]
+                  - generic [ref=f27e227]:
+                    - generic [ref=f27e228]:
+                      - generic [ref=f27e229]: Select...
+                      - combobox "Discipline" [ref=f27e231]
+                    - button "Toggle flyout" [ref=f27e233] [cursor=pointer]
+              - generic [ref=f27e236]:
+                - generic [ref=f27e239]:
+                  - generic [ref=f27e240]: Start date year
+                  - spinbutton "Start date year" [ref=f27e241]
+                - generic [ref=f27e244]:
+                  - generic [ref=f27e245]: End date year
+                  - spinbutton "End date year" [ref=f27e246]
+            - button "Add another" [ref=f27e247] [cursor=pointer]
+          - generic [ref=f27e248]:
+            - separator [ref=f27e249]
+            - generic [ref=f27e252]:
+              - generic [ref=f27e253]: LinkedIn Profile*
+              - textbox "LinkedIn Profile" [ref=f27e254]
+            - generic [ref=f27e257]:
+              - generic [ref=f27e258]: Are you willing to work four days per week in our San Francisco office? *
+              - textbox "Are you willing to work four days per week in our San Francisco office?" [ref=f27e259]
+            - generic [ref=f27e262]:
+              - generic [ref=f27e263]: Are you currently based in the Bay Area?*
+              - generic [ref=f27e264]:
+                - log [ref=f27e266]
+                - generic [ref=f27e268]:
+                  - generic [ref=f27e269]:
+                    - generic [ref=f27e270]: Select...
+                    - combobox "Are you currently based in the Bay Area?" [ref=f27e272]
+                  - button "Toggle flyout" [ref=f27e274] [cursor=pointer]
+                - textbox
+            - generic [ref=f27e279]:
+              - generic [ref=f27e280]: Will you require sponsorship to work in the United States of America either now or at any point in the future? *
+              - generic [ref=f27e281]:
+                - log [ref=f27e283]
+                - generic [ref=f27e285]:
+                  - generic [ref=f27e286]:
+                    - generic [ref=f27e287]: Select...
+                    - combobox "Will you require sponsorship to work in the United States of America either now or at any point in the future?" [ref=f27e289]
+                  - button "Toggle flyout" [ref=f27e291] [cursor=pointer]
+                - textbox
+          - button "Submit application" [ref=f27e295] [cursor=pointer]
+  - contentinfo [ref=f27e296]:
+    - generic [ref=f27e297]:
+      - paragraph [ref=f27e298]: Powered by
+      - link [ref=f27e299] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f27e300]
+  - iframe [ref=f27e314]:
+    

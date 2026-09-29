@@ -1,0 +1,15 @@
+=== career-ops batch runner ===
+Parallel: 4 | Max retries: 15
+Input: 158 offers
+
+Pending: 84 offers
+
+--- Processing offer #75: https://job-boards.greenhouse.io/reddit/jobs/7992035 (report 1125, attempt 4)
+--- Processing offer #77: https://job-boards.greenhouse.io/reddit/jobs/7555007 (report 1126, attempt 4)
+--- Processing offer #76: https://job-boards.greenhouse.io/reddit/jobs/8001642 (report 1127, attempt 4)
+--- Processing offer #73: https://job-boards.greenhouse.io/reddit/jobs/7931000 (report 1128, attempt 4)
+WARN: Recovered stale state lock (PID 24760 not running).
+    ❌ Failed (attempt 4, exit code 143)
+    ❌ Failed (attempt 4, exit code 143)
+    ❌ Failed (attempt 4, exit code 143)
+    ❌ Failed (attempt 4, exit code 143)

@@ -1,0 +1,15 @@
+Reddit role: Senior Staff Data Scientist, Consumer Experimentation — Remote US only, no Canada. Location policy hard-excludes non-Canada roles. No eval/report/PDF/tracker per rule.
+
+```json
+{
+  "status": "failed",
+  "id": "68",
+  "report_num": "1034",
+  "company": "Reddit",
+  "role": "Senior Staff Data Scientist - Consumer Experimentation",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role is Remote-US only, no Canada option. Location policy (_profile.md) blocks evaluation for non-Canada roles."
+}
+```

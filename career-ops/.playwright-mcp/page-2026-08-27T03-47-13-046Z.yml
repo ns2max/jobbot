@@ -1,0 +1,38 @@
+- generic [active] [ref=f9e1]:
+  - link [ref=f9e4] [cursor=pointer]:
+    - /url: https://kogniz.com
+    - img "Kogniz logo" [ref=f9e5]
+  - generic [ref=f9e7]:
+    - generic [ref=f9e9]:
+      - generic [ref=f9e10]:
+        - heading "Machine Learning Engineer" [level=2] [ref=f9e11]
+        - generic [ref=f9e12]:
+          - generic [ref=f9e13]: Montreal
+          - generic [ref=f9e14]: Engineering /
+          - generic [ref=f9e15]: Full-time /
+      - link "apply for this job" [ref=f9e17] [cursor=pointer]:
+        - /url: https://jobs.lever.co/kogniz/60f760bd-5b0a-4a07-a650-bfac4ff644f8/apply
+    - generic [ref=f9e18]:
+      - generic [ref=f9e19]: We are looking for a brilliant machine learning engineer to join our Montreal development team. You will work on state of the art computer vision and machine learning projects, surrounded by a group of passionate, expert developers. Your work will directly affect technology that is being used by some of the top companies in the world. Kogniz is growing fast and this is your chance to be part of the next great venture-backed startup.
+      - generic [ref=f9e22]:
+        - heading [level=3]
+        - list [ref=f9e25]:
+          - listitem [ref=f9e26]: Undergraduate or graduate degree in computer science or similar technical field, with significant coursework in mathematics or statistics
+          - listitem [ref=f9e27]: 1-2 years machine learning experience, either in industry or from personal projects
+          - listitem [ref=f9e28]: Successfully trained and deployed a deep learning machine model, with measurably improved performance over baseline, either in industry or as a personal project
+          - listitem [ref=f9e29]: Strong experience with high-level machine learning frameworks such as DLib, YOLO/Darknet, Tensorflow, Caffe, or Torch, and familiarity with the others
+          - listitem [ref=f9e30]: You know the ins and outs of C++ and Python, especially as it applies to the above ML frameworks
+          - listitem [ref=f9e31]: You are up-to-date on the latest deep neural net research and architectures, both in understanding the theory and motivations behind the techniques, as well as how to implement them in the ML framework of your choice
+          - listitem [ref=f9e32]: You have great communication skills and ability to work with others
+          - listitem [ref=f9e33]: You are a strong team player, with a do-whatever-it-takes attitude
+      - generic [ref=f9e34]: We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+      - link "apply for this job" [ref=f9e37] [cursor=pointer]:
+        - /url: https://jobs.lever.co/kogniz/60f760bd-5b0a-4a07-a650-bfac4ff644f8/apply
+  - generic [ref=f9e39]:
+    - paragraph [ref=f9e40]:
+      - link "Kogniz Home Page" [ref=f9e41] [cursor=pointer]:
+        - /url: https://kogniz.com
+    - link "Jobs powered by Lever logo" [ref=f9e42] [cursor=pointer]:
+      - /url: https://www.lever.co/job-seeker-support/
+      - generic [ref=f9e43]: Jobs powered by
+      - img "Lever logo" [ref=f9e44]

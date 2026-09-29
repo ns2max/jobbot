@@ -1,0 +1,42 @@
+% Job posting: https://huaweicanada.recruitee.com/o/senior-researcher-edge-ai-optimizationhardware-aware-ml
+\documentclass[11pt]{article}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.1}
+\pagenumbering{gobble}
+\begin{document}
+\pagestyle{empty}
+
+\noindent
+Nishal Stanislaus Silva, PhD \\
+Toronto, ON, Canada \\
+nishal.silva@hotmail.com \,|\, +1 613 200 2030 \\
+nishal.xyz \,|\, linkedin.com/in/nishal-silva \,|\, github.com/ns2max
+
+\vspace{1em}
+\noindent Dear Hiring Manager,
+
+\vspace{0.8em}
+\noindent My PhD thesis is, in essence, hardware-aware ML: designing a model to operate correctly and quickly under a fixed latency, compute, and power envelope on embedded ARM hardware, then proving it under load. That work culminated in a real-time audio pattern detector running at 14 ms inference on a Raspberry Pi 4, with F1 0.76 at 31.4\% CPU utilization -- 74x faster than the 1038 ms DTW baseline it replaced. This is the exact discipline your Senior Researcher, Edge AI Optimization / Hardware-Aware ML role calls for, and it is the discipline I have spent the last five years practicing on real embedded devices rather than in simulation.
+
+\vspace{0.8em}
+\noindent That discipline runs deeper than a single result. As a postdoctoral researcher at the University of Trento, I designed frozen-protocol benchmark suites and ablation studies -- RNN versus DTW, audio versus MIDI representations, pattern-set sizes of 1, 3, and 10 -- that quantify precisely where accuracy, latency, and CPU usage trade off against each other, and I kept a written record of the negative results as well as the positive ones. I also built MIRaaS, a UDP edge-to-server offload architecture accepted at IEEE IS2 2026, which characterizes the latency and compute trade-offs behind the decision of what should run on-edge versus what should be offloaded -- directly relevant to any team optimizing where inference happens. Earlier, as a visiting researcher at McGill University's IDMIL/CIRMMT lab, I built a self-powered smart electric guitar and profiled its compute and power draw to validate real-time feasibility on hardware with no external power supply -- power-budget engineering in the most literal sense.
+
+\vspace{0.8em}
+\noindent I should be direct about one gap: my hardware-aware optimization experience is with audio and time-series models, not large-scale foundation-model compression or distillation. I have not compressed a transformer-scale language model. What I bring instead is a methodology -- profiling on real hardware, frozen-protocol benchmarking, and quantified accuracy/latency/CPU trade-off analysis -- that is domain-general and transfers directly to any model class once the target hardware and constraints are defined.
+
+\vspace{0.8em}
+\noindent I am a Canadian Permanent Resident and do not require sponsorship to work in Canada. I am available immediately and open to relocating to Edmonton for this role. I would welcome the chance to discuss how this background applies to your team's work.
+
+\vspace{1.2em}
+\noindent Sincerely, \\
+Nishal Stanislaus Silva
+
+\end{document}

@@ -1,0 +1,136 @@
+% Job posting: https://ca.linkedin.com/jobs/view/machine-learning-engineer-edge-ai-at-onsemi-4413322899
+% =====================================================================
+%  CV - Nishal Stanislaus Silva, PhD
+%  Target: onsemi - Machine Learning Engineer, Edge AI (Waterloo, ON)
+%  Variant: V3 (Edge / Embedded)
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 -- #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{ML Research Engineer | Real-Time \& Edge Inference | Audio, Sensor \& Time-Series}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \cvTagline}
+    \\[1pt]
+    {\footnotesize\textit{\cvStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail}
+    \,\,|\,\, \cvPhone
+    \,\,|\,\, \cvCity
+    \,\,|\,\, \href{\cvSite}{nishal.xyz}
+    \,\,|\,\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,\,|\,\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+
+Machine Learning Research Engineer specializing in real-time and on-device inference for audio, sensor and time-series data, with a PhD (University of Trento, 2025) and 10+ years across industry and academia. I build constrained ML systems end to end, from acquisition and DSP through model design, training and low-latency deployment, designing to hard latency, compute, power and memory budgets on microcontroller- and ARM-class hardware. Published work runs audio pattern detection in 14 ms on a Raspberry Pi 4 at 31.4\% CPU, F1 0.76, 74$\times$ faster than the dynamic time warping baseline (JAES 2026); at MAS Holdings I shipped C++/Python inference engines on embedded and IoT hardware at manufacturing scale. I am the author of Nebula, an open-source C++17 audio-feature library with per-feature ARM latency benchmarks.
+
+\section*{Core Competencies}
+
+\textbf{ML Engineering:} Python, C++17, TensorFlow/Keras, PyTorch, scikit-learn; sequence and time-series modelling (RNN, LSTM, GRU) and CNNs, with working knowledge of Transformer and state-space architectures; DSP and audio feature extraction (MFCC, STFT, CQT); training-free and low-label methods; benchmark and ablation design\\
+\textbf{Edge \& System Optimization:} real-time inference under sub-30 ms budgets; ARM (Cortex-A) and microcontroller deployment (STM32, PIC, Arduino); CPU and power profiling; latency-accuracy-compute trade-off analysis; ONNX; Elk Audio OS, JUCE, VST, OSC; sensor interfacing (IMU, I\textsuperscript{2}C); PLC integration\\
+\textbf{Research Engineering:} experimental design and statistical evaluation; four open benchmark datasets (70+ musicians); 10+ peer-reviewed publications; reproducible pipelines, CI/CD, code review; cross-team and industry-partner coordination; student supervision
+
+\section*{Technical Stack}
+
+\textbf{Languages:} Python, C++17, C, MATLAB, JavaScript/TypeScript, Shell, LaTeX\\
+\textbf{ML / AI:} TensorFlow, Keras, PyTorch, scikit-learn, ONNX; model optimization for constrained targets (architecture selection, feature-rate tuning, latency and CPU profiling); VAE and diffusion prototypes for synthetic data\\
+\textbf{Edge \& Systems:} Raspberry Pi, ARM Cortex-A, STM32 / PIC / Arduino, Embedded Linux, Elk Audio OS, JUCE, FFTW, libsndfile, ARM latency benchmarking, real-time audio I/O, PLC interfacing, sensor retrofits\\
+\textbf{Data \& Cloud:} AWS (EC2, S3, ECS, MWAA, RDS), SQL, ETL, NumPy, Pandas\\
+\textbf{Dev \& MLOps:} Docker, Airflow, Jenkins, Git, pytest, CI/CD, REST APIs
+
+\section*{Education}
+\textbf{Ph.D, Information Engineering \& Computer Science} \textit{\small{-- University of Trento}} \hfill \textit{Jan 2025}\\[2pt]
+\noindent\textbf{M.Sc, Telecommunication \& Electronic Engineering} \textit{\small{-- Sheffield Hallam University}} \hfill \textit{Aug 2018}\\[2pt]
+\noindent\textbf{B.Eng (Hons), Electronic Engineering} \textit{\small{-- Sheffield Hallam University}} \hfill \textit{Mar 2014}
+
+\section*{Professional Experience}
+
+\begin{cvrole}{Independent Research \& Open-Source}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+    \item Nebula: C++17 audio feature extraction library with per-feature ARM latency benchmarking; LiveLaTeX: published VS Code Marketplace extension.
+    \item MIRaaS edge-to-server latency-characterization paper accepted at IEEE IS\textsuperscript{2} 2026; Smart Drums embedded drum-pattern paper in press at JAES.
+\end{cvrole}
+
+\needspace{5\baselineskip}
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Owned an end-to-end pipeline for streaming audio and IMU/gesture data: acquisition, DSP and feature engineering, training and evaluation, low-latency deployment on Raspberry Pi 4 (Elk Audio OS, VST, OSC), and monitoring; EU-funded MUSMET (EIC Pathfinder).
+    \item Delivered real-time inference at 14 ms on Raspberry Pi 4, F1 0.76, 74$\times$ faster than the DTW baseline, at 31.4\% CPU within an embedded budget (JAES 2026); designed baseline and ablation suites quantifying architecture, feature and latency trade-offs at pattern-set sizes 1/3/10.
+    \item Built the MIRaaS edge-to-server offload and its latency characterization, and a real-time multimodal synchronization pipeline aligning audio, BCI/EEG and mixed-reality tracking across four musicians, with SAE Institute Barcelona and g.tec.
+\end{cvrole}
+
+\needspace{5\baselineskip}
+\begin{cvrole}{Visiting Researcher}{McGill University (IDMIL / CIRMMT)}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Built multimodal IMU + audio gesture recognition fused by a hierarchical finite state machine, F1 0.78 across a 500-event corpus (IEEE IS\textsuperscript{2} 2025), running on self-powered instrument-mounted Raspberry Pi 4 compute.
+    \item Ran compute and power profiling for edge-deployment feasibility; prototyped VAE- and diffusion-based synthetic data for limited-label regimes.
+\end{cvrole}
+
+\needspace{4\baselineskip}
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item Built ML and statistical scoring pipelines for financial anomaly detection on large structured enterprise datasets; SQL + Python backend services for production triage.
+\end{cvrole}
+
+\needspace{5\baselineskip}
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Built end-to-end ML and computer-vision systems for manufacturing at scale, integrating camera, sensor and IoT streams into production workflows with C++/Python inference engines on embedded and IoT hardware.
+    \item Shipped automated care-label QC (OpenCV, conveyor with PLC reject, inspection time cut 99.5\%) and loom-side fabric-defect detection (microscopic camera array, operator headcount cut 50\%); operational efficiency improved by up to 300\%.
+    \item Built real-time ingestion and ETL for high-frequency IoT time-series across sites in South Asia, North America and Africa; introduced CI/CD and code review; mentored engineers.
+\end{cvrole}
+
+\enlargethispage{3\baselineskip}
+\section*{Selected Publications \footnotesize {\normalfont{(full list: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Vol.~74, No.~3, Mar.~2026. \textit{(F1 0.76 at 14 ms on Raspberry Pi 4, 74$\times$ faster than baseline)}
+    \item Silva, N. and Turchet, L. \textit{Smart Drums: Comparing Audio and MIDI in Embedded Real-Time Drum Pattern Recognition}. Journal of the Audio Engineering Society, 2026 (in press).
+    \item Silva, N. and Turchet, L. \textit{Music Information Retrieval as a Service: Latency Characterization of an Edge-to-Server Architecture}. IEEE International Symposium on the Internet of Sounds, 2026 (accepted).
+\end{itemize}
+
+\vspace{-0.3em}
+\section*{Highlights \& Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{MIDI Innovation Awards:} Finalist (Sep 2023), Prototypes \& Non-Commercial Software category, for ``Hot Licks'' real-time pattern detection on embedded hardware.
+    \item \textbf{GMOA Recognition (Sri Lanka):} Computer-vision system for COVID-19 patient vitals monitoring deployed across hospital wards; volunteer guitarist for community music programs in Toronto.
+\end{itemize}
+
+\end{document}

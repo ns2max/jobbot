@@ -1,0 +1,147 @@
+- generic [ref=f265e2]:
+  - list [ref=f265e4]:
+    - listitem [ref=f265e5]:
+      - link [ref=f265e6] [cursor=pointer]:
+        - /url: https://cohere.com/
+        - img "Cohere" [ref=f265e7]
+    - listitem [ref=f265e8]:
+      - link "Back to Cohere’s Job Listings" [ref=f265e9] [cursor=pointer]:
+        - /url: /cohere
+    - listitem
+  - generic [ref=f265e12]:
+    - heading "Applied AI Engineer, Agents & Automations" [level=1] [ref=f265e14]
+    - generic [ref=f265e15]:
+      - generic [ref=f265e16]:
+        - generic [ref=f265e17]:
+          - heading "Location" [level=2] [ref=f265e18]
+          - paragraph [ref=f265e19]: Europe; Canada; United States
+        - generic [ref=f265e20]:
+          - heading "Employment Type" [level=2] [ref=f265e21]
+          - paragraph [ref=f265e22]: Full time
+        - generic [ref=f265e23]:
+          - heading "Location Type" [level=2] [ref=f265e24]
+          - paragraph [ref=f265e25]: Remote
+        - generic [ref=f265e26]:
+          - heading "Department" [level=2] [ref=f265e27]
+          - paragraph [ref=f265e28]:
+            - generic [ref=f265e29]: Product
+      - generic [ref=f265e30]:
+        - tablist [ref=f265e31]:
+          - tab "Overview" [selected] [ref=f265e32] [cursor=pointer]
+          - tab "Application" [ref=f265e33] [cursor=pointer]
+        - tabpanel "Overview" [ref=f265e35]:
+          - generic [ref=f265e36]:
+            - paragraph [ref=f265e37]:
+              - strong [ref=f265e38]: Who are we?
+            - paragraph [ref=f265e39]: Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems.
+            - paragraph [ref=f265e40]: We’re training and deploying frontier models for enterprises who are building AI systems. We believe that our work is instrumental to the widespread adoption of AI and we are looking for folks that want to be part of that.
+            - paragraph [ref=f265e41]: We obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. Cohere is a team of researchers, engineers, designers, and more, who are all passionate about their craft.
+            - paragraph [ref=f265e42]: We are a global technology company headquartered in Toronto with key offices in London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul. Join us!
+            - heading "Why this role?" [level=2] [ref=f265e43]
+            - paragraph [ref=f265e44]: North is Cohere's cutting-edge AI workspace platform, designed to revolutionize the way enterprises utilize AI. It offers a secure and customizable environment, allowing companies to deploy AI while maintaining control over sensitive data. North integrates seamlessly with existing workflows, providing a trusted platform that connects AI agents with workplace tools and applications.
+            - paragraph [ref=f265e45]: Some of our most important work is making the agents and AI-powered experiences inside North genuinely useful in the workflows customers rely on every day. These systems become valuable when users can build with them, steer them, inspect their work, recover from errors, and trust them to complete messy tasks inside real enterprise environments.
+            - paragraph [ref=f265e46]: "This role is about making those AI experiences reliable, useful, and production-ready. You’ll work with product engineering, modelling and design to turn model capability into reliable, user-facing systems: agent builders, eval frameworks, proactive intelligence, and new interfaces for collaborating with AI. Sometimes that means shipping a new product surface, sometimes a better eval or feedback loop, sometimes prompt and context experiments, and sometimes redesigning the workflow so the model is being asked to do the right thing."
+            - heading "As an Applied AI Engineer, Agents & Automations, you will:" [level=2] [ref=f265e47]
+            - list [ref=f265e48]:
+              - listitem [ref=f265e49]:
+                - paragraph [ref=f265e50]: Build AI-powered product experiences that help users create, configure, evaluate, and improve workflows across North.
+              - listitem [ref=f265e51]:
+                - paragraph [ref=f265e52]: Design and ship new interfaces for interacting with models, including workflow builders, proactive assistants, review flows, and other human-AI collaboration patterns.
+              - listitem [ref=f265e53]:
+                - paragraph [ref=f265e54]: Build eval, observability, and feedback systems that measure whether AI experiences succeed in real enterprise workflows.
+              - listitem [ref=f265e55]:
+                - paragraph [ref=f265e56]: Improve AI reliability through product design, prompting, context construction, tool-use strategies, instrumentation, and feedback loops.
+              - listitem [ref=f265e57]:
+                - paragraph [ref=f265e58]: Turn production failures, user feedback, and real-task data into better product behavior, stronger eval suites, regression tests, and signals for modelling.
+              - listitem [ref=f265e59]:
+                - paragraph [ref=f265e60]: Work closely with modelling, product, design, customer teams, and domain experts to define what “good” means for specific workflows and ship measurable improvements.
+              - listitem [ref=f265e61]:
+                - paragraph [ref=f265e62]: Help decide when a workflow needs a more constrained product experience, a better model interface, a stronger eval, or a deeper modelling investment.
+            - paragraph [ref=f265e63]: Example problems you might work on include helping users build AI automations from natural language, creating evals for multi-step agent workflows, adding proactive intelligence inside the product, or creating interfaces that make agent behavior easier to inspect, steer, and trust.
+            - heading "You may be a good fit if:" [level=2] [ref=f265e64]
+            - list [ref=f265e65]:
+              - listitem [ref=f265e66]:
+                - paragraph [ref=f265e67]: You have shipped LLM-powered, agent-powered, or AI-assisted product experiences into production, and improved them based on real-world feedback.
+              - listitem [ref=f265e68]:
+                - paragraph [ref=f265e69]: You are a strong software engineer who enjoys working across backend systems, user-facing product, data, evals, and model behavior.
+              - listitem [ref=f265e70]:
+                - paragraph [ref=f265e71]: You think in terms of user outcomes and system behavior, not just model metrics.
+              - listitem [ref=f265e72]:
+                - paragraph [ref=f265e73]: You have strong product taste and care about how the interface, workflow, and model work together to help users succeed.
+              - listitem [ref=f265e74]:
+                - paragraph [ref=f265e75]: You enjoy debugging messy real-world failures and turning what you learn from production, user testing, and evals into durable improvements.
+              - listitem [ref=f265e76]:
+                - paragraph [ref=f265e77]: You enjoy owning ambiguous problems end-to-end and working across system boundaries to ship something genuinely useful.
+            - paragraph [ref=f265e78]:
+              - strong [ref=f265e79]: "Compensation:"
+            - list [ref=f265e80]:
+              - listitem [ref=f265e81]:
+                - paragraph [ref=f265e82]: "For candidates based in California, New York and Washington States, the compensation range is: $180,000 – $260,000"
+              - listitem [ref=f265e83]:
+                - paragraph [ref=f265e84]: "For candidates based elsewhere in the US, the compensation range is: $150,000 - $220,000"
+              - listitem [ref=f265e85]:
+                - paragraph [ref=f265e86]: "For candidates based in Canada, the compensation range is: $215,000 – $310,000"
+            - paragraph [ref=f265e87]
+            - heading [level=2] [ref=f265e88]:
+              - strong [ref=f265e89]: "Full-Time Employees at Cohere enjoy these Perks:"
+            - list [ref=f265e90]:
+              - listitem [ref=f265e91]:
+                - paragraph [ref=f265e92]: A weekly lunch stipend of $75/£75 or equivalent in your local currency for lunch.
+              - listitem [ref=f265e93]:
+                - paragraph [ref=f265e94]: Full health and dental benefits, including a separate budget for mental health.
+              - listitem [ref=f265e95]:
+                - paragraph [ref=f265e96]: RRSP matching, 401K, Pension Scheme.
+              - listitem [ref=f265e97]:
+                - paragraph [ref=f265e98]: 100% Parental Leave top-up for up to 6 months, for either parent.
+              - listitem [ref=f265e99]:
+                - paragraph [ref=f265e100]: "Annual enrichment benefits:"
+                - paragraph [ref=f265e101]: Arts & culture, fitness/wellness, quality time, and a workspace improvement credit.
+                - paragraph [ref=f265e102]: Education & learning stipend for conferences, courses, and coaching.
+            - list [ref=f265e103]:
+              - listitem [ref=f265e104]:
+                - paragraph [ref=f265e105]: 6 weeks of paid vacation (30 working days!)
+              - listitem [ref=f265e106]:
+                - paragraph [ref=f265e107]: Budget for traveling to other offices if you are remote, plus an annual company offsite.
+            - paragraph [ref=f265e108]
+            - heading [level=2] [ref=f265e109]:
+              - strong [ref=f265e110]: "How and Where We Work:"
+            - list [ref=f265e111]:
+              - listitem [ref=f265e112]:
+                - paragraph [ref=f265e113]: Cohere is remote-friendly, but we also have offices in Toronto, London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul with more opening soon.
+              - listitem [ref=f265e114]:
+                - paragraph [ref=f265e115]: "For those in the office: a daily lunch program, plenty of snacks, and regular community and social events."
+              - listitem [ref=f265e116]:
+                - paragraph [ref=f265e117]: "For those not near an office: a co-working benefit so you can work alongside others in your city."
+              - listitem [ref=f265e118]:
+                - paragraph [ref=f265e119]: Everyone receives a $500 home office stipend to set up your workspace properly.
+                - paragraph [ref=f265e120]
+            - paragraph [ref=f265e121]: If any of the above doesn’t line up exactly with your experience, we still encourage you to apply.
+            - paragraph [ref=f265e122]:
+              - text: We strive to create an inclusive work environment for all; we welcome applicants from all backgrounds and are committed to providing equal opportunities. Should you require any accommodations during the recruitment process, please submit an
+              - link "Accommodations Request Form" [ref=f265e123] [cursor=pointer]:
+                - /url: https://docs.google.com/forms/d/12a6IrLdF3kI2nonKSr4tiFuz18rLQbaeYV-JM9L4o9Q/edit
+              - text: ", and we will work together to meet your needs."
+            - paragraph [ref=f265e124]
+            - paragraph [ref=f265e125]: We may use AI-enabled tools to screen and assess applicants against the criteria for this position. This helps our recruiters identify potentially qualified candidates, but it doesn't limit the applications our recruiters may review or consider.
+            - paragraph [ref=f265e126]
+            - paragraph [ref=f265e127]:
+              - emphasis [ref=f265e128]: "Beware of Scams: Cohere will never ask for payment or third-party services (e.g., CV writing) as part of our hiring process. All legitimate roles are listed on the Cohere careers page and LinkedIn only, with all communications from Cohere employees coming from an @cohere.com or @cw.cohere email alias. If jobs are viewed on other sites then please verify these through our"
+              - link [ref=f265e129] [cursor=pointer]:
+                - /url: https://cohere.com/careers
+                - emphasis [ref=f265e130]: official careers
+              - emphasis [ref=f265e131]: page.
+          - link [ref=f265e132] [cursor=pointer]:
+            - /url: /cohere/3fe03041-347a-479f-8361-6b1f5f81338e/application
+            - button "Apply for this Job" [ref=f265e133]
+  - contentinfo [ref=f265e134]:
+    - link "Learn more about Ashby" [ref=f265e135] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f265e136]: Powered by
+      - img "Ashby" [ref=f265e137]
+    - paragraph [ref=f265e143]:
+      - link "Privacy Policy" [ref=f265e144] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f265e145] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f265e146] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

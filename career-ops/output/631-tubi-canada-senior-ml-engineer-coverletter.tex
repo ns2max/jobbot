@@ -1,0 +1,69 @@
+% Job posting: https://job-boards.greenhouse.io/tubi-canada/jobs/8010441?gh_src=kfdhjm4c1us
+% =====================================================================
+%  COVER LETTER — Nishal Stanislaus Silva, PhD
+%  Variant: V1 (AI-Industry) — same tagline as the CV.
+%  Changelog: one page, 4 paragraphs. Hook = end-to-end ML pipeline shape + MUSMET.
+%  Evidence = MAS distributed ETL/optimization; 4x pipeline ownership across domains.
+%  Honest recommender-systems gap stated. F1 0.76, no patent mention.
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied ML}
+\newcommand{\clRole}{Senior Machine Learning Engineer}
+\newcommand{\clCompany}{Tubi}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{} (Fox Corporation)}
+
+Dear Hiring Team,
+
+Your posting describes building and deploying ML pipelines end to end: data extraction, feature development, training, testing, deployment and monitoring against business goals. That is the exact pipeline shape I have owned repeatedly, most recently on the EU-funded MUSMET project at the University of Trento, where I built a full ML pipeline for streaming multi-dimensional data, acquisition through deployment with monitoring, shipping real-time inference at 14 ms and F1 0.76, 74$\times$ faster than the baseline (JAES 2026).
+
+Before the PhD I led ML and computer-vision system development at MAS Holdings, building real-time ingestion and ETL pipelines across geographically distributed manufacturing sites and optimizing algorithmic components for reliability at scale, the same distributed discipline a recommendation platform needs across regions and audiences. I have owned the ingest--feature--train--deploy--monitor architecture four separate times, across four data domains, each with a shipped, measured result.
+
+I want to be direct about one gap: I have not shipped a production recommender system. The algorithm-family specifics, collaborative filtering, ranking losses, embeddings-based retrieval, are the part I would expect to ramp on quickly; the infrastructure and production discipline are not new to me, and my research is squarely in sequential-data modelling and evaluation. Tubi's scale and its free, ad-supported model make the recommendation and ranking problem unusually interesting, and I would expect to contribute on pipeline reliability and offline/online evaluation early.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, and available immediately. I would welcome the chance to discuss how this experience maps onto Tubi's recommendation systems work. My portfolio and publications are at \href{https://nishal.xyz}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

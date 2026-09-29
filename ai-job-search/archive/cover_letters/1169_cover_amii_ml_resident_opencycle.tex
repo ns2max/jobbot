@@ -1,0 +1,71 @@
+% Job posting: https://ca.linkedin.com/jobs/view/machine-learning-resident-%E2%80%93-client-opencycle-12-month-term-at-amii-alberta-machine-intelligence-institute-4457043959
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: Amii - Machine Learning Resident, Client: OpenCycle (12 Month Term)
+%  Variant: V3 (Edge / Embedded). Posting overrides the 4-paragraph template:
+%  must state fit for Amii itself and include one proudest accomplishment + why.
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.03}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{ML Research Engineer | Real-Time \& Edge Inference | Audio, Sensor \& Time-Series}
+\newcommand{\clRole}{Machine Learning Resident, Client: OpenCycle (12 month term)}
+\newcommand{\clCompany}{Amii}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{}, \clCompany{}}
+
+\clAddressee
+
+I am applying for the Machine Learning Resident position with Amii and client OpenCycle. I am an ML research engineer specializing in real-time and edge inference on audio and sensor data, with a PhD from the University of Trento and 10+ years across industry and academia. Your central question, how much acoustic capability survives compression to a battery-powered node with microcontroller-class compute and a radio link of a few tens of bytes, is the one my published work answers in a different domain: my real-time detector runs inference in 14 ms on a Raspberry Pi 4 at 31.4\% CPU, F1 0.76, 74 times faster than the 1038 ms DTW baseline it replaced (JAES 2026).
+
+I have a working position on three of your four open problems. I own the full streaming-audio pipeline end to end in TensorFlow and PyTorch, from DSP feature front-ends (log-Mel, MFCC, per-channel normalization) through training and evaluation under domain shift to on-device deployment with stage-by-stage verification. Your suspicion that channel and device invariance is rooted in the label ontology matches what I ran into: I defined the label taxonomy and curated the annotations for four open musical-pattern datasets, 9,800+ recordings from 70+ musicians, built as worst-case benchmarks. Accumulating repeated observations of one source over time is the part I have actually built: at McGill I fused inertial and audio observations of the same event through a hierarchical state machine, F1 0.78 on a 500-event corpus. Open-set metric learning, PCEN front-ends, the named backbones (PANNs, AST, BEATs, CLAP), and far-field acoustics with its IEC 61672 chain are what I would be learning on the job, the way I learned apparel manufacturing and financial forensics before modelling either.
+
+The accomplishment I am most proud of is that JAES 2026 system, and the reason is specific: it is at once a peer-reviewed research result, a system that runs on the device rather than in a slide, and an answer to a question I care about, which is how much you can strip away before a model stops working. Most audio ML assumes the compute is free; I spent four years proving with benchmarks and ablations that it does not have to be, and that the accuracy cost was measurable and small. That is the same bet OpenCycle is making on an outdoor node, and the problem I would most like to spend the next year on.
+
+Amii is one of Canada's three national AI institutes, alongside Mila and Vector, and the residency structure is the draw: a resident reporting to an Amii Scientist inside a client's real problem on a cross-functional team, not in a research silo. That is where I do my best work. I spent five and a half years at MAS Holdings building computer-vision systems that line supervisors, not ML engineers, had to trust before they ran on the factory floor. OpenCycle raises that bar: a compliance record that has to be regulator accepted, built on millions of validated data points and a thousand-plus cumulative monitoring days, means a model's output has to survive an audit, not just a test split. Thirty years of acoustics consulting as Patching Associates is why the labels exist at all, and labels are the scarce ingredient in every one of the four open problems.
+
+I am a Canadian permanent resident, eligible to work without sponsorship, available immediately, and open to relocating to Alberta for this role. I would welcome the chance to discuss how my work on real-time and edge audio ML can support this project. My publications, datasets and portfolio are at \href{\clSite}{nishal.xyz}.
+
+\vspace{10pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

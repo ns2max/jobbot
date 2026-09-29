@@ -1,0 +1,17 @@
+No tracker line, no PDF — dead job, nothing to track by rules (no fabricated data policy).
+
+```json
+{
+  "status": "failed",
+  "id": "29",
+  "report_num": "884",
+  "company": "Reddit",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": "reports/884-reddit-2026-08-24.md",
+  "error": "Job posting dead — URL 302-redirects to /reddit?error=true, Greenhouse API returns 404, no cached JD text available"
+}
+```
+
+Job (id 7974605, Reddit) resuelto: posting muerto, no evaluable. JD file vacío, API 404, redirect a error page — confirmado triple. Report 884 documenta hallazgo, sin score/PDF/tracker (regla: no fabricar datos).

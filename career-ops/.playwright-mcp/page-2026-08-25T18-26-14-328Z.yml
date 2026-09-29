@@ -1,0 +1,688 @@
+- generic [ref=f646e2]:
+  - generic [ref=f646e5]:
+    - link [ref=f646e7] [cursor=pointer]:
+      - /url: https://www.edtech.com
+      - strong [ref=f646e9]: edtech.com
+    - button "Open menu" [ref=f646e11] [cursor=pointer]
+  - alert [ref=f646e16]: The job you're looking for is no longer active. Check out similar jobs below.
+  - generic [ref=f646e17]:
+    - generic [ref=f646e18]:
+      - heading "Overview" [level=2] [ref=f646e19]
+      - generic [ref=f646e21]:
+        - heading "Instructional Design Jobs" [level=1] [ref=f646e27]
+        - generic [ref=f646e30]:
+          - paragraph [ref=f646e31]:
+            - text: Instructional Designers use skills from educational theory, psychology, and technology to create courses that meet learning objectives. There's a few education publishers like
+            - link "IXL Learning" [ref=f646e32] [cursor=pointer]:
+              - /url: /companies/ixl-learning
+            - text: and
+            - link "McGraw Hill" [ref=f646e33] [cursor=pointer]:
+              - /url: /companies/mcgraw-hill
+            - text: that routinely have openings for instructional design roles. But, this category mostly has jobs from large companies that need help training their employees. You'll also find a lot of jobs closely related to instructional design here too -
+          - list [ref=f646e34]:
+            - listitem [ref=f646e35]:
+              - paragraph [ref=f646e36]: Curriculum Designers
+            - listitem [ref=f646e37]:
+              - paragraph [ref=f646e38]: Content Developers
+            - listitem [ref=f646e39]:
+              - paragraph [ref=f646e40]: Learning Designers
+            - listitem [ref=f646e41]:
+              - paragraph [ref=f646e42]: e-Learning Specialists
+          - paragraph [ref=f646e43]:
+            - text: Experienced Instructional Designers are also a great fit for
+            - link "learning and development jobs" [ref=f646e44] [cursor=pointer]:
+              - /url: https://www.edtech.com/jobs/learning-development-jobs
+            - text: too.
+      - generic [ref=f646e45]:
+        - generic [ref=f646e46]: "Last Updated: August 25th, 2026"
+        - generic [ref=f646e47]: "Active Jobs: 463"
+        - generic [ref=f646e48]: "Average Salary: $94,806"
+    - generic [ref=f646e53]:
+      - generic [ref=f646e56]:
+        - list [ref=f646e58]:
+          - listitem [ref=f646e59]: Date Posted
+        - img [ref=f646e60] [cursor=pointer]
+      - generic [ref=f646e64]:
+        - list [ref=f646e66]:
+          - listitem [ref=f646e67]: Employer
+        - img [ref=f646e68] [cursor=pointer]
+  - generic [ref=f646e70]:
+    - 'link "iSpring Solutions logo iSpring Learning Exchange: The L&D community that grows your career. Learn More" [ref=f646e71] [cursor=pointer]':
+      - /url: https://www.linkedin.com/groups/12786108/
+      - img "iSpring Solutions logo" [ref=f646e73]
+      - generic [ref=f646e74]:
+        - 'heading "iSpring Learning Exchange: The L&D community that grows your career." [level=2] [ref=f646e75]'
+        - paragraph
+      - generic [ref=f646e76]: Learn More
+    - generic [ref=f646e78]:
+      - link "West Kentucky Community and Technical College logo Instructional Designer West Kentucky Community and Technical College 🇺🇸 Kentucky 💰 $48K" [ref=f646e79] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-designer-93954
+        - img "West Kentucky Community and Technical College logo" [ref=f646e81]
+        - generic [ref=f646e82]:
+          - heading "Instructional Designer" [level=2] [ref=f646e83]
+          - paragraph [ref=f646e84]: West Kentucky Community and Technical College
+          - generic [ref=f646e86]:
+            - generic [ref=f646e87]:
+              - strong [ref=f646e88]: 🇺🇸
+              - generic [ref=f646e89]: Kentucky
+            - generic [ref=f646e90]:
+              - strong [ref=f646e91]: 💰
+              - generic [ref=f646e92]: $48K
+      - link "University of Florida logo Education/Training Spec II - Dean's Office (Medical Education Research) University of Florida 🇺🇸 Florida 💰 $53K - $75K" [ref=f646e93] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/educationtraining-spec-ii-deans-office-medical-education-research-87571
+        - img "University of Florida logo" [ref=f646e95]
+        - generic [ref=f646e96]:
+          - heading "Education/Training Spec II - Dean's Office (Medical Education Research)" [level=2] [ref=f646e97]
+          - paragraph [ref=f646e98]: University of Florida
+          - generic [ref=f646e100]:
+            - generic [ref=f646e101]:
+              - strong [ref=f646e102]: 🇺🇸
+              - generic [ref=f646e103]: Florida
+            - generic [ref=f646e104]:
+              - strong [ref=f646e105]: 💰
+              - generic [ref=f646e106]: $53K - $75K
+      - link "University of Florida logo Education/Training Spec II - Center for Online Innovation & Production University of Florida 🇺🇸 Florida 💰 $55K - $65K" [ref=f646e107] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/educationtraining-spec-ii-center-for-online-innovation-production-38023
+        - img "University of Florida logo" [ref=f646e109]
+        - generic [ref=f646e110]:
+          - heading "Education/Training Spec II - Center for Online Innovation & Production" [level=2] [ref=f646e111]
+          - paragraph [ref=f646e112]: University of Florida
+          - generic [ref=f646e114]:
+            - generic [ref=f646e115]:
+              - strong [ref=f646e116]: 🇺🇸
+              - generic [ref=f646e117]: Florida
+            - generic [ref=f646e118]:
+              - strong [ref=f646e119]: 💰
+              - generic [ref=f646e120]: $55K - $65K
+      - link "University of Florida logo Academic Program Specialist I - Medical Education University of Florida 🇺🇸 Florida 💰 $46K - $52K" [ref=f646e121] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/academic-program-specialist-i-medical-education-28760
+        - img "University of Florida logo" [ref=f646e123]
+        - generic [ref=f646e124]:
+          - heading "Academic Program Specialist I - Medical Education" [level=2] [ref=f646e125]
+          - paragraph [ref=f646e126]: University of Florida
+          - generic [ref=f646e128]:
+            - generic [ref=f646e129]:
+              - strong [ref=f646e130]: 🇺🇸
+              - generic [ref=f646e131]: Florida
+            - generic [ref=f646e132]:
+              - strong [ref=f646e133]: 💰
+              - generic [ref=f646e134]: $46K - $52K
+      - link "University of Pittsburgh logo Online Instructional Designer University of Pittsburgh 🇺🇸 Remote - US" [ref=f646e135] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/online-instructional-designer-41781
+        - img "University of Pittsburgh logo" [ref=f646e137]
+        - generic [ref=f646e138]:
+          - heading "Online Instructional Designer" [level=2] [ref=f646e139]
+          - paragraph [ref=f646e140]: University of Pittsburgh
+          - generic [ref=f646e143]:
+            - strong [ref=f646e144]: 🇺🇸
+            - generic [ref=f646e145]: Remote - US
+      - link "University of Alabama logo Instructional Designer IV – Dept Only Search – 530314 University of Alabama 🇺🇸 Alabama 💰 $62K" [ref=f646e146] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-designer-iv-dept-only-search-530314-80121
+        - img "University of Alabama logo" [ref=f646e148]
+        - generic [ref=f646e149]:
+          - heading "Instructional Designer IV – Dept Only Search – 530314" [level=2] [ref=f646e150]
+          - paragraph [ref=f646e151]: University of Alabama
+          - generic [ref=f646e153]:
+            - generic [ref=f646e154]:
+              - strong [ref=f646e155]: 🇺🇸
+              - generic [ref=f646e156]: Alabama
+            - generic [ref=f646e157]:
+              - strong [ref=f646e158]: 💰
+              - generic [ref=f646e159]: $62K
+      - link "University of Alabama logo Instructional Designer II – Dept Only Search – 530322 University of Alabama 🇺🇸 Alabama 💰 $54K" [ref=f646e160] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-designer-ii-dept-only-search-530322-60886
+        - img "University of Alabama logo" [ref=f646e162]
+        - generic [ref=f646e163]:
+          - heading "Instructional Designer II – Dept Only Search – 530322" [level=2] [ref=f646e164]
+          - paragraph [ref=f646e165]: University of Alabama
+          - generic [ref=f646e167]:
+            - generic [ref=f646e168]:
+              - strong [ref=f646e169]: 🇺🇸
+              - generic [ref=f646e170]: Alabama
+            - generic [ref=f646e171]:
+              - strong [ref=f646e172]: 💰
+              - generic [ref=f646e173]: $54K
+      - link "University of Alabama logo Instructional Designer I – 530291 University of Alabama 🇺🇸 Alabama 💰 $49K" [ref=f646e174] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-designer-i-530291-66825
+        - img "University of Alabama logo" [ref=f646e176]
+        - generic [ref=f646e177]:
+          - heading "Instructional Designer I – 530291" [level=2] [ref=f646e178]
+          - paragraph [ref=f646e179]: University of Alabama
+          - generic [ref=f646e181]:
+            - generic [ref=f646e182]:
+              - strong [ref=f646e183]: 🇺🇸
+              - generic [ref=f646e184]: Alabama
+            - generic [ref=f646e185]:
+              - strong [ref=f646e186]: 💰
+              - generic [ref=f646e187]: $49K
+      - link "KIPP Miami Public Schools logo 26-27 High School Special Education Teacher (ESE/Learning Specialist) KIPP Miami Public Schools 🇺🇸 Florida 💰 $55K" [ref=f646e188] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/26-27-high-school-special-education-teacher-eselearning-specialist-54332
+        - img "KIPP Miami Public Schools logo" [ref=f646e190]
+        - generic [ref=f646e191]:
+          - heading "26-27 High School Special Education Teacher (ESE/Learning Specialist)" [level=2] [ref=f646e192]
+          - paragraph [ref=f646e193]: KIPP Miami Public Schools
+          - generic [ref=f646e195]:
+            - generic [ref=f646e196]:
+              - strong [ref=f646e197]: 🇺🇸
+              - generic [ref=f646e198]: Florida
+            - generic [ref=f646e199]:
+              - strong [ref=f646e200]: 💰
+              - generic [ref=f646e201]: $55K
+      - link "Quizlet logo Head of Learning Experience Quizlet 🇺🇸 Hybrid - California" [ref=f646e202] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/head-of-learning-experience-90923
+        - img "Quizlet logo" [ref=f646e204]
+        - generic [ref=f646e205]:
+          - heading "Head of Learning Experience" [level=2] [ref=f646e206]
+          - paragraph [ref=f646e207]: Quizlet
+          - generic [ref=f646e210]:
+            - strong [ref=f646e211]: 🇺🇸
+            - generic [ref=f646e212]: Hybrid - California
+      - generic [ref=f646e214]:
+        - button "×" [ref=f646e215] [cursor=pointer]
+        - generic [ref=f646e216]:
+          - heading "Let me find your next job." [level=2] [ref=f646e217]
+          - paragraph [ref=f646e218]: Get every instructional design job (with 💰), twice per week.
+        - generic [ref=f646e221]:
+          - textbox "Enter your email" [ref=f646e222]
+          - button [ref=f646e223] [cursor=pointer]
+      - link "Ello logo AI Learning Designer (Math) Ello 🇺🇸 Hybrid - California" [ref=f646e226] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/ai-learning-designer-math-71140
+        - img "Ello logo" [ref=f646e228]
+        - generic [ref=f646e229]:
+          - heading "AI Learning Designer (Math)" [level=2] [ref=f646e230]
+          - paragraph [ref=f646e231]: Ello
+          - generic [ref=f646e234]:
+            - strong [ref=f646e235]: 🇺🇸
+            - generic [ref=f646e236]: Hybrid - California
+      - link "ECPI University logo Instructional Development Manager ECPI University 🇺🇸 Hybrid - Colorado 💰 $80K - $95K" [ref=f646e237] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-development-manager-23271
+        - img "ECPI University logo" [ref=f646e239]
+        - generic [ref=f646e240]:
+          - heading "Instructional Development Manager" [level=2] [ref=f646e241]
+          - paragraph [ref=f646e242]: ECPI University
+          - generic [ref=f646e244]:
+            - generic [ref=f646e245]:
+              - strong [ref=f646e246]: 🇺🇸
+              - generic [ref=f646e247]: Hybrid - Colorado
+            - generic [ref=f646e248]:
+              - strong [ref=f646e249]: 💰
+              - generic [ref=f646e250]: $80K - $95K
+      - link "Everway logo Professional Learning Specialist Everway 🇺🇸 Remote - US" [ref=f646e251] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/professional-learning-specialist-26442
+        - img "Everway logo" [ref=f646e253]
+        - generic [ref=f646e254]:
+          - heading "Professional Learning Specialist" [level=2] [ref=f646e255]
+          - paragraph [ref=f646e256]: Everway
+          - generic [ref=f646e259]:
+            - strong [ref=f646e260]: 🇺🇸
+            - generic [ref=f646e261]: Remote - US
+      - link "Veeva System logo Technical Curriculum Developer - AI Agents Veeva System 🇺🇸 Remote - US 💰 $100K - $175K" [ref=f646e262] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/technical-curriculum-developer-ai-agents-70868
+        - img "Veeva System logo" [ref=f646e264]
+        - generic [ref=f646e265]:
+          - heading "Technical Curriculum Developer - AI Agents" [level=2] [ref=f646e266]
+          - paragraph [ref=f646e267]: Veeva System
+          - generic [ref=f646e269]:
+            - generic [ref=f646e270]:
+              - strong [ref=f646e271]: 🇺🇸
+              - generic [ref=f646e272]: Remote - US
+            - generic [ref=f646e273]:
+              - strong [ref=f646e274]: 💰
+              - generic [ref=f646e275]: $100K - $175K
+      - link "Inovalon logo Instructional Designer Inovalon 🇺🇸 Remote - US 💰 $65K - $75K" [ref=f646e276] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-designer-14917
+        - img "Inovalon logo" [ref=f646e278]
+        - generic [ref=f646e279]:
+          - heading "Instructional Designer" [level=2] [ref=f646e280]
+          - paragraph [ref=f646e281]: Inovalon
+          - generic [ref=f646e283]:
+            - generic [ref=f646e284]:
+              - strong [ref=f646e285]: 🇺🇸
+              - generic [ref=f646e286]: Remote - US
+            - generic [ref=f646e287]:
+              - strong [ref=f646e288]: 💰
+              - generic [ref=f646e289]: $65K - $75K
+      - link "Virginia Tech logo Instructional Design Associate and Trainer Virginia Tech 🇺🇸 Virginia 💰 $65K - $70K" [ref=f646e290] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-design-associate-and-trainer-64704
+        - img "Virginia Tech logo" [ref=f646e292]
+        - generic [ref=f646e293]:
+          - heading "Instructional Design Associate and Trainer" [level=2] [ref=f646e294]
+          - paragraph [ref=f646e295]: Virginia Tech
+          - generic [ref=f646e297]:
+            - generic [ref=f646e298]:
+              - strong [ref=f646e299]: 🇺🇸
+              - generic [ref=f646e300]: Virginia
+            - generic [ref=f646e301]:
+              - strong [ref=f646e302]: 💰
+              - generic [ref=f646e303]: $65K - $70K
+      - link "Western Governors University logo Assessment Developer Western Governors University 🇺🇸 Utah 💰 $67K - $100K" [ref=f646e304] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/assessment-developer-49047
+        - img "Western Governors University logo" [ref=f646e306]
+        - generic [ref=f646e307]:
+          - heading "Assessment Developer" [level=2] [ref=f646e308]
+          - paragraph [ref=f646e309]: Western Governors University
+          - generic [ref=f646e311]:
+            - generic [ref=f646e312]:
+              - strong [ref=f646e313]: 🇺🇸
+              - generic [ref=f646e314]: Utah
+            - generic [ref=f646e315]:
+              - strong [ref=f646e316]: 💰
+              - generic [ref=f646e317]: $67K - $100K
+      - link "US Anesthesia Partners logo Sr. Instructional Designer US Anesthesia Partners 🇺🇸 Remote - US 💰 $61K - $103K" [ref=f646e318] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/sr-instructional-designer-50446
+        - img "US Anesthesia Partners logo" [ref=f646e320]
+        - generic [ref=f646e321]:
+          - heading "Sr. Instructional Designer" [level=2] [ref=f646e322]
+          - paragraph [ref=f646e323]: US Anesthesia Partners
+          - generic [ref=f646e325]:
+            - generic [ref=f646e326]:
+              - strong [ref=f646e327]: 🇺🇸
+              - generic [ref=f646e328]: Remote - US
+            - generic [ref=f646e329]:
+              - strong [ref=f646e330]: 💰
+              - generic [ref=f646e331]: $61K - $103K
+      - link "All Native Group logo Curriculum Developer I All Native Group 🇺🇸 Florida" [ref=f646e332] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/curriculum-developer-i-79564
+        - img "All Native Group logo" [ref=f646e334]
+        - generic [ref=f646e335]:
+          - heading "Curriculum Developer I" [level=2] [ref=f646e336]
+          - paragraph [ref=f646e337]: All Native Group
+          - generic [ref=f646e340]:
+            - strong [ref=f646e341]: 🇺🇸
+            - generic [ref=f646e342]: Florida
+      - link "All Native Group logo Curriculum Developer II All Native Group 🇺🇸 Florida" [ref=f646e343] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/curriculum-developer-ii-76849
+        - img "All Native Group logo" [ref=f646e345]
+        - generic [ref=f646e346]:
+          - heading "Curriculum Developer II" [level=2] [ref=f646e347]
+          - paragraph [ref=f646e348]: All Native Group
+          - generic [ref=f646e351]:
+            - strong [ref=f646e352]: 🇺🇸
+            - generic [ref=f646e353]: Florida
+      - generic [ref=f646e355]:
+        - button "×" [ref=f646e356] [cursor=pointer]
+        - generic [ref=f646e357]:
+          - heading "Let me find your next job." [level=2] [ref=f646e358]
+          - paragraph [ref=f646e359]: Get every instructional design job (with 💰), twice per week.
+        - generic [ref=f646e362]:
+          - textbox "Enter your email" [ref=f646e363]
+          - button [ref=f646e364] [cursor=pointer]
+      - link "All Native Group logo Instructional Systems Designer All Native Group 🇺🇸 Virginia 💰 $95K - $102K" [ref=f646e367] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-systems-designer-37104
+        - img "All Native Group logo" [ref=f646e369]
+        - generic [ref=f646e370]:
+          - heading "Instructional Systems Designer" [level=2] [ref=f646e371]
+          - paragraph [ref=f646e372]: All Native Group
+          - generic [ref=f646e374]:
+            - generic [ref=f646e375]:
+              - strong [ref=f646e376]: 🇺🇸
+              - generic [ref=f646e377]: Virginia
+            - generic [ref=f646e378]:
+              - strong [ref=f646e379]: 💰
+              - generic [ref=f646e380]: $95K - $102K
+      - link "All Native Group logo Instructional Systems Designer III All Native Group 🇺🇸 Florida" [ref=f646e381] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-systems-designer-iii-53151
+        - img "All Native Group logo" [ref=f646e383]
+        - generic [ref=f646e384]:
+          - heading "Instructional Systems Designer III" [level=2] [ref=f646e385]
+          - paragraph [ref=f646e386]: All Native Group
+          - generic [ref=f646e389]:
+            - strong [ref=f646e390]: 🇺🇸
+            - generic [ref=f646e391]: Florida
+      - link "By Light Professional IT Services logo Instructional Systems Designer II By Light Professional IT Services 🇺🇸 Florida" [ref=f646e392] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-systems-designer-ii-67836
+        - img "By Light Professional IT Services logo" [ref=f646e394]
+        - generic [ref=f646e395]:
+          - heading "Instructional Systems Designer II" [level=2] [ref=f646e396]
+          - paragraph [ref=f646e397]: By Light Professional IT Services
+          - generic [ref=f646e400]:
+            - strong [ref=f646e401]: 🇺🇸
+            - generic [ref=f646e402]: Florida
+      - link "MGT logo K-5 Math Curriculum Writer MGT 🇺🇸 Remote - US" [ref=f646e403] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/k-5-math-curriculum-writer-44304
+        - img "MGT logo" [ref=f646e405]
+        - generic [ref=f646e406]:
+          - heading "K-5 Math Curriculum Writer" [level=2] [ref=f646e407]
+          - paragraph [ref=f646e408]: MGT
+          - generic [ref=f646e411]:
+            - strong [ref=f646e412]: 🇺🇸
+            - generic [ref=f646e413]: Remote - US
+      - link "Touro University logo Assessment Specialist Touro University 🇺🇸 Nevada" [ref=f646e414] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/assessment-specialist-33838
+        - img "Touro University logo" [ref=f646e416]
+        - generic [ref=f646e417]:
+          - heading "Assessment Specialist" [level=2] [ref=f646e418]
+          - paragraph [ref=f646e419]: Touro University
+          - generic [ref=f646e422]:
+            - strong [ref=f646e423]: 🇺🇸
+            - generic [ref=f646e424]: Nevada
+      - link "Touro University logo Instructional Designer Touro University 🇺🇸 New York 💰 $70K - $87K" [ref=f646e425] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-designer-94626
+        - img "Touro University logo" [ref=f646e427]
+        - generic [ref=f646e428]:
+          - heading "Instructional Designer" [level=2] [ref=f646e429]
+          - paragraph [ref=f646e430]: Touro University
+          - generic [ref=f646e432]:
+            - generic [ref=f646e433]:
+              - strong [ref=f646e434]: 🇺🇸
+              - generic [ref=f646e435]: New York
+            - generic [ref=f646e436]:
+              - strong [ref=f646e437]: 💰
+              - generic [ref=f646e438]: $70K - $87K
+      - link "Touro University logo Instructional Designer Touro University 🇺🇸 New York 💰 $70K - $87K" [ref=f646e439] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-designer-23762
+        - img "Touro University logo" [ref=f646e441]
+        - generic [ref=f646e442]:
+          - heading "Instructional Designer" [level=2] [ref=f646e443]
+          - paragraph [ref=f646e444]: Touro University
+          - generic [ref=f646e446]:
+            - generic [ref=f646e447]:
+              - strong [ref=f646e448]: 🇺🇸
+              - generic [ref=f646e449]: New York
+            - generic [ref=f646e450]:
+              - strong [ref=f646e451]: 💰
+              - generic [ref=f646e452]: $70K - $87K
+      - link "Children's Health Council logo Learning Specialist - Fee for Service Children's Health Council 🇺🇸 Hybrid - California 💰 $50 - $70 per Hour" [ref=f646e453] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/learning-specialist-fee-for-service-4130
+        - img "Children's Health Council logo" [ref=f646e455]
+        - generic [ref=f646e456]:
+          - heading "Learning Specialist - Fee for Service" [level=2] [ref=f646e457]
+          - paragraph [ref=f646e458]: Children's Health Council
+          - generic [ref=f646e460]:
+            - generic [ref=f646e461]:
+              - strong [ref=f646e462]: 🇺🇸
+              - generic [ref=f646e463]: Hybrid - California
+            - generic [ref=f646e464]:
+              - strong [ref=f646e465]: 💰
+              - generic [ref=f646e466]: $50 - $70 per Hour
+      - link "Freshworks logo Technical Curriculum Developer Freshworks 🇺🇸 Hybrid - Massachusetts 💰 $110K - $142K" [ref=f646e467] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/technical-curriculum-developer-11837
+        - img "Freshworks logo" [ref=f646e469]
+        - generic [ref=f646e470]:
+          - heading "Technical Curriculum Developer" [level=2] [ref=f646e471]
+          - paragraph [ref=f646e472]: Freshworks
+          - generic [ref=f646e474]:
+            - generic [ref=f646e475]:
+              - strong [ref=f646e476]: 🇺🇸
+              - generic [ref=f646e477]: Hybrid - Massachusetts
+            - generic [ref=f646e478]:
+              - strong [ref=f646e479]: 💰
+              - generic [ref=f646e480]: $110K - $142K
+      - link "MGT logo Lead Curriculum Writer (Curriculum Developer) MGT 🇺🇸 Remote - US" [ref=f646e481] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/lead-curriculum-writer-curriculum-developer-63985
+        - img "MGT logo" [ref=f646e483]
+        - generic [ref=f646e484]:
+          - heading "Lead Curriculum Writer (Curriculum Developer)" [level=2] [ref=f646e485]
+          - paragraph [ref=f646e486]: MGT
+          - generic [ref=f646e489]:
+            - strong [ref=f646e490]: 🇺🇸
+            - generic [ref=f646e491]: Remote - US
+      - generic [ref=f646e493]:
+        - button "×" [ref=f646e494] [cursor=pointer]
+        - generic [ref=f646e495]:
+          - heading "Let me find your next job." [level=2] [ref=f646e496]
+          - paragraph [ref=f646e497]: Get every instructional design job (with 💰), twice per week.
+        - generic [ref=f646e500]:
+          - textbox "Enter your email" [ref=f646e501]
+          - button [ref=f646e502] [cursor=pointer]
+      - link "Allstate logo Instructional Designers – Allstate Claims University Allstate 🇺🇸 Remote - US 💰 $54K - $112K" [ref=f646e505] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-designers-allstate-claims-university-96760
+        - img "Allstate logo" [ref=f646e507]
+        - generic [ref=f646e508]:
+          - heading "Instructional Designers – Allstate Claims University" [level=2] [ref=f646e509]
+          - paragraph [ref=f646e510]: Allstate
+          - generic [ref=f646e512]:
+            - generic [ref=f646e513]:
+              - strong [ref=f646e514]: 🇺🇸
+              - generic [ref=f646e515]: Remote - US
+            - generic [ref=f646e516]:
+              - strong [ref=f646e517]: 💰
+              - generic [ref=f646e518]: $54K - $112K
+      - link "Team Carney, Inc. logo Instructional Design Specialist Team Carney, Inc. 🇺🇸 Hybrid - Virginia" [ref=f646e519] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-design-specialist-55547
+        - img "Team Carney, Inc. logo" [ref=f646e521]
+        - generic [ref=f646e522]:
+          - heading "Instructional Design Specialist" [level=2] [ref=f646e523]
+          - paragraph [ref=f646e524]: Team Carney, Inc.
+          - generic [ref=f646e527]:
+            - strong [ref=f646e528]: 🇺🇸
+            - generic [ref=f646e529]: Hybrid - Virginia
+      - link "Team Carney, Inc. logo Instructional Systems Designer - Homeland Security Team Carney, Inc. 🇺🇸 Hybrid - Oklahoma" [ref=f646e530] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-systems-designer-homeland-security-14909
+        - img "Team Carney, Inc. logo" [ref=f646e532]
+        - generic [ref=f646e533]:
+          - heading "Instructional Systems Designer - Homeland Security" [level=2] [ref=f646e534]
+          - paragraph [ref=f646e535]: Team Carney, Inc.
+          - generic [ref=f646e538]:
+            - strong [ref=f646e539]: 🇺🇸
+            - generic [ref=f646e540]: Hybrid - Oklahoma
+      - link "American Express logo Analyst-Compliance - Instructional Designer – GFCC Training, Policies, and Standards American Express 🇺🇸 Hybrid - Arizona 💰 $66K - $103K" [ref=f646e541] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/analyst-compliance-instructional-designer-gfcc-training-policies-and-standards-22783
+        - img "American Express logo" [ref=f646e543]
+        - generic [ref=f646e544]:
+          - heading "Analyst-Compliance - Instructional Designer – GFCC Training, Policies, and Standards" [level=2] [ref=f646e545]
+          - paragraph [ref=f646e546]: American Express
+          - generic [ref=f646e548]:
+            - generic [ref=f646e549]:
+              - strong [ref=f646e550]: 🇺🇸
+              - generic [ref=f646e551]: Hybrid - Arizona
+            - generic [ref=f646e552]:
+              - strong [ref=f646e553]: 💰
+              - generic [ref=f646e554]: $66K - $103K
+      - link "The Aspen Group logo Senior Manager, Learning Design & Innovation The Aspen Group 🇺🇸 Remote - US 💰 $119K" [ref=f646e555] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/senior-manager-learning-design-innovation-74458
+        - img "The Aspen Group logo" [ref=f646e557]
+        - generic [ref=f646e558]:
+          - heading "Senior Manager, Learning Design & Innovation" [level=2] [ref=f646e559]
+          - paragraph [ref=f646e560]: The Aspen Group
+          - generic [ref=f646e562]:
+            - generic [ref=f646e563]:
+              - strong [ref=f646e564]: 🇺🇸
+              - generic [ref=f646e565]: Remote - US
+            - generic [ref=f646e566]:
+              - strong [ref=f646e567]: 💰
+              - generic [ref=f646e568]: $119K
+      - link "BlueCross BlueShield of Tennessee logo Instructional Design Consultant BlueCross BlueShield of Tennessee 🇺🇸 Remote - US" [ref=f646e569] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-design-consultant-11473
+        - img "BlueCross BlueShield of Tennessee logo" [ref=f646e571]
+        - generic [ref=f646e572]:
+          - heading "Instructional Design Consultant" [level=2] [ref=f646e573]
+          - paragraph [ref=f646e574]: BlueCross BlueShield of Tennessee
+          - generic [ref=f646e577]:
+            - strong [ref=f646e578]: 🇺🇸
+            - generic [ref=f646e579]: Remote - US
+      - link "Redwire logo Temporary Instructional Designer Redwire 🇺🇸 Remote - US" [ref=f646e580] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/temporary-instructional-designer-49176
+        - img "Redwire logo" [ref=f646e582]
+        - generic [ref=f646e583]:
+          - heading "Temporary Instructional Designer" [level=2] [ref=f646e584]
+          - paragraph [ref=f646e585]: Redwire
+          - generic [ref=f646e588]:
+            - strong [ref=f646e589]: 🇺🇸
+            - generic [ref=f646e590]: Remote - US
+      - link "Watts Water Technologies logo Technical Trainer & Instructional Designer Watts Water Technologies 🇺🇸 Hybrid - Massachusetts 💰 $116K - $130K" [ref=f646e591] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/technical-trainer-instructional-designer-19644
+        - img "Watts Water Technologies logo" [ref=f646e593]
+        - generic [ref=f646e594]:
+          - heading "Technical Trainer & Instructional Designer" [level=2] [ref=f646e595]
+          - paragraph [ref=f646e596]: Watts Water Technologies
+          - generic [ref=f646e598]:
+            - generic [ref=f646e599]:
+              - strong [ref=f646e600]: 🇺🇸
+              - generic [ref=f646e601]: Hybrid - Massachusetts
+            - generic [ref=f646e602]:
+              - strong [ref=f646e603]: 💰
+              - generic [ref=f646e604]: $116K - $130K
+      - link "Vitu logo Lead Instructional Designer, Learning and Enablement Vitu 🇺🇸 Remote - US 💰 $70K - $85K" [ref=f646e605] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/lead-instructional-designer-learning-and-enablement-82792
+        - img "Vitu logo" [ref=f646e607]
+        - generic [ref=f646e608]:
+          - heading "Lead Instructional Designer, Learning and Enablement" [level=2] [ref=f646e609]
+          - paragraph [ref=f646e610]: Vitu
+          - generic [ref=f646e612]:
+            - generic [ref=f646e613]:
+              - strong [ref=f646e614]: 🇺🇸
+              - generic [ref=f646e615]: Remote - US
+            - generic [ref=f646e616]:
+              - strong [ref=f646e617]: 💰
+              - generic [ref=f646e618]: $70K - $85K
+      - link "iDesign logo Instructional Designer iDesign 🇺🇸 Remote - US" [ref=f646e619] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-designer-72704
+        - img "iDesign logo" [ref=f646e621]
+        - generic [ref=f646e622]:
+          - heading "Instructional Designer" [level=2] [ref=f646e623]
+          - paragraph [ref=f646e624]: iDesign
+          - generic [ref=f646e627]:
+            - strong [ref=f646e628]: 🇺🇸
+            - generic [ref=f646e629]: Remote - US
+      - generic [ref=f646e631]:
+        - button "×" [ref=f646e632] [cursor=pointer]
+        - generic [ref=f646e633]:
+          - heading "Let me find your next job." [level=2] [ref=f646e634]
+          - paragraph [ref=f646e635]: Get every instructional design job (with 💰), twice per week.
+        - generic [ref=f646e638]:
+          - textbox "Enter your email" [ref=f646e639]
+          - button [ref=f646e640] [cursor=pointer]
+      - link "Emory University logo Learning Specialist - School of Medicine, Center for Holistic Student Success Emory University 🇺🇸 Hybrid - Georgia" [ref=f646e643] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/learning-specialist-school-of-medicine-center-for-holistic-student-success-88768
+        - img "Emory University logo" [ref=f646e645]
+        - generic [ref=f646e646]:
+          - heading "Learning Specialist - School of Medicine, Center for Holistic Student Success" [level=2] [ref=f646e647]
+          - paragraph [ref=f646e648]: Emory University
+          - generic [ref=f646e651]:
+            - strong [ref=f646e652]: 🇺🇸
+            - generic [ref=f646e653]: Hybrid - Georgia
+      - link "College Board logo Senior Director, AP Spanish Language and Spanish Literature Assessment Generalist, Curriculum and Assessment College Board 🇺🇸 Remote - US 💰 $112K - $165K" [ref=f646e654] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/senior-director-ap-spanish-language-and-spanish-literature-assessment-generalist-curriculum-and-assessment-14257
+        - img "College Board logo" [ref=f646e656]
+        - generic [ref=f646e657]:
+          - heading "Senior Director, AP Spanish Language and Spanish Literature Assessment Generalist, Curriculum and Assessment" [level=2] [ref=f646e658]
+          - paragraph [ref=f646e659]: College Board
+          - generic [ref=f646e661]:
+            - generic [ref=f646e662]:
+              - strong [ref=f646e663]: 🇺🇸
+              - generic [ref=f646e664]: Remote - US
+            - generic [ref=f646e665]:
+              - strong [ref=f646e666]: 💰
+              - generic [ref=f646e667]: $112K - $165K
+      - link "College Board logo Senior Director, AP English Language and Seminar Generalist, Curriculum and Assessment College Board 🇺🇸 Remote - US 💰 $112K - $165K" [ref=f646e668] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/senior-director-ap-english-language-and-seminar-generalist-curriculum-and-assessment-57384
+        - img "College Board logo" [ref=f646e670]
+        - generic [ref=f646e671]:
+          - heading "Senior Director, AP English Language and Seminar Generalist, Curriculum and Assessment" [level=2] [ref=f646e672]
+          - paragraph [ref=f646e673]: College Board
+          - generic [ref=f646e675]:
+            - generic [ref=f646e676]:
+              - strong [ref=f646e677]: 🇺🇸
+              - generic [ref=f646e678]: Remote - US
+            - generic [ref=f646e679]:
+              - strong [ref=f646e680]: 💰
+              - generic [ref=f646e681]: $112K - $165K
+      - link "Barton Malow logo Instructional Design & Facilitation Specialist Barton Malow 🇺🇸 Hybrid - US" [ref=f646e682] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-design-facilitation-specialist-96482
+        - img "Barton Malow logo" [ref=f646e684]
+        - generic [ref=f646e685]:
+          - heading "Instructional Design & Facilitation Specialist" [level=2] [ref=f646e686]
+          - paragraph [ref=f646e687]: Barton Malow
+          - generic [ref=f646e690]:
+            - strong [ref=f646e691]: 🇺🇸
+            - generic [ref=f646e692]: Hybrid - US
+      - link "Curriculum Associates logo Professional Learning Specialist - ELA - Chicago, Illinois Curriculum Associates 🇺🇸 Illinois 💰 $61K - $100K" [ref=f646e693] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/professional-learning-specialist-ela-chicago-illinois-78854
+        - img "Curriculum Associates logo" [ref=f646e695]
+        - generic [ref=f646e696]:
+          - heading "Professional Learning Specialist - ELA - Chicago, Illinois" [level=2] [ref=f646e697]
+          - paragraph [ref=f646e698]: Curriculum Associates
+          - generic [ref=f646e700]:
+            - generic [ref=f646e701]:
+              - strong [ref=f646e702]: 🇺🇸
+              - generic [ref=f646e703]: Illinois
+            - generic [ref=f646e704]:
+              - strong [ref=f646e705]: 💰
+              - generic [ref=f646e706]: $61K - $100K
+      - link "OWT Global LLC logo Curriculum Integration Specialist OWT Global LLC 🇺🇸 Remote - US" [ref=f646e707] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/curriculum-integration-specialist-44071
+        - img "OWT Global LLC logo" [ref=f646e709]
+        - generic [ref=f646e710]:
+          - heading "Curriculum Integration Specialist" [level=2] [ref=f646e711]
+          - paragraph [ref=f646e712]: OWT Global LLC
+          - generic [ref=f646e715]:
+            - strong [ref=f646e716]: 🇺🇸
+            - generic [ref=f646e717]: Remote - US
+      - link "Arizona State University logo Curriculum Coordinator Arizona State University 🇺🇸 Hybrid - Arizona 💰 $49K - $60K" [ref=f646e718] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/curriculum-coordinator-89506
+        - img "Arizona State University logo" [ref=f646e720]
+        - generic [ref=f646e721]:
+          - heading "Curriculum Coordinator" [level=2] [ref=f646e722]
+          - paragraph [ref=f646e723]: Arizona State University
+          - generic [ref=f646e725]:
+            - generic [ref=f646e726]:
+              - strong [ref=f646e727]: 🇺🇸
+              - generic [ref=f646e728]: Hybrid - Arizona
+            - generic [ref=f646e729]:
+              - strong [ref=f646e730]: 💰
+              - generic [ref=f646e731]: $49K - $60K
+      - link "McGraw Hill logo Associate Academic Designer McGraw Hill 🇺🇸 Remote - US 💰 $41K - $54K" [ref=f646e732] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/associate-academic-designer-60284
+        - img "McGraw Hill logo" [ref=f646e734]
+        - generic [ref=f646e735]:
+          - heading "Associate Academic Designer" [level=2] [ref=f646e736]
+          - paragraph [ref=f646e737]: McGraw Hill
+          - generic [ref=f646e739]:
+            - generic [ref=f646e740]:
+              - strong [ref=f646e741]: 🇺🇸
+              - generic [ref=f646e742]: Remote - US
+            - generic [ref=f646e743]:
+              - strong [ref=f646e744]: 💰
+              - generic [ref=f646e745]: $41K - $54K
+      - link "DriveTime logo Instructional Designer DriveTime 🇺🇸 Hybrid - Arizona" [ref=f646e746] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/instructional-designer-77427
+        - img "DriveTime logo" [ref=f646e748]
+        - generic [ref=f646e749]:
+          - heading "Instructional Designer" [level=2] [ref=f646e750]
+          - paragraph [ref=f646e751]: DriveTime
+          - generic [ref=f646e754]:
+            - strong [ref=f646e755]: 🇺🇸
+            - generic [ref=f646e756]: Hybrid - Arizona
+      - link "Texas Health and Human Services logo Training & Dev Specialist V Texas Health and Human Services 🇺🇸 Hybrid - Texas 💰 $5,099 - $5,500 per Month" [ref=f646e757] [cursor=pointer]:
+        - /url: https://www.edtech.com/jobs/training-dev-specialist-v-75583
+        - img "Texas Health and Human Services logo" [ref=f646e759]
+        - generic [ref=f646e760]:
+          - heading "Training & Dev Specialist V" [level=2] [ref=f646e761]
+          - paragraph [ref=f646e762]: Texas Health and Human Services
+          - generic [ref=f646e764]:
+            - generic [ref=f646e765]:
+              - strong [ref=f646e766]: 🇺🇸
+              - generic [ref=f646e767]: Hybrid - Texas
+            - generic [ref=f646e768]:
+              - strong [ref=f646e769]: 💰
+              - generic [ref=f646e770]: $5,099 - $5,500 per Month
+      - generic [ref=f646e772]:
+        - button "×" [ref=f646e773] [cursor=pointer]
+        - generic [ref=f646e774]:
+          - heading "Let me find your next job." [level=2] [ref=f646e775]
+          - paragraph [ref=f646e776]: Get every instructional design job (with 💰), twice per week.
+        - generic [ref=f646e779]:
+          - textbox "Enter your email" [ref=f646e780]
+          - button [ref=f646e781] [cursor=pointer]
+    - navigation "listing pages" [ref=f646e784]
+  - contentinfo [ref=f646e785]:
+    - generic [ref=f646e786]:
+      - link [ref=f646e787] [cursor=pointer]:
+        - /url: https://www.edtech.com
+        - strong [ref=f646e789]: edtech.com
+      - paragraph [ref=f646e790]:
+        - link "Get in touch with me 📧." [ref=f646e791] [cursor=pointer]:
+          - /url: mailto:hello@edtech.com
+      - generic [ref=f646e792]:
+        - link "X" [ref=f646e793] [cursor=pointer]:
+          - /url: https://twitter.com/helloedtech
+        - link "LinkedIn" [ref=f646e796] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/edtech-com
+      - paragraph [ref=f646e802]:
+        - text: © 2026.
+        - link "Privacy Policy" [ref=f646e803] [cursor=pointer]:
+          - /url: https://www.edtech.com/privacy-policy
+        - text: "|"
+        - link "Terms & Conditions" [ref=f646e804] [cursor=pointer]:
+          - /url: https://www.edtech.com/terms

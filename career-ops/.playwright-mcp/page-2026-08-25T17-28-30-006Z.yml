@@ -1,0 +1,161 @@
+- generic [ref=f97e2]:
+  - list [ref=f97e4]:
+    - listitem [ref=f97e5]:
+      - link [ref=f97e6] [cursor=pointer]:
+        - /url: https://liquid.ai
+        - img "Liquid AI" [ref=f97e7]
+    - listitem [ref=f97e8]:
+      - link "Back to Liquid AI’s Job Listings" [ref=f97e9] [cursor=pointer]:
+        - /url: /liquid-ai
+    - listitem
+  - generic [ref=f97e12]:
+    - heading "Member of Technical Staff - ML Scientist, Japanese Multimodal" [level=1] [ref=f97e14]
+    - generic [ref=f97e15]:
+      - generic [ref=f97e16]:
+        - generic [ref=f97e17]:
+          - heading "Location" [level=2] [ref=f97e18]
+          - paragraph [ref=f97e19]: Tokyo
+        - generic [ref=f97e20]:
+          - heading "Employment Type" [level=2] [ref=f97e21]
+          - paragraph [ref=f97e22]: Full time
+        - generic [ref=f97e23]:
+          - heading "Location Type" [level=2] [ref=f97e24]
+          - paragraph [ref=f97e25]: Hybrid
+        - generic [ref=f97e26]:
+          - heading "Department" [level=2] [ref=f97e27]
+          - paragraph [ref=f97e28]:
+            - generic [ref=f97e29]: LAIJ
+      - generic [ref=f97e30]:
+        - tablist [ref=f97e31]:
+          - tab "Overview" [selected] [ref=f97e32] [cursor=pointer]
+          - tab "Application" [ref=f97e33] [cursor=pointer]
+        - tabpanel "Overview" [ref=f97e35]:
+          - generic [ref=f97e36]:
+            - heading [level=2] [ref=f97e37]:
+              - strong [ref=f97e38]: About Liquid AI
+            - paragraph [ref=f97e39]: Spun out of MIT CSAIL, we build general-purpose AI systems that run efficiently across deployment targets, from data center accelerators to on-device hardware, ensuring low latency, minimal memory usage, privacy, and reliability. We partner with enterprises across consumer electronics, automotive, life sciences, and financial services. We are scaling rapidly and need exceptional people to help us get there.
+            - paragraph [ref=f97e40]
+            - heading [level=2] [ref=f97e41]:
+              - strong [ref=f97e42]: The Opportunity
+            - paragraph [ref=f97e43]: "As an ML Scientist focused on post-training, you will improve the capabilities and behavior of Liquid Foundation Models for Japan and the global market. You will own the full experimental loop: identifying model weaknesses, developing data and training strategies, running controlled experiments, evaluating results, and turning successful ideas into high-quality checkpoints and reusable methods."
+            - paragraph [ref=f97e44]: You will work closely with Liquid's model, research, and infrastructure teams in Japan and at our US headquarters. Signals from real deployments will give you concrete, difficult problems to solve; your work will translate those signals into broader improvements in model quality, reliability, and usefulness.
+            - paragraph [ref=f97e45]: This is a role for a scientist who builds. Strong ideas matter, but so do careful data work, reliable implementations, and measurable improvements in working models.
+            - paragraph [ref=f97e46]
+            - heading [level=2] [ref=f97e47]:
+              - strong [ref=f97e48]: What We're Looking For
+            - paragraph [ref=f97e49]: "We need someone who:"
+            - list [ref=f97e50]:
+              - listitem [ref=f97e51]:
+                - paragraph [ref=f97e52]: "Thinks experimentally: You form clear hypotheses, establish strong baselines, design informative ablations, and let evidence guide the next step."
+              - listitem [ref=f97e53]:
+                - paragraph [ref=f97e54]: "Understands models through data: You can identify gaps in training data and design curation, filtering, generation, and supervision strategies to address them."
+              - listitem [ref=f97e55]:
+                - paragraph [ref=f97e56]: "Owns the full post-training loop: You are comfortable moving between datasets, training, evaluation, error analysis, and implementation."
+              - listitem [ref=f97e57]:
+                - paragraph [ref=f97e58]: "Builds with rigor: Your experiments are reproducible, your conclusions are well supported, and successful research can be integrated into shared systems."
+              - listitem [ref=f97e59]:
+                - paragraph [ref=f97e60]: "Collaborates across boundaries: You communicate clearly with globally distributed research, engineering, and applied teams."
+            - paragraph [ref=f97e61]
+            - heading [level=2] [ref=f97e62]:
+              - strong [ref=f97e63]: The Work
+            - list [ref=f97e64]:
+              - listitem [ref=f97e65]:
+                - paragraph [ref=f97e66]: Design and execute post-training strategies for language and multimodal models, including supervised fine-tuning, preference optimization, reinforcement learning, and distillation.
+              - listitem [ref=f97e67]:
+                - paragraph [ref=f97e68]: Build and curate high-quality training data using human, synthetic, and model-generated signals, with particular attention to Japanese-language and domain-specific capabilities.
+              - listitem [ref=f97e69]:
+                - paragraph [ref=f97e70]: Develop evaluations that expose meaningful capability and reliability gaps across Japanese and global use cases.
+              - listitem [ref=f97e71]:
+                - paragraph [ref=f97e72]: Conduct systematic error analysis and use the results to improve data mixtures, objectives, training methods, and model behavior.
+              - listitem [ref=f97e73]:
+                - paragraph [ref=f97e74]: Run controlled experiments and ablations, interpret results, and communicate clear recommendations.
+              - listitem [ref=f97e75]:
+                - paragraph [ref=f97e76]: Develop reliable, scalable training and evaluation pipelines in collaboration with model infrastructure teams.
+              - listitem [ref=f97e77]:
+                - paragraph [ref=f97e78]: Contribute methods, tooling, datasets, and findings that accelerate post-training work across Liquid AI.
+            - paragraph [ref=f97e79]
+            - heading [level=2] [ref=f97e80]:
+              - strong [ref=f97e81]: Desired Experience
+            - paragraph [ref=f97e82]:
+              - strong [ref=f97e83]: "Must-have:"
+            - list [ref=f97e84]:
+              - listitem [ref=f97e85]:
+                - paragraph [ref=f97e86]: Hands-on experience post-training modern language or multimodal models.
+              - listitem [ref=f97e87]:
+                - paragraph [ref=f97e88]: Strong understanding of machine learning fundamentals and current post-training and RL methods.
+              - listitem [ref=f97e89]:
+                - paragraph [ref=f97e90]: Solid engineering skills and proficiency with the open-source ML ecosystem.
+              - listitem [ref=f97e91]:
+                - paragraph [ref=f97e92]: Experience designing and running rigorous experiments, including baselines, ablations, and systematic error analysis.
+              - listitem [ref=f97e93]:
+                - paragraph [ref=f97e94]: Experience building, curating, or assessing training and evaluation data at a meaningful scale.
+              - listitem [ref=f97e95]:
+                - paragraph [ref=f97e96]: Ability to turn research ideas into reliable implementations and measurable model improvements.
+              - listitem [ref=f97e97]:
+                - paragraph [ref=f97e98]: Proficiency in English, including the ability to collaborate on complex technical work with global teams.
+              - listitem [ref=f97e99]:
+                - paragraph [ref=f97e100]: Experience leveraging agents to amplify your own work.
+            - paragraph [ref=f97e101]:
+              - strong [ref=f97e102]: "Nice-to-have:"
+            - list [ref=f97e103]:
+              - listitem [ref=f97e104]:
+                - paragraph [ref=f97e105]: Experience with preference optimization or reinforcement learning methods for foundation models.
+              - listitem [ref=f97e106]:
+                - paragraph [ref=f97e107]: Experience post-training multimodal models involving text, vision, or audio.
+              - listitem [ref=f97e108]:
+                - paragraph [ref=f97e109]: Experience developing synthetic data pipelines, reward models, verifiers, or model-based evaluations.
+              - listitem [ref=f97e110]:
+                - paragraph [ref=f97e111]: A track record of producing useful research artifacts, such as strong models, datasets, open-source systems, or technical reports.
+              - listitem [ref=f97e112]:
+                - paragraph [ref=f97e113]: Reading proficiency in Japanese.
+            - paragraph [ref=f97e114]: We care about demonstrated ability, scientific judgment, and the quality of your work. Degrees and publications are not required, and we encourage you to apply even if your experience does not match every item above.
+            - paragraph [ref=f97e115]
+            - heading [level=2] [ref=f97e116]:
+              - strong [ref=f97e117]: What Success Looks Like (Year One)
+            - list [ref=f97e118]:
+              - listitem [ref=f97e119]:
+                - paragraph [ref=f97e120]: You deliver checkpoints with clear, measurable improvements on important Japanese and global capabilities.
+              - listitem [ref=f97e121]:
+                - paragraph [ref=f97e122]: You establish evaluations and error-analysis practices that reliably identify model weaknesses and guide post-training priorities.
+              - listitem [ref=f97e123]:
+                - paragraph [ref=f97e124]: You develop data or training methods that become part of Liquid's repeatable post-training workflow.
+              - listitem [ref=f97e125]:
+                - paragraph [ref=f97e126]: You run high-quality experiments at increasing scale and turn the results into clear technical decisions.
+              - listitem [ref=f97e127]:
+                - paragraph [ref=f97e128]: Your work materially influences Liquid's model roadmap and improves systems used in real deployments.
+            - paragraph [ref=f97e129]
+            - heading [level=2] [ref=f97e130]:
+              - strong [ref=f97e131]: How we work
+            - paragraph [ref=f97e132]: This is a primarily remote role for candidates already based in Japan. We typically meet in our Tokyo office once or twice a week. Working hours are fully flexible, with an expectation that you can collaborate effectively with customers in Japan and colleagues in other time zones.
+            - paragraph [ref=f97e133]: The role includes travel to the United States and to relevant conferences, as well as occasional travel within Japan.
+            - paragraph [ref=f97e134]
+            - heading [level=2] [ref=f97e135]:
+              - strong [ref=f97e136]: What We Offer
+            - list [ref=f97e137]:
+              - listitem [ref=f97e138]:
+                - paragraph [ref=f97e139]: "High-impact model work: Improve the capabilities and behavior of foundation models used in real products and deployments."
+              - listitem [ref=f97e140]:
+                - paragraph [ref=f97e141]: "Direct access to core teams: Collaborate closely with the researchers and engineers building Liquid's models and training systems."
+              - listitem [ref=f97e142]:
+                - paragraph [ref=f97e143]: "Ownership in a growing market: Help define our post-training approach in Japan at a time of strong customer demand and rapid growth."
+              - listitem [ref=f97e144]:
+                - paragraph [ref=f97e145]: "Supportive & growth-driven culture: Thrive in a collaborative, feedback-rich environment that prioritizes continuous learning, mentorship, and personal career development."
+              - listitem [ref=f97e146]:
+                - paragraph [ref=f97e147]: "Flexibility: Primarily remote work, flexible working hours, and unlimited paid time off."
+              - listitem [ref=f97e148]:
+                - paragraph [ref=f97e149]: "Competitive rewards: Competitive salary, equity in a unicorn-stage company, and standard benefits for employees in Japan."
+          - link [ref=f97e150] [cursor=pointer]:
+            - /url: /liquid-ai/24b6d654-d703-4a49-941b-3461f2d7c28e/application
+            - button "Apply for this Job" [ref=f97e151]
+  - contentinfo [ref=f97e152]:
+    - link "Learn more about Ashby" [ref=f97e153] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f97e154]: Powered by
+      - img "Ashby" [ref=f97e155]
+    - paragraph [ref=f97e161]:
+      - link "Privacy Policy" [ref=f97e162] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f97e163] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f97e164] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

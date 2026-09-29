@@ -1,0 +1,123 @@
+- generic [ref=f103e2]:
+  - list [ref=f103e4]:
+    - listitem [ref=f103e5]:
+      - link [ref=f103e6] [cursor=pointer]:
+        - /url: https://www.suno.com/
+        - img "Suno" [ref=f103e7]
+    - listitem [ref=f103e8]:
+      - link "Back to Suno’s Job Listings" [ref=f103e9] [cursor=pointer]:
+        - /url: /suno
+    - listitem
+  - generic [ref=f103e12]:
+    - heading "Staff Data Scientist, Mobile Consumer Create" [level=1] [ref=f103e14]
+    - generic [ref=f103e15]:
+      - generic [ref=f103e16]:
+        - generic [ref=f103e17]:
+          - heading "Location" [level=2] [ref=f103e18]
+          - paragraph [ref=f103e19]: Los Angeles
+        - generic [ref=f103e20]:
+          - heading "Employment Type" [level=2] [ref=f103e21]
+          - paragraph [ref=f103e22]: Full time
+        - generic [ref=f103e23]:
+          - heading "Location Type" [level=2] [ref=f103e24]
+          - paragraph [ref=f103e25]: On-site
+        - generic [ref=f103e26]:
+          - heading "Department" [level=2] [ref=f103e27]
+          - paragraph [ref=f103e28]: Data
+        - generic [ref=f103e29]:
+          - heading "Compensation" [level=2] [ref=f103e30]
+          - paragraph [ref=f103e32]: $220K – $320K • Offers Equity
+      - generic [ref=f103e33]:
+        - tablist [ref=f103e34]:
+          - tab "Overview" [selected] [ref=f103e35] [cursor=pointer]
+          - tab "Application" [ref=f103e36] [cursor=pointer]
+        - tabpanel "Overview" [ref=f103e38]:
+          - generic [ref=f103e39]:
+            - heading [level=1] [ref=f103e40]:
+              - strong [ref=f103e41]: About Suno
+            - paragraph [ref=f103e42]: "We're building the world's first creative entertainment platform, where the entire world can feel the joy and fulfillment of making music. Music is for everyone: Our users include everyone from grandmothers creating songs for their loved ones, to Grammy winners using Suno Studio, our power tool, to make the most popular hits in the world."
+            - paragraph [ref=f103e43]: "Building the future of entertainment requires ambition. The pace is fast, the problems are hard, and the work demands ownership and intensity. For the right people, it’s incredibly rewarding: a chance to shape a new medium, work with a small team that cares deeply about quality, make music, drink too much coffee, and build something that millions of people use to express themselves in ways that were never before possible."
+            - paragraph [ref=f103e44]: Suno is the fastest growing consumer entertainment company and the leader in AI music. We are backed by leading investors including Bond Capital, Menlo Ventures, Lightspeed Venture Partners, IVP, Forerunner, Union Square Ventures, Alkeon, Quiet, Matrix Partners, Schroders Capital and, NVentures (venture arm of NVIDIA).
+            - paragraph [ref=f103e45]
+            - heading [level=2] [ref=f103e46]:
+              - strong [ref=f103e47]: About the Role
+            - paragraph [ref=f103e48]: Finding joy through being creative is inherent in human nature. The Consumer Create team is building experiences to enable users to entertain themselves through their own creativity. We are hiring a data scientist to be a thought leader on this new team. In this high-impact role, you will collaborate with Product, Engineering, and Design to set the product strategy and roadmap for how we grow and measure creative engagement on our mobile app.
+            - paragraph [ref=f103e49]
+            - heading "What You'll Do" [level=2] [ref=f103e50]
+            - list [ref=f103e51]:
+              - listitem [ref=f103e52]:
+                - paragraph [ref=f103e53]: Partner with product and engineering to shape the roadmap for Mobile Consumer Create, from early ideation through launch
+              - listitem [ref=f103e54]:
+                - paragraph [ref=f103e55]: Design and run experiments end-to-end that test new ways to make creation on mobile more fun and rewarding
+              - listitem [ref=f103e56]:
+                - paragraph [ref=f103e57]: Build analyses that surface user behavior patterns and inform how we think about and build for our consumers. Identify the "magic moments" that keep people creating, and the product changes that lead to more of them
+              - listitem [ref=f103e58]:
+                - paragraph [ref=f103e59]: Establish the metrics and frameworks the team uses to define and measure success
+              - listitem [ref=f103e60]:
+                - paragraph [ref=f103e61]: Contribute to building strong data foundations as part of our awesome data science team
+                - paragraph [ref=f103e62]
+            - heading "What You'll Need" [level=2] [ref=f103e63]
+            - heading "Must-Haves" [level=3] [ref=f103e64]
+            - list [ref=f103e65]:
+              - listitem [ref=f103e66]:
+                - paragraph [ref=f103e67]: 6–8+ years of experience in data science in consumer tech and mobile apps
+              - listitem [ref=f103e68]:
+                - paragraph [ref=f103e69]: Advanced proficiency in SQL, Python, and statistical modeling
+              - listitem [ref=f103e70]:
+                - paragraph [ref=f103e71]: Experience running experiments end-to-end, from design through analysis to shipping decision
+              - listitem [ref=f103e72]:
+                - paragraph [ref=f103e73]: A user-centric, product-first mindset
+              - listitem [ref=f103e74]:
+                - paragraph [ref=f103e75]: Excellent communication and collaboration
+              - listitem [ref=f103e76]:
+                - paragraph [ref=f103e77]: A self-starter mentality with the ability to thrive in ambiguity, eagerness to wear multiple hats, and passion for continuous learning
+              - listitem [ref=f103e78]:
+                - paragraph [ref=f103e79]: Proficiency with and excitement about using and building AI tools
+            - heading "Nice-to-Haves" [level=3] [ref=f103e80]
+            - list [ref=f103e81]:
+              - listitem [ref=f103e82]:
+                - paragraph [ref=f103e83]: Musician or creative hobbyist — genuine empathy for the people using the product
+              - listitem [ref=f103e84]:
+                - paragraph [ref=f103e85]: Experience partnering with early-stage or 0-to-1 product teams
+              - listitem [ref=f103e86]:
+                - paragraph [ref=f103e87]: Familiarity with mobile-specific analytics and attribution tooling
+                - paragraph [ref=f103e88]
+            - heading "Work Location Policy" [level=2] [ref=f103e89]
+            - paragraph [ref=f103e90]: This role is expected to work from the designated Suno office 5 days a week, per Suno's company policy. Full-time employees will receive competitive equity packages, and comprehensive benefits. The actual base salary offered may vary depending on location, skills, qualifications, and experience.
+            - heading "Additional Notes" [level=2] [ref=f103e92]
+            - paragraph [ref=f103e93]: Applicants must be eligible to work in the US.
+            - heading "Perks & Benefits for Full-Time Employees" [level=2] [ref=f103e95]
+            - list [ref=f103e96]:
+              - listitem [ref=f103e97]:
+                - paragraph [ref=f103e98]: Company Equity Package
+              - listitem [ref=f103e99]:
+                - paragraph [ref=f103e100]: 401(k) with 3% Employer Match & Roth 401(k)
+              - listitem [ref=f103e101]:
+                - paragraph [ref=f103e102]: Medical, Dental, & Vision Insurance (PPO w/ HSA & FSA options)
+              - listitem [ref=f103e103]:
+                - paragraph [ref=f103e104]: 11 Paid Holidays + Unlimited PTO & Sick Time
+              - listitem [ref=f103e105]:
+                - paragraph [ref=f103e106]: 16 Weeks of Paid Parental Leave
+              - listitem [ref=f103e107]:
+                - paragraph [ref=f103e108]: Creative Education Stipend
+              - listitem [ref=f103e109]:
+                - paragraph [ref=f103e110]: Generous Commuter Allowance
+              - listitem [ref=f103e111]:
+                - paragraph [ref=f103e112]: In-Office Lunch (5 days per week)
+            - paragraph [ref=f103e114]
+            - paragraph [ref=f103e115]: Suno is proud to be an Equal Opportunity Employer. We consider qualified applicants without regard to race, color, ancestry, religion, sex, national origin, sexual orientation, gender identity, age, marital or family status, disability, genetic information, veteran status, or any other legally protected basis under provincial, federal, state, and local laws, regulations, or ordinances. We will also consider qualified applicants with criminal histories in a manner consistent with the requirements of state and local laws, including the Massachusetts Fair Chance in Employment Act, NYC Fair Chance Act, LA City Fair Chance Ordinance, and San Francisco Fair Chance Ordinance.
+          - link [ref=f103e116] [cursor=pointer]:
+            - /url: /suno/f99ae445-cfc9-440b-8b81-046bf071d2d7/application
+            - button "Apply for this Job" [ref=f103e117]
+  - contentinfo [ref=f103e118]:
+    - link "Learn more about Ashby" [ref=f103e119] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f103e120]: Powered by
+      - img "Ashby" [ref=f103e121]
+    - paragraph [ref=f103e127]:
+      - link "Privacy Policy" [ref=f103e128] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f103e129] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f103e130] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

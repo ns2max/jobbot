@@ -1,0 +1,15 @@
+No report, PDF, or tracker line generated — hard-exclude filter applies (US role, San Francisco/hybrid, not Canada or Canada-remote).
+
+```json
+{
+  "status": "failed",
+  "id": "18",
+  "report_num": "734",
+  "company": "Vapi",
+  "role": "Member of Technical Staff, DevSecOps",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role location is San Francisco, US (hybrid), not Canada or Canada-remote. Per modes/_profile.md location policy (2026-08-20 scope: Canada-only), non-Canadian roles are a hard filter — no evaluation, scoring, report, or CV generated. Also note: role is DevSecOps/security, not ML/AI — would not match candidate archetypes even if location cleared."
+}
+```

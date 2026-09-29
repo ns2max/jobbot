@@ -1,0 +1,16 @@
+```json
+{
+  "status": "completed",
+  "id": "38",
+  "report_num": "893",
+  "company": "Anthropic",
+  "role": "Research Engineer, Life Sciences",
+  "score": null,
+  "legitimacy": "N/A (not evaluated)",
+  "pdf": null,
+  "report": "reports/893-anthropic-2026-08-24.md",
+  "error": null
+}
+```
+
+Excluded: SF-based, hybrid (25% office min), no Canada option. Hard-excluded per `_profile.md` Canada-only policy — no scoring, no PDF. Report + tracker line written.

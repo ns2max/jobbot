@@ -1,0 +1,13 @@
+```json
+{
+  "status": "failed",
+  "id": "16",
+  "report_num": "732",
+  "company": "Vapi",
+  "role": "Member of Technical Staff, Site Reliability Engineer",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude per modes/_profile.md location policy (Canada-only scope, 2026-08-20): role is San Francisco/Hybrid, US-only, no Canada option. Additionally role is SRE/infra (Go, TypeScript, Kubernetes, oncall, autoscaling) — no domain overlap with candidate's ML/audio/CV archetypes. No evaluation, report, PDF, or tracker line generated per policy."
+}
+```

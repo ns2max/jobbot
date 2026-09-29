@@ -1,0 +1,268 @@
+- generic [active] [ref=f187e1]:
+  - main [ref=f187e2]:
+    - generic [ref=f187e3]:
+      - link [ref=f187e5] [cursor=pointer]:
+        - /url: https://grafana.com/
+        - img "Grafana Labs Logo" [ref=f187e6]
+      - generic [ref=f187e7]:
+        - link "Back to jobs" [ref=f187e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/grafanalabs
+        - generic [ref=f187e12]:
+          - generic [ref=f187e13]:
+            - heading "Senior Machine Learning Engineer, Developer Advocacy | UK | Remote" [level=1] [ref=f187e14]
+            - generic [ref=f187e15]: United Kingdom (Remote)
+          - button "Apply" [ref=f187e19] [cursor=pointer]
+        - generic [ref=f187e20]:
+          - generic [ref=f187e21]:
+            - paragraph [ref=f187e22]:
+              - text: Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Cloud's actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000+ customers – including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce – trust Grafana Labs to ensure reliability of their applications and systems, resolve incidents quickly, and optimize their telemetry to reduce noise and cost. We are a 100% remote company with 1,600+ team members across 40+ countries, and we’re backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at
+              - link "grafana.com" [ref=f187e25] [cursor=pointer]:
+                - /url: http://grafana.com
+              - text: and follow us on
+              - link "LinkedIn" [ref=f187e28] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/grafana-labs/
+              - text: and
+              - link "X" [ref=f187e31] [cursor=pointer]:
+                - /url: https://twitter.com/grafana
+              - text: .
+            - paragraph [ref=f187e32]: "We’re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do."
+            - paragraph [ref=f187e33]: You may not meet every requirement, and that’s okay. If this role excites you, we’d love you to raise your hand for what could be a truly career-defining opportunity.
+          - generic [ref=f187e34]:
+            - heading "Senior ML Engineer Recommender Systems, Developer Advocacy | UK | Remote" [level=3] [ref=f187e35]
+            - paragraph [ref=f187e36]: This is a fully remote position and we're considering candidates in the UK.
+            - paragraph [ref=f187e37]:
+              - strong [ref=f187e38]: "The Opportunity:"
+            - paragraph [ref=f187e39]: Grafana Labs is building an Interactive Learning system, an open source, in-product learning experience that helps users learn and succeed without leaving Grafana. A central part of that vision is a personalized recommendation system that helps each user discover the next guide, action, or product experience most likely to help them succeed.
+            - paragraph [ref=f187e40]: Today, the Interactive Learning tool includes a rule-based recommendation engine that provides useful contextual recommendations. We are hiring an ML Engineer to lead its evolution into an increasingly personalized, continuously improving system driven by real-time product behavior, content metadata, customer context, and experimentation.
+            - paragraph [ref=f187e41]: This is an applied product data science role. You will personally build, deploy, and operate recommendation models, design experiments, establish evaluation methodology, and define the scientific roadmap. You will partner closely with software engineers who own the production recommender codebase and with an existing Data Analyst who supports measurement, instrumentation, and analysis across Developer Advocacy.
+            - paragraph [ref=f187e42]:
+              - strong [ref=f187e43]: "What You’ll Be Doing:"
+            - paragraph [ref=f187e44]: The long-term vision is ambitious, but we do not expect it to arrive in one release. We are looking for someone who can understand the whole problem, establish strong foundations, and ship measurable improvements into the existing recommender one iteration at a time.
+            - list [ref=f187e45]:
+              - listitem [ref=f187e46]:
+                - strong [ref=f187e47]: Evolve the Interactive Learning Plugin's recommendation system
+              - list [ref=f187e48]:
+                - listitem [ref=f187e49]: Develop increasingly personalized approaches to candidate selection, ranking, sequencing, and next-best-action recommendations.
+                - listitem [ref=f187e50]: You’ll own a real-time recommendation service
+              - listitem [ref=f187e51]:
+                - strong [ref=f187e52]: Build and operate applied models
+              - list [ref=f187e53]:
+                - listitem [ref=f187e54]: Develop, validate, version, monitor, and iterate on models used by the recommendation system.
+                - listitem [ref=f187e55]: You’ll own model training & serving
+              - listitem [ref=f187e56]:
+                - strong [ref=f187e57]: Define what recommendation quality means
+              - list [ref=f187e58]:
+                - listitem [ref=f187e59]: Develop offline, online, and longitudinal measures of recommendation performance.
+                - listitem [ref=f187e60]: You’ll own feature pipelines, monitoring of the model and architecture
+              - listitem [ref=f187e61]:
+                - strong [ref=f187e62]: Ship incremental improvements
+              - list [ref=f187e63]:
+                - listitem [ref=f187e64]: Use the data and infrastructure available today while identifying the instrumentation and platform capabilities needed tomorrow.
+                - listitem [ref=f187e65]: Integrate improvements into the existing recommender rather than waiting for a complete replacement system.
+              - listitem [ref=f187e66]:
+                - strong [ref=f187e67]: Partner across disciplines
+              - list [ref=f187e68]:
+                - listitem [ref=f187e69]: Work closely with software engineers & data analysts to productionize models and integrate them safely into the recommender service.
+                - listitem [ref=f187e70]: Partner with the Product Analytics team on metric definitions, instrumentation, data quality, dashboards, and experiment analysis.
+                - listitem [ref=f187e71]: Collaborate with Developer Advocacy, Docs, Product, Engineering, GTM, and other teams to translate ambiguous needs into testable hypotheses and measurable product decisions.
+                - listitem [ref=f187e72]: Explain modeling choices, tradeoffs, uncertainty, and results clearly to both technical and non-technical audiences.
+            - paragraph [ref=f187e73]:
+              - strong [ref=f187e74]: "What Makes You a Great Fit:"
+            - paragraph [ref=f187e75]: We know it is rare to find everything. Strong candidates should demonstrate credible ability across all three core areas below and be particularly strong in at least two.
+            - list [ref=f187e76]:
+              - listitem [ref=f187e77]:
+                - strong [ref=f187e78]: Recommendation and personalization science
+                - text: ": you have built recommendation, ranking, search, matching, propensity, or next-best-action systems. You are comfortable beginning with simple, explainable approaches when they are the best way to learn."
+              - listitem [ref=f187e79]:
+                - strong [ref=f187e80]: HTTP/gRPC, streaming, Go/TypeScript previous experience in distributed systems
+              - listitem [ref=f187e81]:
+                - strong [ref=f187e82]: Applied model ownership
+                - text: . You have personally built, validated, monitored, and iterated on models used in a product or operational environment. You can work effectively in version-controlled codebases and collaborate with engineers on production implementation.
+            - paragraph [ref=f187e83]: You should also be a strong product thinker and technical communicator. You can take an ambitious and ambiguous objective, identify the most important unknowns, and create a sequence of models and experiments that steadily improves the product.
+            - paragraph [ref=f187e84]:
+              - strong [ref=f187e85]: "Bonus Points For:"
+            - list [ref=f187e86]:
+              - listitem [ref=f187e87]: Experience with content, education, onboarding, or learning recommendation systems
+              - listitem [ref=f187e88]: Experience with SaaS product telemetry and customer-account data
+              - listitem [ref=f187e89]: Experience using warehouse-scale behavioral data
+              - listitem [ref=f187e90]: Experience with directed graphs, sequence models, or prerequisite-aware recommendations
+              - listitem [ref=f187e91]: Experience with contextual bandits or other exploration strategies
+              - listitem [ref=f187e92]: Familiarity with Grafana or the broader observability ecosystem
+              - listitem [ref=f187e93]: Experience with open source software or transparent development practices
+              - listitem [ref=f187e94]: Experience working with privacy, fairness, explainability, or responsible personalization constraints
+            - paragraph [ref=f187e95]:
+              - strong [ref=f187e96]: "Compensation & Rewards:"
+            - paragraph [ref=f187e97]:
+              - emphasis [ref=f187e98]:
+                - emphasis [ref=f187e99]: In the UK, the base compensation range for this role is GBP 91,755 - GBP 110,106. Actual compensation may vary based on level, experience, and skillset as assessed throughout the interview process. All of our roles include Restricted Stock Units (RSUs), giving every team member ownership in Grafana Labs' success. We believe in shared outcomes—RSUs help us stay aligned and invested as we scale globally.
+          - generic [ref=f187e100]:
+            - generic [ref=f187e101]:
+              - paragraph [ref=f187e102]:
+                - emphasis [ref=f187e103]: "*Compensation ranges are country specific. If you are applying for this role from a different location than listed above, your recruiter will discuss your specific market’s defined pay range & benefits at the beginning of the process."
+              - paragraph [ref=f187e104]:
+                - strong [ref=f187e105]: "Why You’ll Thrive at Grafana Labs:"
+              - list [ref=f187e106]:
+                - listitem [ref=f187e107]:
+                  - strong [ref=f187e108]: 100% Remote, Global Culture -
+                  - text: As a remote-only company, we bring together talent from around the world, united by a culture of collaboration and shared purpose.
+                - listitem [ref=f187e109]:
+                  - strong [ref=f187e110]: Scaling Organization
+                  - text: – Tackle meaningful work in a high-growth, ever-evolving environment.
+                - listitem [ref=f187e111]:
+                  - strong [ref=f187e112]: Transparent Communication
+                  - text: – Expect open decision-making and regular company-wide updates.
+                - listitem [ref=f187e113]:
+                  - strong [ref=f187e114]: Innovation-Driven
+                  - text: – Autonomy and support to ship great work and try new things.
+                - listitem [ref=f187e115]:
+                  - strong [ref=f187e116]: Open Source Roots
+                  - text: – Built on community-driven values that shape how we work.
+                - listitem [ref=f187e117]:
+                  - strong [ref=f187e118]: Empowered Teams
+                  - text: – High trust, low ego culture that values outcomes over optics.
+                - listitem [ref=f187e119]:
+                  - strong [ref=f187e120]: Career Growth Pathways
+                  - text: – Defined opportunities to grow and develop your career.
+                - listitem [ref=f187e121]:
+                  - strong [ref=f187e122]: Approachable Leadership
+                  - text: – Transparent execs who are involved, visible, and human.
+                - listitem [ref=f187e123]:
+                  - strong [ref=f187e124]: Passionate People
+                  - text: – Join a team of smart, supportive folks who care deeply about what they do.
+                - listitem [ref=f187e125]:
+                  - strong [ref=f187e126]: In-Person onboarding
+                  - text: "- We want you to thrive from day 1 with your fellow new ‘Grafanistas’ to learn all about what we do and how we do it."
+                - listitem [ref=f187e127]:
+                  - strong [ref=f187e128]: Balance is Key
+                  - text: "- We operate a global annual leave policy of 30 days per annum. 3 days of your annual leave entitlement are reserved for Grafana Shutdown Days to allow the team to really disconnect."
+                  - emphasis [ref=f187e129]: "*We will comply with local legislation where applicable."
+              - paragraph [ref=f187e130]:
+                - strong [ref=f187e131]: "Equal Opportunity Employer:"
+                - emphasis [ref=f187e132]: Grafana Labs is an equal opportunities employer. We welcome applications from everyone regardless of race, colour, nationality, origin, caste, sex, gender reassignment identity or expression, sexual orientation, age, religion or belief, disability, veteran status, genetic information, pregnancy, maternity, marital, family or carer status, or any other characteristic which is protected by local law. We believe that equality and diversity build a strong organisation, and we work hard to ensure that is the foundation of our organisation as we grow.
+              - paragraph [ref=f187e133]:
+                - emphasis [ref=f187e134]: Grafana Labs may utilize AI tools in its recruitment process to assist in matching information provided in CVs to job postings. The recruitment team will continue to review inbound CVs manually to identify alignment with current openings.
+              - paragraph [ref=f187e135]: "#LI-Remote"
+            - emphasis [ref=f187e137]:
+              - text: For information about how your personal data is used once you’ve applied to a job, check out our
+              - link "privacy policy" [ref=f187e138] [cursor=pointer]:
+                - /url: https://grafana.com/legal/applicant-and-candidate-privacy-policy/
+              - text: .
+        - generic [ref=f187e143]:
+          - paragraph [ref=f187e144]: Get new jobs like this in your inbox
+          - paragraph [ref=f187e145]: We'll email you when Grafana Labs posts a job like this one.
+          - link "Create alert" [ref=f187e146] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=grafanalabs&source=job_alert_post&variant=job_alert_post_b
+      - separator [ref=f187e147]
+      - generic [ref=f187e148]:
+        - generic [ref=f187e150]:
+          - heading "Apply for this job" [level=2] [ref=f187e152]
+          - generic [ref=f187e153]:
+            - paragraph [ref=f187e155]: "*"
+            - paragraph [ref=f187e156]: indicates a required field
+        - generic [ref=f187e157]:
+          - generic [ref=f187e158]:
+            - generic [ref=f187e161]:
+              - generic [ref=f187e162]: First Name*
+              - textbox "First Name" [ref=f187e163]
+            - generic [ref=f187e166]:
+              - generic [ref=f187e167]: Last Name*
+              - textbox "Last Name" [ref=f187e168]
+            - generic [ref=f187e171]:
+              - generic [ref=f187e172]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f187e173]
+            - generic [ref=f187e176]:
+              - generic [ref=f187e177]: Email*
+              - textbox "Email" [ref=f187e178]
+            - group "Phone" [ref=f187e180]:
+              - generic [ref=f187e184]:
+                - generic [ref=f187e185]: Country*
+                - generic [ref=f187e186]:
+                  - log [ref=f187e188]
+                  - generic [ref=f187e190]:
+                    - combobox "Country" [ref=f187e193]
+                    - button "Toggle flyout" [ref=f187e195] [cursor=pointer]
+                  - textbox
+              - generic [ref=f187e200]:
+                - generic [ref=f187e201]: Phone*
+                - textbox "Phone" [ref=f187e203]
+            - generic [ref=f187e204]:
+              - generic [ref=f187e206]:
+                - generic [ref=f187e207]: Location (City)*
+                - generic [ref=f187e208]:
+                  - log [ref=f187e210]
+                  - combobox "Location (City)" [ref=f187e215]
+                  - textbox
+              - button "Locate me" [ref=f187e216] [cursor=pointer]
+            - group "Resume/CV*" [ref=f187e218]:
+              - generic [ref=f187e221]:
+                - generic [ref=f187e223]:
+                  - button "Attach" [ref=f187e224] [cursor=pointer]
+                  - generic [ref=f187e225]: Attach
+                  - button "Attach" [ref=f187e226]
+                - button "Dropbox" [ref=f187e228] [cursor=pointer]
+                - button "Google Drive" [ref=f187e230] [cursor=pointer]
+                - generic [ref=f187e232]:
+                  - button "Enter manually" [ref=f187e233] [cursor=pointer]
+                  - generic [ref=f187e234]: Enter manually
+                - paragraph [ref=f187e235]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f187e236]:
+            - separator [ref=f187e237]
+            - generic [ref=f187e240]:
+              - generic [ref=f187e241]: Are you currently eligible to work in your country of residence?*
+              - generic [ref=f187e242]:
+                - log [ref=f187e244]
+                - generic [ref=f187e246]:
+                  - generic [ref=f187e247]:
+                    - generic [ref=f187e248]: Select...
+                    - combobox "Are you currently eligible to work in your country of residence?" [ref=f187e250]
+                  - button "Toggle flyout" [ref=f187e252] [cursor=pointer]
+                - textbox
+            - generic [ref=f187e257]:
+              - generic [ref=f187e258]: Do you now or in the future require visa sponsorship to continue working in your country of residence?*
+              - generic [ref=f187e259]:
+                - log [ref=f187e261]
+                - generic [ref=f187e263]:
+                  - generic [ref=f187e264]:
+                    - generic [ref=f187e265]: Select...
+                    - combobox "Do you now or in the future require visa sponsorship to continue working in your country of residence?" [ref=f187e267]
+                  - button "Toggle flyout" [ref=f187e269] [cursor=pointer]
+                - textbox
+            - generic [ref=f187e274]:
+              - generic [ref=f187e275]: Anything else you'd like to share with our hiring team?
+              - textbox "Anything else you'd like to share with our hiring team?" [ref=f187e276]
+            - generic [ref=f187e279]:
+              - generic [ref=f187e280]: Which of the following best describes you?*
+              - generic [ref=f187e281]:
+                - log [ref=f187e283]
+                - generic [ref=f187e285]:
+                  - generic [ref=f187e286]:
+                    - generic [ref=f187e287]: Select...
+                    - combobox "Which of the following best describes you?" [ref=f187e289]
+                  - button "Toggle flyout" [ref=f187e291] [cursor=pointer]
+                - textbox
+            - generic [ref=f187e296]:
+              - generic [ref=f187e297]: How did you hear about this opportunity at Grafana?*
+              - generic [ref=f187e298]:
+                - log [ref=f187e300]
+                - generic [ref=f187e302]:
+                  - generic [ref=f187e303]:
+                    - generic [ref=f187e304]: Select...
+                    - combobox "How did you hear about this opportunity at Grafana?" [ref=f187e306]
+                  - button "Toggle flyout" [ref=f187e308] [cursor=pointer]
+                - textbox
+            - generic [ref=f187e311]:
+              - generic [ref=f187e313]:
+                - generic [ref=f187e314]: LinkedIn Profile*
+                - textbox "LinkedIn Profile" [ref=f187e315]
+              - paragraph [ref=f187e318]: Share a link to your LI profile.
+          - button "Submit application" [ref=f187e320] [cursor=pointer]
+  - contentinfo [ref=f187e321]:
+    - generic [ref=f187e322]:
+      - paragraph [ref=f187e323]: Powered by
+      - link [ref=f187e324] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f187e325]
+  - iframe [ref=f187e339]:
+    - generic [ref=f188e6]:
+      - text: protected by
+      - strong [ref=f188e7]: reCAPTCHA

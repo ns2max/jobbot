@@ -1,0 +1,452 @@
+- generic [ref=f531e3]:
+  - link "Skip to main content" [ref=f531e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - main [ref=f531e6]:
+    - navigation [ref=f531e8]:
+      - generic [ref=f531e9]:
+        - generic [ref=f531e10]:
+          - link "Samsara home" [ref=f531e11] [cursor=pointer]:
+            - /url: /
+          - link [ref=f531e19] [cursor=pointer]:
+            - /url: /company/careers
+            - paragraph [ref=f531e20]: Careers
+        - button "Open navigation menu" [ref=f531e21] [cursor=pointer]
+    - generic [ref=f531e26]:
+      - generic [ref=f531e29]:
+        - generic [ref=f531e30]:
+          - link "Back to All Jobs" [ref=f531e31] [cursor=pointer]:
+            - /url: /company/careers/roles
+          - heading "Staff Machine Learning Engineer - Edge AI" [level=2] [ref=f531e35]
+          - paragraph [ref=f531e36]: Remote - US
+          - paragraph [ref=f531e37]: ID:JR00088 (for internal use only)
+        - button "Apply Now" [ref=f531e40] [cursor=pointer]
+      - generic [ref=f531e43]:
+        - generic [ref=f531e44]:
+          - heading "Samsara's Mission" [level=3] [ref=f531e45]
+          - paragraph [ref=f531e46]: Improve the safety, efficiency, and sustainability of the operations that power the global economy.
+          - link [ref=f531e47] [cursor=pointer]:
+            - /url: /blog/the-samsara-culture-playbook
+        - generic [ref=f531e51]:
+          - generic [ref=f531e52]:
+            - paragraph [ref=f531e53]:
+              - strong [ref=f531e55]: Who we are
+            - paragraph [ref=f531e56]: "Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale."
+            - paragraph [ref=f531e57]: Working at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you’ll have the autonomy and support to make an impact as we build for the long term.
+          - paragraph [ref=f531e58]:
+            - strong [ref=f531e59]: "About the role:"
+          - paragraph [ref=f531e60]: The Samsara AI team builds end-to-end AI solutions for our customers as well as core ML infrastructure for Samsara. As a Staff Machine Learning Engineer, you will be working with petabyte-scale sensor, diagnostic, video, and text data to solve critical problems for Physical Operations customers, globally. You will work closely with ML Engineers and Scientists, as well as full-stack and firmware engineers to deliver core product features, services, and optimizations.
+          - paragraph [ref=f531e61]:
+            - strong [ref=f531e62]: This is a remote position open to candidates residing in the United States. This position requires travel up to 5% of the time. Relocation assistance will not be provided for this role.
+          - paragraph [ref=f531e63]:
+            - strong [ref=f531e64]: "You should apply if:"
+          - list [ref=f531e65]:
+            - listitem [ref=f531e66]:
+              - strong [ref=f531e67]: "You want to impact the industries that run our world:"
+              - text: The software, firmware, and hardware you build will result in real-world impact—helping to keep the lights on, get food into grocery stores, and most importantly, ensure workers return home safely.
+            - listitem [ref=f531e68]:
+              - strong [ref=f531e69]: "You are a life-long learner:"
+              - text: We have ambitious goals. Every Samsarian has a growth mindset as we work with a wide range of technologies, challenges, and customers that push us to learn on the go.
+            - listitem [ref=f531e70]:
+              - strong [ref=f531e71]: "You believe customers are more than a number:"
+              - text: Samsara engineers enjoy a rare closeness to the end user and you will have the opportunity to participate in customer interviews, collaborate with customer success and product managers, and use metrics to ensure our work is translating into better customer outcomes.
+            - listitem [ref=f531e72]:
+              - strong [ref=f531e73]: "You are a team player:"
+              - text: Working on our Samsara Engineering teams requires a mix of independent effort and collaboration. Motivated by our mission, we’re all racing toward our connected operations vision, and we intend to win—together.
+          - heading [level=4] [ref=f531e74]:
+            - strong [ref=f531e75]: "In this role, you will:"
+          - list [ref=f531e76]:
+            - listitem [ref=f531e77]: Lead design and implementation of critical AI product initiatives on Edge devices.
+            - listitem [ref=f531e78]: Develop both tactical AI solutions as well as more strategic and longer term research.
+            - listitem [ref=f531e79]: Work with petabyte-scale data from customer operations including text, transactions, diagnostics, sensor, camera, and location data.
+            - listitem [ref=f531e80]: Partner across business units to explore and prototype new AI experiences and optimize the ML model performance on edge devices.
+            - listitem [ref=f531e81]: Stay connected to industry and academic research and adopt novel technology that suits Samsara’s needs.
+            - listitem [ref=f531e82]: Champion, role model, and embed Samsara’s cultural principles (Focus on Customer Success, Build for the Long Term, Adopt a Growth Mindset, Be Inclusive, Win as a Team) as we scale globally and across new offices
+          - paragraph [ref=f531e83]:
+            - strong [ref=f531e84]: "Minimum requirements for the role:"
+          - list [ref=f531e85]:
+            - listitem [ref=f531e86]: 8+ years experience as a Machine Learning Engineer.
+            - listitem [ref=f531e87]: Profound experience in optimizing ML models and systems for Edge compute constraints.
+            - listitem [ref=f531e88]: Coding in python or similar.
+            - listitem [ref=f531e89]: Coding in C++ or Rust.
+            - listitem [ref=f531e90]: Strong functional knowledge of the iterative machine learning product development process.
+            - listitem [ref=f531e91]: Experienced in developing and shipping production code at large scale.
+            - listitem [ref=f531e92]: Ability to distill informal or ambiguous customer and business requirements into crisp problem definitions.
+            - listitem [ref=f531e93]: Proven ability to communicate verbally and in writing to technical peers and leadership teams with various levels of technical knowledge.
+            - listitem [ref=f531e94]: Experience coaching and mentoring ML Engineers.
+          - paragraph [ref=f531e95]:
+            - strong [ref=f531e96]: "An ideal candidate also has:"
+          - list [ref=f531e97]:
+            - listitem [ref=f531e98]: Proficiency in self-serving with data for experiments and model training at scale.
+            - listitem [ref=f531e99]: An established record of successful high impact deliveries in AI.
+            - listitem [ref=f531e100]: Deep knowledge in state of the art Computer Vision and multi-model models.
+          - generic [ref=f531e102]:
+            - paragraph [ref=f531e104]: The range of annual base salary for full-time employees for this position is below. Please note that base pay offered may vary depending on factors including your city of residence, job-related knowledge, skills, and experience. This role is also eligible for an initial RSU grant with no vesting cliff, and ongoing refresh opportunities tied to performance, subject to plan terms and conditions. Learn more about our total rewards and benefits below.
+            - generic [ref=f531e105]: Annual Base Salary
+            - generic [ref=f531e106]: $178,640—$319,000 USD
+          - generic [ref=f531e107]:
+            - paragraph [ref=f531e108]:
+              - strong [ref=f531e109]: Total Rewards
+            - paragraph [ref=f531e110]:
+              - text: At Samsara, we build for the people who keep the global economy moving. We want owners, not passengers, which is why
+              - link "our rewards" [ref=f531e111] [cursor=pointer]:
+                - /url: https://www.samsara.com/company/careers/benefits
+              - text: are designed to fuel high-impact builders. Our compensation program delivers above-market total compensation through a combination of base salary, performance-based bonus/variable pay, and equity (for eligible roles) in a high-growth public company. We meaningfully differentiate pay for our top performers, who have the opportunity to earn above-market compensation that can outpace the broader market over time.
+            - paragraph [ref=f531e112]: "Beyond compensation, we provide the foundations that enable long-term success: a flexible, employee-led remote model, a professional development stipend, comprehensive health and parental leave plans, and more. If you’re ready to build for the long term and own the outcome, your journey starts here."
+            - paragraph [ref=f531e113]:
+              - strong [ref=f531e114]: Flexible Working
+            - paragraph [ref=f531e115]: At Samsara, we embrace a flexible working model that caters to the diverse needs of our teams. Our offices are open for those who prefer to work in-person and we also support remote work where it aligns with our operational requirements. For certain positions, being close to one of our offices or within a specific geographic area is important to facilitate collaboration, access to resources, or alignment with our service regions. In these cases, the job description will clearly indicate any working location requirements. Our goal is to ensure that all members of our team can contribute effectively, whether they are working on-site, in a hybrid model, or fully remotely. All offers of employment are contingent upon an individual’s ability to secure and maintain the legal right to work at the company and in the specified work location, if applicable.
+            - paragraph [ref=f531e116]:
+              - strong [ref=f531e117]: Belonging at Samsara
+            - paragraph [ref=f531e118]: At Samsara, we welcome everyone regardless of their background. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, gender, gender identity, sexual orientation, protected veteran status, disability, age, and other characteristics protected by law. We depend on the unique approaches of our team members to help us solve complex problems and want to ensure that Samsara is a place where people from all backgrounds can make an impact.
+            - paragraph [ref=f531e119]:
+              - strong [ref=f531e120]: Accommodations
+            - paragraph [ref=f531e121]:
+              - text: Samsara is an inclusive work environment, and we are committed to ensuring equal opportunity in employment for qualified persons with disabilities. Please email
+              - link "accessibleinterviewing@samsara.com" [ref=f531e122] [cursor=pointer]:
+                - /url: mailto:accessibleinterviewing@samsara.com
+              - text: or
+              - link "click here" [ref=f531e123] [cursor=pointer]:
+                - /url: https://forms.gle/DrM6DFQUiSgfPtCVA
+              - text: if you require any reasonable accommodations throughout the recruiting process.
+            - paragraph [ref=f531e124]:
+              - strong [ref=f531e125]: Our Commitment to Authenticity
+            - paragraph [ref=f531e126]:
+              - text: We use
+              - link "Tofu" [ref=f531e127] [cursor=pointer]:
+                - /url: https://hiretofu.com/privacyPolicy
+              - text: ", a fraud detection tool, to validate the authenticity of applications and protect against identity fraud. This ensures we are connecting with real people and allows us to prioritize genuine candidates. Please see Samsara’s"
+              - link "Candidate Privacy Notice" [ref=f531e128] [cursor=pointer]:
+                - /url: https://www.samsara.com/legal/candidate-privacy-notice
+              - text: for more information.
+            - paragraph [ref=f531e129]:
+              - strong [ref=f531e130]: Fraudulent Employment Offers
+            - paragraph [ref=f531e131]:
+              - text: Samsara is aware of scams involving fake job interviews and offers. Please know we do not charge fees to applicants at any stage of the hiring process. Official communication about your application will only come from emails ending in @samsara.com, @us-greenhouse-mail.io or @mail3.guide.co. For more information regarding fraudulent employment offers, please visit our
+              - link "blog post here" [ref=f531e132] [cursor=pointer]:
+                - /url: https://samsara.com/blog/avoiding-fake-job-offers
+              - text: .
+      - generic [ref=f531e139]:
+        - paragraph [ref=f531e140]: "Job Application for:"
+        - heading "Staff Machine Learning Engineer - Edge AI" [level=2] [ref=f531e141]
+        - paragraph [ref=f531e142]: Remote - US
+    - generic [ref=f531e150]:
+      - link "Samsara home page" [ref=f531e151] [cursor=pointer]:
+        - /url: /
+      - navigation "Footer navigation" [ref=f531e154]:
+        - generic [ref=f531e155]:
+          - heading [level=3] [ref=f531e156]:
+            - button "Products" [ref=f531e157] [cursor=pointer]:
+              - generic [ref=f531e159]: "[ + ]"
+          - region "Products":
+            - list [ref=f531e160]:
+              - listitem [ref=f531e161]:
+                - link "Cameras and Video" [ref=f531e162] [cursor=pointer]:
+                  - /url: /products/cameras
+              - listitem [ref=f531e163]:
+                - link "AI Multicam" [ref=f531e164] [cursor=pointer]:
+                  - /url: /products/cameras/ai-multicam-system
+              - listitem [ref=f531e165]:
+                - link "Driver Experience" [ref=f531e166] [cursor=pointer]:
+                  - /url: /products/workforce-management/driver-experience
+              - listitem [ref=f531e167]:
+                - link "Driver Coaching" [ref=f531e168] [cursor=pointer]:
+                  - /url: /products/cameras/driver-coaching
+              - listitem [ref=f531e169]:
+                - link "Drowsiness Detection" [ref=f531e170] [cursor=pointer]:
+                  - /url: /products/cameras/drowsiness-detection
+              - listitem [ref=f531e171]:
+                - link "Safety Reporting & Insights" [ref=f531e172] [cursor=pointer]:
+                  - /url: /products/cameras/reporting-and-insights
+              - listitem [ref=f531e173]:
+                - link "Equipment Management" [ref=f531e174] [cursor=pointer]:
+                  - /url: /products/equipment-tracking
+              - listitem [ref=f531e175]:
+                - link "Trailer Tracking" [ref=f531e176] [cursor=pointer]:
+                  - /url: /products/equipment-tracking/trailer-tracking
+              - listitem [ref=f531e177]:
+                - link "Asset Tracking" [ref=f531e178] [cursor=pointer]:
+                  - /url: /products/equipment-tracking/asset-tracking
+              - listitem [ref=f531e179]:
+                - link "Asset Tag" [ref=f531e180] [cursor=pointer]:
+                  - /url: /products/equipment-tracking/asset-tag
+              - listitem [ref=f531e181]:
+                - link "Fleet Telematics" [ref=f531e182] [cursor=pointer]:
+                  - /url: /products/telematics
+              - listitem [ref=f531e183]:
+                - link "GPS Fleet Tracking" [ref=f531e184] [cursor=pointer]:
+                  - /url: /products/telematics/gps-fleet-tracking
+              - listitem [ref=f531e185]:
+                - link "Maintenance" [ref=f531e186] [cursor=pointer]:
+                  - /url: /products/telematics/fleet-maintenance
+              - listitem [ref=f531e187]:
+                - link "Routing & Dispatch" [ref=f531e188] [cursor=pointer]:
+                  - /url: /products/telematics/routing
+              - listitem [ref=f531e189]:
+                - link "Commercial Navigation" [ref=f531e190] [cursor=pointer]:
+                  - /url: /products/telematics/commercial-navigation
+              - listitem [ref=f531e191]:
+                - link "Electric Vehicles" [ref=f531e192] [cursor=pointer]:
+                  - /url: /solutions/fleet-electrification
+              - listitem [ref=f531e193]:
+                - link "First Net" [ref=f531e194] [cursor=pointer]:
+                  - /url: /products/telematics/firstnet
+              - listitem [ref=f531e195]:
+                - link "Samsara Apps" [ref=f531e196] [cursor=pointer]:
+                  - /url: /products/samsara-apps
+              - listitem [ref=f531e197]:
+                - link "Fuel Savings Calculator" [ref=f531e198] [cursor=pointer]:
+                  - /url: /products/telematics/fleet-fuel-savings-calculator
+              - listitem [ref=f531e199]:
+                - link "DVIR" [ref=f531e200] [cursor=pointer]:
+                  - /url: /products/samsara-apps/dvir
+              - listitem [ref=f531e201]:
+                - link "ELD Compliance" [ref=f531e202] [cursor=pointer]:
+                  - /url: /products/samsara-apps/eld-compliance
+              - listitem [ref=f531e203]:
+                - link "Connected Training" [ref=f531e204] [cursor=pointer]:
+                  - /url: /products/samsara-apps/connected-training
+              - listitem [ref=f531e205]:
+                - link "Connected Workflows" [ref=f531e206] [cursor=pointer]:
+                  - /url: /products/samsara-apps/connected-forms
+              - listitem [ref=f531e207]:
+                - link "Samsara Platform" [ref=f531e208] [cursor=pointer]:
+                  - /url: /products/platform
+              - listitem [ref=f531e209]:
+                - link "Samsara Intelligence" [ref=f531e210] [cursor=pointer]:
+                  - /url: /products/platform/ai-samsara-intelligence
+              - listitem [ref=f531e211]:
+                - link "Incident Center" [ref=f531e212] [cursor=pointer]:
+                  - /url: /products/platform/incident-center
+              - listitem [ref=f531e213]:
+                - link "Site Security" [ref=f531e214] [cursor=pointer]:
+                  - /url: /products/site-visibility
+              - listitem [ref=f531e215]:
+                - link "All Product Hardware" [ref=f531e216] [cursor=pointer]:
+                  - /url: /products/models
+        - generic [ref=f531e217]:
+          - heading [level=3] [ref=f531e218]:
+            - button "Industries" [ref=f531e219] [cursor=pointer]:
+              - generic [ref=f531e221]: "[ + ]"
+          - region "Industries":
+            - list [ref=f531e222]:
+              - listitem [ref=f531e223]:
+                - link "Transportation & Logistics" [ref=f531e224] [cursor=pointer]:
+                  - /url: /industries/logistics
+              - listitem [ref=f531e225]:
+                - link "Construction" [ref=f531e226] [cursor=pointer]:
+                  - /url: /industries/construction
+              - listitem [ref=f531e227]:
+                - link "Food & Beverage" [ref=f531e228] [cursor=pointer]:
+                  - /url: /industries/food-and-beverage
+              - listitem [ref=f531e229]:
+                - link "Passenger Transit" [ref=f531e230] [cursor=pointer]:
+                  - /url: /industries/passenger-transit
+              - listitem [ref=f531e231]:
+                - link "Field Services" [ref=f531e232] [cursor=pointer]:
+                  - /url: /industries/field-services
+              - listitem [ref=f531e233]:
+                - link "Public Sector" [ref=f531e234] [cursor=pointer]:
+                  - /url: /industries/public-sector
+              - listitem [ref=f531e235]:
+                - link "K-12" [ref=f531e236] [cursor=pointer]:
+                  - /url: /industries/public-sector/k-12
+              - listitem [ref=f531e237]:
+                - link "Government" [ref=f531e238] [cursor=pointer]:
+                  - /url: /industries/public-sector/state-local-government
+              - listitem [ref=f531e239]:
+                - link "Higher Education" [ref=f531e240] [cursor=pointer]:
+                  - /url: /industries/public-sector/higher-education
+        - generic [ref=f531e241]:
+          - heading [level=3] [ref=f531e242]:
+            - button "Integrations" [ref=f531e243] [cursor=pointer]:
+              - generic [ref=f531e245]: "[ + ]"
+          - region "Integrations":
+            - list [ref=f531e246]:
+              - listitem [ref=f531e247]:
+                - link "OEM Partnerships" [ref=f531e248] [cursor=pointer]:
+                  - /url: /products/telematics/oem-integrations
+              - listitem [ref=f531e249]:
+                - link "Pre-Delivery Installation" [ref=f531e250] [cursor=pointer]:
+                  - /url: /products/telematics/pre-delivery-installation
+              - listitem [ref=f531e251]:
+                - link "App Marketplace" [ref=f531e252] [cursor=pointer]:
+                  - /url: /products/app-marketplace
+              - listitem [ref=f531e253]:
+                - link "Expert Marketplace" [ref=f531e254] [cursor=pointer]:
+                  - /url: /resources/experts
+        - generic [ref=f531e255]:
+          - heading [level=3] [ref=f531e256]:
+            - button "For Developers" [ref=f531e257] [cursor=pointer]:
+              - generic [ref=f531e259]: "[ + ]"
+          - region "For Developers":
+            - list [ref=f531e260]:
+              - listitem [ref=f531e261]:
+                - link "Developer APIs" [ref=f531e262] [cursor=pointer]:
+                  - /url: /api
+              - listitem [ref=f531e263]:
+                - link "API Changelog" [ref=f531e264] [cursor=pointer]:
+                  - /url: /developers/changelog
+              - listitem [ref=f531e265]:
+                - link "Developer Portal" [ref=f531e266] [cursor=pointer]:
+                  - /url: /support/developers
+        - generic [ref=f531e267]:
+          - heading [level=3] [ref=f531e268]:
+            - button "Resources" [ref=f531e269] [cursor=pointer]:
+              - generic [ref=f531e271]: "[ + ]"
+          - region "Resources":
+            - list [ref=f531e272]:
+              - listitem [ref=f531e273]:
+                - link "Customer Stories" [ref=f531e274] [cursor=pointer]:
+                  - /url: /resources/customers
+              - listitem [ref=f531e275]:
+                - link "Samsara Community" [ref=f531e276] [cursor=pointer]:
+                  - /url: https://community.samsara.com
+              - listitem [ref=f531e277]:
+                - link "Support Center" [ref=f531e278] [cursor=pointer]:
+                  - /url: https://kb.samsara.com/hc/en-us
+              - listitem [ref=f531e279]:
+                - link "Customer Referral Program" [ref=f531e280] [cursor=pointer]:
+                  - /url: /referrals
+              - listitem [ref=f531e281]:
+                - link "Partner Programs" [ref=f531e282] [cursor=pointer]:
+                  - /url: /resources/partner-programs
+              - listitem [ref=f531e283]:
+                - link "Events" [ref=f531e284] [cursor=pointer]:
+                  - /url: /events/live
+              - listitem [ref=f531e285]:
+                - link "Webinars" [ref=f531e286] [cursor=pointer]:
+                  - /url: /webinars
+              - listitem [ref=f531e287]:
+                - link "Guides" [ref=f531e288] [cursor=pointer]:
+                  - /url: /resources/guides
+              - listitem [ref=f531e289]:
+                - link "Customer Webstore" [ref=f531e290] [cursor=pointer]:
+                  - /url: https://cloud.samsara.com/webstore
+              - listitem [ref=f531e291]:
+                - link "Samsara Signals" [ref=f531e292] [cursor=pointer]:
+                  - /url: /resources/samsara-signals
+        - generic [ref=f531e293]:
+          - heading [level=3] [ref=f531e294]:
+            - button "Company" [ref=f531e295] [cursor=pointer]:
+              - generic [ref=f531e297]: "[ + ]"
+          - region "Company":
+            - list [ref=f531e298]:
+              - listitem [ref=f531e299]:
+                - link "Pricing and Plans" [ref=f531e300] [cursor=pointer]:
+                  - /url: /resources/plans
+              - listitem [ref=f531e301]:
+                - link "About Us" [ref=f531e302] [cursor=pointer]:
+                  - /url: /company/about
+              - listitem [ref=f531e303]:
+                - link "Careers" [ref=f531e304] [cursor=pointer]:
+                  - /url: /company/careers
+              - listitem [ref=f531e305]:
+                - link "Belonging" [ref=f531e306] [cursor=pointer]:
+                  - /url: /company/belonging
+              - listitem [ref=f531e307]:
+                - link "Investor Relations" [ref=f531e308] [cursor=pointer]:
+                  - /url: https://investors.samsara.com/overview/default.aspx
+              - listitem [ref=f531e309]:
+                - link "Samsara Ventures" [ref=f531e310] [cursor=pointer]:
+                  - /url: /samsara-ventures
+              - listitem [ref=f531e311]:
+                - link "News" [ref=f531e312] [cursor=pointer]:
+                  - /url: /company/news
+              - listitem [ref=f531e313]:
+                - link "Blog" [ref=f531e314] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=f531e315]:
+                - link "Privacy" [ref=f531e316] [cursor=pointer]:
+                  - /url: /company/privacy
+              - listitem [ref=f531e317]:
+                - link "Security" [ref=f531e318] [cursor=pointer]:
+                  - /url: /legal/security
+              - listitem [ref=f531e319]:
+                - link "Contact" [ref=f531e320] [cursor=pointer]:
+                  - /url: /company/contact
+              - listitem [ref=f531e321]:
+                - link "Trademarks and Goods" [ref=f531e322] [cursor=pointer]:
+                  - /url: /legal/trademarks-and-goods
+              - listitem [ref=f531e323]:
+                - link "Why Choose Samsara" [ref=f531e324] [cursor=pointer]:
+                  - /url: /resources/why-samsara
+      - generic [ref=f531e325]:
+        - button "Select language" [ref=f531e326] [cursor=pointer]:
+          - combobox "Select region" [ref=f531e336]:
+            - option "English (CA)"
+            - option "Français (CA)"
+            - option "Deutsch (DE,AT,CH)"
+            - option "Français (FR)"
+            - option "Español (MX)"
+            - option "Nederlands (NL,BE,LU)"
+            - option "English (UK)"
+            - option "English (US)" [disabled] [selected]
+        - list [ref=f531e339]:
+          - listitem [ref=f531e340]:
+            - link "Samsara on Facebook" [ref=f531e341] [cursor=pointer]:
+              - /url: https://www.facebook.com/SamsaraHQ/
+          - listitem [ref=f531e346]:
+            - link "Samsara on X" [ref=f531e347] [cursor=pointer]:
+              - /url: https://x.com/Samsara
+          - listitem [ref=f531e351]:
+            - link "Samsara on Instagram" [ref=f531e352] [cursor=pointer]:
+              - /url: https://www.instagram.com/samsara.iot
+          - listitem [ref=f531e359]:
+            - link "Samsara on LinkedIn" [ref=f531e360] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/samsara/
+          - listitem [ref=f531e364]:
+            - link "Samsara on YouTube" [ref=f531e365] [cursor=pointer]:
+              - /url: https://www.youtube.com/c/SamsaraHQ
+      - generic [ref=f531e369]:
+        - navigation "Legal" [ref=f531e370]:
+          - link "Privacy Policy (opens in new tab)" [ref=f531e371] [cursor=pointer]:
+            - /url: /support/privacy
+            - text: Privacy Policy
+          - link "Candidate Privacy Notice (opens in new tab)" [ref=f531e372] [cursor=pointer]:
+            - /url: /legal/candidate-privacy-notice
+            - text: Candidate Privacy Notice
+          - link "Website Terms of Service (opens in new tab)" [ref=f531e373] [cursor=pointer]:
+            - /url: /legal/website-terms-of-service
+            - text: Website Terms of Service
+          - link "Cookie Policy (opens in new tab)" [ref=f531e374] [cursor=pointer]:
+            - /url: /legal/cookie-policy
+            - text: Cookie Policy
+          - button "Your Privacy Choices" [ref=f531e375] [cursor=pointer]
+          - link "Email Preference Center (opens in new tab)" [ref=f531e376] [cursor=pointer]:
+            - /url: /resources/content/email-preferences-center
+            - text: Email Preference Center
+          - link "Hardware Warranty (opens in new tab)" [ref=f531e377] [cursor=pointer]:
+            - /url: /support/hardware-warranty
+            - text: Hardware Warranty
+          - link "Product Terms of Service (opens in new tab)" [ref=f531e378] [cursor=pointer]:
+            - /url: /legal/platform-terms-of-service
+            - text: Product Terms of Service
+          - link "Hosted Software SLA (opens in new tab)" [ref=f531e379] [cursor=pointer]:
+            - /url: /legal/hosted-software-sla
+            - text: Hosted Software SLA
+          - link "Partner Code of Conduct (opens in new tab)" [ref=f531e380] [cursor=pointer]:
+            - /url: /legal/partner-code-of-conduct
+            - text: Partner Code of Conduct
+          - link "Data Protection Addendum (opens in new tab)" [ref=f531e381] [cursor=pointer]:
+            - /url: /legal/data-protection-addendum
+            - text: Data Protection Addendum
+          - link "Modern Slavery Statement (opens in new tab)" [ref=f531e382] [cursor=pointer]:
+            - /url: /support/modern-slavery-statement
+            - text: Modern Slavery Statement
+        - paragraph [ref=f531e383]: © 2026 Samsara Inc. All rights reserved.
+    - link "View open roles" [ref=f531e385] [cursor=pointer]:
+      - /url: /company/careers/roles
+  - generic [ref=f531e387]:
+    - paragraph [ref=f531e389]: Choose another country or region to see content specific to your location
+    - generic [ref=f531e390]:
+      - combobox "Select region" [ref=f531e393]:
+        - option "Change country" [disabled] [selected]
+        - option "English (CA)"
+        - option "Français (CA)"
+        - option "Deutsch (DE,AT,CH)"
+        - option "Français (FR)"
+        - option "Español (MX)"
+        - option "Nederlands (NL,BE,LU)"
+        - option "English (UK)"
+        - option "English (US)"
+      - button "Dismiss country selector" [ref=f531e394] [cursor=pointer]

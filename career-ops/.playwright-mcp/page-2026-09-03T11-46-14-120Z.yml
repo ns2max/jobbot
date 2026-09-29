@@ -1,0 +1,414 @@
+- generic [active] [ref=f22e1]:
+  - img "Banner" [ref=f22e3]
+  - paragraph [ref=f22e10]: The job you are looking for is no longer open.
+  - main [ref=f22e11]:
+    - generic [ref=f22e12]:
+      - link [ref=f22e14] [cursor=pointer]:
+        - /url: https://www.valtech.com/career/jobs/
+        - img "Valtech Logo" [ref=f22e15]
+      - heading "Current openings at Valtech" [level=1] [ref=f22e16]
+      - generic [ref=f22e21]:
+        - paragraph [ref=f22e22]: Create a Job Alert
+        - paragraph [ref=f22e23]: Level-up your career by having opportunities at Valtech sent directly to your inbox.
+        - link "Create alert" [ref=f22e24] [cursor=pointer]:
+          - /url: https://my.greenhouse.io/users/sign_in?job_board=valtech&source=job_alert_board
+      - generic [ref=f22e25]:
+        - generic [ref=f22e26]:
+          - generic [ref=f22e28]:
+            - generic [ref=f22e29]: Search
+            - textbox "Search" [ref=f22e30]
+          - generic [ref=f22e32]:
+            - generic [ref=f22e33]: Department
+            - generic [ref=f22e34]:
+              - log [ref=f22e36]
+              - generic [ref=f22e38]:
+                - generic [ref=f22e39]:
+                  - generic [ref=f22e40]: Select...
+                  - combobox "Department" [ref=f22e42]
+                - button "Toggle flyout" [ref=f22e44] [cursor=pointer]
+          - generic [ref=f22e48]:
+            - generic [ref=f22e49]: Office
+            - generic [ref=f22e50]:
+              - log [ref=f22e52]
+              - generic [ref=f22e54]:
+                - generic [ref=f22e55]:
+                  - generic [ref=f22e56]: Select...
+                  - combobox "Office" [ref=f22e58]
+                - button "Toggle flyout" [ref=f22e60] [cursor=pointer]
+        - generic [ref=f22e63]:
+          - heading "125 jobs" [level=2] [ref=f22e64]
+          - generic [ref=f22e65]:
+            - generic [ref=f22e66]:
+              - heading "Client Growth" [level=3] [ref=f22e67]
+              - table [ref=f22e69]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f22e70]:
+                      - paragraph [ref=f22e71]: Job
+                - rowgroup [ref=f22e72]:
+                  - row [ref=f22e73]:
+                    - cell [ref=f22e74]:
+                      - link [ref=f22e75] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4939044101
+                        - paragraph [ref=f22e76]: Account Executive
+                        - paragraph [ref=f22e77]: São Paulo
+                  - row [ref=f22e78]:
+                    - cell [ref=f22e79]:
+                      - link [ref=f22e80] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4770631101
+                        - paragraph [ref=f22e81]: Business Development Lead - Singapore
+                        - paragraph [ref=f22e82]: Singapore City
+                  - row [ref=f22e83]:
+                    - cell [ref=f22e84]:
+                      - link [ref=f22e85] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4628848101
+                        - paragraph [ref=f22e86]: Client Partner
+                        - paragraph [ref=f22e87]: Utrecht
+                  - row [ref=f22e88]:
+                    - cell [ref=f22e89]:
+                      - link [ref=f22e90] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4940009101
+                        - paragraph [ref=f22e91]: Client Partner
+                        - paragraph [ref=f22e92]: São Paulo
+                  - row [ref=f22e93]:
+                    - cell [ref=f22e94]:
+                      - link [ref=f22e95] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4822310101
+                        - paragraph [ref=f22e96]: Client Partner
+                        - paragraph [ref=f22e97]: Charlotte
+                  - row [ref=f22e98]:
+                    - cell [ref=f22e99]:
+                      - link [ref=f22e100] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4907453101
+                        - paragraph [ref=f22e101]: New Business Director - DACH - (all genders)
+                        - paragraph [ref=f22e102]: Munich
+                  - row [ref=f22e103]:
+                    - cell [ref=f22e104]:
+                      - link [ref=f22e105] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4908209101
+                        - paragraph [ref=f22e106]: New Business Director - DACH - (all genders)
+                        - paragraph [ref=f22e107]: Dusseldorf
+                  - row [ref=f22e108]:
+                    - cell [ref=f22e109]:
+                      - link [ref=f22e110] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4922446101
+                        - paragraph [ref=f22e111]: New Business Executive - DACH - (all genders)
+                        - paragraph [ref=f22e112]: Munich
+                  - row [ref=f22e113]:
+                    - cell [ref=f22e114]:
+                      - link [ref=f22e115] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4926305101
+                        - paragraph [ref=f22e116]: New Business Executive - DACH - (all genders)
+                        - paragraph [ref=f22e117]: Dusseldorf
+                  - row [ref=f22e118]:
+                    - cell [ref=f22e119]:
+                      - link [ref=f22e120] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4932271101
+                        - paragraph [ref=f22e121]: Pre Sales Manager
+                        - paragraph [ref=f22e122]: Bengaluru
+                  - row [ref=f22e123]:
+                    - cell [ref=f22e124]:
+                      - link [ref=f22e125] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4954603101
+                        - paragraph [ref=f22e126]: Senior Bid Manager - DACH - (all genders)
+                        - paragraph [ref=f22e127]: Munich
+                  - row [ref=f22e128]:
+                    - cell [ref=f22e129]:
+                      - link [ref=f22e130] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4957806101
+                        - paragraph [ref=f22e131]: Senior Bid Manager - DACH - (all genders)
+                        - paragraph [ref=f22e132]: Dusseldorf
+                  - row [ref=f22e133]:
+                    - cell [ref=f22e134]:
+                      - link [ref=f22e135] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4879561101
+                        - paragraph [ref=f22e136]: Senior Client Partner (all genders)
+                        - paragraph [ref=f22e137]: Munich
+                  - row [ref=f22e138]:
+                    - cell [ref=f22e139]:
+                      - link [ref=f22e140] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4947305101
+                        - paragraph [ref=f22e141]: Technology Consultant
+                        - paragraph [ref=f22e142]: Bengaluru
+            - generic [ref=f22e143]:
+              - heading "Data" [level=3] [ref=f22e144]
+              - table [ref=f22e146]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f22e147]:
+                      - paragraph [ref=f22e148]: Job
+                - rowgroup [ref=f22e149]:
+                  - row [ref=f22e150]:
+                    - cell [ref=f22e151]:
+                      - link [ref=f22e152] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4877795101
+                        - paragraph [ref=f22e153]: Data Director
+                        - paragraph [ref=f22e154]: London
+                  - row [ref=f22e155]:
+                    - cell [ref=f22e156]:
+                      - link "Data Engineer New United States - Remote" [ref=f22e157] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4964189101
+                        - paragraph [ref=f22e158]:
+                          - text: Data Engineer
+                          - generic [ref=f22e159]: New
+                        - paragraph [ref=f22e161]: United States - Remote
+                  - row [ref=f22e162]:
+                    - cell [ref=f22e163]:
+                      - link "Data Engineer Snowflake/Agentic AI New Bogotá" [ref=f22e164] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4959409101
+                        - paragraph [ref=f22e165]:
+                          - text: Data Engineer Snowflake/Agentic AI
+                          - generic [ref=f22e166]: New
+                        - paragraph [ref=f22e168]: Bogotá
+                  - row [ref=f22e169]:
+                    - cell [ref=f22e170]:
+                      - link [ref=f22e171] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4927887101
+                        - paragraph [ref=f22e172]: Data Scientist Google ADK
+                        - paragraph [ref=f22e173]: Canada - Remote
+                  - row [ref=f22e174]:
+                    - cell [ref=f22e175]:
+                      - link "Data Scientist Mid-Level New Brazil - Remote" [ref=f22e176] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4960674101
+                        - paragraph [ref=f22e177]:
+                          - text: Data Scientist Mid-Level
+                          - generic [ref=f22e178]: New
+                        - paragraph [ref=f22e180]: Brazil - Remote
+                  - row [ref=f22e181]:
+                    - cell [ref=f22e182]:
+                      - link "Data Scientist Mid-Level New Mexico - Remote" [ref=f22e183] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4961230101
+                        - paragraph [ref=f22e184]:
+                          - text: Data Scientist Mid-Level
+                          - generic [ref=f22e185]: New
+                        - paragraph [ref=f22e187]: Mexico - Remote
+                  - row [ref=f22e188]:
+                    - cell [ref=f22e189]:
+                      - link "Data Scientist Mid-Level New Argentina - Remote" [ref=f22e190] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4960676101
+                        - paragraph [ref=f22e191]:
+                          - text: Data Scientist Mid-Level
+                          - generic [ref=f22e192]: New
+                        - paragraph [ref=f22e194]: Argentina - Remote
+                  - row [ref=f22e195]:
+                    - cell [ref=f22e196]:
+                      - link [ref=f22e197] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4877498101
+                        - paragraph [ref=f22e198]: Lead Gemini Enterprise Agent Platform Engineer
+                        - paragraph [ref=f22e199]: Paris
+                  - row [ref=f22e200]:
+                    - cell [ref=f22e201]:
+                      - link [ref=f22e202] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4906584101
+                        - paragraph [ref=f22e203]: Senior Data Architect — Snowflake & AI
+                        - paragraph [ref=f22e204]: Geneva
+                  - row [ref=f22e205]:
+                    - cell [ref=f22e206]:
+                      - link [ref=f22e207] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4954177101
+                        - paragraph [ref=f22e208]: Senior Data Scientist
+                        - paragraph [ref=f22e209]: Brazil - Remote
+                  - row [ref=f22e210]:
+                    - cell [ref=f22e211]:
+                      - link [ref=f22e212] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4957195101
+                        - paragraph [ref=f22e213]: Senior Data Scientist
+                        - paragraph [ref=f22e214]: Argentina - Remote
+            - generic [ref=f22e215]:
+              - heading "Delivery Management" [level=3] [ref=f22e216]
+              - table [ref=f22e218]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f22e219]:
+                      - paragraph [ref=f22e220]: Job
+                - rowgroup [ref=f22e221]:
+                  - row [ref=f22e222]:
+                    - cell [ref=f22e223]:
+                      - link [ref=f22e224] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4873662101
+                        - paragraph [ref=f22e225]: AI Product Manager / Product Owner – Google Cloud & AI Search
+                        - paragraph [ref=f22e226]: Paris
+                  - row [ref=f22e227]:
+                    - cell [ref=f22e228]:
+                      - link [ref=f22e229] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4670122101
+                        - paragraph [ref=f22e230]: Business Analyst XStore SIOCS
+                        - paragraph [ref=f22e231]: Paris
+                  - row [ref=f22e232]:
+                    - cell [ref=f22e233]:
+                      - link [ref=f22e234] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4907733101
+                        - paragraph [ref=f22e235]: Engineering & Delivery Manager
+                        - paragraph [ref=f22e236]: Paris
+                  - row [ref=f22e237]:
+                    - cell [ref=f22e238]:
+                      - link [ref=f22e239] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4781315101
+                        - paragraph [ref=f22e240]: eRetail Engineering Manager / AI-Driven Delivery
+                        - paragraph [ref=f22e241]: Paris
+                  - row [ref=f22e242]:
+                    - cell [ref=f22e243]:
+                      - link "Lead Product Manager New London" [ref=f22e244] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4963399101
+                        - paragraph [ref=f22e245]:
+                          - text: Lead Product Manager
+                          - generic [ref=f22e246]: New
+                        - paragraph [ref=f22e248]: London
+                  - row [ref=f22e249]:
+                    - cell [ref=f22e250]:
+                      - link "Lead Product Manager New Manchester" [ref=f22e251] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4963481101
+                        - paragraph [ref=f22e252]:
+                          - text: Lead Product Manager
+                          - generic [ref=f22e253]: New
+                        - paragraph [ref=f22e255]: Manchester
+                  - row [ref=f22e256]:
+                    - cell [ref=f22e257]:
+                      - link [ref=f22e258] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4799832101
+                        - paragraph [ref=f22e259]: Product Owner
+                        - paragraph [ref=f22e260]: Montreal
+                  - row [ref=f22e261]:
+                    - cell [ref=f22e262]:
+                      - link "Product Owner / Project Manager New Canada - Remote" [ref=f22e263] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4964256101
+                        - paragraph [ref=f22e264]:
+                          - text: Product Owner / Project Manager
+                          - generic [ref=f22e265]: New
+                        - paragraph [ref=f22e267]: Canada - Remote
+                  - row [ref=f22e268]:
+                    - cell [ref=f22e269]:
+                      - link [ref=f22e270] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4670109101
+                        - paragraph [ref=f22e271]: Program Manager
+                        - paragraph [ref=f22e272]: Paris
+                  - row [ref=f22e273]:
+                    - cell [ref=f22e274]:
+                      - link [ref=f22e275] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4670848101
+                        - paragraph [ref=f22e276]: Project Manager
+                        - paragraph [ref=f22e277]: Paris
+                  - row [ref=f22e278]:
+                    - cell [ref=f22e279]:
+                      - link [ref=f22e280] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4955302101
+                        - paragraph [ref=f22e281]: Project Manager Sr
+                        - paragraph [ref=f22e282]: Brazil - Remote
+                  - row [ref=f22e283]:
+                    - cell [ref=f22e284]:
+                      - link [ref=f22e285] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4765692101
+                        - paragraph [ref=f22e286]: Retail IT / Delivery Domain Manager
+                        - paragraph [ref=f22e287]: Paris
+                  - row [ref=f22e288]:
+                    - cell [ref=f22e289]:
+                      - link [ref=f22e290] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4895728101
+                        - paragraph [ref=f22e291]: Salesforce Marketing Cloud Developer Junior
+                        - paragraph [ref=f22e292]: Brazil - Remote
+                  - row [ref=f22e293]:
+                    - cell [ref=f22e294]:
+                      - link [ref=f22e295] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4945513101
+                        - paragraph [ref=f22e296]: Salesforce Marketing Cloud Developer Sr
+                        - paragraph [ref=f22e297]: Brazil - Remote
+                  - row [ref=f22e298]:
+                    - cell [ref=f22e299]:
+                      - link [ref=f22e300] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4937208101
+                        - paragraph [ref=f22e301]: Scrum Master
+                        - paragraph [ref=f22e302]: Paris
+                  - row [ref=f22e303]:
+                    - cell [ref=f22e304]:
+                      - link [ref=f22e305] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4907743101
+                        - paragraph [ref=f22e306]: Technical Director
+                        - paragraph [ref=f22e307]: Paris
+                  - row [ref=f22e308]:
+                    - cell [ref=f22e309]:
+                      - link [ref=f22e310] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4670103101
+                        - paragraph [ref=f22e311]: Technical Product Owner
+                        - paragraph [ref=f22e312]: Paris
+            - generic [ref=f22e313]:
+              - heading "Design & Experience" [level=3] [ref=f22e314]
+              - table [ref=f22e316]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f22e317]:
+                      - paragraph [ref=f22e318]: Job
+                - rowgroup [ref=f22e319]:
+                  - row [ref=f22e320]:
+                    - cell [ref=f22e321]:
+                      - link [ref=f22e322] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4908349101
+                        - paragraph [ref=f22e323]: Senior SEO Content Strategist
+                        - paragraph [ref=f22e324]: Portugal - Remote
+                  - row [ref=f22e325]:
+                    - cell [ref=f22e326]:
+                      - link [ref=f22e327] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4881383101
+                        - paragraph [ref=f22e328]: Senior SEO Content Strategist
+                        - paragraph [ref=f22e329]: Poland - Remote
+                  - row [ref=f22e330]:
+                    - cell [ref=f22e331]:
+                      - link [ref=f22e332] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4861716101
+                        - paragraph [ref=f22e333]: Senior UX/UI Designer
+                        - paragraph [ref=f22e334]: Stockholm
+                  - row [ref=f22e335]:
+                    - cell [ref=f22e336]:
+                      - link "UX Designer - C3 - CXP New Bengaluru" [ref=f22e337] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4963589101
+                        - paragraph [ref=f22e338]:
+                          - text: UX Designer - C3 - CXP
+                          - generic [ref=f22e339]: New
+                        - paragraph [ref=f22e341]: Bengaluru
+            - generic [ref=f22e342]:
+              - heading "Engineering" [level=3] [ref=f22e343]
+              - table [ref=f22e345]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f22e346]:
+                      - paragraph [ref=f22e347]: Job
+                - rowgroup [ref=f22e348]:
+                  - row [ref=f22e349]:
+                    - cell [ref=f22e350]:
+                      - link [ref=f22e351] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4930080101
+                        - paragraph [ref=f22e352]: AEM Technical Lead
+                        - paragraph [ref=f22e353]: Canada - Remote
+                  - row [ref=f22e354]:
+                    - cell [ref=f22e355]:
+                      - link [ref=f22e356] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4930082101
+                        - paragraph [ref=f22e357]: AEM Technical Lead
+                        - paragraph [ref=f22e358]: Montreal
+                  - row [ref=f22e359]:
+                    - cell [ref=f22e360]:
+                      - link [ref=f22e361] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4949952101
+                        - paragraph [ref=f22e362]: Backend Developer
+                        - paragraph [ref=f22e363]: Brazil - Remote
+                  - row [ref=f22e364]:
+                    - cell [ref=f22e365]:
+                      - link [ref=f22e366] [cursor=pointer]:
+                        - /url: https://job-boards.eu.greenhouse.io/valtech/jobs/4908335101
+                        - paragraph [ref=f22e367]: Lead Appian Development Consultant
+                        - paragraph [ref=f22e368]: Edinburgh
+          - navigation "Pagination" [ref=f22e370]:
+            - button "Previous page" [disabled] [ref=f22e371]
+            - list [ref=f22e374]:
+              - listitem [ref=f22e375]:
+                - button "Go to page 1": "1"
+              - listitem [ref=f22e376]:
+                - button "Go to page 2" [ref=f22e377] [cursor=pointer]: "2"
+              - listitem [ref=f22e378]:
+                - button "Go to page 3" [ref=f22e379] [cursor=pointer]: "3"
+            - button "Next page" [ref=f22e380] [cursor=pointer]
+  - contentinfo [ref=f22e383]:
+    - generic [ref=f22e384]:
+      - paragraph [ref=f22e385]: Powered by
+      - link [ref=f22e386] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f22e387]

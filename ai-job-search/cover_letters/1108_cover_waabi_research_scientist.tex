@@ -1,0 +1,69 @@
+% Job posting: https://jobs.lever.co/waabi/17dda427-f822-4e89-bff7-2b9541fb3a9d
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: Waabi - Research Scientist, Autonomy & Algorithms (Toronto / Remote CA)
+%  Variant: V2 (AI-Research), domain-transfer framing
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Research Scientist | Real-Time Multimodal ML, Benchmarks \& Open Datasets}
+\newcommand{\clRole}{Research Scientist}
+\newcommand{\clCompany}{Waabi}
+\newcommand{\clTeam}{the Autonomy \& Algorithms team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Research Scientist role on the Autonomy and Algorithms team at Waabi. I am a research scientist in real-time multimodal machine learning, with a PhD from the University of Trento and ten years across industry and academia. My subfield is not self-driving, and I want to be direct about that. What I bring is a decade of work on the problems underneath it: fusing heterogeneous sensor streams under hard timing constraints, modeling behavior with hierarchical state machines, generating synthetic data where labels are scarce, and proving that a model holds up with benchmarks rather than hope.
+
+Concretely: during my postdoc I built a real-time pipeline that synchronized audio, inertial, neural and mixed-reality tracking data across four participants at once. At McGill I fused inertial and audio streams through a hierarchical state machine that moved between idle, pattern and gesture modes, reaching F1 0.78 on a 500-event corpus. My published detector runs inference in 14 ms on embedded hardware, 74 times faster than the baseline it replaced. I have designed four open datasets used as detection benchmarks and I review for IEEE venues. The transfer to perception, motion forecasting, behavior modeling and sensor simulation is real, and I would expect to spend my first months closing the gap on the autonomy literature while contributing on the sensor-fusion and evaluation side from day one.
+
+Waabi is the reason I would make that move. The June result, transferring the Waabi Driver to a new vehicle platform with no retraining and no training examples, is exactly the kind of generalization I find most interesting, and it rhymes with the training-free and zero-shot methods in my own work. A single end-to-end system that learns and is provably safe, backed by Waabi World, is a research bet worth being part of, and it is based in Toronto.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship and available immediately. I would welcome the opportunity to discuss how my background in real-time multimodal ML can support \clTeam{} at Waabi. My publications, datasets and portfolio are at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

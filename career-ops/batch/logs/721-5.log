@@ -1,0 +1,19 @@
+Hard stop. Role location: NYC/SF — US only, no Canada option. Profile policy (`modes/_profile.md`) — Canada-only scope, non-Canadian roles hard exclude: **no evaluate, no score, no report/CV**. Also role itself (Data Scientist, GTM — B2B SaaS causal inference/analytics) don't match ML/AI research engineer archetypes anyway.
+
+Skipping full pipeline per hard-exclude rule. No report, no PDF, no tracker line written.
+
+```json
+{
+  "status": "failed",
+  "id": "5",
+  "report_num": "721",
+  "company": "Anthropic",
+  "role": "Data Scientist, GTM",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: location NYC/SF (US), no Canada option — violates Canada-only scope policy in modes/_profile.md. Also role archetype (GTM data science/causal inference) doesn't match ML/AI research engineer target roles."
+}
+```
+
+Nada generado — pol​icy dice no evaluar roles US-only. Siguiente oferta.

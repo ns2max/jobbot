@@ -1,0 +1,345 @@
+- main [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - generic [ref=e9]:
+      - button "open hamburger menu" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: "7"
+      - text:    
+      - link "Bell Home" [ref=e18] [cursor=pointer]:
+        - /url: https://jobs.bell.ca/ca/en/home
+        - figure [ref=e19]:
+          - img "Bell Home" [ref=e21]
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - generic [ref=e27]:
+            - button "Language selected EN EN" [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+              - generic [ref=e31]: Language selected
+              - generic [ref=e32]: EN
+              - generic: EN
+              - generic [ref=e33]: 
+            - text:  $
+        - listitem:
+          - generic:  
+        - listitem [ref=e37]:
+          - link "0 Saved jobs" [ref=e41] [cursor=pointer]:
+            - /url: https://jobs.bell.ca/ca/en/jobcart
+            - generic [ref=e42]: Q
+            - text: P
+            - generic [ref=e44]: (0)
+  - main [ref=e45]:
+    - generic [ref=e46]: "-"
+    - generic [ref=e48]:
+      - generic:
+        - generic:
+          - region "cookies message" [ref=e49]:
+            - generic [ref=e50]:
+              - generic [ref=e51]: We use cookies to offer you a better browsing experience, analyze site traffic, and personalize content. Read about how we use cookies and how you can control them by visiting our Cookie Settings page. If you continue to use this site, you consent to our use of cookies.
+              - generic [ref=e52]:
+                - button "Click here to change your Cookie Settings" [ref=e53] [cursor=pointer]: Cookie Settings
+                - text: $
+                - button "Allow" [ref=e54] [cursor=pointer]:  Allow
+          - text: 
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - banner [ref=e59]:
+            - figure [ref=e61]:
+              - img "banner-gradient" [ref=e63]
+          - region [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - heading "Data Scientist II" [level=1] [ref=e70]
+                - generic [ref=e72]:
+                  - generic [ref=e73]:
+                    - generic [ref=e75]:
+                      - generic [ref=e76]: Category
+                      - text: Technology
+                    - generic [ref=e79]:
+                      - generic [ref=e80]: Job Id
+                      - text: "431879"
+                  - generic [ref=e83]:
+                    - generic "Data Scientist II BECACA431879EXTERNALENCA Job available in 2 locations" [ref=e84]: Job available in 2 locations
+                    - list [ref=e85]:
+                      - listitem "Mississauga, Ontario" [ref=e86]
+                      - listitem "Montreal, Quebec" [ref=e88]
+              - generic [ref=e90]:
+                - button "Apply Now for BECACA431879EXTERNALENCA" [ref=e91] [cursor=pointer]:
+                  - generic [ref=e92]: Apply now
+                - generic [ref=e94]:
+                  - checkbox "Save Data Scientist II to job cart" [ref=e95] [cursor=pointer]
+                  - generic [ref=e96] [cursor=pointer]: Save job
+        - generic [ref=e101]:
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - paragraph [ref=e108]:
+                - generic [ref=e110]:
+                  - strong [ref=e111]: "Req Id:"
+                  - text: "431879"
+              - paragraph [ref=e112]
+              - paragraph [ref=e113]: Connection is everything. It drives us to innovate, explore, and stay close to what matters to us most. At Bell, we’re building a more connected future through world-class networks, AI-powered solutions, and digital experiences that elevate how people live, work, and play every day.
+              - paragraph [ref=e114]
+              - paragraph [ref=e115]: "We believe in empowering people. That’s why we equip our teams with cutting-edge technology, AI tools, and a collaborative environment that supports creativity and growth. Want to be part of a diverse team where your work makes a real impact? If you’re inspired by innovation that advances how people connect and transforms what’s possible, you belong on #TeamBell."
+              - paragraph [ref=e116]
+              - paragraph [ref=e117]
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - heading "Summary" [level=2] [ref=e121]
+                  - generic [ref=e122]:
+                    - paragraph [ref=e123]
+                    - paragraph [ref=e124]: The successful candidate will hold a key role within the Consumer Business Intelligence (CBI) group, acting as the technical lead and primary AI capability builder for a highly delivery focused team. In this hands-on capacity, you will guide the shift from AI experimentation to production deployment by delivering priority use cases and establishing robust engineering standards across the vertical.Operating at the forefront of applied artificial intelligence, you will provide technical guidance and direction to the broader team on AI solutioning and architecture. This role requires an intense focus on building and deploying scalable agentic workflows, machine learning models, and integrations across our enterprise stack to unlock immediate business value.
+                - generic [ref=e125]:
+                  - heading "Key Responsibilities" [level=2] [ref=e127]
+                  - generic [ref=e128]:
+                    - paragraph [ref=e129]
+                    - list [ref=e130]:
+                      - listitem [ref=e131]: Design, build and deploy end-to-end production artificial intelligence solutions to address priority business needs
+                      - listitem [ref=e132]: Develop agentic workflows and multi-agent orchestration on enterprise platforms including Gemini Enterprise, AWS Bedrock and Azure AI Foundry
+                      - listitem [ref=e133]: Architect and optimize retrieval-augmented generation pipelines including chunking, embedding, vector store design and grounding
+                      - listitem [ref=e134]: Lead machine learning model development from initial feature engineering through evaluation, explainability and production monitoring
+                      - listitem [ref=e135]: Establish rigorous engineering standards covering Git workflows, code review, repository structure, testing, continuous integration and deployment
+                      - listitem [ref=e136]: Build robust data and integration pipelines connecting enterprise systems including Teradata, BigQuery and Salesforce
+                      - listitem [ref=e137]: Provide technical leadership and hands-on guidance to upskill team members on advanced artificial intelligence techniques
+                      - listitem [ref=e138]: Partner with business intelligence stakeholders to assess feasibility, effort, risk and value for incoming use casesImplement responsible evaluation practices encompassing accuracy testing, hallucination guardrails, human-in-the-loop controls and cost monitoringMaintain a continuous awareness of the rapidly evolving technological landscape to introduce new capabilities to the team
+                - generic [ref=e139]:
+                  - heading "Critical Qualifications" [level=2] [ref=e141]
+                  - generic [ref=e142]:
+                    - paragraph [ref=e143]
+                    - list [ref=e144]:
+                      - listitem [ref=e145]: Bachelor’s or Master’s degree in computer science, data science, engineering, statistics or a related field
+                      - listitem [ref=e146]: 2 or more years of hands-on data science, machine learning or AI engineering experience with demonstrated production delivery
+                      - listitem [ref=e147]: Advanced proficiency in Python and SQL with extensive enterprise data warehouse experience such as Teradata
+                      - listitem [ref=e148]: Demonstrated hands-on generative AI delivery including agentic workflows and retrieval-augmented generation supported by a portfolio or practical experience
+                      - listitem [ref=e149]: Hands-on experience building solutions on at least one major cloud artificial intelligence platform
+                      - listitem [ref=e150]: Solid machine learning foundations with framework experience including scikit-learn, XGBoost, PyTorch or TensorFlow
+                      - listitem [ref=e151]: Deep expertise in Git-based development workflows and modern software engineering best practices
+                      - listitem [ref=e152]: Passion for maintaining a forward-looking mindset with a strong willingness to challenge conventional approaches to artificial intelligence
+                      - listitem [ref=e153]: Ability to work in a fast paced, dynamic environment and manage multiple projects through effective prioritization
+                      - listitem [ref=e154]: Ability to communicate effectively with all levels of the organization, including the ability to grasp complex AI concepts and explain them clearly to large non-technical audiences
+                      - listitem [ref=e155]: Strong data analytical and problem solving skills and demonstrated ability to be highly creative in formulating solutions
+                - generic [ref=e156]:
+                  - heading "Preferred Qualifications" [level=2] [ref=e158]
+                  - generic [ref=e159]:
+                    - paragraph [ref=e160]
+                    - list [ref=e161]:
+                      - listitem [ref=e162]: Familiarity with cloud-based technologies and services, such as AWS or Google. Relevant certifications (e.g., Google & AWS Certified Solutions Architect, Google Cloud Generative AI Leader) are an asset
+                      - listitem [ref=e163]: Strong understanding of MLOps and LLMOps practices for deploying and managing models at scale
+                      - listitem [ref=e164]: Advanced modelling and optimization techniques such as constraint programming and operations research
+                      - listitem [ref=e165]: Experience with Salesforce, Tableau or comparable customer relationship management and business intelligence platforms
+                      - listitem [ref=e166]: Bilingual (French/English) is an asset
+                      - listitem [ref=e167]: Telco experience is considered an asset
+                    - paragraph [ref=e168]: "#LI-SS1"
+              - paragraph [ref=e169]
+              - paragraph [ref=e170]:
+                - generic [ref=e171]: Adequate knowledge of French is required for positions in Quebec.
+              - paragraph [ref=e172]
+              - paragraph [ref=e173]:
+                - strong [ref=e177]: "Additional Information:"
+              - paragraph [ref=e178]:
+                - generic [ref=e180]:
+                  - strong [ref=e181]: "Position Type:"
+                  - text: Management
+                  - strong [ref=e182]: "Job Status:"
+                  - text: Regular - Full Time
+                  - strong [ref=e183]: "Job Location:"
+                  - text: "Canada : Ontario : Mississauga || Canada : Quebec : Montreal"
+                  - strong [ref=e184]
+                  - strong [ref=e185]: "Work Arrangement:"
+                  - text: Hybrid
+                  - strong [ref=e186]
+                  - strong [ref=e187]: "Application Deadline:"
+                  - text: 09/11/2026
+                  - strong [ref=e188]
+              - paragraph [ref=e189]
+              - paragraph [ref=e190]:
+                - generic [ref=e191]: For work arrangements that are ‘Hybrid’, successful candidates must be based in Canada and report to a set Bell office for a minimum of 3 days a week. Recognizing the importance of work-life balance, Bell offers flexibility in work hours based on the business needs.
+              - paragraph [ref=e192]
+              - paragraph [ref=e193]:
+                - strong [ref=e196]: Please apply directly online to be considered for this role. Applications through email will not be accepted.
+              - paragraph [ref=e197]
+              - paragraph [ref=e198]:
+                - generic [ref=e199]: We know that caring for our team members is at the heart of a healthy, positive and thriving workplace. As part of our team, you’ll enjoy a comprehensive compensation package that includes a competitive salary and a wide range of benefits to support the well-being of you and your family. As soon as you join us, you'll be eligible for medical, dental, vision and mental health benefits that you can tailor to your specific needs. Plus, as a Bell team member, you'll enjoy a 35% discount on our services and access exclusive offers from our partners.
+              - paragraph [ref=e200]
+              - paragraph [ref=e201]:
+                - generic [ref=e202]: At Bell, we are proud of our focus on fostering an inclusive and accessible workplace where all team members feel valued, respected, supported, and that they belong.
+              - paragraph [ref=e204]
+              - paragraph [ref=e205]:
+                - generic [ref=e207]:
+                  - text: Bell is committed to clarity in our hiring process. All roles posted are opportunities we’re actively recruiting for, unless stated otherwise. We also want to make sure that everyone has an equal opportunity to join our team. We encourage individuals who may require accommodations during the hiring process to let us know. For a confidential inquiry, email your recruiter or
+                  - link "recruitment@bell.ca" [ref=e208] [cursor=pointer]:
+                    - /url: mailto:recruitment@bell.ca
+                  - generic [ref=e209]:
+                    - text: to make arrangements.
+                    - generic [ref=e210]:
+                      - text: If you have questions or feedback regarding accessibility at Bell, we invite you to complete the
+                      - link "Accessibility feedback form" [ref=e211] [cursor=pointer]:
+                        - /url: https://www.bce.ca/Accessibility_services/Accessibility_Feedback?brand=bce
+                    - generic [ref=e212]:
+                      - text: or visit our
+                      - link "Accessibility page" [ref=e213] [cursor=pointer]:
+                        - /url: https://www.bce.ca/Accessibility_services
+                    - text: for other ways to contact us.
+              - paragraph [ref=e214]
+              - paragraph [ref=e215]:
+                - generic [ref=e217]:
+                  - text: Artificial intelligence may be used to assess parts of your application. Please review our privacy policy (
+                  - link "see Phenom for details" [ref=e218] [cursor=pointer]:
+                    - /url: https://www.phenom.com/talent-acquisition
+                  - text: ) to learn more about how we collect, use, and disclose your personal information.
+              - paragraph [ref=e219]
+              - paragraph [ref=e220]:
+                - generic [ref=e221]: "Created: Canada, ON, Don Mills"
+              - paragraph [ref=e222]
+              - paragraph [ref=e223]:
+                - strong [ref=e226]:
+                  - text: Bell, one of
+                  - link "Canada's Top 100 Employers." [ref=e227] [cursor=pointer]:
+                    - /url: https://reviews.canadastop100.com/top-employer-bell?lang=en
+            - generic [ref=e232]:
+              - button "Explore location" [ref=e233] [cursor=pointer]: 
+              - text: $
+            - generic [ref=e236]:
+              - button "Apply for BECACA431879EXTERNALENCA" [ref=e237] [cursor=pointer]:
+                - generic [ref=e238]: Apply now
+              - generic [ref=e240]:
+                - checkbox "Save Data Scientist II to job cart" [ref=e241] [cursor=pointer]
+                - generic [ref=e242] [cursor=pointer]: Save job
+          - complementary [ref=e245]:
+            - region "Get notified for similar jobs" [ref=e248]:
+              - generic [ref=e249]:
+                - generic [ref=e250]:
+                  - heading "Get notified for similar jobs" [level=2] [ref=e251]
+                  - paragraph [ref=e254]: Sign up to receive job alerts
+                - generic [ref=e258]:
+                  - textbox "Please enter your email address" [ref=e259]:
+                    - /placeholder: your@email.com
+                  - button "Submit" [ref=e260] [cursor=pointer]
+              - generic: l $
+            - region "Upload profile" [ref=e264]:
+              - generic [ref=e268]:
+                - heading "Get tailored job recommendations based on your interests." [level=2] [ref=e270]
+                - button "Get started to tailored job recommendations based on your interests" [ref=e275] [cursor=pointer]: Get Started
+              - text:    
+            - generic:  b b b
+            - region "Similar Jobs" [ref=e278]:
+              - generic [ref=e279]:
+                - heading "Similar Jobs" [level=2] [ref=e281]
+                - list [ref=e285]:
+                  - listitem [ref=e286]:
+                    - generic [ref=e287]:
+                      - heading [level=3] [ref=e288]:
+                        - link "Senior Security Delivery Solution Architect II Job Id is 429789" [ref=e289] [cursor=pointer]:
+                          - /url: https://jobs.bell.ca/ca/en/job/BECACA429789EXTERNALENCA/Senior-Security-Delivery-Solution-Architect-II
+                          - generic [ref=e290]: Senior Security Delivery Solution Architect II
+                      - paragraph [ref=e291]:
+                        - generic [ref=e293]:
+                          - generic [ref=e294]: Location
+                          - text: Ottawa, Ontario
+                        - generic [ref=e297]:
+                          - generic [ref=e298]: Category
+                          - text: Technology
+                  - listitem [ref=e299]:
+                    - generic [ref=e300]:
+                      - heading [level=3] [ref=e301]:
+                        - link "Senior Security Architect Job Id is 431546" [ref=e302] [cursor=pointer]:
+                          - /url: https://jobs.bell.ca/ca/en/job/BECACA431546EXTERNALENCA/Senior-Security-Architect
+                          - generic [ref=e303]: Senior Security Architect
+                      - paragraph [ref=e304]:
+                        - button "Available in 3 locations" [ref=e307] [cursor=pointer]
+                        - generic [ref=e311]:
+                          - generic [ref=e312]: Category
+                          - text: Technology
+                  - listitem [ref=e313]:
+                    - generic [ref=e314]:
+                      - heading [level=3] [ref=e315]:
+                        - link "Bilingual Senior Technical Architect I (SDWAN) Job Id is 431390" [ref=e316] [cursor=pointer]:
+                          - /url: https://jobs.bell.ca/ca/en/job/BECACA431390EXTERNALENCA/Bilingual-Senior-Technical-Architect-I-SDWAN
+                          - generic [ref=e317]: Bilingual Senior Technical Architect I (SDWAN)
+                      - paragraph [ref=e318]:
+                        - generic [ref=e320]:
+                          - generic [ref=e321]: Location
+                          - text: Montreal, Quebec
+                        - generic [ref=e324]:
+                          - generic [ref=e325]: Category
+                          - text: Technology
+            - generic:  b b b
+            - generic [ref=e329]:
+              - heading "Share this opportunity" [level=1] [ref=e331]
+              - list [ref=e335]:
+                - listitem [ref=e336]:
+                  - button "Share via LinkedIn" [ref=e337] [cursor=pointer]
+                - listitem [ref=e340]:
+                  - button "Share via Facebook" [ref=e341] [cursor=pointer]
+                - listitem [ref=e344]:
+                  - button "Share via twitter" [ref=e345] [cursor=pointer]
+                - listitem [ref=e348]:
+                  - button "Share via email" [ref=e349] [cursor=pointer]
+  - generic [ref=e352]:
+    - text:  
+    - contentinfo [ref=e355]:
+      - generic [ref=e357]:
+        - generic [ref=e358]:
+          - generic [ref=e360]:
+            - heading "CAREERS AT BELL" [level=3] [ref=e362]
+            - list [ref=e363]:
+              - listitem [ref=e364]:
+                - link "Join talent community" [ref=e365] [cursor=pointer]
+              - listitem [ref=e366]:
+                - link "Browse categories" [ref=e367] [cursor=pointer]
+              - listitem [ref=e368]:
+                - link "Students & graduates" [ref=e369] [cursor=pointer]
+          - generic [ref=e371]:
+            - heading "LIFE AT BELL" [level=3] [ref=e373]
+            - list [ref=e374]:
+              - listitem [ref=e375]:
+                - link "Benefits" [ref=e376] [cursor=pointer]
+              - listitem [ref=e377]:
+                - link "Bell for Better" [ref=e378] [cursor=pointer]
+              - listitem [ref=e379]:
+                - link "opens in new window" [ref=e380] [cursor=pointer]:
+                  - /url: https://letstalk.bell.ca/en/
+                  - text: Bell Let’s Talk 
+        - list [ref=e382]:
+          - listitem [ref=e383]:
+            - link "facebook" [ref=e384] [cursor=pointer]:
+              - /url: https://www.facebook.com/BellCanada
+              - generic [ref=e385]: C
+          - listitem [ref=e386]:
+            - link "linkedin" [ref=e387] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/bell
+              - generic [ref=e388]: 
+          - listitem [ref=e389]:
+            - link "twitter" [ref=e390] [cursor=pointer]:
+              - /url: https://twitter.com/Bell
+              - generic [ref=e391]: 
+          - listitem [ref=e392]:
+            - link "youtube" [ref=e393] [cursor=pointer]:
+              - /url: https://www.youtube.com/bellcanada
+              - generic [ref=e394]: 
+          - listitem [ref=e395]:
+            - link "Blog" [ref=e396] [cursor=pointer]:
+              - /url: https://forum.bell.ca/t5/Bell-Community-Blog/bg-p/Blog
+        - generic [ref=e399]:
+          - paragraph [ref=e400]:
+            - generic [ref=e401]: © Bell Canada, 2026. All rights reserved.
+          - list [ref=e403]:
+            - listitem [ref=e404]:
+              - link "opnes in new window" [ref=e405] [cursor=pointer]:
+                - /url: https://www.bell.ca/Security_and_privacy/How_we_collect_and_use_data#cookiesSection
+                - text: Cookie Settings 
+            - listitem [ref=e406]:
+              - link "Personal Information" [ref=e407] [cursor=pointer]
+            - listitem [ref=e408]:
+              - link "opnes in new window" [ref=e409] [cursor=pointer]:
+                - /url: https://www.bell.ca/Security_and_privacy/Commitment_to_privacy
+                - text: Privacy 
+            - listitem [ref=e410]:
+              - link "opnes in new window" [ref=e411] [cursor=pointer]:
+                - /url: https://support.bell.ca/Billing-and-Accounts/Security_and_privacy
+                - text: Security 
+            - listitem [ref=e412]:
+              - link "opnes in new window" [ref=e413] [cursor=pointer]:
+                - /url: https://www.bell.ca/Legal_and_terms#INT=OTH_legal_TXT_Footer
+                - text: Legal & Regulatory 
+      - button "Back to top" [ref=e415] [cursor=pointer]

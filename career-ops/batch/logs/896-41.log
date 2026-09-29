@@ -1,0 +1,18 @@
+Anthropic role locations: NYC, SF, Seattle — all US, no remote/Canada option. `modes/_profile.md` hard rule: Canada-only scope, non-Canadian roles are hard exclude — **do not evaluate, score, or generate CV/report**. Stopping pipeline here.
+
+```json
+{
+  "status": "skipped",
+  "id": "41",
+  "report_num": "896",
+  "company": "Anthropic",
+  "role": "Research Engineer, Visual Knowledge Work",
+  "score": null,
+  "legitimacy": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude per modes/_profile.md location policy: role locations (NYC/SF/Seattle) are US-only, no Canada/remote option. Canada-only scope excludes evaluation."
+}
+```
+
+No report/PDF/tracker line created — per policy this doesn't get scored, not even as SKIP entry.

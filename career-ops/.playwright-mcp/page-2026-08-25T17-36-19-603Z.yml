@@ -1,0 +1,148 @@
+- generic [ref=f155e2]:
+  - list [ref=f155e4]:
+    - listitem [ref=f155e5]:
+      - link [ref=f155e6] [cursor=pointer]:
+        - /url: https://www.baseten.co/
+        - img "Baseten" [ref=f155e7]
+    - listitem [ref=f155e8]:
+      - link "Back to Baseten’s Job Listings" [ref=f155e9] [cursor=pointer]:
+        - /url: /baseten
+    - listitem
+  - generic [ref=f155e12]:
+    - heading "AI Inference Engineer" [level=1] [ref=f155e14]
+    - generic [ref=f155e15]:
+      - generic [ref=f155e16]:
+        - generic [ref=f155e17]:
+          - heading "Location" [level=2] [ref=f155e18]
+          - paragraph [ref=f155e19]: San Francisco; Montreal; New York; Remote; Toronto
+        - generic [ref=f155e20]:
+          - heading "Employment Type" [level=2] [ref=f155e21]
+          - paragraph [ref=f155e22]: Full time
+        - generic [ref=f155e23]:
+          - heading "Location Type" [level=2] [ref=f155e24]
+          - paragraph [ref=f155e25]: Hybrid
+        - generic [ref=f155e26]:
+          - heading "Department" [level=2] [ref=f155e27]
+          - paragraph [ref=f155e28]:
+            - generic [ref=f155e29]: EPD ›
+            - generic [ref=f155e30]: Engineering ›
+            - generic [ref=f155e31]: Forward Deployed Engineering ›
+            - generic [ref=f155e32]: FDE Generalists
+        - generic [ref=f155e33]:
+          - heading "Compensation" [level=2] [ref=f155e34]
+          - generic [ref=f155e35]:
+            - paragraph [ref=f155e36]: $165K – $330K • Offers Equity
+            - button "See More" [ref=f155e37] [cursor=pointer]
+      - generic [ref=f155e38]:
+        - tablist [ref=f155e39]:
+          - tab "Overview" [selected] [ref=f155e40] [cursor=pointer]
+          - tab "Application" [ref=f155e41] [cursor=pointer]
+        - tabpanel "Overview" [ref=f155e43]:
+          - generic [ref=f155e44]:
+            - paragraph [ref=f155e45]:
+              - strong [ref=f155e46]: ABOUT BASETEN
+            - paragraph [ref=f155e47]:
+              - text: Baseten powers mission-critical inference for the world's most dynamic AI companies, like Cursor, Notion, OpenEvidence, Abridge, Clay, Gamma and Writer. By uniting applied AI research, flexible infrastructure, and seamless developer tooling, we enable companies operating at the frontier of AI to bring cutting-edge models into production. We're growing quickly and recently raised our
+              - link "$1.5B Series F" [ref=f155e48] [cursor=pointer]:
+                - /url: https://www.baseten.co/blog/announcing-our-series-f/
+              - text: ", led by Altimeter Capital, Conviction Partners, and Spark Capital. Join us and help build the platform engineers turn to to ship AI products."
+            - paragraph [ref=f155e49]
+            - paragraph [ref=f155e50]:
+              - strong [ref=f155e51]: THE ROLE
+            - paragraph [ref=f155e52]: As a Forward Deployed Engineer at Baseten, you will partner directly with customers to architect, build, and deploy high-scale production AI applications on Baseten’s platform. You’ll own the journey with customers from initial exploration to production deployment, translating ambiguous business goals into reliable, observable services with clear quality, latency, and cost outcomes.
+            - paragraph [ref=f155e53]: This role is a great fit for entrepreneurial engineers who want a front-row view into how modern companies adopt AI at scale and who enjoy working across product, software development, performance engineering, and customer-facing implementations.
+            - paragraph [ref=f155e54]: To be clear, this is an engineering role with hands-on coding and software development that also includes aspects of product management, technical customer success, and pre-sales solution engineering mixed in.
+            - paragraph [ref=f155e55]
+            - paragraph [ref=f155e56]:
+              - strong [ref=f155e57]: EXAMPLE INITIATIVES
+            - paragraph [ref=f155e58]: "Take a look at these blog posts written by members of our Forward Deployed Engineering team:"
+            - list [ref=f155e59]:
+              - listitem [ref=f155e60]:
+                - paragraph [ref=f155e61]:
+                  - link "Forward Deployed Engineering on the frontier of AI" [ref=f155e62] [cursor=pointer]:
+                    - /url: https://www.baseten.co/blog/forward-deployed-engineering/
+              - listitem [ref=f155e63]:
+                - paragraph [ref=f155e64]:
+                  - link "The fastest, most accurate Whisper transcription" [ref=f155e65] [cursor=pointer]:
+                    - /url: https://www.baseten.co/blog/the-fastest-most-accurate-and-cost-efficient-whisper-transcription/
+              - listitem [ref=f155e66]:
+                - paragraph [ref=f155e67]:
+                  - link "Deploy production-ready model servers from Docker images" [ref=f155e68] [cursor=pointer]:
+                    - /url: https://www.baseten.co/blog/deploy-production-model-servers-from-docker-images/
+              - listitem [ref=f155e69]:
+                - paragraph [ref=f155e70]:
+                  - link "Deploy custom ComfyUI workflows as APIs" [ref=f155e71] [cursor=pointer]:
+                    - /url: https://www.baseten.co/blog/deploying-custom-comfyui-workflows-as-apis/
+            - paragraph [ref=f155e72]:
+              - strong [ref=f155e73]: RESPONSIBILITIES
+            - list [ref=f155e74]:
+              - listitem [ref=f155e75]:
+                - paragraph [ref=f155e76]: Develop and maintain software systems and product features using one or more general-purpose programming languages in a production-level environment, with a preference for Python due to its relevance in ML projects.
+              - listitem [ref=f155e77]:
+                - paragraph [ref=f155e78]: "Drive customer impact by designing, implementing, and deploying Baseten solutions end-to-end (problem framing → evaluation → production deployment → monitoring). This involves working with customers’ engineering teams at every stage of the customer journey including: sales, implementation, and expansion."
+              - listitem [ref=f155e79]:
+                - paragraph [ref=f155e80]: "Deliver with velocity: turn vague objectives into clear specs and well-defined PoCs so we can rapidly ship well-tested services and outcomes for our customers"
+              - listitem [ref=f155e81]:
+                - paragraph [ref=f155e82]: Optimize and enhance AI/ML projects, contributing to the continuous improvement of our technical stack. This includes developing features and PRDs with other engineering and product orgs.
+              - listitem [ref=f155e83]:
+                - paragraph [ref=f155e84]: Own products and customer projects end-to-end, functioning as both an engineer, project manager, and product manager, with a focus on user empathy, project specification, and end-to-end execution.
+              - listitem [ref=f155e85]:
+                - paragraph [ref=f155e86]: Navigate ambiguity and exercise good judgment on tradeoffs and tools needed to solve problems, avoiding unnecessary complexity.
+              - listitem [ref=f155e87]:
+                - paragraph [ref=f155e88]: Demonstrate pride, ownership, and accountability for your work, expecting the same from your teammates.
+                - paragraph [ref=f155e89]
+            - paragraph [ref=f155e90]:
+              - strong [ref=f155e91]: REQUIREMENTS
+            - list [ref=f155e92]:
+              - listitem [ref=f155e93]:
+                - paragraph [ref=f155e94]: Bachelor's, Master's, or Ph.D. degree in Computer Science, Engineering, Mathematics, or related field.
+              - listitem [ref=f155e95]:
+                - paragraph [ref=f155e96]: 2+ years of professional work experience in a fast-paced, high-growth environment.
+              - listitem [ref=f155e97]:
+                - paragraph [ref=f155e98]: Demonstrated experience with one or more general-purpose programming languages in a production-level environment, with a strong preference for Python.
+              - listitem [ref=f155e99]:
+                - paragraph [ref=f155e100]: Familiarity with AI/ML pipelines and the lifecycle of ML model development and deployment.
+              - listitem [ref=f155e101]:
+                - paragraph [ref=f155e102]: Strong communication skills, particularly on complex technical topics.
+              - listitem [ref=f155e103]:
+                - paragraph [ref=f155e104]: Experience in building or optimizing AI/ML projects is highly valued.
+            - paragraph [ref=f155e105]
+            - paragraph [ref=f155e106]:
+              - strong [ref=f155e107]: BENEFITS
+            - list [ref=f155e108]:
+              - listitem [ref=f155e109]:
+                - paragraph [ref=f155e110]: Competitive compensation, including meaningful equity.
+              - listitem [ref=f155e111]:
+                - paragraph [ref=f155e112]: 100% coverage of medical, dental, and vision insurance for employee and dependents
+              - listitem [ref=f155e113]:
+                - paragraph [ref=f155e114]: Flexible PTO policy including company wide Winter Break (our offices are closed from Christmas Eve to New Year's Day!)
+              - listitem [ref=f155e115]:
+                - paragraph [ref=f155e116]: Paid parental leave
+              - listitem [ref=f155e117]:
+                - paragraph [ref=f155e118]: Fertility and family-building stipend through Carrot
+              - listitem [ref=f155e119]:
+                - paragraph [ref=f155e120]: Company-facilitated 401(k)
+              - listitem [ref=f155e121]:
+                - paragraph [ref=f155e122]: Exposure to a variety of ML startups, offering unparalleled learning and networking opportunities.
+            - paragraph [ref=f155e123]:
+              - strong [ref=f155e124]: Apply now
+              - text: to embark on a rewarding journey in shaping the future of AI! If you are a motivated individual with a passion for machine learning and a desire to be part of a collaborative and forward-thinking team, we would love to hear from you.
+            - paragraph [ref=f155e125]:
+              - emphasis [ref=f155e126]: At Baseten, we are committed to fostering a diverse and inclusive workplace. We provide equal employment opportunities to all employees and applicants without regard to race, color, religion, gender, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, or veteran status.
+            - paragraph [ref=f155e127]:
+              - emphasis [ref=f155e128]: We are an Equal Opportunity Employer and will consider qualified applicants with criminal histories in a manner consistent with applicable law (by example, the requirements of the San Francisco Fair Chance Ordinance, where applicable).
+          - link [ref=f155e129] [cursor=pointer]:
+            - /url: /baseten/db6477fc-111a-4340-bf00-525fe023e6f3/application
+            - button "Apply for this Job" [ref=f155e130]
+  - contentinfo [ref=f155e131]:
+    - link "Learn more about Ashby" [ref=f155e132] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f155e133]: Powered by
+      - img "Ashby" [ref=f155e134]
+    - paragraph [ref=f155e140]:
+      - link "Privacy Policy" [ref=f155e141] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f155e142] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f155e143] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

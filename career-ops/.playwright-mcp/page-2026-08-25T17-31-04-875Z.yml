@@ -1,0 +1,144 @@
+- generic [ref=f133e2]:
+  - list [ref=f133e4]:
+    - listitem [ref=f133e5]:
+      - link [ref=f133e6] [cursor=pointer]:
+        - /url: https://cohere.com/
+        - img "Cohere" [ref=f133e7]
+    - listitem [ref=f133e8]:
+      - link "Back to Cohere’s Job Listings" [ref=f133e9] [cursor=pointer]:
+        - /url: /cohere
+    - listitem
+  - generic [ref=f133e12]:
+    - heading "Data Scientist, North Insights" [level=1] [ref=f133e14]
+    - generic [ref=f133e15]:
+      - generic [ref=f133e16]:
+        - generic [ref=f133e17]:
+          - heading "Location" [level=2] [ref=f133e18]
+          - paragraph [ref=f133e19]: United States; Canada; Montreal; New York; San Francisco; Toronto
+        - generic [ref=f133e20]:
+          - heading "Employment Type" [level=2] [ref=f133e21]
+          - paragraph [ref=f133e22]: Full time
+        - generic [ref=f133e23]:
+          - heading "Location Type" [level=2] [ref=f133e24]
+          - paragraph [ref=f133e25]: Hybrid
+        - generic [ref=f133e26]:
+          - heading "Department" [level=2] [ref=f133e27]
+          - paragraph [ref=f133e28]:
+            - generic [ref=f133e29]: Agentic Platform
+        - generic [ref=f133e30]:
+          - heading "Compensation" [level=2] [ref=f133e31]
+          - paragraph [ref=f133e33]: $150K – $225K • Offers Equity
+      - generic [ref=f133e34]:
+        - tablist [ref=f133e35]:
+          - tab "Overview" [selected] [ref=f133e36] [cursor=pointer]
+          - tab "Application" [ref=f133e37] [cursor=pointer]
+        - tabpanel "Overview" [ref=f133e39]:
+          - generic [ref=f133e40]:
+            - paragraph [ref=f133e41]:
+              - strong [ref=f133e42]: Who are we?
+            - paragraph [ref=f133e43]: Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems.
+            - paragraph [ref=f133e44]: We’re training and deploying frontier models for enterprises who are building AI systems. We believe that our work is instrumental to the widespread adoption of AI and we are looking for folks that want to be part of that.
+            - paragraph [ref=f133e45]: We obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. Cohere is a team of researchers, engineers, designers, and more, who are all passionate about their craft.
+            - paragraph [ref=f133e46]: We are a global technology company headquartered in Toronto with key offices in London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul. Join us!
+            - paragraph [ref=f133e47]:
+              - strong [ref=f133e48]: Why this role?
+            - paragraph [ref=f133e49]: "We're building the foundational infrastructure that will define how the world thinks about and deploys AI, and we want the sharpest, most curious people to help us do it. As a Data Scientist on our Analytics and Data Insights team, you'll work on problems that don't have textbook answers yet; building the analytics that shape product and company strategy, designing the experiments that prove or kill our biggest bets, and helping enterprise customers understand what foundational AI actually means for their bottom line. You'll own analytical work end-to-end: from framing the right questions and building the models to shipping insights, tools, and results that product leaders, sales teams, and enterprise customers rely on."
+            - paragraph [ref=f133e50]:
+              - strong [ref=f133e51]: "As a Data Scientist, you will:"
+            - list [ref=f133e52]:
+              - listitem [ref=f133e53]:
+                - paragraph [ref=f133e54]: Drive the mission forward.
+              - listitem [ref=f133e55]:
+                - paragraph [ref=f133e56]: "Build bleeding-edge agentic analytics: Agentic analytics is far from a solved problem, and we want to be the company that solves it. We need the sharpest minds with the curiosity, drive, and focus required to build the tools necessary to bring order and clarity to real world data."
+              - listitem [ref=f133e57]:
+                - paragraph [ref=f133e58]: "Define AI impact measurement: own the end-to-end analytics story around adoption, growth, and impact that North leadership uses to prioritize features by measured value rather than customer feedback alone."
+              - listitem [ref=f133e59]:
+                - paragraph [ref=f133e60]: "Ship customer-facing analytics: insights that our enterprise customers recognize as evidence of value created."
+              - listitem [ref=f133e61]:
+                - paragraph [ref=f133e62]: Build small language models to categorize, classify, and enrich message data to give customers visibility into how their teams are using our products in their enterprise.
+              - listitem [ref=f133e63]:
+                - paragraph [ref=f133e64]: "Design and run experiments: A/B tests, causal inference studies, and opportunity sizing that directly map to product and go-to-market decisions."
+              - listitem [ref=f133e65]:
+                - paragraph [ref=f133e66]: "Build predictive models that matter: develop and deploy models for forecasting, segmentation, propensity scoring, and opportunity sizing across Cohere's core business lines."
+              - listitem [ref=f133e67]:
+                - paragraph [ref=f133e68]: "Act like an owner: no waiting around. You'll define analytical priorities within your scope, push initiatives from question to production, and own what you build."
+            - paragraph [ref=f133e69]:
+              - strong [ref=f133e70]: "You may be a good fit, if you have:"
+            - list [ref=f133e71]:
+              - listitem [ref=f133e72]:
+                - paragraph [ref=f133e73]: Strong command of SQL, Python, and Git, alongside expertise in statistical inference, experimental design, and predictive modeling
+              - listitem [ref=f133e74]:
+                - paragraph [ref=f133e75]: A proven ability to turn ambiguous business questions into rigorous analytical problems, with clear and compelling recommendations to match
+              - listitem [ref=f133e76]:
+                - paragraph [ref=f133e77]: Experience building and deploying production models, not just notebook analysis. You know what it takes to get a classifier down the stack from prototype to production volume.
+              - listitem [ref=f133e78]:
+                - paragraph [ref=f133e79]: Familiarity with modern data stack tools such as BigQuery, dbt, Looker, or Airflow (nice to have, not essential)
+              - listitem [ref=f133e80]:
+                - paragraph [ref=f133e81]: "Genuine excitement about AI: you follow the research, have opinions, and enjoy being in the weedsComfort operating in ambiguity, managing multiple workstreams across different stakeholders, and distilling insights into a concise, actionable narrative"
+              - listitem [ref=f133e82]:
+                - paragraph [ref=f133e83]: A collaborative style grounded in empathy as much as in data; you work alongside product, research, sales, and finance, not in a silo
+            - paragraph [ref=f133e84]: If some of the above doesn't line up perfectly with your experience, we still encourage you to apply!
+            - paragraph [ref=f133e85]
+            - heading [level=2] [ref=f133e86]:
+              - strong [ref=f133e87]: "Full-Time Employees at Cohere enjoy these Perks:"
+            - list [ref=f133e88]:
+              - listitem [ref=f133e89]:
+                - paragraph [ref=f133e90]: A weekly lunch stipend of $75/£75 or equivalent in your local currency for lunch.
+              - listitem [ref=f133e91]:
+                - paragraph [ref=f133e92]: Full health and dental benefits, including a separate budget for mental health.
+              - listitem [ref=f133e93]:
+                - paragraph [ref=f133e94]: RRSP matching, 401K, Pension Scheme.
+              - listitem [ref=f133e95]:
+                - paragraph [ref=f133e96]: 100% Parental Leave top-up for up to 6 months, for either parent.
+              - listitem [ref=f133e97]:
+                - paragraph [ref=f133e98]: "Annual enrichment benefits:"
+                - paragraph [ref=f133e99]: Arts & culture, fitness/wellness, quality time, and a workspace improvement credit.
+                - paragraph [ref=f133e100]: Education & learning stipend for conferences, courses, and coaching.
+            - list [ref=f133e101]:
+              - listitem [ref=f133e102]:
+                - paragraph [ref=f133e103]: 6 weeks of paid vacation (30 working days!)
+              - listitem [ref=f133e104]:
+                - paragraph [ref=f133e105]: Budget for traveling to other offices if you are remote, plus an annual company offsite.
+            - paragraph [ref=f133e106]
+            - heading [level=2] [ref=f133e107]:
+              - strong [ref=f133e108]: "How and Where We Work:"
+            - list [ref=f133e109]:
+              - listitem [ref=f133e110]:
+                - paragraph [ref=f133e111]: Cohere is remote-friendly, but we also have offices in Toronto, London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul with more opening soon.
+              - listitem [ref=f133e112]:
+                - paragraph [ref=f133e113]: "For those in the office: a daily lunch program, plenty of snacks, and regular community and social events."
+              - listitem [ref=f133e114]:
+                - paragraph [ref=f133e115]: "For those not near an office: a co-working benefit so you can work alongside others in your city."
+              - listitem [ref=f133e116]:
+                - paragraph [ref=f133e117]: Everyone receives a $500 home office stipend to set up your workspace properly.
+                - paragraph [ref=f133e118]
+            - paragraph [ref=f133e119]: If any of the above doesn’t line up exactly with your experience, we still encourage you to apply.
+            - paragraph [ref=f133e120]:
+              - text: We strive to create an inclusive work environment for all; we welcome applicants from all backgrounds and are committed to providing equal opportunities. Should you require any accommodations during the recruitment process, please submit an
+              - link "Accommodations Request Form" [ref=f133e121] [cursor=pointer]:
+                - /url: https://docs.google.com/forms/d/12a6IrLdF3kI2nonKSr4tiFuz18rLQbaeYV-JM9L4o9Q/edit
+              - text: ", and we will work together to meet your needs."
+            - paragraph [ref=f133e122]
+            - paragraph [ref=f133e123]: We may use AI-enabled tools to screen and assess applicants against the criteria for this position. This helps our recruiters identify potentially qualified candidates, but it doesn't limit the applications our recruiters may review or consider.
+            - paragraph [ref=f133e124]
+            - paragraph [ref=f133e125]:
+              - emphasis [ref=f133e126]: "Beware of Scams: Cohere will never ask for payment or third-party services (e.g., CV writing) as part of our hiring process. All legitimate roles are listed on the Cohere careers page and LinkedIn only, with all communications from Cohere employees coming from an @cohere.com or @cw.cohere email alias. If jobs are viewed on other sites then please verify these through our"
+              - link [ref=f133e127] [cursor=pointer]:
+                - /url: https://cohere.com/careers
+                - emphasis [ref=f133e128]: official careers
+              - emphasis [ref=f133e129]: page.
+          - link [ref=f133e130] [cursor=pointer]:
+            - /url: /cohere/e4603bb7-5bbe-4f73-9556-02c93f78b2af/application
+            - button "Apply for this Job" [ref=f133e131]
+  - contentinfo [ref=f133e132]:
+    - link "Learn more about Ashby" [ref=f133e133] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f133e134]: Powered by
+      - img "Ashby" [ref=f133e135]
+    - paragraph [ref=f133e141]:
+      - link "Privacy Policy" [ref=f133e142] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f133e143] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f133e144] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

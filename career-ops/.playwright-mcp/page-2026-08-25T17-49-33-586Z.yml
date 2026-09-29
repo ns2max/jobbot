@@ -1,0 +1,177 @@
+- generic [active] [ref=f303e1]:
+  - main [ref=f303e2]:
+    - generic [ref=f303e3]:
+      - link [ref=f303e5] [cursor=pointer]:
+        - /url: https://x.ai/
+        - img "SpaceXAI Logo" [ref=f303e6]
+      - generic [ref=f303e7]:
+        - link "Back to jobs" [ref=f303e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/xai
+        - generic [ref=f303e12]:
+          - generic [ref=f303e13]:
+            - heading "Software Engineer - X Money" [level=1] [ref=f303e14]
+            - generic [ref=f303e15]: Palo Alto, California
+          - button "Apply" [ref=f303e19] [cursor=pointer]
+        - generic [ref=f303e20]:
+          - paragraph [ref=f303e22]: SpaceXAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge. Our team is small, highly motivated, and focused on engineering excellence. This organization is for individuals who appreciate challenging themselves and thrive on curiosity. We operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important. All employees are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates.
+          - generic [ref=f303e23]:
+            - heading "ABOUT THE ROLE:" [level=3] [ref=f303e24]
+            - paragraph [ref=f303e25]: We are seeking a talented Software Engineer to join our X Money team, focused on building a revolutionary global payment network that will serve over 600 million users and rival the world’s largest financial institutions. In this role, you will specialize in backend development, designing and optimizing robust microservices to ensure scalability, security, and reliability. You will support full-stack efforts, collaborate with cross-functional teams on payments, fraud detection, and compliance initiatives, and contribute to the creation of a high-scale financial products platform. This is an opportunity to work on greenfield projects in a fast-paced, startup-like environment, driving innovation at the intersection of AI and finance.
+            - generic [ref=f303e27]:
+              - heading "RESPONSIBILITIES:" [level=3] [ref=f303e28]
+              - list [ref=f303e29]:
+                - listitem [ref=f303e30]: Develop backend services, APIs, and data models to support high-volume, multi-user environments.
+                - listitem [ref=f303e31]: Work with iOS, Android & Web client engineers to ship products.
+                - listitem [ref=f303e32]: Design robust infrastructure and microservices for payments, transactions, growth, monetization, and engagement across platforms.
+                - listitem [ref=f303e33]: Build and maintain fullstack features, including user dashboards, personalized experiences, content delivery, interactive tools, assessments, and real-time analytics.
+                - listitem [ref=f303e34]: Lead architecture, scalability, and reliability decisions for high-concurrency, low-latency systems.
+                - listitem [ref=f303e35]: Uphold engineering excellence via testing, monitoring, deployment, and secure data handling.
+              - heading "BASIC QUALIFICATIONS:" [level=3] [ref=f303e36]
+              - list [ref=f303e37]:
+                - listitem [ref=f303e38]: Proficiency in distributed systems for high-scale, low-latency environments; languages like Rust, Go, Python & Java, and high volume streaming systems.
+                - listitem [ref=f303e39]: 2+ years of experience working on large scale consumer applications.
+              - heading "PREFERRED SKILLS AND EXPERIENCE:" [level=3] [ref=f303e40]
+              - list [ref=f303e41]:
+                - listitem [ref=f303e42]: 5+ years of experience working on large scale consumer applications or early-mid stage startup experience as a founding engineer, emphasizing rapid prototyping, user-centric design, and AI solutions.
+              - heading [level=3] [ref=f303e43]:
+                - strong [ref=f303e44]: "COMPENSATION AND BENEFITS:"
+              - paragraph [ref=f303e45]: $180,000 - $440,000 USD
+              - paragraph [ref=f303e46]: Base salary is just one part of our total rewards package at SpaceXAI, which also includes equity, comprehensive medical, vision, and dental coverage, access to a 401(k) retirement plan, short & long-term disability insurance, life insurance, and various other discounts and perks.
+          - paragraph [ref=f303e48]:
+            - emphasis [ref=f303e49]: SpaceXAI is an equal opportunity employer. For details on data processing, view our
+            - emphasis [ref=f303e50]:
+              - link "Recruitment Privacy Notice" [ref=f303e51] [cursor=pointer]:
+                - /url: https://x.ai/legal/recruitment-privacy-notice
+              - text: .
+        - generic [ref=f303e55]:
+          - paragraph [ref=f303e56]: Create a Job Alert
+          - paragraph [ref=f303e57]: Interested in building your career at SpaceXAI? Get future opportunities sent straight to your email.
+          - link "Create alert" [ref=f303e58] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=xai&source=job_alert_post&variant=job_alert_post_a
+      - separator [ref=f303e59]
+      - generic [ref=f303e60]:
+        - generic [ref=f303e61]:
+          - generic [ref=f303e62]:
+            - heading "Apply for this job" [level=2] [ref=f303e64]
+            - generic [ref=f303e65]:
+              - paragraph [ref=f303e67]: "*"
+              - paragraph [ref=f303e68]: indicates a required field
+          - button "Autofill my application" [ref=f303e71] [cursor=pointer]
+        - generic [ref=f303e72]:
+          - generic [ref=f303e73]:
+            - generic [ref=f303e76]:
+              - generic [ref=f303e77]: First Name*
+              - textbox "First Name" [ref=f303e78]
+            - generic [ref=f303e81]:
+              - generic [ref=f303e82]: Last Name*
+              - textbox "Last Name" [ref=f303e83]
+            - generic [ref=f303e86]:
+              - generic [ref=f303e87]: Email*
+              - textbox "Email" [ref=f303e88]
+            - group "Phone" [ref=f303e90]:
+              - generic [ref=f303e94]:
+                - generic [ref=f303e95]: Country*
+                - generic [ref=f303e96]:
+                  - log [ref=f303e98]
+                  - generic [ref=f303e100]:
+                    - combobox "Country" [ref=f303e103]
+                    - button "Toggle flyout" [ref=f303e105] [cursor=pointer]
+                  - textbox
+              - generic [ref=f303e110]:
+                - generic [ref=f303e111]: Phone*
+                - textbox "Phone" [ref=f303e113]
+            - group "Resume/CV*" [ref=f303e115]:
+              - generic [ref=f303e118]:
+                - generic [ref=f303e120]:
+                  - button "Attach" [ref=f303e121] [cursor=pointer]
+                  - generic [ref=f303e122]: Attach
+                  - button "Attach" [ref=f303e123]
+                - button "Dropbox" [ref=f303e125] [cursor=pointer]
+                - button "Google Drive" [ref=f303e127] [cursor=pointer]
+                - generic [ref=f303e129]:
+                  - button "Enter manually" [ref=f303e130] [cursor=pointer]
+                  - generic [ref=f303e131]: Enter manually
+                - paragraph [ref=f303e132]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f303e133]:
+            - separator [ref=f303e134]
+            - generic [ref=f303e137]:
+              - generic [ref=f303e138]: Full Legal Name*
+              - textbox "Full Legal Name" [ref=f303e139]
+            - generic [ref=f303e142]:
+              - generic [ref=f303e143]: Full Legal Name in Native Language (e.g. Chinese Characters, Cyrillic, Farsi etc)*
+              - textbox "Full Legal Name in Native Language (e.g. Chinese Characters, Cyrillic, Farsi etc)" [ref=f303e144]
+            - generic [ref=f303e145]:
+              - generic [ref=f303e147]:
+                - generic [ref=f303e148]: Current company
+                - textbox "Current company" [ref=f303e149]
+              - paragraph [ref=f303e152]: If you are currently employed in the field, please tell us the name of your employer.
+            - generic [ref=f303e153]:
+              - generic [ref=f303e155]:
+                - generic [ref=f303e156]: Current title
+                - textbox "Current title" [ref=f303e157]
+              - paragraph [ref=f303e160]: If you are currently employed in the field, please tell us your role including your seniority level (e.g. Software Engineer II).
+            - generic [ref=f303e163]:
+              - generic [ref=f303e164]: X Profile
+              - textbox "X Profile" [ref=f303e165]
+            - generic [ref=f303e166]:
+              - generic [ref=f303e168]:
+                - generic [ref=f303e169]: LinkedIn Profile
+                - textbox "LinkedIn Profile" [ref=f303e170]
+              - paragraph [ref=f303e173]: If you have a public LinkedIn profile, please provide its URL.
+            - generic [ref=f303e176]:
+              - generic [ref=f303e177]: GitHub Profile
+              - textbox "GitHub Profile" [ref=f303e178]
+            - generic [ref=f303e179]:
+              - generic [ref=f303e181]:
+                - generic [ref=f303e182]: Google Scholar
+                - textbox "Google Scholar" [ref=f303e183]
+              - paragraph [ref=f303e186]: If you have a Google Scholar page, please provide its URL.
+            - generic [ref=f303e189]:
+              - generic [ref=f303e190]: Your Location*
+              - textbox "Your Location" [ref=f303e191]
+            - generic [ref=f303e194]:
+              - generic [ref=f303e195]: If working in the US, will you now, or in the future, require sponsorship for employment visa status (e.g., H-1B visa) to legally work in the US?*
+              - generic [ref=f303e196]:
+                - log [ref=f303e198]
+                - generic [ref=f303e200]:
+                  - generic [ref=f303e201]:
+                    - generic [ref=f303e202]: Select...
+                    - combobox "If working in the US, will you now, or in the future, require sponsorship for employment visa status (e.g., H-1B visa) to legally work in the US?" [ref=f303e204]
+                  - button "Toggle flyout" [ref=f303e206] [cursor=pointer]
+                - textbox
+            - generic [ref=f303e211]:
+              - generic [ref=f303e212]: Please indicate your SpaceXAI employment history.*
+              - generic [ref=f303e213]:
+                - log [ref=f303e215]
+                - generic [ref=f303e217]:
+                  - generic [ref=f303e218]:
+                    - generic [ref=f303e219]: Select...
+                    - combobox "Please indicate your SpaceXAI employment history." [ref=f303e221]
+                  - button "Toggle flyout" [ref=f303e223] [cursor=pointer]
+                - textbox
+            - generic [ref=f303e226]:
+              - generic [ref=f303e228]:
+                - generic [ref=f303e229]: What exceptional work have you done?*
+                - textbox "What exceptional work have you done?" [ref=f303e230]
+              - paragraph [ref=f303e233]: In 100 words or less, tell us about a piece of work you are most proud of.
+            - generic [ref=f303e236]:
+              - generic [ref=f303e237]: How did you hear about us?*
+              - generic [ref=f303e238]:
+                - log [ref=f303e240]
+                - generic [ref=f303e242]:
+                  - generic [ref=f303e243]:
+                    - generic [ref=f303e244]: Select...
+                    - combobox "How did you hear about us?" [ref=f303e246]
+                  - button "Toggle flyout" [ref=f303e248] [cursor=pointer]
+                - textbox
+          - button "Submit application" [ref=f303e252] [cursor=pointer]
+  - contentinfo [ref=f303e253]:
+    - generic [ref=f303e254]:
+      - paragraph [ref=f303e255]: Powered by
+      - link [ref=f303e256] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f303e257]
+  - iframe [ref=f303e271]:
+    - generic [ref=f304e6]:
+      - text: protected by
+      - strong [ref=f304e7]: reCAPTCHA

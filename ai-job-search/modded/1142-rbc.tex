@@ -1,0 +1,186 @@
+% Job posting: https://freehire.me/jobs/machine-learning-researcher-pushing-ai-frontiers-in-banking-rbc-3j5ep3ds
+% =====================================================================
+%  CV - Nishal Stanislaus Silva, PhD
+%  Target: RBC Borealis (RBC's AI research institute) - Machine Learning Researcher
+%  Variant: V2 (AI-Research) - publication-weighted, 3 pages
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.04}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{Research Scientist | Real-Time Multimodal ML, Benchmarks \& Open Datasets}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \cvTagline}\\[1pt]
+    {\footnotesize\textit{\cvStatus}}\\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
+    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+
+% Machine learning researcher (PhD, University of Trento, 2025) with 10+ years
+% across industry and academia. My work centers on time-series and sequence
+% modeling, including RNN/LSTM/GRU architectures, benchmark and dataset design, and
+% evaluation methodology. During my PhD and postdoc I owned both the science and
+% the pipeline for novel real-time systems, developing a detector that runs at
+% F1 0.76 in 14\,ms on a Raspberry Pi 4, 74$\times$ faster than the DTW baseline
+% (JAES, 2026). At MAS Holdings I shipped research prototypes to the factory floor
+% with CI/CD and code review; at Forestpin I built forensic-analytics and
+% compliance-monitoring models into production scoring services over large
+% structured enterprise datasets. That record spans 10+ peer-reviewed publications
+% % (JAES, IEEE, ACM) and four open benchmark datasets, each from a project I scoped,
+% % ran, and published end to end without close supervision.
+
+
+Machine learning researcher (PhD, University of Trento, 2025) with 10+ years across industry and academia. My work centers around time-series and sequence modeling, including RNN/LSTM/GRU architectures, benchmark and dataset design, and evaluation methodology. I have extensive experience in translating research into production-grade solutions. During my PhD and postdoc I owned both the science and the pipeline for novel real-time systems, developing a detector that runs at F1 0.76 in 14 ms on embedded systems, 74$\times$ faster than baselines (JAES, 2026). At MAS Holdings, I shipped research prototypes to the factory floor with CI/CD and code review. My financial-anomaly-detection experience includes developing forensic analytics and compliance monitoring models into production scoring services over large structured enterprise datasets. Published researcher with 10+ peer-reviewed papers (JAES, IEEE, ACM), 4 open-access datasets, journal review, and student supervision experience.
+
+% Published researcher with 10+ peer-reviewed papers, 4 open-access datasets, journal review, and student supervision experience.
+
+% I prototype generative models for time series and signals (VAE- and diffusion-based synthetic data for limited-label regimes) and work routinely with large datasets: four open-access benchmark corpora (9,800+ recordings, 70+ participants) and high-frequency IoT ETL across three continents.  My record includes 10+ peer-reviewed papers, journal and program-committee review, and supervision of two BSc thesis students.
+
+\section*{Core Competencies}
+
+\textbf{Time-Series \& Sequence Modelling:} deep sequence models, frozen-protocol benchmark and ablation design, evaluation under distribution shift, error analysis, statistical and probabilistic modelling, anomaly detection on messy, structured, and streaming data, DSP, uncertainty analysis\\
+\textbf{Research to Production:} framing open-ended problems and delivering end-to-end systems with limited guidance, adapting techniques to latency/cost/reliability budgets, partnering with engineering and product to bring models to production, reproducible Python beyond notebooks, latency and compute characterization\\
+\textbf{Generative Modelling \& Data:} VAE/diffusion-based synthetic-data prototypes for time series and signals, context-aware data augmentation, working with large datasets, high-frequency IoT/ETL at manufacturing scale, multimodal sensor fusion (audio, IMU, EEG/BCI, XR telemetry)\\
+\textbf{Publication \& Service:} 10+ peer-reviewed publications, reviewer for IEEE Access and the Journal of the National Science Foundation of Sri Lanka, program committee for IEEE IS\textsuperscript{2} and IEEE I3DA, supervision of two BSc thesis students, experience in technical training and seminars for both technical and non-technical stakeholders. 
+
+\section*{Technical Stack}
+
+\textbf{Languages:} Python, C++17, C, MATLAB, SQL, JavaScript/TypeScript, Shell\\
+\textbf{ML \& AI:} PyTorch, TensorFlow, Keras, scikit-learn, NumPy, Pandas, SciPy; RNN/LSTM/GRU, CNN, DSP, anomaly detection, ablation and uncertainty analysis, JAX, HuggingFace, ONNX\\
+\textbf{Signal \& Time-Series Processing:} DSP, STFT, MFCC, S-transform, CQT, onset and beat tracking, resampling and alignment, Librosa, SciPy, FFTW, music information retrieval\\
+\textbf{Data \& Cloud:} AWS (EC2, S3, ECS, MWAA, RDS), Snowflake, SQL, ETL pipelines, NumPy, Pandas\\
+\textbf{Dev \& MLOps:} Docker, Airflow, Jenkins, Git, Linux/UNIX, pytest, CI/CD, REST APIs
+
+\section*{Education}
+\textbf{Ph.D - Information Engineering and Computer Science} \textit{\small{ - University of Trento, Italy}} \hfill \textit{Jan 2025}\\[-1pt]
+% \noindent\textit{\small\hspace*{1.5em}Thesis: Embedded Real-time Musical Pattern Detection for Smart Musical Instruments}\\[3pt]
+\noindent\textbf{M.Sc - Telecommunication and Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[3pt]
+\noindent\textbf{B.Eng (Hons) - Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+
+\newpage
+\section*{Research and Work Experience}
+
+\begin{cvrole}{Independent ML Researcher}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+
+    \item Two papers accepted in 2026 (\textit{real-time sequence pattern detection for embedded devices}, JAES; \textit{edge-to-server distributed temporal feature extraction}, IEEE IS\textsuperscript{2}.
+    \item Released {Nebula}, a C++17 feature extraction library with ARM/Raspberry Pi latency benchmarks.
+    \item Researching on deep-learning approaches for identifying subtle deviations and anomalies across similar temporal signals. Use case is for pronunciation and enunciation evaluation on recorded speech.
+    \item Designed an AWS-based time-sequence feature extraction ETL for research datasets: Airflow DAGs, S3-to-Snowflake loading, Dockerized, RDS/Snowflake infrastructure.
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Owned the science and full ML pipelines for novel real-time systems on streaming multidimensional time series: data acquisition, DSP and feature engineering, training and evaluation, edge deployment with monitoring; EU Horizon EIC Pathfinder project MUSMET.
+    \item Designed frozen-protocol benchmark suites and ablations (RNN vs. DTW; audio vs. MIDI; probabilistic vs. deterministic; varying class sizes) to separate real accuracy gains from latency and CPU noise.
+    \item Developed generative and rule-based context aware data augmentation frameworks to assist in low availability conditions of labeled training data. 
+    % Prototyped VAE- and diffusion-based synthetic time-series generation to expand limited-label training data, and a rule-based variation generator used across two published studies.
+    \item Built a real-time multimodal synchronization pipeline aligning audio, BCI/EEG and mixed-reality head/hand tracking across multiple simultaneous users, in collaboration with SAE Institute Barcelona and g.tech GmbH.
+\end{cvrole}
+
+\needspace{4\baselineskip}
+\begin{cvrole}{Visiting Researcher}{McGill University (IDMIL / CIRMMT)}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Fused inertial (IMU) and audio streams through a stacked deep-learning and hierarchical finite-state machine to develop a multimodal pattern detection system; profiled compute and power for real-time feasibility.
+    \item Explored VAE- and diffusion-based synthetic time-series generation to expand limited-label training data
+
+    % \item Fused inertial (IMU) and audio time series through a hierarchical finite-state machine, accumulating repeated observations of the same event to reach F1 0.78 across a 500-event corpus (IEEE IS\textsuperscript{2} 2025).
+    % \item Profiled compute and power for real-time feasibility on edge-class hardware.
+\end{cvrole}
+
+\needspace{4\baselineskip}
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+    \item Conducted human-centred evaluations of ML-driven interactive systems; combined performance metrics with structured interviews to produce usability, interpretability and adoption recommendations (IEEE I3DA 2025).
+\end{cvrole}
+
+\needspace{4\baselineskip}
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item Designed and deployed ML and statistical pipelines for financial forensics, compliance monitoring and risk detection on large, messy structured enterprise datasets.
+    \item Built SQL and Python based anomaly-scoring services; translated compliance-stakeholder requirements into technical specifications.
+\end{cvrole}
+
+\needspace{4\baselineskip}
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Framed and shipped end-to-end computer-vision and IoT systems for manufacturing at scale, moving research prototypes to deployed production workflows with CI/CD; operational efficiency improved by up to 300\%.
+    \item Built high-frequency IoT and ETL pipelines for camera and sensor streams across factories in South Asia, North America and Africa; prototyped a real-time production monitoring and analytics dashboard.
+    \item Delivered automated QC systems; inspection time cut 99.5\% with a human-in-the-loop path for borderline cases. Prototyped automates inspection pipelines that reduced operator headcount by 50\%.
+    \item Ran group-wide computer-vision training, mentored engineers, and conducted seminars for technical and non-technical stakeholders.
+    % delivered a COVID-19 remote-vitals CV device deployed across hospital wards (GMOA recognition).
+\end{cvrole}
+
+\section*{Publications \footnotesize {\normalfont{(full publications list: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}}.})}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Vol.~74, No.~3, Mar.~2026. 
+    \item Silva, N. and Turchet, L. \textit{Smart Drums: Comparing Audio and MIDI in Embedded Real-Time Drum Pattern Recognition}. Journal of the Audio Engineering Society, 2026 (in press).
+    \item Silva, N. and Turchet, L. \textit{Music Information Retrieval as a Service: Latency Characterization of an Edge-to-Server Architecture...}. IEEE International Symposium on the Internet of Sounds, 2026 (accepted).
+    \item Silva, N., Boem, A. and Turchet, L. \textit{Interactive IoMusT-Based Concerts: Real-Time Pattern Recognition and Audience Experience}. IEEE International Conference on Immersive and 3D Audio, Sep.~2025.
+    \item Silva, N. and Turchet, L. \textit{Real-Time Pattern Recognition of Symbolic Monophonic Music}. 19th International Audio Mostly Conference (ACM), Sep.~2024.
+    \item Silva, N. and Turchet, L. \textit{A Structural Similarity Index Based Method to Detect Symbolic Monophonic Patterns in Real-Time}. 25th International Conference on Digital Audio Effects (DAFx), Sep.~2022. 
+    \item Silva, N., Weeraddana, P.C. and Fischione, C. \textit{On Musical Onset Detection via the S-Transform}. 52nd Asilomar Conference on Signals, Systems, and Computers, Oct.~2018.
+    \item Silva, N. \textit{Embedded Real-time Musical Pattern Detection for Smart Musical Instruments}. PhD Thesis, University of Trento, Jan.~2025.
+\end{itemize}
+
+\section*{Datasets }
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{DoMP} - 4,392 monophonic MIDI recordings; symbolic pattern-recognition benchmark (\href{https://doi.org/10.5281/zenodo.10818617}{\textit{10.5281/zenodo.10818617}})
+    \item \textbf{DoPP} - 2,276 polyphonic audio; raw-audio RNN training and evaluation (\href{https://doi.org/10.5281/zenodo.14497998}{\textit{10.5281/zenodo.14497998}})
+    \item \textbf{DoDP} - 994 drum-pattern MIDI recordings (\href{https://doi.org/10.5281/zenodo.14497974}{\textit{10.5281/zenodo.14497974}})
+    \item \textbf{DoDP2} - 2,177 drum-pattern MIDI recordings artist-level style templates (\href{https://doi.org/10.5281/zenodo.18395007}{\textit{10.5281/zenodo.18395007}})
+\end{itemize}
+
+\section*{Scientific Committee and Peer Review}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Reviewer:} IEEE Access; Journal of the National Science Foundation, Sri Lanka; Colloquio di Informatica Musicale.
+    \item \textbf{Program Committee:} IEEE International Symposium on the Internet of Sounds; International Conference on Immersive and 3D Audio.
+\end{itemize}
+
+\section*{Student Supervision}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Leonardo Collizoli} (BSc, University of Trento) - MIDI plugin for real-time musical pattern recognition. \hfill \textit{Aug 2023}
+    \item \textbf{Dennis Battisti} (BSc, University of Trento) - Plugin implementation and GUI for real-time musical pattern detection. \hfill \textit{Sep 2026}
+\end{itemize}
+
+\enlargethispage{4\baselineskip}
+\section*{Highlights and Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{MIDI Innovation Awards:} Finalist (2023), Prototypes \& Non-Commercial Software category - ``Hot Licks'' real-time pattern detection for smart instruments.
+    \item \textbf{GMOA Recognition (Sri Lanka):} Computer-vision system for COVID-19 patient vitals monitoring deployed across hospital wards; enabled remote monitoring and reduced healthcare-worker exposure.
+    \item \textbf{Open source and tooling:} Nebula, a C++17 audio-feature library with per-feature ARM latency benchmarks; LiveLaTeX, a published VS Code Marketplace extension.
+\end{itemize}
+
+\end{document}

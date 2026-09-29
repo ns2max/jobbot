@@ -1,0 +1,68 @@
+% Job posting: https://ca.linkedin.com/jobs/view/machine-learning-engineer-at-invision-ai-4460322410
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: Invision AI - Machine Learning Engineer, Toronto ON
+%  Variant: V5 (Computer Vision / Industrial). Standard 4-paragraph template.
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.03}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Computer Vision \& ML Engineer | Industrial Inspection, IoT \& Edge Deployment}
+\newcommand{\clRole}{Machine Learning Engineer}
+\newcommand{\clCompany}{Invision AI}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{}, \clCompany{}}
+
+\clAddressee
+
+I am applying for the Machine Learning Engineer position at Invision AI. I am a computer vision and ML engineer with a PhD from the University of Trento and 10+ years across industry and academia. At MAS Holdings, I built and deployed production computer-vision inspection systems onto the factory floor, integrating camera, sensor and IoT streams into live workflows and cutting inspection time by 99.5\%. I then spent my doctorate proving how much of a model survives a hard compute budget, with a published detector that runs inference in 14 ms on a Raspberry Pi 4 at 31.4\% CPU, F1 0.76, 74 times faster than the baseline it replaced (JAES 2026).
+
+Your posting asks for production computer vision, edge optimization, full-lifecycle ownership and sensor fusion, and each maps to concrete work. I shipped OpenCV inspection pipelines with explainable overlays and conveyor plus PLC reject, iterated across three hardware generations. My work spans data labeling and label-ontology design, evaluation under domain shift, on-device deployment and monitoring; at MAS, I also introduced CI/CD and code review. I profile latency, memory, CPU and power on ARM as a matter of course, and I fused inertial and audio streams through a hierarchical state machine at McGill, F1 0.78 on a 500-event corpus. I would build on my benchmark design, reproducible pipelines and ARM profiling while ramping on formal experiment-tracking and ML-observability tooling, ONNX Runtime, TensorRT and modern production CNN backbones.
+
+Invision AI describes a platform with single-camera 3-D awareness and collaborative multi-camera meshes for smart infrastructure and mobility. That is the intersection of the two halves of my record: industrial computer vision that had to be trusted by line supervisors before it ran, and edge inference where latency, memory and power are the constraint rather than an afterthought. In the first 6 to 12 months I would help build data-labeling and evaluation systems that tie model metrics to deployment needs, and bring the edge-profiling discipline that turns a working prototype into something that holds up on real hardware in the field.
+
+I am a Canadian permanent resident, eligible to work without sponsorship, based in Toronto, and able to meet the three-day downtown hybrid schedule. My postdoctoral contract ended in December 2025, so I am available immediately. I would welcome the chance to discuss the role. My publications, datasets and portfolio are at \href{\clSite}{nishal.xyz}.
+
+\vspace{10pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

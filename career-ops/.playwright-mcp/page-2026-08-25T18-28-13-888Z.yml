@@ -1,0 +1,351 @@
+- generic [active] [ref=f723e1]:
+  - link "Skip to content" [ref=f723e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=f723e3]:
+    - banner [ref=f723e4]:
+      - generic [ref=f723e7]:
+        - figure [ref=f723e8]:
+          - link [ref=f723e9] [cursor=pointer]:
+            - /url: https://employmenthero.com/en-ca/
+            - img "Employment Hero Canada" [ref=f723e10]
+        - generic [ref=f723e12]:
+          - generic [ref=f723e13] [cursor=pointer]
+          - generic [ref=f723e17]:
+            - generic [ref=f723e18] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - link "Employee Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Business HR Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Business Payroll Login":
+                      - /url: https://employmenthero.yourpayroll.com.au/
+                - generic:
+                  - generic:
+                    - link "Business Recruitment Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Jobseeker Login (Jobs Board)":
+                      - /url: https://jobs.employmenthero.com/AU/sign_in?callbackUrl=https%3A%2F%2Fjobs.employmenthero.com%2FAU%2F
+                - generic:
+                  - generic:
+                    - link "Humi by Employment Hero Login":
+                      - /url: https://hr.humi.ca/login
+          - img "Group" [ref=f723e25] [cursor=pointer]
+    - generic [ref=f723e34]:
+      - generic [ref=f723e35]:
+        - button "Share" [ref=f723e36] [cursor=pointer]
+        - button "Report this job" [ref=f723e41] [cursor=pointer]
+        - button "Refer a friend" [ref=f723e42] [cursor=pointer]
+      - navigation "breadcrumb" [ref=f723e44]:
+        - list [ref=f723e45]:
+          - listitem [ref=f723e46]:
+            - link "Jobs" [ref=f723e47] [cursor=pointer]:
+              - /url: https://employmenthero.com/en-ca/jobs/
+          - listitem [ref=f723e49]:
+            - link "Science & Research" [ref=f723e50] [cursor=pointer]:
+              - /url: https://employmenthero.com/en-ca/jobs/science-research/
+          - listitem [ref=f723e52]:
+            - 'link "Machine Learning Resident – Client: OpenCycle (12 month term)"':
+              - /url: https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-resident-client-opencycle-12-month-term-qtwt0/
+    - generic [ref=f723e55]:
+      - 'heading "Machine Learning Resident – Client: OpenCycle (12 month term)" [level=1] [ref=f723e56]'
+      - generic [ref=f723e58]:
+        - text: at
+        - link "Alberta Machine Intelligence Institute" [ref=f723e59] [cursor=pointer]:
+          - /url: https://employmenthero.com/en-ca/jobs/organisations/alberta-machine-intelligence-institute/
+      - generic [ref=f723e60]:
+        - link "Edmonton, Alberta" [ref=f723e61] [cursor=pointer]:
+          - /url: https://employmenthero.com/en-ca/jobs/edmonton/
+        - text: ", Canada • Full-time"
+    - main [ref=f723e62]:
+      - generic [ref=f723e63]:
+        - generic [ref=f723e64]:
+          - generic [ref=f723e65]:
+            - generic [ref=f723e71]: AI Job Summary
+            - button "About AI Job Summary" [ref=f723e72] [cursor=pointer]
+          - list [ref=f723e78]:
+            - listitem [ref=f723e79]: • MSc or PhD in CS or Electrical/Computer Engineering (or related) with audio/speech/acoustic ML or signal processing.
+            - listitem [ref=f723e80]: • Hands-on deep learning experience for audio tasks (e.g., sound event detection, embedding/verification, anomalous sound)
+            - listitem [ref=f723e81]: • Must be legally eligible to work in Canada.
+          - button "Sign up or log in to analyse my fit" [ref=f723e83] [cursor=pointer]
+        - generic [ref=f723e88]:
+          - heading "Role Type" [level=3] [ref=f723e89]
+          - generic [ref=f723e90]: Contract • Full-time • Entry Level
+        - generic [ref=f723e91]:
+          - heading "Description" [level=3] [ref=f723e92]
+          - generic [ref=f723e93]:
+            - paragraph [ref=f723e94]: “If you are interested in the application of machine learning to real-world audio for monitoring the noise industry puts into people’s lives, this is the right opportunity for you. Be a part of the team of research and machine learning scientists building acoustic intelligence for industrial sites from the ground up and get mentored by some of the best minds in AI during the process.”
+            - paragraph [ref=f723e95]: – Kunwar Saaim, Machine Learning Scientist, Advanced Technology
+            - heading [level=2] [ref=f723e96]:
+              - strong [ref=f723e97]: About the Role
+            - paragraph [ref=f723e98]: "This is a paid residency that will be undertaken over a 12-month period with the potential to be hired by our client, OpenCycle, afterwards (note: at the discretion of the client). The Resident will report to an Amii Scientist and regularly consult with the client team to share insights and engage in knowledge transfer activities. Successful candidates will be members of a cross-functional project team with backgrounds in ML research, project management, software engineering, and new product development. This is a rare opportunity to be mentored by world-class scientists and to develop something truly impactful."
+            - heading [level=2] [ref=f723e99]:
+              - strong [ref=f723e100]: About the Client
+            - paragraph [ref=f723e101]: "OpenCycle is a Calgary-based acoustic compliance and site-management platform for the energy, municipal, and heavy industries. The company grew out of four decades of professional acoustics consulting: its founders and senior staff have spent their careers on noise impact assessments, complaint investigations, mitigation design, and regulatory negotiation across Alberta, British Columbia, Saskatchewan, and Manitoba. OpenCycle exists to turn that hard-won expertise into software, so that noise compliance — which has traditionally meant months of specialist fieldwork and manual reporting — can be predicted, documented, and cleared in days."
+            - paragraph
+            - paragraph [ref=f723e102]: "Today the platform combines regulatory modelling, site and asset management, and a growing fleet of in-house-designed acoustic monitoring hardware deployed at customer sites across Alberta and BC. Machine learning is not a side project here — it is the core of the company’s next generation of product, developed by an in-house engineering team working directly alongside practising acousticians. That proximity is the point: models are specified, labelled, sanity-checked, and ultimately signed off by domain experts inside the same organization, and there is a short, direct line from a research result to a sensor running in a field."
+            - paragraph
+            - paragraph [ref=f723e103]: The company’s mission is to reduce the impact industrial emissions have on people’s lives. Noise is where OpenCycle starts, because it is the emission that most directly affects the communities living next to energy and infrastructure development — and because it is the problem this team knows better than anyone.
+            - heading [level=2] [ref=f723e104]:
+              - strong [ref=f723e105]: About the Project
+            - paragraph [ref=f723e106]: "Environmental noise compliance today answers one question well: how loud was it? A sound level meter returns a number. What it cannot say is what made the noise. Attribution — deciding which of the several sources on and around a site is responsible for the level measured at a home or a receptor — is still done by an acoustician listening to recordings by hand. It is the most expensive and least scalable step in the entire compliance workflow, and it is the step this project automates."
+            - paragraph
+            - paragraph [ref=f723e107]:
+              - strong [ref=f723e108]: The technical problem.
+              - text: "The system has to answer four questions from a single learned representation: is a sound source present, what kind of source is it, which specific physical unit is it, and is that unit operating normally? It has to do this in the open air, where several sources overlap continuously and the interesting one is rarely the loudest. And it has to do it on a battery-powered outdoor node with microcontroller-class compute, reporting over a long-range radio link whose payload is measured in tens of bytes. Sending the audio to a large cloud model is not an option, so the central research question is how much of this capability survives compression to an edge budget."
+            - paragraph
+            - paragraph [ref=f723e109]:
+              - strong [ref=f723e110]: What already exists.
+              - text: This is not a greenfield exercise. There is a deployed fleet of sound-level-meter nodes running a separately certifiable IEC 61672 measurement chain and validated against reference instruments in the field; a working detection-plus-embedding architecture with quantized, radio-sized payloads; an on-device inference path verified stage-by-stage against the research reference; and a frozen benchmark protocol with cross-site and cross-device evaluation tiers, built deliberately to expose the failure modes this team has already been burned by. There is also a substantial written record of experiments — including the ones that failed, which are often the more useful half.
+            - paragraph
+            - paragraph [ref=f723e111]:
+              - strong [ref=f723e112]: The open problems.
+              - text: "Four, and the Resident would help shape which ones to attack. First, channel invariance: our identity embeddings are currently key on the recording channel rather than the source, and six remediation strategies plus the data-scale hypothesis have been eliminated under controlled comparison, pointing at a label-ontology root cause. Second, tracking and temporal accumulation: fusing observations of the same source over time is the single largest measured improvement we have, turning a hard single-look problem into a tractable one — making the tracker first-class and validating it on real polyphonic field recordings is the dominant unknown before deployment. Third, condition detection from scarce labels: whether the operating state can be represented separately from identity when almost no per-unit multi-state data exists publicly. Fourth, compression: distilling the cross-site stability of a large pretrained audio backbone into something that fits the sensor’s compute and bandwidth budget."
+            - paragraph
+            - paragraph [ref=f723e113]:
+              - strong [ref=f723e114]: What the year looks like.
+              - text: Real deployed hardware and real field data rather than a benchmark exercise; a measurement culture that treats negative results as results and freezes evaluation protocols so experiments months apart stay comparable; scope to publish; and a direct path from a research result to a device in a field that changes how a regulator makes a decision affecting a community. The Resident will work with OpenCycle’s engineering team and its acousticians, with field access to the sensor fleet and to the domain experts who produce the ground truth.
+            - heading [level=2] [ref=f723e115]:
+              - strong [ref=f723e116]: Required Skills / Expertise
+            - paragraph [ref=f723e117]: Are you passionate about building great solutions? You’ll be presented with opportunities to both personally and professionally develop as you build your career. We’re looking for a talented and enthusiastic individual with a solid background in machine learning, specifically deep learning for audio and acoustic signal processing — sound event detection, audio representation learning, and evaluation that holds up under real-world domain shift.
+            - heading [level=2] [ref=f723e118]:
+              - strong [ref=f723e119]: "Key Responsibilities:"
+            - list [ref=f723e120]:
+              - listitem [ref=f723e121]: Design, implement, optimize, and evaluate models for far-field acoustic sensing tasks — sound event detection, open-set source identification, and operating-condition / anomaly detection — from a shared learned audio representation.
+              - listitem [ref=f723e122]: Prepare, curate, and preprocess high-quality audio datasets for training or fine-tuning, and validating models, including feature front-end design (log-Mel, PCEN, per-channel and frequency-wise normalization), audio augmentation, label-ontology definition, and work with weak, scarce, or noisy annotations.
+              - listitem [ref=f723e123]: Utilize state-of-the-art pretrained audio backbones (e.g., PANNs / CNN14, AST, BEATs, CLAP) and ML frameworks, tools, and open-source libraries to enhance model performance, accelerate workflows, and optimize data processing.
+              - listitem [ref=f723e124]: Undertake applied research on ML and audio representation-learning techniques to address the limitations in existing models — in particular channel and recording-device invariance, open-set metric learning, and representing operating state separably from source identity.
+              - listitem [ref=f723e125]: Optimize ML pipelines to ensure efficiency, scalability, and real-time streaming processing capabilities on compute- and bandwidth-constrained hardware.
+              - listitem [ref=f723e126]: Collaborate with the project team and stakeholders to develop MVP and client-focused solutions.
+              - listitem [ref=f723e127]: Engage in regular client meetings, contributing to presentations and reports on project progress, and work directly with the practising acousticians who define and sign off on ground truth.
+            - heading [level=2] [ref=f723e128]:
+              - strong [ref=f723e129]: "Required Qualifications:"
+            - list [ref=f723e130]:
+              - listitem [ref=f723e131]: Completion of an MSc. or PhD in Computer Science or Electrical / Computer Engineering (or a related graduate degree program) with specialization in audio, speech, or acoustic machine learning, signal processing, or a closely related time-series domain.
+              - listitem [ref=f723e132]: Demonstrated hands-on experience applying deep learning to audio — for example, sound event detection, audio classification, audio embedding and verification, or anomalous sound detection.
+              - listitem [ref=f723e133]: "Working knowledge of audio signal processing fundamentals: spectrograms and their time–frequency trade-offs."
+              - listitem [ref=f723e134]: Proficient in developing and training, fine-tuning and evaluating machine learning and deep neural network models in PyTorch and/or TensorFlow.
+              - listitem [ref=f723e135]: Proficient in Python programming language and related ML frameworks, libraries, and toolkits (e.g., PyTorch, torchaudio, librosa, HuggingFace, ONNX).
+              - listitem [ref=f723e136]: Solid understanding of classical statistics and its application in model validation.
+              - listitem [ref=f723e137]: Familiarity with Linux, Git version control, and writing clean code.
+              - listitem [ref=f723e138]: A positive attitude towards learning and understanding a new applied domain (environmental acoustics and industrial site operations).
+              - listitem [ref=f723e139]: Must be legally eligible to work in Canada.
+            - heading [level=2] [ref=f723e140]:
+              - strong [ref=f723e141]: "Preferred Qualifications:"
+            - list [ref=f723e142]:
+              - listitem [ref=f723e143]: Familiarity with and hands-on experience with far-field or environmental audio data.
+              - listitem [ref=f723e144]: Experience with audio embedding and metric learning for open-set recognition, and with domain generalization across recording devices and deployment sites.
+              - listitem [ref=f723e145]: Publication record in peer-reviewed academic conferences or relevant journals in machine learning (e.g., DCASE, ICASSP, INTERSPEECH).
+              - listitem [ref=f723e146]: "Good to have: experience deploying models to edge or embedded hardware — quantization, distillation, and designing to a fixed compute budget, with tooling such as ONNX or TFLite."
+              - listitem [ref=f723e147]: Experience/familiarity with software engineering best practices.
+              - listitem [ref=f723e148]: Experience with deploying machine learning models in production environments or strong software engineering (or MLE) skills is a plus.
+            - heading [level=2] [ref=f723e149]:
+              - strong [ref=f723e150]: "Non-Technical Requirements:"
+            - list [ref=f723e151]:
+              - listitem [ref=f723e152]: Desire to take ownership of a problem and demonstrate leadership skills.
+              - listitem [ref=f723e153]: Interdisciplinary team player enthusiastic about working together to achieve excellence.
+              - listitem [ref=f723e154]: Capable of critical and independent thought.
+              - listitem [ref=f723e155]: Able to communicate technical concepts clearly and advise on the application of machine intelligence.
+              - listitem [ref=f723e156]: Intellectual curiosity and the desire to learn new things, techniques, and technologies.
+            - heading [level=2] [ref=f723e157]:
+              - strong [ref=f723e158]: Why You Should Apply
+            - paragraph [ref=f723e159]: "Besides gaining industry experience, additional perks include:"
+            - list [ref=f723e160]:
+              - listitem [ref=f723e161]: Work under the mentorship of an Amii Scientist for the duration of the project.
+              - listitem [ref=f723e162]: Participate in professional development activities.
+              - listitem [ref=f723e163]: Gain access to the Amii community and events.
+              - listitem [ref=f723e164]: Get paid for your work (a fair and equitable rate of pay will be negotiated at the time of offer).
+              - listitem [ref=f723e165]: Build your professional network.
+              - listitem [ref=f723e166]: The opportunity for an ongoing machine learning role at the client’s organization at the end of the term (at the client’s discretion).
+            - heading [level=2] [ref=f723e167]:
+              - strong [ref=f723e168]: About Amii
+            - paragraph [ref=f723e169]: One of Canada’s three main institutes for artificial intelligence (AI) and machine learning, our world-renowned researchers drive fundamental and applied research at the University of Alberta (and other academic institutions), training some of the world’s top scientific talent. Our cross-functional teams work collaboratively with Alberta-based businesses and organizations to build AI capacity and translate scientific advancement into industry adoption and economic impact.
+            - heading [level=2] [ref=f723e170]:
+              - strong [ref=f723e171]: How to Apply
+            - paragraph [ref=f723e172]:
+              - text: If this sounds like the opportunity you’ve been waiting for, please don’t wait for the closing September 4, 2026 to apply – we’re excited to add a new member to the Amii team for this role, and the posting may come down sooner than the closing date if we find the right candidate before the posting closes! When sending your application, please send your
+              - strong [ref=f723e173]: resume and cover letter
+              - text: indicating why you think you’d be a fit for Amii. In your cover letter, please include one professional accomplishment you are most proud of and why.
+            - paragraph
+            - paragraph [ref=f723e174]:
+              - strong [ref=f723e175]: Applicants must be legally eligible to work in Canada at the time of application.
+            - paragraph:
+              - strong
+            - paragraph [ref=f723e176]: Amii is an equal opportunity employer and values a diverse workforce. We encourage applications from all qualified individuals without regard to ethnicity, religion, gender identity, sexual orientation, age or disability. Accommodations for disability-related needs throughout the recruitment and selection process are available upon request. Any information provided by you for accommodations will be kept confidential and won’t be used in the selection process.
+            - paragraph [ref=f723e177]
+    - button "Apply now" [ref=f723e179] [cursor=pointer]
+    - contentinfo [ref=f723e182]:
+      - contentinfo [ref=f723e183]:
+        - generic [ref=f723e184]:
+          - generic [ref=f723e185]:
+            - paragraph [ref=f723e186]:
+              - strong [ref=f723e187]: Company
+            - paragraph [ref=f723e188]:
+              - link "About us" [ref=f723e189] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/about-us/
+            - paragraph [ref=f723e190]:
+              - link "About humi" [ref=f723e191] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/about-humi/
+            - paragraph [ref=f723e192]:
+              - link "Careers" [ref=f723e193] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/careers/
+            - paragraph [ref=f723e194]:
+              - link "Become a partner" [ref=f723e195] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/partner-network/
+            - paragraph [ref=f723e196]:
+              - link "Newsroom" [ref=f723e197] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/news/
+          - generic [ref=f723e198]:
+            - paragraph [ref=f723e199]:
+              - strong [ref=f723e200]: Get in Touch
+            - paragraph [ref=f723e201]:
+              - link "Contact Us" [ref=f723e202] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/contact/
+            - paragraph [ref=f723e203]:
+              - link "Sales" [ref=f723e204] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/request-a-demo/
+            - paragraph [ref=f723e205]:
+              - link "Report a bug" [ref=f723e206] [cursor=pointer]:
+                - /url: mailto:casupport@employmenthero.com
+            - paragraph [ref=f723e207]:
+              - link "HR login" [ref=f723e208] [cursor=pointer]:
+                - /url: https://secure.employmenthero.com/users/sign_in
+          - generic [ref=f723e209]:
+            - paragraph [ref=f723e210]:
+              - strong [ref=f723e211]: Support
+            - paragraph [ref=f723e212]:
+              - link "Help Centre" [ref=f723e213] [cursor=pointer]:
+                - /url: https://help.employmenthero.info/hc/en-ca/
+            - paragraph [ref=f723e214]:
+              - link "Humi by EH Help Centre" [ref=f723e215] [cursor=pointer]:
+                - /url: https://support.humi.ca/hc/en-us
+          - generic [ref=f723e216]:
+            - paragraph [ref=f723e217]:
+              - strong [ref=f723e218]: Pick your region
+            - paragraph [ref=f723e219]:
+              - link "Australia" [ref=f723e220] [cursor=pointer]:
+                - /url: https://employmenthero.com/
+            - paragraph [ref=f723e221]:
+              - link "New Zealand" [ref=f723e222] [cursor=pointer]:
+                - /url: https://employmenthero.com/nz/
+            - paragraph [ref=f723e223]:
+              - link "United Kingdom" [ref=f723e224] [cursor=pointer]:
+                - /url: https://employmenthero.com/uk/
+            - paragraph [ref=f723e225]:
+              - link "Singapore" [ref=f723e226] [cursor=pointer]:
+                - /url: https://employmenthero.com/sg/
+            - paragraph [ref=f723e227]:
+              - link "Malaysia" [ref=f723e228] [cursor=pointer]:
+                - /url: https://employmenthero.com/my/
+            - paragraph [ref=f723e229]:
+              - link "Canada" [ref=f723e230] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/
+          - generic [ref=f723e231]:
+            - paragraph [ref=f723e232]:
+              - strong [ref=f723e233]: Product
+            - paragraph [ref=f723e234]:
+              - link "Products" [ref=f723e235] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/products/
+            - paragraph [ref=f723e236]:
+              - link "Integrations" [ref=f723e237] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/integrations/
+            - paragraph [ref=f723e238]:
+              - link "Quick Demos" [ref=f723e239] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/quick-demos/
+            - paragraph [ref=f723e240]:
+              - link "Employment Hero work app" [ref=f723e241] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/products/work-app/
+          - generic [ref=f723e242]:
+            - paragraph [ref=f723e243]:
+              - strong [ref=f723e244]: Connect
+            - list [ref=f723e245]:
+              - listitem [ref=f723e246]:
+                - link "LinkedIn" [ref=f723e247] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/employment-hero/%20
+              - listitem [ref=f723e250]:
+                - link "X" [ref=f723e251] [cursor=pointer]:
+                  - /url: https://x.com/EmploymentHero
+              - listitem [ref=f723e254]:
+                - link "YouTube" [ref=f723e255] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@Employmenthero
+              - listitem [ref=f723e258]:
+                - link "Facebook" [ref=f723e259] [cursor=pointer]:
+                  - /url: https://www.facebook.com/EmploymentHero
+              - listitem [ref=f723e262]:
+                - link "Instagram" [ref=f723e263] [cursor=pointer]:
+                  - /url: https://www.instagram.com/employmenthero/
+              - listitem [ref=f723e266]:
+                - link "TikTok" [ref=f723e267] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@employmenthero
+        - separator [ref=f723e270]
+        - generic [ref=f723e271]:
+          - generic [ref=f723e272]:
+            - paragraph [ref=f723e273]:
+              - strong [ref=f723e274]: Land acknowledgement
+            - paragraph [ref=f723e275]: We acknowledge the traditional and unceded territory of First Nations, Inuit and Métis peoples on which we live, learn and work.
+            - paragraph [ref=f723e276]:
+              - strong [ref=f723e277]: What we do
+            - paragraph [ref=f723e278]: Employment Hero is an end-to-end HR, payroll and recruitment solution designed for Canadian businesses. Our suite of powerful employment tools help streamline your workday, so you can focus on what matters.
+          - generic [ref=f723e279]:
+            - paragraph [ref=f723e280]:
+              - strong [ref=f723e281]: News, resources and insights – delivered to your inbox. Subscribe.
+            - generic [ref=f723e284]:
+              - generic [ref=f723e287]:
+                - generic: "*"
+                - textbox "*" [ref=f723e288]:
+                  - /placeholder: Work email
+              - generic [ref=f723e292]:
+                - text: By clicking ‘Subscribe’, you consent to receiving marketing from the
+                - link "Employment Hero Group" [ref=f723e293] [cursor=pointer]:
+                  - /url: https://employmenthero.com/legals/privacy-policy/data-processing/affiliates/
+                - text: by email, text, and social media channels about its services and activities. You may withdraw your consent at any time. See the
+                - link "Privacy Policy" [ref=f723e294] [cursor=pointer]:
+                  - /url: https://employmenthero.com/legals/privacy-policy/
+                - text: for information on how your data is processed.
+              - button "Subscribe" [ref=f723e297] [cursor=pointer]
+        - separator [ref=f723e298]
+        - generic [ref=f723e299]:
+          - paragraph [ref=f723e300]: Copyright © 2026 Employment Hero
+          - list [ref=f723e301]:
+            - listitem [ref=f723e302]:
+              - link "Trust & Legal Centre" [ref=f723e303] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/
+            - listitem [ref=f723e304]:
+              - link "Terms & Conditions" [ref=f723e305] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/terms-conditions/
+            - listitem [ref=f723e306]:
+              - link "Privacy Policy" [ref=f723e307] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/privacy-policy/
+            - listitem [ref=f723e308]:
+              - link "Data Processing Addendum" [ref=f723e309] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/privacy-policy/data-processing/
+            - listitem [ref=f723e310]:
+              - link "Cookie Policy" [ref=f723e311] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/cookie-policy/
+            - listitem [ref=f723e312]:
+              - link "Accessibility" [ref=f723e313] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/#compliance
+  - region "Cookie banner" [ref=f723e315]:
+    - dialog "Cookie notice" [ref=f723e316]:
+      - generic [ref=f723e317]:
+        - generic [ref=f723e319]:
+          - heading "Cookie notice" [level=2] [ref=f723e320]
+          - generic [ref=f723e321]:
+            - text: We use cookies or similar technologies on our sites to perform analytics, provide you with tailored content, and make your experience better. By clicking 'Allow', you agree to our use of cookies on the journey you take with us. Learn more by reading
+            - link "Cookie policy, opens in a new tab" [ref=f723e322] [cursor=pointer]:
+              - /url: https://employmenthero.com/legals/cookie-policy/
+              - text: our cookie policy
+        - generic [ref=f723e324]:
+          - button "Your choices, Opens the preference center dialog" [ref=f723e325] [cursor=pointer]: Your choices
+          - generic [ref=f723e326]:
+            - button "Reject All" [ref=f723e327] [cursor=pointer]
+            - button "Allow" [ref=f723e328] [cursor=pointer]
+        - button "Continue without Accepting" [ref=f723e330] [cursor=pointer]

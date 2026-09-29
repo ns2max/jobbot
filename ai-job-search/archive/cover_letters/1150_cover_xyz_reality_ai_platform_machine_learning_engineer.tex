@@ -1,0 +1,68 @@
+% Job posting: https://ca.linkedin.com/jobs/view/ai-platform-machine-learning-engineer-at-xyz-reality-4456262756
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: XYZ Reality - AI Platform & Machine Learning Engineer, Calgary AB
+%  Variant: V1 (AI-Industry). Standard 4-paragraph template.
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.03}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied ML}
+\newcommand{\clRole}{AI Platform \& Machine Learning Engineer}
+\newcommand{\clCompany}{XYZ Reality}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the AI Platform \& Machine Learning Engineer position at XYZ Reality. My work is taking ML models from research and experimentation into scalable production. I owned the full lifecycle on my postdoctoral pipeline, from data acquisition and labelling through training and evaluation to edge deployment and monitoring, and did the same in industry at MAS Holdings with real-time dataset ingestion, ETL, embedded inference and CI/CD. The production end of that record is a published detector that runs inference in 14 ms on a Raspberry Pi 4 at 31.4\% CPU, F1 0.76, 74 times faster than the DTW baseline it replaced (JAES 2026).
+
+Your posting maps closely to what I have built. I have developed scalable infrastructure for training and deploying models and reproducible training environments; automated benchmarking and model-validation pipelines, which for me are frozen protocols, versioned data splits and a written experiment record measuring accuracy, latency and CPU trade-offs; large-scale dataset ingestion, management and validation, plus annotation and label-ontology workflows, both for four open benchmark datasets (9,800+ recordings, 70+ participants) and for high-frequency IoT streams across three continents at MAS. I have generated synthetic data with rule-based variation generators and with VAE and diffusion prototypes for low-label regimes, designed and improved CI/CD pipelines for ML, deployed across cloud and embedded platforms, and built scalable REST inference APIs and an edge-to-server offload architecture.
+
+I want to be straightforward about where I would ramp. PyTorch is my secondary framework, behind TensorFlow/Keras, and I use it at a working level. Distributed training pipelines, the experiment-tracking and model-registry stack (MLflow, Weights \& Biases, Ray, Kubeflow), PEFT/LoRA, continual and federated learning, and Jetson/CUDA/TensorRT are areas I would come up to speed on, built on the ML-lifecycle, benchmark-methodology and synthetic-data foundation above and a strong ML-fundamentals base. My equivalent of experiment tracking today is frozen protocols with versioned data splits and a disciplined experiment record.
+
+XYZ Reality's engineering-grade AR for construction, and the next-generation wearable AI combining computer vision, localisation, BIM understanding, semantic reasoning and AR into a Construction Intelligence platform, sits right at the intersection of my record: production industrial computer vision that had to be trusted on the factory floor, cloud-to-edge deployment where latency and power are the constraint, and XR-telemetry work synchronising mixed-reality headset head and hand tracking across multiple users in my MUSMET postdoc. I am a Canadian permanent resident, eligible to work without sponsorship, available immediately since my postdoctoral contract ended in December 2025, and open to relocating to Calgary for the new technology hub. My publications, datasets and portfolio are at \href{\clSite}{nishal.xyz}.
+
+\vspace{10pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

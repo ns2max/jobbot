@@ -1,0 +1,15 @@
+Grafana Staff AI Engineer role: US-only remote (JD says "applicants from USA time zones only"). Profile hard-excludes non-Canadian roles — no eval, no report, no PDF, no tracker line for these. Skipping per policy.
+
+```json
+{
+  "status": "failed",
+  "id": "56",
+  "report_num": "1022",
+  "company": "Grafana Labs",
+  "role": "Staff AI Engineer",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard-excluded by location policy: role is US-remote only (USA timezones), profile scope is Canada-only (2026-08-20 rule). No evaluation, report, PDF, or tracker line generated."
+}
+```

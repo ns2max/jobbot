@@ -1,0 +1,40 @@
+% Job posting: https://ca.linkedin.com/jobs/view/senior-machine-learning-scientist-ca-at-altis-labs-4442914137
+\documentclass[11pt]{article}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.1}
+\pagenumbering{gobble}
+\begin{document}
+\pagestyle{empty}
+
+\begin{flushleft}
+Nishal Stanislaus Silva, PhD \\
+Toronto, ON \\
+nishal.silva@hotmail.com \,|\, +1 613 200 2030 \\
+\href{https://nishal.xyz}{nishal.xyz} \,|\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}
+\end{flushleft}
+
+\vspace{1em}
+
+Dear Hiring Manager,
+
+I am writing to apply for the Senior Machine Learning Scientist position at Altis Labs. My PhD research at the University of Trento was built around a discipline I believe is the hard part of trustworthy medical-imaging AI: rigorous evaluation. On the EU Horizon EIC Pathfinder project MUSMET, I designed frozen-protocol benchmark suites and controlled ablations -- comparing learned models against classical baselines across pattern-set sizes, modalities, and latency budgets -- and kept a written record of negative results rather than only the results that supported the final system. That published detector ran at 14 ms on a Raspberry Pi 4 with F1 0.76, 74x faster than the 1038 ms baseline it replaced. The habit that mattered more than any single number was the discipline of not trusting a model until it had survived a protocol designed to break it -- the same discipline radiomics and imaging-biomarker validation demands before a result can inform a clinical decision.
+
+I do not have direct medical-imaging or radiomics experience, but I have one deployment that sits closer to this domain than anything else in my career: during COVID-19, I built and helped deploy a computer-vision device for remote monitoring of patient vitals across hospital wards in Sri Lanka, recognized by the Government Medical Officers' Association. It was my first experience with the stakes of a CV system that clinicians actually had to trust and use, and it shaped how I think about evaluation ever since. More recently, I prototyped VAE-based and diffusion-based synthetic time-series generation to address limited-label regimes in my own audio research -- the same small-labeled-dataset constraint that recurs throughout medical imaging. I have also run structured human-centred evaluation studies (combining quantitative metrics with interviews) to assess whether a tool is actually usable and adopted by the people it is built for, not just accurate on paper.
+
+I want to be direct about the gap: my domain expertise is real-time audio and multimodal sensor time-series, not oncology imaging. I have not worked with radiomic features, DICOM pipelines, or tumor-response biomarkers, and that specific knowledge would need to be built. What I bring instead is the part that is harder to build quickly -- benchmark and evaluation methodology that transfers across data types, direct experience with small-labeled-data techniques, and one real clinical deployment that taught me what "trusted by clinicians" actually requires in practice.
+
+I am a Canadian permanent resident, do not require sponsorship, and am based in Toronto, matching Altis Labs' office. I am available immediately and would welcome the chance to discuss how my evaluation-focused approach to ML research could contribute to your team.
+
+\vspace{1em}
+Sincerely, \\
+Nishal Stanislaus Silva
+
+\end{document}

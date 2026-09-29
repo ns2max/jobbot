@@ -1,0 +1,1965 @@
+# Portal Scanner Configuration
+# Used by /career-ops scan to discover new offers automatically.
+#
+# Strategy (3 levels):
+#   1. Playwright → careers_url of each company (real-time, reliable)
+#   2. Greenhouse API → structured JSON (fast, Greenhouse-only)
+#   3. WebSearch with site: filters (broad discovery, may be stale)
+#
+# IMPORTANT: Each company in tracked_companies MUST have careers_url.
+#
+# HOW TO CUSTOMIZE:
+#   1. Copy this file to portals.yml in the project root
+#   2. Edit title_filter.positive with YOUR target role keywords
+#   3. Add/remove companies in tracked_companies
+#   4. Adjust search_queries for your preferred job boards
+#   5. Set enabled: false on companies you don't care about
+
+# -- Title filter --
+# The scanner uses these keywords to decide if a title is relevant.
+# At least 1 positive must match AND 0 negatives must match (case-insensitive).
+
+title_filter:
+  positive:
+    # Core ML/Research roles — strict match to avoid noise
+    # -- ML Engineering & Research --
+    - "Machine Learning"
+    - "ML Engineer"
+    - "ML Scientist"
+    - "MLOps"
+    - "LLMOps"
+    - "Research Scientist"
+    - "Applied Scientist"
+    - "Research Engineer"
+    - "AI Engineer"
+    - "AI Scientist"
+    - "Data Scientist"
+    - "Member of Technical Staff"
+    # -- LLM/NLP --
+    - "LLM"
+    - "NLP"
+    - "Inference"
+    - "Model Evaluation"
+    - "Evals"
+    # -- Audio, Speech, Signal --
+    - "Audio"
+    - "Speech"
+    - "Signal Processing"
+    - "DSP"
+    - "Acoustic"
+    - "Music AI"
+    - "Voice AI"
+    - "Conversational AI"
+    # -- GenAI (specific) --
+    - "GenAI"
+    - "Generative AI"
+    # -- Broadened 2026-08-21: adjacent roles, Canada supply is thin on strict titles --
+    - "Software Engineer, ML"
+    - "Software Engineer, AI"
+    - "ML Platform"
+    - "AI Platform"
+    - "Machine Learning Platform"
+    - "Platform Engineer"
+    - "Infrastructure Engineer"
+    - "Backend Engineer, ML"
+    - "Backend Engineer, AI"
+    - "Computer Vision"
+    - "CV Engineer"
+    - "Perception Engineer"
+    - "Robotics"
+    - "Embedded ML"
+    - "Edge AI"
+    - "Time Series"
+    - "Recommendation"
+    - "Ranking"
+    - "Search Relevance"
+    - "Data Engineer, ML"
+    - "AI Product Manager"
+    - "Technical Product Manager, AI"
+    # -- Broadened 2026-08-21: non-AI/ML adjacent roles (embedded/DSP/audio, data/backend, robotics/IoT) --
+    - "Embedded Systems Engineer"
+    - "Embedded Software Engineer"
+    - "Firmware Engineer"
+    - "DSP Engineer"
+    - "Signal Processing Engineer"
+    - "Audio Software Engineer"
+    - "Audio Engineer"
+    - "Audio DSP"
+    - "Real-Time Systems Engineer"
+    - "Data Engineer"
+    - "Backend Software Engineer"
+    - "Backend Engineer"
+    - "Platform Engineer"
+    - "Software Engineer, Backend"
+    - "Robotics Software Engineer"
+    - "Robotics Engineer"
+    - "IoT Engineer"
+    - "IoT Software Engineer"
+    - "Sensor Systems"
+    - "Sensor Fusion"
+    - "Systems Engineer"
+    - "R&D Engineer"
+    - "Research and Development Engineer"
+    # -- Broadened 2026-08-24: teaching + consulting domains (whole-Canada expansion) --
+    - "Assistant Professor"
+    - "Associate Professor"
+    - "Adjunct Professor"
+    - "Professor"
+    - "Faculty"
+    - "Lecturer"
+    - "Sessional Instructor"
+    - "Instructor, AI"
+    - "Instructor, Machine Learning"
+    - "Postdoctoral"
+    - "Research Chair"
+    - "AI Consultant"
+    - "ML Consultant"
+    - "Machine Learning Consultant"
+    - "Technical Advisor"
+    - "AI Advisory"
+    - "Fractional CTO"
+    - "Fractional Head of AI"
+    - "Independent Consultant, AI"
+    # -- Broadened 2026-08-24: K-12 STEM/CS teaching + smaller institutes --
+    - "STEM Teacher"
+    - "Computer Science Teacher"
+    - "Science Teacher"
+    - "Math Teacher"
+    - "Teacher, Computer Science"
+    - "Teacher, STEM"
+    - "Robotics Teacher"
+    - "Coding Instructor"
+    - "College Instructor"
+    - "Polytechnic Instructor"
+    - "Community College"
+    # -- Broadened 2026-08-25: creative cross-domain expansion (manufacturing QC, biosignal, patents, docs, DevRel) --
+    - "Quality Engineer"
+    - "Quality Assurance Engineer"
+    - "QA Engineer, Machine Vision"
+    - "Machine Vision Engineer"
+    - "Manufacturing Systems Engineer"
+    - "Process Engineer, Automation"
+    - "Industrial Automation Engineer"
+    - "Biosignal"
+    - "Bio-signal Processing"
+    - "Brain-Computer Interface"
+    - "BCI Engineer"
+    - "EEG"
+    - "Wearable Sensor"
+    - "Medical Device Engineer"
+    - "Biomedical Signal Processing"
+    - "Patent Agent"
+    - "Patent Engineer"
+    - "IP Analyst"
+    - "Technical Writer, AI"
+    - "Documentation Engineer"
+    - "Developer Advocate"
+    - "Developer Relations"
+    - "DevRel"
+    - "Curriculum Developer"
+    - "Instructional Designer"
+    - "Learning Experience Designer"
+    # -- Broadened 2026-09-20: expanded search (audio/DSP/edge/CV/research titles) --
+    - "Applied Research"
+    - "Research Software Engineer"
+    - "Research Scientist, Audio"
+    - "Audio ML"
+    - "Acoustics"
+    - "Machine Perception"
+    - "Multimodal"
+    - "On-Device"
+    - "Edge ML"
+    - "Edge Inference"
+    - "TinyML"
+    - "Vision Engineer"
+    - "Vision Scientist"
+    - "Image Processing"
+    - "Wireless Systems"
+    - "Communications Engineer"
+    - "Neurotechnology"
+    - "Computational Scientist"
+    - "Scientist, Machine Learning"
+    - "Staff Software Engineer, ML"
+    - "Senior Software Engineer, ML"
+
+  negative:
+    # [CUSTOMIZE] Add keywords for roles you want to exclude
+    - "Junior"
+    - "Intern"
+    - ".NET"
+    - "Java "
+    - "iOS"
+    - "Android"
+    - "PHP"
+    - "Ruby"
+    - "FPGA"
+    - "ASIC"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "Salesforce Admin"
+    - "SAP "
+    - "Oracle EBS"
+    - "Mainframe"
+    - "COBOL"
+    - "Tutor"
+    - "Deployment Strategist"
+    - "Solutions Engineer"
+    - "Account Executive"
+    - "Account Lead"
+    - "Business Development"
+    - "Forward Deployed"
+    - "Audiobook"
+    - "Evangelist"
+    - "Success Manager"
+    - "Outcomes Manager"
+  seniority_boost:
+    # These prefixes add relevance but are not required
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead"
+    - "Head"
+    - "Director"
+
+# -- Location filter --
+# Canada-only, per user preference (2026-08-20). Allow list: at least 1 must match,
+# or listing location is empty (passes through — verify manually).
+# Block list takes precedence over allow.
+location_filter:
+  allow:
+    - "Montreal"
+    - "Montréal"
+    - "Toronto"
+    - "Vancouver"
+    - "Ottawa"
+    - "Calgary"
+    - "Waterloo"
+    - "Kitchener"
+    - "Quebec"
+    - "Québec"
+    - "Edmonton"
+    - "Winnipeg"
+    - "Halifax"
+    - "Canada"
+    - "CAN"
+    - "Remote - Canada"
+    - "Canada - Remote"
+    # -- Broadened 2026-09-20: more Canadian cities + generic remote --
+    - "Victoria"
+    - "Hamilton"
+    - "London, ON"
+    - "Mississauga"
+    - "Markham"
+    - "Burlington"
+    - "Oakville"
+    - "Guelph"
+    - "Regina"
+    - "Saskatoon"
+    - "Fredericton"
+    - "Moncton"
+    - "St. John's"
+    - "Laval"
+    - "Gatineau"
+    - "Sherbrooke"
+    - "Ontario"
+    - "British Columbia"
+    - "Alberta"
+    - "Nova Scotia"
+    - "Remote - North America"
+    - "North America"
+    - "Americas"
+  block:
+    - "US Only"
+    - "United States Only"
+    - "No Canada"
+
+# -- Search queries --
+# Each query triggers a WebSearch. Use site: to filter by portal.
+# The scanner extracts title, URL, and company from results.
+
+search_queries:
+  # -- Ashby --
+  - name: Ashby — AI PM
+    query: 'site:jobs.ashbyhq.com "AI Product Manager" OR "Senior Product Manager AI" remote'
+    enabled: true
+
+  - name: Ashby — Solutions Architect
+    query: 'site:jobs.ashbyhq.com "Solutions Architect" AI OR automation remote'
+    enabled: true
+
+  - name: Ashby — AI Engineer
+    query: 'site:jobs.ashbyhq.com "AI Engineer" OR "LLM Engineer" OR "Forward Deployed" remote'
+    enabled: true
+
+  - name: Ashby — Agentic
+    query: 'site:jobs.ashbyhq.com "Agentic" OR "AI Agent" OR "Automation Architect" remote'
+    enabled: true
+
+  # -- Greenhouse --
+  - name: Greenhouse — AI PM
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "AI Product Manager" OR "Senior Product Manager" AI remote'
+    enabled: true
+
+  - name: Greenhouse — SA & FDE
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Solutions Architect" OR "Forward Deployed" AI remote'
+    enabled: true
+
+  - name: Greenhouse — AI Engineer
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "AI Engineer" OR "LLM" OR "Agentic" remote'
+    enabled: true
+
+  # -- Lever --
+  - name: Lever — AI PM
+    query: 'site:jobs.lever.co "AI Product Manager" OR "Solutions Architect" AI remote'
+    enabled: true
+
+  - name: Lever — AI Roles
+    query: 'site:jobs.lever.co "AI Engineer" OR "Agentic" OR "LLMOps" OR "Automation" remote'
+    enabled: true
+
+  # -- Wellfound (startups) --
+  - name: Wellfound — AI PM
+    query: 'site:wellfound.com "AI Product Manager" OR "AI Solutions" remote'
+    enabled: true
+
+  # -- Workable --
+  - name: Workable — AI Roles
+    query: 'site:apply.workable.com "AI" "Product Manager" OR "Solutions Architect" OR "AI Engineer" remote'
+    enabled: true
+
+  # -- No-Code / Low-Code / Automation --
+  - name: Ashby — No-Code & Automation
+    query: 'site:jobs.ashbyhq.com "no-code" OR "low-code" OR "automation engineer" OR "n8n" OR "Make" OR "Airtable" remote senior'
+    enabled: true
+
+  - name: Greenhouse — No-Code & Automation
+    query: 'site:job-boards.greenhouse.io "no-code" OR "low-code" OR "automation engineer" OR "business systems" senior remote'
+    enabled: true
+
+  - name: GTM Engineer — All portals
+    query: '"GTM Engineer" OR "RevOps Engineer" OR "Growth Engineer" automation Airtable OR Make OR Clay remote'
+    enabled: true
+
+  # -- Voice AI & Conversational AI --
+  - name: Voice AI — FDE & SA
+    query: 'site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com "Voice AI" OR "Conversational AI" OR "Speech" "Solutions" OR "Forward Deployed" OR "Customer Engineer"'
+    enabled: true
+
+  - name: Voice AI — AI Engineer
+    query: 'site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com "Voice" OR "Speech" "AI Engineer" OR "Deployment" OR "Integration"'
+    enabled: true
+
+  # -- Contact Center AI --
+  - name: Contact Center AI — SA & SE
+    query: '"contact center" OR "customer service" "AI" "Solutions Architect" OR "Solutions Engineer" OR "Forward Deployed" remote'
+    enabled: true
+
+  # -- FDE specific (cross-portal) --
+  - name: FDE & Deployed Engineer — All portals
+    query: '"Forward Deployed Engineer" OR "Deployed Engineer" OR "Deployment Engineer" AI site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com OR site:jobs.lever.co'
+    enabled: true
+
+  # -- RemoteFront (aggregator) --
+  - name: RemoteFront — AI & Automation
+    query: 'site:remotefront.com "AI Engineer" OR "Solutions Engineer" OR "Automation" OR "LLM" OR "Agent" remote'
+    enabled: true
+
+  # -- BuiltIn (aggregator) --
+  - name: BuiltIn — ML Research Engineer
+    query: 'site:builtin.com/job "Machine Learning Engineer" OR "ML Engineer" OR "Research Engineer" audio OR speech OR signal remote OR Toronto'
+    enabled: true
+
+  - name: BuiltIn — Applied Scientist
+    query: 'site:builtin.com/job "Applied Scientist" OR "Research Scientist" OR "ML Scientist" audio OR speech OR signal'
+    enabled: true
+
+  - name: BuiltIn — AI Engineer Senior
+    query: 'site:builtin.com/job "Senior AI Engineer" OR "Staff ML Engineer" OR "Audio AI" OR "Speech AI"'
+    enabled: true
+
+  # -- Audio & Music AI (new) --
+  - name: Ashby — Audio & Music AI
+    query: 'site:jobs.ashbyhq.com "Audio" OR "Music AI" OR "DSP" OR "Signal Processing" "Engineer" OR "Scientist" OR "Researcher"'
+    enabled: true
+
+  - name: Greenhouse — Audio & Music AI
+    query: 'site:job-boards.greenhouse.io "Audio AI" OR "Audio Engineer" OR "Music AI" OR "DSP" OR "Speech" "ML" OR "Research"'
+    enabled: true
+
+  # -- AI job board aggregators (new) --
+  - name: aijobs.ai — ML & Audio
+    query: 'site:aijobs.ai "Machine Learning Engineer" OR "Audio AI" OR "Speech AI" OR "Research Scientist" remote'
+    enabled: true
+
+  - name: SpeechTechJobs — All roles
+    query: 'site:speechtechjobs.com "ML Engineer" OR "Research Scientist" OR "Speech" OR "ASR"'
+    enabled: true
+
+  - name: Wellfound — Audio & Speech startups
+    query: 'site:wellfound.com "Audio" OR "Speech" OR "Music AI" "Machine Learning" OR "Research" remote'
+    enabled: true
+
+  # -- High-value US AI unicorns (new) --
+  - name: Ashby — Cursor / Coding AI
+    query: 'site:jobs.ashbyhq.com "AI Engineer" OR "ML Engineer" OR "Research" "editor" OR "coding" OR "developer tools"'
+    enabled: true
+
+  - name: Greenhouse — AI safety & frontier labs
+    query: 'site:job-boards.greenhouse.io "AI Safety" OR "Alignment" OR "Research Scientist" "ML" OR "LLM" remote'
+    enabled: true
+
+  # -- Canada-wide discovery --
+  - name: Canada — ML Research Engineer
+    query: '"Machine Learning" OR "Research Engineer" OR "Applied Scientist" "Canada" OR "Toronto" OR "Montreal" OR "Vancouver" OR "Ottawa" OR "Calgary" OR "Edmonton" site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com OR site:jobs.lever.co'
+    enabled: true
+
+  - name: Canada — Audio / Speech / Signal ML
+    query: '"Audio" OR "Speech" OR "Signal Processing" OR "DSP" "Machine Learning" OR "Research Scientist" OR "ML Engineer" Canada remote OR Toronto OR Vancouver 2026'
+    enabled: true
+
+  - name: Canada — Senior Staff ML Research
+    query: '"Senior" OR "Staff" "Machine Learning Engineer" OR "Research Scientist" OR "Applied Scientist" Canada remote 2026 site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com'
+    enabled: true
+
+  - name: Indeed Canada — ML Research roles
+    query: 'site:ca.indeed.com "Machine Learning Engineer" OR "Research Scientist" OR "Applied Scientist" "audio" OR "speech" OR "signal" Canada'
+    enabled: true
+
+  - name: LinkedIn Canada — ML Audio Signal
+    query: 'site:linkedin.com/jobs "Machine Learning" OR "Research Scientist" "audio" OR "speech" OR "signal processing" Canada remote 2026'
+    enabled: true
+
+  # -- Canada-wide: teaching (added 2026-08-24) --
+  - name: Canada — Faculty AI/ML/Signal Processing
+    query: '"Assistant Professor" OR "Associate Professor" OR "Adjunct Professor" OR "Lecturer" "Machine Learning" OR "Artificial Intelligence" OR "Signal Processing" Canada 2026'
+    enabled: true
+
+  - name: Canada Universities — Postdoc/Research Chair AI
+    query: '"Postdoctoral" OR "Research Chair" "Machine Learning" OR "Signal Processing" OR "Music Information Retrieval" Canada university 2026'
+    enabled: true
+
+  - name: Indeed/LinkedIn Canada — Sessional Instructor AI
+    query: 'site:ca.indeed.com OR site:linkedin.com/jobs "Sessional Instructor" OR "Instructor" "Machine Learning" OR "AI" OR "Data Science" Canada'
+    enabled: true
+
+  # -- Canada-wide: consulting (added 2026-08-24) --
+  - name: Canada — AI/ML Consultant & Advisory
+    query: '"AI Consultant" OR "Machine Learning Consultant" OR "Technical Advisor" OR "Fractional CTO" OR "Fractional Head of AI" Canada remote OR Toronto OR Montreal OR Vancouver 2026'
+    enabled: true
+
+  - name: LinkedIn Canada — AI Advisory & Consulting firms
+    query: 'site:linkedin.com/jobs "AI Consultant" OR "ML Consultant" OR "AI Advisory" Canada 2026'
+    enabled: true
+
+  # -- Canada-wide: K-12 + smaller institutes (added 2026-08-24) --
+  - name: Canada — K-12 STEM/CS/Robotics Teacher
+    query: '"STEM Teacher" OR "Computer Science Teacher" OR "Robotics Teacher" OR "Coding Instructor" Canada school OR "high school" OR "middle school" 2026'
+    enabled: true
+
+  - name: Canada — College/Polytechnic Instructor AI/ML
+    query: '"College Instructor" OR "Polytechnic Instructor" OR "Community College" "Machine Learning" OR "Artificial Intelligence" OR "Computer Science" Canada 2026'
+    enabled: true
+
+  # -- Canada-wide: creative cross-domain expansion (added 2026-08-25) --
+  - name: Canada — Manufacturing QC / Machine Vision
+    query: '"Machine Vision Engineer" OR "Quality Engineer" OR "Manufacturing Systems Engineer" "computer vision" OR "automated inspection" Canada 2026'
+    enabled: true
+
+  - name: Canada — Biosignal / BCI / Wearable
+    query: '"Biosignal" OR "Brain-Computer Interface" OR "BCI" OR "EEG" OR "Biomedical Signal Processing" "Engineer" OR "Scientist" Canada 2026'
+    enabled: true
+
+  - name: Canada — Patent Agent / IP AI-ML
+    query: '"Patent Agent" OR "Patent Engineer" OR "IP Analyst" "Machine Learning" OR "Artificial Intelligence" OR "Signal Processing" Canada 2026'
+    enabled: true
+
+  - name: Canada — Developer Advocate / DevRel AI
+    query: '"Developer Advocate" OR "Developer Relations" OR "DevRel" "AI" OR "Machine Learning" OR "Audio" Canada remote 2026'
+    enabled: true
+
+  - name: Canada — Technical Writer / Documentation AI
+    query: '"Technical Writer" OR "Documentation Engineer" "AI" OR "Machine Learning" OR "API" Canada remote 2026'
+    enabled: true
+
+  - name: Canada — Curriculum / Instructional Design AI-ML
+    query: '"Curriculum Developer" OR "Instructional Designer" OR "Learning Experience Designer" "Machine Learning" OR "AI" OR "Data Science" Canada 2026'
+    enabled: true
+
+  # -- Canada-wide: broadened cross-domain discovery, round 2 (added 2026-08-25) --
+  - name: Canada — Apparel Manufacturing QC / Machine Vision
+    query: '"Quality Engineer" OR "Automation Engineer" OR "Machine Vision" "apparel" OR "textile" OR "garment" manufacturing Canada 2026'
+    enabled: true
+
+  - name: Canada — Music Instrument Manufacturing R&D
+    query: '"Product Development Engineer" OR "R&D Engineer" "guitar" OR "musical instrument" OR "audio hardware" manufacturing Canada 2026'
+    enabled: true
+
+  - name: Canada — Medtech Signal Processing / Embedded
+    query: '"Signal Processing Engineer" OR "Embedded Software Engineer" OR "R&D Engineer" "medical device" OR "biomedical" Canada 2026'
+    enabled: true
+
+  - name: Canada — Game Audio / Studio ML Research
+    query: '"Audio Programmer" OR "Sound Engineer" OR "Machine Learning" "game studio" OR "game audio" Toronto OR Montreal 2026'
+    enabled: true
+
+  - name: Canada — Consumer Biosignal / Wearable Devices
+    query: '"Firmware Engineer" OR "Signal Processing" OR "Machine Learning" "EEG" OR "wearable" OR "biosignal" consumer device Canada 2026'
+    enabled: true
+
+# -- Tracked companies --
+# Companies whose career pages are checked directly.
+# scan_method: playwright (default), websearch, greenhouse_api
+# For Greenhouse companies, add api: field for faster structured JSON access.
+
+tracked_companies:
+
+  # -- AI Labs & LLM providers --
+
+  - name: Anthropic
+    careers_url: https://job-boards.greenhouse.io/anthropic
+    api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
+    enabled: true
+
+  - name: OpenAI
+    careers_url: https://openai.com/careers
+    scan_method: websearch
+    scan_query: 'site:openai.com/careers "Solutions" OR "Forward Deployed" OR "AI Engineer"'
+    enabled: true
+
+  - name: xAI (Grok)
+    careers_url: https://job-boards.greenhouse.io/xai
+    api: https://boards-api.greenhouse.io/v1/boards/xai/jobs
+    notes: "SF. Elon Musk's AI lab. Grok LLM. ML & research roles."
+    enabled: true
+
+  - name: Perplexity AI
+    careers_url: https://jobs.ashbyhq.com/perplexity
+    notes: "SF. AI search engine. $9B valuation. ML & infra roles. FIXED 2026-08-20 (was job-boards.greenhouse.io/perplexityai, 404 — moved to Ashby, slug 'perplexity')."
+    enabled: true
+
+  - name: Liquid AI
+    careers_url: https://jobs.ashbyhq.com/liquid-ai
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/liquid-ai "ML" OR "Research" OR "Audio" OR "Multimodal"'
+    notes: "Boston. Liquid Foundation Models. Has Audio ML Research Engineer roles."
+    enabled: true
+
+  - name: Together AI
+    careers_url: https://job-boards.greenhouse.io/togetherai
+    api: https://boards-api.greenhouse.io/v1/boards/togetherai/jobs
+    notes: "SF. Open-source LLM inference cloud. ML & infra roles."
+    enabled: true
+
+  - name: Groq
+    careers_url: https://job-boards.greenhouse.io/groq
+    api: https://boards-api.greenhouse.io/v1/boards/groq/jobs
+    notes: "SF. LPU inference hardware + API. Fast inference for LLMs. UNRESOLVED 2026-08-20: greenhouse slug 404s and no working Ashby/Lever slug found via search — needs manual verification of current ATS."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  - name: Harvey AI
+    careers_url: https://jobs.ashbyhq.com/harvey
+    notes: "SF. AI for legal professionals. $3B valuation. ML & FDE roles. FIXED 2026-08-20 (was job-boards.greenhouse.io/harvey, 404 — moved to Ashby, slug 'harvey'). Note: current listings skew CS/Sales/Infra, few pure ML titles."
+    enabled: true
+
+  - name: Cursor
+    careers_url: https://jobs.ashbyhq.com/cursor
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/cursor'
+    notes: "SF. AI code editor. $9B valuation. Top AI-native dev tool."
+    enabled: true
+
+
+  # -- Audio & Music AI --
+
+  - name: Suno
+    careers_url: https://jobs.ashbyhq.com/suno
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/suno'
+    notes: "Cambridge MA. AI music generation. Has ML Scientist roles."
+    enabled: true
+
+  - name: AssemblyAI
+    careers_url: https://job-boards.greenhouse.io/assemblyai
+    api: https://boards-api.greenhouse.io/v1/boards/assemblyai/jobs
+    notes: "Remote-first. Speech-to-text + audio intelligence API. Strong ML research team."
+    enabled: true
+
+  - name: Udio
+    careers_url: https://job-boards.greenhouse.io/udio
+    api: https://boards-api.greenhouse.io/v1/boards/udio/jobs
+    notes: "NYC. AI music generation (Udio). Deep generative audio research. FIXED 2026-08-20 (real ATS is Greenhouse 'udio', not Ashby)."
+    enabled: true
+
+  - name: Moises
+    careers_url: https://jobs.ashbyhq.com/moises
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/moises OR "moises.ai" careers'
+    notes: "Remote. AI music separation & stems. Audio ML focused."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  - name: Acoust
+    careers_url: https://jobs.ashbyhq.com/acoust
+    scan_method: websearch
+    scan_query: '"acoust" "AI" "audio" OR "ML" site:jobs.ashbyhq.com'
+    notes: "Audio AI tooling for creators."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  - name: Soundraw
+    careers_url: https://soundraw.io/careers
+    scan_method: websearch
+    scan_query: '"soundraw" careers "AI" OR "ML" OR "audio"'
+    notes: "AI music generation for content creators."
+    enabled: true
+
+
+  # -- Voice AI & Conversational AI --
+
+  - name: PolyAI
+    careers_url: https://job-boards.eu.greenhouse.io/polyai
+    api: https://boards-api.greenhouse.io/v1/boards/polyai/jobs
+    notes: "UK. Voice AI for enterprise contact centers."
+    enabled: true
+
+  - name: Parloa
+    careers_url: https://job-boards.eu.greenhouse.io/parloa
+    api: https://boards-api.greenhouse.io/v1/boards/parloa/jobs
+    notes: "Berlin EMEA. Voice AI enterprise."
+    enabled: true
+
+  - name: Intercom
+    careers_url: https://job-boards.greenhouse.io/intercom
+    api: https://boards-api.greenhouse.io/v1/boards/intercom/jobs
+    notes: "Dublin EMEA. Fin AI agent."
+    enabled: true
+
+  - name: Hume AI
+    careers_url: https://job-boards.greenhouse.io/humeai
+    api: https://boards-api.greenhouse.io/v1/boards/humeai/jobs
+    notes: "NYC. Empathic voice AI."
+    enabled: true
+
+  - name: ElevenLabs
+    careers_url: https://jobs.ashbyhq.com/elevenlabs
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/elevenlabs'
+    notes: "Voice AI TTS leader."
+    enabled: true
+
+  - name: Deepgram
+    careers_url: https://jobs.ashbyhq.com/deepgram
+    scan_method: websearch
+    scan_query: 'site:deepgram.com/careers OR "deepgram" "Solutions" OR "AI Engineer" site:jobs.ashbyhq.com'
+    notes: "STT/TTS APIs."
+    enabled: true
+
+  - name: Vapi
+    careers_url: https://jobs.ashbyhq.com/vapi
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/vapi'
+    notes: "Voice AI infrastructure."
+    enabled: true
+
+  - name: Bland AI
+    careers_url: https://jobs.ashbyhq.com/bland
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/bland'
+    notes: "Voice phone agents. $65M Series B."
+    enabled: true
+
+  # -- AI-native platforms (FDE/SA teams) --
+
+  - name: Retool
+    careers_url: https://retool.com/careers
+    scan_method: websearch
+    scan_query: 'site:retool.com/careers "Deployed" OR "AI" OR "Solutions"'
+    notes: "London. Popularized Deployed Engineer role."
+    enabled: true
+
+  - name: Airtable
+    careers_url: https://job-boards.greenhouse.io/airtable
+    api: https://boards-api.greenhouse.io/v1/boards/airtable/jobs
+    notes: "No-code + AI platform."
+    enabled: true
+
+  - name: Vercel
+    careers_url: https://job-boards.greenhouse.io/vercel
+    api: https://boards-api.greenhouse.io/v1/boards/vercel/jobs
+    notes: "AI SDK, v0.dev. Frontend AI tooling."
+    enabled: true
+
+  - name: Temporal
+    careers_url: https://job-boards.greenhouse.io/temporal
+    api: https://boards-api.greenhouse.io/v1/boards/temporal/jobs
+    notes: "Workflow orchestration."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  - name: Arize AI
+    careers_url: https://job-boards.greenhouse.io/arizeai
+    api: https://boards-api.greenhouse.io/v1/boards/arizeai/jobs
+    notes: "LLMOps / AI observability."
+    enabled: true
+
+  - name: RunPod
+    careers_url: https://jobs.ashbyhq.com/runpod
+    notes: "GPU cloud for AI. FIXED 2026-08-20 (was job-boards.greenhouse.io/runpod, 404 — moved to Ashby, slug 'runpod'). No ML-titled roles open as of this scan (mostly GTM/support)."
+    enabled: true
+
+  - name: Glean
+    careers_url: https://job-boards.greenhouse.io/gleanwork
+    api: https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs
+    notes: "Enterprise AI search."
+    enabled: true
+
+
+  - name: Dify
+    careers_url: https://jobs.ashbyhq.com/dify
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/dify'
+    notes: "SF / Remote. Open-source LLM app development platform."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  - name: Dust
+    careers_url: https://jobs.ashbyhq.com/dust
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/dust'
+    notes: "Paris / Remote. AI agent platform for enterprise teams."
+    enabled: true
+
+  - name: Letta (MemGPT)
+    careers_url: https://jobs.ashbyhq.com/letta
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/letta'
+    notes: "SF. Stateful AI agents / long-term memory for LLMs."
+    enabled: true
+
+  - name: Stripe
+    careers_url: https://stripe.com/jobs
+    scan_method: websearch
+    scan_query: 'site:stripe.com/jobs "Machine Learning" OR "AI" OR "ML Infrastructure"'
+    notes: "SF / Remote. Payments infra. Large ML org (supportability, fraud, infra)."
+    enabled: true
+
+
+  # -- Contact Center AI & CX --
+
+  - name: Ada
+    careers_url: https://job-boards.greenhouse.io/ada18
+    api: https://boards-api.greenhouse.io/v1/boards/ada18/jobs
+    notes: "Toronto + remote. AI customer service. FIXED 2026-08-20 (real Greenhouse slug is 'ada18', not 'ada')."
+    enabled: true
+
+  - name: LivePerson
+    careers_url: https://liveperson.com/company/careers
+    scan_method: websearch
+    scan_query: 'site:liveperson.com/careers OR "liveperson" "Solutions" OR "AI" site:job-boards.greenhouse.io'
+    notes: "Remote EMEA. Conversational AI enterprise."
+    enabled: true
+
+  - name: Sierra
+    careers_url: https://jobs.ashbyhq.com/sierra
+    scan_method: websearch
+    scan_query: '"sierra.ai" "AI" "Forward Deployed" OR "Applied" OR "Solutions" site:jobs.ashbyhq.com'
+    notes: "Bret Taylor (ex-CEO Salesforce). AI customer agents."
+    enabled: true
+
+  - name: Decagon
+    careers_url: https://jobs.ashbyhq.com/decagon
+    scan_method: websearch
+    scan_query: '"decagon" "AI" "Forward Deployed" OR "Solutions" site:jobs.ashbyhq.com'
+    notes: "AI customer support agents."
+    enabled: true
+
+  # -- Enterprise comms & contact center --
+
+  - name: Talkdesk
+    careers_url: https://www.talkdesk.com/careers
+    scan_method: websearch
+    scan_query: 'site:talkdesk.com/careers "AI" OR "Solutions Architect" OR "AI Engineer"'
+    notes: "Lisbon. Contact center AI. EMEA friendly."
+    enabled: true
+
+  - name: Twilio
+    careers_url: https://www.twilio.com/en-us/company/jobs
+    scan_method: websearch
+    scan_query: 'site:twilio.com/company/jobs "AI" OR "Voice" "Solutions" OR "Architect"'
+    notes: "Voice/messaging infrastructure."
+    enabled: true
+
+  - name: Dialpad
+    careers_url: https://www.dialpad.com/careers
+    scan_method: websearch
+    scan_query: '"dialpad" "AI" "Solutions" OR "Engineer" site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com'
+    notes: "Voice AI for business comms."
+    enabled: true
+
+  - name: Gong
+    careers_url: https://www.gong.io/careers
+    scan_method: websearch
+    scan_query: 'site:gong.io/careers "AI" OR "Solutions" OR "Architect"'
+    notes: "Revenue intelligence with voice AI."
+    enabled: true
+
+  - name: Genesys
+    careers_url: https://www.genesys.com/careers
+    scan_method: websearch
+    scan_query: 'site:genesys.com/careers "AI" "Solutions Architect" OR "AI Engineer"'
+    notes: "Contact center cloud + AI."
+    enabled: true
+
+  - name: Salesforce
+    careers_url: https://careers.salesforce.com
+    scan_method: websearch
+    scan_query: 'site:careers.salesforce.com "Forward Deployed" OR "AI Engineer" OR "Agentforce"'
+    notes: "Agentforce = AI agents platform."
+    enabled: true
+
+  # -- AI infra & LLMOps --
+
+  - name: Langfuse
+    careers_url: https://langfuse.com/careers
+    scan_method: websearch
+    scan_query: '"langfuse" careers OR jobs "engineer" OR "solutions"'
+    notes: "Berlin. LLMOps / observability."
+    enabled: true
+
+  - name: Lindy
+    careers_url: https://jobs.ashbyhq.com/lindy
+    scan_method: websearch
+    scan_query: '"lindy.ai" "AI" "Forward Deployed" OR "Solutions" site:jobs.ashbyhq.com'
+    notes: "AI agent management platform."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  - name: Cognigy
+    careers_url: https://careers.cognigy.com
+    scan_method: websearch
+    scan_query: '"cognigy" careers "AI" OR "Solutions" OR "Engineer"'
+    notes: "Dusseldorf EMEA. Conversational AI enterprise."
+    enabled: true
+
+  - name: Speechmatics
+    careers_url: https://job-boards.greenhouse.io/speechmatics
+    api: https://boards-api.greenhouse.io/v1/boards/speechmatics/jobs
+    notes: "Cambridge UK. Speech recognition platform."
+    enabled: true
+
+  # -- No-Code/Low-Code & Automation --
+
+  - name: n8n
+    careers_url: https://jobs.ashbyhq.com/n8n
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/n8n'
+    notes: "Berlin + remote EU/US. Workflow automation."
+    enabled: true
+
+  - name: Zapier
+    careers_url: https://jobs.ashbyhq.com/zapier
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/zapier'
+    notes: "Remote-first. Automation platform leader."
+    enabled: true
+
+  - name: Make.com (Celonis)
+    careers_url: https://www.make.com/en/careers
+    scan_method: websearch
+    scan_query: 'site:make.com/en/careers OR "make.com" "engineer" OR "solutions" site:jobs.ashbyhq.com'
+    notes: "Celonis parent company. Automation platform."
+    enabled: true
+
+  # -- Ashby-based (Playwright direct) --
+
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    notes: "AI/LLM provider. Toronto + remote."
+    enabled: true
+
+  - name: LangChain
+    careers_url: https://jobs.ashbyhq.com/langchain
+    notes: "LangChain/LangSmith framework."
+    enabled: true
+
+  - name: Pinecone
+    careers_url: https://jobs.ashbyhq.com/pinecone
+    notes: "Vector database."
+    enabled: true
+
+  # -- Lever-based (Playwright direct) --
+
+  - name: Mistral AI
+    careers_url: https://jobs.lever.co/mistral
+    notes: "Paris. European AI lab."
+    enabled: true
+
+  - name: Weights & Biases
+    careers_url: https://jobs.lever.co/wandb
+    notes: "MLOps platform."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  - name: Palantir
+    careers_url: https://jobs.lever.co/palantir
+    notes: "FDE roles. Mostly US/London."
+    enabled: true
+
+  # -- European tech (EMEA-friendly) --
+
+  - name: Factorial
+    careers_url: https://job-boards.greenhouse.io/factorial
+    scan_method: websearch
+    scan_query: 'site:jobs.greenhouse.io/factorial'
+    notes: "Barcelona. HR SaaS unicorn."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  - name: Attio
+    careers_url: https://jobs.ashbyhq.com/attio
+    scan_method: websearch
+    scan_query: 'site:attio.com/careers OR site:jobs.ashbyhq.com/attio'
+    notes: "Remote EU. AI-native CRM. Series B $52M."
+    enabled: true
+
+  - name: Tinybird
+    careers_url: https://jobs.ashbyhq.com/tinybird
+    scan_method: websearch
+    scan_query: 'site:tinybird.co/careers OR site:jobs.ashbyhq.com/tinybird'
+    notes: "Remote. Real-time data platform."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  - name: Clarity AI
+    careers_url: https://jobs.lever.co/clarity-ai
+    scan_method: websearch
+    scan_query: 'site:clarity.ai/careers OR site:jobs.lever.co/clarity-ai'
+    notes: "Madrid/Remote. Sustainability analytics with AI."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  - name: Travelperk
+    careers_url: https://jobs.ashbyhq.com/travelperk
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/travelperk'
+    notes: "Barcelona. Business travel unicorn."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  # -- Canadian universities & research institutions --
+
+  - name: Ontario Tech University
+    careers_url: https://ontariotechu.csod.com/ux/ats/careersite/4/home?c=ontariotechu
+    scan_method: websearch
+    scan_query: 'site:ontariotechu.csod.com "AI" OR "Machine Learning" OR "Data Science" OR "Computer Science"'
+    notes: "Oshawa ON. Ontario Tech University career portal."
+    enabled: true
+
+
+  # -- Canadian AI ecosystem --
+
+  - name: Cohere (Toronto HQ)
+    careers_url: https://jobs.ashbyhq.com/cohere
+    notes: "Already listed above — primary listing. Toronto HQ + remote."
+    enabled: false
+
+  - name: Vector Institute
+    careers_url: https://vectorinstitute.ai/careers
+    scan_method: websearch
+    scan_query: 'site:vectorinstitute.ai/careers "Research" OR "ML" OR "Engineer"'
+    notes: "Toronto ON. Canada's flagship AI research institute. Research Engineer & Scientist roles."
+    enabled: true
+
+  - name: Integrate.ai
+    careers_url: https://integrate.ai/careers/
+    notes: "Toronto. Federated learning & privacy-preserving AI platform."
+    scan_method: websearch
+    scan_query: 'site:integrate.ai/careers OR "Integrate.ai" Toronto "Machine Learning" OR "Research" OR "AI Engineer"'
+    notes_2026_09_03: "2026-09-03: greenhouse/lever API slug 404s — switched to scan_method websearch until a valid ATS is confirmed. Canada-relevant, keep monitored."
+    enabled: true
+
+  - name: Layer 6 AI (TD Bank)
+    careers_url: https://layer6.ai/careers
+    scan_method: websearch
+    scan_query: '"layer6" OR "layer6.ai" careers "ML" OR "Research Scientist" OR "Engineer"'
+    notes: "Toronto. TD Bank's AI research lab. Deep ML research roles."
+    enabled: true
+
+
+  # -- Nordics AI --
+  - name: Peltarion
+    careers_url: https://peltarion.com/careers
+    scan_method: websearch
+    scan_query: '"peltarion" careers "AI" OR "ML" OR "Engineer"'
+    notes: "Stockholm SE. Applied AI platform."
+    enabled: true
+
+  - name: Epidemic Sound
+    careers_url: https://jobs.ashbyhq.com/epidemic-sound
+    notes: "Stockholm SE. Music licensing + AI audio recommendations. ML & audio roles. FIXED 2026-08-20 (was job-boards.greenhouse.io/epidemicsound, 404 — moved to Ashby, slug 'epidemic-sound'). No ML-titled roles open as of this scan."
+    enabled: true
+
+
+
+  # -- US AI infra & dev tools (new) --
+
+  - name: Modal Labs
+    careers_url: https://jobs.ashbyhq.com/modal
+    notes: "NYC / Remote. Serverless GPU cloud for ML workloads. FIXED 2026-08-20 (real Ashby slug is 'modal', not 'modal-labs')."
+    enabled: true
+
+  - name: Replicate
+    careers_url: https://jobs.ashbyhq.com/replicate
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/replicate'
+    notes: "Remote. Run ML models via API. Strong ML infra & research team."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  - name: BentoML
+    careers_url: https://job-boards.greenhouse.io/bentoml
+    api: https://boards-api.greenhouse.io/v1/boards/bentoml/jobs
+    notes: "Remote. ML model serving & deployment platform."
+    notes_2026_09_03: "DISABLED 2026-09-03: ATS slug 404s (greenhouse/ashby/lever), no working slug found; not Canada-priority. Re-enable if a valid ATS slug is confirmed."
+    enabled: false
+
+  - name: Baseten
+    careers_url: https://jobs.ashbyhq.com/baseten
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/baseten'
+    notes: "SF. ML inference infrastructure. Strong MLOps & solutions roles."
+    enabled: true
+
+  - name: Galileo
+    careers_url: https://job-boards.greenhouse.io/galileo
+    api: https://boards-api.greenhouse.io/v1/boards/galileo/jobs
+    notes: "SF / Remote. AI evaluation & observability platform (LLM + GenAI)."
+    enabled: true
+
+  - name: Scale AI
+    careers_url: https://job-boards.greenhouse.io/scaleai
+    api: https://boards-api.greenhouse.io/v1/boards/scaleai/jobs
+    notes: "SF. AI data platform. $14B valuation. ML, RLHF, data pipeline roles."
+    enabled: true
+
+  # -- Specialized job board aggregators (new) --
+
+  - name: SpeechTechJobs (aggregator)
+    careers_url: https://speechtechjobs.com
+    scan_method: websearch
+    scan_query: 'site:speechtechjobs.com "ML Engineer" OR "Research Scientist" OR "Audio" OR "ASR" OR "TTS"'
+    notes: "Niche job board for ASR, TTS, speech AI roles globally."
+    enabled: true
+
+  - name: aijobs.ai (aggregator)
+    careers_url: https://aijobs.ai
+    scan_method: websearch
+    scan_query: 'site:aijobs.ai "Machine Learning Engineer" OR "Audio AI" OR "Speech" OR "Research Scientist" remote'
+    notes: "Leading AI/ML/Data Science job board aggregator. Broad coverage."
+    enabled: true 
+
+
+
+  # ---------------------------------------------------------------
+  # -- Toronto AI ecosystem --
+  # ---------------------------------------------------------------
+
+  - name: Waabi
+    careers_url: https://jobs.lever.co/waabi
+    notes: "Toronto / SF / Pittsburgh. Physical AI & autonomous driving. Founded by Raquel Urtasun (ex-Uber ATG). Active ML research & MLOps hiring."
+    enabled: true
+
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    notes: "Toronto HQ + remote. Enterprise LLM provider. Strong ML & platform engineering org."
+    enabled: true
+
+  - name: Layer 6 AI (TD Bank)
+    careers_url: https://layer6.ai/careers
+    scan_method: websearch
+    scan_query: '"layer6.ai" OR "layer 6 ai" careers "ML" OR "Research Scientist" OR "Engineer"'
+    notes: "Toronto. TD Bank's AI research lab. Deep ML research roles in fintech."
+    enabled: true
+
+  - name: Ada
+    careers_url: https://job-boards.greenhouse.io/ada18
+    api: https://boards-api.greenhouse.io/v1/boards/ada18/jobs
+    notes: "Toronto + remote. AI customer service automation. Active ML & NLP hiring. FIXED 2026-08-20 (real Greenhouse slug is 'ada18', not 'ada'; duplicate of another Ada entry above — consider removing one)."
+    enabled: true
+
+  - name: Integrate.ai
+    careers_url: https://integrate.ai/careers/
+    notes: "Toronto. Federated learning & privacy-preserving AI. ML research & infra roles."
+    scan_method: websearch
+    scan_query: 'site:integrate.ai/careers OR "Integrate.ai" Toronto "Machine Learning" OR "Research" OR "AI Engineer"'
+    notes_2026_09_03: "2026-09-03: greenhouse/lever API slug 404s — switched to scan_method websearch until a valid ATS is confirmed. Canada-relevant, keep monitored."
+    enabled: true
+
+  - name: Canvass AI
+    careers_url: https://canvass.io/careers
+    scan_method: websearch
+    scan_query: '"canvass.io" OR "canvassai" careers "ML" OR "Engineer" OR "Data Science"'
+    notes: "Toronto. Industrial AI / predictive analytics platform. ML & data engineering roles."
+    enabled: true
+
+  - name: Cerebras Systems
+    careers_url: https://www.cerebras.net/careers
+    scan_method: websearch
+    scan_query: 'site:cerebras.net/careers "ML" OR "Research" OR "Engineer"'
+    notes: "Toronto / Sunnyvale. AI chip company accelerating LLM inference. ML & systems roles."
+    enabled: true
+
+  - name: Vector Institute
+    careers_url: https://vectorinstitute.ai/careers
+    scan_method: websearch
+    scan_query: 'site:vectorinstitute.ai/careers "Research Engineer" OR "ML" OR "Scientist"'
+    notes: "Toronto. Canada's flagship AI research institute. Research Engineer & Scientist roles."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Montreal AI ecosystem --
+  # ---------------------------------------------------------------
+
+  - name: Mila (Quebec AI Institute)
+    careers_url: https://mila.quebec/en/careers
+    scan_method: websearch
+    scan_query: 'site:mila.quebec "Research Engineer" OR "Research Scientist" OR "ML Engineer" OR "Applied Scientist"'
+    notes: "Montreal QC. World-leading AI research institute (Bengio). Research Engineer & Scientist openings."
+    enabled: true
+
+  - name: Coveo
+    careers_url: https://www.coveo.com/en/company/careers/open-positions
+    scan_method: websearch
+    scan_query: 'site:coveo.com/careers "ML" OR "Research" OR "AI Engineer" OR "NLP"'
+    notes: "Quebec City / Montreal / Remote. AI-powered search & recommendations SaaS. ML & NLP roles."
+    enabled: true
+
+  - name: Hopper
+    careers_url: https://jobs.ashbyhq.com/hopper
+    notes: "Montreal + fully remote Canada. AI travel platform. 84 open roles. ML, data, and engineering."
+    enabled: true
+
+  - name: Lightspeed Commerce
+    careers_url: https://www.lightspeedhq.com/careers/
+    notes: "Montreal / Toronto / Amsterdam. Commerce platform with AI features. ML & data platform roles."
+    scan_method: websearch
+    scan_query: 'site:careers.lightspeedhq.com "Machine Learning" OR "Data Scientist" OR "ML" Montreal OR Toronto OR remote Canada'
+    notes_2026_09_03: "2026-09-03: greenhouse/lever API slug 404s — switched to scan_method websearch until a valid ATS is confirmed. Canada-relevant, keep monitored."
+    enabled: true
+
+  - name: ServiceNow (Element AI)
+    careers_url: https://careers.servicenow.com/
+    notes: "Montreal (Element AI legacy team). AI workflow automation enterprise. ML research & NLP roles."
+    scan_method: websearch
+    scan_query: '"ServiceNow" Montreal "Machine Learning" OR "Research" OR "NLP" OR "Applied Scientist"'
+    notes_2026_09_03: "2026-09-03: greenhouse/lever API slug 404s — switched to scan_method websearch until a valid ATS is confirmed. Canada-relevant, keep monitored."
+    enabled: true
+
+  - name: Plotly / Dash
+    careers_url: https://jobs.ashbyhq.com/plotly
+    provider: ashby
+    notes: "Montreal / Remote. Data visualization & analytics platform. ML & data engineering roles."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Vancouver AI ecosystem --
+  # ---------------------------------------------------------------
+
+  - name: Sanctuary AI
+    careers_url: https://www.sanctuary.ai/careers
+    notes: "Vancouver BC. General-purpose humanoid robots + Physical AI. Active ML Engineer & Research hiring."
+    scan_method: websearch
+    scan_query: '"Sanctuary AI" Vancouver "Machine Learning" OR "ML Engineer" OR "Research" OR "Robotics Learning"'
+    notes_2026_09_03: "2026-09-03: greenhouse/lever API slug 404s — switched to scan_method websearch until a valid ATS is confirmed. Canada-relevant, keep monitored."
+    enabled: true
+
+  - name: D-Wave Quantum
+    careers_url: https://ats.rippling.com/d-wave-quantum/jobs
+    scan_method: websearch
+    scan_query: '"d-wave" careers "ML" OR "Research" OR "Quantum AI" OR "Engineer"'
+    notes: "Burnaby / Vancouver BC. Quantum AI computing. Research & engineering roles."
+    enabled: true
+
+  - name: Hootsuite
+    careers_url: https://careers.hootsuite.com
+    scan_method: websearch
+    scan_query: 'site:careers.hootsuite.com "AI" OR "ML" OR "Machine Learning" OR "Data Science"'
+    notes: "Vancouver BC / Remote. Social media platform. ML & AI features team."
+    enabled: true
+
+  - name: Trulioo
+    careers_url: https://www.trulioo.com/company/careers
+    notes: "Vancouver BC / Remote. Global identity verification with ML. Data science & ML roles."
+    scan_method: websearch
+    scan_query: '"Trulioo" Vancouver OR "remote Canada" "Machine Learning" OR "Data Scientist" OR "ML Engineer"'
+    notes_2026_09_03: "2026-09-03: greenhouse/lever API slug 404s — switched to scan_method websearch until a valid ATS is confirmed. Canada-relevant, keep monitored."
+    enabled: true
+
+  - name: Clio
+    careers_url: https://www.clio.com/about/careers/open-roles/
+    notes: "Vancouver BC / Toronto / Remote. Legal tech SaaS with AI features. ML & platform roles."
+    scan_method: websearch
+    scan_query: '"Clio" (Vancouver OR Toronto OR "remote Canada") "Machine Learning" OR "ML Engineer" OR "Data Scientist" OR "AI"'
+    notes_2026_09_03: "2026-09-03: greenhouse/lever API slug 404s — switched to scan_method websearch until a valid ATS is confirmed. Canada-relevant, keep monitored."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Canada-wide / fully remote --
+  # ---------------------------------------------------------------
+
+  - name: Jobfairr (Canada tech aggregator)
+    careers_url: https://jobfairr.com
+    scan_method: websearch
+    scan_query: 'site:jobfairr.com "Machine Learning" OR "AI Engineer" OR "Research Scientist" Canada remote'
+    notes: "Canada-focused job board aggregator. 250+ Canadian tech companies including 40 Montreal + 100 remote."
+    enabled: true
+
+  - name: Dialpad (Canada remote)
+    careers_url: https://www.dialpad.com/careers
+    scan_method: websearch
+    scan_query: '"dialpad" "ML" OR "AI" "Canada" OR "remote" site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com'
+    notes: "Vancouver-founded. Voice AI for business comms. Canada-remote friendly roles."
+    enabled: true
+
+  - name: Shopify
+    careers_url: https://www.shopify.com/careers
+    scan_method: websearch
+    scan_query: 'site:shopify.com/careers "Machine Learning" OR "AI Engineer" OR "Research Scientist" OR "MLOps"'
+    notes: "Ottawa / fully remote global. Commerce platform. Large ML org (recommendations, fraud, LLM)."
+    enabled: true
+
+  - name: RBC Borealis
+    careers_url: https://jobs.rbc.com/ca/en/borealis
+    scan_method: websearch
+    scan_query: '"RBC Borealis" OR "borealis.ai" careers "Research Scientist" OR "ML Engineer" OR "AI"'
+    notes: "Toronto / Montreal / Vancouver. RBC's AI research lab. Research Scientist & ML Engineer roles."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Academic & public research institutions --
+  # ---------------------------------------------------------------
+
+  # -- Canadian universities --
+
+  - name: University of Toronto (UofT)
+    careers_url: https://jobs.utoronto.ca
+    scan_method: websearch
+    scan_query: 'site:jobs.utoronto.ca "Machine Learning" OR "Artificial Intelligence" OR "Research Scientist" OR "Research Engineer"'
+    notes: "Toronto ON. Top-ranked CS dept. Research Scientist/Engineer & postdoc roles in ML, audio, NLP."
+    enabled: true
+
+  - name: Waterloo AI Institute (WAII)
+    careers_url: https://uwaterloo.ca/artificial-intelligence-institute/opportunities
+    scan_method: websearch
+    scan_query: '"University of Waterloo" OR "uwaterloo" "Research Scientist" OR "Research Engineer" OR "Postdoc" "Machine Learning" OR "AI" OR "NLP" OR "Speech"'
+    notes: "Waterloo ON. Canada's top ML/AI university lab cluster. Research Engineer & postdoc openings."
+    enabled: true
+
+  - name: McGill University
+    careers_url: https://www.mcgill.ca/careers
+    scan_method: websearch
+    scan_query: 'site:mcgill.ca "Research" "Machine Learning" OR "AI" OR "NLP" OR "Speech" OR "Audio" position OR opening 2026'
+    notes: "Montreal QC. Strong ML/NLP research. Mila affiliate. Research Scientist & postdoc roles."
+    enabled: true
+
+  - name: University of British Columbia (UBC)
+    careers_url: https://careers.ubc.ca
+    scan_method: websearch
+    scan_query: 'site:careers.ubc.ca "Machine Learning" OR "AI" OR "Research Scientist" OR "Research Engineer"'
+    notes: "Vancouver BC. Top ML/NLP research. Postdoc & Research Scientist roles."
+    enabled: true
+
+  - name: Amii (Alberta Machine Intelligence Institute)
+    careers_url: https://www.amii.ca/about/careers
+    scan_method: websearch
+    scan_query: '"amii" OR "Alberta Machine Intelligence" careers "Research" OR "ML" OR "Engineer" 2026'
+    notes: "Edmonton AB. Canada's third national AI institute. Research Engineer & Scientist roles."
+    enabled: true
+
+  # -- Global corporate research labs --
+
+  - name: Meta AI Research (FAIR)
+    careers_url: https://ai.meta.com/careers
+    scan_method: websearch
+    scan_query: 'site:metacareers.com "Research Scientist" OR "Research Engineer" "audio" OR "speech" OR "music" OR "signal processing" OR "NLP"'
+    notes: "Remote-eligible. FAIR has audio/speech/NLP research teams. Strong academic-style research culture."
+    enabled: true
+
+  - name: Microsoft Research
+    careers_url: https://careers.microsoft.com/researchers
+    scan_method: websearch
+    scan_query: '"Microsoft Research" "Research Scientist" OR "Research Engineer" OR "Postdoc" "audio" OR "speech" OR "music" OR "NLP" OR "ML" 2026'
+    notes: "Multiple labs (Montreal, NYC, Redmond, Cambridge UK). Academic-style research. Audio/speech/NLP openings."
+    enabled: true
+
+  - name: Amazon Science / AWS AI
+    careers_url: https://www.amazon.science/jobs
+    scan_method: websearch
+    scan_query: 'site:amazon.jobs "Research Scientist" OR "Applied Scientist" "audio" OR "speech" OR "Alexa" OR "NLP" OR "Music" remote OR Canada 2026'
+    notes: "Remote-eligible. Amazon Science posts Applied Scientist & Research Scientist. Alexa AI has audio/speech teams."
+    enabled: true
+
+  - name: Apple ML Research
+    careers_url: https://jobs.apple.com/search?team=machine-learning-and-ai-MLAI
+    scan_method: websearch
+    scan_query: 'site:jobs.apple.com "Research Scientist" OR "Research Engineer" "audio" OR "speech" OR "Siri" OR "NLP" OR "signal processing" Canada OR remote 2026'
+    notes: "Toronto / remote Canada roles exist. Siri & Core ML teams. Audio/speech/NLP research."
+    enabled: true
+
+  - name: Sony AI
+    careers_url: https://ai.sony/careers
+    scan_method: websearch
+    scan_query: '"Sony AI" careers "Research Scientist" OR "Research Engineer" OR "ML" "audio" OR "music" OR "speech" 2026'
+    notes: "Tokyo / Zurich / NYC / remote. Sony AI has dedicated Music AI & Audio research team."
+    enabled: true
+
+  - name: Adobe Research
+    careers_url: https://research.adobe.com/careers
+    scan_method: websearch
+    scan_query: 'site:adobe.com/careers "Research Scientist" OR "Research Engineer" "audio" OR "speech" OR "music" OR "generative" OR "NLP" 2026'
+    notes: "SF / remote. Adobe Research posts ML Research Scientist & Research Engineer. Audio/GenAI teams."
+    enabled: true
+
+  - name: Qualcomm AI Research
+    careers_url: https://www.qualcomm.com/company/careers
+    scan_method: websearch
+    scan_query: '"Qualcomm AI Research" OR "Qualcomm" "Research Scientist" OR "Research Engineer" "audio" OR "speech" OR "ML" OR "signal processing" 2026'
+    notes: "San Diego / remote. Qualcomm AI Research lab. Audio/speech signal processing + ML research."
+    enabled: true
+
+  - name: Toyota Research Institute (TRI)
+    careers_url: https://jobs.lever.co/tri
+    scan_method: websearch
+    scan_query: 'site:jobs.lever.co/tri "Research Scientist" OR "Research Engineer" "ML" OR "AI" OR "audio" OR "speech"'
+    notes: "Remote / Los Altos. TRI has ML research teams across robotics, NLP, foundation models."
+    enabled: true
+
+  - name: Allen Institute for AI (AI2)
+    careers_url: https://job-boards.greenhouse.io/thealleninstitute
+    api: https://boards-api.greenhouse.io/v1/boards/thealleninstitute/jobs
+    notes: "Seattle / Remote. Academic-style nonprofit. Research Scientist & Engineer roles. NLP/Vision/ML. FIXED 2026-08-20 (real Greenhouse slug is 'thealleninstitute', not 'allenai')."
+    enabled: true
+
+  - name: IBM Research
+    careers_url: https://research.ibm.com/careers
+    scan_method: websearch
+    scan_query: '"IBM Research" "Research Scientist" OR "Research Engineer" OR "Postdoc" "audio" OR "speech" OR "NLP" OR "ML" OR "AI" 2026'
+    notes: "NYC / Zurich / Toronto. IBM Research has speech, NLP, and foundation model teams."
+    enabled: true
+
+  # -- Academic job boards --
+
+  - name: Academic Positions (AI/ML aggregator)
+    careers_url: https://academicpositions.com
+    scan_method: websearch
+    scan_query: 'site:academicpositions.com "Machine Learning" OR "AI" OR "NLP" OR "Speech" OR "Audio" researcher OR scientist Canada OR remote 2026'
+    notes: "Global academic jobs board. Research Scientist & postdoc listings in ML/AI/NLP/audio."
+    enabled: true
+
+  - name: Jobs.ac.uk (UK academia)
+    careers_url: https://www.jobs.ac.uk
+    scan_method: websearch
+    scan_query: 'site:jobs.ac.uk "Machine Learning" OR "Speech" OR "Audio AI" OR "NLP" "Research Fellow" OR "Research Scientist" OR "Lecturer" remote OR "fully remote" 2026'
+    notes: "UK academic jobs board. Research Fellow & Lecturer in ML/NLP/Speech. Remote-eligible roles exist."
+    enabled: true
+
+  - name: HigherEdJobs (US academia)
+    careers_url: https://www.higheredjobs.com
+    scan_method: websearch
+    scan_query: 'site:higheredjobs.com "Machine Learning" OR "AI" OR "NLP" OR "Speech" "Research Scientist" OR "Research Engineer" OR "Postdoc" 2026'
+    notes: "US academic jobs board. Postdoc & Research Scientist in ML/NLP/Speech at universities."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Newly discovered portals (2026-04-29 scan) --
+  # ---------------------------------------------------------------
+
+  - name: iZotope (Soundwide)
+    careers_url: https://updates.izotope.com/en/company/careers/jobs.html
+    scan_method: websearch
+    scan_query: '"iZotope" OR "Soundwide" OR "Native Instruments" "Machine Learning" OR "Research Engineer" OR "Audio AI" OR "DSP" jobs 2026'
+    notes: "Boston. Audio ML R&D lab; part of Soundwide group (Native Instruments, Plugin Alliance). Perfect domain match for audio/signal ML research."
+    enabled: true
+
+  - name: Grafana Labs
+    careers_url: https://job-boards.greenhouse.io/grafanalabs
+    api: https://boards-api.greenhouse.io/v1/boards/grafanalabs/jobs
+    notes: "Remote Canada-friendly. ML eval/observability stack. GenAI & ML Evaluation Engineer roles."
+    enabled: true
+
+  - name: Samsara
+    careers_url: https://job-boards.greenhouse.io/samsara
+    api: https://boards-api.greenhouse.io/v1/boards/samsara/jobs
+    notes: "Remote Canada confirmed. IoT/fleet ML; time-series and CV adjacency. Senior MLE roles."
+    enabled: true
+
+  - name: Reddit
+    careers_url: https://job-boards.greenhouse.io/reddit
+    api: https://boards-api.greenhouse.io/v1/boards/reddit/jobs
+    notes: "Remote Ontario Canada roles. Staff/Senior MLE. Ranking, RecSys, ads ML."
+    enabled: true
+
+  - name: Netflix (ML/Research)
+    careers_url: https://explore.jobs.netflix.net/careers
+    scan_method: websearch
+    scan_query: '"Netflix" "Research Scientist" OR "Machine Learning Scientist" OR "Research Engineer" audio OR speech OR ML OR "signal processing" remote OR Canada 2026'
+    notes: "Remote US primarily, high comp. Audio & Speech ML roles (games, content). Verify Canada PR eligibility."
+    enabled: true
+
+  - name: Mirelo AI
+    careers_url: https://jobs.ashbyhq.com/mirelo
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/mirelo OR "mirelo" "Research Scientist" OR "ML" OR "audio" jobs 2026'
+    notes: "Berlin. Generative audio/video sound AI ($41M seed, a16z/Index). Research Scientist + Audio Codec roles. Monitor for remote options."
+    enabled: true
+
+  - name: Bandwidth
+    careers_url: https://job-boards.greenhouse.io/bandwidth
+    api: https://boards-api.greenhouse.io/v1/boards/bandwidth/jobs
+    notes: "Communications/voice AI platform. AI/ML Research & Development roles."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Ottawa / National Capital Region --
+  # ---------------------------------------------------------------
+
+  - name: Ciena
+    careers_url: https://ciena.wd5.myworkdayjobs.com/careers
+    scan_method: websearch
+    scan_query: '"Ciena" "Machine Learning" OR "AI Engineer" OR "Research Scientist" OR "Data Scientist" site:ciena.wd5.myworkdayjobs.com OR "ciena" careers ML'
+    notes: "Ottawa. Networking AI/ML — optical network automation, anomaly detection, predictive maintenance. ML Engineer & Data Scientist roles."
+    enabled: true
+
+  - name: Nokia Bell Labs (Ottawa)
+    careers_url: https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions
+    scan_method: websearch
+    scan_query: '"Nokia" "Ottawa" "Machine Learning" OR "Research Scientist" OR "AI Engineer" OR "Signal Processing" careers 2026'
+    notes: "Ottawa. Nokia Bell Labs Canada has ML/signal processing research roles. Telecom AI, network optimization."
+    enabled: true
+
+  - name: QNX (BlackBerry)
+    careers_url: https://blackberry.wd3.myworkdayjobs.com/BBStudents
+    scan_method: websearch
+    scan_query: '"QNX" OR "BlackBerry" "Ottawa" "Machine Learning" OR "AI" OR "Research Engineer" OR "Embedded ML" careers 2026'
+    notes: "Ottawa. BlackBerry QNX — embedded OS + AI for automotive. ML/AI for safety-critical systems."
+    enabled: true
+
+  - name: Huawei Canada R&D (Ottawa)
+    careers_url: https://career.huawei.com/reccampportal/portal5/index.html
+    scan_method: websearch
+    scan_query: '"Huawei Canada" "Ottawa" OR "Waterloo" "Research Scientist" OR "Machine Learning" OR "AI" OR "Signal Processing" careers 2026'
+    notes: "Ottawa / Waterloo. Huawei Canada R&D Centre — large ML research org, audio/speech/signal processing roles."
+    enabled: true
+
+  - name: University of Ottawa
+    careers_url: https://uottawa.njoyn.com/cl2/xweb/Xweb.asp?tbtoken=Y1tVSxsDFy1dF0QJBBFcBh5PKVIjcjcRFQ4LPg%3D%3D&chk=ZVpaShc%3D&clid=66061&page=joblisting
+    scan_method: websearch
+    scan_query: 'site:uottawa.ca "Research" "Machine Learning" OR "AI" OR "NLP" OR "Speech" OR "Audio" position OR opening 2026'
+    notes: "Ottawa. uOttawa has ML/NLP research groups (NSERC-funded). Research Scientist & postdoc in AI/NLP/speech."
+    enabled: true
+
+  - name: National Research Council Canada (NRC)
+    careers_url: https://nrc.canada.ca/en/careers-nrc
+    scan_method: websearch
+    scan_query: '"National Research Council" OR "NRC" "Machine Learning" OR "Research Scientist" OR "AI" OR "Signal Processing" OR "Audio" careers Canada 2026'
+    notes: "Ottawa / national. NRC has AI/ML research labs — speech, audio, vision. Permanent research positions + postdocs."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Calgary AI ecosystem --
+  # ---------------------------------------------------------------
+
+  - name: AltaML
+    careers_url: https://altaml.com/careers
+    scan_method: websearch
+    scan_query: '"AltaML" "Machine Learning" OR "Research Engineer" OR "Applied Scientist" OR "ML Engineer" careers 2026'
+    notes: "Edmonton / Calgary / Ottawa. Applied ML company — builds production ML for enterprise. ML Engineer & Research Scientist roles."
+    enabled: true
+
+  - name: Benevity
+    careers_url: https://benevity.com/careers
+    scan_method: websearch
+    scan_query: '"Benevity" "Machine Learning" OR "AI Engineer" OR "Data Scientist" OR "Research" site:benevity.com/careers OR site:job-boards.greenhouse.io'
+    notes: "Calgary. Corporate social impact SaaS. Has ML/AI team for NLP, recommendations, analytics."
+    enabled: true
+
+  - name: Symend
+    careers_url: https://symend.com/careers
+    scan_method: websearch
+    scan_query: '"Symend" "Machine Learning" OR "Data Scientist" OR "AI Engineer" careers 2026'
+    notes: "Calgary. Behavioural AI for debt/customer engagement. ML & data science roles."
+    enabled: true
+
+  - name: Solv Energy / Cenovus (Calgary AI)
+    careers_url: https://www.cenovus.com/careers
+    scan_method: websearch
+    scan_query: '"Calgary" "Machine Learning" OR "AI Engineer" OR "Research Scientist" "energy" OR "oil" OR "industrial" site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com 2026'
+    notes: "Calgary. Industrial AI in energy sector — predictive maintenance, time-series, anomaly detection."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Edmonton AI ecosystem --
+  # ---------------------------------------------------------------
+
+  - name: University of Alberta (ML Research)
+    careers_url: https://www.ualberta.ca/human-resources/careers.html
+    scan_method: websearch
+    scan_query: '"University of Alberta" "Research Scientist" OR "Research Engineer" OR "Postdoc" "Machine Learning" OR "Reinforcement Learning" OR "AI" OR "NLP" OR "Speech" OR "Audio" 2026'
+    notes: "Edmonton. Top-ranked ML dept globally. DeepMind / Google partnership. RL, NLP, audio. Postdoc & Research Scientist roles."
+    enabled: true
+
+  - name: AltaML (Edmonton)
+    careers_url: https://altaml.com/careers
+    scan_method: websearch
+    scan_query: '"AltaML" Edmonton "ML Engineer" OR "Data Scientist" OR "Research" 2026'
+    notes: "Edmonton HQ. Applied ML roles — same company as Calgary listing, Edmonton focus."
+    enabled: false
+
+  - name: Jobber
+    careers_url: https://jobs.ashbyhq.com/jobber
+    notes: "Edmonton / remote Canada. Home services SaaS. AI/ML engineering for scheduling, recommendations. NOTE (2026-08-24): migrated ATS from Greenhouse to Ashby — old greenhouse.io token was 404ing, fixed to jobs.ashbyhq.com/jobber."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Kitchener-Waterloo corridor --
+  # ---------------------------------------------------------------
+
+  - name: D2L (Desire2Learn)
+    careers_url: https://job-boards.greenhouse.io/d2l
+    api: https://boards-api.greenhouse.io/v1/boards/d2l/jobs
+    notes: "Waterloo ON / remote Canada. EdTech AI platform. ML for learning analytics, NLP, recommendations."
+    enabled: true
+
+  - name: OpenText
+    careers_url: https://www.opentext.com/about/careers
+    scan_method: websearch
+    scan_query: '"OpenText" "Machine Learning" OR "AI Engineer" OR "Research Scientist" OR "NLP" OR "Applied Scientist" site:opentext.com/about/careers 2026'
+    notes: "Waterloo. Enterprise AI/information management. ML for document AI, NLP, automation."
+    enabled: true
+
+  - name: Arctic Wolf Networks
+    careers_url: https://arcticwolf.com/company/careers/
+    notes: "Waterloo ON / Eden Prairie MN / remote Canada. Cybersecurity AI — anomaly detection, threat detection ML. ML Engineer roles."
+    scan_method: websearch
+    scan_query: 'site:arcticwolf.com/careers "Machine Learning" OR "Data Scientist" OR "ML Engineer" (Waterloo OR "remote Canada")'
+    notes_2026_09_03: "2026-09-03: greenhouse/lever API slug 404s — switched to scan_method websearch until a valid ATS is confirmed. Canada-relevant, keep monitored."
+    enabled: true
+
+  - name: Kira Systems (Litera)
+    careers_url: https://litera.com/company/careers
+    scan_method: websearch
+    scan_query: '"Kira Systems" OR "Litera" "Machine Learning" OR "NLP" OR "AI Engineer" OR "Research" careers 2026'
+    notes: "Toronto / Waterloo. AI for legal document analysis (NLP, contract review). ML Research & Engineer roles."
+    enabled: true
+
+  - name: Vidyard
+    careers_url: https://www.vidyard.com/careers/
+    notes: "Kitchener / remote Canada. Video platform with AI features (analytics, transcription, NLP). ML & data roles."
+    scan_method: websearch
+    scan_query: '"Vidyard" (Kitchener OR "remote Canada") "Machine Learning" OR "ML" OR "Data Scientist" OR "NLP"'
+    notes_2026_09_03: "2026-09-03: greenhouse/lever API slug 404s — switched to scan_method websearch until a valid ATS is confirmed. Canada-relevant, keep monitored."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Halifax / Atlantic Canada --
+  # ---------------------------------------------------------------
+
+  - name: Innovacorp / NSBI (Nova Scotia AI)
+    careers_url: https://innovacorp.ca/careers
+    scan_method: websearch
+    scan_query: '"Halifax" OR "Nova Scotia" "Machine Learning" OR "AI Engineer" OR "Research Scientist" "remote" OR "Halifax" site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com 2026'
+    notes: "Halifax NS. Nova Scotia startup ecosystem — AI/ML roles at Atlantic Canada tech companies."
+
+  # ---------------------------------------------------------------
+  # -- Industrial Automation & Manufacturing Intelligence (new) --
+  # ---------------------------------------------------------------
+
+  - name: LSI (Logical Systems Inc.)
+    careers_url: https://logicalsystemsinc.applytojob.com/apply
+    scan_method: websearch
+    scan_query: '"Logical Systems" OR "LSI" "Machine Learning" OR "Data Science" OR "Predictive Maintenance" site:logicalsystemsinc.applytojob.com'
+    notes: "Toronto/Ontario/BC. Industrial-automation systems integrator — fault detection, predictive maintenance, quality optimization, process control. Strong domain analog to MAS Holdings background. No Greenhouse/Ashby/Lever API (runs on ApplyToJob) — careers_url is the official listing, not an aggregator. Confirmed 2026-08-07: no ML/Data Science roles live at that time (only Controls/Electrical/Field Service/Process Engineer); re-check periodically rather than trusting aggregator caches (talent.com/Jooble/LinkedIn listings for this company have shown stale/expired reqs)."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Added 2026-08-21: Canada-only scope expansion --
+  # ---------------------------------------------------------------
+
+  - name: Wealthsimple
+    careers_url: https://jobs.ashbyhq.com/wealthsimple
+    notes: "Toronto. Fintech — ML/data platform roles for personalization, fraud, trading. FIXED 2026-08-21 (was job-boards.greenhouse.io/wealthsimple, 404 — moved to Ashby, slug 'wealthsimple'; company also has a live Lever board at jobs.lever.co/wealthsimple, but Ashby is the primary/current one)."
+    enabled: true
+
+  - name: Deep Genomics
+    careers_url: https://jobs.lever.co/deepgenomics
+    notes: "Toronto. AI drug discovery — ML research/engineering roles."
+    enabled: true
+
+  - name: Xanadu
+    careers_url: https://xanadu.applytojob.com/apply
+    scan_method: websearch
+    scan_query: 'site:xanadu.applytojob.com "Machine Learning" OR "AI" OR "Research Engineer" OR "Quantum Software"'
+    notes: "Toronto. Quantum computing — ML/software roles adjacent to research engineering. FIXED 2026-08-21 (was jobs.lever.co/xanadu, 404 — real ATS is ApplyToJob at xanadu.applytojob.com/apply, ~80 open roles incl. 'AI Developer – Agentic System'; no Greenhouse/Lever/Ashby API, so scan_method set to websearch)."
+    enabled: true
+
+  - name: 1QBit
+    careers_url: https://1qbit.com/careers/
+    scan_method: websearch
+    scan_query: 'site:1qbit.com "careers" "Machine Learning" OR "AI Engineer" OR "Research"'
+    notes: "Vancouver. Quantum + AI research — small, niche ML roles."
+    enabled: true
+
+  - name: BenchSci
+    careers_url: https://jobs.lever.co/benchsci
+    notes: "Toronto. AI for biomedical research — ML/NLP roles. FIXED 2026-08-21 (was jobs.ashbyhq.com/benchsci, 404 — real ATS is Lever, slug 'benchsci'; confirmed live incl. 'Senior Machine Learning Engineer - Knowledge Graph (Remote)')."
+    enabled: true
+
+  - name: Ecobee
+    careers_url: https://careers.generac.com/en/brands/ecobee/
+    scan_method: websearch
+    scan_query: 'site:careers.generac.com "ecobee" "Machine Learning" OR "Data Scientist" OR "AI"'
+    notes: "Toronto. Smart home IoT — ML/data science for device telemetry, time-series. FIXED 2026-08-21 (was job-boards.greenhouse.io/ecobee, 404 — Ecobee was acquired by Generac; careers now live on Generac's own portal, no Greenhouse/Lever/Ashby API, so scan_method set to websearch)."
+    enabled: true
+
+  - name: Kinaxis
+    careers_url: https://jobs.smartrecruiters.com/Kinaxis
+    scan_method: websearch
+    scan_query: 'site:jobs.smartrecruiters.com/Kinaxis "Machine Learning" OR "Data Scientist" OR "AI"'
+    notes: "Ottawa. Supply chain SaaS — ML/forecasting/optimization roles."
+    enabled: true
+
+  - name: ApplyBoard
+    careers_url: https://applyboard.wd3.myworkdayjobs.com/ApplyBoardNH
+    scan_method: websearch
+    scan_query: 'site:applyboard.wd3.myworkdayjobs.com "Machine Learning" OR "Data" OR "AI"'
+    notes: "Kitchener-Waterloo. EdTech — ML/data roles for matching, recommendations. FIXED 2026-08-21 (was jobs.ashbyhq.com/applyboard, 404 — real ATS is Workday; no Greenhouse/Lever/Ashby API, so scan_method set to websearch)."
+    enabled: true
+
+  - name: League Inc
+    careers_url: https://job-boards.greenhouse.io/leagueinc
+    notes: "Toronto. Health tech — ML/data roles for personalization, recommendations. FIXED 2026-08-21 (was jobs.lever.co/league, 404 — real ATS is Greenhouse, slug 'leagueinc' not 'league')."
+    enabled: true
+
+  - name: Klue
+    careers_url: https://jobs.ashbyhq.com/klue
+    notes: "Vancouver. Competitive intelligence SaaS — AI/NLP roles for content generation, summarization. FIXED 2026-08-21 (was jobs.lever.co/klue, 404 — real ATS is Ashby, slug 'klue'; confirmed live incl. 'Senior Software Engineer, AI (Agents)' in Vancouver)."
+    enabled: true
+
+  - name: Nuvei
+    careers_url: https://apply.workable.com/nuvei/
+    scan_method: websearch
+    scan_query: 'site:apply.workable.com/nuvei "Machine Learning" OR "Data Science" OR "AI" OR "Fraud"'
+    notes: "Montreal. Fintech payments — ML/data science for fraud, risk. FIXED 2026-08-21 (was job-boards.greenhouse.io/nuvei, 404 — real ATS is Workable; no Greenhouse/Lever/Ashby API, so scan_method set to websearch)."
+    enabled: true
+
+  - name: Valence Labs (Recursion)
+    careers_url: https://job-boards.greenhouse.io/valencelabs
+    notes: "Montreal QC / London UK hybrid (50% onsite). AI drug discovery research division of Recursion — ML Research Scientist roles (flow matching, diffusion models, geometric deep learning for bio/chem). Added 2026-08-21 Canada discovery."
+    enabled: true
+
+  - name: Achievers
+    careers_url: https://jobs.lever.co/achievers
+    notes: "Toronto (Liberty Village), hybrid. Employee engagement SaaS — Data Scientist roles applying ML to a large, diverse data environment. Added 2026-08-21 Canada discovery."
+    enabled: true
+
+  - name: Fullscript
+    careers_url: https://jobs.lever.co/fullscript
+    notes: "Ottawa / Toronto / Calgary, remote-first. Health tech (practitioner supplement/care platform) — Data Scientist roles for growth & experimentation. Added 2026-08-21 Canada discovery."
+    enabled: true
+
+  - name: Later
+    careers_url: https://job-boards.greenhouse.io/later
+    notes: "Vancouver, BC (also Boston MA HQ), hybrid/remote-flex. Social media/influencer marketing SaaS. Has an active 'Senior AI Automation Engineer' req that explicitly lists Vancouver, BC as one of the company's real physical offices (verified live via Greenhouse job-boards API + WebFetch on 2026-08-21, job id 8562535002) — not a generic 'Canada' catch-all posting."
+    enabled: true
+
+  - name: Miovision
+    careers_url: https://jobs.ashbyhq.com/miovision
+    notes: "Kitchener/Waterloo, ON HQ. Traffic intelligence company — computer vision/AI applied to traffic camera data (has historically run Senior Computer Vision Developer reqs). As of 2026-08-21 verification, current open Ashby board (9 reqs) is Hardware/PM/IT/Marketing only, no live CV/ML req — track for future postings."
+    enabled: true
+
+  - name: Assent
+    careers_url: https://careers.smartrecruiters.com/assent
+    scan_method: websearch
+    scan_query: 'site:careers.smartrecruiters.com/assent "Machine Learning" OR "AI" OR "Data Scientist"'
+    notes: "Ottawa, ON HQ (also Toronto office). Supply-chain sustainability/compliance SaaS with an internal AI, Data & Automation team (has previously run Senior Machine Learning Developer/Engineer reqs in Ottawa). As of 2026-08-21 verification via SmartRecruiters, the 6 Ottawa openings are DevOps/PM/CS only — no live ML/AI req; AI Engineer reqs currently open only in the Pune, India office. Track Ottawa office for future ML postings."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Added 2026-08-21: non-AI/ML adjacent (embedded/DSP/audio, robotics/IoT) --
+  # ---------------------------------------------------------------
+
+  - name: Kinova Robotics
+    careers_url: https://www.kinovarobotics.com/career
+    scan_method: websearch
+    scan_query: 'site:kinovarobotics.com "career" "Software Engineer" OR "Embedded" OR "Firmware" OR "Controls"'
+    notes: "FIXED 2026-08-21: original /careers URL 404'd; correct path is /career. Montreal (Boisbriand), QC. Robotic arm manufacturer — embedded/robotics software, controls, real-time systems roles. Strong domain match for candidate's embedded/real-time/sensor-fusion background, no AI framing needed. ATS: custom JS-rendered job board on kinovarobotics.com (not gh/lever/ashby) — scan.mjs only has API providers for greenhouse/lever/ashby, so websearch stays correct. Confirmed live posting seen 2026-08-21: 'Embedded Software Developer (Firmware)', Boisbriand QC."
+    enabled: true
+
+  - name: Clearpath Robotics / OTTO Motors
+    careers_url: https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation
+    scan_method: websearch
+    scan_query: 'site:rockwellautomation.wd1.myworkdayjobs.com "Clearpath" Software OR Robotics OR Perception OR Embedded'
+    notes: "FIXED 2026-08-21: clearpathrobotics.com/careers/ redirects into a Workday portal — Clearpath is now a Rockwell Automation brand/subsidiary, and Clearpath + OTTO Motors reqs are posted on Rockwell's Workday tenant (rockwellautomation.wd1.myworkdayjobs.com), searchable by 'Clearpath Robotics' in the title/req. Kitchener, ON. Robotics software, perception, embedded systems roles. ATS: Workday — scan.mjs has no Workday provider yet, so websearch stays correct. Confirmed live posting seen 2026-08-21: 'Robot Builder Co-op' (req R26-2897)."
+    enabled: true
+
+  - name: Avidbots
+    careers_url: https://avidbots.bamboohr.com/jobs/
+    scan_method: websearch
+    scan_query: 'site:avidbots.bamboohr.com jobs Software OR Robotics OR Embedded OR Controls'
+    notes: "VERIFIED 2026-08-21: real ATS is BambooHR at avidbots.bamboohr.com/jobs/ (avidbots.com/company/careers/ just links out to it; direct WebFetch of the BambooHR board 403s to non-browser fetchers, so verify live postings via WebSearch/Playwright, not WebFetch). Kitchener, ON. Robotics software, embedded, controls, perception roles. scan.mjs has no BambooHR provider, so websearch stays correct."
+    enabled: true
+
+  - name: Ross Video
+    careers_url: https://jobs.dayforcehcm.com/en-US/rossvideo/CANDIDATEPORTAL
+    scan_method: websearch
+    scan_query: 'site:jobs.dayforcehcm.com rossvideo Software OR DSP OR Audio OR Video OR Embedded'
+    notes: "FIXED 2026-08-21: original guess (ross-video.ttcportals.com) is a dead-end/wrapper page — the real, currently-used ATS is Dayforce (jobs.dayforcehcm.com/en-US/rossvideo/CANDIDATEPORTAL), confirmed via multiple live job req URLs (e.g. jobs/11240 'Senior Software Developer - Embedded', 2026 req number). It's a JS SPA — WebFetch returns only nav/footer chrome (no rendered job content), so liveness/location must be confirmed via WebSearch snippets or Playwright, not WebFetch. Iroquois, ON (near Ottawa; R&D labs in Ottawa). Broadcast video/audio production technology — real-time video/audio signal processing, embedded systems. Direct domain match for candidate's audio/DSP/real-time background. scan.mjs has no Dayforce provider, so websearch stays correct."
+    enabled: true
+
+  - name: MDA Space
+    careers_url: https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/664818ff-3594-4bec-9f30-3394e59e19f3/
+    scan_method: websearch
+    scan_query: 'site:recruiting.ultipro.ca MAC5000MCDW Software OR Robotics OR "Systems Engineer" OR Controls'
+    notes: "FIXED 2026-08-21: mda.space/en/careers links out to a UKG/UltiPro job board (recruiting.ultipro.ca/MAC5000MCDW/JobBoard/...) with separate boards for Canada, US, EMEA, and Co-op/Students — this Canada-board URL is the correct careers_url. Brampton, ON (also Montreal, Ottawa offices). Space robotics/satellite systems — robotics software, real-time embedded systems, controls engineering. scan.mjs has no UltiPro/UKG provider, so websearch stays correct."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Added 2026-08-21: broader non-AI/ML discovery pass (audio/DSP, robotics/embedded, industrial automation) --
+  # ---------------------------------------------------------------
+
+  - name: Sonova / Unitron
+    careers_url: https://www.sonova.com/canada/en/jobs
+    scan_method: websearch
+    scan_query: 'site:jobs.sonova.com Kitchener Software OR DSP OR Embedded OR Firmware'
+    notes: "ADDED 2026-08-21: Unitron (hearing aid manufacturer, Kitchener-Waterloo, ON) is part of Sonova Group; 100+ audiology/mechanical/algorithmic/software engineers at the Kitchener dev center do real DSP work on hearing devices. ATS is SuccessFactors (career5.successfactors.eu) for the Canada board, with a separate global board at jobs.sonova.com. As of 2026-08-21, Kitchener openings found were QA Analyst / Manufacturing Systems & Software Specialist / Technical Support — not core DSP/embedded reqs; the live 'Embedded Software Engineer' and 'Software Engineer Embedded AI' postings found on jobs.sonova.com are in Staefa/Murten, Switzerland (hard-exclude per Canada-only location policy). Track Kitchener office for future DSP/embedded openings — strong domain match if one opens (candidate's audio DSP background is a direct hit)."
+    enabled: true
+
+  - name: CAE Inc.
+    careers_url: https://cae.wd3.myworkdayjobs.com/en-US/CAE
+    scan_method: websearch
+    scan_query: 'site:cae.wd3.myworkdayjobs.com Montreal Software OR "Real-Time" OR Simulation OR Embedded'
+    notes: "ADDED 2026-08-21: CAE (Montreal/Saint-Laurent, QC HQ) — flight/simulation training systems. Software engineer roles build hyper-realistic real-time simulation models (autopilot, avionics, pneumatic systems) — strong real-time-systems domain match. ATS is Workday (cae.wd3.myworkdayjobs.com); scan.mjs has no Workday provider, so websearch stays correct. Not yet verified which specific reqs are open — track for real-time/embedded/simulation software roles in Montreal."
+    enabled: true
+
+  - name: Magna International
+    careers_url: https://www.magna.com/careers
+    scan_method: websearch
+    scan_query: 'site:wd3.myworkdaysite.com magna Aurora Embedded OR Firmware Software'
+    notes: "ADDED 2026-08-21: Magna International (Aurora, ON HQ, also many Ontario plants) — automotive Tier 1 supplier with embedded software/firmware roles (ADAS, body electronics, powertrain controls). ATS is Workday (wd3.myworkdaysite.com); scan.mjs has no Workday provider, so websearch stays correct. Not yet verified which specific Aurora reqs are open — track for embedded/firmware software roles. Lower priority: large automotive supplier, may skew toward automotive-domain-specific requirements over general embedded/real-time skills."
+    enabled: true
+
+  - name: ATS Corporation (ATS Automation)
+    careers_url: https://jobs.atsautomation.com/?locale=en_US
+    scan_method: websearch
+    scan_query: 'site:jobs.atsautomation.com Cambridge Software OR Embedded OR Controls OR PLC'
+    notes: "ADDED 2026-08-21: ATS Corporation (Cambridge, ON HQ) — custom factory automation systems (PLC/PC-based controls, HMI, SCADA, MES). Software Developer (Embedded) roles in Cambridge match candidate's embedded/real-time/industrial-deployment background (MAS Holdings analog). ATS is a custom board at jobs.atsautomation.com — scan.mjs has no provider for it, so websearch stays correct. Not yet verified which specific reqs are currently open — track for embedded/controls software roles."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Added 2026-08-24: fresh search follow-up --
+  # ---------------------------------------------------------------
+
+  - name: Faire
+    careers_url: https://job-boards.greenhouse.io/faire
+    notes: "Kitchener-Waterloo / Toronto / Remote-Ontario. E-commerce wholesale marketplace. Multiple Applied AI/ML Scientist + ML Platform Engineer roles in Canada as of 2026-08-24."
+    enabled: true
+
+  - name: Phaidra
+    careers_url: https://job-boards.greenhouse.io/phaidra
+    notes: "Fully remote, hires internationally incl. Canada (OysterHR). AI-powered industrial control systems (reinforcement learning). Adjacent fit for real-time/embedded/industrial-systems background — only the AI Controls Solutions Engineer (HVAC) role is Canada-eligible; other Phaidra reqs (AU/SG Controls, RL Research Scientist, PhD studentship) are not."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Added 2026-08-24: smaller-city Canada expansion --
+  # ---------------------------------------------------------------
+
+  - name: Verafin (Nasdaq)
+    careers_url: https://verafin.com/careers/
+    scan_method: websearch
+    scan_query: '"Verafin" "St. John''s" "Software Developer" OR "Machine Learning" site:nasdaq.wd1.myworkdayjobs.com'
+    notes: "St. John's, NL (also Toronto office). Fraud detection/AML AI company, acquired by Nasdaq. Real ATS is Workday (nasdaq.wd1.myworkdayjobs.com); scan.mjs has no Workday provider, so websearch stays correct — WebFetch also returns empty content on this Workday SPA (JS-rendered), so individual req liveness could not be confirmed via WebFetch on 2026-08-24. WebSearch found several distinct-looking open reqs incl. 'Senior Software Developer (Machine Learning Infrastructure and Deployment)' (R0024990-1) and 'Software Developer Specialist (Machine Learning Infrastructure and Deployment)' (R0025657) — verify manually before evaluating. Strong domain fit (production ML infra/deployment)."
+    enabled: true
+
+  - name: Vecima Networks
+    careers_url: https://vecima.com/company/careers/
+    scan_method: websearch
+    scan_query: '"Vecima Networks" Victoria "Software Engineer" OR "DSP" OR "Embedded" site:recruiting.ultipro.ca'
+    notes: "Victoria, BC. Broadband/telecom hardware+software; owns Spectrum Signal Processing (software-defined radio, embedded DSP modules) — strong domain match for candidate's audio/DSP/real-time background. Real ATS is UltiPro (recruiting.ultipro.ca/VEC5000VECI/JobBoard/...); scan.mjs has no UltiPro provider, so websearch stays correct — WebFetch returns only nav chrome (JS-rendered), so individual posting liveness not confirmed on 2026-08-24. A 'Software Engineer' LinkedIn listing was seen (2026-06) — verify manually before evaluating."
+    enabled: true
+
+  - name: Vendasta
+    careers_url: https://www.vendasta.com/company/careers/
+    scan_method: websearch
+    scan_query: '"Vendasta" Saskatoon "Software Developer" OR "Machine Learning" OR "AI"'
+    notes: "Saskatoon, SK (also Chennai, Boca Raton offices). AI-first SaaS platform for local-business marketing (Vibe AI app builder, AI Employees). Actively building an AI team; Senior/Software Developer roles reference LangChain/MCP/AI-model-vendor stack. No Greenhouse/Ashby/Lever API found; careers page returned 403 to WebFetch on 2026-08-24 — verify current openings manually (wellfound.com/company/vendasta/jobs also 403'd)."
+    enabled: true
+
+  - name: Voices.com
+    careers_url: https://www.voices.com/company/careers
+    scan_method: websearch
+    scan_query: '"Voices.com" OR "Voices" London Ontario "Software Engineer" OR "Audio" site:jobs.jobvite.com/voices'
+    notes: "London, ON HQ (hybrid, 1 in-office day/month; Toronto satellite roles also seen). Voice-over/Voice-AI marketplace — audio domain adjacency, though open roles skew full-stack web rather than audio ML specifically. Real ATS is Jobvite (jobs.jobvite.com/voices). CONFIRMED LIVE 2026-08-24 via WebFetch: 'Senior Software Engineer', London ON hybrid, $100k-$125k, active Apply button — added to pipeline.md."
+    enabled: true
+
+  - name: Calian (SED Systems)
+    careers_url: https://careers.calian.com/advanced-technologies/
+    scan_method: websearch
+    scan_query: '"Calian" OR "SED Systems" Saskatoon "Software Engineer" OR "Systems Engineer" OR "Signal Processing"'
+    notes: "Saskatoon, SK (Innovation Place / U of Saskatchewan campus). SED Systems division does satellite communications, RF, and satellite test/control engineering — strong signal-processing domain match. No Greenhouse/Ashby/Lever API; careers.calian.com is a JS-rendered SPA (WebFetch returns only a loading placeholder). As of 2026-08-24 verification, Glassdoor showed no current SED Systems/Saskatoon openings — track for future postings rather than assuming currently live."
+    enabled: true
+
+  # ---------------------------------------------------------------
+  # -- Added 2026-08-25: creative cross-domain expansion (manufacturing QC, biosignal/BCI, music-instrument mfg, medtech) --
+  # ---------------------------------------------------------------
+
+  - name: InteraXon (Muse)
+    careers_url: https://choosemuse.com/pages/careers
+    scan_method: websearch
+    scan_query: '"InteraXon" OR "Muse headband" Toronto "Software Engineer" OR "Signal Processing" OR "Firmware" OR "Machine Learning"'
+    notes: "ADDED 2026-08-25: Toronto. Consumer EEG/biosignal headband (Muse) for meditation/sleep. Direct domain match — real-time biosignal processing, embedded firmware, ML on noisy sensor streams (same shape as candidate's gesture/audio sensor work). No Greenhouse/Ashby/Lever API found; careers page appears to be a lightweight Shopify page — verify current openings manually via WebSearch/Playwright."
+    enabled: true
+
+  - name: Canada Goose
+    careers_url: https://canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers
+    scan_method: websearch
+    scan_query: 'site:canadagoose.wd3.myworkdayjobs.com "Quality Engineer" OR "Machine Vision" OR "Automation Engineer" OR "Manufacturing Systems"'
+    notes: "ADDED 2026-08-25, ATS confirmed 2026-08-25 via WebSearch: real careers_url is Workday (canadagoose.wd3.myworkdayjobs.com/CanadaGooseCareers), not the marketing careers.html page. Toronto HQ, Winnipeg manufacturing. Apparel manufacturer with in-house production lines — automated inspection/QC and manufacturing systems roles are a direct analog to candidate's MAS Holdings care-label/fabric QC computer-vision work. scan.mjs has no Workday provider, so websearch stays correct. Not yet verified which specific reqs are open — track for Quality/Automation Engineer postings, especially Winnipeg plant."
+    enabled: true
+
+  - name: Gildan Activewear
+    careers_url: https://gildancorp.com/en/careers/open-positions/
+    scan_method: websearch
+    scan_query: 'site:gildancorp.com/en/careers "Automation Engineer" OR "Machine Vision" OR "Quality Engineer" OR "Manufacturing Systems"'
+    notes: "ADDED 2026-08-25, ATS confirmed 2026-08-25 via WebSearch: real careers_url is gildancorp.com/en/careers/open-positions/ (gildancareers.com does not resolve). Montreal HQ, large-scale apparel manufacturer. Automation/quality/machine-vision roles in manufacturing plants — same domain as candidate's MAS Holdings CV/QC background. Not yet verified which specific reqs are open — track for Automation/Quality Engineer postings."
+    enabled: true
+
+  - name: Godin Guitars (La Patrie / Seagull)
+    careers_url: https://www.godinguitars.com/en/careers
+    scan_method: websearch
+    scan_query: '"Godin Guitars" OR "La Patrie" Quebec "Engineer" OR "R&D" OR "Product Development"'
+    notes: "ADDED 2026-08-25: La Patrie, QC. Canada's largest guitar manufacturer (Godin, Seagull, Simon & Patrick brands). Niche music-instrument-tech fit given candidate's guitar-gesture-detection research and performing-guitarist background — R&D/product roles would be rare but high-narrative-fit if posted. Not yet verified which specific reqs are open — track for R&D/engineering postings."
+    enabled: true
+
+  - name: Baylis Medical
+    careers_url: https://baylismedtech.com/careers/
+    scan_method: websearch
+    scan_query: 'site:baylismedtech.com/careers "R&D Engineering" OR "Signal Processing" OR "Embedded"'
+    notes: "ADDED 2026-08-25, ATS confirmed 2026-08-25 via WebSearch: company rebranded to Baylis Medical Technologies, real careers_url is baylismedtech.com/careers/ (baylismedical.com is stale). Mississauga, ON. Medical device manufacturer (cardiac/vascular devices) with embedded real-time signal-processing R&D — direct domain match for candidate's real-time DSP/embedded background applied to a new (medtech) vertical. As of 2026-08-25, an open req titled 'Future Opportunities – R&D Engineering (Various Levels)' was found — a general pipeline req, not a specific posting; verify manually before evaluating."
+    enabled: true
+
+  - name: Ubisoft (Toronto / Montreal — Audio/AI)
+    careers_url: https://www.ubisoft.com/en-us/company/careers
+    scan_method: websearch
+    scan_query: '"Ubisoft" Toronto OR Montreal "Audio Programmer" OR "Machine Learning" OR "AI Research" OR "Sound"'
+    notes: "ADDED 2026-08-25: Toronto + Montreal studios. Game audio programming and internal AI research (La Forge lab, Montreal) — audio DSP/real-time systems fit for candidate's music-tech + real-time embedded background, applied to games. Not yet verified which specific reqs are open — track for Audio Programmer/ML Research postings."
+    enabled: true
+
+  - name: Linamar (Skyjack — embedded)
+    careers_url: https://www.linamar.com/linamar-careers/
+    scan_method: websearch
+    scan_query: '"Linamar" OR "Skyjack" Guelph "Embedded Software Engineer" site:fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com'
+    notes: "Guelph, ON. Linamar's Skyjack division (mobile elevating work platforms) has run 'Embedded Software Engineer' reqs (electro-hydraulics, powertrain, operator interfaces, SAE J1939 CAN) — real embedded/real-time domain match. Real ATS is Oracle Cloud HCM; scan.mjs has no Oracle HCM provider, so websearch stays correct. Posting seen via third-party mirrors (Ladders/ZipRecruiter) as of 2026-08-24 but not independently confirmed live on the Oracle Cloud portal itself (JS-rendered) — verify manually before evaluating."
+    enabled: true
+  # ==================================================================
+  # ADDED 2026-09-03 — verified via ATS API during the codex-search
+  # pipeline run. All Canada-located or Canada-remote. Slugs confirmed
+  # live (job counts in parens at time of adding).
+  # ==================================================================
+  - name: Jumio
+    careers_url: https://job-boards.greenhouse.io/jumio
+    api: https://boards-api.greenhouse.io/v1/boards/jumio/jobs
+    provider: greenhouse
+    notes: "Montreal ML team. Identity verification / biometrics — computer vision, low-latency inference, benchmarking. Direct fit (eval #1112, 4.2/5, APPLY). GH slug 'jumio' verified 2026-09-03 (29 jobs)."
+    enabled: true
+
+  - name: Nexxa.AI
+    careers_url: https://jobs.ashbyhq.com/nexxa
+    provider: ashby
+    notes: "Toronto (remote-friendly). AI for heavy industries — industrial computer vision, edge inference, manufacturing automation. Strong fit (evals #1121 4.1/5 APPLY, #1122 3.6/5). Also posts SF-Bay roles — location-filter at eval. Ashby slug 'nexxa' verified 2026-09-03 (16 jobs). Early-stage — do due diligence."
+    enabled: true
+
+  - name: Helm.ai
+    careers_url: https://jobs.ashbyhq.com/helm-ai
+    provider: ashby
+    notes: "Remote Canada (also posts Remote US). Autonomous-vehicle perception, unsupervised learning, vehicle deployment. Fit (eval #1118, 3.6/5). Ashby slug 'helm-ai' verified 2026-09-03 (8 jobs)."
+    enabled: true
+
+  - name: Stratum AI
+    careers_url: https://jobs.ashbyhq.com/stratum-ai
+    provider: ashby
+    notes: "Remote Canada preferred. Mining-AI — forward-deployed ML, custom PyTorch (CNN/GNN/Transformers) for resource modelling. Fit (eval #1119, 3.5/5, needs GNN prep). Ashby slug 'stratum-ai' verified 2026-09-03 (11 jobs)."
+    enabled: true
+
+  - name: XYZ Reality
+    careers_url: https://jobs.ashbyhq.com/xyz-reality
+    provider: ashby
+    notes: "Calgary tech hub (Series B, construction AR). 3D computer vision, spatial AI, wearable perception, ML platform. Evals #1133/#1134 SKIP (3D/spatial CV specialisation gap) but Calgary CV/ML roles worth monitoring. Ashby slug 'xyz-reality' verified 2026-09-03 (42 jobs — many are construction site-engineer roles, title-filter handles it)."
+    enabled: true
+
+  - name: Innodata
+    careers_url: https://job-boards.greenhouse.io/innodatainc
+    api: https://boards-api.greenhouse.io/v1/boards/innodatainc/jobs
+    provider: greenhouse
+    notes: "Remote Canada. Nasdaq: INOD, data-engineering / GenAI-services. LLM post-training + evaluation research/engineering. Evals #1113 (3.5) + #1114 (3.7, APPLY, CA$245-315k). GH slug 'innodatainc' verified 2026-09-03 (101 jobs)."
+    enabled: true
+
+  - name: Oscilar
+    careers_url: https://jobs.ashbyhq.com/oscilar
+    provider: ashby
+    notes: "Remote (VERIFY Canada eligibility per role — board has Brazil/US/Poland/UK-scoped roles too). AI Risk Decisioning — fraud/credit/compliance ML. Eval #1120 (3.7, pursue if Canada-eligible, USD$210-250k+equity). Ashby slug 'oscilar' verified 2026-09-03 (24 jobs)."
+    enabled: true
+
+  - name: Extreme Networks
+    careers_url: https://jobs.lever.co/extremenetworks
+    provider: lever
+    notes: "Toronto hybrid. Network-management AI — greenfield ML/GenAI/GraphML strategy + research lead. Eval #1116 (3.5). Lever slug 'extremenetworks' verified 2026-09-03 (136 jobs — title-filter handles the non-ML roles)."
+    enabled: true
+
+  - name: Affinity
+    careers_url: https://jobs.ashbyhq.com/affinity.co
+    provider: ashby
+    notes: "Remote Canada (also posts US). Relationship-intelligence CRM — applied ML on structured + unstructured data, streaming inference. Eval #1131 SKIP (NLP/IE + graph, wrong lean) but posts Canada ML roles. Ashby slug 'affinity.co' verified 2026-09-03 (10 jobs)."
+    enabled: true
+
+  - name: Wave HQ (waveapps)
+    careers_url: https://jobs.lever.co/waveapps
+    provider: lever
+    notes: "Remote Canada (Toronto HQ, H&R Block subsidiary). SMB accounting SaaS — foundational ML models, pipelines/platform, MLOps. Eval #1117 (3.6, comp CA$100-130k below target). NOT the same company as 'Wave Mobile Money' (#15/#16). Lever slug 'waveapps' verified 2026-09-03 (8 jobs)."
+    enabled: true
+
+  - name: AutoTrader.ca (TRADER Corp)
+    careers_url: https://job-boards.greenhouse.io/autotradercanada
+    api: https://boards-api.greenhouse.io/v1/boards/autotradercanada/jobs
+    provider: greenhouse
+    notes: "Toronto hybrid. Canadian automotive digital-solutions leader. Senior DS roles CA$180-210k. Eval #1126 SKIP (generic product DS) but comp + Toronto make it worth monitoring for modelling-heavy roles. GH slug 'autotradercanada' verified 2026-09-03 (28 jobs)."
+    enabled: true
+
+  - name: SecurityScorecard
+    careers_url: https://job-boards.greenhouse.io/securityscorecard
+    api: https://boards-api.greenhouse.io/v1/boards/securityscorecard/jobs
+    provider: greenhouse
+    notes: "Remote Canada. Cybersecurity ratings — anomaly detection, risk scoring, production ML. Eval #1127 SKIP (analytics-flavoured) but anomaly/risk-scoring adjacency worth monitoring. GH slug 'securityscorecard' verified 2026-09-03 (45 jobs)."
+    enabled: true
+
+  - name: Shakepay
+    careers_url: https://job-boards.greenhouse.io/shakepay
+    api: https://boards-api.greenhouse.io/v1/boards/shakepay/jobs
+    provider: greenhouse
+    notes: "Remote Canada. Bitcoin fintech (1.5M+ Canadians). Eval #1128 SKIP (Growth DS = experimentation, not ML eng) but small co that may post ML-eng roles. GH slug 'shakepay' verified 2026-09-03 (10 jobs)."
+    enabled: true
+
+  - name: Northbeam
+    careers_url: https://job-boards.greenhouse.io/northbeam
+    api: https://boards-api.greenhouse.io/v1/boards/northbeam/jobs
+    provider: greenhouse
+    notes: "Remote Canada. Marketing-intelligence / attribution modelling (MMM+, incrementality). Eval #1124 SKIP (marketing-analytics domain mismatch). Low priority — keep only if broadening into causal/attribution ML. GH slug 'northbeam' verified 2026-09-03 (15 jobs)."
+    enabled: true
+
+  - name: NovoEd
+    careers_url: https://job-boards.greenhouse.io/novoed
+    api: https://boards-api.greenhouse.io/v1/boards/novoed/jobs
+    provider: greenhouse
+    notes: "Remote Canada. Learning-platform company — LLM integration, RAG, agentic backend. Eval #1125 SKIP (LLM-integration plumbing, under-uses). Low priority. GH slug 'novoed' verified 2026-09-03 (4 jobs)."
+    enabled: true

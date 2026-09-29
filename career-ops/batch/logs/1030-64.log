@@ -1,0 +1,20 @@
+Done. Output:
+
+```json
+{
+  "status": "completed",
+  "id": "64",
+  "report_num": "1030",
+  "company": "Reddit",
+  "role": "Senior Machine Learning Engineer",
+  "score": 4.1,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/1030-reddit-2026-08-25.md",
+  "error": null
+}
+```
+
+No PDF made — repo has no PDF pipeline (no `generate-pdf.mjs`/`cv-template.html`), matches your saved pref: markdown CV only. Made tailored CV + cover letter instead, following existing `output/656-reddit-*` pattern.
+
+Score 4.1/5, Apply. Canada-remote Senior MLE, generalist req (no single team lock), matches lifecycle-ownership + real-time inference background near-verbatim. Soft gaps: no shipped recsys, no Spark/Kafka — both listed "preferred" not required. No hard stops. Tracker line queued at `batch/tracker-additions/64.tsv` (num 904) — run `merge-tracker.mjs` when ready.

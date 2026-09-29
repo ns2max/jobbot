@@ -1,0 +1,68 @@
+% Job posting: https://freehire.me/jobs/machine-learning-researcher-pushing-ai-frontiers-in-banking-rbc-3j5ep3ds
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: RBC Borealis - Machine Learning Researcher
+%  Variant: V2 (AI-Research). Standard 4-paragraph template.
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.03}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Research Scientist | Real-Time Multimodal ML, Benchmarks \& Open Datasets}
+\newcommand{\clRole}{Machine Learning Researcher}
+\newcommand{\clCompany}{RBC Borealis}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Machine Learning Researcher role at RBC Borealis. My work has consistently been about advancing machine learning research and then translating it into production. My time-series and real-time pattern-detection research is one example: the published detector in my postdoc reaches F1 0.76 in 14 ms on a Raspberry Pi 4, 74 times faster than the dynamic time warping baseline it replaced (JAES 2026), and that result came out of frozen-protocol benchmarks and ablations as much as the model itself. It did not stop at a paper; it shipped as a deployed system with monitoring.
+
+The role asks for a researcher to advance ML across time series and generative AI, work with large datasets, collaborate with engineering to translate research into production-grade solutions, and publish. Time-series and sequence modelling (RNN/LSTM/GRU, benchmark and evaluation design) is my core, and I have built VAE- and diffusion-based synthetic-data prototypes for signals and time series to handle limited-label regimes. I work routinely with large datasets: four open-access corpora I designed and released (9,800+ recordings, 70+ participants), and high-frequency IoT ETL across factories in South Asia, North America and Africa at MAS Holdings. Translating research to production is the through-line of both my postdoc, where I owned the science and the pipeline for a novel real-time system, and my MAS years, where research prototypes reached the factory floor with CI/CD and code review. I have published 10+ peer-reviewed papers, review for IEEE Access and the Journal of the National Science Foundation of Sri Lanka, and sit on the programme committees of IEEE IS\textsuperscript{2} and IEEE I3DA.
+
+RBC Borealis is a research institute inside RBC with rich datasets, computational resources and explicit support for publication and conferences, working across generative AI, NLP and time-series analysis for banking. The connection I bring is direct on two of those: my time-series research, and my work at Forestpin building financial-forensics anomaly detection, compliance monitoring and production scoring services on enterprise financial data. I want to be honest about the rest. NLP is not a track I have, and my publication venues (JAES, IEEE IS\textsuperscript{2}, DAFx, Asilomar) are strong in audio and signal processing but not the NeurIPS or ICML tier. What stands alongside them is the open datasets, the benchmark methodology, and the journal and programme-committee review service.
+
+I am a Canadian permanent resident, eligible to work without sponsorship, and available immediately since my postdoctoral contract ended in December 2025. I am based in Toronto and happy to relocate within Canada for an RBC Borealis office, Calgary or another. My publications, datasets and portfolio are at \href{\clSite}{nishal.xyz}.
+
+\vspace{10pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

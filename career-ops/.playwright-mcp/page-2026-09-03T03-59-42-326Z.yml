@@ -1,0 +1,283 @@
+- generic [active] [ref=f12e1]:
+  - main [ref=f12e2]:
+    - generic [ref=f12e3]:
+      - link [ref=f12e5] [cursor=pointer]:
+        - /url: https://www.afresh.com/
+        - img "Afresh Logo" [ref=f12e6]
+      - generic [ref=f12e7]:
+        - link "Back to jobs" [ref=f12e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/afresh
+        - generic [ref=f12e12]:
+          - generic [ref=f12e13]:
+            - heading "Staff Applied Scientist (Distribution Center)" [level=1] [ref=f12e14]
+            - generic [ref=f12e15]: Remote - Ontario, Canada
+          - button "Apply" [ref=f12e19] [cursor=pointer]
+        - generic [ref=f12e20]:
+          - generic [ref=f12e21]:
+            - paragraph [ref=f12e22]: "Afresh, the AI platform for grocery, began by tackling the most complex problem in the industry: fresh, and has evolved into the core AI platform for grocers."
+            - paragraph [ref=f12e23]: By leveraging proprietary AI designed for high-volatility environments, we empower partners like Albertsons, Meijer, and Wakefern to drive smarter decisions across their entire enterprise.
+            - paragraph [ref=f12e24]: Following record-breaking 70% revenue growth in 2025, we have scaled to 6 enterprise-grade solutions, with solutions live in over 10% of the U.S. grocery market. Our platform now orchestrates billions of decisions from the store floor to the distribution center and prevented over 200 million pounds of food waste last year alone.
+            - paragraph [ref=f12e25]: If you're looking for a role where your work directly translates into massive scale and social good, and you want to be part of the team that defines how the world eats, there is no better time to join us.
+          - generic [ref=f12e26]:
+            - paragraph [ref=f12e27]:
+              - strong [ref=f12e29]: About the Role
+            - paragraph [ref=f12e30]: The Afresh Intelligence team is responsible for the development and performance of AI/ML models that power our core replenishment technology. Our models are directly responsible for ordering millions of dollars of fresh inventory across the world every day. Fresh food ordering is an extremely complex high-dimensional decision-making problem, and we face the complex challenges presented by decaying product, uncertain shelf lives, varying consumer demand, stochastic arrival times, extreme weather events, and tight performance constraints (to name a few). We tackle these problems with a mix of machine learning, large-scale simulation, and optimization technologies.
+            - paragraph [ref=f12e31]: We are looking for a Staff Applied Scientist to lead R&D work at Afresh. You will take your existing knowledge of machine learning, forecasting, operations research, and stochastic optimization and apply it to the challenging and important problem of perishable inventory control. You will research, implement, and rigorously validate improvements to our core replenishment system. This will include modeling consumer demand, item-level perishability, and complex multi-echelon supply chains. Your work will be visible from day one, will make a substantial impact on decreasing food waste, and will lead to fresher, healthier produce for millions of people across the world.
+            - paragraph [ref=f12e32]:
+              - strong [ref=f12e34]: What You'll Do
+            - list [ref=f12e35]:
+              - listitem [ref=f12e36]: Set technical direction for core replenishment R&D — define the modeling roadmap across demand forecasting, inventory optimization, and decision-making policy, and align it with product and business strategy.
+              - listitem [ref=f12e37]: Model complex problems such as inventory decay, promotions, price elasticity, and inventory uncertainty, and implement solutions to multi-stage and multi-echelon inventory optimization problems.
+              - listitem [ref=f12e38]: Drive fundamental changes to our core system from research through production, writing rigorously tested and scalable code — we are not an analytics team.
+              - listitem [ref=f12e39]: Lead research and development for new product and business challenges.
+              - listitem [ref=f12e40]: "Raise the technical bar across the Intelligence team: mentor scientists and engineers, set standards for experimental rigor, and review designs and results."
+              - listitem [ref=f12e41]: Push the boundaries of AI capabilities in both products and scientist workflows.
+            - paragraph [ref=f12e42]:
+              - strong [ref=f12e44]: What Makes You a Great Fit
+            - list [ref=f12e45]:
+              - listitem [ref=f12e46]: MS or PhD in Operations Research, Industrial Engineering, Computer Science, Electrical Engineering, or another quantitative field, or equivalent practical experience.
+              - listitem [ref=f12e47]: For candidates with an MS, 8+ years of industry experience; for candidates with a PhD, 4+ years of industry experience.
+              - listitem [ref=f12e48]: Experience researching and building systems that support large-scale decision making under uncertainty.
+              - listitem [ref=f12e49]: Prior experience in areas such as inventory optimization, supply chain management, network optimization, forecasting, game theory, decision analysis, stochastic optimization, approximate dynamic programming, or related fields is a plus.
+              - listitem [ref=f12e50]: Excellent communication and presentation skills. You should be able to explain complex mathematical ideas to product teams in plain English and easily translate business requirements into constrained optimization problems.
+              - listitem [ref=f12e51]: Ability to independently deliver high quality software implementations of your solutions in the Python data stack (numpy/torch/pandas/etc) or similar technologies. Prior experience with Python is not required.
+              - listitem [ref=f12e52]: "Nice to Have skills: understanding of ML Platform and a passion for mentorship"
+            - paragraph [ref=f12e53]
+            - paragraph [ref=f12e54]:
+              - strong [ref=f12e55]: This position is not eligible for company sponsorship.
+            - paragraph [ref=f12e56]:
+              - strong [ref=f12e57]: "Salary Range in Canada:"
+              - text: $169,000 - $252,000 (
+              - emphasis [ref=f12e58]: dependent on experience).
+          - generic [ref=f12e59]:
+            - generic [ref=f12e61]:
+              - strong [ref=f12e62]: Why You’ll Love Working at Afresh
+              - text: At Afresh, our mission to eliminate food waste starts with investing in our people. We provide a comprehensive support system designed to help you do your best work while maintaining a healthy, balanced life.
+            - list [ref=f12e63]:
+              - listitem [ref=f12e64]:
+                - strong [ref=f12e65]: "Comprehensive Health & Wellness:"
+                - text: Comprehensive medical, dental, and vision coverage for you and your family, with the majority of premiums covered by Afresh. We also provide dedicated mental health support and counseling services.
+              - listitem [ref=f12e66]:
+                - strong [ref=f12e67]: "Invested in Your Future:"
+                - text: Competitive base salary, meaningful equity (U.S. employees), and a 401(k) program with a generous company match.
+              - listitem [ref=f12e68]:
+                - strong [ref=f12e69]: "Flexible & Modern Workspace:"
+                - text: Whether you work from home or a local office, we support your setup with a home office stipend and "Coworking Wallets" for flexible workspace access.
+              - listitem [ref=f12e70]:
+                - strong [ref=f12e71]: "Growth-Obsessed Culture:"
+                - text: We believe in continuous learning. Every employee receives an annual professional development budget to master new skills and grow their career at Afresh.
+              - listitem [ref=f12e72]:
+                - strong [ref=f12e73]: "Holistic Monthly Stipends:"
+                - text: Beyond your paycheck, we provide monthly stipends for "Betterment" (wellness/lifestyle) and telecommunications to ensure you have what you need to thrive.
+              - listitem [ref=f12e74]:
+                - strong [ref=f12e75]: "Time to Recharge:"
+                - text: Flexible paid time off to take the time you need to recharge.
+            - generic [ref=f12e76]:
+              - text: "*"
+              - emphasis [ref=f12e77]: Full-time U.S. employees are eligible for these benefits
+            - paragraph [ref=f12e79]:
+              - strong [ref=f12e80]: About Afresh
+            - paragraph [ref=f12e81]: "Founded in 2017, Afresh is using AI to tackle the #1 solution to curb climate change: reducing food waste. By building AI specifically for the intricacies of grocery—from the fresh perimeter to the center store—we help grocers minimize waste and maximize sales."
+            - paragraph [ref=f12e82]: Afresh sits at an incredible intersection of positive social impact, rocket ship financial growth, and cutting-edge technology. Our best-in-class AI research has been published in top journals, including ICML, and our investors include Al Gore’s Just Climate, former Whole Foods Market CEO Walter Robb, and Eric Schmidt's Innovation Endeavors.
+            - paragraph [ref=f12e83]: Grocery is the past, present, and future of our food system – the waste we create today will impact our planet for years to come. Join us as we continue to build a vibrant, diverse, and inclusive team that embodies our company’s values of proactivity, kindness, candor, and humility.
+            - paragraph [ref=f12e84]:
+              - strong [ref=f12e85]: Afresh provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, genetics, sexual orientation, gender identity/expression, marital status, pregnancy or related condition, or any other basis protected by law.
+            - paragraph [ref=f12e86]:
+              - strong [ref=f12e87]: "Here at Afresh, many of our employees work remotely provided that they reside in one of the following states: AL, AR, CA, CO, FL, GA, IL, KY, MA, MI, MT, MO, NV, NJ, NY, NC, OR, PA, TX, WA, UT, VA, WI"
+              - text: .
+            - paragraph [ref=f12e88]
+      - separator [ref=f12e89]
+      - generic [ref=f12e90]:
+        - generic [ref=f12e91]:
+          - generic [ref=f12e92]:
+            - heading "Apply for this job" [level=2] [ref=f12e94]
+            - generic [ref=f12e95]:
+              - paragraph [ref=f12e97]: "*"
+              - paragraph [ref=f12e98]: indicates a required field
+          - button "Autofill my application" [ref=f12e101] [cursor=pointer]
+        - generic [ref=f12e102]:
+          - generic [ref=f12e103]:
+            - generic [ref=f12e106]:
+              - generic [ref=f12e107]: First Name*
+              - textbox "First Name" [ref=f12e108]
+            - generic [ref=f12e111]:
+              - generic [ref=f12e112]: Last Name*
+              - textbox "Last Name" [ref=f12e113]
+            - generic [ref=f12e116]:
+              - generic [ref=f12e117]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f12e118]
+            - generic [ref=f12e121]:
+              - generic [ref=f12e122]: Email*
+              - textbox "Email" [ref=f12e123]
+            - group "Phone" [ref=f12e125]:
+              - generic [ref=f12e129]:
+                - generic [ref=f12e130]: Country
+                - generic [ref=f12e131]:
+                  - log [ref=f12e133]
+                  - generic [ref=f12e135]:
+                    - combobox "Country" [ref=f12e138]
+                    - button "Toggle flyout" [ref=f12e140] [cursor=pointer]
+              - generic [ref=f12e145]:
+                - generic [ref=f12e146]: Phone
+                - textbox "Phone" [ref=f12e147]
+            - group "Resume/CV" [ref=f12e149]:
+              - generic [ref=f12e152]:
+                - generic [ref=f12e154]:
+                  - button "Attach" [ref=f12e155] [cursor=pointer]
+                  - generic [ref=f12e156]: Attach
+                  - button "Attach" [ref=f12e157]
+                - button "Dropbox" [ref=f12e159] [cursor=pointer]
+                - button "Google Drive" [ref=f12e161] [cursor=pointer]
+                - generic [ref=f12e163]:
+                  - button "Enter manually" [ref=f12e164] [cursor=pointer]
+                  - generic [ref=f12e165]: Enter manually
+                - paragraph [ref=f12e166]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f12e168]:
+              - generic [ref=f12e171]:
+                - generic [ref=f12e173]:
+                  - button "Attach" [ref=f12e174] [cursor=pointer]
+                  - generic [ref=f12e175]: Attach
+                  - button "Attach" [ref=f12e176]
+                - button "Dropbox" [ref=f12e178] [cursor=pointer]
+                - button "Google Drive" [ref=f12e180] [cursor=pointer]
+                - generic [ref=f12e182]:
+                  - button "Enter manually" [ref=f12e183] [cursor=pointer]
+                  - generic [ref=f12e184]: Enter manually
+                - paragraph [ref=f12e185]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f12e186]:
+            - separator [ref=f12e187]
+            - generic [ref=f12e190]:
+              - generic [ref=f12e191]: In which Canadian province do you currently reside? *
+              - textbox "In which Canadian province do you currently reside?" [ref=f12e192]
+            - generic [ref=f12e195]:
+              - generic [ref=f12e196]: Do you have unrestricted work authorization in Canada? *
+              - generic [ref=f12e197]:
+                - log [ref=f12e199]
+                - generic [ref=f12e201]:
+                  - generic [ref=f12e202]:
+                    - generic [ref=f12e203]: Select...
+                    - combobox "Do you have unrestricted work authorization in Canada?" [ref=f12e205]
+                  - button "Toggle flyout" [ref=f12e207] [cursor=pointer]
+                - textbox [aria-hidden]
+            - generic [ref=f12e212]:
+              - generic [ref=f12e213]: Will you now, or in the future, require immigration sponsorship for continued employment in Canada?*
+              - generic [ref=f12e214]:
+                - log [ref=f12e216]
+                - generic [ref=f12e218]:
+                  - generic [ref=f12e219]:
+                    - generic [ref=f12e220]: Select...
+                    - combobox "Will you now, or in the future, require immigration sponsorship for continued employment in Canada?" [ref=f12e222]
+                  - button "Toggle flyout" [ref=f12e224] [cursor=pointer]
+                - textbox [aria-hidden]
+            - generic [ref=f12e229]:
+              - generic [ref=f12e230]: Why Afresh? Tell us what makes you excited to join our team. *
+              - textbox "Why Afresh? Tell us what makes you excited to join our team." [ref=f12e231]
+            - generic [ref=f12e234]:
+              - generic [ref=f12e235]: LinkedIn Profile
+              - textbox "LinkedIn Profile" [ref=f12e236]
+            - generic [ref=f12e239]:
+              - generic [ref=f12e240]: GitHub / Website Link
+              - textbox "GitHub / Website Link" [ref=f12e241]
+          - generic [ref=f12e242]:
+            - separator [ref=f12e243]
+            - generic [ref=f12e244]:
+              - heading "Voluntary Self-Identification" [level=2] [ref=f12e245]
+              - paragraph [ref=f12e246]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+              - paragraph [ref=f12e247]: As set forth in Afresh’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+            - generic [ref=f12e250]:
+              - generic [ref=f12e251]: Gender
+              - generic [ref=f12e252]:
+                - log [ref=f12e254]
+                - generic [ref=f12e256]:
+                  - generic [ref=f12e257]:
+                    - generic [ref=f12e258]: Select...
+                    - combobox "Gender" [ref=f12e260]
+                  - button "Toggle flyout" [ref=f12e262] [cursor=pointer]
+            - generic [ref=f12e265]:
+              - generic [ref=f12e267]:
+                - generic [ref=f12e268]: Are you Hispanic/Latino?
+                - generic [ref=f12e269]:
+                  - log [ref=f12e271]
+                  - generic [ref=f12e273]:
+                    - generic [ref=f12e274]:
+                      - generic [ref=f12e275]: Select...
+                      - combobox "Are you Hispanic/Latino?" [ref=f12e277]
+                    - button "Toggle flyout" [ref=f12e279] [cursor=pointer]
+              - link "Race & Ethnicity Definitions" [ref=f12e282] [cursor=pointer]:
+                - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+            - generic [ref=f12e283]:
+              - paragraph [ref=f12e284]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+              - paragraph [ref=f12e285]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+              - paragraph [ref=f12e286]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+              - paragraph [ref=f12e287]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+              - paragraph [ref=f12e288]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+            - generic [ref=f12e291]:
+              - generic [ref=f12e292]: Veteran Status
+              - generic [ref=f12e293]:
+                - log [ref=f12e295]
+                - generic [ref=f12e297]:
+                  - generic [ref=f12e298]:
+                    - generic [ref=f12e299]: Select...
+                    - combobox "Veteran Status" [ref=f12e301]
+                  - button "Toggle flyout" [ref=f12e303] [cursor=pointer]
+            - separator [ref=f12e306]
+            - generic [ref=f12e307]:
+              - heading "Voluntary Self-Identification of Disability" [level=2] [ref=f12e308]
+              - generic [ref=f12e309]:
+                - generic [ref=f12e310]:
+                  - generic [ref=f12e311]: Form CC-305
+                  - generic [ref=f12e312]: Page 1 of 1
+                - generic [ref=f12e313]:
+                  - generic [ref=f12e314]: OMB Control Number 1250-0005
+                  - generic [ref=f12e315]: Expires 07/31/2029
+              - strong [ref=f12e316]: Why are you being asked to complete this form?
+              - paragraph [ref=f12e317]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+              - paragraph [ref=f12e318]:
+                - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                - link "www.dol.gov/ofccp" [ref=f12e319] [cursor=pointer]:
+                  - /url: https://www.dol.gov/ofccp
+                - text: .
+              - strong [ref=f12e320]: How do you know if you have a disability?
+              - paragraph [ref=f12e321]:
+                - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+                - strong [ref=f12e322]: "Disabilities include, but are not limited to:"
+              - list [ref=f12e323]:
+                - listitem [ref=f12e324]: Alcohol or other substance use disorder (not currently using drugs illegally)
+                - listitem [ref=f12e325]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+                - listitem [ref=f12e326]: Blind or low vision
+                - listitem [ref=f12e327]: Cancer (past or present)
+                - listitem [ref=f12e328]: Cardiovascular or heart disease
+                - listitem [ref=f12e329]: Celiac disease
+                - listitem [ref=f12e330]: Cerebral palsy
+                - listitem [ref=f12e331]: Deaf or serious difficulty hearing
+                - listitem [ref=f12e332]: Diabetes
+                - listitem [ref=f12e333]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+                - listitem [ref=f12e334]: Epilepsy or other seizure disorder
+                - listitem [ref=f12e335]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+                - listitem [ref=f12e336]: Intellectual or developmental disability
+                - listitem [ref=f12e337]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+                - listitem [ref=f12e338]: Missing limbs or partially missing limbs
+                - listitem [ref=f12e339]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+                - listitem [ref=f12e340]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+                - listitem [ref=f12e341]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+                - listitem [ref=f12e342]: Partial or complete paralysis (any cause)
+                - listitem [ref=f12e343]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+                - listitem [ref=f12e344]: Short stature (dwarfism)
+                - listitem [ref=f12e345]: Traumatic brain injury
+            - generic [ref=f12e348]:
+              - generic [ref=f12e349]: Disability Status
+              - generic [ref=f12e350]:
+                - log [ref=f12e352]
+                - generic [ref=f12e354]:
+                  - generic [ref=f12e355]:
+                    - generic [ref=f12e356]: Select...
+                    - combobox "Disability Status" [ref=f12e358]
+                  - button "Toggle flyout" [ref=f12e360] [cursor=pointer]
+            - paragraph [ref=f12e364]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+          - button "Submit application" [ref=f12e366] [cursor=pointer]
+  - contentinfo [ref=f12e367]:
+    - generic [ref=f12e368]:
+      - paragraph [ref=f12e369]: Powered by
+      - link [ref=f12e370] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f12e371]

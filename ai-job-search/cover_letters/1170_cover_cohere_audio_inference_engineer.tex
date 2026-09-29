@@ -1,0 +1,40 @@
+% Job posting: https://ca.linkedin.com/jobs/view/audio-inference-engineer-model-efficiency-at-cohere-4321711362
+\documentclass[11pt]{article}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.1}
+\pagenumbering{gobble}
+\begin{document}
+\pagestyle{empty}
+
+\noindent Nishal Stanislaus Silva, PhD \\
+Toronto, ON \\
+nishal.silva@hotmail.com \,|\, +1 613 200 2030 \,|\, \href{https://nishal.xyz}{nishal.xyz} \,|\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}
+
+\vspace{1em}
+\noindent Dear Hiring Manager,
+
+\vspace{0.5em}
+\noindent In my postdoctoral work at the University of Trento I shipped an audio pattern-detection model that runs in 14\,ms per inference on a Raspberry Pi 4 -- F1 0.76, 31.4\% CPU, a 74x speed-up over the 1038\,ms DTW baseline it replaced, published in the Journal of the Audio Engineering Society. Getting there was not a matter of training a better model: it meant treating latency and compute as first-class design constraints from the start, profiling on the actual target hardware, and rebuilding the inference path until it fit the budget. That is the problem an Audio Inference Engineer working on model efficiency at Cohere is hired to solve, and it is the work I find most satisfying.
+
+\vspace{0.5em}
+\noindent My PhD and postdoc centred on real-time audio and sensor ML deployed on constrained hardware: DSP and feature-extraction pipelines in C++ and Python, embedded deployment on Raspberry Pi and ARM targets via Elk Audio OS, and a discipline of frozen-protocol benchmarking and ablation (RNN vs.\ DTW, audio vs.\ MIDI, varying pattern-set sizes) to quantify exactly where a model's accuracy, latency, and CPU cost trade off against each other. Five years earlier, at MAS Holdings, I built and shipped production computer-vision and IoT inference systems running on embedded hardware at manufacturing scale, which is where I learned to treat inference code as something that has to run reliably outside a research environment, not just perform well in one. I maintain Nebula, an open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks, as a continuation of that same instinct: measure the real cost of every stage before you claim it is efficient.
+
+\vspace{0.5em}
+\noindent I have not worked directly on large-scale foundation-model training infrastructure, and I want to be upfront about that rather than gloss over it. What I bring instead is the adjacent skill your model-efficiency work depends on just as heavily: rigorous benchmark design, careful ablation methodology, and the ability to reason about where a model's compute actually goes and what can be compressed or restructured without losing the signal that matters. That evaluation discipline transfers directly whether the model in question runs on a Raspberry Pi or serves audio inference at Cohere's scale, and I would rather learn the specifics of your stack on the job than claim experience I do not have.
+
+\vspace{0.5em}
+\noindent I am a Canadian permanent resident and do not require sponsorship, I am based in Toronto, and I am available immediately. I would welcome the chance to discuss how my real-time inference and benchmarking background could contribute to the Model Efficiency team.
+
+\vspace{1em}
+\noindent Sincerely, \\
+Nishal Stanislaus Silva
+
+\end{document}

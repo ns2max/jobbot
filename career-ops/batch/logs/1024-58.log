@@ -1,0 +1,16 @@
+Samsara role = US-remote only, no relocation. Canada-only policy hard-excludes it — no A-G eval, no PDF, per `modes/_profile.md`. Wrote skip report + tracker line (precedent: same call made on Grafana Labs earlier today).
+
+```json
+{
+  "status": "completed",
+  "id": "58",
+  "report_num": "1024",
+  "company": "Samsara",
+  "role": "Staff Machine Learning Engineer - Edge AI",
+  "score": null,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/1024-samsara-2026-08-25.md",
+  "error": "Hard exclude — US-only remote role, Canada-only location policy"
+}
+```

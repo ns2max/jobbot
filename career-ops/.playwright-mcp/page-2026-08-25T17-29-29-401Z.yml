@@ -1,0 +1,291 @@
+- generic [active] [ref=f107e1]:
+  - main [ref=f107e2]:
+    - generic [ref=f107e3]:
+      - img "Arize AI Logo" [ref=f107e5]
+      - generic [ref=f107e6]:
+        - link "Back to jobs" [ref=f107e7] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/arizeai
+        - generic [ref=f107e11]:
+          - generic [ref=f107e12]:
+            - heading "Open Source AI Engineer (Typescript)" [level=1] [ref=f107e13]
+            - generic [ref=f107e14]: Remote (United States)
+          - button "Apply" [ref=f107e18] [cursor=pointer]
+        - generic [ref=f107e19]:
+          - generic [ref=f107e20]:
+            - heading "About Arize" [level=3] [ref=f107e21]
+            - paragraph [ref=f107e22]:
+              - text: AI is rapidly transforming the world. As generative AI reshapes industries, teams need powerful ways to monitor, troubleshoot, and optimize their AI systems. That’s where we come in.
+              - strong [ref=f107e23]: Arize AI is the leading AI & Agent Engineering observability and evaluation platform
+              - text: ", empowering AI engineers to ship high-performing, reliable agents and applications. From first prototype to production scale, Arize AX unifies build, test, and run in a single workspace—so teams can ship faster with confidence."
+            - paragraph [ref=f107e24]:
+              - text: We’re a
+              - strong [ref=f107e25]: Series C
+              - text: company backed by top-tier investors,
+              - strong [ref=f107e26]
+              - text: with
+              - strong [ref=f107e27]: over $135M in funding
+              - text: and a rapidly growing customer base of
+              - strong [ref=f107e28]: 150+ leading enterprises and Fortune 500 companies.
+              - text: Customers like
+              - link "Booking.com" [ref=f107e29] [cursor=pointer]:
+                - /url: http://booking.com/
+              - text: ", Uber, Siemens, and PepsiCo leverage Arize to deliver AI that works."
+          - generic [ref=f107e30]:
+            - heading [level=3] [ref=f107e31]:
+              - strong [ref=f107e32]: The Opportunity
+            - paragraph [ref=f107e33]: AI is rapidly transforming the world. Whether it’s developing the next generation of human-level intelligence, enhancing voice assistants, or enabling researchers to analyze genetic markers at scale, AI is increasingly integrated into various aspects of our daily lives.
+            - paragraph [ref=f107e34]: Arize AI is the leading AI observability and evaluation platform, empowering AI engineers to build and deploy high-performing, reliable models. As the AI landscape shifts from traditional ML to generative AI and agentic systems, Arize ensures teams have the tools to monitor, troubleshoot, and improve AI in production.
+            - paragraph [ref=f107e35]: We’re looking for an Open Source AI Engineer to join our growing OSS team to drive the development of new frameworks, metrics, and tooling that help people build, test, and improve LLM tasks. You’ll play a lead role in shaping how developers measure and understand performance in advanced AI systems, all in the open.
+            - heading [level=3] [ref=f107e36]:
+              - strong [ref=f107e37]: What You’ll Work On
+            - list [ref=f107e38]:
+              - listitem [ref=f107e39]: "Build LLM Observability Frameworks: Design, architect, and open-source new libraries, pipelines, and APIs that make it simpler to monitor, evaluate, and improve LLM output."
+              - listitem [ref=f107e40]: "Collaborate with the Community: Partner closely with the broader AI open source ecosystem, gather feedback, review pull requests, and steer the direction of the project to address real developer needs."
+              - listitem [ref=f107e41]: "Prototype and Iterate Rapidly: Experiment with state-of-the-art LLM techniques, turning research into practical developer tooling."
+              - listitem [ref=f107e42]: "Improve Observability and Debugging: Integrate with our existing platform to surface deeper insights on LLM behavior—help teams quickly diagnose and fix issues such as hallucinations or bias."
+              - listitem [ref=f107e43]: "Educate and Evangelize: Write blog posts, white papers, tutorials, and documentation to help developers succeed with our open source tools and grow the LLM eval community."
+            - heading [level=3] [ref=f107e44]:
+              - strong [ref=f107e45]: What We’re Looking For
+            - paragraph [ref=f107e46]: "We’re looking for an engineer who’s deeply passionate about AI, loves working in the open, and thrives in a fast-paced environment where “everyone wears multiple hats”. You likely share our core values:"
+            - list [ref=f107e47]:
+              - listitem [ref=f107e48]: "Open Source Champion: You believe collaboration and community-driven development unlocks the best innovations."
+              - listitem [ref=f107e49]: "Creative Problem Solver: You enjoy tackling ambiguous challenges and finding elegant technical solutions."
+              - listitem [ref=f107e50]: "Data & Metrics Driven: You value empirical results, enjoy creating or refining evaluation metrics, and iterate based on real-world feedback."
+              - listitem [ref=f107e51]: "Technically Curious: You’re always learning—exploring new LLM architectures, prompt engineering strategies, or emerging library standards."
+              - listitem [ref=f107e52]: "Builder Mindset: You relish the process of taking ideas from initial prototypes to production-ready solutions that delight users."
+            - heading [level=3] [ref=f107e53]:
+              - strong [ref=f107e54]: Desired Skills & Experience
+            - list [ref=f107e55]:
+              - listitem [ref=f107e56]: "Hands-on LLM Experience: Familiarity with popular LLM frameworks, prompt engineering techniques, and agent harnesses."
+              - listitem [ref=f107e57]: "Strong TypeScript Proficiency: You understand TypeScript and can write isomorphic code that executes seamlessly across clients, servers, and diverse edge runtimes."
+              - listitem [ref=f107e58]: "Open Source Track Record: Contributions to open source projects, personal GitHub repos with interesting AI demos, or a history of active engagement in developer communities."
+              - listitem [ref=f107e59]: "ML Observability & Tools: Familiarity with debugging AI applications, exploring embeddings, or building data-heavy dashboards is a plus."
+            - heading [level=3] [ref=f107e60]:
+              - strong [ref=f107e61]: Why Work With Us
+            - list [ref=f107e62]:
+              - listitem [ref=f107e63]: "Shape the Future of AI Evaluation: Be at the forefront of designing new ways to measure and improve next-generation LLMs."
+              - listitem [ref=f107e64]: "High Impact, Real Ownership: Join a team that values autonomy and speed. You’ll drive major initiatives from day one and see your work used by developers worldwide."
+              - listitem [ref=f107e65]: "Fully Remote, Flexible Environment: We are a fully remote company with offices in the Bay Area and NYC for those who prefer in-person collaboration."
+              - listitem [ref=f107e66]: "Cutting-Edge Challenges: Our platform already helps analyze millions of AI predictions daily, giving you the chance to refine your evaluation tooling on real, large-scale production workloads."
+              - listitem [ref=f107e67]: "Work With a Talented, Passionate Team: Collaborate closely with top engineers who are dedicated to making AI more transparent, reliable, and impactful."
+            - paragraph [ref=f107e68]: "The estimated annual salary and variable compensation for this role is between $185,000 - $200,000, plus a competitive equity package. Actual compensation is determined based upon a variety of job related factors that may include: transferable work experience, skill sets, and qualifications. Total compensation also includes a comprehensive benefit package, including: medical, dental, vision, 401(k) plan, unlimited paid time off, generous parental leave plan, and others for mental and wellness support."
+            - paragraph [ref=f107e69]: While we are a remote-first company, we have opened offices in New York City and the San Francisco Bay Area, as an option for those in those cities who wish to work in-person. For all other employees, there is a WFH monthly stipend to pay for co-working spaces.
+            - paragraph [ref=f107e70]
+          - generic [ref=f107e71]:
+            - heading "More About Arize" [level=3] [ref=f107e72]
+            - paragraph [ref=f107e73]: "Arize’s mission is to make the world’s AI work—and work for people.Our founders came together through a shared frustration: while investments in AI are growing rapidly across every industry, organizations face a critical challenge—understanding whether AI is performing and how to improve it at scale."
+            - paragraph [ref=f107e74]: "Learn more about what we're doing here:"
+            - paragraph [ref=f107e75]:
+              - link "https://techcrunch.com/2025/02/20/arize-ai-hopes-it-has-first-mover-advantage-in-ai-observability/" [ref=f107e76] [cursor=pointer]:
+                - /url: https://techcrunch.com/2025/02/20/arize-ai-hopes-it-has-first-mover-advantage-in-ai-observability/
+            - paragraph [ref=f107e77]:
+              - link "https://arize.com/blog/arize-ai-raises-70m-series-c-to-build-the-gold-standard-for-ai-evaluation-observability/" [ref=f107e78] [cursor=pointer]:
+                - /url: https://arize.com/blog/arize-ai-raises-70m-series-c-to-build-the-gold-standard-for-ai-evaluation-observability/
+            - paragraph [ref=f107e79]:
+              - strong [ref=f107e80]: Diversity & Inclusion @ Arize
+            - paragraph [ref=f107e81]: Our company's mission is to make AI work and make AI work for the people, we hope to make an impact in bias industry-wide and that's a big motivator for people who work here. We actively hope that individuals contribute to a good culture
+            - list [ref=f107e82]:
+              - listitem [ref=f107e83]: Regularly have chats with industry experts, researchers, and ethicists across the ecosystem to advance the use of responsible AI
+              - listitem [ref=f107e84]: Culturally conscious events such as LGBTQ trivia during pride month
+              - listitem [ref=f107e85]: We have an active Lady Arizers subgroup
+        - generic [ref=f107e89]:
+          - paragraph [ref=f107e90]: Get new jobs like this in your inbox
+          - paragraph [ref=f107e91]: We'll email you when Arize AI posts a job like this one.
+          - link "Create alert" [ref=f107e92] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=arizeai&source=job_alert_post&variant=job_alert_post_b
+      - separator [ref=f107e93]
+      - generic [ref=f107e94]:
+        - generic [ref=f107e95]:
+          - generic [ref=f107e96]:
+            - heading "Apply for this job" [level=2] [ref=f107e98]
+            - generic [ref=f107e99]:
+              - paragraph [ref=f107e101]: "*"
+              - paragraph [ref=f107e102]: indicates a required field
+          - button "Autofill my application" [ref=f107e105] [cursor=pointer]
+        - generic [ref=f107e106]:
+          - generic [ref=f107e107]:
+            - generic [ref=f107e110]:
+              - generic [ref=f107e111]: First Name*
+              - textbox "First Name" [ref=f107e112]
+            - generic [ref=f107e115]:
+              - generic [ref=f107e116]: Last Name*
+              - textbox "Last Name" [ref=f107e117]
+            - generic [ref=f107e120]:
+              - generic [ref=f107e121]: Email*
+              - textbox "Email" [ref=f107e122]
+            - group "Phone" [ref=f107e124]:
+              - generic [ref=f107e128]:
+                - generic [ref=f107e129]: Country*
+                - generic [ref=f107e130]:
+                  - log [ref=f107e132]
+                  - generic [ref=f107e134]:
+                    - combobox "Country" [ref=f107e137]
+                    - button "Toggle flyout" [ref=f107e139] [cursor=pointer]
+                  - textbox
+              - generic [ref=f107e144]:
+                - generic [ref=f107e145]: Phone*
+                - textbox "Phone" [ref=f107e147]
+            - generic [ref=f107e148]:
+              - generic [ref=f107e150]:
+                - generic [ref=f107e151]: Location (City)*
+                - generic [ref=f107e152]:
+                  - log [ref=f107e154]
+                  - combobox "Location (City)" [ref=f107e159]
+                  - textbox
+              - button "Locate me" [ref=f107e160] [cursor=pointer]
+            - group "Resume/CV*" [ref=f107e162]:
+              - generic [ref=f107e165]:
+                - generic [ref=f107e167]:
+                  - button "Attach" [ref=f107e168] [cursor=pointer]
+                  - generic [ref=f107e169]: Attach
+                  - button "Attach" [ref=f107e170]
+                - button "Dropbox" [ref=f107e172] [cursor=pointer]
+                - button "Google Drive" [ref=f107e174] [cursor=pointer]
+                - generic [ref=f107e176]:
+                  - button "Enter manually" [ref=f107e177] [cursor=pointer]
+                  - generic [ref=f107e178]: Enter manually
+                - paragraph [ref=f107e179]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f107e180]:
+            - separator [ref=f107e181]
+            - generic [ref=f107e184]:
+              - generic [ref=f107e185]: LinkedIn Profile
+              - textbox "LinkedIn Profile" [ref=f107e186]
+            - generic [ref=f107e189]:
+              - generic [ref=f107e190]: GitHub*
+              - textbox "GitHub" [ref=f107e191]
+            - generic [ref=f107e194]:
+              - generic [ref=f107e195]: Will you now or in the future require sponsorship for employment?*
+              - generic [ref=f107e196]:
+                - log [ref=f107e198]
+                - generic [ref=f107e200]:
+                  - generic [ref=f107e201]:
+                    - generic [ref=f107e202]: Select...
+                    - combobox "Will you now or in the future require sponsorship for employment?" [ref=f107e204]
+                  - button "Toggle flyout" [ref=f107e206] [cursor=pointer]
+                - textbox
+            - generic [ref=f107e211]:
+              - generic [ref=f107e212]: Are you legally authorized to work in the US? *
+              - generic [ref=f107e213]:
+                - log [ref=f107e215]
+                - generic [ref=f107e217]:
+                  - generic [ref=f107e218]:
+                    - generic [ref=f107e219]: Select...
+                    - combobox "Are you legally authorized to work in the US?" [ref=f107e221]
+                  - button "Toggle flyout" [ref=f107e223] [cursor=pointer]
+                - textbox
+            - generic [ref=f107e228]:
+              - generic [ref=f107e229]: What pronouns do you use?
+              - generic [ref=f107e230]:
+                - log [ref=f107e232]
+                - generic [ref=f107e234]:
+                  - generic [ref=f107e235]:
+                    - generic [ref=f107e236]: Select...
+                    - combobox "What pronouns do you use?" [ref=f107e238]
+                  - button "Toggle flyout" [ref=f107e240] [cursor=pointer]
+          - generic [ref=f107e243]:
+            - separator [ref=f107e244]
+            - generic [ref=f107e245]:
+              - heading "Voluntary Self-Identification" [level=2] [ref=f107e246]
+              - paragraph [ref=f107e247]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+              - paragraph [ref=f107e248]: As set forth in Arize AI’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+            - generic [ref=f107e251]:
+              - generic [ref=f107e252]: Gender
+              - generic [ref=f107e253]:
+                - log [ref=f107e255]
+                - generic [ref=f107e257]:
+                  - generic [ref=f107e258]:
+                    - generic [ref=f107e259]: Select...
+                    - combobox "Gender" [ref=f107e261]
+                  - button "Toggle flyout" [ref=f107e263] [cursor=pointer]
+            - generic [ref=f107e266]:
+              - generic [ref=f107e268]:
+                - generic [ref=f107e269]: Are you Hispanic/Latino?
+                - generic [ref=f107e270]:
+                  - log [ref=f107e272]
+                  - generic [ref=f107e274]:
+                    - generic [ref=f107e275]:
+                      - generic [ref=f107e276]: Select...
+                      - combobox "Are you Hispanic/Latino?" [ref=f107e278]
+                    - button "Toggle flyout" [ref=f107e280] [cursor=pointer]
+              - link "Race & Ethnicity Definitions" [ref=f107e283] [cursor=pointer]:
+                - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+            - generic [ref=f107e284]:
+              - paragraph [ref=f107e285]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+              - paragraph [ref=f107e286]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+              - paragraph [ref=f107e287]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+              - paragraph [ref=f107e288]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+              - paragraph [ref=f107e289]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+            - generic [ref=f107e292]:
+              - generic [ref=f107e293]: Veteran Status
+              - generic [ref=f107e294]:
+                - log [ref=f107e296]
+                - generic [ref=f107e298]:
+                  - generic [ref=f107e299]:
+                    - generic [ref=f107e300]: Select...
+                    - combobox "Veteran Status" [ref=f107e302]
+                  - button "Toggle flyout" [ref=f107e304] [cursor=pointer]
+            - separator [ref=f107e307]
+            - generic [ref=f107e308]:
+              - heading "Voluntary Self-Identification of Disability" [level=2] [ref=f107e309]
+              - generic [ref=f107e310]:
+                - generic [ref=f107e311]:
+                  - generic [ref=f107e312]: Form CC-305
+                  - generic [ref=f107e313]: Page 1 of 1
+                - generic [ref=f107e314]:
+                  - generic [ref=f107e315]: OMB Control Number 1250-0005
+                  - generic [ref=f107e316]: Expires 07/31/2029
+              - strong [ref=f107e317]: Why are you being asked to complete this form?
+              - paragraph [ref=f107e318]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+              - paragraph [ref=f107e319]:
+                - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                - link "www.dol.gov/ofccp" [ref=f107e320] [cursor=pointer]:
+                  - /url: https://www.dol.gov/ofccp
+                - text: .
+              - strong [ref=f107e321]: How do you know if you have a disability?
+              - paragraph [ref=f107e322]:
+                - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+                - strong [ref=f107e323]: "Disabilities include, but are not limited to:"
+              - list [ref=f107e324]:
+                - listitem [ref=f107e325]: Alcohol or other substance use disorder (not currently using drugs illegally)
+                - listitem [ref=f107e326]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+                - listitem [ref=f107e327]: Blind or low vision
+                - listitem [ref=f107e328]: Cancer (past or present)
+                - listitem [ref=f107e329]: Cardiovascular or heart disease
+                - listitem [ref=f107e330]: Celiac disease
+                - listitem [ref=f107e331]: Cerebral palsy
+                - listitem [ref=f107e332]: Deaf or serious difficulty hearing
+                - listitem [ref=f107e333]: Diabetes
+                - listitem [ref=f107e334]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+                - listitem [ref=f107e335]: Epilepsy or other seizure disorder
+                - listitem [ref=f107e336]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+                - listitem [ref=f107e337]: Intellectual or developmental disability
+                - listitem [ref=f107e338]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+                - listitem [ref=f107e339]: Missing limbs or partially missing limbs
+                - listitem [ref=f107e340]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+                - listitem [ref=f107e341]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+                - listitem [ref=f107e342]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+                - listitem [ref=f107e343]: Partial or complete paralysis (any cause)
+                - listitem [ref=f107e344]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+                - listitem [ref=f107e345]: Short stature (dwarfism)
+                - listitem [ref=f107e346]: Traumatic brain injury
+            - generic [ref=f107e349]:
+              - generic [ref=f107e350]: Disability Status
+              - generic [ref=f107e351]:
+                - log [ref=f107e353]
+                - generic [ref=f107e355]:
+                  - generic [ref=f107e356]:
+                    - generic [ref=f107e357]: Select...
+                    - combobox "Disability Status" [ref=f107e359]
+                  - button "Toggle flyout" [ref=f107e361] [cursor=pointer]
+            - paragraph [ref=f107e365]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+          - button "Submit application" [ref=f107e367] [cursor=pointer]
+  - contentinfo [ref=f107e368]:
+    - generic [ref=f107e369]:
+      - paragraph [ref=f107e370]: Powered by
+      - link [ref=f107e371] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f107e372]
+  - iframe [ref=f107e386]:
+    - generic [ref=f109e6]:
+      - text: protected by
+      - strong [ref=f109e7]: reCAPTCHA

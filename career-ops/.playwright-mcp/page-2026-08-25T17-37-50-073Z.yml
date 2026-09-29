@@ -1,0 +1,331 @@
+- generic [active] [ref=f157e1]:
+  - main [ref=f157e2]:
+    - generic [ref=f157e3]:
+      - link [ref=f157e5] [cursor=pointer]:
+        - /url: https://grafana.com/
+        - img "Grafana Labs Logo" [ref=f157e6]
+      - generic [ref=f157e7]:
+        - link "Back to jobs" [ref=f157e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/grafanalabs
+        - generic [ref=f157e12]:
+          - generic [ref=f157e13]:
+            - heading "Senior Machine Learning Engineer, Developer Advocacy | Canada | Remote" [level=1] [ref=f157e14]
+            - generic [ref=f157e15]: Canada (Remote)
+          - button "Apply" [ref=f157e19] [cursor=pointer]
+        - generic [ref=f157e20]:
+          - generic [ref=f157e21]:
+            - paragraph [ref=f157e22]:
+              - text: Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Cloud's actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000+ customers – including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce – trust Grafana Labs to ensure reliability of their applications and systems, resolve incidents quickly, and optimize their telemetry to reduce noise and cost. We are a 100% remote company with 1,600+ team members across 40+ countries, and we’re backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at
+              - link "grafana.com" [ref=f157e25] [cursor=pointer]:
+                - /url: http://grafana.com
+              - text: and follow us on
+              - link "LinkedIn" [ref=f157e28] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/grafana-labs/
+              - text: and
+              - link "X" [ref=f157e31] [cursor=pointer]:
+                - /url: https://twitter.com/grafana
+              - text: .
+            - paragraph [ref=f157e32]: "We’re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do."
+            - paragraph [ref=f157e33]: You may not meet every requirement, and that’s okay. If this role excites you, we’d love you to raise your hand for what could be a truly career-defining opportunity.
+          - generic [ref=f157e34]:
+            - heading [level=3] [ref=f157e35]
+            - heading "Senior ML Engineer Recommender Systems, Developer Advocacy | Canada | Remote" [level=3] [ref=f157e36]
+            - paragraph [ref=f157e37]: This is a fully remote position and we're considering candidates in Canada.
+            - paragraph [ref=f157e38]:
+              - strong [ref=f157e39]: "The Opportunity:"
+            - paragraph [ref=f157e40]: Grafana Labs is building an Interactive Learning system, an open source, in-product learning experience that helps users learn and succeed without leaving Grafana. A central part of that vision is a personalized recommendation system that helps each user discover the next guide, action, or product experience most likely to help them succeed.
+            - paragraph [ref=f157e41]: Today, the Interactive Learning tool includes a rule-based recommendation engine that provides useful contextual recommendations. We are hiring an ML Engineer to lead its evolution into an increasingly personalized, continuously improving system driven by real-time product behavior, content metadata, customer context, and experimentation.
+            - paragraph [ref=f157e42]: This is an applied product data science role. You will personally build, deploy, and operate recommendation models, design experiments, establish evaluation methodology, and define the scientific roadmap. You will partner closely with software engineers who own the production recommender codebase and with an existing Data Analyst who supports measurement, instrumentation, and analysis across Developer Advocacy.
+            - paragraph [ref=f157e43]:
+              - strong [ref=f157e44]: "What You’ll Be Doing:"
+            - paragraph [ref=f157e45]: The long-term vision is ambitious, but we do not expect it to arrive in one release. We are looking for someone who can understand the whole problem, establish strong foundations, and ship measurable improvements into the existing recommender one iteration at a time.
+            - list [ref=f157e46]:
+              - listitem [ref=f157e47]:
+                - strong [ref=f157e48]: Evolve the Interactive Learning Plugin's recommendation system
+              - list [ref=f157e49]:
+                - listitem [ref=f157e50]: Develop increasingly personalized approaches to candidate selection, ranking, sequencing, and next-best-action recommendations.
+                - listitem [ref=f157e51]: You’ll own a real-time recommendation service
+              - listitem [ref=f157e52]:
+                - strong [ref=f157e53]: Build and operate applied models
+              - list [ref=f157e54]:
+                - listitem [ref=f157e55]: Develop, validate, version, monitor, and iterate on models used by the recommendation system.
+                - listitem [ref=f157e56]: You’ll own model training & serving
+              - listitem [ref=f157e57]:
+                - strong [ref=f157e58]: Define what recommendation quality means
+              - list [ref=f157e59]:
+                - listitem [ref=f157e60]: Develop offline, online, and longitudinal measures of recommendation performance.
+                - listitem [ref=f157e61]: You’ll own feature pipelines, monitoring of the model and architecture
+              - listitem [ref=f157e62]:
+                - strong [ref=f157e63]: Ship incremental improvements
+              - list [ref=f157e64]:
+                - listitem [ref=f157e65]: Use the data and infrastructure available today while identifying the instrumentation and platform capabilities needed tomorrow.
+                - listitem [ref=f157e66]: Integrate improvements into the existing recommender rather than waiting for a complete replacement system.
+              - listitem [ref=f157e67]:
+                - strong [ref=f157e68]: Partner across disciplines
+              - list [ref=f157e69]:
+                - listitem [ref=f157e70]: Work closely with software engineers & data analysts to productionize models and integrate them safely into the recommender service.
+                - listitem [ref=f157e71]: Partner with the Product Analytics team on metric definitions, instrumentation, data quality, dashboards, and experiment analysis.
+                - listitem [ref=f157e72]: Collaborate with Developer Advocacy, Docs, Product, Engineering, GTM, and other teams to translate ambiguous needs into testable hypotheses and measurable product decisions.
+                - listitem [ref=f157e73]: Explain modeling choices, tradeoffs, uncertainty, and results clearly to both technical and non-technical audiences.
+            - paragraph [ref=f157e74]:
+              - strong [ref=f157e75]: "What Makes You a Great Fit:"
+            - paragraph [ref=f157e76]: We know it is rare to find everything. Strong candidates should demonstrate credible ability across all three core areas below and be particularly strong in at least two.
+            - list [ref=f157e77]:
+              - listitem [ref=f157e78]:
+                - strong [ref=f157e79]: Recommendation and personalization science
+                - text: ": you have built recommendation, ranking, search, matching, propensity, or next-best-action systems. You are comfortable beginning with simple, explainable approaches when they are the best way to learn."
+              - listitem [ref=f157e80]:
+                - strong [ref=f157e81]: HTTP/gRPC, streaming, Go/TypeScript previous experience in distributed systems
+              - listitem [ref=f157e82]:
+                - strong [ref=f157e83]: Applied model ownership
+                - text: . You have personally built, validated, monitored, and iterated on models used in a product or operational environment. You can work effectively in version-controlled codebases and collaborate with engineers on production implementation.
+            - paragraph [ref=f157e84]: You should also be a strong product thinker and technical communicator. You can take an ambitious and ambiguous objective, identify the most important unknowns, and create a sequence of models and experiments that steadily improves the product.
+            - paragraph [ref=f157e85]:
+              - strong [ref=f157e86]: "Bonus Points For:"
+            - list [ref=f157e87]:
+              - listitem [ref=f157e88]: Experience with content, education, onboarding, or learning recommendation systems
+              - listitem [ref=f157e89]: Experience with SaaS product telemetry and customer-account data
+              - listitem [ref=f157e90]: Experience using warehouse-scale behavioral data
+              - listitem [ref=f157e91]: Experience with directed graphs, sequence models, or prerequisite-aware recommendations
+              - listitem [ref=f157e92]: Experience with contextual bandits or other exploration strategies
+              - listitem [ref=f157e93]: Familiarity with Grafana or the broader observability ecosystem
+              - listitem [ref=f157e94]: Experience with open source software or transparent development practices
+              - listitem [ref=f157e95]: Experience working with privacy, fairness, explainability, or responsible personalization constraints
+            - paragraph [ref=f157e96]:
+              - strong [ref=f157e97]: "Compensation & Rewards:"
+            - paragraph [ref=f157e98]:
+              - emphasis [ref=f157e99]:
+                - emphasis [ref=f157e100]: In Canada, the base compensation range for this role is $164,490 CAD - $197,389 CAD. Actual compensation may vary based on level, experience, and skillset as assessed throughout the interview process. All of our roles include Restricted Stock Units (RSUs), giving every team member ownership in Grafana Labs' success. We believe in shared outcomes—RSUs help us stay aligned and invested as we scale globally.
+          - generic [ref=f157e101]:
+            - generic [ref=f157e102]:
+              - paragraph [ref=f157e103]:
+                - emphasis [ref=f157e104]: "*Compensation ranges are country specific. If you are applying for this role from a different location than listed above, your recruiter will discuss your specific market’s defined pay range & benefits at the beginning of the process."
+              - paragraph [ref=f157e105]:
+                - strong [ref=f157e106]: "Why You’ll Thrive at Grafana Labs:"
+              - list [ref=f157e107]:
+                - listitem [ref=f157e108]:
+                  - strong [ref=f157e109]: 100% Remote, Global Culture -
+                  - text: As a remote-only company, we bring together talent from around the world, united by a culture of collaboration and shared purpose.
+                - listitem [ref=f157e110]:
+                  - strong [ref=f157e111]: Scaling Organization
+                  - text: – Tackle meaningful work in a high-growth, ever-evolving environment.
+                - listitem [ref=f157e112]:
+                  - strong [ref=f157e113]: Transparent Communication
+                  - text: – Expect open decision-making and regular company-wide updates.
+                - listitem [ref=f157e114]:
+                  - strong [ref=f157e115]: Innovation-Driven
+                  - text: – Autonomy and support to ship great work and try new things.
+                - listitem [ref=f157e116]:
+                  - strong [ref=f157e117]: Open Source Roots
+                  - text: – Built on community-driven values that shape how we work.
+                - listitem [ref=f157e118]:
+                  - strong [ref=f157e119]: Empowered Teams
+                  - text: – High trust, low ego culture that values outcomes over optics.
+                - listitem [ref=f157e120]:
+                  - strong [ref=f157e121]: Career Growth Pathways
+                  - text: – Defined opportunities to grow and develop your career.
+                - listitem [ref=f157e122]:
+                  - strong [ref=f157e123]: Approachable Leadership
+                  - text: – Transparent execs who are involved, visible, and human.
+                - listitem [ref=f157e124]:
+                  - strong [ref=f157e125]: Passionate People
+                  - text: – Join a team of smart, supportive folks who care deeply about what they do.
+                - listitem [ref=f157e126]:
+                  - strong [ref=f157e127]: In-Person onboarding
+                  - text: "- We want you to thrive from day 1 with your fellow new ‘Grafanistas’ to learn all about what we do and how we do it."
+                - listitem [ref=f157e128]:
+                  - strong [ref=f157e129]: Balance is Key
+                  - text: "- We operate a global annual leave policy of 30 days per annum. 3 days of your annual leave entitlement are reserved for Grafana Shutdown Days to allow the team to really disconnect."
+                  - emphasis [ref=f157e130]: "*We will comply with local legislation where applicable."
+              - paragraph [ref=f157e131]:
+                - strong [ref=f157e132]: "Equal Opportunity Employer:"
+                - emphasis [ref=f157e133]: Grafana Labs is an equal opportunities employer. We welcome applications from everyone regardless of race, colour, nationality, origin, caste, sex, gender reassignment identity or expression, sexual orientation, age, religion or belief, disability, veteran status, genetic information, pregnancy, maternity, marital, family or carer status, or any other characteristic which is protected by local law. We believe that equality and diversity build a strong organisation, and we work hard to ensure that is the foundation of our organisation as we grow.
+              - paragraph [ref=f157e134]:
+                - emphasis [ref=f157e135]: Grafana Labs may utilize AI tools in its recruitment process to assist in matching information provided in CVs to job postings. The recruitment team will continue to review inbound CVs manually to identify alignment with current openings.
+              - paragraph [ref=f157e136]: "#LI-Remote"
+            - emphasis [ref=f157e138]:
+              - text: For information about how your personal data is used once you’ve applied to a job, check out our
+              - link "privacy policy" [ref=f157e139] [cursor=pointer]:
+                - /url: https://grafana.com/legal/applicant-and-candidate-privacy-policy/
+              - text: .
+        - generic [ref=f157e144]:
+          - paragraph [ref=f157e145]: Create a Job Alert
+          - paragraph [ref=f157e146]: Interested in building your career at Grafana Labs? Get future opportunities sent straight to your email.
+          - link "Create alert" [ref=f157e147] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=grafanalabs&source=job_alert_post&variant=job_alert_post_a
+      - separator [ref=f157e148]
+      - generic [ref=f157e149]:
+        - generic [ref=f157e151]:
+          - heading "Apply for this job" [level=2] [ref=f157e153]
+          - generic [ref=f157e154]:
+            - paragraph [ref=f157e156]: "*"
+            - paragraph [ref=f157e157]: indicates a required field
+        - generic [ref=f157e158]:
+          - generic [ref=f157e159]:
+            - generic [ref=f157e162]:
+              - generic [ref=f157e163]: First Name*
+              - textbox "First Name" [ref=f157e164]
+            - generic [ref=f157e167]:
+              - generic [ref=f157e168]: Last Name*
+              - textbox "Last Name" [ref=f157e169]
+            - generic [ref=f157e172]:
+              - generic [ref=f157e173]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f157e174]
+            - generic [ref=f157e177]:
+              - generic [ref=f157e178]: Email*
+              - textbox "Email" [ref=f157e179]
+            - group "Phone" [ref=f157e181]:
+              - generic [ref=f157e185]:
+                - generic [ref=f157e186]: Country*
+                - generic [ref=f157e187]:
+                  - log [ref=f157e189]
+                  - generic [ref=f157e191]:
+                    - combobox "Country" [ref=f157e194]
+                    - button "Toggle flyout" [ref=f157e196] [cursor=pointer]
+                  - textbox
+              - generic [ref=f157e201]:
+                - generic [ref=f157e202]: Phone*
+                - textbox "Phone" [ref=f157e204]
+            - generic [ref=f157e205]:
+              - generic [ref=f157e207]:
+                - generic [ref=f157e208]: Location (City)*
+                - generic [ref=f157e209]:
+                  - log [ref=f157e211]
+                  - combobox "Location (City)" [ref=f157e216]
+                  - textbox
+              - button "Locate me" [ref=f157e217] [cursor=pointer]
+            - group "Resume/CV*" [ref=f157e219]:
+              - generic [ref=f157e222]:
+                - generic [ref=f157e224]:
+                  - button "Attach" [ref=f157e225] [cursor=pointer]
+                  - generic [ref=f157e226]: Attach
+                  - button "Attach" [ref=f157e227]
+                - button "Dropbox" [ref=f157e229] [cursor=pointer]
+                - button "Google Drive" [ref=f157e231] [cursor=pointer]
+                - generic [ref=f157e233]:
+                  - button "Enter manually" [ref=f157e234] [cursor=pointer]
+                  - generic [ref=f157e235]: Enter manually
+                - paragraph [ref=f157e236]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f157e237]:
+            - separator [ref=f157e238]
+            - generic [ref=f157e241]:
+              - generic [ref=f157e242]: Are you currently eligible to work in your country of residence?*
+              - generic [ref=f157e243]:
+                - log [ref=f157e245]
+                - generic [ref=f157e247]:
+                  - generic [ref=f157e248]:
+                    - generic [ref=f157e249]: Select...
+                    - combobox "Are you currently eligible to work in your country of residence?" [ref=f157e251]
+                  - button "Toggle flyout" [ref=f157e253] [cursor=pointer]
+                - textbox
+            - generic [ref=f157e258]:
+              - generic [ref=f157e259]: Do you now or in the future require visa sponsorship to continue working in your country of residence?*
+              - generic [ref=f157e260]:
+                - log [ref=f157e262]
+                - generic [ref=f157e264]:
+                  - generic [ref=f157e265]:
+                    - generic [ref=f157e266]: Select...
+                    - combobox "Do you now or in the future require visa sponsorship to continue working in your country of residence?" [ref=f157e268]
+                  - button "Toggle flyout" [ref=f157e270] [cursor=pointer]
+                - textbox
+            - generic [ref=f157e275]:
+              - generic [ref=f157e276]: Are you based in Quebec?*
+              - generic [ref=f157e277]:
+                - log [ref=f157e279]
+                - generic [ref=f157e281]:
+                  - generic [ref=f157e282]:
+                    - generic [ref=f157e283]: Select...
+                    - combobox "Are you based in Quebec?" [ref=f157e285]
+                  - button "Toggle flyout" [ref=f157e287] [cursor=pointer]
+                - textbox
+            - generic [ref=f157e292]:
+              - generic [ref=f157e293]: Anything else you'd like to share with our hiring team?
+              - textbox "Anything else you'd like to share with our hiring team?" [ref=f157e294]
+            - generic [ref=f157e297]:
+              - generic [ref=f157e298]: Which of the following best describes you?*
+              - generic [ref=f157e299]:
+                - log [ref=f157e301]
+                - generic [ref=f157e303]:
+                  - generic [ref=f157e304]:
+                    - generic [ref=f157e305]: Select...
+                    - combobox "Which of the following best describes you?" [ref=f157e307]
+                  - button "Toggle flyout" [ref=f157e309] [cursor=pointer]
+                - textbox
+            - generic [ref=f157e314]:
+              - generic [ref=f157e315]: How did you hear about this opportunity at Grafana?*
+              - generic [ref=f157e316]:
+                - log [ref=f157e318]
+                - generic [ref=f157e320]:
+                  - generic [ref=f157e321]:
+                    - generic [ref=f157e322]: Select...
+                    - combobox "How did you hear about this opportunity at Grafana?" [ref=f157e324]
+                  - button "Toggle flyout" [ref=f157e326] [cursor=pointer]
+                - textbox
+            - generic [ref=f157e329]:
+              - generic [ref=f157e331]:
+                - generic [ref=f157e332]: LinkedIn Profile*
+                - textbox "LinkedIn Profile" [ref=f157e333]
+              - paragraph [ref=f157e336]: Share a link to your LI profile.
+          - separator [ref=f157e337]
+          - generic [ref=f157e338]:
+            - heading "Diversity & Inclusion Survey" [level=3] [ref=f157e339]
+            - generic [ref=f157e341]:
+              - paragraph [ref=f157e342]: At Grafana Labs, we strive to ensure we grow in a way that represents the world in which we live. To help us learn more about how we can increase diversity in our candidate pool, we invite you to voluntarily provide demographic information in a confidential survey. Providing this information is optional. It will not be used in the hiring process, and has no effect on your opportunity for employment.
+              - paragraph [ref=f157e343]:
+                - emphasis [ref=f157e344]: By voluntarily providing information and submitting your application, you explicitly consent to the collection of race, ethnicity, gender identity, and disability information and use of this information as described above
+                - text: .
+            - generic [ref=f157e346]:
+              - generic [ref=f157e347]: What gender identity do you most closely identify with?*
+              - generic [ref=f157e348]:
+                - log [ref=f157e350]
+                - generic [ref=f157e352]:
+                  - generic [ref=f157e353]:
+                    - generic [ref=f157e354]: Select...
+                    - combobox "What gender identity do you most closely identify with?" [ref=f157e356]
+                  - button "Toggle flyout" [ref=f157e358] [cursor=pointer]
+                - textbox
+            - generic [ref=f157e362]:
+              - generic [ref=f157e363]: Are you a person of transgender experience?*
+              - generic [ref=f157e364]:
+                - log [ref=f157e366]
+                - generic [ref=f157e368]:
+                  - generic [ref=f157e369]:
+                    - generic [ref=f157e370]: Select...
+                    - combobox "Are you a person of transgender experience?" [ref=f157e372]
+                  - button "Toggle flyout" [ref=f157e374] [cursor=pointer]
+                - textbox
+            - generic [ref=f157e378]:
+              - generic [ref=f157e379]: Which race and ethnicity group or groups do you identify with?*
+              - generic [ref=f157e380]:
+                - log [ref=f157e382]
+                - generic [ref=f157e384]:
+                  - generic [ref=f157e385]:
+                    - generic [ref=f157e386]: Select...
+                    - combobox "Which race and ethnicity group or groups do you identify with?" [ref=f157e388]
+                  - button "Toggle flyout" [ref=f157e390] [cursor=pointer]
+                - textbox
+            - generic [ref=f157e394]:
+              - generic [ref=f157e395]: Do you have a visible or non-visible disability?*
+              - generic [ref=f157e396]:
+                - log [ref=f157e398]
+                - generic [ref=f157e400]:
+                  - generic [ref=f157e401]:
+                    - generic [ref=f157e402]: Select...
+                    - combobox "Do you have a visible or non-visible disability?" [ref=f157e404]
+                  - button "Toggle flyout" [ref=f157e406] [cursor=pointer]
+                - textbox
+          - separator [ref=f157e409]
+          - generic [ref=f157e411]:
+            - checkbox "By checking this box, I consent to Grafana Labs collecting, storing, and processing my responses to the demographic data surveys above.*" [ref=f157e413]
+            - generic [ref=f157e414]: By checking this box, I consent to Grafana Labs collecting, storing, and processing my responses to the demographic data surveys above.*
+          - button "Submit application" [ref=f157e416] [cursor=pointer]
+  - contentinfo [ref=f157e417]:
+    - generic [ref=f157e418]:
+      - paragraph [ref=f157e419]: Powered by
+      - link [ref=f157e420] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f157e421]
+  - iframe [ref=f157e435]:
+    - generic [ref=f158e6]:
+      - text: protected by
+      - strong [ref=f158e7]: reCAPTCHA

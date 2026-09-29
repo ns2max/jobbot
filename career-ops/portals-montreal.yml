@@ -1,0 +1,322 @@
+# Montreal-specific job scan configuration
+# Run with: CAREER_OPS_PORTALS=portals-montreal.yml node scan.mjs
+
+title_filter:
+  positive:
+    - "Machine Learning"
+    - "ML Engineer"
+    - "ML Scientist"
+    - "MLOps"
+    - "Research Scientist"
+    - "Applied Scientist"
+    - "Research Engineer"
+    - "AI Engineer"
+    - "AI Scientist"
+    - "Data Scientist"
+    - "Member of Technical Staff"
+    - "LLM"
+    - "NLP"
+    - "Inference"
+    - "Model Evaluation"
+    - "Audio"
+    - "Speech"
+    - "Signal Processing"
+    - "DSP"
+    - "Acoustic"
+    - "Voice AI"
+    - "Conversational AI"
+    - "GenAI"
+    - "Generative AI"
+    - "Computer Vision"
+    - "Deep Learning"
+    - "Scientist"
+    - "Researcher"
+  negative:
+    - "Junior"
+    - "Intern"
+    - ".NET"
+    - "Java "
+    - "iOS"
+    - "Android"
+    - "PHP"
+    - "Ruby"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "COBOL"
+    - "Salesforce Admin"
+    - "Account Executive"
+    - "Business Development"
+    - "Success Manager"
+
+location_filter:
+  always_allow:
+    - "remote"
+    - "canada"
+  allow:
+    - "montreal"
+    - "montréal"
+    - "québec"
+    - "quebec"
+    - "laval"
+    - "longueuil"
+  block:
+    - "united states"
+    - "san francisco"
+    - "new york"
+    - "seattle"
+    - "austin"
+    - "boston"
+    - "chicago"
+    - "los angeles"
+    - "london"
+    - "paris"
+    - "berlin"
+    - "singapore"
+    - "bangalore"
+    - "india"
+    - "uk only"
+    - "us only"
+    - "united kingdom"
+
+search_queries:
+  - name: Montreal ML/AI — Ashby
+    query: 'site:jobs.ashbyhq.com ("Machine Learning" OR "Research Scientist" OR "AI Engineer" OR "NLP" OR "Speech" OR "Audio") "Montreal" OR "Montréal" OR "Quebec"'
+    enabled: true
+
+  - name: Montreal ML/AI — Greenhouse
+    query: 'site:job-boards.greenhouse.io ("Machine Learning" OR "Research Scientist" OR "AI Engineer" OR "NLP") "Montreal" OR "Montréal"'
+    enabled: true
+
+  - name: Montreal ML/AI — Lever
+    query: 'site:jobs.lever.co ("Machine Learning" OR "Research Scientist" OR "AI Engineer") "Montreal" OR "Montréal"'
+    enabled: true
+
+  - name: Montreal AI Research roles
+    query: '"Montreal" OR "Montréal" ("Research Scientist" OR "Research Engineer" OR "Applied Scientist") "Machine Learning" OR "AI" OR "NLP" OR "speech" site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com OR site:jobs.lever.co'
+    enabled: true
+
+  - name: Mila ecosystem jobs
+    query: '"Mila" OR "mila.quebec" "Research Engineer" OR "Research Scientist" OR "ML Engineer" OR "Applied Scientist" 2026'
+    enabled: true
+
+  - name: Montreal audio/speech ML
+    query: '"Montreal" OR "Montréal" ("Audio" OR "Speech" OR "Signal Processing" OR "Voice AI") ("Machine Learning" OR "Engineer" OR "Scientist") site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com OR site:jobs.lever.co'
+    enabled: true
+
+tracked_companies:
+
+  # ── Montreal AI research ──────────────────────────────────────────
+
+  - name: Mila (Quebec AI Institute)
+    careers_url: https://mila.quebec/en/careers
+    scan_method: websearch
+    scan_query: 'site:mila.quebec "Research Engineer" OR "Research Scientist" OR "ML Engineer" OR "Applied Scientist" OR "Researcher" 2026'
+    notes: "Montreal QC. World-leading AI research institute (Bengio/LeCun). Research Engineer & Scientist roles."
+    enabled: true
+
+  - name: IVADO Labs
+    careers_url: https://jobs.lever.co/ivado
+    notes: "Montreal QC. Mila spinoff — AI research commercialization. Research Scientist & ML Engineer roles."
+    enabled: true
+
+  - name: Samsung AI Centre Montreal (SAIC-MT)
+    careers_url: https://research.samsung.com/amc
+    scan_method: websearch
+    scan_query: '"Samsung AI" "Montreal" "Research Scientist" OR "Research Engineer" OR "Postdoc" 2026'
+    notes: "Montreal QC. Academic-style industry research lab. NLP, speech, computer vision, generative AI."
+    enabled: true
+
+  - name: Google DeepMind Montreal
+    careers_url: https://careers.google.com
+    scan_method: websearch
+    scan_query: 'site:careers.google.com "Montreal" "Research Scientist" OR "Research Engineer" OR "Software Engineer" "Machine Learning"'
+    notes: "Montreal QC. Google/DeepMind Montreal office. Research Scientist & SWE-ML roles."
+    enabled: true
+
+  - name: Microsoft Research Montreal
+    careers_url: https://careers.microsoft.com
+    scan_method: websearch
+    scan_query: '"Microsoft Research" OR "Microsoft" "Montreal" "Research Scientist" OR "Research Engineer" OR "Applied Scientist" "Machine Learning" OR "AI" OR "NLP" 2026'
+    notes: "Montreal QC. MSR Montreal lab — NLP, speech, ML. Research Scientist & Engineer roles."
+    enabled: true
+
+  - name: Borealis AI (RBC)
+    careers_url: https://jobs.rbc.com/ca/en/borealis
+    scan_method: websearch
+    scan_query: '"RBC Borealis" OR "borealis.ai" careers "Research Scientist" OR "ML Engineer" OR "AI" "Montreal" 2026'
+    notes: "Montreal / Toronto / Vancouver. RBC's AI research lab."
+    enabled: true
+
+  # ── Montreal AI product companies ────────────────────────────────
+
+  - name: Coveo
+    careers_url: https://www.coveo.com/en/company/careers/open-positions
+    scan_method: websearch
+    scan_query: 'site:coveo.com OR site:job-boards.greenhouse.io/coveo "ML" OR "Research" OR "AI Engineer" OR "NLP" OR "Data Scientist"'
+    notes: "Quebec City / Montreal / Remote. AI-powered search. ML & NLP roles."
+    enabled: true
+
+  - name: Hopper
+    careers_url: https://jobs.ashbyhq.com/hopper
+    notes: "Montreal + fully remote Canada. AI travel platform."
+    enabled: true
+
+  - name: Lightspeed Commerce
+    careers_url: https://job-boards.greenhouse.io/lightspeedcommerce
+    api: https://boards-api.greenhouse.io/v1/boards/lightspeedcommerce/jobs
+    notes: "Montreal HQ. Commerce platform with AI features."
+    enabled: true
+
+  - name: ServiceNow (Element AI Montreal)
+    careers_url: https://job-boards.greenhouse.io/servicenow
+    api: https://boards-api.greenhouse.io/v1/boards/servicenow/jobs
+    notes: "Montreal (Element AI legacy). Enterprise AI workflow automation."
+    enabled: true
+
+  - name: BrainBox AI
+    careers_url: https://brainboxai.com/en/careers
+    scan_method: websearch
+    scan_query: '"BrainBox AI" careers "Machine Learning" OR "AI Engineer" OR "Research" OR "Data Scientist" 2026'
+    notes: "Montreal QC. Smart building HVAC optimization AI. ML & edge AI roles."
+    enabled: true
+
+  - name: Dialogue Health
+    careers_url: https://job-boards.greenhouse.io/dialogue
+    api: https://boards-api.greenhouse.io/v1/boards/dialogue/jobs
+    notes: "Montreal QC. AI-powered virtual care platform. ML & NLP roles."
+    enabled: true
+
+  - name: Plotly / Dash
+    careers_url: https://job-boards.greenhouse.io/plotly
+    api: https://boards-api.greenhouse.io/v1/boards/plotly/jobs
+    notes: "Montreal / Remote. Data visualization analytics platform."
+    enabled: true
+
+  - name: Aerial Technologies
+    careers_url: https://aerialtechnologies.com/careers
+    scan_method: websearch
+    scan_query: '"Aerial Technologies" careers "Machine Learning" OR "AI" OR "Data Scientist" OR "Research" Montreal 2026'
+    notes: "Montreal QC. WiFi-based AI occupancy sensing. Embedded ML & sensor AI roles."
+    enabled: true
+
+  - name: Moov.ai
+    careers_url: https://moov.ai/en/careers
+    scan_method: websearch
+    scan_query: '"moov.ai" OR "moovai" careers "Machine Learning" OR "AI Engineer" OR "Data Scientist" OR "Research" 2026'
+    notes: "Montreal QC. Industrial AI / smart manufacturing. ML & computer vision roles."
+    enabled: true
+
+  - name: Plusgrade
+    careers_url: https://jobs.ashbyhq.com/plusgrade
+    notes: "Montreal QC. Travel tech AI (upsell/upgrade ML). ML Engineer & Data Scientist roles."
+    enabled: true
+
+  - name: Imagia Cybernetics
+    careers_url: https://imagia.com/careers
+    scan_method: websearch
+    scan_query: '"Imagia" careers "Machine Learning" OR "AI" OR "Research Scientist" OR "Medical AI" Montreal 2026'
+    notes: "Montreal QC. Medical AI / oncology imaging. Research Scientist & ML Engineer roles."
+    enabled: true
+
+  - name: AlayaCare
+    careers_url: https://job-boards.greenhouse.io/alayacare
+    api: https://boards-api.greenhouse.io/v1/boards/alayacare/jobs
+    notes: "Montreal QC. Homecare platform with AI features. ML & data science roles."
+    enabled: true
+
+  - name: Receptiviti
+    careers_url: https://www.receptiviti.com/careers
+    scan_method: websearch
+    scan_query: '"Receptiviti" careers "NLP" OR "Machine Learning" OR "Data Scientist" OR "Research" 2026'
+    notes: "Montreal QC / Toronto. NLP-based psycholinguistics platform. NLP & ML roles."
+    enabled: true
+
+  # ── Montreal fintech / enterprise AI ─────────────────────────────
+
+  - name: Nuvei
+    careers_url: https://job-boards.greenhouse.io/nuvei
+    api: https://boards-api.greenhouse.io/v1/boards/nuvei/jobs
+    notes: "Montreal QC. Fintech payment processing. ML / risk / fraud AI roles."
+    enabled: true
+
+  - name: National Bank of Canada (IA Lab)
+    careers_url: https://emplois.bnc.ca
+    scan_method: websearch
+    scan_query: '"National Bank" OR "Banque Nationale" "Machine Learning" OR "Data Science" OR "AI" Montreal careers 2026'
+    notes: "Montreal QC. One of Canada's largest banks. Growing AI/ML team."
+    enabled: true
+
+  - name: Desjardins
+    careers_url: https://carrieres.desjardins.com
+    scan_method: websearch
+    scan_query: '"Desjardins" "Machine Learning" OR "Data Scientist" OR "AI" OR "Intelligence artificielle" Montreal Quebec careers 2026'
+    notes: "Lévis / Montreal QC. Largest cooperative financial group in North America. ML & AI team."
+    enabled: true
+
+  - name: Intact Financial (Innovation Lab)
+    careers_url: https://careers.intact.ca
+    scan_method: websearch
+    scan_query: '"Intact" "Machine Learning" OR "Data Science" OR "AI Engineer" OR "Research" Montreal careers 2026'
+    notes: "Montreal QC. Canada's largest P&C insurer. Insurance ML & AI innovation lab."
+    enabled: true
+
+  - name: Ubisoft Montreal (Data / AI)
+    careers_url: https://jobs.ubisoft.com
+    scan_method: websearch
+    scan_query: 'site:jobs.ubisoft.com "Machine Learning" OR "AI" OR "Data Science" OR "Research" Montreal'
+    notes: "Montreal QC. Ubisoft's largest studio. ML-driven game AI, procedural content, player analytics."
+    enabled: true
+
+  # ── Montreal industrial / deep tech ──────────────────────────────
+
+  - name: CAE (Simulation AI)
+    careers_url: https://careers.cae.com
+    scan_method: websearch
+    scan_query: '"CAE" careers "Machine Learning" OR "AI Engineer" OR "Data Scientist" OR "Research Scientist" Montreal 2026'
+    notes: "Montreal QC. Aviation & defense simulation. AI/ML for high-fidelity simulation systems."
+    enabled: true
+
+  - name: Thales Canada
+    careers_url: https://jobs.thalesgroup.com
+    scan_method: websearch
+    scan_query: 'site:jobs.thalesgroup.com "Machine Learning" OR "AI" OR "Signal Processing" OR "Research" Montreal'
+    notes: "Montreal QC. Defense/aerospace tech. AI, signal processing, embedded ML roles."
+    enabled: true
+
+  - name: Matrox Electronic Systems
+    careers_url: https://www.matrox.com/en/video/company/careers
+    scan_method: websearch
+    scan_query: '"Matrox" careers "Machine Learning" OR "Computer Vision" OR "AI" OR "Deep Learning" Montreal 2026'
+    notes: "Montreal QC. Computer vision hardware + software. Deep learning & CV engineering roles."
+    enabled: true
+
+  # ── Montreal universities (research positions) ────────────────────
+
+  - name: McGill University
+    careers_url: https://www.mcgill.ca/careers
+    scan_method: websearch
+    scan_query: 'site:mcgill.ca "Research" "Machine Learning" OR "AI" OR "NLP" OR "Speech" OR "Audio" position OR opening 2026'
+    notes: "Montreal QC. Strong ML/NLP/audio research. Mila affiliate."
+    enabled: true
+
+  - name: Université de Montréal (DIRO)
+    careers_url: https://www.umontreal.ca/emplois
+    scan_method: websearch
+    scan_query: '"Université de Montréal" OR "UdeM" "Research" "Machine Learning" OR "AI" OR "NLP" OR "deep learning" position 2026'
+    notes: "Montreal QC. DIRO + Mila home institution. Research Scientist & postdoc roles."
+    enabled: true
+
+  - name: Concordia University (CIISE / Spectrum)
+    careers_url: https://careers.concordia.ca
+    scan_method: websearch
+    scan_query: '"Concordia" "Research" "Machine Learning" OR "AI" OR "Signal Processing" OR "Acoustic" Montreal 2026'
+    notes: "Montreal QC. CIISE department. Signal processing & ML research roles."
+    enabled: true
+
+  - name: Polytechnique Montréal
+    careers_url: https://www.polymtl.ca/emplois
+    scan_method: websearch
+    scan_query: '"Polytechnique Montréal" OR "Polytechnique Montreal" "Research" "Machine Learning" OR "AI" OR "Signal" 2026'
+    notes: "Montreal QC. Engineering-focused university. AI/ML research roles."
+    enabled: true

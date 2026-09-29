@@ -1,0 +1,139 @@
+- generic [ref=f370e2]:
+  - list [ref=f370e4]:
+    - listitem [ref=f370e5]:
+      - link [ref=f370e6] [cursor=pointer]:
+        - /url: https://www.vapi.ai/
+        - img "Vapi" [ref=f370e7]
+    - listitem [ref=f370e8]:
+      - link "Back to Vapi’s Job Listings" [ref=f370e9] [cursor=pointer]:
+        - /url: /vapi
+    - listitem
+  - generic [ref=f370e12]:
+    - heading "Member of Technical Staff, DevOps" [level=1] [ref=f370e14]
+    - generic [ref=f370e15]:
+      - generic [ref=f370e16]:
+        - generic [ref=f370e17]:
+          - heading "Location" [level=2] [ref=f370e18]
+          - paragraph [ref=f370e19]: San Francisco
+        - generic [ref=f370e20]:
+          - heading "Employment Type" [level=2] [ref=f370e21]
+          - paragraph [ref=f370e22]: Full time
+        - generic [ref=f370e23]:
+          - heading "Location Type" [level=2] [ref=f370e24]
+          - paragraph [ref=f370e25]: Hybrid
+        - generic [ref=f370e26]:
+          - heading "Department" [level=2] [ref=f370e27]
+          - paragraph [ref=f370e28]:
+            - generic [ref=f370e29]: Engineering ›
+            - generic [ref=f370e30]: Core Engineering
+        - generic [ref=f370e31]:
+          - heading "Compensation" [level=2] [ref=f370e32]
+          - paragraph [ref=f370e34]: $200K – $270K • Offers Equity
+      - generic [ref=f370e35]:
+        - tablist [ref=f370e36]:
+          - tab "Overview" [selected] [ref=f370e37] [cursor=pointer]
+          - tab "Application" [ref=f370e38] [cursor=pointer]
+        - tabpanel "Overview" [ref=f370e40]:
+          - generic [ref=f370e41]:
+            - paragraph [ref=f370e42]: Voice AI that resolves, not transfers.Most phone systems trap callers in menus and scripts. Vapi is the platform for deploying voice agents that know your business and can listen, adapt, and resolve in minutes.
+            - list [ref=f370e43]:
+              - listitem [ref=f370e44]:
+                - paragraph [ref=f370e45]:
+                  - strong [ref=f370e46]: "The numbers:"
+                  - text: 1 billion calls. 1 million developers. 10x enterprise ARR growth
+              - listitem [ref=f370e47]:
+                - paragraph [ref=f370e48]:
+                  - strong [ref=f370e49]: "The customers:"
+                  - text: Amazon Ring, ServiceTitan, New York Life, Intuit, Kavak, and thousands more, from YC startups to the Fortune 500
+              - listitem [ref=f370e50]:
+                - paragraph [ref=f370e51]:
+                  - strong [ref=f370e52]: "The news:"
+                  - text: "a $50M Series B led by Peak XV Partners, with Bessemer Venture Partners, Kleiner Perkins, M12 (Microsoft's Venture Fund), Y Combinator, and our earlier backers. Total raised: $72M"
+            - paragraph [ref=f370e53]
+            - heading [level=2] [ref=f370e54]:
+              - strong [ref=f370e55]: "Why We’re Hiring This Role:"
+            - list [ref=f370e56]:
+              - listitem [ref=f370e57]:
+                - paragraph [ref=f370e58]: Three of our worst recent incidents — Nov 29 config rollout, Dec 23 duplicate messages, Oct 13 egress proxy — were resolved by rollback. That’s the SDLC gap this role closes. Vapi engineers are your users, and the deploy pipeline, preview environments, cell-creation tooling, and oncall tooling are products with SLAs, docs, and feedback loops.
+              - listitem [ref=f370e59]:
+                - paragraph [ref=f370e60]: You’ll own progressive delivery (canary, blue/green, automated rollback, soak periods), the GitOps story across multiple clusters and regions, and the on-demand environment tooling that’s on the Q3 roadmap. Success is measured by how fast every other team ships safely.
+            - heading [level=2] [ref=f370e61]:
+              - strong [ref=f370e62]: "What You’ll Do:"
+            - list [ref=f370e63]:
+              - listitem [ref=f370e64]:
+                - paragraph [ref=f370e65]:
+                  - strong [ref=f370e66]: 30 Day
+                  - text: ": Get fluent in the Pulumi stacks, the ArgoCD setup, and GitHub Actions pipelines. Sit with engineers from agents and FDE teams to find the top 3 deploy pain points. Land a quality-of-life improvement to the deploy pipeline."
+              - listitem [ref=f370e67]:
+                - paragraph [ref=f370e68]:
+                  - strong [ref=f370e69]: 60 Day
+                  - text: ": Own progressive delivery end-to-end — canary, automated rollback, soak — for at least one critical service path. Ship the first version of cell-creation tooling or preview environments. Make the deploy pipeline measurably faster (lead time, MTTR for failed deploys)."
+              - listitem [ref=f370e70]:
+                - paragraph [ref=f370e71]:
+                  - strong [ref=f370e72]: 90 Day
+                  - text: ": Roll out progressive delivery as the default across services. Establish SLAs and a feedback loop with engineering teams. Own the developer-platform roadmap and partner with Infra and SRE on cell creation, multi-region rollouts, and oncall tooling."
+            - heading [level=2] [ref=f370e73]:
+              - strong [ref=f370e74]: "Who You Are:"
+            - paragraph [ref=f370e75]:
+              - emphasis [ref=f370e76]:
+                - strong [ref=f370e77]: Must-haves
+            - list [ref=f370e78]:
+              - listitem [ref=f370e79]:
+                - paragraph [ref=f370e80]: You have a platform-as-a-product mindset — you treat internal engineers as customers, with SLAs, docs, and feedback loops, not tickets and ad-hoc help.
+              - listitem [ref=f370e81]:
+                - paragraph [ref=f370e82]: You’ve operated Pulumi (TypeScript) or Terraform at scale (40+ stacks, multi-region) and you’ve felt the pain when IaC sprawl gets ahead of you.
+              - listitem [ref=f370e83]:
+                - paragraph [ref=f370e84]: You’ve run ArgoCD or equivalent GitOps for deploying applications across multiple clusters.
+              - listitem [ref=f370e85]:
+                - paragraph [ref=f370e86]: You’ve built progressive delivery in production — canary, blue/green, automated rollback, soak periods. You can describe a real rollout that automated rollback caught.
+              - listitem [ref=f370e87]:
+                - paragraph [ref=f370e88]: You’ve designed CI/CD pipelines (GitHub Actions preferred) for many services and Dockerfiles, not just one repo.
+              - listitem [ref=f370e89]:
+                - paragraph [ref=f370e90]: You’ve built deploy tooling for on-demand environments — preview envs, dev deployments, or cell creation.
+            - paragraph [ref=f370e91]:
+              - emphasis [ref=f370e92]:
+                - strong [ref=f370e93]: Nice-to-haves
+            - list [ref=f370e94]:
+              - listitem [ref=f370e95]:
+                - paragraph [ref=f370e96]: You’ve written Go for platform services (Vapi’s canary-manager is Go).
+              - listitem [ref=f370e97]:
+                - paragraph [ref=f370e98]: You’ve operated developer platforms at a mid-stage infra-heavy company or a DevEx team at a larger shop.
+            - paragraph [ref=f370e99]:
+              - emphasis [ref=f370e100]:
+                - strong [ref=f370e101]: Tech stack you’ll work in
+            - list [ref=f370e102]:
+              - listitem [ref=f370e103]:
+                - paragraph [ref=f370e104]: "Languages: TypeScript (primary, for Pulumi and tooling), Go (for canary-manager and platform services), Bash."
+              - listitem [ref=f370e105]:
+                - paragraph [ref=f370e106]: "IaC: Pulumi (TypeScript) at scale (40+ stacks across regions), Terraform."
+              - listitem [ref=f370e107]:
+                - paragraph [ref=f370e108]: "GitOps and deploy: ArgoCD (multi-cluster), GitHub Actions, 15+ Dockerfiles."
+              - listitem [ref=f370e109]:
+                - paragraph [ref=f370e110]: "Progressive delivery: canary, blue/green, automated rollback, soak periods (canary-manager Go service)."
+              - listitem [ref=f370e111]:
+                - paragraph [ref=f370e112]: "Orchestration: Kubernetes on EKS (multi-cluster, multi-region)."
+              - listitem [ref=f370e113]:
+                - paragraph [ref=f370e114]: "Vapi services you’ll touch: canary-manager, cell-creation tooling, preview env tooling."
+            - paragraph [ref=f370e115]:
+              - emphasis [ref=f370e116]:
+                - strong [ref=f370e117]: Where you likely come from
+            - list [ref=f370e118]:
+              - listitem [ref=f370e119]:
+                - paragraph [ref=f370e120]: Vercel, Render, Railway, Fly, Temporal, Cockroach (mid-stage infra-heavy), or DevEx/Platform teams at Stripe, Shopify, Airbnb, or Block.
+              - listitem [ref=f370e121]:
+                - paragraph [ref=f370e122]: "Weak fit: classic AWS sysadmin, or someone whose CI/CD experience is mostly Jenkins GUI-level."
+          - link [ref=f370e123] [cursor=pointer]:
+            - /url: /vapi/2d702840-a588-4273-8b98-49ed815c0c50/application
+            - button "Apply for this Job" [ref=f370e124]
+  - contentinfo [ref=f370e125]:
+    - link "Learn more about Ashby" [ref=f370e126] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f370e127]: Powered by
+      - img "Ashby" [ref=f370e128]
+    - paragraph [ref=f370e134]:
+      - link "Privacy Policy" [ref=f370e135] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f370e136] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f370e137] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

@@ -1,0 +1,125 @@
+% Job posting: https://ca.linkedin.com/jobs/view/sensor-fusion-software-engineer-at-hexagon-autonomous-solutions-4467284436
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.04}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{ML Research Engineer | Multi-Sensor Fusion \& Real-Time Embedded Systems}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \cvTagline}\\[1pt]
+    {\footnotesize\textit{\cvStatus}}\\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
+    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+Machine learning research engineer specializing in fusing heterogeneous real-time sensor streams into a single reliable state estimate under hard latency and compute constraints. At McGill University's IDMIL/CIRMMT lab, built a self-powered embedded system that fused inertial (IMU) and audio signal streams via a hierarchical finite-state machine driving a single-LSTM-256 gesture model, reaching F1 0.78 on a 500-event corpus -- the same core problem class as fusing IMU, GPS, lidar and radar streams into a trustworthy positioning and perception estimate for an autonomous vehicle. As a postdoctoral researcher at the University of Trento, extended this to a real-time multi-sensor synchronization pipeline combining audio, BCI/EEG and mixed-reality head/hand tracking across four simultaneous performers, and shipped an edge-deployed real-time pattern detector at 14 ms / F1 0.76 on Raspberry Pi 4 (74x faster than the DTW baseline it replaced). PhD-trained in benchmark and ablation design for quantifying accuracy/latency/CPU trade-offs, with 5.5 years of prior C++/Python systems engineering delivering camera- and sensor-driven production pipelines at industrial scale. Canadian permanent resident based in Toronto, open to relocating to Calgary.
+
+\section*{Core Competencies}
+\begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=0em]
+\item \textbf{Sensor Fusion \& Multimodal Systems:} multi-sensor fusion (IMU + audio, BCI/EEG, mixed-reality head/hand tracking), hierarchical finite-state machines for sensor-stream arbitration, sequence modelling (RNN/LSTM/GRU) for real-time classification of fused sensor streams, real-time multi-stream synchronization across independent hardware sources
+\item \textbf{Embedded \& Real-Time Systems:} real-time and low-latency inference, edge/embedded deployment (Raspberry Pi, ARM), embedded Linux, CPU/power profiling on self-powered hardware, IMU/I2C sensor integration (BNO055, 100 Hz)
+\item \textbf{Research Rigor:} frozen-protocol benchmark and ablation design, accuracy/latency/CPU trade-off quantification, open datasets, human-centred evaluation
+\item \textbf{Systems Engineering:} C++17 (real-time engines), Python (TensorFlow, PyTorch, scikit-learn), CI/CD and code review, mentoring
+\end{itemize}
+
+\section*{Technical Stack}
+\textbf{Languages:} C++17, Python, C, SQL, MATLAB \\
+\textbf{ML/Sensor:} TensorFlow, PyTorch, scikit-learn, RNN/LSTM/GRU, hierarchical state machines, IMU/I2C integration \\
+\textbf{DSP/Audio:} STFT, MFCC, S-transform, onset/beat tracking, Librosa \\
+\textbf{Embedded/Edge:} Raspberry Pi, ARM CPU/power profiling, embedded Linux \\
+\textbf{Infra:} AWS, Docker, ETL pipelines, CI/CD, Git, pytest
+
+\section*{Portfolio}
+\textbf{Nebula} -- C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks. \href{https://github.com/ns2max/nebula}{github.com/ns2max/nebula}
+
+\section*{Education}
+\begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=0em]
+\item \textbf{PhD, Information Engineering and Computer Science} -- University of Trento, Italy (2021 - 2025)
+\item \textbf{MSc, Telecommunication and Electronic Engineering} -- Sheffield Hallam University, UK (2016 - 2018)
+\item \textbf{BEng (Hons), Electronic Engineering} -- Sheffield Hallam University, UK (2013 - 2014)
+\end{itemize}
+
+\section*{Research and Work Experience}
+
+\begin{cvrole}{Independent Researcher}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+\item Continued sensor and audio-signal research independently: two papers accepted for publication (Smart Drums, JAES; MIRaaS, IEEE IS2)
+\item Maintain Nebula, an open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks
+\item Use AI-assisted development workflows, including Claude Code, to accelerate research tooling and documentation
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+\item Owned the full ML pipeline for streaming audio + IMU/gesture sensor data on the EU Horizon EIC Pathfinder project MUSMET: acquisition, DSP/feature engineering, training/evaluation, edge deployment (Raspberry Pi 4), and monitoring
+\item Shipped a real-time pattern detector at 14 ms inference / F1 0.76 / 31.4\% CPU on Raspberry Pi 4 -- 74x faster than the 1038 ms DTW baseline it replaced (JAES 2026)
+\item Designed frozen-protocol benchmark suites and ablations quantifying accuracy/latency/CPU trade-offs for real-time embedded inference
+\item Built a real-time multi-sensor synchronization pipeline fusing audio, BCI/EEG (g.tec) and mixed-reality head/hand tracking across four performers simultaneously, in collaboration with SAE Institute Barcelona
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University (IDMIL / CIRMMT)}{Montreal, Canada}{May 2024}{Aug 2024}
+\item Designed and built a self-powered smart electric guitar integrating a BNO055 IMU (I2C, 100 Hz) with a HiFiBerry audio codec on Raspberry Pi 4, entirely instrument-mounted -- direct multi-sensor hardware integration on embedded power and compute budgets
+\item Fused independent inertial (IMU) and audio signal streams via a hierarchical finite-state machine driving a single-LSTM-256 gesture model, achieving F1 0.78 on a 500-event corpus (IEEE IS2 2025) -- a sensor-fusion architecture directly analogous to combining IMU, GPS, lidar, and radar streams into a single positioning/perception estimate
+\item Profiled compute and power consumption on the self-powered embedded hardware to validate real-time feasibility under battery and thermal constraints
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+\item Ran a human-centred evaluation study of musicians' perception of smart musical instruments with embedded real-time pattern detection (IEEE I3DA 2025)
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+\item Built ML and statistical pipelines for financial forensics, compliance monitoring, and risk detection on large structured enterprise data
+\item Delivered SQL + Python backend scoring services for automated anomaly flagging
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+\item Designed and delivered end-to-end computer-vision and IoT systems for manufacturing at scale, feeding camera and sensor streams into production workflows across South Asia, North America, and Africa; raised operational efficiency up to 300\%
+\item Built automated multilingual care-label QC using OpenCV with conveyor and PLC-triggered rejection, cutting inspection time by 99.5\%
+\item Wrote C++/Python inference for embedded hardware deployed on production lines; introduced CI/CD and code review practices; mentored engineers
+\end{cvrole}
+
+\section*{Publications}
+\begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=0em]
+\item Silva, N. \& Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. \textit{J. Audio Eng. Soc.} 74(3). DOI 10.17743/jaes.2022.0250
+\item Silva, N., Wanderley, M. \& Turchet, L. (2025). Melody and Motion. \textit{IEEE IS2}
+\item Silva, N. \& Turchet, L. (2026, in press). Smart Drums. \textit{J. Audio Eng. Soc.}
+\item Silva, N., Weeraddana, P.C., \& Fischione, C. (2018). On Musical Onset Detection via the S-Transform. \textit{IEEE Asilomar}
+\end{itemize}
+
+\section*{Highlights}
+\begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=0em]
+\item MIDI Innovation Awards 2023 -- Finalist (Prototypes \& Non-Commercial Software)
+\item GMOA recognition, Government Medical Officers' Association, Sri Lanka (2020)
+\end{itemize}
+
+\end{document}

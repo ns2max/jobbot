@@ -1,0 +1,18 @@
+Done. Report + tracker line written, no PDF (hard exclude, no CV needed).
+
+```json
+{
+  "status": "completed",
+  "id": "36",
+  "report_num": "891",
+  "company": "Anthropic",
+  "role": "Research Engineer, Computer Use",
+  "score": null,
+  "legitimacy": "Not assessed",
+  "pdf": null,
+  "report": "reports/891-anthropic-2026-08-24.md",
+  "error": null
+}
+```
+
+SF/NYC/Seattle-only role. Canada-only policy → hard exclude. No score, no PDF, tracker line SKIP.

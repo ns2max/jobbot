@@ -1,0 +1,17 @@
+Job location: **London, UK** — non-Canadian, hard exclude per `_profile.md` location policy (Canada-only, explicit hard filter). No eval, no report, no PDF, no tracker per rule.
+
+```json
+{
+  "status": "failed",
+  "id": "52",
+  "report_num": "1018",
+  "company": "Scale AI",
+  "role": "Machine Learning Engineer, Platform",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role located in London, UK — non-Canadian, violates location.scope Canada-only policy in modes/_profile.md. Skipped per policy (no eval, no report, no PDF, no tracker line)."
+}
+```
+
+Nota: `/tmp/batch-jd-52.txt` no existía (borrado/expirado) — usé WebFetch fallback, confirmó London UK, no remote mencionado. Descartada antes de gastar tokens en eval completa.

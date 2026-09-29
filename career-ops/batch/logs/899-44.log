@@ -1,0 +1,17 @@
+No report/PDF/tracker generated (source data unavailable). Output:
+
+```json
+{
+  "status": "failed",
+  "id": "44",
+  "report_num": "899",
+  "company": "xAI",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "JD file /tmp/batch-jd-44.txt empty and job URL returns 302 redirect to /xai?error=true (posting closed/removed). Both JD sources failed."
+}
+```
+
+Job dead — xAI board redirects to error page. JD file empty too. No eval possible.

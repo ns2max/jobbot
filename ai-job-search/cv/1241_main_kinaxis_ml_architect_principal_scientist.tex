@@ -1,0 +1,102 @@
+% Job posting: https://ca.linkedin.com/jobs/view/architect-machine-learning-principal-scientist-at-kinaxis-4391129477
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.04}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{Machine Learning Research Engineer | ML Architecture \& Evaluation Rigor | Applied ML Systems}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \cvTagline}\\[1pt]
+    {\footnotesize\textit{\cvStatus}}\\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
+    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+ML research engineer whose core strength is rigorous evaluation methodology applied to real-time systems: designing frozen-protocol benchmark suites and ablation studies that quantify accuracy, latency, and compute trade-offs, and keeping a written record of negative results rather than only positive ones. This discipline produced a published real-time detector (14 ms inference on Raspberry Pi 4, F1 0.76, 74x faster than the DTW baseline it replaced) and MIRaaS, a UDP edge-to-server offload architecture whose accompanying paper characterizes the latency trade-offs of that design decision -- the same kind of systems-architecture reasoning a Principal Scientist role is asked to apply to production decision-making at scale. Owns full ML pipelines end to end, from data acquisition through training, evaluation, edge deployment, and monitoring. No supply-chain or operations-research domain experience to date, and early-career post-PhD rather than at principal/architect tenure; brings transferable architecture and evaluation rigor to a team that can provide the domain context.
+
+\section*{Core Competencies}
+\textbf{ML Architecture \& Evaluation Rigor:} Benchmark and evaluation-methodology design, frozen-protocol test suites, ablation studies, statistical evaluation of accuracy/latency/compute trade-offs, systems-architecture trade-off characterization (edge-vs-server offload), sequence modelling (RNN/LSTM/GRU), anomaly and risk-scoring systems.\\[2pt]
+\textbf{Production ML Systems:} End-to-end pipeline ownership (acquisition, feature engineering, training/eval, deployment, monitoring), edge and embedded inference, real-time/low-latency ML, multi-site operational time-series data, CI/CD and code review practice.
+
+\section*{Technical Stack}
+Python (TensorFlow, Keras, PyTorch, scikit-learn, Pandas, NumPy), C++17, SQL, AWS, Docker, Airflow, ETL pipelines, CI/CD, Git.
+
+\section*{Education}
+\noindent\textbf{PhD, Information Engineering and Computer Science} \hfill University of Trento, Italy, 2021 - 2025\\
+\textit{Thesis: Embedded Real-time Musical Pattern Detection for Smart Musical Instruments}\\[4pt]
+\noindent\textbf{MSc, Telecommunication and Electronic Engineering} \hfill Sheffield Hallam University, UK, 2016 - 2018\\[4pt]
+\noindent\textbf{BEng (Hons), Electronic Engineering} \hfill Sheffield Hallam University, UK, 2013 - 2014
+
+\section*{Research and Work Experience}
+
+\begin{cvrole}{Independent Researcher}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+  \item Two papers accepted for publication (Smart Drums, JAES; MIRaaS, IEEE IS2 2026).
+  \item Maintain Nebula, an open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks.
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+  \item Owned the full ML pipeline for streaming audio and IMU/gesture data -- acquisition, DSP/feature engineering, training/eval, edge deployment, and monitoring -- on the EU Horizon EIC Pathfinder project MUSMET.
+  \item Published a real-time pattern detector: 14 ms inference on Raspberry Pi 4, F1 0.76, 31.4\% CPU, 74x faster than the 1038 ms DTW baseline it replaced (JAES 2026).
+  \item Designed frozen-protocol benchmark suites and ablations (RNN vs.\ DTW; audio vs.\ MIDI; pattern-set sizes 1/3/10) quantifying accuracy/latency/CPU trade-offs, with a written record of negative results.
+  \item Built MIRaaS, a UDP edge-to-server offload architecture with a latency-characterization study of the design trade-offs (IEEE IS2 2026, accepted).
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University, IDMIL/CIRMMT}{Montreal, Canada}{May 2024}{Aug 2024}
+  \item Built a self-powered smart electric guitar; fused IMU and audio gesture data via a hierarchical FSM, F1 0.78 on a 500-event corpus (IEEE IS2 2025).
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+  \item Ran a human-centred evaluation of musicians' perception of smart musical instruments with embedded pattern detection (IEEE I3DA 2025).
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+  \item Built ML and statistical pipelines for financial forensics, compliance monitoring, and risk detection on large structured enterprise data.
+  \item Built SQL and Python backend anomaly-scoring services running in production.
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+  \item 5.5 years. End-to-end computer-vision and IoT systems for manufacturing at scale, raising operational efficiency by up to +300\%.
+  \item Built real-time IoT ETL and operational time-series pipelines across sites in South Asia, North America, and Africa -- multi-site operational-data-at-scale experience.
+  \item Deployed C++/Python inference on embedded hardware; introduced CI/CD and code review; mentored engineers; delivered group-wide computer-vision training.
+\end{cvrole}
+
+\section*{Publications}
+Silva, N. \& Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. \textit{Journal of the Audio Engineering Society}, 74(3). DOI 10.17743/jaes.2022.0250. Silva, N. \& Turchet, L. (2026, in press). Smart Drums. \textit{Journal of the Audio Engineering Society}.
+
+\section*{Highlights}
+MIDI Innovation Awards 2023 Finalist ("Hot Licks", Prototypes \& Non-Commercial Software). GMOA recognition (Government Medical Officers' Association, Sri Lanka, 2020) for a COVID-19 remote vitals monitoring deployment. Academic service: reviewer for IEEE Access and JNSF Sri Lanka; programme committee for IEEE IS2 and IEEE I3DA; supervised two BSc students at the University of Trento.
+
+\end{document}

@@ -1,0 +1,334 @@
+- generic [active] [ref=f33e1]:
+  - main [ref=f33e2]:
+    - generic [ref=f33e3]:
+      - generic [ref=f33e4]:
+        - link "Back to jobs" [ref=f33e5] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/togetherai
+        - generic [ref=f33e9]:
+          - generic [ref=f33e10]:
+            - heading "Technical Support Engineer (Inference) - US Weekends" [level=1] [ref=f33e11]
+            - generic [ref=f33e12]: Remote
+          - button "Apply" [ref=f33e16] [cursor=pointer]
+        - generic [ref=f33e18]:
+          - heading [level=3] [ref=f33e19]:
+            - strong [ref=f33e21]: About the role
+          - paragraph [ref=f33e22]: As a Technical Support Engineer at a pioneering AI company, you'll be the first line of defense to support customers as they build out training, fine tuning, and inference solutions with Together AI. You'll dive deep into complex technical challenges, providing swift and effective solutions while serving as a product expert. As a part of the Customer Experience organization, you will collaborate closely with product and sales, driving continuous improvement of our offerings. This is an exciting opportunity for a deeply technical professional passionate about AI and customer success to make a significant impact in a fast-paced, innovative environment.
+          - heading [level=3] [ref=f33e23]:
+            - strong [ref=f33e25]: Required hours
+          - list [ref=f33e26]:
+            - listitem [ref=f33e27]: This is a fulltime position working US daytime hours. The role will work both weekend days (Saturday and Sunday) as well as two additional weekdays.
+            - listitem [ref=f33e28]: This is a 4-day shift, 10 hours per day, with 2 additional hours of on-call coverage on Saturdays and Sundays.
+            - listitem [ref=f33e29]: The role would start as a Monday to Friday role for the first few months to allow for ramping up and learning from teammates. After being considered fully ramped, the role would transition to the 4-day weekend shift.
+          - heading [level=3] [ref=f33e30]:
+            - strong [ref=f33e32]: Responsibilities
+          - list [ref=f33e33]:
+            - listitem [ref=f33e34]: Engage directly with customers to tackle and resolve complex technical challenges involving our cutting-edge GPU clusters and our inference and fine-tuning services; ensure swift and effective solutions every time.
+            - listitem [ref=f33e35]: Act as a customer facing SRE to ensure our customer’s Inference endpoints (running on Kubernetes) remain healthy, stable, and performant
+            - listitem [ref=f33e36]: Become a product expert in all of our Gen AI solutions, serving as the last line of technical defense before issues are escalated to Engineering and Product teams.
+            - listitem [ref=f33e37]: Assist with hardware and platform migrations by validating system health and traffic routing. Monitor dashboards to detect anomalies and escalate with data-backed analysis
+            - listitem [ref=f33e38]: Manage customer-facing communications during incidents and degradations; translate deep technical findings (latency regressions, provider issues, network reachability drops) into clear, evidence-backed updates without exposing platform internals
+            - listitem [ref=f33e39]: Contribute infrastructure changes for model deployment, capacity rebalancing, and cluster configuration. You will execute infrastructure changes via pull requests (infra-as-code) for tasks such as endpoint configuration, model bringup/bringdown, and capacity scaling
+            - listitem [ref=f33e40]: Flag engine-level bugs with logs and reproduction steps for engineering
+            - listitem [ref=f33e41]: Collaborate seamlessly across Engineering, Research, and Product teams to address customer concerns; collaborate with senior leaders both internally and externally to ensure the highest levels of customer satisfaction.
+            - listitem [ref=f33e42]: Transform customer insights into action by identifying patterns in support cases and working with Engineering and Go-To-Market teams to drive Together’s roadmap (e.g., future models to support)
+            - listitem [ref=f33e43]: Maintain detailed documentation of system configurations, procedures, troubleshooting guides, and FAQs to facilitate knowledge sharing with team and customers.
+            - listitem [ref=f33e44]: Be flexible in providing support coverage during holidays, nights and weekends as required by business needs to ensure consistent and reliable service for our customers.
+          - heading [level=3] [ref=f33e45]:
+            - strong [ref=f33e47]: Requirements
+          - list [ref=f33e48]:
+            - listitem [ref=f33e49]: 6+ years of experience in a customer-facing technical role, SRE, DevOps, or infrastructure engineering, with at least 1 year in a support role for an AI service
+            - listitem [ref=f33e50]: Experience as an SRE or DevOps engineer working with Kubernetes
+            - listitem [ref=f33e51]: Strong technical background, with knowledge of AI, ML, GPU technologies and their integration into high-performance computing (HPC) environments.
+            - listitem [ref=f33e52]: Advanced, production-level experience with infrastructure services (e.g., Kubernetes, SLURM), infrastructure as code solutions (e.g., Ansible) high-performance network fabrics, NFS-based storage management, and container infrastructure
+            - listitem [ref=f33e53]: Familiarity with operating storage systems in HPC environments such as Vast and Weka
+            - listitem [ref=f33e54]: Proven ability to diagnose complex network-layer issues and read traces
+            - listitem [ref=f33e55]: Strong knowledge of Python, TypeScript, and/or JavaScript with testing/debugging experience using curl and Postman-like tools
+            - listitem [ref=f33e56]: Demonstrated expertise with observability tooling (e.g., Prometheus, Grafana) at scale
+            - listitem [ref=f33e57]: Deep familiarity with REST API debugging and HTTP semantics
+            - listitem [ref=f33e58]: Experience with LLM inference frameworks and LoRA fine-tuning and common training failure modes
+            - listitem [ref=f33e59]: Experience with Infrastructure as Code and Git-based workflows
+            - listitem [ref=f33e60]: Background in GPU cluster management
+            - listitem [ref=f33e61]: Cloud platform experience (AWS, GCP, and/or Azure)
+            - listitem [ref=f33e62]: Foundational understanding in the installation, configuration, administration, troubleshooting, and securing of compute clusters.
+            - listitem [ref=f33e63]: Complex technical problem solving and troubleshooting, with a proactive approach to issue resolution
+            - listitem [ref=f33e64]: Ability to work cross-functionally with teams such as Sales, Engineering, Support, Product and Research to drive customer success.
+            - listitem [ref=f33e65]: Strong sense of ownership and willingness to learn new skills to ensure both team and customer success.
+            - listitem [ref=f33e66]: Excellent communication and interpersonal skills, with the ability to explain complex technical concepts to non-technical stakeholders.
+            - listitem [ref=f33e67]: Ability to operate in dynamic environments, adept at managing multiple projects, and comfortable with frequent context switching and prioritization.
+          - heading [level=3] [ref=f33e68]:
+            - strong [ref=f33e70]: About Together AI
+          - paragraph [ref=f33e71]: Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancement such as FlashAttention, Hyena, FlexGen, and RedPajama. We invite you to join a passionate group of researchers in our journey in building the next generation AI infrastructure.
+          - heading [level=3] [ref=f33e72]:
+            - strong [ref=f33e74]: Compensation
+          - paragraph [ref=f33e75]: "We offer competitive compensation, startup equity, health insurance, and other benefits, as well as flexibility in terms of remote work. The US base salary range for this full-time position is: $160K - $230K + equity + benefits. Our salary ranges are determined by location, level and role. Individual compensation will be determined by experience, skills, and job-related knowledge."
+          - heading [level=3] [ref=f33e76]:
+            - strong [ref=f33e78]: Equal Opportunity
+          - paragraph [ref=f33e79]: Together AI is an Equal Opportunity Employer and is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and more.
+          - paragraph [ref=f33e80]:
+            - generic [ref=f33e81]:
+              - text: Please see our Privacy Policy at
+              - link "https://www.together.ai/privacy" [ref=f33e82] [cursor=pointer]:
+                - /url: https://www.together.ai/privacy
+        - generic [ref=f33e86]:
+          - paragraph [ref=f33e87]: Create a Job Alert
+          - paragraph [ref=f33e88]: Interested in building your career at Together AI? Get future opportunities sent straight to your email.
+          - link "Create alert" [ref=f33e89] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=togetherai&source=job_alert_post&variant=job_alert_post_a
+      - separator [ref=f33e90]
+      - generic [ref=f33e91]:
+        - generic [ref=f33e92]:
+          - generic [ref=f33e93]:
+            - heading "Apply for this job" [level=2] [ref=f33e95]
+            - generic [ref=f33e96]:
+              - paragraph [ref=f33e98]: "*"
+              - paragraph [ref=f33e99]: indicates a required field
+          - button "Autofill my application" [ref=f33e102] [cursor=pointer]
+        - generic [ref=f33e103]:
+          - generic [ref=f33e104]:
+            - generic [ref=f33e107]:
+              - generic [ref=f33e108]: First Name*
+              - textbox "First Name" [ref=f33e109]
+            - generic [ref=f33e112]:
+              - generic [ref=f33e113]: Last Name*
+              - textbox "Last Name" [ref=f33e114]
+            - generic [ref=f33e117]:
+              - generic [ref=f33e118]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f33e119]
+            - generic [ref=f33e122]:
+              - generic [ref=f33e123]: Email*
+              - textbox "Email" [ref=f33e124]
+            - group "Phone" [ref=f33e126]:
+              - generic [ref=f33e130]:
+                - generic [ref=f33e131]: Country*
+                - generic [ref=f33e132]:
+                  - log [ref=f33e134]
+                  - generic [ref=f33e136]:
+                    - combobox "Country" [ref=f33e139]
+                    - button "Toggle flyout" [ref=f33e141] [cursor=pointer]
+                  - textbox
+              - generic [ref=f33e146]:
+                - generic [ref=f33e147]: Phone*
+                - textbox "Phone" [ref=f33e149]
+            - generic [ref=f33e150]:
+              - generic [ref=f33e152]:
+                - generic [ref=f33e153]: Location (City)*
+                - generic [ref=f33e154]:
+                  - log [ref=f33e156]
+                  - combobox "Location (City)" [ref=f33e161]
+                  - textbox
+              - button "Locate me" [ref=f33e162] [cursor=pointer]
+            - group "Resume/CV*" [ref=f33e164]:
+              - generic [ref=f33e167]:
+                - generic [ref=f33e169]:
+                  - button "Attach" [ref=f33e170] [cursor=pointer]
+                  - generic [ref=f33e171]: Attach
+                  - button "Attach" [ref=f33e172]
+                - button "Dropbox" [ref=f33e174] [cursor=pointer]
+                - button "Google Drive" [ref=f33e176] [cursor=pointer]
+                - generic [ref=f33e178]:
+                  - button "Enter manually" [ref=f33e179] [cursor=pointer]
+                  - generic [ref=f33e180]: Enter manually
+                - paragraph [ref=f33e181]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f33e183]:
+              - generic [ref=f33e186]:
+                - generic [ref=f33e188]:
+                  - button "Attach" [ref=f33e189] [cursor=pointer]
+                  - generic [ref=f33e190]: Attach
+                  - button "Attach" [ref=f33e191]
+                - button "Dropbox" [ref=f33e193] [cursor=pointer]
+                - button "Google Drive" [ref=f33e195] [cursor=pointer]
+                - generic [ref=f33e197]:
+                  - button "Enter manually" [ref=f33e198] [cursor=pointer]
+                  - generic [ref=f33e199]: Enter manually
+                - paragraph [ref=f33e200]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f33e201]:
+            - separator [ref=f33e202]
+            - generic [ref=f33e205]:
+              - generic [ref=f33e206]: Website
+              - textbox "Website" [ref=f33e207]
+            - generic [ref=f33e210]:
+              - generic [ref=f33e211]: LinkedIn Profile*
+              - textbox "LinkedIn Profile" [ref=f33e212]
+            - generic [ref=f33e215]:
+              - generic [ref=f33e216]: Are you legally authorized to work in the country where the job is located?*
+              - generic [ref=f33e217]:
+                - log [ref=f33e219]
+                - generic [ref=f33e221]:
+                  - generic [ref=f33e222]:
+                    - generic [ref=f33e223]: Select...
+                    - combobox "Are you legally authorized to work in the country where the job is located?" [ref=f33e225]
+                  - button "Toggle flyout" [ref=f33e227] [cursor=pointer]
+                - textbox
+            - generic [ref=f33e232]:
+              - generic [ref=f33e233]: Will you now or in the future require company sponsorship to retain or extend your work authorization in the country where the job is located?*
+              - generic [ref=f33e234]:
+                - log [ref=f33e236]
+                - generic [ref=f33e238]:
+                  - generic [ref=f33e239]:
+                    - generic [ref=f33e240]: Select...
+                    - combobox "Will you now or in the future require company sponsorship to retain or extend your work authorization in the country where the job is located?" [ref=f33e242]
+                  - button "Toggle flyout" [ref=f33e244] [cursor=pointer]
+                - textbox
+          - separator [ref=f33e247]
+          - generic [ref=f33e248]:
+            - heading "U.S. Standard Demographic Questions" [level=3] [ref=f33e249]
+            - generic [ref=f33e250]: We invite applicants to share their demographic background. If you choose to complete this survey, your responses may be used to identify areas of improvement in our hiring process.
+            - generic [ref=f33e253]:
+              - generic [ref=f33e254]: How would you describe your gender identity? (mark all that apply)
+              - generic [ref=f33e255]:
+                - log [ref=f33e257]
+                - generic [ref=f33e259]:
+                  - generic [ref=f33e260]:
+                    - generic [ref=f33e261]: Select...
+                    - combobox "How would you describe your gender identity? (mark all that apply)" [ref=f33e263]
+                  - button "Toggle flyout" [ref=f33e265] [cursor=pointer]
+            - generic [ref=f33e269]:
+              - generic [ref=f33e270]: How would you describe your racial/ethnic background? (mark all that apply)
+              - generic [ref=f33e271]:
+                - log [ref=f33e273]
+                - generic [ref=f33e275]:
+                  - generic [ref=f33e276]:
+                    - generic [ref=f33e277]: Select...
+                    - combobox "How would you describe your racial/ethnic background? (mark all that apply)" [ref=f33e279]
+                  - button "Toggle flyout" [ref=f33e281] [cursor=pointer]
+            - generic [ref=f33e285]:
+              - generic [ref=f33e286]: How would you describe your sexual orientation? (mark all that apply)
+              - generic [ref=f33e287]:
+                - log [ref=f33e289]
+                - generic [ref=f33e291]:
+                  - generic [ref=f33e292]:
+                    - generic [ref=f33e293]: Select...
+                    - combobox "How would you describe your sexual orientation? (mark all that apply)" [ref=f33e295]
+                  - button "Toggle flyout" [ref=f33e297] [cursor=pointer]
+            - generic [ref=f33e301]:
+              - generic [ref=f33e302]: Do you identify as transgender? (select one)
+              - generic [ref=f33e303]:
+                - log [ref=f33e305]
+                - generic [ref=f33e307]:
+                  - generic [ref=f33e308]:
+                    - generic [ref=f33e309]: Select...
+                    - combobox "Do you identify as transgender? (select one)" [ref=f33e311]
+                  - button "Toggle flyout" [ref=f33e313] [cursor=pointer]
+            - generic [ref=f33e317]:
+              - generic [ref=f33e318]: Do you have a disability or chronic condition (physical, visual, auditory, cognitive, mental, emotional, or other) that substantially limits one or more of your major life activities, including mobility, communication (seeing, hearing, speaking), and learning? (select one)
+              - generic [ref=f33e319]:
+                - log [ref=f33e321]
+                - generic [ref=f33e323]:
+                  - generic [ref=f33e324]:
+                    - generic [ref=f33e325]: Select...
+                    - combobox "Do you have a disability or chronic condition (physical, visual, auditory, cognitive, mental, emotional, or other) that substantially limits one or more of your major life activities, including mobility, communication (seeing, hearing, speaking), and learning? (select one)" [ref=f33e327]
+                  - button "Toggle flyout" [ref=f33e329] [cursor=pointer]
+            - generic [ref=f33e333]:
+              - generic [ref=f33e334]: Are you a veteran or active member of the United States Armed Forces? (select one)
+              - generic [ref=f33e335]:
+                - log [ref=f33e337]
+                - generic [ref=f33e339]:
+                  - generic [ref=f33e340]:
+                    - generic [ref=f33e341]: Select...
+                    - combobox "Are you a veteran or active member of the United States Armed Forces? (select one)" [ref=f33e343]
+                  - button "Toggle flyout" [ref=f33e345] [cursor=pointer]
+          - generic [ref=f33e348]:
+            - separator [ref=f33e349]
+            - generic [ref=f33e350]:
+              - heading "Voluntary Self-Identification" [level=2] [ref=f33e351]
+              - paragraph [ref=f33e352]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+              - paragraph [ref=f33e353]: As set forth in Together AI’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+            - generic [ref=f33e356]:
+              - generic [ref=f33e357]: Gender
+              - generic [ref=f33e358]:
+                - log [ref=f33e360]
+                - generic [ref=f33e362]:
+                  - generic [ref=f33e363]:
+                    - generic [ref=f33e364]: Select...
+                    - combobox "Gender" [ref=f33e366]
+                  - button "Toggle flyout" [ref=f33e368] [cursor=pointer]
+            - generic [ref=f33e371]:
+              - generic [ref=f33e373]:
+                - generic [ref=f33e374]: Are you Hispanic/Latino?
+                - generic [ref=f33e375]:
+                  - log [ref=f33e377]
+                  - generic [ref=f33e379]:
+                    - generic [ref=f33e380]:
+                      - generic [ref=f33e381]: Select...
+                      - combobox "Are you Hispanic/Latino?" [ref=f33e383]
+                    - button "Toggle flyout" [ref=f33e385] [cursor=pointer]
+              - link "Race & Ethnicity Definitions" [ref=f33e388] [cursor=pointer]:
+                - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+            - generic [ref=f33e389]:
+              - paragraph [ref=f33e390]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+              - paragraph [ref=f33e391]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+              - paragraph [ref=f33e392]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+              - paragraph [ref=f33e393]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+              - paragraph [ref=f33e394]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+            - generic [ref=f33e397]:
+              - generic [ref=f33e398]: Veteran Status
+              - generic [ref=f33e399]:
+                - log [ref=f33e401]
+                - generic [ref=f33e403]:
+                  - generic [ref=f33e404]:
+                    - generic [ref=f33e405]: Select...
+                    - combobox "Veteran Status" [ref=f33e407]
+                  - button "Toggle flyout" [ref=f33e409] [cursor=pointer]
+            - separator [ref=f33e412]
+            - generic [ref=f33e413]:
+              - heading "Voluntary Self-Identification of Disability" [level=2] [ref=f33e414]
+              - generic [ref=f33e415]:
+                - generic [ref=f33e416]:
+                  - generic [ref=f33e417]: Form CC-305
+                  - generic [ref=f33e418]: Page 1 of 1
+                - generic [ref=f33e419]:
+                  - generic [ref=f33e420]: OMB Control Number 1250-0005
+                  - generic [ref=f33e421]: Expires 07/31/2029
+              - strong [ref=f33e422]: Why are you being asked to complete this form?
+              - paragraph [ref=f33e423]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+              - paragraph [ref=f33e424]:
+                - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                - link "www.dol.gov/ofccp" [ref=f33e425] [cursor=pointer]:
+                  - /url: https://www.dol.gov/ofccp
+                - text: .
+              - strong [ref=f33e426]: How do you know if you have a disability?
+              - paragraph [ref=f33e427]:
+                - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+                - strong [ref=f33e428]: "Disabilities include, but are not limited to:"
+              - list [ref=f33e429]:
+                - listitem [ref=f33e430]: Alcohol or other substance use disorder (not currently using drugs illegally)
+                - listitem [ref=f33e431]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+                - listitem [ref=f33e432]: Blind or low vision
+                - listitem [ref=f33e433]: Cancer (past or present)
+                - listitem [ref=f33e434]: Cardiovascular or heart disease
+                - listitem [ref=f33e435]: Celiac disease
+                - listitem [ref=f33e436]: Cerebral palsy
+                - listitem [ref=f33e437]: Deaf or serious difficulty hearing
+                - listitem [ref=f33e438]: Diabetes
+                - listitem [ref=f33e439]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+                - listitem [ref=f33e440]: Epilepsy or other seizure disorder
+                - listitem [ref=f33e441]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+                - listitem [ref=f33e442]: Intellectual or developmental disability
+                - listitem [ref=f33e443]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+                - listitem [ref=f33e444]: Missing limbs or partially missing limbs
+                - listitem [ref=f33e445]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+                - listitem [ref=f33e446]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+                - listitem [ref=f33e447]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+                - listitem [ref=f33e448]: Partial or complete paralysis (any cause)
+                - listitem [ref=f33e449]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+                - listitem [ref=f33e450]: Short stature (dwarfism)
+                - listitem [ref=f33e451]: Traumatic brain injury
+            - generic [ref=f33e454]:
+              - generic [ref=f33e455]: Disability Status
+              - generic [ref=f33e456]:
+                - log [ref=f33e458]
+                - generic [ref=f33e460]:
+                  - generic [ref=f33e461]:
+                    - generic [ref=f33e462]: Select...
+                    - combobox "Disability Status" [ref=f33e464]
+                  - button "Toggle flyout" [ref=f33e466] [cursor=pointer]
+            - paragraph [ref=f33e470]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+          - button "Submit application" [ref=f33e472] [cursor=pointer]
+  - contentinfo [ref=f33e473]:
+    - generic [ref=f33e474]:
+      - paragraph [ref=f33e475]: Powered by
+      - link [ref=f33e476] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f33e477]
+  - iframe [ref=f33e491]:
+    

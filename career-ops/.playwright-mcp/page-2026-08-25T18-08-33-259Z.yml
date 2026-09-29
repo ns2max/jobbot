@@ -1,0 +1,212 @@
+- generic [active] [ref=f594e1]:
+  - img "Banner" [ref=f594e3]
+  - main [ref=f594e4]:
+    - generic [ref=f594e5]:
+      - img "Reddit Logo" [ref=f594e7]
+      - generic [ref=f594e8]:
+        - link "Back to jobs" [ref=f594e9] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/reddit
+        - generic [ref=f594e13]:
+          - generic [ref=f594e14]:
+            - heading "Staff Machine Learning Engineer, ML Efficiency" [level=1] [ref=f594e15]
+            - generic [ref=f594e16]: Remote - United Kingdom
+          - button "Apply" [ref=f594e20] [cursor=pointer]
+        - generic [ref=f594e21]:
+          - generic [ref=f594e28]:
+            - text: Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit
+            - link "www.redditinc.com" [ref=f594e29] [cursor=pointer]:
+              - /url: http://www.redditinc.com/
+            - text: .
+          - generic [ref=f594e30]:
+            - paragraph [ref=f594e31]:
+              - strong [ref=f594e32]: "Location:"
+              - text: "Reddit has a flexible first workforce. Don't live near our office? No worries: you can work remotely from anywhere in the UK or the Netherlands."
+            - paragraph [ref=f594e33]:
+              - strong [ref=f594e34]: About the Team
+            - paragraph [ref=f594e35]: The ML Efficiency team builds the infrastructure, tooling, and optimization systems that enable machine learning engineers and researchers to train, evaluate, deploy, and operate models efficiently at scale. We focus on improving developer productivity, reducing infrastructure costs, increasing hardware utilization, and accelerating experimentation across the company’s ML ecosystem.
+            - paragraph [ref=f594e36]:
+              - strong [ref=f594e37]: Responsibilities
+            - list [ref=f594e38]:
+              - listitem [ref=f594e39]: Design and build systems that improve the efficiency of ML training and inference workloads.
+              - listitem [ref=f594e40]: Develop tooling that helps ML engineers debug, profile, optimize, and monitor model performance.
+              - listitem [ref=f594e41]: Improve GPU and general resource utilization through scheduling, resource management, caching, and workload optimization.
+              - listitem [ref=f594e42]: Partner with ML researchers and product teams to identify bottlenecks and drive performance improvements.
+              - listitem [ref=f594e43]: Build benchmarking frameworks and performance dashboards for training and serving systems.
+              - listitem [ref=f594e44]: Optimize distributed training infrastructure, data pipelines, and model serving architectures.
+              - listitem [ref=f594e45]: Lead cross-functional initiatives that improve the productivity of Reddit ML engineers.
+              - listitem [ref=f594e46]: Drive technical strategy for ML platform scalability, reliability, and cost efficiency.
+            - paragraph [ref=f594e47]:
+              - strong [ref=f594e48]: Qualifications
+            - paragraph [ref=f594e49]:
+              - strong [ref=f594e50]: Required
+            - list [ref=f594e51]:
+              - listitem [ref=f594e52]: BS, MS, or PhD in Computer Science or a related field.
+              - listitem [ref=f594e53]: 5+ years of software engineering experience.
+              - listitem [ref=f594e54]: Strong proficiency in Python
+              - listitem [ref=f594e55]: Profiency in at least one systems language (Go, C++, Rust, or Java) preferred
+              - listitem [ref=f594e56]: Experience building distributed systems at scale.
+              - listitem [ref=f594e57]: Experience with machine learning infrastructure, training systems, or model serving platforms.
+              - listitem [ref=f594e58]: Deep understanding of performance engineering and systems optimization.
+              - listitem [ref=f594e59]: Strong debugging and profiling skills.
+            - paragraph [ref=f594e60]:
+              - strong [ref=f594e61]: Preferred
+            - list [ref=f594e62]:
+              - listitem [ref=f594e63]: Experience with large-scale recommendation, ranking, generative AI, or foundation model systems.
+              - listitem [ref=f594e64]: Experience with distributed training frameworks such as PyTorch Distributed, Ray, Tensorflow, Spark
+              - listitem [ref=f594e65]: Familiarity with GPU architectures and performance analysis tools.
+              - listitem [ref=f594e66]: Experience optimizing cloud infrastructure costs across large ML workloads.
+              - listitem [ref=f594e67]: Contributions to internal platforms used by multiple ML teams.
+              - listitem [ref=f594e68]: Experience with building real time ML inference applications
+            - paragraph [ref=f594e69]:
+              - strong [ref=f594e70]: What Success Looks Like
+            - list [ref=f594e71]:
+              - listitem [ref=f594e72]: ML engineers can move from idea to experiment faster.
+              - listitem [ref=f594e73]: Training and inference costs decrease, performance increases, while model quality is maintained or improved.
+              - listitem [ref=f594e74]: GPU utilization and cluster efficiency increase.
+              - listitem [ref=f594e75]: Platform reliability improves as ML workloads scale.
+              - listitem [ref=f594e76]: Teams spend less time managing infrastructure and more time building models.
+              - listitem [ref=f594e77]: Average recommendation model size increases.
+            - paragraph [ref=f594e78]:
+              - strong [ref=f594e79]: "Benefits:"
+            - list [ref=f594e80]:
+              - listitem [ref=f594e81]: Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support
+              - listitem [ref=f594e82]: Family Planning Support
+              - listitem [ref=f594e83]: Gender-Affirming Care
+              - listitem [ref=f594e84]: Mental Health & Coaching Benefits
+              - listitem [ref=f594e85]: Group Personal Pension Scheme with Employer match
+              - listitem [ref=f594e86]: Private Medical and Dental Scheme
+              - listitem [ref=f594e87]: Income Replacement Programs
+              - listitem [ref=f594e88]: Bike to Work scheme
+              - listitem [ref=f594e89]: Flexible Vacation & Paid Volunteer Time Off
+              - listitem [ref=f594e90]: Generous Paid Parental Leave
+          - generic [ref=f594e91]:
+            - paragraph [ref=f594e92]: In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews.
+            - paragraph [ref=f594e93]:
+              - generic [ref=f594e94]:
+                - text: "During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our"
+                - link "Candidate Privacy Policy for Potential Employees and Contractors" [ref=f594e95] [cursor=pointer]:
+                  - /url: https://redditinc.com/policies/candidate-privacy-policy
+                - text: .
+            - paragraph [ref=f594e96]:
+              - emphasis [ref=f594e97]: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.
+      - separator [ref=f594e98]
+      - generic [ref=f594e99]:
+        - generic [ref=f594e101]:
+          - heading "Apply for this job" [level=2] [ref=f594e103]
+          - generic [ref=f594e104]:
+            - paragraph [ref=f594e106]: "*"
+            - paragraph [ref=f594e107]: indicates a required field
+        - generic [ref=f594e108]:
+          - generic [ref=f594e109]:
+            - generic [ref=f594e112]:
+              - generic [ref=f594e113]: First Name*
+              - textbox "First Name" [ref=f594e114]
+            - generic [ref=f594e117]:
+              - generic [ref=f594e118]: Last Name*
+              - textbox "Last Name" [ref=f594e119]
+            - generic [ref=f594e122]:
+              - generic [ref=f594e123]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f594e124]
+            - generic [ref=f594e127]:
+              - generic [ref=f594e128]: Email*
+              - textbox "Email" [ref=f594e129]
+            - group "Phone" [ref=f594e131]:
+              - generic [ref=f594e135]:
+                - generic [ref=f594e136]: Country*
+                - generic [ref=f594e137]:
+                  - log [ref=f594e139]
+                  - generic [ref=f594e141]:
+                    - combobox "Country" [ref=f594e144]
+                    - button "Toggle flyout" [ref=f594e146] [cursor=pointer]
+                  - textbox
+              - generic [ref=f594e151]:
+                - generic [ref=f594e152]: Phone*
+                - textbox "Phone" [ref=f594e154]
+            - generic [ref=f594e155]:
+              - generic [ref=f594e157]:
+                - generic [ref=f594e158]: Location (City)*
+                - generic [ref=f594e159]:
+                  - log [ref=f594e161]
+                  - combobox "Location (City)" [ref=f594e166]
+                  - textbox
+              - button "Locate me" [ref=f594e167] [cursor=pointer]
+            - group "Resume/CV*" [ref=f594e169]:
+              - generic [ref=f594e172]:
+                - generic [ref=f594e174]:
+                  - button "Attach" [ref=f594e175] [cursor=pointer]
+                  - generic [ref=f594e176]: Attach
+                  - button "Attach" [ref=f594e177]
+                - button "Dropbox" [ref=f594e179] [cursor=pointer]
+                - button "Google Drive" [ref=f594e181] [cursor=pointer]
+                - generic [ref=f594e183]:
+                  - button "Enter manually" [ref=f594e184] [cursor=pointer]
+                  - generic [ref=f594e185]: Enter manually
+                - paragraph [ref=f594e186]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f594e188]:
+              - generic [ref=f594e191]:
+                - generic [ref=f594e193]:
+                  - button "Attach" [ref=f594e194] [cursor=pointer]
+                  - generic [ref=f594e195]: Attach
+                  - button "Attach" [ref=f594e196]
+                - button "Dropbox" [ref=f594e198] [cursor=pointer]
+                - button "Google Drive" [ref=f594e200] [cursor=pointer]
+                - generic [ref=f594e202]:
+                  - button "Enter manually" [ref=f594e203] [cursor=pointer]
+                  - generic [ref=f594e204]: Enter manually
+                - paragraph [ref=f594e205]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f594e206]:
+            - separator [ref=f594e207]
+            - generic [ref=f594e210]:
+              - generic [ref=f594e211]: LinkedIn Profile
+              - textbox "LinkedIn Profile" [ref=f594e212]
+            - generic [ref=f594e215]:
+              - generic [ref=f594e216]: How did you hear about this job?*
+              - textbox "How did you hear about this job?" [ref=f594e217]
+            - generic [ref=f594e218]:
+              - generic [ref=f594e220]:
+                - generic [ref=f594e221]: Please provide the name of your current (or most recent) company*
+                - textbox "Please provide the name of your current (or most recent) company" [ref=f594e222]
+              - paragraph [ref=f594e225]: "Note: if you're currently employed at Reddit, please submit your application via our Internal Job Board"
+            - generic [ref=f594e228]:
+              - generic [ref=f594e229]: Are you currently authorized to work in this country?*
+              - generic [ref=f594e230]:
+                - log [ref=f594e232]
+                - generic [ref=f594e234]:
+                  - generic [ref=f594e235]:
+                    - generic [ref=f594e236]: Select...
+                    - combobox "Are you currently authorized to work in this country?" [ref=f594e238]
+                  - button "Toggle flyout" [ref=f594e240] [cursor=pointer]
+                - textbox
+            - generic [ref=f594e245]:
+              - generic [ref=f594e246]: Do you now, or will you in the future, require immigration sponsorship to work at Reddit?*
+              - generic [ref=f594e247]:
+                - log [ref=f594e249]
+                - generic [ref=f594e251]:
+                  - generic [ref=f594e252]:
+                    - generic [ref=f594e253]: Select...
+                    - combobox "Do you now, or will you in the future, require immigration sponsorship to work at Reddit?" [ref=f594e255]
+                  - button "Toggle flyout" [ref=f594e257] [cursor=pointer]
+                - textbox
+            - generic [ref=f594e260]:
+              - generic [ref=f594e262]:
+                - generic [ref=f594e263]: By selecting "I agree," I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy. *
+                - generic [ref=f594e264]:
+                  - log [ref=f594e266]
+                  - generic [ref=f594e268]:
+                    - generic [ref=f594e269]:
+                      - generic [ref=f594e270]: Select...
+                      - combobox "By selecting \"I agree,\" I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy." [ref=f594e272]
+                    - button "Toggle flyout" [ref=f594e274] [cursor=pointer]
+                  - textbox
+              - paragraph [ref=f594e279]:
+                - link "Reddit's Candidate Privacy Policy" [ref=f594e280] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/candidate-privacy-policy
+          - button "Submit application" [ref=f594e282] [cursor=pointer]
+  - contentinfo [ref=f594e283]:
+    - generic [ref=f594e284]:
+      - paragraph [ref=f594e285]: Powered by
+      - link [ref=f594e286] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f594e287]
+  - iframe [ref=f594e301]:
+    

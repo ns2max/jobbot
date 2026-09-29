@@ -1,0 +1,344 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: https://www.life360.com/jobs
+        - img "Life360 Logo" [ref=e6]
+      - generic [ref=e7]:
+        - link "Back to jobs" [ref=e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/life360
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - heading "Senior MLOps Engineer II (AI Native)" [level=1] [ref=e14]
+            - generic [ref=e15]: Remote, USA ; Remote, Canada
+          - button "Apply" [ref=e19] [cursor=pointer]
+        - generic [ref=e21]:
+          - heading "About Life360" [level=3] [ref=e22]
+          - paragraph [ref=e23]: Life360’s mission is to keep people close to the ones they love. Our category-leading mobile app, Tile tracking devices, and Pet GPS tracker empower members to protect the people, pets, and things they care about most with a range of services, including location sharing, safe driver reports, and crash detection with emergency dispatch. Life360 serves approximately 102.4 million monthly active users (MAU), as of June 30, 2026, across more than 180 countries.
+          - paragraph [ref=e24]: Life360 delivers peace of mind and enhances everyday family life with seamless coordination for all the moments that matter, big and small. By continuing to innovate and deliver for our customers, we have become a household name and the must-have mobile-based membership for families (and those friends who are basically family).
+          - paragraph [ref=e25]:
+            - text: Life360 has more than 500 (and growing!) remote-first employees. For more information, please visit
+            - link "life360.com" [ref=e26] [cursor=pointer]:
+              - /url: http://life360.com/
+            - text: .
+          - paragraph [ref=e27]:
+            - strong [ref=e28]:
+              - emphasis [ref=e29]: Life360 is a Remote First company, which means a remote work environment will be the primary experience for all employees. All positions, unless otherwise specified, can be performed remotely (within the US and Canada) regardless of any specified location above.
+          - heading "We are AI Native" [level=4] [ref=e30]
+          - paragraph [ref=e31]: We are building an AI native company where AI is an integral part of how we build and operate. AI tool usage during interviews varies by role. You may be asked to demonstrate proficiency with AI tools, discuss how you leverage AI, or complete interview exercises without AI assistance. Your Recruiter will provide clear guidance as you move through the interview process.
+          - paragraph [ref=e32]: Undisclosed use of AI not previously discussed with or approved by your Recruiter may impact your candidacy.
+          - heading "About The Team" [level=3] [ref=e33]
+          - paragraph [ref=e34]: Data Science and Machine Learning (DSML) at Life360 is a lean, high-impact, matrixed team with individuals embedded in business units and working cross-functionally with Product, Analytics, Engineering, and business stakeholders. We are dedicated to enhancing and optimizing the user experience, accelerating growth, and generating revenue through subscriptions, partnerships, and ads. We leverage a variety of technical skills and tools including experimentation, offline and online ML, online learning, and agentic AI (AI-Native development) to deliver exceptional customer value.
+          - heading "About the Job" [level=3] [ref=e35]
+          - paragraph [ref=e36]: We are seeking a highly motivated and skilled Senior II MLOps Engineer. In this role, you will bridge the critical gap between machine learning model development and core system operations. You will be responsible for designing, building, and scaling the infrastructure and automated pipelines required to reliably train, deploy, and monitor our machine learning models in production environments.
+          - paragraph [ref=e37]: You will join a fast-paced, collaborative team of data scientists, data engineers, and software architects. In this position you will be empowered to mature our CI/CD systems, optimize distributed infrastructure, and directly impact the reliability and scale of our core AI-driven products.
+          - paragraph [ref=e38]: This role requires strong technical expertise and practical experience in deploying machine learning inferences and models as well as the ability to collaborate with cross-functional teams to drive measurable business outcomes.
+          - paragraph [ref=e39]: For candidates based in the US, the salary range for this position is $148,000 to $216,000 USD. For candidates based out of Canada, the salary range for this position is $171,500 to 201,000 CAD. We take into consideration an individual's background and experience in determining final salary - therefore, base pay offered may vary considerably depending on geographic location, job-related knowledge, skills, and experience. The compensation package includes a wide range of medical, dental, vision, financial, and other benefits, as well as equity.
+          - heading "What You’ll Do" [level=3] [ref=e40]
+          - list [ref=e41]:
+            - listitem [ref=e42]: "Pipeline Automation: Design, implement, and manage automated CI/CD and Continuous Training (CT) pipelines for machine learning model development, evaluation, and delivery."
+            - listitem [ref=e43]: "Model Deployment: Containerize, deploy, and scale machine learning models as high-availability microservices or batch processing workflows."
+            - listitem [ref=e44]: "Observability & Monitoring: Establish unified logging, alerting, and monitoring solutions to track model inference performance, system latency, resource utilization, data drift, and concept drift."
+            - listitem [ref=e45]: "Infrastructure Management: Provision and optimize cloud-based ML infrastructure (including GPU/CPU computing clusters) utilizing Infrastructure as Code (IaC) paradigms."
+            - listitem [ref=e46]: "Cross-Functional Collaboration: Work intimately with product development teams to drive infrastructure adoption and efficiency gains through SDK/API development, automation and efficient ML system maintenance."
+            - listitem [ref=e47]: "Governance & Compliance: Implement robust lineage tracking for data, code, and model artifacts to ensure compliance, reproducibility, and security across the entire ML lifecycle."
+            - listitem [ref=e48]: "Data Infrastructure & Tooling: Work with data engineering to improve the data ecosystem, ensuring robust, scalable pipelines for experimentation and ML (including streaming tools like Kafka and Flink for low-latency online inference)."
+            - listitem [ref=e49]: "Thought Leadership: Act as a mentor and thought leader, helping to define best practices in machine learning engineering, scalable ML service ops, and agentic AI (AI-Native) best practices."
+          - heading "What We’re Looking For" [level=3] [ref=e50]
+          - heading "Desired Experience & Qualifications" [level=4] [ref=e51]
+          - list [ref=e52]:
+            - listitem [ref=e53]: "Professional Experience: 5+ years of professional software engineering, DevOps, or data engineering experience, with at least 2 years dedicated to building and maintaining MLOps infrastructure."
+            - listitem [ref=e54]: "Programming Mastery: Strong proficiency in Python, including deep familiarity with software engineering best practices (unit testing, modular design, version control via Git)."
+            - listitem [ref=e55]: "Orchestration & Containerization: In addition to hands-on experience with containerization (Docker) and container orchestration platforms, specifically Kubernetes (EKS, GKE, or native clusters), experience with related tools like FastAPI."
+            - listitem [ref=e56]: "MLOps and Datastore Tooling: Proven familiarity with specialized ML lifecycle and data processing tools and platforms such as MLflow, Kubeflow, SparkML, Synapse ML, SQL, Spark/PySpark, dbt, and Airflow."
+            - listitem [ref=e57]: "Cloud Foundations: Practical experience operating within a major cloud ecosystem—e.g., AWS, GCP, Databricks—with a clear grasp of cloud networking, security, and storage tiers."
+            - listitem [ref=e58]: Strong communication and project leadership skills, with the ability to influence cross-functional teams.
+            - listitem [ref=e59]: "Educational Background: Bachelor’s or Master’s degree in Computer Science, Data Science, Software Engineering, or a closely related quantitative field."
+          - heading "Preferred Qualifications" [level=4] [ref=e60]
+          - list [ref=e61]:
+            - listitem [ref=e62]: "Advanced Tooling: Experience implementing and scaling production feature stores (e.g., Feast, Tecton) and model registries."
+            - listitem [ref=e63]: "Generative AI & LLMs: Prior experience deploying and optimizing Large Language Models (LLMs) or foundation models utilizing serving frameworks like vLLM, Triton Inference Server, or TGI."
+            - listitem [ref=e64]: "Infrastructure as Code: Proficient with IaC frameworks, particularly Terraform, to manage reproducible environments."
+            - listitem [ref=e65]: "Data Frameworks: Familiarity with distributed data computation engines such as Apache Spark, Ray, or Dask."
+            - listitem [ref=e66]: "Industry Certifications: Relevant cloud or architecture credentials, such as AWS Certified Machine Learning Specialty, Google Cloud Professional Machine Learning Engineer, or Certified Kubernetes Administrator (CKA)."
+            - listitem [ref=e67]: Experience in subscription-based products, lifecycle marketing, or user acquisition.
+            - listitem [ref=e68]: Experience with geospatial data and mobile location-based services.
+            - listitem [ref=e69]: Experience in the consumer technology sector, particularly within a fast-paced and sometimes ambitious development setting.
+          - heading "Core Expectations" [level=4] [ref=e70]
+          - list [ref=e71]:
+            - listitem [ref=e72]: Problem-solving mindset - You structure ambiguous problems precisely before reaching for a tool, AI or otherwise
+            - listitem [ref=e73]: Collaborative approach - You can explain technical tradeoffs and articulate ideas effectively, work well across teams, and value diverse perspectives
+            - listitem [ref=e74]: Ownership mentality - You take responsibility for your work from design through production and beyond
+            - listitem [ref=e75]: "AI-native working style - You use AI tooling (Claude Code or equivalent) as a genuine development partner: delegating discrete tasks, reviewing outputs critically, and running parallel workstreams rather than hand-holding one agent at a time"
+          - paragraph [ref=e76]
+          - paragraph [ref=e77]: We believe culture fit and problem-solving ability matter more than checking every technical box. We're happy to help you grow into areas where you have less experience.
+          - heading "Our Benefits" [level=3] [ref=e78]
+          - list [ref=e79]:
+            - listitem [ref=e80]: Medical, dental, vision, life and disability insurance plans (100% paid for US employees). We offer life and disability as well as supplemental plans for medical and dental for Canadian employees.
+            - listitem [ref=e81]: 401(k) plan with company matching program in the US and RRSP with DPSP plan for Canadian employees.
+            - listitem [ref=e82]: Paid parental leave
+            - listitem [ref=e83]: Mental Wellness Program & Employee Assistance Program (EAP) for mental well-being
+            - listitem [ref=e84]: "Generous time off: flexible PTO, companywide holidays throughout the year plus summer and winter shutdowns"
+            - listitem [ref=e85]: Learning & Development programs
+            - listitem [ref=e86]: Equipment, tools, and reimbursement support for a productive remote environment.
+            - listitem [ref=e87]: Free Life360 Platinum Membership Tile trackers
+          - heading "Life360 Values" [level=3] [ref=e88]
+          - paragraph [ref=e89]: Our company’s mission driven culture is guided by our shared values to create a trusted work environment where you can bring your authentic self to work and make a positive difference
+          - list [ref=e90]:
+            - listitem [ref=e91]: Be a Good Person - We have a team of high integrity people you can trust.
+            - listitem [ref=e92]: Be Direct With Respect - We communicate directly, even when it’s hard.
+            - listitem [ref=e93]: Members Before Metrics - We focus on building an exceptional experience for families.
+            - listitem [ref=e94]: High Intensity High Impact - We do whatever it takes to get the job done.
+          - heading "Our Commitment to Diversity" [level=3] [ref=e95]
+          - paragraph [ref=e96]: We believe that different ideas, perspectives and backgrounds create a stronger and more creative work environment that delivers better results. Together, we continue to build an inclusive culture that encourages, supports, and celebrates the diverse voices of our employees. It fuels our innovation and connects us closer to our customers and the communities we serve. We strive to create a workplace that reflects the communities we serve and where everyone feels empowered to bring their authentic best selves to work.
+          - paragraph [ref=e97]:
+            - emphasis [ref=e98]: We are an equal opportunity employer and value diversity at Life360. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, disability status or any legally protected status.
+          - paragraph [ref=e99]:
+            - emphasis [ref=e100]: We encourage people of all backgrounds to apply. We believe that a diversity of perspectives and experiences create a foundation for the best ideas. Come join us in building something meaningful.
+            - strong [ref=e101]:
+              - emphasis [ref=e102]
+            - emphasis [ref=e103]: Even if you don’t meet 100% of the below qualifications, you should still seriously consider applying!
+          - paragraph [ref=e104]
+          - paragraph [ref=e105]:
+            - strong [ref=e106]: "#LI-Remote"
+          - paragraph [ref=e107]:
+            - emphasis [ref=e108]: ____________________________________________________________________________
+          - paragraph [ref=e109]
+        - generic [ref=e113]:
+          - paragraph [ref=e114]: Get new jobs like this in your inbox
+          - paragraph [ref=e115]: We'll email you when Life360 posts a job like this one.
+          - link "Create alert" [ref=e116] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=life360&source=job_alert_post&variant=job_alert_post_b
+      - separator [ref=e117]
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - heading "Apply for this job" [level=2] [ref=e122]
+            - generic [ref=e123]:
+              - paragraph [ref=e125]: "*"
+              - paragraph [ref=e126]: indicates a required field
+          - button "Autofill my application" [ref=e129] [cursor=pointer]
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: First Name*
+              - textbox "First Name" [ref=e136]
+            - generic [ref=e139]:
+              - generic [ref=e140]: Last Name*
+              - textbox "Last Name" [ref=e141]
+            - generic [ref=e144]:
+              - generic [ref=e145]: Email*
+              - textbox "Email" [ref=e146]
+            - group "Phone" [ref=e148]:
+              - generic [ref=e152]:
+                - generic [ref=e153]: Country*
+                - generic [ref=e154]:
+                  - log [ref=e156]
+                  - generic [ref=e158]:
+                    - combobox "Country" [ref=e161]
+                    - button "Toggle flyout" [ref=e163] [cursor=pointer]
+                  - textbox
+              - generic [ref=e168]:
+                - generic [ref=e169]: Phone*
+                - textbox "Phone" [ref=e171]
+            - generic [ref=e172]:
+              - generic [ref=e174]:
+                - generic [ref=e175]: Location (City)*
+                - generic [ref=e176]:
+                  - log [ref=e178]
+                  - combobox "Location (City)" [ref=e183]
+                  - textbox
+              - button "Locate me" [ref=e184] [cursor=pointer]
+            - group "Resume/CV*" [ref=e186]:
+              - generic [ref=e189]:
+                - generic [ref=e191]:
+                  - button "Attach" [ref=e192] [cursor=pointer]
+                  - generic [ref=e193]: Attach
+                  - button "Attach" [ref=e194]
+                - button "Dropbox" [ref=e196] [cursor=pointer]
+                - button "Google Drive" [ref=e198] [cursor=pointer]
+                - generic [ref=e200]:
+                  - button "Enter manually" [ref=e201] [cursor=pointer]
+                  - generic [ref=e202]: Enter manually
+                - paragraph [ref=e203]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=e205]:
+              - generic [ref=e208]:
+                - generic [ref=e210]:
+                  - button "Attach" [ref=e211] [cursor=pointer]
+                  - generic [ref=e212]: Attach
+                  - button "Attach" [ref=e213]
+                - button "Dropbox" [ref=e215] [cursor=pointer]
+                - button "Google Drive" [ref=e217] [cursor=pointer]
+                - generic [ref=e219]:
+                  - button "Enter manually" [ref=e220] [cursor=pointer]
+                  - generic [ref=e221]: Enter manually
+                - paragraph [ref=e222]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=e223]:
+            - separator [ref=e224]
+            - generic [ref=e227]:
+              - generic [ref=e228]: LinkedIn Profile*
+              - textbox "LinkedIn Profile" [ref=e229]
+            - generic [ref=e232]:
+              - generic [ref=e233]: Website
+              - textbox "Website" [ref=e234]
+            - generic [ref=e237]:
+              - generic [ref=e238]: Are you legally authorized to work in the country where the job is located?*
+              - generic [ref=e239]:
+                - log [ref=e241]
+                - generic [ref=e243]:
+                  - generic [ref=e244]:
+                    - generic [ref=e245]: Select...
+                    - combobox "Are you legally authorized to work in the country where the job is located?" [ref=e247]
+                  - button "Toggle flyout" [ref=e249] [cursor=pointer]
+                - textbox
+            - generic [ref=e254]:
+              - generic [ref=e255]: Do you require sponsorship to work in the country listed for employment now or in the future?*
+              - generic [ref=e256]:
+                - log [ref=e258]
+                - generic [ref=e260]:
+                  - generic [ref=e261]:
+                    - generic [ref=e262]: Select...
+                    - combobox "Do you require sponsorship to work in the country listed for employment now or in the future?" [ref=e264]
+                  - button "Toggle flyout" [ref=e266] [cursor=pointer]
+                - textbox
+            - generic [ref=e271]:
+              - generic [ref=e272]: Are you an existing employee at Life360, Tile, or Jiobit? *
+              - generic [ref=e273]:
+                - log [ref=e275]
+                - generic [ref=e277]:
+                  - generic [ref=e278]:
+                    - generic [ref=e279]: Select...
+                    - combobox "Are you an existing employee at Life360, Tile, or Jiobit?" [ref=e281]
+                  - button "Toggle flyout" [ref=e283] [cursor=pointer]
+                - textbox
+            - generic [ref=e288]:
+              - generic [ref=e289]: Have you previously worked for Life360, Tile, or Jiobit?*
+              - generic [ref=e290]:
+                - log [ref=e292]
+                - generic [ref=e294]:
+                  - generic [ref=e295]:
+                    - generic [ref=e296]: Select...
+                    - combobox "Have you previously worked for Life360, Tile, or Jiobit?" [ref=e298]
+                  - button "Toggle flyout" [ref=e300] [cursor=pointer]
+                - textbox
+            - generic [ref=e303]:
+              - generic [ref=e305]:
+                - generic [ref=e306]: Please confirm that you have read and agree to the Life360 Job Applicant Privacy Policy.*
+                - generic [ref=e307]:
+                  - log [ref=e309]
+                  - generic [ref=e311]:
+                    - generic [ref=e312]:
+                      - generic [ref=e313]: Select...
+                      - combobox "Please confirm that you have read and agree to the Life360 Job Applicant Privacy Policy." [ref=e315]
+                    - button "Toggle flyout" [ref=e317] [cursor=pointer]
+                  - textbox
+              - paragraph [ref=e322]:
+                - link "Life360 Job Applicant Privacy Policy" [ref=e323] [cursor=pointer]:
+                  - /url: https://l360.app.box.com/s/j3qli6u99vcav73yt8j301czx16lv4a0
+          - generic [ref=e324]:
+            - separator [ref=e325]
+            - generic [ref=e326]:
+              - heading "Voluntary Self-Identification" [level=2] [ref=e327]
+              - paragraph [ref=e328]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+              - paragraph [ref=e329]: As set forth in Life360’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+            - generic [ref=e332]:
+              - generic [ref=e333]: Gender
+              - generic [ref=e334]:
+                - log [ref=e336]
+                - generic [ref=e338]:
+                  - generic [ref=e339]:
+                    - generic [ref=e340]: Select...
+                    - combobox "Gender" [ref=e342]
+                  - button "Toggle flyout" [ref=e344] [cursor=pointer]
+            - generic [ref=e347]:
+              - generic [ref=e349]:
+                - generic [ref=e350]: Are you Hispanic/Latino?
+                - generic [ref=e351]:
+                  - log [ref=e353]
+                  - generic [ref=e355]:
+                    - generic [ref=e356]:
+                      - generic [ref=e357]: Select...
+                      - combobox "Are you Hispanic/Latino?" [ref=e359]
+                    - button "Toggle flyout" [ref=e361] [cursor=pointer]
+              - link "Race & Ethnicity Definitions" [ref=e364] [cursor=pointer]:
+                - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+            - generic [ref=e365]:
+              - paragraph [ref=e366]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+              - paragraph [ref=e367]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+              - paragraph [ref=e368]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+              - paragraph [ref=e369]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+              - paragraph [ref=e370]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+            - generic [ref=e373]:
+              - generic [ref=e374]: Veteran Status
+              - generic [ref=e375]:
+                - log [ref=e377]
+                - generic [ref=e379]:
+                  - generic [ref=e380]:
+                    - generic [ref=e381]: Select...
+                    - combobox "Veteran Status" [ref=e383]
+                  - button "Toggle flyout" [ref=e385] [cursor=pointer]
+            - separator [ref=e388]
+            - generic [ref=e389]:
+              - heading "Voluntary Self-Identification of Disability" [level=2] [ref=e390]
+              - generic [ref=e391]:
+                - generic [ref=e392]:
+                  - generic [ref=e393]: Form CC-305
+                  - generic [ref=e394]: Page 1 of 1
+                - generic [ref=e395]:
+                  - generic [ref=e396]: OMB Control Number 1250-0005
+                  - generic [ref=e397]: Expires 07/31/2029
+              - strong [ref=e398]: Why are you being asked to complete this form?
+              - paragraph [ref=e399]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+              - paragraph [ref=e400]:
+                - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                - link "www.dol.gov/ofccp" [ref=e401] [cursor=pointer]:
+                  - /url: https://www.dol.gov/ofccp
+                - text: .
+              - strong [ref=e402]: How do you know if you have a disability?
+              - paragraph [ref=e403]:
+                - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+                - strong [ref=e404]: "Disabilities include, but are not limited to:"
+              - list [ref=e405]:
+                - listitem [ref=e406]: Alcohol or other substance use disorder (not currently using drugs illegally)
+                - listitem [ref=e407]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+                - listitem [ref=e408]: Blind or low vision
+                - listitem [ref=e409]: Cancer (past or present)
+                - listitem [ref=e410]: Cardiovascular or heart disease
+                - listitem [ref=e411]: Celiac disease
+                - listitem [ref=e412]: Cerebral palsy
+                - listitem [ref=e413]: Deaf or serious difficulty hearing
+                - listitem [ref=e414]: Diabetes
+                - listitem [ref=e415]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+                - listitem [ref=e416]: Epilepsy or other seizure disorder
+                - listitem [ref=e417]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+                - listitem [ref=e418]: Intellectual or developmental disability
+                - listitem [ref=e419]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+                - listitem [ref=e420]: Missing limbs or partially missing limbs
+                - listitem [ref=e421]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+                - listitem [ref=e422]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+                - listitem [ref=e423]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+                - listitem [ref=e424]: Partial or complete paralysis (any cause)
+                - listitem [ref=e425]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+                - listitem [ref=e426]: Short stature (dwarfism)
+                - listitem [ref=e427]: Traumatic brain injury
+            - generic [ref=e430]:
+              - generic [ref=e431]: Disability Status
+              - generic [ref=e432]:
+                - log [ref=e434]
+                - generic [ref=e436]:
+                  - generic [ref=e437]:
+                    - generic [ref=e438]: Select...
+                    - combobox "Disability Status" [ref=e440]
+                  - button "Toggle flyout" [ref=e442] [cursor=pointer]
+            - paragraph [ref=e446]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+          - button "Submit application" [ref=e448] [cursor=pointer]
+  - contentinfo [ref=e449]:
+    - generic [ref=e450]:
+      - paragraph [ref=e451]: Powered by
+      - link [ref=e452] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=e453]
+  - iframe [ref=e467]:
+    - generic [ref=f2e6]:
+      - text: protected by
+      - strong [ref=f2e7]: reCAPTCHA

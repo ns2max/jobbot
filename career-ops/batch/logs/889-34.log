@@ -1,0 +1,17 @@
+Pipeline blocked upstream — both inputs dead. No PDF, no eval. Output JSON:
+
+```json
+{
+  "status": "failed",
+  "id": "34",
+  "report_num": "889",
+  "company": "Anthropic",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": "reports/889-anthropic-2026-08-24.md",
+  "error": "JD file /tmp/batch-jd-34.txt missing; WebFetch fallback on job URL resolves to generic Anthropic jobs index (535 roles), not a specific posting — job likely closed/invalid ID"
+}
+```
+
+JD file gone, posting URL dead (redirects to jobs index, not real listing) — job 5257763008 likely closed. Wrote failure report + SKIP tracker line, no PDF gen. Need valid JD text or working URL to retry.

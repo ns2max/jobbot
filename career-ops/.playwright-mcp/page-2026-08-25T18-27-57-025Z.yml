@@ -1,0 +1,338 @@
+- generic [active] [ref=f704e1]:
+  - link "Skip to content" [ref=f704e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=f704e3]:
+    - banner [ref=f704e4]:
+      - generic [ref=f704e7]:
+        - figure [ref=f704e8]:
+          - link [ref=f704e9] [cursor=pointer]:
+            - /url: https://employmenthero.com/en-ca/
+            - img "Employment Hero Canada" [ref=f704e10]
+        - generic [ref=f704e12]:
+          - generic [ref=f704e13] [cursor=pointer]
+          - generic [ref=f704e17]:
+            - generic [ref=f704e18] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - link "Employee Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Business HR Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Business Payroll Login":
+                      - /url: https://employmenthero.yourpayroll.com.au/
+                - generic:
+                  - generic:
+                    - link "Business Recruitment Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Jobseeker Login (Jobs Board)":
+                      - /url: https://jobs.employmenthero.com/AU/sign_in?callbackUrl=https%3A%2F%2Fjobs.employmenthero.com%2FAU%2F
+                - generic:
+                  - generic:
+                    - link "Humi by Employment Hero Login":
+                      - /url: https://hr.humi.ca/login
+          - img "Group" [ref=f704e25] [cursor=pointer]
+    - generic [ref=f704e34]:
+      - generic [ref=f704e35]:
+        - button "Share" [ref=f704e36] [cursor=pointer]
+        - button "Report this job" [ref=f704e41] [cursor=pointer]
+        - button "Refer a friend" [ref=f704e42] [cursor=pointer]
+      - navigation "breadcrumb" [ref=f704e44]:
+        - list [ref=f704e45]:
+          - listitem [ref=f704e46]:
+            - link "Jobs" [ref=f704e47] [cursor=pointer]:
+              - /url: https://employmenthero.com/en-ca/jobs/
+          - listitem [ref=f704e49]:
+            - link "Science & Research" [ref=f704e50] [cursor=pointer]:
+              - /url: https://employmenthero.com/en-ca/jobs/science-research/
+          - listitem [ref=f704e52]:
+            - 'link "Machine Learning Resident – Client: Fillip Fleet (12 month term)"':
+              - /url: https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-resident-client-fillip-fleet-12-month-term-kfxpr/
+    - generic [ref=f704e55]:
+      - 'heading "Machine Learning Resident – Client: Fillip Fleet (12 month term)" [level=1] [ref=f704e56]'
+      - generic [ref=f704e58]:
+        - text: at
+        - link "Alberta Machine Intelligence Institute" [ref=f704e59] [cursor=pointer]:
+          - /url: https://employmenthero.com/en-ca/jobs/organisations/alberta-machine-intelligence-institute/
+      - generic [ref=f704e60]:
+        - link "Edmonton, Alberta" [ref=f704e61] [cursor=pointer]:
+          - /url: https://employmenthero.com/en-ca/jobs/edmonton/
+        - text: ", Canada • Full-time"
+    - main [ref=f704e62]:
+      - generic [ref=f704e63]:
+        - generic [ref=f704e64]:
+          - generic [ref=f704e65]:
+            - generic [ref=f704e71]: AI Job Summary
+            - button "About AI Job Summary" [ref=f704e72] [cursor=pointer]
+          - list [ref=f704e78]:
+            - listitem [ref=f704e79]: • MSc or PhD specialization in NLP, Machine Learning, LLMs, or Applied AI.
+            - listitem [ref=f704e80]: • Experience with LLM-based agents, tool use/function calling, structured output, or retrieval-augmented systems.
+            - listitem [ref=f704e81]: • Proficiency in Python and modern AI frameworks (e.g., PyTorch, Hugging Face, Transformers, LangGraph, Pydantic).
+          - button "Sign up or log in to analyse my fit" [ref=f704e83] [cursor=pointer]
+        - generic [ref=f704e88]:
+          - heading "Role Type" [level=3] [ref=f704e89]
+          - generic [ref=f704e90]: Contract • Full-time • Entry Level
+        - generic [ref=f704e91]:
+          - heading "Description" [level=3] [ref=f704e92]
+          - generic [ref=f704e93]:
+            - paragraph [ref=f704e94]: “If you are excited about applying to LLMs to tackle real-world challenges in fleet operations and financial spend management , this is a perfect opportunity for you. Be a part of the team of research and machine learning scientists building deployable real-world ML applications from ground up and get mentored by some of the best minds in AI during the process.”
+            - paragraph [ref=f704e95]: – Kunwar Saaim, Machine Learning Scientist and Amor Provins, Product Owner, Advanced Technology
+            - paragraph [ref=f704e96]
+            - heading [level=2] [ref=f704e97]:
+              - strong [ref=f704e98]: About the Role
+            - paragraph [ref=f704e99]: "This is a paid Residency that will be undertaken over a twelve-month period with the potential to be hired by our client, Fillip Fleet, afterwards (note: at the discretion of the client). The Resident will report to an Amii Scientist and regularly consult with the client team to share insights and engage in knowledge transfer activities."
+            - paragraph [ref=f704e100]: Successful candidates will be members of a cross-functional project team with backgrounds in ML research, project management, software engineering, and new product development. This is a rare opportunity to be mentored by world-class scientists and to develop something truly impactful.
+            - heading [level=2] [ref=f704e101]:
+              - strong [ref=f704e102]: About the Client
+            - paragraph [ref=f704e103]: Fillip Fleet serves as the modern intelligence layer in a traditionally complex and dashboard-centric fleet card management market where operators face significant manual overhead. The primary commercial driver is to streamline this process by turning natural language business intent into immediate database updates, helping fleet managers save time and minimize operational errors.
+            - paragraph [ref=f704e104]: A central objective is to eliminate the cognitive burden of navigating complex dashboard menus, specifically targeting the manual bottleneck where operators must individually update each fleet card policy. This automation is designed to enable fleet managers to execute bulk changes seamlessly (e.g., “restrict fuel purchases to weekday working hours for the Vancouver team”) while maintaining high standards for precision, data isolation, and operational efficiency.
+            - paragraph [ref=f704e105]: Amii collaborated with Fillip Fleet to analyze the foundational business challenge—simplifying fleet card policy creation and updates—and investigated scalable ways to approach the problem using Agentic AI workflows. The review focused on the technical integration of Large Language Models (LLMs) with Fillip Fleet’s database architecture to ensure secure, efficient, and reliable operations. This comprehensive analysis addresses the limitations of the current system, introduces an advanced architecture for dynamic rule-based configuration, and outlines a secure implementation path using the Model Context Protocol (MCP)
+            - heading [level=2] [ref=f704e106]:
+              - strong [ref=f704e107]: About the Project
+            - paragraph [ref=f704e108]: The project will deliver an intelligent system that shifts the operational burden away from manual menu navigation. Instead, fleet managers will be able to dictate business intent using natural language (e.g., “Restrict fuel purchases to weekday working hours for the Vancouver team”), which the system will automatically interpret, verify, and safely execute across multiple policies simultaneously.
+            - paragraph [ref=f704e109]: "The implementation follows a structured, two-phased approach:"
+            - list [ref=f704e110]:
+              - listitem [ref=f704e111]: "Phase 1 (The Existing System): Developing the natural language interface and specialized sub-agents (Routing, Query, and Update agents) to manage bulk changes across the current structure of fleet defaults and individual overrides."
+              - listitem [ref=f704e112]: "Phase 2 (The Intermediate Layer Architecture): Transitioning the backend database logic to a rule-based, attribute-driven segment layer. This allows policies to apply dynamically to any users matching specific conditions (such as location or vehicle type), permanently eliminating duplicate manual exceptions and ensuring scalable rule execution."
+            - paragraph [ref=f704e113]
+            - heading [level=2] [ref=f704e114]:
+              - strong [ref=f704e115]: Required Skills / Expertise
+            - paragraph [ref=f704e116]: Are you passionate about building great solutions? You’ll be presented with opportunities to both personally and professionally develop as you build your career. We’re looking for a talented and enthusiastic individual with a solid background in machine learning, large language models, and agentic AI systems, along with proven experience in applied settings.
+            - heading [level=2] [ref=f704e117]:
+              - strong [ref=f704e118]: "Key Responsibilities:"
+            - list [ref=f704e119]:
+              - listitem [ref=f704e120]: Design, build, and evaluate a multi-agent natural language system (Routing, Query, and Update agents) that translates fleet managers’ business intent into validated policy changes across Fillip Fleet’s card management platform.
+              - listitem [ref=f704e121]: Develop grounded entity resolution and retrieval components that map conversational references (e.g., “the Vancouver team”) to the correct set of drivers, vehicles, and cards using hybrid lexical and semantic search over live account data.
+              - listitem [ref=f704e122]: Design a typed policy representation and a simulation capability that replays proposed rule changes against historical transactions, so operators can verify the impact of a change before it is applied.
+              - listitem [ref=f704e123]: Build evaluation infrastructure for agentic systems, including golden-set benchmarks, semantic-equivalence scoring, adversarial and prompt-injection test suites, and CI-gated regression testing.
+              - listitem [ref=f704e124]: Implement secure tool interfaces using the Model Context Protocol (MCP), with strict multi-tenant data isolation, schema validation, and auditable human-in-the-loop confirmation for all write operations.
+              - listitem [ref=f704e125]: Conduct applied research in LLM agent architectures, structured generation, retrieval grounding, and reliability engineering to improve the precision and safety of automated policy execution.
+              - listitem [ref=f704e126]: Collaborate with the project team and stakeholders to develop MVP and client focused solutions.
+              - listitem [ref=f704e127]: Engage in regular client meetings, contributing to presentations and reports on project progress.
+            - heading [level=2] [ref=f704e128]:
+              - strong [ref=f704e129]: "Required Qualifications:"
+            - list [ref=f704e130]:
+              - listitem [ref=f704e131]: Completion of a Computer Science (or a related graduate degree program) MSc. or PhD with specialization in Natural Language Processing, Machine Learning, Large Language Models, or Applied AI.
+              - listitem [ref=f704e132]: Research or project experience with LLM-based agents, tool use and function calling, structured output generation, or retrieval-augmented systems.
+              - listitem [ref=f704e133]: Proficiency in Python and modern AI frameworks such as PyTorch, Hugging Face, Transformers, vLLM, Unsloth, LangGraph, Pydantic, and commercial LLM APIs (e.g., Anthropic, OpenAI), and related machine learning libraries.
+              - listitem [ref=f704e134]: Working knowledge of SQL and experience querying relational databases or cloud data warehouses (e.g., Snowflake, PostgreSQL).
+              - listitem [ref=f704e135]: Familiarity with linux, Git version control, and writing clean code.
+              - listitem [ref=f704e136]: A positive attitude towards learning and understanding a new applied domain.
+              - listitem [ref=f704e137]: Must be legally eligible to work in Canada.
+            - heading [level=2] [ref=f704e138]:
+              - strong [ref=f704e139]: "Preferred Qualifications:"
+            - list [ref=f704e140]:
+              - listitem [ref=f704e141]: Experience designing evaluation frameworks for LLM or agentic systems, including benchmark construction, LLM-as-judge methods, and offline and online evaluation.
+              - listitem [ref=f704e142]: Experience with the Model Context Protocol (MCP), agent orchestration frameworks, or durable multi-step workflow systems.
+              - listitem [ref=f704e143]: Familiarity with prompt injection, guardrails, and the safe handling of untrusted input in production LLM systems.
+              - listitem [ref=f704e144]: Exposure to fintech, payments, or another regulated domain where auditability and data isolation are first-class requirements.
+              - listitem [ref=f704e145]: Experience with deploying machine learning models in production environments or strong software engineering (or MLE) skills is a plus.
+              - listitem [ref=f704e146]: Publication record in peer-reviewed academic conferences or relevant journals in ML or Applied AI (especially in natural language processing or LLM systems).
+            - heading [level=2] [ref=f704e147]:
+              - strong [ref=f704e148]: "Non-Technical Requirements:"
+            - list [ref=f704e149]:
+              - listitem [ref=f704e150]: Desire to take ownership of a problem and demonstrated leadership skills
+              - listitem [ref=f704e151]: Interdisciplinary team player enthusiastic about working together to achieve excellence
+              - listitem [ref=f704e152]: Capable of critical and independent thought
+              - listitem [ref=f704e153]: Able to communicate technical concepts clearly and advise on the application of machine intelligence
+              - listitem [ref=f704e154]: Intellectual curiosity and the desire to learn new things, techniques, and technologies
+            - heading [level=2] [ref=f704e155]:
+              - strong [ref=f704e156]: Why You Should Apply
+            - paragraph [ref=f704e157]: "Besides gaining industry experience, additional perks include:"
+            - list [ref=f704e158]:
+              - listitem [ref=f704e159]: Work under the mentorship of an Amii Scientist for the duration of the project
+              - listitem [ref=f704e160]: Participate in professional development activities
+              - listitem [ref=f704e161]: Gain access to the Amii community and events
+              - listitem [ref=f704e162]: Get paid for your work (a fair and equitable rate of pay will be negotiated at the time of offer)
+              - listitem [ref=f704e163]: Build your professional network
+              - listitem [ref=f704e164]: The opportunity for an ongoing machine learning role at the client’s organization at the end of the term (at the client’s discretion)
+              - heading [level=2] [ref=f704e165]:
+                - strong [ref=f704e166]: About Amii
+              - paragraph [ref=f704e167]: One of Canada’s three main institutes for artificial intelligence (AI) and machine learning, our world-renowned researchers drive fundamental and applied research at the University of Alberta (and other academic institutions), training some of the world’s top scientific talent. Our cross-functional teams work collaboratively with Alberta-based businesses and organizations to build AI capacity and translate scientific advancement into industry adoption and economic impact.
+              - heading [level=2] [ref=f704e168]:
+                - strong [ref=f704e169]: How to Apply
+              - paragraph [ref=f704e170]:
+                - text: If this sounds like the opportunity you’ve been waiting for, please don’t wait for the closing September 7, 2026 to apply – we’re excited to add a new member to the Amii team for this role, and the posting may come down sooner than the closing date if we find the right candidate before the posting closes! When sending your application, please send your
+                - strong [ref=f704e171]: resume and cover letter
+                - text: indicating why you think you’d be a fit for Amii. In your cover letter, please include one professional accomplishment you are most proud of and why.
+              - paragraph
+              - paragraph [ref=f704e172]:
+                - strong [ref=f704e173]: Applicants must be legally eligible to work in Canada at the time of application.
+              - paragraph:
+                - strong
+              - paragraph [ref=f704e174]: Amii is an equal opportunity employer and values a diverse workforce. We encourage applications from all qualified individuals without regard to ethnicity, religion, gender identity, sexual orientation, age or disability. Accommodations for disability-related needs throughout the recruitment and selection process are available upon request. Any information provided by you for accommodations will be kept confidential and won’t be used in the selection process.
+    - button "Apply now" [ref=f704e176] [cursor=pointer]
+    - contentinfo [ref=f704e179]:
+      - contentinfo [ref=f704e180]:
+        - generic [ref=f704e181]:
+          - generic [ref=f704e182]:
+            - paragraph [ref=f704e183]:
+              - strong [ref=f704e184]: Company
+            - paragraph [ref=f704e185]:
+              - link "About us" [ref=f704e186] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/about-us/
+            - paragraph [ref=f704e187]:
+              - link "About humi" [ref=f704e188] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/about-humi/
+            - paragraph [ref=f704e189]:
+              - link "Careers" [ref=f704e190] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/careers/
+            - paragraph [ref=f704e191]:
+              - link "Become a partner" [ref=f704e192] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/partner-network/
+            - paragraph [ref=f704e193]:
+              - link "Newsroom" [ref=f704e194] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/news/
+          - generic [ref=f704e195]:
+            - paragraph [ref=f704e196]:
+              - strong [ref=f704e197]: Get in Touch
+            - paragraph [ref=f704e198]:
+              - link "Contact Us" [ref=f704e199] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/contact/
+            - paragraph [ref=f704e200]:
+              - link "Sales" [ref=f704e201] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/request-a-demo/
+            - paragraph [ref=f704e202]:
+              - link "Report a bug" [ref=f704e203] [cursor=pointer]:
+                - /url: mailto:casupport@employmenthero.com
+            - paragraph [ref=f704e204]:
+              - link "HR login" [ref=f704e205] [cursor=pointer]:
+                - /url: https://secure.employmenthero.com/users/sign_in
+          - generic [ref=f704e206]:
+            - paragraph [ref=f704e207]:
+              - strong [ref=f704e208]: Support
+            - paragraph [ref=f704e209]:
+              - link "Help Centre" [ref=f704e210] [cursor=pointer]:
+                - /url: https://help.employmenthero.info/hc/en-ca/
+            - paragraph [ref=f704e211]:
+              - link "Humi by EH Help Centre" [ref=f704e212] [cursor=pointer]:
+                - /url: https://support.humi.ca/hc/en-us
+          - generic [ref=f704e213]:
+            - paragraph [ref=f704e214]:
+              - strong [ref=f704e215]: Pick your region
+            - paragraph [ref=f704e216]:
+              - link "Australia" [ref=f704e217] [cursor=pointer]:
+                - /url: https://employmenthero.com/
+            - paragraph [ref=f704e218]:
+              - link "New Zealand" [ref=f704e219] [cursor=pointer]:
+                - /url: https://employmenthero.com/nz/
+            - paragraph [ref=f704e220]:
+              - link "United Kingdom" [ref=f704e221] [cursor=pointer]:
+                - /url: https://employmenthero.com/uk/
+            - paragraph [ref=f704e222]:
+              - link "Singapore" [ref=f704e223] [cursor=pointer]:
+                - /url: https://employmenthero.com/sg/
+            - paragraph [ref=f704e224]:
+              - link "Malaysia" [ref=f704e225] [cursor=pointer]:
+                - /url: https://employmenthero.com/my/
+            - paragraph [ref=f704e226]:
+              - link "Canada" [ref=f704e227] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/
+          - generic [ref=f704e228]:
+            - paragraph [ref=f704e229]:
+              - strong [ref=f704e230]: Product
+            - paragraph [ref=f704e231]:
+              - link "Products" [ref=f704e232] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/products/
+            - paragraph [ref=f704e233]:
+              - link "Integrations" [ref=f704e234] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/integrations/
+            - paragraph [ref=f704e235]:
+              - link "Quick Demos" [ref=f704e236] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/quick-demos/
+            - paragraph [ref=f704e237]:
+              - link "Employment Hero work app" [ref=f704e238] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/products/work-app/
+          - generic [ref=f704e239]:
+            - paragraph [ref=f704e240]:
+              - strong [ref=f704e241]: Connect
+            - list [ref=f704e242]:
+              - listitem [ref=f704e243]:
+                - link "LinkedIn" [ref=f704e244] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/employment-hero/%20
+              - listitem [ref=f704e247]:
+                - link "X" [ref=f704e248] [cursor=pointer]:
+                  - /url: https://x.com/EmploymentHero
+              - listitem [ref=f704e251]:
+                - link "YouTube" [ref=f704e252] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@Employmenthero
+              - listitem [ref=f704e255]:
+                - link "Facebook" [ref=f704e256] [cursor=pointer]:
+                  - /url: https://www.facebook.com/EmploymentHero
+              - listitem [ref=f704e259]:
+                - link "Instagram" [ref=f704e260] [cursor=pointer]:
+                  - /url: https://www.instagram.com/employmenthero/
+              - listitem [ref=f704e263]:
+                - link "TikTok" [ref=f704e264] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@employmenthero
+        - separator [ref=f704e267]
+        - generic [ref=f704e268]:
+          - generic [ref=f704e269]:
+            - paragraph [ref=f704e270]:
+              - strong [ref=f704e271]: Land acknowledgement
+            - paragraph [ref=f704e272]: We acknowledge the traditional and unceded territory of First Nations, Inuit and Métis peoples on which we live, learn and work.
+            - paragraph [ref=f704e273]:
+              - strong [ref=f704e274]: What we do
+            - paragraph [ref=f704e275]: Employment Hero is an end-to-end HR, payroll and recruitment solution designed for Canadian businesses. Our suite of powerful employment tools help streamline your workday, so you can focus on what matters.
+          - generic [ref=f704e276]:
+            - paragraph [ref=f704e277]:
+              - strong [ref=f704e278]: News, resources and insights – delivered to your inbox. Subscribe.
+            - generic [ref=f704e281]:
+              - generic [ref=f704e284]:
+                - generic: "*"
+                - textbox "*" [ref=f704e285]:
+                  - /placeholder: Work email
+              - generic [ref=f704e289]:
+                - text: By clicking ‘Subscribe’, you consent to receiving marketing from the
+                - link "Employment Hero Group" [ref=f704e290] [cursor=pointer]:
+                  - /url: https://employmenthero.com/legals/privacy-policy/data-processing/affiliates/
+                - text: by email, text, and social media channels about its services and activities. You may withdraw your consent at any time. See the
+                - link "Privacy Policy" [ref=f704e291] [cursor=pointer]:
+                  - /url: https://employmenthero.com/legals/privacy-policy/
+                - text: for information on how your data is processed.
+              - button "Subscribe" [ref=f704e294] [cursor=pointer]
+        - separator [ref=f704e295]
+        - generic [ref=f704e296]:
+          - paragraph [ref=f704e297]: Copyright © 2026 Employment Hero
+          - list [ref=f704e298]:
+            - listitem [ref=f704e299]:
+              - link "Trust & Legal Centre" [ref=f704e300] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/
+            - listitem [ref=f704e301]:
+              - link "Terms & Conditions" [ref=f704e302] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/terms-conditions/
+            - listitem [ref=f704e303]:
+              - link "Privacy Policy" [ref=f704e304] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/privacy-policy/
+            - listitem [ref=f704e305]:
+              - link "Data Processing Addendum" [ref=f704e306] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/privacy-policy/data-processing/
+            - listitem [ref=f704e307]:
+              - link "Cookie Policy" [ref=f704e308] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/cookie-policy/
+            - listitem [ref=f704e309]:
+              - link "Accessibility" [ref=f704e310] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/#compliance
+  - region "Cookie banner" [ref=f704e312]:
+    - dialog "Cookie notice" [ref=f704e313]:
+      - generic [ref=f704e314]:
+        - generic [ref=f704e316]:
+          - heading "Cookie notice" [level=2] [ref=f704e317]
+          - generic [ref=f704e318]:
+            - text: We use cookies or similar technologies on our sites to perform analytics, provide you with tailored content, and make your experience better. By clicking 'Allow', you agree to our use of cookies on the journey you take with us. Learn more by reading
+            - link "Cookie policy, opens in a new tab" [ref=f704e319] [cursor=pointer]:
+              - /url: https://employmenthero.com/legals/cookie-policy/
+              - text: our cookie policy
+        - generic [ref=f704e321]:
+          - button "Your choices, Opens the preference center dialog" [ref=f704e322] [cursor=pointer]: Your choices
+          - generic [ref=f704e323]:
+            - button "Reject All" [ref=f704e324] [cursor=pointer]
+            - button "Allow" [ref=f704e325] [cursor=pointer]
+        - button "Continue without Accepting" [ref=f704e327] [cursor=pointer]

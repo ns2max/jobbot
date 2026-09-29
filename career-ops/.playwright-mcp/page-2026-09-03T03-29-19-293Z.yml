@@ -1,0 +1,149 @@
+- generic [ref=f1e2]:
+  - list [ref=f1e4]:
+    - listitem [ref=f1e5]:
+      - link [ref=f1e6] [cursor=pointer]:
+        - /url: https://www.wealthsimple.com/en-ca
+        - img "Wealthsimple Technologies" [ref=f1e7]
+    - listitem [ref=f1e8]:
+      - link "Back to Wealthsimple Technologies’s Job Listings" [ref=f1e9] [cursor=pointer]:
+        - /url: /wealthsimple
+    - listitem
+  - generic [ref=f1e12]:
+    - heading "Sr Data Scientist, Finance, Brokerage & Market Risk" [level=1] [ref=f1e14]
+    - generic [ref=f1e15]:
+      - generic [ref=f1e16]:
+        - generic [ref=f1e17]:
+          - heading "Location" [level=2] [ref=f1e18]
+          - paragraph [ref=f1e19]: Remote (Canada)
+        - generic [ref=f1e20]:
+          - heading "Employment Type" [level=2] [ref=f1e21]
+          - paragraph [ref=f1e22]: Full time
+        - generic [ref=f1e23]:
+          - heading "Location Type" [level=2] [ref=f1e24]
+          - paragraph [ref=f1e25]: Remote
+        - generic [ref=f1e26]:
+          - heading "Department" [level=2] [ref=f1e27]
+          - paragraph [ref=f1e28]:
+            - generic [ref=f1e29]: Data & Engineering ›
+            - generic [ref=f1e30]: Engineering
+        - generic [ref=f1e31]:
+          - heading "Compensation" [level=2] [ref=f1e32]
+          - generic [ref=f1e33]:
+            - paragraph [ref=f1e34]: CA$151K – CA$189K • Offers Equity
+            - button "See More" [ref=f1e35] [cursor=pointer]
+      - generic [ref=f1e36]:
+        - tablist [ref=f1e37]:
+          - tab "Overview" [selected] [ref=f1e38] [cursor=pointer]
+          - tab "Application" [ref=f1e39] [cursor=pointer]
+        - tabpanel "Overview" [ref=f1e41]:
+          - generic [ref=f1e42]:
+            - heading [level=2] [ref=f1e43]:
+              - strong [ref=f1e44]: Build something people love
+            - paragraph [ref=f1e45]: Wealthsimple is Canada’s leading financial innovator. The company offers a full suite of simple, sophisticated financial products across managed investing, do-it-yourself trading, cryptocurrency, tax filing, spending and saving. Wealthsimple currently serves more than 4 million Canadians and holds over $155 billion in assets under administration. The company was founded in 2014 by a team of financial experts and technology entrepreneurs, and is headquartered in Toronto, Canada.
+            - paragraph [ref=f1e46]
+            - paragraph [ref=f1e47]:
+              - text: We're proud of what we've built — and we're just getting started. Read our
+              - link "Culture Manual" [ref=f1e48] [cursor=pointer]:
+                - /url: https://www.wealthsimple.com/en-ca/culture
+              - text: and learn more about
+              - link "how we work" [ref=f1e49] [cursor=pointer]:
+                - /url: https://www.wealthsimple.com/en-ca/careers
+              - text: .
+            - paragraph [ref=f1e50]
+            - paragraph [ref=f1e51]: The Finance, Brokerage and Market Risk Data Science team is a dynamic group of data scientists and analytics developers who deliver high-quality financial metrics and advanced analytics that drive key decisions at Wealthsimple. We support financial planning, treasury operations, liquidity management, and brokerage risk assessment for products like margin trading and options.
+            - paragraph [ref=f1e52]: Our team has created a solid foundation for data-driven financial decision-making. Now we're ready to scale these initiatives, optimizing financial resources and enhancing risk management as our product offerings grow increasingly sophisticated.
+            - paragraph [ref=f1e53]: In this role, you'll make a significant impact through advanced analytics that support both strategic financial planning and sophisticated market risk management across our expanding brokerage services.
+            - heading [level=3] [ref=f1e54]:
+              - strong [ref=f1e55]: "In this role, you will have the opportunity to:"
+            - list [ref=f1e56]:
+              - listitem [ref=f1e57]:
+                - paragraph [ref=f1e58]: Own the development and maintenance of the finance and market risk data marts, optimizing for performance, data quality, reliability, and efficiency
+              - listitem [ref=f1e59]:
+                - paragraph [ref=f1e60]: Design, build, and document robust data pipelines that generate critical financial reports and metrics for stakeholders across the organization
+              - listitem [ref=f1e61]:
+                - paragraph [ref=f1e62]: Build, automate, and maintain brokerage reporting & monitoring systems, ensuring data integrity and accuracy across financial processes
+              - listitem [ref=f1e63]:
+                - paragraph [ref=f1e64]: Partner closely with business stakeholders in brokerage and market risk to launch and support new financial products and model development initiatives
+              - listitem [ref=f1e65]:
+                - paragraph [ref=f1e66]: Create insightful dashboards and visualizations to monitor brokerage KPIs, profitability metrics, and regulatory reporting requirements
+              - listitem [ref=f1e67]:
+                - paragraph [ref=f1e68]: Provide business intelligence support for trade and collateral monitoring, financial reporting, product performance analysis, and forecasting initiatives
+              - listitem [ref=f1e69]:
+                - paragraph [ref=f1e70]: Translate complex business requirements into scalable analytics solutions that address key financial and risk management needs
+              - listitem [ref=f1e71]:
+                - paragraph [ref=f1e72]: Participate in code reviews and contribute to best practices for data engineering and analytics development
+              - listitem [ref=f1e73]:
+                - paragraph [ref=f1e74]: Mentor junior team members and share knowledge to elevate the team's technical capabilities
+            - paragraph [ref=f1e75]
+            - heading [level=3] [ref=f1e76]:
+              - strong [ref=f1e77]: "What you bring:"
+            - list [ref=f1e78]:
+              - listitem [ref=f1e79]:
+                - paragraph [ref=f1e80]: 5+ years of experience in data engineering or analytics development, with demonstrated expertise in data mart architecture, design, and management
+              - listitem [ref=f1e81]:
+                - paragraph [ref=f1e82]: Strong proficiency in SQL with the ability to write complex queries, optimize performance, and work with large-scale datasets
+              - listitem [ref=f1e83]:
+                - paragraph [ref=f1e84]: Experience working at brokerage operations or financial services, with knowledge of accounting principles and market risk concepts (preferred)
+              - listitem [ref=f1e85]:
+                - paragraph [ref=f1e86]: Familiarity with regulatory reporting requirements and financial product structures (a plus)
+              - listitem [ref=f1e87]:
+                - paragraph [ref=f1e88]: Hands-on experience building and orchestrating data pipelines using modern tools such as dbt, Airflow, or similar workflow management platforms
+              - listitem [ref=f1e89]:
+                - paragraph [ref=f1e90]: Working knowledge of cloud infrastructure, particularly AWS services (S3, Redshift, Snowflake or equivalent)
+              - listitem [ref=f1e91]:
+                - paragraph [ref=f1e92]: Proficiency in Python for data manipulation, automation, and scripting
+              - listitem [ref=f1e93]:
+                - paragraph [ref=f1e94]: Experience with version control systems, particularly Git and GitHub, including branching strategies, pull requests, and code reviews
+              - listitem [ref=f1e95]:
+                - paragraph [ref=f1e96]: Proven ability to translate complex business requirements into scalable, data-driven solutions
+              - listitem [ref=f1e97]:
+                - paragraph [ref=f1e98]: Strong data visualization skills with experience using tools such as Tableau, Looker, Power BI, or similar platforms
+              - listitem [ref=f1e99]:
+                - paragraph [ref=f1e100]: Understanding of analytics engineering principles and best practices for building maintainable, well-documented data models
+              - listitem [ref=f1e101]:
+                - paragraph [ref=f1e102]: Excellent communication and interpersonal skills, with the ability to explain technical concepts to non-technical stakeholders
+              - listitem [ref=f1e103]:
+                - paragraph [ref=f1e104]: Demonstrated ability to collaborate effectively with cross-functional teams, including finance, risk, and product teams
+            - paragraph [ref=f1e105]
+            - heading [level=2] [ref=f1e106]:
+              - strong [ref=f1e107]: Why Wealthsimple?
+            - paragraph [ref=f1e108]: 🌸 Top-tier health benefits and life insurance
+            - paragraph [ref=f1e109]: 📈 Long-term group savings with employer match, through Wealthsimple for Business
+            - paragraph [ref=f1e110]: 🌴 20 vacation days, 4 wellness days, and unlimited sick and mental health days per year
+            - paragraph [ref=f1e111]: "✈️ 90 days away: work outside Canada for up to 90 days per year"
+            - paragraph [ref=f1e112]: 👥 Employee resource groups, including Rainbow (2SLGBTQ), Women of WS, and Black at WS
+            - paragraph [ref=f1e113]: "🌎 We are a hybrid team with over 1,500 employees across North America. The people are one of the best parts of working here: you'll collaborate with incredibly talented, curious, and driven teammates who are deeply committed to doing great work."
+            - paragraph [ref=f1e114]
+            - heading [level=2] [ref=f1e115]:
+              - strong [ref=f1e116]: ICYMI
+            - paragraph [ref=f1e117]:
+              - strong [ref=f1e118]: "Technology & Innovation at Wealthsimple:"
+              - text: We move quickly and build thoughtfully. That means we're always looking for better ways to work — whether that's new tools, AI, or rethinking how we approach a problem. We don't expect you to have all the answers, but we do expect curiosity and a willingness to evolve alongside the products we're building.
+            - paragraph [ref=f1e119]
+            - paragraph [ref=f1e120]:
+              - strong [ref=f1e121]: "Inclusion Statement:"
+              - text: We're building products for a diverse world, and we need a diverse team to do it well. We strongly encourage applications from everyone, regardless of race, religion, colour, national origin, gender, sexual orientation, age, marital status, or disability status.
+            - paragraph [ref=f1e122]
+            - paragraph [ref=f1e123]:
+              - strong [ref=f1e124]: "Accessibility Statement:"
+              - text: We're committed to an accessible hiring experience. If you need any accommodations throughout the interview process, please let us know — we'll work with you to make sure you have what you need. We also welcome any feedback on how we can better accommodate candidates with accessibility needs.
+            - paragraph [ref=f1e125]
+            - paragraph [ref=f1e126]:
+              - strong [ref=f1e127]: "AI in Hiring:"
+              - text: We may use artificial intelligence (AI) tools to support parts of our hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our team but don't replace human judgment – all final hiring decisions are made by people. If you have questions about how your data is used, reach out to us.
+            - paragraph [ref=f1e128]
+          - link [ref=f1e129] [cursor=pointer]:
+            - /url: /wealthsimple/6f8ab2cd-3426-4e9e-bc53-2b5534a29601/application
+            - button "Apply for this Job" [ref=f1e130]
+  - contentinfo [ref=f1e131]:
+    - link "Learn more about Ashby" [ref=f1e132] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f1e133]: Powered by
+      - img "Ashby" [ref=f1e134]
+    - paragraph [ref=f1e140]:
+      - link "Privacy Policy" [ref=f1e141] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f1e142] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f1e143] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

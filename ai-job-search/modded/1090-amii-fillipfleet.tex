@@ -1,0 +1,161 @@
+\documentclass[11pt]{article}
+
+% --------- BASIC PACKAGES ----------
+\usepackage[left=0.55in,top=0.5in,right=0.55in,bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % SANDBOX SUBSTITUTE -- restore \usepackage{newtxtext,newtxmath} locally
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\setstretch{0.97}
+\pagenumbering{gobble}
+
+% % ---------- SECTION FORMATTING ----------
+% \titleformat{\section}{\large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+% \titlespacing*{\section}{0pt}{0.45em}{0.25em}
+
+% \newenvironment{cvrole}[5]{%
+%   \par\noindent\textbf{#1} | \textit{\small #2, #3}\hfill \textit{\small #4 -- #5}\par
+%   \begin{itemize}[leftmargin=1.5em, itemsep=-0.35em, topsep=-0.4em]%
+% }{%
+%   \end{itemize}\par\noindent\mbox{}\par\vspace{-0.45em}%
+% }
+
+
+% ---------- SECTION FORMATTING ----------
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 -- #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.4em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{-0.1em}%
+}
+
+
+% ---------- HEADER ----------
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{Nishal Stanislaus Silva}}{\large \textit {, PhD}}
+    \\[1pt]
+    {\small Machine Learning Researcher | Applied AI, Evaluation \& Benchmark Design, Production ML Systems}
+    \\[1pt]
+    {\footnotesize\textit{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON (open to relocation)
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+% =====================================================
+\section*{Professional Summary}
+
+Machine learning researcher with a PhD in Information Engineering and Computer Science and 10+ years of applied research and production experience. Experienced in evaluation: designing benchmarks, building datasets, and constructing ablation and regression infrastructures. I have released four public benchmark datasets and ten peer-reviewed papers, and deployed into regulated production settings, including manufacturing,  financial forensics, and compliance monitoring. 
+
+% =====================================================
+\section*{Core Competencies}
+
+\textbf{Evaluation \& Benchmarking:} Benchmark Construction, Golden-Set Dataset Design, Ablation Studies, Metric Selection, Offline Evaluation Design, Regression Testing, Reproducible Pipelines\\
+\textbf{Applied Machine Learning:} End-to-End ML Lifecycle, Deep Learning, Sequence Modeling, Retrieval \& Similarity Search, Generative Modeling, Multimodal Modeling, Anomaly Detection, Human-in-the-Loop Systems\\
+\textbf{Systems \& Domain:} Production Deployment, Distributed Event-Driven Architectures, Financial Forensics \& Compliance Monitoring, Multi-Agent Coordination, Auditability, Low-Latency Inference
+
+% =====================================================
+\section*{Technical Stack}
+
+\textbf{Languages:} Python, SQL, C++, C, MATLAB, JavaScript, Linux Shell Scripting\\
+\textbf{Machine Learning:} PyTorch, TensorFlow, Keras, scikit-learn, HuggingFace, JAX, ONNX, NumPy, Pandas, OpenCV\\
+\textbf{LLM \& Agentic:} Commercial LLM APIs (Anthropic, OpenAI), Retrieval-Augmented Generation, Prompt Engineering, Structured Output Generation\\
+\textbf{Data \& Cloud:} PostgreSQL, Snowflake, AWS (EC2, S3, ECS, MWAA, RDS), ETL Pipelines, Information Retrieval\\
+\textbf{Development \& MLOps:} Git, Docker, Linux/UNIX, Jenkins, CI/CD, Apache Airflow, Pytest, MLflow, REST APIs
+
+% =====================================================
+\section*{Education}
+\textbf{Ph.D - Information Engineering and Computer Science} \textit{\small{ - University of Trento, Italy}} \hfill \textit{Jan 2025}\\[1pt]
+\noindent\textbf{M.Sc - Telecommunication and Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[1pt]
+\noindent\textbf{B.Eng (Hons) - Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+% =====================================================
+\section*{Professional Experience}
+
+\begin{cvrole}{Independent Machine Learning Researcher}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+    \item Researching foundation model based music generation and controllable synthetic variation generation, working with transformer and diffusion architectures and open-weight checkpoints.
+    \item Maintain Nebula, an open-source C++ audio feature extraction library, and four public benchmark datasets on Zenodo used for evaluating real-time pattern detection systems.
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Built evaluation infrastructures within the EU-funded MUSMET project: golden-set benchmarks, baseline comparisons, ablation studies, and reproducible pipelines.
+    \item Designed and released public benchmark datasets with annotation protocols and held-out evaluation splits.
+    \item Designed Hot Licks Mapper: a distributed, event-driven system where on-device models autonomously coordinated a network of peripheral devices over custom protocols, with strict latency budgets and failure handling.
+    \item Achieved 14\,ms inference at F1 0.76 on Raspberry Pi 4, a 74$\times$ speedup over deterministic baselines (JAES 2026); translated prototypes into documented components with academic and industry partners.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Prototyped diffusion-based and VAE-based generative models to synthesize training data for low-resource conditions; developed a real-time multimodal detection system over combined audio and sensor streams.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo 02, Sri Lanka}{Jan 2024}{Mar 2024}
+    \item Ran human-centred evaluations of interactive machine learning systems, pairing quantitative metrics with structured operator feedback to produce usability and adoption recommendations.
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo 05, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item Built machine learning and statistical modelling pipelines for financial forensics, compliance monitoring, and risk detection over large enterprise datasets.
+    \item Developed SQL and Python backend scoring services that flagged anomalous transactions for analyst review.
+    % , with human confirmation required before any action was taken on a flagged record.
+    % \item Worked directly with compliance and risk stakeholders to translate detection requirements into technical specifications and acceptance criteria.
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Owned the end-to-end development and deployment of machine learning and computer vision systems for quality assurance in industrial manufacturing settings; improved operational efficiency by up to 300\%.
+    \item Built a document digitization pipeline combining OCR and layout segmentation to convert a large physical archive into a searchable corpus; delivered a context-aware search system integrated into the company ERP, still in use today.
+    \item Developed real-time C++ and Python inference services on embedded hardware, and built ingestion and ETL pipelines for high-frequency operational IoT data across distributed sites.
+    \item Deployed human-in-the-loop inspection models that balanced throughput against operational risk; mentored engineers and established code review and CI/CD practice to scale adoption across teams.
+\end{cvrole}
+
+% =====================================================
+\section*{Benchmark Datasets \footnotesize {\normalfont{(published on Zenodo; 7,000+ recordings from 70 contributors)}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    % \item \textbf{DoMP} (4,000 symbolic sequences, \href{https://doi.org/10.5281/zenodo.10818617}{DOI 10818617}), \textbf{DoPP} (2,000 raw audio, \href{https://doi.org/10.5281/zenodo.14497998}{DOI 14497998}), \textbf{DoDP} and \textbf{DoDP2} (2,000 each, \href{https://doi.org/10.5281/zenodo.14497974}{DOI 14497974}, \href{https://doi.org/10.5281/zenodo.18395007}{DOI 18395007}). Designed with annotation protocols and held-out evaluation splits for cross-group comparability.
+
+    \item \textbf{DoMP}, 4,000 recordings, symbolic monophonic patterns with expressive variations (\textit{DOI: \href{https://doi.org/10.5281/zenodo.10818617}{\textit{10818617}}})
+    \item \textbf{DoPP}, 2,000 recordings, polyphonic audio patterns with expressive variations (\textit{DOI: \href{https://doi.org/10.5281/zenodo.14497998}{\textit{14497998}}})
+    \item \textbf{DoDP}, 2,000 recordings, percussive audio, rhythmic pattern detection (\textit{DOI: \href{https://doi.org/10.5281/zenodo.14497974}{\textit{14497974}}})
+    \item \textbf{DoDP2}, 2,000 recordings, percussive audio, extended ontology and multi-performer coverage (\textit{DOI: \href{https://doi.org/10.5281/zenodo.18395007}{\textit{18395007}}})
+\end{itemize}
+
+% =====================================================
+\section*{Selected Publications \footnotesize {\normalfont{(full list at: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Mar. 2026. 
+    \item Silva, N., Wanderley, M. and Turchet, L. \textit{Melody and Motion: Integrating Guitar Gesture Detection with Musical Patterns for Extended Control..}. IEEE International Symposium on the Internet of Sounds, Oct. 2025.
+    \item Silva, N., Boem, A. and Turchet, L. \textit{Interactive IoMusT-Based Concerts: Real-Time Pattern Recognition and Audience Experience}. IEEE International Conference on Immersive and 3D Audio, Sep. 2025.
+\end{itemize}
+
+% =====================================================
+\section*{Selected Projects \footnotesize {\normalfont{(full portfolio at: \href{https://nishal.xyz/research}{\textit{nishal.xyz/research}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Distributed Multi-Agent Coordination Network:} Event-driven architecture where on-device inference models routed decisions to networked peripherals over custom protocols. Architecture supported one-to-one, one-to-many, and many-to-many mappings under hard latency budgets. Published at IEEE I3DA 2025.
+    \item \textbf{Archive Digitization and Context-Aware Search:} OCR and layout segmentation pipeline converting a physical archive of technical documents into a searchable corpus, with a retrieval interface embedded in an enterprise ERP.
+    \item \textbf{Synthetic Data Generation for Low-Resource Training:} Conducted extensive research on rule-based, diffusion-based and VAE-based generation schemes to address enhanced augmentation in low training data availability.
+\end{itemize}
+
+% =====================================================
+\section*{Service, Recognition \& Highlights}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Peer Review:} IEEE Access, Journal of the National Science Foundation (Sri Lanka). \textbf{Program Committee:} IEEE Internet of Sounds Symposium, IEEE Immersive and 3D Audio Conference.
+    \item \textbf{Finalist, MIDI Innovation Awards} (Sep 2023), real-time symbolic pattern detection for smart instruments. 
+    \item \textbf{GMOA Recognition (Sri Lanka)} for a computer vision system monitoring COVID-19 patient vitals across hospital wards, reducing healthcare worker exposure.
+\end{itemize}
+
+\end{document}

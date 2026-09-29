@@ -1,0 +1,68 @@
+% Job posting: https://clarius.com/career/co/research-development-rd/0D.17C/machine-learning-engineer/all/
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: Clarius Mobile Health - Machine Learning Engineer (R&D, 24-month project)
+%  Variant: V5 (Computer Vision / Industrial). Standard 4-paragraph template.
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.03}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Computer Vision \& ML Engineer | Industrial Inspection, IoT \& Edge Deployment}
+\newcommand{\clRole}{Machine Learning Engineer}
+\newcommand{\clCompany}{Clarius Mobile Health}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{}, \clCompany{}}
+
+\clAddressee
+
+I am applying for the Machine Learning Engineer position on your 24-month R\&D project. I am a computer vision and ML engineer with a PhD from the University of Trento and 10+ years across industry and academia, and my work is the research-to-production pattern this role describes: at MAS Holdings I built and deployed production computer-vision inspection onto the factory floor with the software-engineering discipline to keep it running, and my doctorate proved how much of a model survives a hard compute budget, with a published detector that runs inference in 14 ms on a Raspberry Pi 4 at 31.4\% CPU, F1 0.76, 74 times faster than the baseline it replaced (JAES 2026).
+
+Each responsibility in the posting maps to concrete work. Developing, training and deploying models in both research and production settings is the MAS and postdoc pattern: OpenCV inspection pipelines shipped into live workflows, and a full RPi4 pipeline from acquisition through on-device deployment and monitoring. I have built real-time ingestion and ETL for high-frequency sensor data, and I designed frozen-protocol benchmark suites and ablations to automate evaluation. Optimizing model performance and inference speed for production is my core strength, alongside the profiling of latency, memory, CPU and power that goes with it. I introduced CI/CD, code review and pytest at MAS, so reducing ML technical debt and keeping code maintainable is habit rather than an afterthought, and I work in TensorFlow and PyTorch, with C++17 for the real-time layer.
+
+Clarius makes handheld wireless ultrasound to put imaging within reach of the 25 million professionals who currently lack it, with FDA-cleared MSK and OB models under Clarius Intelligence. That mission and the constraints behind it are ones I want to work on. My closest prior health work is a COVID-19 remote-vitals computer-vision device my team deployed across hospital wards, recognized by Sri Lanka's Government Medical Officers' Association. Ultrasound imaging itself would be a new domain for me, and I would be ramping on it, but I have learned applied fields cold before, apparel manufacturing and financial forensics among them, and I have already sketched an audio-to-ultrasound signal-transfer pitch, so the direction is one I have genuine interest in.
+
+I am a Canadian permanent resident, eligible to work without sponsorship, based in Toronto and able to work the remote-Canada arrangement or a Vancouver hybrid schedule. My postdoctoral contract ended in December 2025, so I am available immediately. I would welcome the chance to discuss the project. My publications, datasets and portfolio are at \href{\clSite}{nishal.xyz}.
+
+\vspace{10pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

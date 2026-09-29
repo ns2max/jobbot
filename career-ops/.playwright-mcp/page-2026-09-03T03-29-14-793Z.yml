@@ -1,0 +1,213 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: https://www.life360.com/jobs
+        - img "Life360 Logo" [ref=e6]
+      - heading "Current openings at Life360" [level=1] [ref=e7]
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: Create a Job Alert
+        - paragraph [ref=e14]: Level-up your career by having opportunities at Life360 sent directly to your inbox.
+        - link "Create alert" [ref=e15] [cursor=pointer]:
+          - /url: https://my.greenhouse.io/users/sign_in?job_board=life360&source=job_alert_board
+      - generic [ref=e16]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: Search
+          - textbox "Search" [ref=e21]
+        - generic [ref=e22]:
+          - heading "20 jobs" [level=2] [ref=e23]
+          - generic [ref=e24]:
+            - generic [ref=e25]:
+              - heading "Ads" [level=3] [ref=e26]
+              - table [ref=e28]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=e29]:
+                      - paragraph [ref=e30]: Job
+                - rowgroup [ref=e31]:
+                  - row [ref=e32]:
+                    - cell [ref=e33]:
+                      - link [ref=e34] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8647829002
+                        - paragraph [ref=e35]: Principal Client Partner, Central (Illinois)
+                        - paragraph [ref=e36]: Remote, USA
+                  - row [ref=e37]:
+                    - cell [ref=e38]:
+                      - link [ref=e39] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8647946002
+                        - paragraph [ref=e40]: Principal Client Partner, Central (Texas)
+                        - paragraph [ref=e41]: Remote, USA
+                  - row [ref=e42]:
+                    - cell [ref=e43]:
+                      - link [ref=e44] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8693397002
+                        - paragraph [ref=e45]: Senior Client Partner, Programmatic, New York & Chicago
+                        - paragraph [ref=e46]: Remote, USA
+                  - row [ref=e47]:
+                    - cell [ref=e48]:
+                      - link [ref=e49] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8592897002
+                        - paragraph [ref=e50]: Senior Designer, B2B Ads
+                        - paragraph [ref=e51]: Remote, USA
+            - generic [ref=e52]:
+              - heading "Analytics" [level=3] [ref=e53]
+              - table [ref=e55]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=e56]:
+                      - paragraph [ref=e57]: Job
+                - rowgroup [ref=e58]:
+                  - row [ref=e59]:
+                    - cell [ref=e60]:
+                      - link [ref=e61] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8586784002
+                        - paragraph [ref=e62]: Lead Decision Scientist, Product
+                        - paragraph [ref=e63]: Remote, US; Remote, Canada
+                  - row [ref=e64]:
+                    - cell [ref=e65]:
+                      - link [ref=e66] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8750960002
+                        - paragraph [ref=e67]: Senior Director, Analytics and Data Science, Core Product & Growth
+                        - paragraph [ref=e68]: Remote, USA; Remote, Canada
+                  - row [ref=e69]:
+                    - cell [ref=e70]:
+                      - link [ref=e71] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8586639002
+                        - paragraph [ref=e72]: Staff Decision Scientist (International)
+                        - paragraph [ref=e73]: London, United Kingdom
+                  - row [ref=e74]:
+                    - cell [ref=e75]:
+                      - link [ref=e76] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8586894002
+                        - paragraph [ref=e77]: Staff Decision Scientist (Strategic Insights)
+                        - paragraph [ref=e78]: Remote, US; Remote, Canada
+            - generic [ref=e79]:
+              - heading "Engineering" [level=3] [ref=e80]
+              - table [ref=e82]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=e83]:
+                      - paragraph [ref=e84]: Job
+                - rowgroup [ref=e85]:
+                  - row [ref=e86]:
+                    - cell [ref=e87]:
+                      - link [ref=e88] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8659252002
+                        - paragraph [ref=e89]: Senior Data Engineer II, AI Native
+                        - paragraph [ref=e90]: Remote, USA
+                  - row [ref=e91]:
+                    - cell [ref=e92]:
+                      - link [ref=e93] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8728404002
+                        - paragraph [ref=e94]: Senior Software Engineer II, (AI Native)
+                        - paragraph [ref=e95]: Remote, USA; Remote, Canada
+                  - row [ref=e96]:
+                    - cell [ref=e97]:
+                      - link [ref=e98] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8599439002
+                        - paragraph [ref=e99]: Senior Software Engineer II (Cloud), AI Native, Experimentation & ML
+                        - paragraph [ref=e100]: Remote, USA; Remote, Canada
+                  - row [ref=e101]:
+                    - cell [ref=e102]:
+                      - link [ref=e103] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8652900002
+                        - paragraph [ref=e104]: Staff Data Scientist - Ads (AI Native)
+                        - paragraph [ref=e105]: Remote, USA ; Remote, Canada
+                  - row [ref=e106]:
+                    - cell [ref=e107]:
+                      - link [ref=e108] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8675235002
+                        - paragraph [ref=e109]: Staff Firmware Engineer, AI Native, Edge ML
+                        - paragraph [ref=e110]: Remote, USA; Remote, Canada
+            - generic [ref=e111]:
+              - paragraph [ref=e113]: Engineering
+              - heading "IT" [level=3] [ref=e114]
+              - table [ref=e116]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=e117]:
+                      - paragraph [ref=e118]: Job
+                - rowgroup [ref=e119]:
+                  - row [ref=e120]:
+                    - cell [ref=e121]:
+                      - link [ref=e122] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8636922002
+                        - paragraph [ref=e123]: Director, IT
+                        - paragraph [ref=e124]: Remote, USA
+            - generic [ref=e125]:
+              - heading "Finance" [level=3] [ref=e126]
+              - table [ref=e128]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=e129]:
+                      - paragraph [ref=e130]: Job
+                - rowgroup [ref=e131]:
+                  - row [ref=e132]:
+                    - cell [ref=e133]:
+                      - link [ref=e134] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8625418002
+                        - paragraph [ref=e135]: Corporate Finance Manager
+                        - paragraph [ref=e136]: Remote, USA
+            - generic [ref=e137]:
+              - heading "Marketing" [level=3] [ref=e138]
+              - table [ref=e140]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=e141]:
+                      - paragraph [ref=e142]: Job
+                - rowgroup [ref=e143]:
+                  - row [ref=e144]:
+                    - cell [ref=e145]:
+                      - link [ref=e146] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8748815002
+                        - paragraph [ref=e147]: Director, Marketing Planning and Operations
+                        - paragraph [ref=e148]: Remote, USA
+                  - row [ref=e149]:
+                    - cell [ref=e150]:
+                      - link [ref=e151] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8722357002
+                        - paragraph [ref=e152]: SEO/ASO Manager
+                        - paragraph [ref=e153]: Remote, USA
+            - generic [ref=e154]:
+              - heading "Product" [level=3] [ref=e155]
+              - table [ref=e157]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=e158]:
+                      - paragraph [ref=e159]: Job
+                - rowgroup [ref=e160]:
+                  - row [ref=e161]:
+                    - cell [ref=e162]:
+                      - link [ref=e163] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8687440002
+                        - paragraph [ref=e164]: Director of Product, Subscriber Value
+                        - paragraph [ref=e165]: Remote, USA; Remote, Canada
+            - generic [ref=e166]:
+              - paragraph [ref=e168]: Product
+              - heading "Product Management" [level=3] [ref=e169]
+              - table [ref=e171]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=e172]:
+                      - paragraph [ref=e173]: Job
+                - rowgroup [ref=e174]:
+                  - row [ref=e175]:
+                    - cell [ref=e176]:
+                      - link [ref=e177] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8652913002
+                        - paragraph [ref=e178]: Principal Product Manager II, Location Platform & Quality
+                        - paragraph [ref=e179]: Remote, USA
+                  - row [ref=e180]:
+                    - cell [ref=e181]:
+                      - link "Senior Product Manager, Ads Exchange New Remote, USA ; Remote, Canada" [ref=e182] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/life360/jobs/8758183002
+                        - paragraph [ref=e183]:
+                          - text: Senior Product Manager, Ads Exchange
+                          - generic [ref=e184]: New
+                        - paragraph [ref=e186]: Remote, USA ; Remote, Canada
+  - contentinfo [ref=e187]:
+    - generic [ref=e188]:
+      - paragraph [ref=e189]: Powered by
+      - link [ref=e190] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=e191]

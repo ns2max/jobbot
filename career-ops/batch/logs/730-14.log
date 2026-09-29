@@ -1,0 +1,17 @@
+Suno has zero Canada-based roles (all US: Boston/NYC/SF/LA) — matches profile's hard Canada-only filter, plus this specific job isn't even in the active listing (likely closed/expired). Per `modes/_profile.md` policy this is a hard exclude: no evaluation, no report, no PDF, no tracker line.
+
+```json
+{
+  "status": "failed",
+  "id": "14",
+  "report_num": "730",
+  "company": "Suno",
+  "role": "unknown (job not in active listing)",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude per profile Canada-only policy: Suno has no Canada-based roles (all listings US: Boston/NYC/SF/LA). Also, job ID 4bf71557-1cb1-4722-88ec-e401adc0b75a not present in current Ashby job board listing — likely closed. Not evaluated per _profile.md location scope rule."
+}
+```
+
+No report/PDF/tracker written. Skip logged.

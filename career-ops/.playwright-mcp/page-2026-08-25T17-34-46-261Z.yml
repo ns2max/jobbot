@@ -1,0 +1,298 @@
+- generic [active] [ref=f135e1]:
+  - main [ref=f135e2]:
+    - generic [ref=f135e3]:
+      - generic [ref=f135e4]:
+        - link "Back to jobs" [ref=f135e5] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/scaleai
+        - generic [ref=f135e9]:
+          - generic [ref=f135e10]:
+            - heading "Senior Manager, Research Scientist" [level=1] [ref=f135e11]
+            - generic [ref=f135e12]: San Francisco, CA; New York, NY
+          - button "Apply" [ref=f135e16] [cursor=pointer]
+        - generic [ref=f135e17]:
+          - generic [ref=f135e18]:
+            - paragraph [ref=f135e19]: Scale AI accelerates the development of AI systems by providing the data, infrastructure, and tooling that power the most advanced models in the world. Our teams operate at the intersection of cutting-edge research, large-scale engineering, and real-world deployment, partnering with leading frontier labs, enterprises, and government agencies to push Generative AI into new capabilities and applications.
+            - paragraph [ref=f135e20]: As AI rapidly evolves from static models to dynamic, agentic systems, Scale is building the foundational research, evaluation methodologies, and agent/RL infrastructure that will define this next era. You’ll join a high-impact research organization driving advances in large-language models, post-training, evaluation, and agentic/RL environments, helping shape how next-generation AI is built, measured, and deployed.
+            - paragraph [ref=f135e21]: As a Research Scientist Manager, you will lead a world-class team of research scientists and engineers, define the research roadmap, and drive execution from early prototyping to deployment. You’ll thrive in a fast-moving environment, balancing deep technical leadership with people management, vision setting, and delivery.
+            - heading [level=3] [ref=f135e22]:
+              - strong [ref=f135e23]: "You will:"
+            - list [ref=f135e24]:
+              - listitem [ref=f135e25]: Lead, mentor and grow a team of research scientists and engineers working on GenAI research initiatives (e.g., evaluation, post-training, agents, RL environments).
+              - listitem [ref=f135e26]: "Define and drive a multi-year research roadmap: identify key scientific questions, set milestones, allocate resources, and ensure rigorous execution."
+              - listitem [ref=f135e27]: Collaborate cross-functionally with engineering, product, client-facing teams and external academic or industry partners to translate research into components, insights, and actionable outcomes.
+              - listitem [ref=f135e28]: "Communicate compellingly: publish research, present at conferences, engage in open-source contributions, and represent the team externally."
+              - listitem [ref=f135e29]: "Drive an inclusive, high-performing culture: help your team through technical challenges, provide growth opportunities, and attract top talent."
+              - listitem [ref=f135e30]: Stay deeply connected to the research community, understanding major trends, and helping set them.
+              - listitem [ref=f135e31]: Thrive in a high-energy, fast-paced startup environment and are ready to dedicate the time and effort needed to drive impactful results.
+            - heading [level=3] [ref=f135e32]:
+              - strong [ref=f135e33]: "Ideally you'd have:"
+            - list [ref=f135e34]:
+              - listitem [ref=f135e35]: 5+ years of hands-on research experience (PhD or equivalent preferred) in machine learning, deep learning, generative models, agent/rl systems or related domains.
+              - listitem [ref=f135e36]: A strong track record of research excellence, including publications in top-tier ML/AI venues (NeurIPS, ICML, ICLR, ACL, etc.).
+              - listitem [ref=f135e37]: Experience and track of recording in landing major research impacts in a fast-paced environment
+              - listitem [ref=f135e38]: Experience leading or managing research teams. You’re excited to mentor, coach and develop talent.
+              - listitem [ref=f135e39]: Excellent written and verbal communication skills. You are able to articulate research ideas and outcomes to both technical and non-technical stakeholders.
+          - generic [ref=f135e41]:
+            - paragraph [ref=f135e45]:
+              - emphasis [ref=f135e46]: "Compensation packages at Scale for eligible roles include base salary, equity, and benefits. The range displayed on each job posting reflects the minimum and maximum target for new hire salaries for the position and may be inclusive of several career levels at Scale; it will be determined during the interview process based on work location and additional factors, including job-related skills, experience, qualifications, interview performance, and relevant education or training. Scale employees in eligible roles are also granted equity based compensation, subject to Board of Director approval. Your recruiter can share more about the specific salary range for your preferred location during the hiring process, and confirm whether the hired role will be eligible for equity grant. You'll also receive benefits including, but not limited to: comprehensive health, dental and vision coverage, retirement benefits, a learning and development stipend, and generous PTO. Additionally, this role may be eligible for additional benefits such as a commuter stipend."
+            - paragraph [ref=f135e47]: "Please reference the job posting's subtitle for where this position will be located. For pay transparency purposes, the base salary range for this full-time position in the locations of San Francisco, New York, Seattle is:"
+            - paragraph [ref=f135e48]: $290,400 - $363,000 USD
+          - generic [ref=f135e49]:
+            - paragraph [ref=f135e50]:
+              - strong [ref=f135e51]:
+                - emphasis [ref=f135e52]: "PLEASE NOTE:"
+              - emphasis [ref=f135e53]: Our policy requires a 90-day waiting period before reconsidering candidates for the same role. This allows us to ensure a fair and thorough evaluation of all applicants.
+            - paragraph [ref=f135e54]:
+              - strong [ref=f135e55]: "About Us:"
+            - paragraph [ref=f135e56]:
+              - emphasis [ref=f135e57]: At Scale, our mission is to develop reliable AI systems for the world's most important decisions. Our products provide the high-quality data and full-stack technologies that power the world's leading models, and help enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta,
+              - emphasis [ref=f135e58]: Ernst
+              - emphasis [ref=f135e59]
+              - emphasis [ref=f135e60]: "&"
+              - emphasis [ref=f135e61]: Young, Mayo Clinic, Time Inc., the Government of Qatar, and U.S. government agencies including the Army and Air Force. We are expanding our team to accelerate the development of AI applications.
+            - paragraph [ref=f135e62]:
+              - emphasis [ref=f135e63]: We believe that everyone should be able to bring their whole selves to work, which is why we are proud to be an inclusive and equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability status, gender identity or Veteran status.
+            - paragraph [ref=f135e64]:
+              - emphasis [ref=f135e65]: We are committed to working with and providing reasonable accommodations to applicants with physical and mental disabilities. If you need assistance and/or a reasonable accommodation in the application or recruiting process due to a disability, please contact us at accommodations@scale.com. Please see the United States Department of Labor's
+              - link [ref=f135e66] [cursor=pointer]:
+                - /url: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf
+                - emphasis [ref=f135e67]: Know Your Rights poster
+              - emphasis [ref=f135e68]: for additional information.
+            - paragraph [ref=f135e69]:
+              - emphasis [ref=f135e70]: We comply with the United States Department of Labor's
+              - emphasis [ref=f135e71]: Pay Transparency provision
+              - emphasis [ref=f135e72]: .
+            - paragraph [ref=f135e73]:
+              - emphasis [ref=f135e74]:
+                - strong [ref=f135e75]: "PLEASE NOTE:"
+                - text: We collect, retain and use personal data for our professional business purposes, including notifying you of job opportunities that may be of interest and sharing with our affiliates. We limit the personal data we collect to that which we believe is appropriate and necessary to manage applicants’ needs, provide our services, and comply with applicable laws. Any information we collect in connection with your application will be treated in accordance with our internal policies and programs designed to protect personal data. Please see our
+                - link "privacy policy" [ref=f135e76] [cursor=pointer]:
+                  - /url: https://scale.com/legal/privacy
+                - text: for additional information.
+        - generic [ref=f135e80]:
+          - paragraph [ref=f135e81]: Create a Job Alert
+          - paragraph [ref=f135e82]: Interested in building your career at Scale AI? Get future opportunities sent straight to your email.
+          - button "Create alert" [ref=f135e83] [cursor=pointer]
+      - separator [ref=f135e84]
+      - generic [ref=f135e85]:
+        - generic [ref=f135e86]:
+          - generic [ref=f135e87]:
+            - heading "Apply for this job" [level=2] [ref=f135e89]
+            - generic [ref=f135e90]:
+              - paragraph [ref=f135e92]: "*"
+              - paragraph [ref=f135e93]: indicates a required field
+          - button "Autofill my application" [ref=f135e96] [cursor=pointer]
+        - generic [ref=f135e97]:
+          - generic [ref=f135e98]:
+            - generic [ref=f135e101]:
+              - generic [ref=f135e102]: First Name*
+              - textbox "First Name" [ref=f135e103]
+            - generic [ref=f135e106]:
+              - generic [ref=f135e107]: Last Name*
+              - textbox "Last Name" [ref=f135e108]
+            - generic [ref=f135e111]:
+              - generic [ref=f135e112]: Email*
+              - textbox "Email" [ref=f135e113]
+            - group "Phone" [ref=f135e115]:
+              - generic [ref=f135e119]:
+                - generic [ref=f135e120]: Country*
+                - generic [ref=f135e121]:
+                  - log [ref=f135e123]
+                  - generic [ref=f135e125]:
+                    - combobox "Country" [ref=f135e128]
+                    - button "Toggle flyout" [ref=f135e130] [cursor=pointer]
+                  - textbox
+              - generic [ref=f135e135]:
+                - generic [ref=f135e136]: Phone*
+                - textbox "Phone" [ref=f135e138]
+            - generic [ref=f135e139]:
+              - generic [ref=f135e141]:
+                - generic [ref=f135e142]: Location (City)*
+                - generic [ref=f135e143]:
+                  - log [ref=f135e145]
+                  - combobox "Location (City)" [ref=f135e150]
+                  - textbox
+              - button "Locate me" [ref=f135e151] [cursor=pointer]
+            - group "Resume/CV" [ref=f135e153]:
+              - generic [ref=f135e156]:
+                - generic [ref=f135e158]:
+                  - button "Attach" [ref=f135e159] [cursor=pointer]
+                  - generic [ref=f135e160]: Attach
+                  - button "Attach" [ref=f135e161]
+                - button "Dropbox" [ref=f135e163] [cursor=pointer]
+                - button "Google Drive" [ref=f135e165] [cursor=pointer]
+                - generic [ref=f135e167]:
+                  - button "Enter manually" [ref=f135e168] [cursor=pointer]
+                  - generic [ref=f135e169]: Enter manually
+                - paragraph [ref=f135e170]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f135e172]:
+              - generic [ref=f135e175]:
+                - generic [ref=f135e177]:
+                  - button "Attach" [ref=f135e178] [cursor=pointer]
+                  - generic [ref=f135e179]: Attach
+                  - button "Attach" [ref=f135e180]
+                - button "Dropbox" [ref=f135e182] [cursor=pointer]
+                - button "Google Drive" [ref=f135e184] [cursor=pointer]
+                - generic [ref=f135e186]:
+                  - button "Enter manually" [ref=f135e187] [cursor=pointer]
+                  - generic [ref=f135e188]: Enter manually
+                - paragraph [ref=f135e189]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f135e190]:
+            - separator [ref=f135e191]
+            - generic [ref=f135e194]:
+              - generic [ref=f135e195]: LinkedIn Profile
+              - textbox "LinkedIn Profile" [ref=f135e196]
+            - generic [ref=f135e199]:
+              - generic [ref=f135e200]: Website
+              - textbox "Website" [ref=f135e201]
+            - generic [ref=f135e204]:
+              - generic [ref=f135e205]: Are you open to working in person in our San Francisco or New York office 3 times a week?
+              - generic [ref=f135e206]:
+                - log [ref=f135e208]
+                - generic [ref=f135e210]:
+                  - generic [ref=f135e211]:
+                    - generic [ref=f135e212]: Select...
+                    - combobox "Are you open to working in person in our San Francisco or New York office 3 times a week?" [ref=f135e214]
+                  - button "Toggle flyout" [ref=f135e216] [cursor=pointer]
+            - generic [ref=f135e221]:
+              - generic [ref=f135e222]: Are you currently bound by any agreements with a current or former employer that may restrict your ability to work for Scale AI or perform the duties of the position for which you are applying? This includes, but is not limited to, non-compete agreements, non-solicitation agreements, confidentiality or non-disclosure agreements, or any other contractual obligations that could limit your employment activities.*
+              - generic [ref=f135e223]:
+                - log [ref=f135e225]
+                - generic [ref=f135e227]:
+                  - generic [ref=f135e228]:
+                    - generic [ref=f135e229]: Select...
+                    - combobox "Are you currently bound by any agreements with a current or former employer that may restrict your ability to work for Scale AI or perform the duties of the position for which you are applying? This includes, but is not limited to, non-compete agreements, non-solicitation agreements, confidentiality or non-disclosure agreements, or any other contractual obligations that could limit your employment activities." [ref=f135e231]
+                  - button "Toggle flyout" [ref=f135e233] [cursor=pointer]
+                - textbox
+            - generic [ref=f135e238]:
+              - generic [ref=f135e239]: If yes, please provide further explanation below.
+              - textbox "If yes, please provide further explanation below." [ref=f135e240]
+            - generic [ref=f135e243]:
+              - generic [ref=f135e244]: Are you legally authorized to work in the country where the job is located?*
+              - generic [ref=f135e245]:
+                - log [ref=f135e247]
+                - generic [ref=f135e249]:
+                  - generic [ref=f135e250]:
+                    - generic [ref=f135e251]: Select...
+                    - combobox "Are you legally authorized to work in the country where the job is located?" [ref=f135e253]
+                  - button "Toggle flyout" [ref=f135e255] [cursor=pointer]
+                - textbox
+            - generic [ref=f135e260]:
+              - generic [ref=f135e261]: Will you now or in the future require company sponsorship to retain or extend your work authorization in the country where the job is located?*
+              - generic [ref=f135e262]:
+                - log [ref=f135e264]
+                - generic [ref=f135e266]:
+                  - generic [ref=f135e267]:
+                    - generic [ref=f135e268]: Select...
+                    - combobox "Will you now or in the future require company sponsorship to retain or extend your work authorization in the country where the job is located?" [ref=f135e270]
+                  - button "Toggle flyout" [ref=f135e272] [cursor=pointer]
+                - textbox
+            - generic [ref=f135e277]:
+              - generic [ref=f135e278]: Who is your current or most recent employer?*
+              - textbox "Who is your current or most recent employer?" [ref=f135e279]
+            - generic [ref=f135e282]:
+              - generic [ref=f135e283]: What is your current or more recent job title?*
+              - textbox "What is your current or more recent job title?" [ref=f135e284]
+          - generic [ref=f135e285]:
+            - separator [ref=f135e286]
+            - generic [ref=f135e287]:
+              - heading "Voluntary Self-Identification" [level=2] [ref=f135e288]
+              - paragraph [ref=f135e289]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+              - paragraph [ref=f135e290]: As set forth in Scale AI’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+            - generic [ref=f135e293]:
+              - generic [ref=f135e294]: Gender
+              - generic [ref=f135e295]:
+                - log [ref=f135e297]
+                - generic [ref=f135e299]:
+                  - generic [ref=f135e300]:
+                    - generic [ref=f135e301]: Select...
+                    - combobox "Gender" [ref=f135e303]
+                  - button "Toggle flyout" [ref=f135e305] [cursor=pointer]
+            - generic [ref=f135e308]:
+              - generic [ref=f135e310]:
+                - generic [ref=f135e311]: Are you Hispanic/Latino?
+                - generic [ref=f135e312]:
+                  - log [ref=f135e314]
+                  - generic [ref=f135e316]:
+                    - generic [ref=f135e317]:
+                      - generic [ref=f135e318]: Select...
+                      - combobox "Are you Hispanic/Latino?" [ref=f135e320]
+                    - button "Toggle flyout" [ref=f135e322] [cursor=pointer]
+              - link "Race & Ethnicity Definitions" [ref=f135e325] [cursor=pointer]:
+                - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+            - generic [ref=f135e326]:
+              - paragraph [ref=f135e327]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+              - paragraph [ref=f135e328]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+              - paragraph [ref=f135e329]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+              - paragraph [ref=f135e330]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+              - paragraph [ref=f135e331]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+            - generic [ref=f135e334]:
+              - generic [ref=f135e335]: Veteran Status
+              - generic [ref=f135e336]:
+                - log [ref=f135e338]
+                - generic [ref=f135e340]:
+                  - generic [ref=f135e341]:
+                    - generic [ref=f135e342]: Select...
+                    - combobox "Veteran Status" [ref=f135e344]
+                  - button "Toggle flyout" [ref=f135e346] [cursor=pointer]
+            - separator [ref=f135e349]
+            - generic [ref=f135e350]:
+              - heading "Voluntary Self-Identification of Disability" [level=2] [ref=f135e351]
+              - generic [ref=f135e352]:
+                - generic [ref=f135e353]:
+                  - generic [ref=f135e354]: Form CC-305
+                  - generic [ref=f135e355]: Page 1 of 1
+                - generic [ref=f135e356]:
+                  - generic [ref=f135e357]: OMB Control Number 1250-0005
+                  - generic [ref=f135e358]: Expires 07/31/2029
+              - strong [ref=f135e359]: Why are you being asked to complete this form?
+              - paragraph [ref=f135e360]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+              - paragraph [ref=f135e361]:
+                - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                - link "www.dol.gov/ofccp" [ref=f135e362] [cursor=pointer]:
+                  - /url: https://www.dol.gov/ofccp
+                - text: .
+              - strong [ref=f135e363]: How do you know if you have a disability?
+              - paragraph [ref=f135e364]:
+                - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+                - strong [ref=f135e365]: "Disabilities include, but are not limited to:"
+              - list [ref=f135e366]:
+                - listitem [ref=f135e367]: Alcohol or other substance use disorder (not currently using drugs illegally)
+                - listitem [ref=f135e368]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+                - listitem [ref=f135e369]: Blind or low vision
+                - listitem [ref=f135e370]: Cancer (past or present)
+                - listitem [ref=f135e371]: Cardiovascular or heart disease
+                - listitem [ref=f135e372]: Celiac disease
+                - listitem [ref=f135e373]: Cerebral palsy
+                - listitem [ref=f135e374]: Deaf or serious difficulty hearing
+                - listitem [ref=f135e375]: Diabetes
+                - listitem [ref=f135e376]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+                - listitem [ref=f135e377]: Epilepsy or other seizure disorder
+                - listitem [ref=f135e378]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+                - listitem [ref=f135e379]: Intellectual or developmental disability
+                - listitem [ref=f135e380]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+                - listitem [ref=f135e381]: Missing limbs or partially missing limbs
+                - listitem [ref=f135e382]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+                - listitem [ref=f135e383]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+                - listitem [ref=f135e384]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+                - listitem [ref=f135e385]: Partial or complete paralysis (any cause)
+                - listitem [ref=f135e386]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+                - listitem [ref=f135e387]: Short stature (dwarfism)
+                - listitem [ref=f135e388]: Traumatic brain injury
+            - generic [ref=f135e391]:
+              - generic [ref=f135e392]: Disability Status
+              - generic [ref=f135e393]:
+                - log [ref=f135e395]
+                - generic [ref=f135e397]:
+                  - generic [ref=f135e398]:
+                    - generic [ref=f135e399]: Select...
+                    - combobox "Disability Status" [ref=f135e401]
+                  - button "Toggle flyout" [ref=f135e403] [cursor=pointer]
+            - paragraph [ref=f135e407]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+          - button "Submit application" [ref=f135e409] [cursor=pointer]
+  - contentinfo [ref=f135e410]:
+    - generic [ref=f135e411]:
+      - paragraph [ref=f135e412]: Powered by
+      - link [ref=f135e413] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f135e414]

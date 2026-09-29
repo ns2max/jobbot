@@ -1,0 +1,104 @@
+% Job posting: https://ca.linkedin.com/jobs/view/sr-applied-scientist-silicon-and-systems-group-edge-ai-edge-ai-platform-at-amazon-4455794613
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.04}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{ML Research Engineer | Real-Time \& Edge Inference | Audio, Sensor \& Time-Series}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \cvTagline}\\[1pt]
+    {\footnotesize\textit{\cvStatus}}\\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
+    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+Applied ML researcher who ships inference under real hardware limits, not just in a notebook. Published a real-time audio pattern detector running at 14 ms on a Raspberry Pi 4 (ARM Cortex-class silicon), F1 0.76, 31.4\% CPU utilization, 74x faster than the 1038 ms DTW baseline it replaced (JAES 2026) -- evidence of squeezing accuracy out of a fixed latency and compute envelope. Built MIRaaS, a UDP edge-to-server offload architecture that characterizes latency/compute trade-offs between on-device and server inference (accepted, IEEE IS2 2026), directly germane to edge-platform decisions about what runs on-silicon versus off. Profiled compute and power draw on a self-powered embedded instrument at McGill to validate real-time feasibility under a hard power budget. Five years of production C++/Python systems on embedded and industrial hardware at MAS Holdings precede the PhD. PhD in embedded real-time ML from the University of Trento; comfortable owning a benchmark suite end to end -- design, ablations, negative results included.
+
+\section*{Core Competencies}
+\textbf{Edge AI \& Silicon-Constrained Inference:} ARM CPU and power profiling, embedded Linux deployment, real-time inference under sub-30 ms budgets, model compression / quantization / ONNX / TFLite familiarity, latency-vs-accuracy benchmark design, edge-vs-server offload architecture. \textbf{Applied ML:} time-series and sequence modelling (RNN/LSTM/GRU), DSP feature engineering (STFT, MFCC, S-transform), sensor fusion (audio + IMU), anomaly detection, computer vision. \textbf{Engineering:} C++17 (expert, real-time engines), Python (TensorFlow, Keras, PyTorch, scikit-learn), CI/CD, code review, mentoring.
+
+\section*{Technical Stack}
+C++17, Python, TensorFlow, Keras, PyTorch, scikit-learn, ONNX, TFLite (familiarity), ARM/Raspberry Pi, Elk Audio OS, embedded Linux, OpenCV, SQL, Pandas/NumPy, AWS (EC2, S3, ECS, MWAA, RDS), Docker, Git, CI/CD, pytest.
+
+\section*{Education}
+\noindent\textbf{PhD, Information Engineering and Computer Science} | \textit{University of Trento, Italy}\hfill \textit{2021 - 2025}\par
+\noindent\textbf{MSc, Telecommunication and Electronic Engineering} | \textit{Sheffield Hallam University, UK}\hfill \textit{2016 - 2018}\par
+\noindent\textbf{BEng (Hons), Electronic Engineering} | \textit{Sheffield Hallam University, UK}\hfill \textit{2013 - 2014}\par
+\vspace{0.3em}
+
+\section*{Research and Work Experience}
+
+\begin{cvrole}{Independent Researcher}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+\item Continued independent edge-audio ML research: two papers accepted for publication (Smart Drums, JAES; MIRaaS, IEEE IS2 2026).
+\item Maintain Nebula, an open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks (13 GitHub stars).
+\item Kept hands-on with modern AI-assisted engineering workflows, including Claude Code, for rapid prototyping and tooling.
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+\item Owned the full ML pipeline for streaming audio + IMU/gesture data -- acquisition, DSP/feature engineering, training/eval, edge deployment (Raspberry Pi 4, Elk Audio OS), and monitoring -- on the EU Horizon EIC Pathfinder project MUSMET.
+\item Published a real-time pattern detector at 14 ms inference on Raspberry Pi 4, F1 0.76, 31.4\% CPU, 74x faster than the 1038 ms DTW baseline it replaced (JAES 2026).
+\item Designed frozen-protocol benchmark suites and ablations quantifying accuracy/latency/CPU trade-offs, with a written record of negative results.
+\item Architected MIRaaS, a UDP edge-to-server offload system characterizing latency and compute trade-offs between on-device and server-side inference (accepted, IEEE IS2 2026).
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University (IDMIL / CIRMMT)}{Montreal, Canada}{May 2024}{Aug 2024}
+\item Built a self-powered smart electric guitar (BNO055 IMU + HiFiBerry + Raspberry Pi 4).
+\item Fused IMU and audio gesture streams via a hierarchical FSM, F1 0.78 on a 500-event corpus (IEEE IS2 2025).
+\item Profiled compute and power draw to validate real-time feasibility on self-powered embedded hardware under a hard power budget.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+\item Ran a human-centred evaluation of musicians' perception of smart instruments with embedded pattern detection (IEEE I3DA 2025).
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+\item Built ML and statistical pipelines for financial forensics, compliance monitoring, and risk detection over large structured enterprise data.
+\item Delivered SQL + Python backend scoring services for anomaly flagging.
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+\item Delivered end-to-end computer-vision and IoT systems for manufacturing at scale over 5.5 years, lifting operational efficiency up to +300\%.
+\item Automated multilingual care-label QC (OpenCV, conveyor + PLC reject integration), cutting inspection time by 99.5\%.
+\item Built real-time IoT ETL and C++/Python inference on embedded production hardware; introduced CI/CD and code review; mentored engineers.
+\end{cvrole}
+
+\section*{Publications}
+Silva, N. \& Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. \textit{J. Audio Eng. Soc.} 74(3). Silva, N. \& Turchet, L. (2026, in press). Smart Drums: Comparing Audio and MIDI in Embedded Real-Time Drum Pattern Recognition. \textit{J. Audio Eng. Soc.} Silva, N. \& Turchet, L. (2026, accepted). MIRaaS: Latency Characterization of an Edge-to-Server Architecture. \textit{IEEE IS2}. Silva, N., Wanderley, M. \& Turchet, L. (2025). Melody and Motion. \textit{IEEE IS2}.
+
+\section*{Highlights}
+MIDI Innovation Awards 2023 Finalist (``Hot Licks,'' Prototypes \& Non-Commercial Software; covered by Sound On Sound and MusicRadar). GMOA recognition (Government Medical Officers' Association, Sri Lanka, 2020) for a COVID-19 remote vitals-monitoring CV deployment. Peer reviewer for IEEE Access and JNSF Sri Lanka; programme committee member for IEEE IS2 and IEEE I3DA; supervised two BSc students.
+
+\end{document}

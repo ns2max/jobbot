@@ -1,0 +1,14 @@
+- main [ref=f812e1]:
+  - region
+  - dialog "Privacy" [ref=f812e7]:
+    - generic [ref=f812e8]:
+      - generic [ref=f812e10]:
+        - text: Our site uses cookies and similar technologies to remember your visit, collect statistics of visits and tailor our site to your interests. They also enable to offer tailored advertising and to link to social networks. For more information or to set your cookie preferences, you may at any time use our tool « Cookie Preferences » at the bottom of our site.
+        - link "Cookie Privacy Statement Information, opens in a new tab" [ref=f812e11] [cursor=pointer]:
+          - /url: https://www.adp.com/about-adp/data-privacy/wfn-recruitment-cookie-privacy-statement.aspx
+          - text: Cookie Privacy Statement
+      - generic [ref=f812e13]:
+        - button "Set your preferences, Opens the preference center dialog" [ref=f812e14] [cursor=pointer]: Set your preferences
+        - generic [ref=f812e15]:
+          - button "Deny" [ref=f812e16] [cursor=pointer]
+          - button "Agree and proceed" [ref=f812e17] [cursor=pointer]

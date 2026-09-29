@@ -1,0 +1,17 @@
+xAI role location: Tokyo, Japan. Profile hard rule (`modes/_profile.md`): Canada-only scope, non-Canadian roles = hard exclude, no eval no score no CV. Stop here.
+
+No report generated. No PDF/CV. No tracker line (nothing to evaluate).
+
+```json
+{
+  "status": "failed",
+  "id": "46",
+  "report_num": "901",
+  "company": "xAI",
+  "role": "Member of Technical Staff - X Money",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role location is Tokyo, Japan. Candidate location policy (modes/_profile.md) restricts to Canada-only roles — non-Canadian postings are filtered before evaluation, not scored."
+}
+```

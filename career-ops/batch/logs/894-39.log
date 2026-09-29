@@ -1,0 +1,17 @@
+Role location: London, UK. Profile hard filter (`modes/_profile.md`): Canada-only scope, non-Canadian roles = hard exclude — **no evaluate, no score, no report, no CV**. This applies here. Stopping pipeline.
+
+No report/PDF/tracker generated per policy — role is a hard exclude, not a scored SKIP.
+
+```json
+{
+  "status": "skipped",
+  "id": "39",
+  "report_num": "894",
+  "company": "Anthropic",
+  "role": "Research Engineer, RL Scaling Science",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role location is London, UK — outside Canada-only scope per modes/_profile.md location policy (2026-08-20). Not evaluated, scored, or reported per explicit filter rule."
+}
+```

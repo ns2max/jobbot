@@ -1,0 +1,142 @@
+- generic [ref=f380e2]:
+  - list [ref=f380e4]:
+    - listitem [ref=f380e5]:
+      - link [ref=f380e6] [cursor=pointer]:
+        - /url: https://cohere.com/
+        - img "Cohere" [ref=f380e7]
+    - listitem [ref=f380e8]:
+      - link "Back to Cohere’s Job Listings" [ref=f380e9] [cursor=pointer]:
+        - /url: /cohere
+    - listitem
+  - generic [ref=f380e12]:
+    - heading "Senior Member of Technical Staff, Web Data" [level=1] [ref=f380e14]
+    - generic [ref=f380e15]:
+      - generic [ref=f380e16]:
+        - generic [ref=f380e17]:
+          - heading "Location" [level=2] [ref=f380e18]
+          - paragraph [ref=f380e19]: Toronto; Europe; London; New York
+        - generic [ref=f380e20]:
+          - heading "Employment Type" [level=2] [ref=f380e21]
+          - paragraph [ref=f380e22]: Full time
+        - generic [ref=f380e23]:
+          - heading "Location Type" [level=2] [ref=f380e24]
+          - paragraph [ref=f380e25]: Remote
+        - generic [ref=f380e26]:
+          - heading "Department" [level=2] [ref=f380e27]
+          - paragraph [ref=f380e28]:
+            - generic [ref=f380e29]: Modeling
+      - generic [ref=f380e30]:
+        - tablist [ref=f380e31]:
+          - tab "Overview" [selected] [ref=f380e32] [cursor=pointer]
+          - tab "Application" [ref=f380e33] [cursor=pointer]
+        - tabpanel "Overview" [ref=f380e35]:
+          - generic [ref=f380e36]:
+            - paragraph [ref=f380e37]:
+              - strong [ref=f380e38]: Who are we?
+            - paragraph [ref=f380e39]: Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems.
+            - paragraph [ref=f380e40]: We’re training and deploying frontier models for enterprises who are building AI systems. We believe that our work is instrumental to the widespread adoption of AI and we are looking for folks that want to be part of that.
+            - paragraph [ref=f380e41]: We obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. Cohere is a team of researchers, engineers, designers, and more, who are all passionate about their craft.
+            - paragraph [ref=f380e42]: We are a global technology company headquartered in Toronto with key offices in London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul. Join us!
+            - paragraph [ref=f380e43]: As a Senior Member of Technical Staff specializing in web data for pre-training, you will play a pivotal role in developing the large scale web data pipeline that underpins Cohere’s advanced language models. In this role, you will work extensively with large-scale web corpora, transforming raw, noisy internet data into high-quality training data for pretraining. You will own key components of the data pipeline, including extraction, parsing, deduplication, and filtering. You will also analyze the composition and quality of web data, study its impact on downstream model performance, and collaborate closely with the broader data and evaluation teams to iterate on the training corpus.
+            - paragraph [ref=f380e44]: Your work will be essential to Cohere’s mission of delivering efficient and reliable language understanding and generation capabilities, driving innovation in natural language processing. If you are passionate about transforming data into the foundation of AI systems, this role offers a unique opportunity to make a meaningful impact.
+            - paragraph [ref=f380e45]:
+              - emphasis [ref=f380e46]: "Please Note: We have offices in London, Paris, Toronto, San Francisco and New York but also embrace being remote-friendly! There are no restrictions on where you can be located for this role. (EST/EU)"
+            - paragraph [ref=f380e47]:
+              - strong [ref=f380e48]: "As a Senior Member of Technical Staff, Web Data, you will:"
+            - list [ref=f380e49]:
+              - listitem [ref=f380e50]:
+                - paragraph [ref=f380e51]: Maintain large-scale pipelines for processing web corpora.
+              - listitem [ref=f380e52]:
+                - paragraph [ref=f380e53]: Work on filtering and quality-scoring systems to identify high-value web documents.
+              - listitem [ref=f380e54]:
+                - paragraph [ref=f380e55]: Analyze web data composition across domains, languages and time periods.
+              - listitem [ref=f380e56]:
+                - paragraph [ref=f380e57]: Develop and maintain highly-performant deduplication pipelines.
+              - listitem [ref=f380e58]:
+                - paragraph [ref=f380e59]: Collaborate with cross-functional teams, including researchers and engineers, to ensure data pipelines meet the demands of cutting-edge language models.
+            - paragraph [ref=f380e60]:
+              - strong [ref=f380e61]: "You may be a good fit if you have:"
+            - list [ref=f380e62]:
+              - listitem [ref=f380e63]:
+                - paragraph [ref=f380e64]: Strong software engineering skills, with proficiency in Python and experience building data pipelines.
+              - listitem [ref=f380e65]:
+                - paragraph [ref=f380e66]: Familiarity with data processing frameworks such as Apache Spark, Apache Beam, Pandas, or similar tools.
+              - listitem [ref=f380e67]:
+                - paragraph [ref=f380e68]: Experience working with large-scale web datasets.
+              - listitem [ref=f380e69]:
+                - paragraph [ref=f380e70]: Knowledge of data quality assessment techniques and experimentation with data mixtures.
+              - listitem [ref=f380e71]:
+                - paragraph [ref=f380e72]: A passion for bridging research and engineering to solve complex data-related challenges in AI model training.
+            - paragraph [ref=f380e73]:
+              - emphasis [ref=f380e74]: Bonus
+              - text: ": paper at top-tier venues (such as NeurIPS, ICML, ICLR, AIStats, MLSys, JMLR, AAAI, Nature, COLING, ACL, EMNLP)."
+            - paragraph [ref=f380e75]: If some of the above doesn’t line up perfectly with your experience, we still encourage you to apply!
+            - paragraph [ref=f380e76]:
+              - text: We value and celebrate diversity and strive to create an inclusive work environment for all. We welcome applicants from all backgrounds and are committed to providing equal opportunities. Should you require any accommodations during the recruitment process, please submit an
+              - link "Accommodations Request Form" [ref=f380e77] [cursor=pointer]:
+                - /url: https://docs.google.com/forms/d/12a6IrLdF3kI2nonKSr4tiFuz18rLQbaeYV-JM9L4o9Q/edit
+              - text: ", and we will work together to meet your needs."
+            - paragraph [ref=f380e78]
+            - heading [level=2] [ref=f380e79]:
+              - strong [ref=f380e80]: "Full-Time Employees at Cohere enjoy these Perks:"
+            - list [ref=f380e81]:
+              - listitem [ref=f380e82]:
+                - paragraph [ref=f380e83]: A weekly lunch stipend of $75/£75 or equivalent in your local currency for lunch.
+              - listitem [ref=f380e84]:
+                - paragraph [ref=f380e85]: Full health and dental benefits, including a separate budget for mental health.
+              - listitem [ref=f380e86]:
+                - paragraph [ref=f380e87]: RRSP matching, 401K, Pension Scheme.
+              - listitem [ref=f380e88]:
+                - paragraph [ref=f380e89]: 100% Parental Leave top-up for up to 6 months, for either parent.
+              - listitem [ref=f380e90]:
+                - paragraph [ref=f380e91]: "Annual enrichment benefits:"
+                - paragraph [ref=f380e92]: Arts & culture, fitness/wellness, quality time, and a workspace improvement credit.
+                - paragraph [ref=f380e93]: Education & learning stipend for conferences, courses, and coaching.
+            - list [ref=f380e94]:
+              - listitem [ref=f380e95]:
+                - paragraph [ref=f380e96]: 6 weeks of paid vacation (30 working days!)
+              - listitem [ref=f380e97]:
+                - paragraph [ref=f380e98]: Budget for traveling to other offices if you are remote, plus an annual company offsite.
+            - paragraph [ref=f380e99]
+            - heading [level=2] [ref=f380e100]:
+              - strong [ref=f380e101]: "How and Where We Work:"
+            - list [ref=f380e102]:
+              - listitem [ref=f380e103]:
+                - paragraph [ref=f380e104]: Cohere is remote-friendly, but we also have offices in Toronto, London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul with more opening soon.
+              - listitem [ref=f380e105]:
+                - paragraph [ref=f380e106]: "For those in the office: a daily lunch program, plenty of snacks, and regular community and social events."
+              - listitem [ref=f380e107]:
+                - paragraph [ref=f380e108]: "For those not near an office: a co-working benefit so you can work alongside others in your city."
+              - listitem [ref=f380e109]:
+                - paragraph [ref=f380e110]: Everyone receives a $500 home office stipend to set up your workspace properly.
+                - paragraph [ref=f380e111]
+            - paragraph [ref=f380e112]: If any of the above doesn’t line up exactly with your experience, we still encourage you to apply.
+            - paragraph [ref=f380e113]:
+              - text: We strive to create an inclusive work environment for all; we welcome applicants from all backgrounds and are committed to providing equal opportunities. Should you require any accommodations during the recruitment process, please submit an
+              - link "Accommodations Request Form" [ref=f380e114] [cursor=pointer]:
+                - /url: https://docs.google.com/forms/d/12a6IrLdF3kI2nonKSr4tiFuz18rLQbaeYV-JM9L4o9Q/edit
+              - text: ", and we will work together to meet your needs."
+            - paragraph [ref=f380e115]
+            - paragraph [ref=f380e116]: We may use AI-enabled tools to screen and assess applicants against the criteria for this position. This helps our recruiters identify potentially qualified candidates, but it doesn't limit the applications our recruiters may review or consider.
+            - paragraph [ref=f380e117]
+            - paragraph [ref=f380e118]:
+              - emphasis [ref=f380e119]: "Beware of Scams: Cohere will never ask for payment or third-party services (e.g., CV writing) as part of our hiring process. All legitimate roles are listed on the Cohere careers page and LinkedIn only, with all communications from Cohere employees coming from an @cohere.com or @cw.cohere email alias. If jobs are viewed on other sites then please verify these through our"
+              - link [ref=f380e120] [cursor=pointer]:
+                - /url: https://cohere.com/careers
+                - emphasis [ref=f380e121]: official careers
+              - emphasis [ref=f380e122]: page.
+          - link [ref=f380e123] [cursor=pointer]:
+            - /url: /cohere/82ec1512-5bc3-49dd-b995-b6abc2a958d7/application
+            - button "Apply for this Job" [ref=f380e124]
+  - contentinfo [ref=f380e125]:
+    - link "Learn more about Ashby" [ref=f380e126] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f380e127]: Powered by
+      - img "Ashby" [ref=f380e128]
+    - paragraph [ref=f380e134]:
+      - link "Privacy Policy" [ref=f380e135] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f380e136] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f380e137] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

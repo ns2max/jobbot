@@ -1,0 +1,326 @@
+- generic [active] [ref=f835e1]:
+  - link "Skip to content" [ref=f835e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=f835e3]:
+    - banner [ref=f835e4]:
+      - generic [ref=f835e7]:
+        - figure [ref=f835e8]:
+          - link [ref=f835e9] [cursor=pointer]:
+            - /url: https://employmenthero.com/en-ca/
+            - img "Employment Hero Canada" [ref=f835e10]
+        - generic [ref=f835e12]:
+          - generic [ref=f835e13] [cursor=pointer]
+          - generic [ref=f835e17]:
+            - generic [ref=f835e18] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - link "Employee Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Business HR Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Business Payroll Login":
+                      - /url: https://employmenthero.yourpayroll.com.au/
+                - generic:
+                  - generic:
+                    - link "Business Recruitment Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Jobseeker Login (Jobs Board)":
+                      - /url: https://jobs.employmenthero.com/AU/sign_in?callbackUrl=https%3A%2F%2Fjobs.employmenthero.com%2FAU%2F
+                - generic:
+                  - generic:
+                    - link "Humi by Employment Hero Login":
+                      - /url: https://hr.humi.ca/login
+          - img "Group" [ref=f835e25] [cursor=pointer]
+    - generic [ref=f835e34]:
+      - generic [ref=f835e35]:
+        - button "Share" [ref=f835e36] [cursor=pointer]
+        - button "Report this job" [ref=f835e41] [cursor=pointer]
+        - button "Refer a friend" [ref=f835e42] [cursor=pointer]
+      - navigation "breadcrumb" [ref=f835e44]:
+        - list [ref=f835e45]:
+          - listitem [ref=f835e46]:
+            - link "Jobs" [ref=f835e47] [cursor=pointer]:
+              - /url: https://employmenthero.com/en-ca/jobs/
+          - listitem [ref=f835e49]:
+            - link "Science & Research" [ref=f835e50] [cursor=pointer]:
+              - /url: https://employmenthero.com/en-ca/jobs/science-research/
+          - listitem [ref=f835e52]:
+            - 'link "Machine Learning Resident – Client: Qualisure (12 month term)"':
+              - /url: https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-resident-client-qualisure-12-month-term-4gmqb/
+    - generic [ref=f835e55]:
+      - 'heading "Machine Learning Resident – Client: Qualisure (12 month term)" [level=1] [ref=f835e56]'
+      - generic [ref=f835e58]:
+        - text: at
+        - link "Alberta Machine Intelligence Institute" [ref=f835e59] [cursor=pointer]:
+          - /url: https://employmenthero.com/en-ca/jobs/organisations/alberta-machine-intelligence-institute/
+      - generic [ref=f835e60]:
+        - link "Edmonton, Alberta" [ref=f835e61] [cursor=pointer]:
+          - /url: https://employmenthero.com/en-ca/jobs/edmonton/
+        - text: ", Canada • Full-time"
+    - main [ref=f835e62]:
+      - generic [ref=f835e63]:
+        - generic [ref=f835e64]:
+          - generic [ref=f835e65]:
+            - generic [ref=f835e71]: AI Job Summary
+            - button "About AI Job Summary" [ref=f835e72] [cursor=pointer]
+          - list [ref=f835e78]:
+            - listitem [ref=f835e79]: • Completion of a graduate program (M.Sc/Ph.D) in CS, Bioinformatics, Computational Biology or related fields.
+            - listitem [ref=f835e80]: • Proficient in Python and related libraries/toolkits.
+            - listitem [ref=f835e81]: • Must be legally eligible to work in Canada.
+          - button "Sign up or log in to analyse my fit" [ref=f835e83] [cursor=pointer]
+        - generic [ref=f835e88]:
+          - heading "Role Type" [level=3] [ref=f835e89]
+          - generic [ref=f835e90]: Contract • Full-time • Entry Level
+        - generic [ref=f835e91]:
+          - heading "Description" [level=3] [ref=f835e92]
+          - generic [ref=f835e93]:
+            - paragraph [ref=f835e94]:
+              - emphasis [ref=f835e95]: “If you are looking to develop a transcriptomic-based ML model for precision oncology, this is a great opportunity. Join a team of ML scientists and domain experts to leverage molecular diagnostics for personalized patient care.”
+            - paragraph [ref=f835e96]: – Anjana Puliyanda, Machine Learning Scientist
+            - heading [level=2] [ref=f835e97]:
+              - strong [ref=f835e98]: About the Role
+            - paragraph [ref=f835e99]: This is a paid residency that will be undertaken over a twelve-month period with the potential to be hired by our client afterwards. The Resident will be reporting to an Amii Scientist and regularly consult with the Client team to share insights and engage in knowledge transfer activities.
+            - heading [level=2] [ref=f835e100]:
+              - strong [ref=f835e101]: About our Client
+            - paragraph [ref=f835e102]: Qualisure Diagnostics is a Calgary-based precision oncology company redefining how molecular diagnostics are developed, deployed, and scaled. Founded by clinician-scientists and engineers, it sits at the intersection of cancer biology, artificial intelligence, and health system implementation, with a mission to advance diagnostic biomarkers for personalized patient care across the world. We encourage you to visit their website to learn more (https://qualisuredx.com/).
+            - heading [level=2] [ref=f835e103]:
+              - strong [ref=f835e104]: About the Project
+            - paragraph [ref=f835e105]:
+              - text: As the ML Resident on this project, you’ll build a proof-of-concept foundation model for bulk RNA sequencing data that produces stable, biologically faithful representations which stay invariant to
+              - emphasis [ref=f835e106]: how
+              - text: the data was generated. The goal is a model where equivalent biology yields equivalent outputs, regardless of the upstream workflow, while preserving the gene–gene relationships, pathway activity, and disease signatures that downstream clinical tasks depend on.
+            - heading [level=2] [ref=f835e107]:
+              - strong [ref=f835e108]: Required Skills / Expertise
+            - paragraph [ref=f835e109]: We are looking for a talented and enthusiastic resident with strong knowledge of machine learning, and working experience in bioinformatics.
+            - heading [level=2] [ref=f835e110]:
+              - strong [ref=f835e111]: "Key responsibilities:"
+            - list [ref=f835e112]:
+              - listitem [ref=f835e113]: Work with large-scale heterogeneous transcriptomic datasets.
+              - listitem [ref=f835e114]: Build, train, and evaluate ML/DL models for contrastive and adversarial tasks.
+              - listitem [ref=f835e115]: Undertake applied research on ML techniques to address the limitations in existing models.
+              - listitem [ref=f835e116]: Translate scientific code into working solutions.
+              - listitem [ref=f835e117]: Collaborate with cross-functional teams to develop minimum viable products (MVPs) and client-centric solutions.
+              - listitem [ref=f835e118]: Engage in regular client meetings, contributing to presentations and reports on project progress.
+              - listitem [ref=f835e119]: Optimize ML pipelines to ensure efficiency, scalability, and real-time processing capabilities.
+            - heading [level=2] [ref=f835e120]:
+              - strong [ref=f835e121]: "Requirements:"
+            - list [ref=f835e122]:
+              - listitem [ref=f835e123]: Completion of a graduate level program (M.Sc/Ph.D) in Computer Science, Bioinformatics, Computational Biology or related fields.
+              - listitem [ref=f835e124]: Research and/or applied project experience in foundation AI models for biology.
+              - listitem [ref=f835e125]: Proficient in Python programming language and related libraries and toolkits.
+              - listitem [ref=f835e126]: Proficient in bash scripting and working with HPC clusters.
+              - listitem [ref=f835e127]: A positive attitude towards learning and understanding a new applied domain.
+              - listitem [ref=f835e128]: Must be legally eligible to work in Canada.
+            - heading [level=2] [ref=f835e129]:
+              - strong [ref=f835e130]: "Assets / Nice to Haves:"
+            - list [ref=f835e131]:
+              - listitem [ref=f835e132]: Experience working with NGS technologies for RNA-seq.
+              - listitem [ref=f835e133]: Publication record in peer-reviewed academic conferences or relevant journals.
+              - listitem [ref=f835e134]: Knowledge and experience in designing experimental frameworks for large datasets.
+            - heading [level=2] [ref=f835e135]:
+              - strong [ref=f835e136]: "Non-technical requirements:"
+            - list [ref=f835e137]:
+              - listitem [ref=f835e138]: Interdisciplinary team player enthusiastic about working together to achieve excellence.
+              - listitem [ref=f835e139]: Capable of critical and independent thought.
+              - listitem [ref=f835e140]: Able to communicate technical concepts clearly and advise on the application of machine learning.
+              - listitem [ref=f835e141]: Intellectual curiosity and the desire to learn new things, techniques, and technologies.
+            - heading [level=2] [ref=f835e142]:
+              - strong [ref=f835e143]: Why You Should Apply
+            - paragraph [ref=f835e144]: "Besides gaining industry experience, additional perks include:"
+            - list [ref=f835e145]:
+              - listitem [ref=f835e146]: Working under the mentorship of an Amii Scientist for the duration of the project.
+              - listitem [ref=f835e147]: Participating in professional development activities.
+              - listitem [ref=f835e148]: Gaining access to the Amii community and events.
+              - listitem [ref=f835e149]: Building your professional network.
+              - listitem [ref=f835e150]: The opportunity for an ongoing machine learning role at the client’s organization at the end of the term (at the client’s discretion)
+            - heading [level=2] [ref=f835e151]:
+              - strong [ref=f835e152]: About Amii
+            - paragraph [ref=f835e153]: One of Canada’s three main institutes for artificial intelligence (AI) and machine learning, our world-renowned researchers drive fundamental and applied research at the University of Alberta (and other academic institutions), training some of the world’s top scientific talent. Our cross-functional teams work collaboratively with Alberta-based businesses and organizations to build AI capacity and translate scientific advancement into industry adoption and economic impact.
+            - heading [level=2] [ref=f835e154]:
+              - strong [ref=f835e155]: How to Apply
+            - paragraph [ref=f835e156]:
+              - text: If this sounds like the opportunity you’ve been waiting for, please don’t wait for the closing August 25, 2026 to apply – we’re excited to add a new member to the Amii team for this role, and the posting may come down sooner than the closing date if we find the right candidate before the posting closes! When sending your application, please send your
+              - strong [ref=f835e157]: resume and cover letter
+              - text: indicating why you think you’d be a fit for Amii. In your cover letter, please include one professional accomplishment you are most proud of and why.
+            - paragraph
+            - paragraph [ref=f835e158]:
+              - strong [ref=f835e159]: Applicants must be legally eligible to work in Canada at the time of application.
+            - paragraph:
+              - strong
+            - paragraph [ref=f835e160]: Amii is an equal opportunity employer and values a diverse workforce. We encourage applications from all qualified individuals without regard to ethnicity, religion, gender identity, sexual orientation, age or disability. Accommodations for disability-related needs throughout the recruitment and selection process are available upon request. Any information provided by you for accommodations will be kept confidential and won’t be used in the selection process.
+    - button "Apply now" [ref=f835e162] [cursor=pointer]
+    - contentinfo [ref=f835e165]:
+      - contentinfo [ref=f835e166]:
+        - generic [ref=f835e167]:
+          - generic [ref=f835e168]:
+            - paragraph [ref=f835e169]:
+              - strong [ref=f835e170]: Company
+            - paragraph [ref=f835e171]:
+              - link "About us" [ref=f835e172] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/about-us/
+            - paragraph [ref=f835e173]:
+              - link "About humi" [ref=f835e174] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/about-humi/
+            - paragraph [ref=f835e175]:
+              - link "Careers" [ref=f835e176] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/careers/
+            - paragraph [ref=f835e177]:
+              - link "Become a partner" [ref=f835e178] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/partner-network/
+            - paragraph [ref=f835e179]:
+              - link "Newsroom" [ref=f835e180] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/news/
+          - generic [ref=f835e181]:
+            - paragraph [ref=f835e182]:
+              - strong [ref=f835e183]: Get in Touch
+            - paragraph [ref=f835e184]:
+              - link "Contact Us" [ref=f835e185] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/contact/
+            - paragraph [ref=f835e186]:
+              - link "Sales" [ref=f835e187] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/request-a-demo/
+            - paragraph [ref=f835e188]:
+              - link "Report a bug" [ref=f835e189] [cursor=pointer]:
+                - /url: mailto:casupport@employmenthero.com
+            - paragraph [ref=f835e190]:
+              - link "HR login" [ref=f835e191] [cursor=pointer]:
+                - /url: https://secure.employmenthero.com/users/sign_in
+          - generic [ref=f835e192]:
+            - paragraph [ref=f835e193]:
+              - strong [ref=f835e194]: Support
+            - paragraph [ref=f835e195]:
+              - link "Help Centre" [ref=f835e196] [cursor=pointer]:
+                - /url: https://help.employmenthero.info/hc/en-ca/
+            - paragraph [ref=f835e197]:
+              - link "Humi by EH Help Centre" [ref=f835e198] [cursor=pointer]:
+                - /url: https://support.humi.ca/hc/en-us
+          - generic [ref=f835e199]:
+            - paragraph [ref=f835e200]:
+              - strong [ref=f835e201]: Pick your region
+            - paragraph [ref=f835e202]:
+              - link "Australia" [ref=f835e203] [cursor=pointer]:
+                - /url: https://employmenthero.com/
+            - paragraph [ref=f835e204]:
+              - link "New Zealand" [ref=f835e205] [cursor=pointer]:
+                - /url: https://employmenthero.com/nz/
+            - paragraph [ref=f835e206]:
+              - link "United Kingdom" [ref=f835e207] [cursor=pointer]:
+                - /url: https://employmenthero.com/uk/
+            - paragraph [ref=f835e208]:
+              - link "Singapore" [ref=f835e209] [cursor=pointer]:
+                - /url: https://employmenthero.com/sg/
+            - paragraph [ref=f835e210]:
+              - link "Malaysia" [ref=f835e211] [cursor=pointer]:
+                - /url: https://employmenthero.com/my/
+            - paragraph [ref=f835e212]:
+              - link "Canada" [ref=f835e213] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/
+          - generic [ref=f835e214]:
+            - paragraph [ref=f835e215]:
+              - strong [ref=f835e216]: Product
+            - paragraph [ref=f835e217]:
+              - link "Products" [ref=f835e218] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/products/
+            - paragraph [ref=f835e219]:
+              - link "Integrations" [ref=f835e220] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/integrations/
+            - paragraph [ref=f835e221]:
+              - link "Quick Demos" [ref=f835e222] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/quick-demos/
+            - paragraph [ref=f835e223]:
+              - link "Employment Hero work app" [ref=f835e224] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/products/work-app/
+          - generic [ref=f835e225]:
+            - paragraph [ref=f835e226]:
+              - strong [ref=f835e227]: Connect
+            - list [ref=f835e228]:
+              - listitem [ref=f835e229]:
+                - link "LinkedIn" [ref=f835e230] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/employment-hero/%20
+              - listitem [ref=f835e233]:
+                - link "X" [ref=f835e234] [cursor=pointer]:
+                  - /url: https://x.com/EmploymentHero
+              - listitem [ref=f835e237]:
+                - link "YouTube" [ref=f835e238] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@Employmenthero
+              - listitem [ref=f835e241]:
+                - link "Facebook" [ref=f835e242] [cursor=pointer]:
+                  - /url: https://www.facebook.com/EmploymentHero
+              - listitem [ref=f835e245]:
+                - link "Instagram" [ref=f835e246] [cursor=pointer]:
+                  - /url: https://www.instagram.com/employmenthero/
+              - listitem [ref=f835e249]:
+                - link "TikTok" [ref=f835e250] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@employmenthero
+        - separator [ref=f835e253]
+        - generic [ref=f835e254]:
+          - generic [ref=f835e255]:
+            - paragraph [ref=f835e256]:
+              - strong [ref=f835e257]: Land acknowledgement
+            - paragraph [ref=f835e258]: We acknowledge the traditional and unceded territory of First Nations, Inuit and Métis peoples on which we live, learn and work.
+            - paragraph [ref=f835e259]:
+              - strong [ref=f835e260]: What we do
+            - paragraph [ref=f835e261]: Employment Hero is an end-to-end HR, payroll and recruitment solution designed for Canadian businesses. Our suite of powerful employment tools help streamline your workday, so you can focus on what matters.
+          - generic [ref=f835e262]:
+            - paragraph [ref=f835e263]:
+              - strong [ref=f835e264]: News, resources and insights – delivered to your inbox. Subscribe.
+            - generic [ref=f835e267]:
+              - generic [ref=f835e270]:
+                - generic: "*"
+                - textbox "*" [ref=f835e271]:
+                  - /placeholder: Work email
+              - generic [ref=f835e275]:
+                - text: By clicking ‘Subscribe’, you consent to receiving marketing from the
+                - link "Employment Hero Group" [ref=f835e276] [cursor=pointer]:
+                  - /url: https://employmenthero.com/legals/privacy-policy/data-processing/affiliates/
+                - text: by email, text, and social media channels about its services and activities. You may withdraw your consent at any time. See the
+                - link "Privacy Policy" [ref=f835e277] [cursor=pointer]:
+                  - /url: https://employmenthero.com/legals/privacy-policy/
+                - text: for information on how your data is processed.
+              - button "Subscribe" [ref=f835e280] [cursor=pointer]
+        - separator [ref=f835e281]
+        - generic [ref=f835e282]:
+          - paragraph [ref=f835e283]: Copyright © 2026 Employment Hero
+          - list [ref=f835e284]:
+            - listitem [ref=f835e285]:
+              - link "Trust & Legal Centre" [ref=f835e286] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/
+            - listitem [ref=f835e287]:
+              - link "Terms & Conditions" [ref=f835e288] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/terms-conditions/
+            - listitem [ref=f835e289]:
+              - link "Privacy Policy" [ref=f835e290] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/privacy-policy/
+            - listitem [ref=f835e291]:
+              - link "Data Processing Addendum" [ref=f835e292] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/privacy-policy/data-processing/
+            - listitem [ref=f835e293]:
+              - link "Cookie Policy" [ref=f835e294] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/cookie-policy/
+            - listitem [ref=f835e295]:
+              - link "Accessibility" [ref=f835e296] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/#compliance
+  - region "Cookie banner" [ref=f835e298]:
+    - dialog "Cookie notice" [ref=f835e299]:
+      - generic [ref=f835e300]:
+        - generic [ref=f835e302]:
+          - heading "Cookie notice" [level=2] [ref=f835e303]
+          - generic [ref=f835e304]:
+            - text: We use cookies or similar technologies on our sites to perform analytics, provide you with tailored content, and make your experience better. By clicking 'Allow', you agree to our use of cookies on the journey you take with us. Learn more by reading
+            - link "Cookie policy, opens in a new tab" [ref=f835e305] [cursor=pointer]:
+              - /url: https://employmenthero.com/legals/cookie-policy/
+              - text: our cookie policy
+        - generic [ref=f835e307]:
+          - button "Your choices, Opens the preference center dialog" [ref=f835e308] [cursor=pointer]: Your choices
+          - generic [ref=f835e309]:
+            - button "Reject All" [ref=f835e310] [cursor=pointer]
+            - button "Allow" [ref=f835e311] [cursor=pointer]
+        - button "Continue without Accepting" [ref=f835e313] [cursor=pointer]

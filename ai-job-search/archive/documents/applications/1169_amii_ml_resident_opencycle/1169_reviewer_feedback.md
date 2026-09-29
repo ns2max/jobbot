@@ -1,0 +1,44 @@
+<!-- Job posting: https://ca.linkedin.com/jobs/view/machine-learning-resident-%E2%80%93-client-opencycle-12-month-term-at-amii-alberta-machine-intelligence-institute-4457043959 -->
+<!-- /apply Step 3 reviewer critique (Opus). Session stopped before Step 4 applied these. -->
+
+## `% VERIFY` claims — both resolved
+1. "Amii is one of Canada's three national AI institutes" — CONFIRMED verbatim (amii.ca/about; alongside Mila and Vector; Pan-Canadian AI Strategy via CIFAR). Worth naming Mila + Vector so it isn't boilerplate.
+2. "RL research + University of Alberta ties" — CONFIRMED (Sutton = Chief Scientific Officer + 2024 Turing co-recipient; Fellows Bowling/White/Pilarski) BUT recommend CUTTING — Nishal does no RL, reads as researched-from-the-About-page.
+
+**Residency model correction:** the Resident is the person embedded with the client, reporting to an Amii Scientist in a cross-functional team. The draft says the model "embeds a scientist inside a company's problem" — inverted. "Amii Fellow" is a separate senior academic title, not the residency.
+
+**OpenCycle verified:** formerly Patching Associates Acoustical Engineering, Calgary (rebrand confirmed on patchingassociates.com), 30+ yrs acoustics. Homepage: "regulator accepted" AI noise compliance, 5M+ validated data points, 200,000+ regulatory sites, 1,000+ cumulative monitoring days; IoT sensors in AB + BC; drone data-validation programme; CEO Justin Caskey, CTO Brett Klassen. No funding stage disclosed — do NOT imply one. opencycle.ai/team + /programs now 404 — re-confirm any named person. Do NOT attribute the City of Calgary LoRa sensor network to OpenCycle (that was a U of Calgary Urban Alliance project).
+
+## Part A — structured edits (CV old_strings are reconstructions from a digest — apply by intent)
+1. cover Re: line `--` → `,` (style)
+2. cover "ten years across industry and academia" → "10+ years" (grounding)
+3. cover "I have defined the ontology ... four open audio datasets, 9,800 recordings from more than 70 performers" → "Your suspicion that channel and device invariance is rooted in the label ontology matches what I have run into: I defined the label taxonomy and curated the annotations for four open musical-pattern datasets, 9,800+ recordings from 70+ musicians, built as worst-case detection benchmarks with a unified artist-ID namespace so cross-performer and cross-device splits stay honest." (grounding)
+4. cover Nebula/backbones sentence → add: TF+PyTorch training; torchaudio/ONNX/TFLite at tool level not production; PCEN + open-set + backbones = learn-on-the-job; far-field + IEC 61672 measurement chain new, would spend first weeks on it "the way I learned apparel manufacturing and financial forensics before modelling either." (keyword match)
+5. cover "same bet ... rather work on it than almost anything else" → "same bet OpenCycle is making on a battery-powered outdoor node, and it is the problem I would most like to spend the next year on." (style — superlative overreaches his register)
+6. cover Amii paragraph → replace RL/U of A sentence; name Mila + Vector; correct residency model (resident reports to an Amii Scientist, cross-functional team); MAS = "five and a half years"; add OpenCycle specifics: "regulator accepted", 5M+ validated data points, 1,000+ monitoring days, 30 yrs as Patching Associates = why the labels exist. (company angle)
+7. CV "four open audio-pattern datasets" → "four open musical-pattern datasets" (grounding — DoMP/DoDP/DoDP2 are MIDI; only DoPP is audio)
+8. CV "Raspberry Pi and microcontroller-class hardware" → "Raspberry Pi and ARM embedded hardware" (grounding)
+9. CV MAS "models handed to non-ML line operators who signed off on production" → "an explainable defect overlay so line operators could adjudicate borderline rejects without ML support" (grounding)
+10. CV "DoDP/DoDP2 (994 + 2,177 drum-pattern recordings...)" → add "MIDI" (grounding)
+11. CV "95% detection across human, synthetic and JKUPDD sets, with no training data" → "training-free detection validated across human, synthetic and JKUPDD sets" (grounding — 95% figure NOT in any of the 3 sources; restore only if in KG §13 / the DAFx paper)
+12. CV stack "librosa, HuggingFace, ONNX" → "librosa, torchaudio, HuggingFace, ONNX, TFLite" (keyword match)
+13. CV Highlights last bullet "volunteer guitarist..." → "reviewer, IEEE Access and the Journal of the NSF of Sri Lanka; programme committee, IEEE IS2 and IEEE I3DA" (keyword match — relevance swap, not accuracy)
+
+## Part B — narrative
+**Missed keywords:** torchaudio (missing both — add), PCEN (CV-only, unqualified — frame as adopting), far-field (missing both — name as gap, all his audio is close-mic'd), IEC 61672 (missing both — cheapest credibility signal), distillation (CV claims it; profile only evidences quantization + ARM profiling — drop to "ARM latency profiling", let distillation appear only as an open problem he wants), TFLite (add), DCASE/ICASSP/INTERSPEECH (honestly absent — JAES + IS2 carry the "publications" qual), willingness to learn environmental acoustics (stated requirement — draft only shows willingness to *collaborate*; edit 4 fixes with track record), client meetings/presentations/reports (thin — one concrete client-facing bullet would land "ownership + leadership" + "communicate clearly": EU 12-partner consortium coordination, group-wide CV training, two concerts + 26-participant user study).
+**Company angles:** cut RL sentence; OpenCycle half was the bigger miss — draft restates the posting. Use: "regulator accepted" reframes false positives as audit-defensibility (ties to Forestpin compliance work); cite 1-2 of the 5M/200k/1000-day figures not all; Patching Associates 30-yr heritage explains why a small startup has labelled acoustic data. Do NOT mention funding stage / headcount / the Calgary LoRa network.
+**Action reframing:** P2 "My background lines up with the four open problems" → "I have working answers, or at least a starting position, on three of your four open problems." "Temporal accumulation is my core" → "Accumulating repeated observations of one source over time is the part I have actually built." CV summary: split the 60-word third sentence (the central-research-question sentence is the best line, currently buried). CV Highlights: lead with the frozen-protocol benchmark + negative-results record (mirrors the posting's unusual "written record of experiments incl. failures" language).
+**Tone:** Re: line `--` breaks rule 1 (fixed). Register otherwise good and sounds like him. "rather work on it than almost anything else" overreaches — toned down. "and the reason is specific:" — keep, answers the posting's ask. LENGTH: letter already tops one page; edits 4+6 add ~90 words — cut the second half of P3 ("Most audio ML assumes the compute is free...") to one sentence (restates the P1 14 ms / 1038 ms contrast).
+
+## Factual grounding audit — draft drift (all fixed in Part A)
+- "four open audio datasets" — WRONG, 3 of 4 are MIDI. Matters: an audio-ML reviewer clicking the Zenodo DOIs finds symbolic corpora.
+- "9,800 recordings" → "9,800+" (sum 9,839); "more than 70 performers" → "70+ musicians" (distinct = exactly 70).
+- **"across a decade at MAS Holdings" — WRONG, MAS was Jan 2015–Jul 2020 (5.5 yrs). Repeated as "ten years in manufacturing". Most serious error — two tenure overstatements in the paragraph read with a CV open alongside.**
+- "ten years across industry and academia" (letter) vs "10+ years" (CV) — CV is right (11+ yrs since Jan 2015), match them.
+- "models handed to non-ML line operators who signed off on production" — sources support explainable overlay + PLC reject + group-wide training, NOT operators owning a sign-off gate.
+- "I have defined the ontology" — reasonable reframe but "ontology" is the posting's formal word; "defined the label taxonomy and curated the annotations" is interview-defensible. Also softened "channel invariance IS a label-ontology problem" → the posting says *suspected*.
+- **"95% detection across human/synthetic/JKUPDD" — NOT in 01-profile, cv/main_example.tex, or CLAUDE.md. Removed. Restore only if verified in KG §13 or the DAFx paper.**
+GROUNDED, leave alone: 14 ms / F1 0.76 / 74x / 31.4% CPU / 1038 ms; F1 0.78 + P0.79/R0.76 on 500-event corpus; "up to 300%"; "99.5%"; all employers/titles/dates; MAS single entry; no patent; PR + no-sponsorship line.
+**Profile-consistency warnings:** (1) DoDP2 drummer count only asserted in cv/main_example.tex line 307 — confirm vs KG §7. (2) 02-behavioral-profile.md says "~10 years", cv/main_example.tex mandates "10+ years" — both now understate (11+ yrs); consider updating the behavioral profile. (3) "review for IEEE audio venues" is a fair compression (IS2/I3DA are IEEE audio); IEEE Access is not audio — keep as-is, don't tighten.
+
+Cache written: `company_research/amii.json`, `company_research/opencycle.json`.

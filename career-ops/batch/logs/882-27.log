@@ -1,0 +1,15 @@
+JD unavailable — file missing, URL redirects to generic careers list (gh_jid invalid, posting closed/removed). Per pipeline rule, terminating with failure — no report/PDF/tracker generated since no JD content exists.
+
+```json
+{
+  "status": "failed",
+  "id": "27",
+  "report_num": "882",
+  "company": "Samsara",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "JD unavailable: /tmp/batch-jd-27.txt missing/empty, and posting URL redirects (302) to generic /company/careers/roles index — gh_jid=7266471 not resolvable, listing likely closed or removed."
+}
+```

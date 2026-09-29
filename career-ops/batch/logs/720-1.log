@@ -1,0 +1,17 @@
+Role location = London (Together AI, Solutions Architect Inference). `_profile.md` scope rule: Canada-only, non-Canadian roles = hard exclude, no eval/score/CV/report. Skipping per rule — no report, no PDF, no tracker line written.
+
+```json
+{
+  "status": "failed",
+  "id": "1",
+  "report_num": "720",
+  "company": "Together AI",
+  "role": "Solutions Architect (Inference)",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "hard exclude: role location London (non-Canadian) — violates profile.md Canada-only scope policy, skipped per rule (no eval/report generated)"
+}
+```
+
+Note: cv.md is unfilled template (placeholders) — real content lives in `input/knowledge-graph.md` / `input/resume_converted_clean.md`. Also your memory says CV outputs should be .md only, no PDF — moot here since this offer's excluded, but flag for future batch runs against this location policy.

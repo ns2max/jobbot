@@ -1,0 +1,43 @@
+% Job posting: https://ca.linkedin.com/jobs/view/algorithm-software-engineer-at-garmin-4456364120
+\documentclass[11pt]{article}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.1}
+\pagenumbering{gobble}
+\begin{document}
+\pagestyle{empty}
+
+\begin{flushright}
+Nishal Stanislaus Silva, PhD \\
+Toronto, ON, Canada \\
++1 613 200 2030 \\
+nishal.silva@hotmail.com \\
+\href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}
+\end{flushright}
+
+\noindent Dear Hiring Manager,
+
+\vspace{0.5em}
+\noindent As a Visiting Researcher at McGill University's IDMIL/CIRMMT, I built a self-powered wearable device instrumented with a BNO055 inertial measurement unit sampling at 100Hz over I2C, and fused its IMU stream with a second sensing modality -- audio -- through a hierarchical finite-state machine driving a single-LSTM-256 gesture classifier, reaching F1 0.78 on a 500-event corpus (published at IEEE IS2 2025). That is the same algorithm-design problem Garmin's Algorithm Software Engineer role is built around: fusing IMU, heart-rate, and GPS streams into reliable real-time classifications on a wearable. My prototype was self-powered and battery-constrained, so the fusion architecture had to be validated against a hard on-device power budget from the outset, not retrofitted to one -- work I profiled directly for compute load and power draw before treating it as real-time-feasible.
+
+\vspace{0.5em}
+\noindent That project sits inside a broader postdoctoral track record at the University of Trento, where I owned the full pipeline for streaming audio and IMU/gesture data -- acquisition, DSP and feature engineering, training and evaluation, embedded deployment, and monitoring -- on the EU Horizon EIC Pathfinder project MUSMET. The system I shipped ran inference in 14ms on a Raspberry Pi 4 at F1 0.76 and 31.4\% CPU, 74x faster than the 1038ms baseline it replaced (JAES 2026), validated against frozen-protocol benchmark suites and ablations that quantified accuracy, latency, and CPU trade-offs rather than asserting them. Five and a half years as a Research Engineer at MAS Holdings before my PhD gave me the production-grade C++ discipline underneath all of this: real-time IoT ETL and embedded inference running on manufacturing-floor hardware at scale, with CI/CD and code review introduced as standard practice.
+
+\vspace{0.5em}
+\noindent I have not worked with GPS or heart-rate-specific sensor algorithms, nor with Garmin's product line directly. But the underlying engineering problem -- designing and validating a multi-sensor fusion algorithm against tight latency and power constraints on wearable-class hardware -- is exactly what my McGill and Trento work has been, and I am confident that architecture and discipline transfer directly to GPS and heart-rate fusion on Garmin's devices.
+
+\vspace{0.5em}
+\noindent I am a Canadian Permanent Resident, eligible to work in Canada without sponsorship, available immediately, and open to relocating to Cochrane, Alberta for this role. I would welcome the chance to discuss how this background fits your team.
+
+\vspace{1em}
+\noindent Sincerely, \\
+Nishal Stanislaus Silva
+
+\end{document}

@@ -1,0 +1,18 @@
+Done.
+
+```json
+{
+  "status": "completed",
+  "id": "2",
+  "report_num": "718",
+  "company": "xAI",
+  "role": "Member of Technical Staff - Imagine Safety",
+  "score": null,
+  "legitimacy": null,
+  "pdf": null,
+  "report": null,
+  "error": "Skipped — Palo Alto, CA role, excluded by hard Canada-only location policy in modes/_profile.md (2026-08-20 scope rule). No evaluation, report, or PDF generated per that rule. Tracker line logged as SKIP."
+}
+```
+
+Role US-based, policy excludes non-Canada roles hard, no exceptions. No report 718 file created, no PDF. Tracker line added: `720`.

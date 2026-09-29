@@ -1,0 +1,406 @@
+- generic [active] [ref=f521e1]:
+  - main [ref=f521e2]:
+    - generic [ref=f521e3]:
+      - link [ref=f521e5] [cursor=pointer]:
+        - /url: https://grafana.com/
+        - img "Grafana Labs Logo" [ref=f521e6]
+      - generic [ref=f521e7]:
+        - link "Back to jobs" [ref=f521e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/grafanalabs
+        - generic [ref=f521e12]:
+          - generic [ref=f521e13]:
+            - heading "Staff AI Engineer - Grafana AI/ML | USA | Remote" [level=1] [ref=f521e14]
+            - generic [ref=f521e15]: United States (Remote)
+          - button "Apply" [ref=f521e19] [cursor=pointer]
+        - generic [ref=f521e20]:
+          - generic [ref=f521e21]:
+            - paragraph [ref=f521e22]:
+              - text: Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Cloud's actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000+ customers – including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce – trust Grafana Labs to ensure reliability of their applications and systems, resolve incidents quickly, and optimize their telemetry to reduce noise and cost. We are a 100% remote company with 1,600+ team members across 40+ countries, and we’re backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at
+              - link "grafana.com" [ref=f521e25] [cursor=pointer]:
+                - /url: http://grafana.com
+              - text: and follow us on
+              - link "LinkedIn" [ref=f521e28] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/grafana-labs/
+              - text: and
+              - link "X" [ref=f521e31] [cursor=pointer]:
+                - /url: https://twitter.com/grafana
+              - text: .
+            - paragraph [ref=f521e32]: "We’re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do."
+            - paragraph [ref=f521e33]: You may not meet every requirement, and that’s okay. If this role excites you, we’d love you to raise your hand for what could be a truly career-defining opportunity.
+          - generic [ref=f521e34]:
+            - paragraph [ref=f521e35]:
+              - strong [ref=f521e36]: This is a remote opportunity and we would be interested in applicants from USA time zones only at this time.
+            - heading "Staff AI Engineer" [level=3] [ref=f521e37]
+            - paragraph [ref=f521e38]:
+              - strong [ref=f521e39]: "The Opportunity:"
+            - paragraph [ref=f521e40]: At Grafana, we build observability tools that help users understand, respond to, and improve their systems – regardless of scale, complexity, or tech stack. The Grafana AI teams play a key role in this mission by helping users make sense of complex observability data through AI-driven features. These capabilities reduce toil, lower the barrier of domain expertise, and surface meaningful signals from noisy environments.
+            - paragraph [ref=f521e41]:
+              - text: What makes our team different is
+              - emphasis [ref=f521e42]: how
+              - text: "we work: we operate with a high degree of autonomy and ownership, both as individuals and as a team. Engineers are empowered to make decisions, move quickly, and validate ideas early – while being supported by a deeply collaborative culture that values curiosity, feedback, and cross-functional partnership."
+            - paragraph [ref=f521e43]: We’re looking for an AI Software Engineer with a strong software engineering background, a quick iteration mindset, and a passion for experimentation – balanced by a focus on shipping and scaling impactful features that deliver value to users. You’ll work closely with cross-functional teams to develop, test, and ship AI-powered features that contribute to improving infrastructure and observability quality through automation, while also expanding the capabilities of AI agents across the observability stack to assist users with incident response. As the team matures, there’s a broad opportunity to expand or redefine this role based on impact and initiative.
+            - paragraph [ref=f521e44]:
+              - text: Curious about what it's like to build AI at Grafana? Learn more about the team's philosophy, culture, and approach
+              - link "here" [ref=f521e45] [cursor=pointer]:
+                - /url: https://medium.com/grafana-labs/how-we-build-ai-at-grafana-labs-small-steps-that-add-up-to-actually-useful-ai-2dcd7b2b3184
+              - text: .
+            - paragraph [ref=f521e46]:
+              - strong [ref=f521e47]: "What You’ll Be Doing:"
+            - list [ref=f521e48]:
+              - listitem [ref=f521e49]: "Build and deliver AI solutions: Take ownership of developing high-performance AI features to help users detect, triage, and resolve incidents using observability data and tools."
+              - listitem [ref=f521e50]: "Rapid experimentation and iteration: Implement a highly iterative process where you quickly prototype, test, and validate with real users, including shipping and evolving LLM- or agent-powered workflows for incident lifecycle management and automated analysis tasks."
+              - listitem [ref=f521e51]: "Collaborate cross-functionally: Work with data analysts, product managers, and designers to shape AI-driven product features, including integration of agentic components with internal tools, alerting systems, runbooks, and developer workflows."
+              - listitem [ref=f521e52]: "Utilize AI tools effectively: Use AI and automation tools to enhance both product functionality and your own development workflows."
+              - listitem [ref=f521e53]: "Effective communication: You’ll be working in a highly dynamic and collaborative environment, so we need someone who can communicate effectively and contribute across teams."
+              - listitem [ref=f521e54]: "Ownership and impact: Take full ownership of the AI solutions you develop, ensuring they are not only innovative but also scalable, maintainable, and aligned with real user workflows."
+            - paragraph [ref=f521e55]: "We invest heavily in developer productivity. You can use modern AI coding assistants as part of your daily workflow (your choice of tools, within security guidelines), backed by a company-funded usage budget so you can iterate quickly without unnecessary friction. We encourage pragmatic AI-assisted development: faster prototyping, test generation, refactors, documentation, and incident follow-ups—always with strong code review and quality standards. You'll also have access to the latest frontier models from OpenAI, Anthropic, and Google."
+            - paragraph [ref=f521e56]:
+              - strong [ref=f521e57]: "What Makes You a Great Fit:"
+            - list [ref=f521e58]:
+              - listitem [ref=f521e59]: "Strong engineering skills: Solid experience building production software systems (backend and / or full stack). You’re a self-starter, capable of tackling complex engineering problems with minimal supervision."
+              - listitem [ref=f521e60]: "AI experience with a practical mindset: You’re familiar with AI technologies and frameworks, and you focus on delivering high-quality solutions that work in the real world, not just in theory."
+              - listitem [ref=f521e61]: "Quick iteration and experimentation: You’re comfortable releasing prototypes, collecting feedback, and iterating with a pragmatic mindset."
+              - listitem [ref=f521e62]: "Proven initiative: You take ownership and drive projects forward, pushing boundaries to find the most impactful solutions. You can deal with ambiguity and are able to define scope where things are loosely defined."
+              - listitem [ref=f521e63]: "Collaborative attitude: You communicate effectively with peers, product managers, and designers. You’re open to feedback, and you bring a solutions-oriented mindset to the table."
+            - paragraph [ref=f521e64]:
+              - strong [ref=f521e65]: "Requirements:"
+            - list [ref=f521e66]:
+              - listitem [ref=f521e67]: Experience with LLMs, prompt engineering, and building applications powered by GenAI.
+              - listitem [ref=f521e68]: Proven track record of delivering software that made it into production and is actively used by users.
+              - listitem [ref=f521e69]: Exposure to working in cloud-native environments (e.g., AWS, GCP, Azure).
+              - listitem [ref=f521e70]: Experience using observability tools to understand and troubleshoot system behavior.
+            - paragraph [ref=f521e71]:
+              - strong [ref=f521e72]: "Bonus Points For:"
+            - list [ref=f521e73]:
+              - listitem [ref=f521e74]: Experience building or working with agent frameworks or multi‑agent workflows.
+              - listitem [ref=f521e75]: "Experience with infrastructure / devops related tooling: Kubernetes, Docker, Terraform or similar for deployments."
+              - listitem [ref=f521e76]: Familiarity with model fine-tuning techniques.
+              - listitem [ref=f521e77]: Experience building observability tooling.
+            - paragraph [ref=f521e78]:
+              - strong [ref=f521e79]: "Compensation & Rewards:"
+            - paragraph [ref=f521e80]:
+              - text: In the United States, the Base compensation range for this role is USD 174,986 - USD 220,000. Actual compensation may vary based on level, experience, and skillset as assessed in the interview process. Benefits include equity, bonus (if applicable) and other benefits listed
+              - link "here" [ref=f521e81] [cursor=pointer]:
+                - /url: https://grafana.com/about/careers/#jobs
+              - text: .
+            - paragraph [ref=f521e82]: All of our roles include Restricted Stock Units (RSUs), giving every team member ownership in Grafana Labs' success. We believe in shared outcomes—RSUs help us stay aligned and invested as we scale globally.
+            - paragraph [ref=f521e83]
+          - generic [ref=f521e84]:
+            - generic [ref=f521e85]:
+              - paragraph [ref=f521e86]:
+                - emphasis [ref=f521e87]: "*Compensation ranges are country specific. If you are applying for this role from a different location than listed above, your recruiter will discuss your specific market’s defined pay range & benefits at the beginning of the process."
+              - paragraph [ref=f521e88]:
+                - strong [ref=f521e89]: "Why You’ll Thrive at Grafana Labs:"
+              - list [ref=f521e90]:
+                - listitem [ref=f521e91]:
+                  - strong [ref=f521e92]: 100% Remote, Global Culture -
+                  - text: As a remote-only company, we bring together talent from around the world, united by a culture of collaboration and shared purpose.
+                - listitem [ref=f521e93]:
+                  - strong [ref=f521e94]: Scaling Organization
+                  - text: – Tackle meaningful work in a high-growth, ever-evolving environment.
+                - listitem [ref=f521e95]:
+                  - strong [ref=f521e96]: Transparent Communication
+                  - text: – Expect open decision-making and regular company-wide updates.
+                - listitem [ref=f521e97]:
+                  - strong [ref=f521e98]: Innovation-Driven
+                  - text: – Autonomy and support to ship great work and try new things.
+                - listitem [ref=f521e99]:
+                  - strong [ref=f521e100]: Open Source Roots
+                  - text: – Built on community-driven values that shape how we work.
+                - listitem [ref=f521e101]:
+                  - strong [ref=f521e102]: Empowered Teams
+                  - text: – High trust, low ego culture that values outcomes over optics.
+                - listitem [ref=f521e103]:
+                  - strong [ref=f521e104]: Career Growth Pathways
+                  - text: – Defined opportunities to grow and develop your career.
+                - listitem [ref=f521e105]:
+                  - strong [ref=f521e106]: Approachable Leadership
+                  - text: – Transparent execs who are involved, visible, and human.
+                - listitem [ref=f521e107]:
+                  - strong [ref=f521e108]: Passionate People
+                  - text: – Join a team of smart, supportive folks who care deeply about what they do.
+                - listitem [ref=f521e109]:
+                  - strong [ref=f521e110]: In-Person onboarding
+                  - text: "- We want you to thrive from day 1 with your fellow new ‘Grafanistas’ to learn all about what we do and how we do it."
+                - listitem [ref=f521e111]:
+                  - strong [ref=f521e112]: Balance is Key
+                  - text: "- We operate a global annual leave policy of 30 days per annum. 3 days of your annual leave entitlement are reserved for Grafana Shutdown Days to allow the team to really disconnect."
+                  - emphasis [ref=f521e113]: "*We will comply with local legislation where applicable."
+              - paragraph [ref=f521e114]:
+                - strong [ref=f521e115]: "Equal Opportunity Employer:"
+                - emphasis [ref=f521e116]: Grafana Labs is an equal opportunities employer. We welcome applications from everyone regardless of race, colour, nationality, origin, caste, sex, gender reassignment identity or expression, sexual orientation, age, religion or belief, disability, veteran status, genetic information, pregnancy, maternity, marital, family or carer status, or any other characteristic which is protected by local law. We believe that equality and diversity build a strong organisation, and we work hard to ensure that is the foundation of our organisation as we grow.
+              - paragraph [ref=f521e117]:
+                - emphasis [ref=f521e118]: Grafana Labs may utilize AI tools in its recruitment process to assist in matching information provided in CVs to job postings. The recruitment team will continue to review inbound CVs manually to identify alignment with current openings.
+              - paragraph [ref=f521e119]: "#LI-Remote"
+            - emphasis [ref=f521e121]:
+              - text: For information about how your personal data is used once you’ve applied to a job, check out our
+              - link "privacy policy" [ref=f521e122] [cursor=pointer]:
+                - /url: https://grafana.com/legal/applicant-and-candidate-privacy-policy/
+              - text: .
+        - generic [ref=f521e127]:
+          - paragraph [ref=f521e128]: Create a Job Alert
+          - paragraph [ref=f521e129]: Interested in building your career at Grafana Labs? Get future opportunities sent straight to your email.
+          - link "Create alert" [ref=f521e130] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=grafanalabs&source=job_alert_post&variant=job_alert_post_a
+      - separator [ref=f521e131]
+      - generic [ref=f521e132]:
+        - generic [ref=f521e134]:
+          - heading "Apply for this job" [level=2] [ref=f521e136]
+          - generic [ref=f521e137]:
+            - paragraph [ref=f521e139]: "*"
+            - paragraph [ref=f521e140]: indicates a required field
+        - generic [ref=f521e141]:
+          - generic [ref=f521e142]:
+            - generic [ref=f521e145]:
+              - generic [ref=f521e146]: First Name*
+              - textbox "First Name" [ref=f521e147]
+            - generic [ref=f521e150]:
+              - generic [ref=f521e151]: Last Name*
+              - textbox "Last Name" [ref=f521e152]
+            - generic [ref=f521e155]:
+              - generic [ref=f521e156]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f521e157]
+            - generic [ref=f521e160]:
+              - generic [ref=f521e161]: Email*
+              - textbox "Email" [ref=f521e162]
+            - group "Phone" [ref=f521e164]:
+              - generic [ref=f521e168]:
+                - generic [ref=f521e169]: Country*
+                - generic [ref=f521e170]:
+                  - log [ref=f521e172]
+                  - generic [ref=f521e174]:
+                    - combobox "Country" [ref=f521e177]
+                    - button "Toggle flyout" [ref=f521e179] [cursor=pointer]
+                  - textbox
+              - generic [ref=f521e184]:
+                - generic [ref=f521e185]: Phone*
+                - textbox "Phone" [ref=f521e187]
+            - generic [ref=f521e188]:
+              - generic [ref=f521e190]:
+                - generic [ref=f521e191]: Location (City)*
+                - generic [ref=f521e192]:
+                  - log [ref=f521e194]
+                  - combobox "Location (City)" [ref=f521e199]
+                  - textbox
+              - button "Locate me" [ref=f521e200] [cursor=pointer]
+            - group "Resume/CV*" [ref=f521e202]:
+              - generic [ref=f521e205]:
+                - generic [ref=f521e207]:
+                  - button "Attach" [ref=f521e208] [cursor=pointer]
+                  - generic [ref=f521e209]: Attach
+                  - button "Attach" [ref=f521e210]
+                - button "Dropbox" [ref=f521e212] [cursor=pointer]
+                - button "Google Drive" [ref=f521e214] [cursor=pointer]
+                - generic [ref=f521e216]:
+                  - button "Enter manually" [ref=f521e217] [cursor=pointer]
+                  - generic [ref=f521e218]: Enter manually
+                - paragraph [ref=f521e219]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f521e220]:
+            - separator [ref=f521e221]
+            - generic [ref=f521e224]:
+              - generic [ref=f521e225]: Website
+              - textbox "Website" [ref=f521e226]
+            - generic [ref=f521e229]:
+              - generic [ref=f521e230]: Are you based and plan to work from the US? *
+              - generic [ref=f521e231]:
+                - log [ref=f521e233]
+                - generic [ref=f521e235]:
+                  - generic [ref=f521e236]:
+                    - generic [ref=f521e237]: Select...
+                    - combobox "Are you based and plan to work from the US?" [ref=f521e239]
+                  - button "Toggle flyout" [ref=f521e241] [cursor=pointer]
+                - textbox
+            - generic [ref=f521e246]:
+              - generic [ref=f521e247]: Please share any public artifacts (code, docs, write-ups, blog posts or even social media discussions) that demonstrate your practical experience with LLMs, evaluation pipelines, or GenAI tooling. If your work is not public, a brief written summary of a key project and your role is welcome.
+              - textbox "Please share any public artifacts (code, docs, write-ups, blog posts or even social media discussions) that demonstrate your practical experience with LLMs, evaluation pipelines, or GenAI tooling. If your work is not public, a brief written summary of a key project and your role is welcome." [ref=f521e248]
+            - generic [ref=f521e251]:
+              - generic [ref=f521e252]: Are you currently eligible to work in your country of residence?*
+              - generic [ref=f521e253]:
+                - log [ref=f521e255]
+                - generic [ref=f521e257]:
+                  - generic [ref=f521e258]:
+                    - generic [ref=f521e259]: Select...
+                    - combobox "Are you currently eligible to work in your country of residence?" [ref=f521e261]
+                  - button "Toggle flyout" [ref=f521e263] [cursor=pointer]
+                - textbox
+            - generic [ref=f521e268]:
+              - generic [ref=f521e269]: Do you now or in the future require visa sponsorship to continue working in your country of residence?*
+              - generic [ref=f521e270]:
+                - log [ref=f521e272]
+                - generic [ref=f521e274]:
+                  - generic [ref=f521e275]:
+                    - generic [ref=f521e276]: Select...
+                    - combobox "Do you now or in the future require visa sponsorship to continue working in your country of residence?" [ref=f521e278]
+                  - button "Toggle flyout" [ref=f521e280] [cursor=pointer]
+                - textbox
+            - generic [ref=f521e285]:
+              - generic [ref=f521e286]: Anything else you'd like to share with our hiring team?
+              - textbox "Anything else you'd like to share with our hiring team?" [ref=f521e287]
+            - generic [ref=f521e290]:
+              - generic [ref=f521e291]: Which of the following best describes you?*
+              - generic [ref=f521e292]:
+                - log [ref=f521e294]
+                - generic [ref=f521e296]:
+                  - generic [ref=f521e297]:
+                    - generic [ref=f521e298]: Select...
+                    - combobox "Which of the following best describes you?" [ref=f521e300]
+                  - button "Toggle flyout" [ref=f521e302] [cursor=pointer]
+                - textbox
+            - generic [ref=f521e307]:
+              - generic [ref=f521e308]: How did you hear about this opportunity at Grafana?*
+              - generic [ref=f521e309]:
+                - log [ref=f521e311]
+                - generic [ref=f521e313]:
+                  - generic [ref=f521e314]:
+                    - generic [ref=f521e315]: Select...
+                    - combobox "How did you hear about this opportunity at Grafana?" [ref=f521e317]
+                  - button "Toggle flyout" [ref=f521e319] [cursor=pointer]
+                - textbox
+            - generic [ref=f521e322]:
+              - generic [ref=f521e324]:
+                - generic [ref=f521e325]: LinkedIn Profile*
+                - textbox "LinkedIn Profile" [ref=f521e326]
+              - paragraph [ref=f521e329]: Share a link to your LI profile.
+          - separator [ref=f521e330]
+          - generic [ref=f521e331]:
+            - heading "Equal Opportunity Employment Information" [level=3] [ref=f521e332]
+            - generic [ref=f521e334]:
+              - paragraph [ref=f521e335]: At Grafana Labs, we strive to ensure we grow in a way that represents the world in which we live. To help us learn more about how we can increase diversity in our candidate pool, we invite you to voluntarily provide demographic information in a confidential survey. Providing this information is optional. It will not be used in the hiring process, and has no effect on your opportunity for employment.
+              - paragraph [ref=f521e336]:
+                - emphasis [ref=f521e337]: By voluntarily providing information and submitting your application, you explicitly consent to the collection of race, ethnicity, gender identity, and disability information and use of this information as described above
+                - text: .
+            - generic [ref=f521e339]:
+              - generic [ref=f521e340]: What gender identity do you most closely identify with?*
+              - generic [ref=f521e341]:
+                - log [ref=f521e343]
+                - generic [ref=f521e345]:
+                  - generic [ref=f521e346]:
+                    - generic [ref=f521e347]: Select...
+                    - combobox "What gender identity do you most closely identify with?" [ref=f521e349]
+                  - button "Toggle flyout" [ref=f521e351] [cursor=pointer]
+                - textbox
+            - generic [ref=f521e355]:
+              - generic [ref=f521e356]: Race*
+              - generic [ref=f521e357]:
+                - log [ref=f521e359]
+                - generic [ref=f521e361]:
+                  - generic [ref=f521e362]:
+                    - generic [ref=f521e363]: Select...
+                    - combobox "Race" [ref=f521e365]
+                  - button "Toggle flyout" [ref=f521e367] [cursor=pointer]
+                - textbox
+            - generic [ref=f521e371]:
+              - generic [ref=f521e372]: Are you a person of transgender experience?*
+              - generic [ref=f521e373]:
+                - log [ref=f521e375]
+                - generic [ref=f521e377]:
+                  - generic [ref=f521e378]:
+                    - generic [ref=f521e379]: Select...
+                    - combobox "Are you a person of transgender experience?" [ref=f521e381]
+                  - button "Toggle flyout" [ref=f521e383] [cursor=pointer]
+                - textbox
+          - generic [ref=f521e386]:
+            - separator [ref=f521e387]
+            - generic [ref=f521e388]:
+              - heading "Voluntary Self-Identification" [level=2] [ref=f521e389]
+              - paragraph [ref=f521e390]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+              - paragraph [ref=f521e391]: As set forth in Grafana Labs’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+            - generic [ref=f521e394]:
+              - generic [ref=f521e395]: Gender
+              - generic [ref=f521e396]:
+                - log [ref=f521e398]
+                - generic [ref=f521e400]:
+                  - generic [ref=f521e401]:
+                    - generic [ref=f521e402]: Select...
+                    - combobox "Gender" [ref=f521e404]
+                  - button "Toggle flyout" [ref=f521e406] [cursor=pointer]
+            - generic [ref=f521e409]:
+              - generic [ref=f521e411]:
+                - generic [ref=f521e412]: Are you Hispanic/Latino?
+                - generic [ref=f521e413]:
+                  - log [ref=f521e415]
+                  - generic [ref=f521e417]:
+                    - generic [ref=f521e418]:
+                      - generic [ref=f521e419]: Select...
+                      - combobox "Are you Hispanic/Latino?" [ref=f521e421]
+                    - button "Toggle flyout" [ref=f521e423] [cursor=pointer]
+              - link "Race & Ethnicity Definitions" [ref=f521e426] [cursor=pointer]:
+                - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+            - generic [ref=f521e427]:
+              - paragraph [ref=f521e428]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+              - paragraph [ref=f521e429]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+              - paragraph [ref=f521e430]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+              - paragraph [ref=f521e431]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+              - paragraph [ref=f521e432]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+            - generic [ref=f521e435]:
+              - generic [ref=f521e436]: Veteran Status
+              - generic [ref=f521e437]:
+                - log [ref=f521e439]
+                - generic [ref=f521e441]:
+                  - generic [ref=f521e442]:
+                    - generic [ref=f521e443]: Select...
+                    - combobox "Veteran Status" [ref=f521e445]
+                  - button "Toggle flyout" [ref=f521e447] [cursor=pointer]
+            - separator [ref=f521e450]
+            - generic [ref=f521e451]:
+              - heading "Voluntary Self-Identification of Disability" [level=2] [ref=f521e452]
+              - generic [ref=f521e453]:
+                - generic [ref=f521e454]:
+                  - generic [ref=f521e455]: Form CC-305
+                  - generic [ref=f521e456]: Page 1 of 1
+                - generic [ref=f521e457]:
+                  - generic [ref=f521e458]: OMB Control Number 1250-0005
+                  - generic [ref=f521e459]: Expires 07/31/2029
+              - strong [ref=f521e460]: Why are you being asked to complete this form?
+              - paragraph [ref=f521e461]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+              - paragraph [ref=f521e462]:
+                - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                - link "www.dol.gov/ofccp" [ref=f521e463] [cursor=pointer]:
+                  - /url: https://www.dol.gov/ofccp
+                - text: .
+              - strong [ref=f521e464]: How do you know if you have a disability?
+              - paragraph [ref=f521e465]:
+                - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+                - strong [ref=f521e466]: "Disabilities include, but are not limited to:"
+              - list [ref=f521e467]:
+                - listitem [ref=f521e468]: Alcohol or other substance use disorder (not currently using drugs illegally)
+                - listitem [ref=f521e469]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+                - listitem [ref=f521e470]: Blind or low vision
+                - listitem [ref=f521e471]: Cancer (past or present)
+                - listitem [ref=f521e472]: Cardiovascular or heart disease
+                - listitem [ref=f521e473]: Celiac disease
+                - listitem [ref=f521e474]: Cerebral palsy
+                - listitem [ref=f521e475]: Deaf or serious difficulty hearing
+                - listitem [ref=f521e476]: Diabetes
+                - listitem [ref=f521e477]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+                - listitem [ref=f521e478]: Epilepsy or other seizure disorder
+                - listitem [ref=f521e479]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+                - listitem [ref=f521e480]: Intellectual or developmental disability
+                - listitem [ref=f521e481]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+                - listitem [ref=f521e482]: Missing limbs or partially missing limbs
+                - listitem [ref=f521e483]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+                - listitem [ref=f521e484]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+                - listitem [ref=f521e485]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+                - listitem [ref=f521e486]: Partial or complete paralysis (any cause)
+                - listitem [ref=f521e487]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+                - listitem [ref=f521e488]: Short stature (dwarfism)
+                - listitem [ref=f521e489]: Traumatic brain injury
+            - generic [ref=f521e492]:
+              - generic [ref=f521e493]: Disability Status
+              - generic [ref=f521e494]:
+                - log [ref=f521e496]
+                - generic [ref=f521e498]:
+                  - generic [ref=f521e499]:
+                    - generic [ref=f521e500]: Select...
+                    - combobox "Disability Status" [ref=f521e502]
+                  - button "Toggle flyout" [ref=f521e504] [cursor=pointer]
+            - paragraph [ref=f521e508]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+          - button "Submit application" [ref=f521e510] [cursor=pointer]
+  - contentinfo [ref=f521e511]:
+    - generic [ref=f521e512]:
+      - paragraph [ref=f521e513]: Powered by
+      - link [ref=f521e514] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f521e515]
+  - iframe [ref=f521e529]:
+    

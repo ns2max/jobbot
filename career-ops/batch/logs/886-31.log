@@ -1,0 +1,18 @@
+Done. No report/PDF generated per policy.
+
+```json
+{
+  "status": "completed",
+  "id": "31",
+  "report_num": "886",
+  "company": "Together AI",
+  "role": "Research Engineer, Post-Training Inference",
+  "score": null,
+  "legitimacy": null,
+  "pdf": null,
+  "report": null,
+  "error": "Skipped — San Francisco, CA role, onsite 4 days/week, excluded by hard Canada-only location policy in modes/_profile.md (2026-08-20 scope rule). No evaluation, report, or PDF generated per that rule. Tracker line logged as SKIP."
+}
+```
+
+Role US-based (SF, onsite 4d/wk), Canada-only policy hard-excludes it. Tracker line written to `batch/tracker-additions/31.tsv`.

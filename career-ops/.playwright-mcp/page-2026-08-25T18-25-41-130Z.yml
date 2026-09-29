@@ -1,0 +1,342 @@
+- generic [active] [ref=f643e1]:
+  - text: 
+  - generic [ref=f643e2]:
+    - link "Skip to main content" [ref=f643e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f643e6]:
+      - generic [ref=f643e7]:
+        - link " Menu" [ref=f643e9] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: 
+          - generic [ref=f643e10]: Menu
+        - link [ref=f643e12] [cursor=pointer]:
+          - /url: https://www.ucalgary.ca/
+          - img "University of Calgary" [ref=f643e13]
+      - generic: 
+    - generic [ref=f643e14]:
+      - generic [ref=f643e18]:
+        - generic [ref=f643e19]:
+          - generic [ref=f643e20]: Search by keyword
+          - textbox "Search by keyword" [ref=f643e21]
+          - status [ref=f643e22]
+        - generic [ref=f643e24]:
+          - combobox [ref=f643e26]:
+            - option "All Types" [selected]
+            - option "Academic"
+            - option "Management and Staff"
+            - option "Postdoc"
+          - combobox [ref=f643e28]:
+            - option "All Faculties/Units" [selected]
+            - option "Administrative Offices and Institutes"
+            - option "Continuing Education"
+            - option "Cumming School of Medicine"
+            - option "Facilities"
+            - option "Faculty of Arts"
+            - option "Faculty of Graduate Studies"
+            - option "Faculty of Kinesiology"
+            - option "Faculty of Law"
+            - option "Faculty of Nursing"
+            - option "Faculty of Science"
+            - option "Faculty of Social Work"
+            - option "Faculty of Veterinary Medicine"
+            - option "Finance, HR, IT, and Services"
+            - option "Haskayne School of Business"
+            - option "Libraries and Cultural Resources"
+            - option "Office of Development and Alumni"
+            - option "Office of External Relations"
+            - option "School of Architecture, Planning and Landscape"
+            - option "Schulich School of Engineering"
+            - option "Student Enrolment Services"
+            - option "Werklund School of Education"
+        - button "Find Jobs" [ref=f643e31] [cursor=pointer]: Find Jobs 
+        - generic [ref=f643e33]:
+          - text: Current employee? View the
+          - link "Internal Careers website" [ref=f643e34] [cursor=pointer]:
+            - /url: https://internal.careers.ucalgary.ca
+          - text: .
+      - generic [ref=f643e36]:
+        - generic [ref=f643e38]:
+          - heading "All Opportunities" [level=1] [ref=f643e40]
+          - link "Sign Up for Job Notifications " [ref=f643e42] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - generic [ref=f643e43]: Showing 1-16 of 16 results
+        - generic [ref=f643e51]:
+          - generic [ref=f643e52]:
+            - alert "Showing 1-16 of 16 results"
+            - generic [ref=f643e57]:
+              - heading [level=2] [ref=f643e58]:
+                - strong [ref=f643e59]:
+                  - link "Sessional Instructor, Master of Physician Assistant Studies, Cumming School of Medicine" [ref=f643e60] [cursor=pointer]:
+                    - /url: https://careers.ucalgary.ca/jobs/18158580-sessional-instructor-master-of-physician-assistant-studies-cumming-school-of-medicine
+              - paragraph [ref=f643e61]:
+                - strong [ref=f643e62]: "Job ID:"
+                - text: "38407"
+                - strong [ref=f643e63]: "Location:"
+                - text: Foothills Campus Updated August 24, 2026
+              - generic [ref=f643e64]: Description The Master of Physician Assistant Studies (MPAS) Program, Cumming School of Medicine, at the University of Calgary invites applications for a Sessional Instructor to serve as a...
+              - paragraph [ref=f643e65]:
+                - link "Learn More" [ref=f643e66] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/18158580-sessional-instructor-master-of-physician-assistant-studies-cumming-school-of-medicine
+            - generic [ref=f643e69]:
+              - heading [level=2] [ref=f643e70]:
+                - strong [ref=f643e71]:
+                  - link "Sessional Instructors, School of Creative and Performing Arts (SCPA), Division of Music, Winter 2027" [ref=f643e72] [cursor=pointer]:
+                    - /url: https://careers.ucalgary.ca/jobs/18127752-sessional-instructors-school-of-creative-and-performing-arts-scpa-division-of-music-winter-2027
+              - paragraph [ref=f643e73]:
+                - strong [ref=f643e74]: "Job ID:"
+                - text: "38329"
+                - strong [ref=f643e75]: "Location:"
+                - text: Main Campus Updated August 17, 2026
+              - generic [ref=f643e76]: Description The School of Creative and Performing Arts (SCPA), Division of Music invites applications for Sessional Instructors to teach the following course in the Winter 2027.MUED 343 Elementary...
+              - paragraph [ref=f643e77]:
+                - link "Learn More" [ref=f643e78] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/18127752-sessional-instructors-school-of-creative-and-performing-arts-scpa-division-of-music-winter-2027
+            - generic [ref=f643e81]:
+              - heading [level=2] [ref=f643e82]:
+                - strong [ref=f643e83]:
+                  - link "Sessional Instructor - MKTG 635 LEC 01 Block Week, Winter 2027, Haskayne School of Business" [ref=f643e84] [cursor=pointer]:
+                    - /url: https://careers.ucalgary.ca/jobs/18127507-sessional-instructor-mktg-635-lec-01-block-week-winter-2027-haskayne-school-of-business
+              - paragraph [ref=f643e85]:
+                - strong [ref=f643e86]: "Job ID:"
+                - text: "38327"
+                - strong [ref=f643e87]: "Location:"
+                - text: Main Campus Updated August 17, 2026
+              - generic [ref=f643e88]: Description The Haskayne School of Business at the University of Calgary invites applications for a Sessional Instructor to teach Winter 2027 MKTG 635 L01 (Marketing Communications) during block...
+              - paragraph [ref=f643e89]:
+                - link "Learn More" [ref=f643e90] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/18127507-sessional-instructor-mktg-635-lec-01-block-week-winter-2027-haskayne-school-of-business
+            - generic [ref=f643e93]:
+              - heading [level=2] [ref=f643e94]:
+                - strong [ref=f643e95]:
+                  - 'link "Fall 2026 & Winter 2027 Term 6/7 BScN: NRSG553 Pediatrics, Sessional Nursing Instructors, Faculty of Nursing" [ref=f643e96] [cursor=pointer]':
+                    - /url: https://careers.ucalgary.ca/jobs/17989433-fall-2026-and-winter-2027-term-6-slash-7-bscn-nrsg553-pediatrics-sessional-nursing-instructors-faculty-of-nursing
+              - paragraph [ref=f643e97]:
+                - strong [ref=f643e98]: "Job ID:"
+                - text: "38047"
+                - strong [ref=f643e99]: "Location:"
+                - text: Main Campus Updated July 28, 2026
+              - generic [ref=f643e100]: Description The University of Calgary, Faculty of Nursing is seeking Sessional Nursing Instructors to teach undergraduate level courses for the Fall Term (September to December) & Winter Term...
+              - paragraph [ref=f643e101]:
+                - link "Learn More" [ref=f643e102] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/17989433-fall-2026-and-winter-2027-term-6-slash-7-bscn-nrsg553-pediatrics-sessional-nursing-instructors-faculty-of-nursing
+            - generic [ref=f643e105]:
+              - heading [level=2] [ref=f643e106]:
+                - strong [ref=f643e107]:
+                  - link "Sessional Instructor (Simulated Clients), Faculty of Veterinary Medicine - Fall 2026 and Winter 2027" [ref=f643e108] [cursor=pointer]:
+                    - /url: https://careers.ucalgary.ca/jobs/17892621-sessional-instructor-simulated-clients-faculty-of-veterinary-medicine-fall-2026-and-winter-2027
+              - paragraph [ref=f643e109]:
+                - strong [ref=f643e110]: "Job ID:"
+                - text: "37867"
+                - strong [ref=f643e111]: "Location:"
+                - text: Spy Hill Updated July 17, 2026
+              - generic [ref=f643e112]: Description The Faculty of Veterinary Medicine invites applications for Simulated Clients to support communication and professional skills education within the Doctor of Veterinary Medicine (DVM)...
+              - paragraph [ref=f643e113]:
+                - link "Learn More" [ref=f643e114] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/17892621-sessional-instructor-simulated-clients-faculty-of-veterinary-medicine-fall-2026-and-winter-2027
+            - generic [ref=f643e117]:
+              - heading [level=2] [ref=f643e118]:
+                - strong [ref=f643e119]:
+                  - link "Sessional Instructors, Faculty of Veterinary Medicine, Fall 2026 and Winter 2027 Courses" [ref=f643e120] [cursor=pointer]:
+                    - /url: https://careers.ucalgary.ca/jobs/17892620-sessional-instructors-faculty-of-veterinary-medicine-fall-2026-and-winter-2027-courses
+              - paragraph [ref=f643e121]:
+                - strong [ref=f643e122]: "Job ID:"
+                - text: "37866"
+                - strong [ref=f643e123]: "Location:"
+                - text: Foothills Campus Updated June 23, 2026
+              - generic [ref=f643e124]: Description Applications are invited for Sessional Instructor positions in the Faculty of Veterinary Medicine for the 2026-2027 academic year. The positions involve participation in clinical...
+              - paragraph [ref=f643e125]:
+                - link "Learn More" [ref=f643e126] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/17892620-sessional-instructors-faculty-of-veterinary-medicine-fall-2026-and-winter-2027-courses
+            - generic [ref=f643e129]:
+              - heading [level=2] [ref=f643e130]:
+                - strong [ref=f643e131]:
+                  - link "Sessional Nursing Instructors, Faculty of Nursing, Wainwright Term 3 (Fall 26) & Term 4 (Winter 27)" [ref=f643e132] [cursor=pointer]:
+                    - /url: https://careers.ucalgary.ca/jobs/17747367-sessional-nursing-instructors-faculty-of-nursing-wainwright-term-3-fall-26-and-term-4-winter-27
+              - paragraph [ref=f643e133]:
+                - strong [ref=f643e134]: "Job ID:"
+                - text: "37539"
+                - strong [ref=f643e135]: "Location:"
+                - text: Main Campus Updated May 15, 2026
+              - generic [ref=f643e136]: Description The University of Calgary, Faculty of Nursing is seeking Sessional Nursing Instructors to teach an undergraduate BScN level clinical course within Wainwright, for the Fall Semester 2026...
+              - paragraph [ref=f643e137]:
+                - link "Learn More" [ref=f643e138] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/17747367-sessional-nursing-instructors-faculty-of-nursing-wainwright-term-3-fall-26-and-term-4-winter-27
+            - generic [ref=f643e141]:
+              - heading [level=2] [ref=f643e142]:
+                - strong [ref=f643e143]:
+                  - link "Faculty of Nursing Sessional Instructor - Wainwright Term 7 Fall 2026" [ref=f643e144] [cursor=pointer]:
+                    - /url: https://careers.ucalgary.ca/jobs/17703626-faculty-of-nursing-sessional-instructor-wainwright-term-7-fall-2026
+              - paragraph [ref=f643e145]:
+                - strong [ref=f643e146]: "Job ID:"
+                - text: "37465"
+                - strong [ref=f643e147]: "Location:"
+                - text: Main Campus Updated August 07, 2026
+              - generic [ref=f643e148]: Description Sessional Nursing InstructorsFaculty of Nursing Rural - Wainwright Term 7 Fall 2026The University of Calgary, Faculty of Nursing is seeking Sessional Nursing Instructors to teach...
+              - paragraph [ref=f643e149]:
+                - link "Learn More" [ref=f643e150] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/17703626-faculty-of-nursing-sessional-instructor-wainwright-term-7-fall-2026
+            - generic [ref=f643e153]:
+              - heading [level=2] [ref=f643e154]:
+                - strong [ref=f643e155]:
+                  - link "Sessional Nursing Instructors, Faculty of Nursing BScN, Drayton Valley Nursing Program Term 3 (Fall 2026) & Term 4 (Winter 2027)" [ref=f643e156] [cursor=pointer]:
+                    - /url: https://careers.ucalgary.ca/jobs/17690024-sessional-nursing-instructors-faculty-of-nursing-bscn-drayton-valley-nursing-program-term-3-fall-2026-and-term-4-winter-2027
+              - paragraph [ref=f643e157]:
+                - strong [ref=f643e158]: "Job ID:"
+                - text: "37445"
+                - strong [ref=f643e159]: "Location:"
+                - text: Main Campus Updated May 04, 2026
+              - generic [ref=f643e160]: Description The University of Calgary, Faculty of Nursing is seeking Sessional Nursing Instructors to teach an undergraduate BScN level clinical course within Drayton, for the Fall Semester 2026...
+              - paragraph [ref=f643e161]:
+                - link "Learn More" [ref=f643e162] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/17690024-sessional-nursing-instructors-faculty-of-nursing-bscn-drayton-valley-nursing-program-term-3-fall-2026-and-term-4-winter-2027
+            - generic [ref=f643e165]:
+              - heading [level=2] [ref=f643e166]:
+                - strong [ref=f643e167]:
+                  - link "Sessional Nursing Instructors, Faculty of Nursing BScN, Bonnyville Nursing Program Term 3 (Fall 2026) & Term 4 (Winter 2027)" [ref=f643e168] [cursor=pointer]:
+                    - /url: https://careers.ucalgary.ca/jobs/17684279-sessional-nursing-instructors-faculty-of-nursing-bscn-bonnyville-nursing-program-term-3-fall-2026-and-term-4-winter-2027
+              - paragraph [ref=f643e169]:
+                - strong [ref=f643e170]: "Job ID:"
+                - text: "37440"
+                - strong [ref=f643e171]: "Location:"
+                - text: Main Campus Updated May 01, 2026
+              - generic [ref=f643e172]: Description The University of Calgary, Faculty of Nursing is seeking Sessional Nursing Instructors to teach an undergraduate BScN level clinical course within Bonnyville, for the Fall Semester 2026...
+              - paragraph [ref=f643e173]:
+                - link "Learn More" [ref=f643e174] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/17684279-sessional-nursing-instructors-faculty-of-nursing-bscn-bonnyville-nursing-program-term-3-fall-2026-and-term-4-winter-2027
+            - generic [ref=f643e177]:
+              - heading [level=2] [ref=f643e178]:
+                - strong [ref=f643e179]:
+                  - link "Sessional Nursing Instructor, Faculty of Nursing (Fall 2026, Winter 2027, Spring 2027, Summer 2027)" [ref=f643e180] [cursor=pointer]:
+                    - /url: https://careers.ucalgary.ca/jobs/17674760-sessional-nursing-instructor-faculty-of-nursing-fall-2026-winter-2027-spring-2027-summer-2027
+              - paragraph [ref=f643e181]:
+                - strong [ref=f643e182]: "Job ID:"
+                - text: "37420"
+                - strong [ref=f643e183]: "Location:"
+                - text: Main Campus Updated June 09, 2026
+              - generic [ref=f643e184]: Description The University of Calgary, Faculty of Nursing is seeking Sessional Nursing Instructors to teach courses in our Graduate Certificate Laddered Pathway to Master of Nursing Program....
+              - paragraph [ref=f643e185]:
+                - link "Learn More" [ref=f643e186] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/17674760-sessional-nursing-instructor-faculty-of-nursing-fall-2026-winter-2027-spring-2027-summer-2027
+            - generic [ref=f643e189]:
+              - heading [level=2] [ref=f643e190]:
+                - strong [ref=f643e191]:
+                  - link "Faculty of Nursing Sessional Instructor - Fall 2026 Term 7 Older Adult, Oncology, & Perinatal" [ref=f643e192] [cursor=pointer]:
+                    - /url: https://careers.ucalgary.ca/jobs/17640262-faculty-of-nursing-sessional-instructor-fall-2026-term-7-older-adult-oncology-and-perinatal
+              - paragraph [ref=f643e193]:
+                - strong [ref=f643e194]: "Job ID:"
+                - text: "37336"
+                - strong [ref=f643e195]: "Location:"
+                - text: Main Campus Updated July 23, 2026
+              - generic [ref=f643e196]: Description The University of Calgary, Faculty of Nursing is seeking Sessional Nursing Instructors to teach undergraduate level courses for the Fall Term (September to December) as...
+              - paragraph [ref=f643e197]:
+                - link "Learn More" [ref=f643e198] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/17640262-faculty-of-nursing-sessional-instructor-fall-2026-term-7-older-adult-oncology-and-perinatal
+            - generic [ref=f643e201]:
+              - heading [level=2] [ref=f643e202]:
+                - strong [ref=f643e203]:
+                  - link "Faculty of Nursing Sessional Instructors - Fall 2026 NRSG350 Aging Adult" [ref=f643e204] [cursor=pointer]:
+                    - /url: https://careers.ucalgary.ca/jobs/17640100-faculty-of-nursing-sessional-instructors-fall-2026-nrsg350-aging-adult
+              - paragraph [ref=f643e205]:
+                - strong [ref=f643e206]: "Job ID:"
+                - text: "37335"
+                - strong [ref=f643e207]: "Location:"
+                - text: Main Campus Updated July 23, 2026
+              - generic [ref=f643e208]: Description The University of Calgary, Faculty of Nursing is seeking Sessional Nursing Instructors to teach undergraduate level courses for the Fall Term (September to December) as...
+              - paragraph [ref=f643e209]:
+                - link "Learn More" [ref=f643e210] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/17640100-faculty-of-nursing-sessional-instructors-fall-2026-nrsg350-aging-adult
+            - generic [ref=f643e213]:
+              - heading [level=2] [ref=f643e214]:
+                - strong [ref=f643e215]:
+                  - 'link "Fall 2026 Term 3 BScN NRSG351: Health Promotion Practicum, Sessional Nursing Instructors, Faculty of Nursing" [ref=f643e216] [cursor=pointer]':
+                    - /url: https://careers.ucalgary.ca/jobs/17640099-fall-2026-term-3-bscn-nrsg351-health-promotion-practicum-sessional-nursing-instructors-faculty-of-nursing
+              - paragraph [ref=f643e217]:
+                - strong [ref=f643e218]: "Job ID:"
+                - text: "37332"
+                - strong [ref=f643e219]: "Location:"
+                - text: Main Campus Updated July 23, 2026
+              - generic [ref=f643e220]: Description The University of Calgary, Faculty of Nursing is seeking Sessional Nursing Instructors to teach undergraduate level courses for the Fall Term (September to December) as...
+              - paragraph [ref=f643e221]:
+                - link "Learn More" [ref=f643e222] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/17640099-fall-2026-term-3-bscn-nrsg351-health-promotion-practicum-sessional-nursing-instructors-faculty-of-nursing
+            - generic [ref=f643e225]:
+              - heading [level=2] [ref=f643e226]:
+                - strong [ref=f643e227]:
+                  - 'link "Fall 2026 & Winter 2027 Term 6 & Term 7 BScN: Acute Care, Mental Health, Perinatal, & Pediatrics" [ref=f643e228] [cursor=pointer]':
+                    - /url: https://careers.ucalgary.ca/jobs/17640098-fall-2026-and-winter-2027-term-6-and-term-7-bscn-acute-care-mental-health-perinatal-and-pediatrics
+              - paragraph [ref=f643e229]:
+                - strong [ref=f643e230]: "Job ID:"
+                - text: "37330"
+                - strong [ref=f643e231]: "Location:"
+                - text: Main Campus Updated July 23, 2026
+              - generic [ref=f643e232]: Description The University of Calgary, Faculty of Nursing is seeking Sessional Nursing Instructors to teach undergraduate level courses for the Fall Term (September to December) & Winter Term...
+              - paragraph [ref=f643e233]:
+                - link "Learn More" [ref=f643e234] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/17640098-fall-2026-and-winter-2027-term-6-and-term-7-bscn-acute-care-mental-health-perinatal-and-pediatrics
+            - generic [ref=f643e237]:
+              - heading [level=2] [ref=f643e238]:
+                - strong [ref=f643e239]:
+                  - 'link "Postdoctoral Fellow Sessional Instructors: Department of Mathematics and Statistics" [ref=f643e240] [cursor=pointer]':
+                    - /url: https://careers.ucalgary.ca/jobs/16867239-postdoctoral-fellow-sessional-instructors-department-of-mathematics-and-statistics
+              - paragraph [ref=f643e241]:
+                - strong [ref=f643e242]: "Job ID:"
+                - text: "35984"
+                - strong [ref=f643e243]: "Location:"
+                - text: Main Campus Updated May 07, 2026
+              - generic [ref=f643e244]: Description The Department of Mathematics & Statistics in the Faculty of Science at the University of Calgary is inviting applications for the Fall 2026 - Summer 2027 Sessional Instructorships...
+              - paragraph [ref=f643e245]:
+                - link "Learn More" [ref=f643e246] [cursor=pointer]:
+                  - /url: https://careers.ucalgary.ca/jobs/16867239-postdoctoral-fellow-sessional-instructors-department-of-mathematics-and-statistics
+          - link "Application FAQs " [ref=f643e250] [cursor=pointer]:
+            - /url: https://ucalgary.ca/hr/hiring-managing/applying-ucalgary
+    - contentinfo [ref=f643e251]:
+      - generic [ref=f643e252]:
+        - generic [ref=f643e253]:
+          - link [ref=f643e256] [cursor=pointer]:
+            - /url: https://ucalgary.ca/startsomething
+            - img "Start Something" [ref=f643e257]
+          - generic [ref=f643e258]:
+            - generic [ref=f643e259]:
+              - link " facebook" [ref=f643e260] [cursor=pointer]:
+                - /url: https://www.facebook.com/universityofcalgary
+                - generic [ref=f643e261]:
+                  - text: 
+                  - generic [ref=f643e262]: facebook
+              - link " twitter" [ref=f643e263] [cursor=pointer]:
+                - /url: https://www.twitter.com/ucalgary
+                - generic [ref=f643e264]:
+                  - text: 
+                  - generic [ref=f643e265]: twitter
+              - link " linkedin" [ref=f643e266] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/university-of-calgary
+                - generic [ref=f643e267]:
+                  - text: 
+                  - generic [ref=f643e268]: linkedin
+              - link " instagram" [ref=f643e269] [cursor=pointer]:
+                - /url: https://www.instagram.com/ucalgary
+                - generic [ref=f643e270]:
+                  - text: 
+                  - generic [ref=f643e271]: instagram
+              - link " youtube" [ref=f643e272] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/UCalgaryCa
+                - generic [ref=f643e273]:
+                  - text: 
+                  - generic [ref=f643e274]: youtube
+            - navigation [ref=f643e276]:
+              - list [ref=f643e277]:
+                - listitem [ref=f643e278]:
+                  - link "Digital Privacy Statement" [ref=f643e279] [cursor=pointer]:
+                    - /url: https://www.ucalgary.ca/sites/default/files/ucgy/groups/Marketing/digital-privacy-statement.pdf
+                - listitem [ref=f643e280]:
+                  - link "Privacy Policy" [ref=f643e281] [cursor=pointer]:
+                    - /url: https://www.ucalgary.ca/policies/files/policies/privacy-policy.pdf
+                - listitem [ref=f643e282]:
+                  - link "Website Feedback" [ref=f643e283] [cursor=pointer]:
+                    - /url: https://ucalgarysurvey.qualtrics.com/SE/?SID=SV_2lcAqNmIryzHpZ3
+          - generic [ref=f643e285]:
+            - paragraph [ref=f643e287]: University of Calgary 2500 University Drive NW Calgary Alberta T2N 1N4 CANADA
+            - paragraph [ref=f643e288]: Copyright © 2026
+        - generic [ref=f643e291]:
+          - paragraph [ref=f643e292]: The University of Calgary, located in the heart of Southern Alberta, both acknowledges and pays tribute to the traditional territories of the peoples of Treaty 7, which include the Blackfoot Confederacy (comprised of the Siksika, the Piikani, and the Kainai First Nations), the Tsuut’ina First Nation, and the Stoney Nakoda (including Chiniki, Bearspaw, and Goodstoney First Nations). The City of Calgary is also home to Métis Nation within Alberta (Nose Hill Métis District 5 and Elbow Métis District 6).
+          - paragraph [ref=f643e293]: The University of Calgary is situated on land Northwest of where the Bow River meets the Elbow River, a site traditionally known as Moh’kins’tsis to the Blackfoot, Wîchîspa to the Stoney Nakoda, and Guts’ists’i to the Tsuut’ina. On this land and in this place we strive to learn together, walk together, and grow together "in a good way."
+  - text:  

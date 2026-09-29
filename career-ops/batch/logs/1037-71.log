@@ -1,0 +1,18 @@
+No PDF/CV — role excluded pre-scoring. Output JSON summary.
+
+```json
+{
+  "status": "completed",
+  "id": "71",
+  "report_num": "1037",
+  "company": "Reddit",
+  "role": "Staff Data Scientist, Ads",
+  "score": null,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/1037-reddit-2026-08-25.md",
+  "error": "Hard excluded — Remote, United States role; Canada-only location policy (modes/_profile.md) forbids scoring/CV generation"
+}
+```
+
+Skip reason: US-remote role, hard blocked by candidate's Canada-only policy. No score, no CV. Report + tracker line (`batch/tracker-additions/71.tsv`, num 904, status Discarded) written; run `merge-tracker.mjs` when batch finishes.

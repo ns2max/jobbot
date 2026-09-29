@@ -1,0 +1,17 @@
+Rol location: Remote UK/Netherlands. No Canada. Profile hard-exclude policy (`modes/_profile.md`): non-Canadian roles = stop, no eval, no score, no report/PDF. Skip pipeline entirely.
+
+```json
+{
+  "status": "failed",
+  "id": "61",
+  "report_num": "1027",
+  "company": "Reddit",
+  "role": "Machine Learning Systems Engineer, Ads ML Platform",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role location is Remote - UK/Netherlands, not Canada. Per modes/_profile.md location policy (2026-08-20 scope: Canada-only), non-Canadian roles are excluded before evaluation — no report/PDF/tracker generated."
+}
+```
+
+No report, PDF, ni tracker line — política Canada-only bloquea antes de evaluar.

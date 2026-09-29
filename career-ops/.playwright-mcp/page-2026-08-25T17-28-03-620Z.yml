@@ -1,0 +1,393 @@
+- generic [active] [ref=f89e1]:
+  - main [ref=f89e2]:
+    - generic [ref=f89e3]:
+      - link [ref=f89e5] [cursor=pointer]:
+        - /url: https://www.anthropic.com/jobs
+        - img "Anthropic Logo" [ref=f89e6]
+      - generic [ref=f89e7]:
+        - link "Back to jobs" [ref=f89e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/anthropic
+        - generic [ref=f89e12]:
+          - generic [ref=f89e13]:
+            - heading "Staff + Sr. Software Engineer, Cloud Inference Launch Engineering" [level=1] [ref=f89e14]
+            - generic [ref=f89e15]: San Francisco, CA
+          - button "Apply" [ref=f89e19] [cursor=pointer]
+        - generic [ref=f89e20]:
+          - generic [ref=f89e21]:
+            - heading [level=2] [ref=f89e22]:
+              - strong [ref=f89e23]: About Anthropic
+            - paragraph [ref=f89e24]: Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.
+          - generic [ref=f89e25]:
+            - heading "About the role" [level=2] [ref=f89e26]
+            - paragraph [ref=f89e27]: The Cloud Inference team scales and optimizes Claude to serve the massive audiences of developers and enterprise companies across AWS, GCP, Azure, and future cloud service providers (CSPs). We own the end-to-end product of Claude on each cloud platform, from API integration and intelligent request routing to inference execution, capacity management, and day-to-day operations.
+            - paragraph [ref=f89e28]: Within Cloud Inference, the model & inference launch team owns the validation pipeline for our inference server and load balancer on these platforms. We're responsible for every inference change — model launches, performance improvements, safeguard integrations — landing on cloud platforms with correctness, performance, and reliability intact.
+            - paragraph [ref=f89e29]: "This is high-leverage infrastructure work: validation has to be fast and cheap enough to run on the same accelerators that serve customers, trustworthy enough to replace manual checks, and consistent enough that a change working on Anthropic first-party means it works everywhere. This directly determines how fast frontier models and features ship to every cloud platform, and how quickly performance wins reach production — reclaiming capacity at a time when compute is our scarcest resource."
+            - heading "Key responsibilities" [level=2] [ref=f89e30]
+            - list [ref=f89e31]:
+              - listitem [ref=f89e32]: Be on the critical path for frontier model launches, bringing up inference for new model architectures and shipping them to cloud platforms in lockstep with our first-party platform
+              - listitem [ref=f89e33]: Work with the core inference team to bring new inference features (e.g. structured sampling, prompt caching, and more) to cloud platforms, owning the platform-specific integration that gets them to production
+              - listitem [ref=f89e34]: Identify and dive deep on the gaps that make inference behave differently across first-party and CSPs — config drift, observability, deployment patterns, hard cross-platform bugs — and fix them at the source rather than building platform-specific workarounds
+              - listitem [ref=f89e35]: Design, build, and own the CI/CD infrastructure for the inference server and load balancer across cloud platforms, with shadow traffic, performance baselines (throughput and latency), and correctness checks that catch regressions before production
+              - listitem [ref=f89e36]: Drive down merge-to-production cycle time by making validation faster, more parallel, and cost-effective enough to run on the same constrained accelerator pool that serves customers, without trading away reliability
+              - listitem [ref=f89e37]: Analyze observability data across providers to identify performance bottlenecks, cost anomalies, and regressions, and drive remediation based on real-world production workloads
+            - heading "Minimum qualifications" [level=2] [ref=f89e38]
+            - list [ref=f89e39]:
+              - listitem [ref=f89e40]: Have a strong interest in LLM serving; prior inference or ML experience is not required
+              - listitem [ref=f89e41]: Have significant software engineering experience, with a strong background in high-performance, large-scale distributed systems serving millions of users
+              - listitem [ref=f89e42]: Have a track record of building automation or test infrastructure that measurably improved release velocity or reliability
+              - listitem [ref=f89e43]: Have experience building or operating services on at least one major cloud platform (AWS, GCP, or Azure), with exposure to Kubernetes, Infrastructure as Code, or container orchestration
+              - listitem [ref=f89e44]: Thrive in cross-functional collaboration with both internal teams and external partners
+              - listitem [ref=f89e45]: Are a fast learner who can quickly ramp up on new technologies, hardware platforms, and provider ecosystems
+              - listitem [ref=f89e46]: Are highly autonomous and take ownership of problems end-to-end, including work that falls outside your job description
+            - heading "Preferred qualifications" [level=2] [ref=f89e47]
+            - list [ref=f89e48]:
+              - listitem [ref=f89e49]: LLM inference optimization, batching, and caching strategies
+              - listitem [ref=f89e50]: Capacity-constrained scheduling or shared-resource test infrastructure
+              - listitem [ref=f89e51]: Solid understanding of multi-region deployments, request routing, load balancing, global traffic management
+              - listitem [ref=f89e52]: Working with CSP partner teams to scale infrastructure across multiple platforms, navigating differences in networking, security, privacy, and managed service
+              - listitem [ref=f89e53]: Proficiency in Python or Rust
+          - generic [ref=f89e55]:
+            - generic [ref=f89e58]:
+              - paragraph [ref=f89e59]: The annual compensation range for this role is listed below.
+              - paragraph [ref=f89e60]: For sales roles, the range provided is the role’s On Target Earnings ("OTE") range, meaning that the range includes both the sales commissions/sales bonuses target and annual base salary for the role.
+            - paragraph [ref=f89e61]: "Annual Salary:"
+            - paragraph [ref=f89e62]: $320,000 - $485,000 USD
+          - generic [ref=f89e63]:
+            - heading [level=2] [ref=f89e64]:
+              - strong [ref=f89e65]: Logistics
+            - paragraph [ref=f89e66]:
+              - strong [ref=f89e67]: "Minimum education:"
+              - text: Bachelor’s degree or an equivalent combination of education, training, and/or experience
+            - paragraph [ref=f89e68]:
+              - strong [ref=f89e69]: "Required field of study:"
+              - text: A field relevant to the role as demonstrated through coursework, training, or professional experience
+            - paragraph [ref=f89e70]:
+              - strong [ref=f89e71]: "Minimum years of experience:"
+              - text: Years of experience required will correlate with the internal job level requirements for the position
+            - paragraph [ref=f89e72]:
+              - strong [ref=f89e73]: "Location-based hybrid policy:"
+              - text: Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.
+            - paragraph [ref=f89e74]:
+              - strong [ref=f89e75]: "Visa sponsorship:"
+              - text: We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.
+            - paragraph [ref=f89e76]:
+              - strong [ref=f89e77]: We encourage you to apply even if you do not believe you meet every single qualification.
+              - text: Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you're interested in this work. We think AI systems like the ones we're building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.
+              - strong [ref=f89e78]: Your safety matters to us.
+              - text: To protect yourself from potential scams, remember that Anthropic recruiters only contact you from @anthropic.com email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you're ever unsure about a communication, don't click any links—visit
+              - link "anthropic.com/careers" [ref=f89e80] [cursor=pointer]:
+                - /url: http://anthropic.com/careers
+              - text: directly for confirmed position openings.
+            - heading [level=2] [ref=f89e81]:
+              - strong [ref=f89e82]: How we're different
+            - paragraph [ref=f89e83]: We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We're an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.
+            - paragraph [ref=f89e84]: "The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI & Compute, Concrete Problems in AI Safety, and Learning from Human Preferences."
+            - heading [level=2] [ref=f89e85]:
+              - strong [ref=f89e86]: Come work with us!
+            - paragraph [ref=f89e87]:
+              - text: Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues.
+              - strong [ref=f89e88]: "Guidance on Candidates' AI Usage:"
+              - text: Learn about
+              - link "our policy" [ref=f89e89] [cursor=pointer]:
+                - /url: https://www.anthropic.com/candidate-ai-guidance
+              - text: for using AI in our application process.
+        - generic [ref=f89e93]:
+          - paragraph [ref=f89e94]: Get new jobs like this in your inbox
+          - paragraph [ref=f89e95]: We'll email you when Anthropic posts a job like this one.
+          - link "Create alert" [ref=f89e96] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=anthropic&source=job_alert_post&variant=job_alert_post_b
+      - separator [ref=f89e97]
+      - generic [ref=f89e98]:
+        - generic [ref=f89e100]:
+          - heading "Apply for this job" [level=2] [ref=f89e102]
+          - generic [ref=f89e103]:
+            - paragraph [ref=f89e105]: "*"
+            - paragraph [ref=f89e106]: indicates a required field
+        - generic [ref=f89e107]:
+          - generic [ref=f89e108]:
+            - generic [ref=f89e111]:
+              - generic [ref=f89e112]: First Name*
+              - textbox "First Name" [ref=f89e113]
+            - generic [ref=f89e116]:
+              - generic [ref=f89e117]: Last Name*
+              - textbox "Last Name" [ref=f89e118]
+            - generic [ref=f89e121]:
+              - generic [ref=f89e122]: Email*
+              - textbox "Email" [ref=f89e123]
+            - group "Phone" [ref=f89e125]:
+              - generic [ref=f89e129]:
+                - generic [ref=f89e130]: Country
+                - generic [ref=f89e131]:
+                  - log [ref=f89e133]
+                  - generic [ref=f89e135]:
+                    - combobox "Country" [ref=f89e138]
+                    - button "Toggle flyout" [ref=f89e140] [cursor=pointer]
+              - generic [ref=f89e145]:
+                - generic [ref=f89e146]: Phone
+                - textbox "Phone" [ref=f89e148]
+            - group "Resume/CV" [ref=f89e150]:
+              - generic [ref=f89e153]:
+                - generic [ref=f89e155]:
+                  - button "Attach" [ref=f89e156] [cursor=pointer]
+                  - generic [ref=f89e157]: Attach
+                  - button "Attach" [ref=f89e158]
+                - button "Dropbox" [ref=f89e160] [cursor=pointer]
+                - button "Google Drive" [ref=f89e162] [cursor=pointer]
+                - generic [ref=f89e164]:
+                  - button "Enter manually" [ref=f89e165] [cursor=pointer]
+                  - generic [ref=f89e166]: Enter manually
+                - paragraph [ref=f89e167]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f89e168]:
+            - separator [ref=f89e169]
+            - generic [ref=f89e170]:
+              - generic [ref=f89e172]:
+                - generic [ref=f89e173]: (Optional) Personal Preferences
+                - textbox "(Optional) Personal Preferences" [ref=f89e174]
+              - paragraph [ref=f89e177]: How do you pronounce your name?
+            - generic [ref=f89e180]:
+              - generic [ref=f89e181]: Website
+              - textbox "Website" [ref=f89e182]
+            - generic [ref=f89e185]:
+              - generic [ref=f89e186]: Are you open to working in-person in one of our offices 25% of the time?*
+              - generic [ref=f89e187]:
+                - log [ref=f89e189]
+                - generic [ref=f89e191]:
+                  - generic [ref=f89e192]:
+                    - generic [ref=f89e193]: Select...
+                    - combobox "Are you open to working in-person in one of our offices 25% of the time?" [ref=f89e195]
+                  - button "Toggle flyout" [ref=f89e197] [cursor=pointer]
+                - textbox
+            - generic [ref=f89e202]:
+              - generic [ref=f89e203]: When is the earliest you would want to start working with us?
+              - textbox "When is the earliest you would want to start working with us?" [ref=f89e204]
+            - generic [ref=f89e207]:
+              - generic [ref=f89e208]: Do you have any deadlines or timeline considerations we should be aware of?
+              - textbox "Do you have any deadlines or timeline considerations we should be aware of?" [ref=f89e209]
+            - generic [ref=f89e210]:
+              - generic [ref=f89e212]:
+                - generic [ref=f89e213]: AI Policy for Application*
+                - generic [ref=f89e214]:
+                  - log [ref=f89e216]
+                  - generic [ref=f89e218]:
+                    - generic [ref=f89e219]:
+                      - generic [ref=f89e220]: Select...
+                      - combobox "AI Policy for Application" [ref=f89e222]
+                    - button "Toggle flyout" [ref=f89e224] [cursor=pointer]
+                  - textbox
+              - paragraph [ref=f89e229]:
+                - text: We believe that AI will have a transformative impact on the world, and we’re seeking exceptional candidates who collaborate thoughtfully with Claude to realize this vision. At the same time, we want to understand your unique skills, expertise, and perspective through our hiring process. We invite you to review our
+                - link "AI partnership guidelines for candidates" [ref=f89e230] [cursor=pointer]:
+                  - /url: https://www.anthropic.com/candidate-ai-guidance
+                - text: and confirm your understanding by selecting “Yes.”
+            - generic [ref=f89e231]:
+              - generic [ref=f89e233]:
+                - generic [ref=f89e234]: Why Anthropic?*
+                - textbox "Why Anthropic?" [ref=f89e235]
+              - paragraph [ref=f89e238]: Why do you want to work at Anthropic? (We value this response highly - great answers are often 200-400 words.)
+            - generic [ref=f89e241]:
+              - generic [ref=f89e242]: Do you require visa sponsorship? *
+              - generic [ref=f89e243]:
+                - log [ref=f89e245]
+                - generic [ref=f89e247]:
+                  - generic [ref=f89e248]:
+                    - generic [ref=f89e249]: Select...
+                    - combobox "Do you require visa sponsorship?" [ref=f89e251]
+                  - button "Toggle flyout" [ref=f89e253] [cursor=pointer]
+                - textbox
+            - generic [ref=f89e258]:
+              - generic [ref=f89e259]: Will you now or will you in the future require employment visa sponsorship to work in the country in which the job you're applying for is located? *
+              - generic [ref=f89e260]:
+                - log [ref=f89e262]
+                - generic [ref=f89e264]:
+                  - generic [ref=f89e265]:
+                    - generic [ref=f89e266]: Select...
+                    - combobox "Will you now or will you in the future require employment visa sponsorship to work in the country in which the job you're applying for is located?" [ref=f89e268]
+                  - button "Toggle flyout" [ref=f89e270] [cursor=pointer]
+                - textbox
+            - generic [ref=f89e273]:
+              - generic [ref=f89e275]:
+                - generic [ref=f89e276]: Additional Information
+                - textbox "Additional Information" [ref=f89e277]
+              - paragraph [ref=f89e280]: Add a cover letter or anything else you want to share.
+            - generic [ref=f89e281]:
+              - generic [ref=f89e283]:
+                - generic [ref=f89e284]: LinkedIn Profile
+                - textbox "LinkedIn Profile" [ref=f89e285]
+              - paragraph [ref=f89e288]:
+                - text: Please ensure to provide
+                - emphasis [ref=f89e289]: either
+                - text: your LinkedIn profile or Resume, we require at least one of the two.
+            - generic [ref=f89e292]:
+              - generic [ref=f89e293]: Are you open to relocation for this role? *
+              - generic [ref=f89e294]:
+                - log [ref=f89e296]
+                - generic [ref=f89e298]:
+                  - generic [ref=f89e299]:
+                    - generic [ref=f89e300]: Select...
+                    - combobox "Are you open to relocation for this role?" [ref=f89e302]
+                  - button "Toggle flyout" [ref=f89e304] [cursor=pointer]
+                - textbox
+            - generic [ref=f89e309]:
+              - generic [ref=f89e310]: What is the address from which you plan on working? If you would need to relocate, please type "relocating".
+              - textbox "What is the address from which you plan on working? If you would need to relocate, please type \"relocating\"." [ref=f89e311]
+            - generic [ref=f89e314]:
+              - generic [ref=f89e315]: Have you ever interviewed at Anthropic before?*
+              - generic [ref=f89e316]:
+                - log [ref=f89e318]
+                - generic [ref=f89e320]:
+                  - generic [ref=f89e321]:
+                    - generic [ref=f89e322]: Select...
+                    - combobox "Have you ever interviewed at Anthropic before?" [ref=f89e324]
+                  - button "Toggle flyout" [ref=f89e326] [cursor=pointer]
+                - textbox
+            - generic [ref=f89e329]:
+              - generic [ref=f89e331]:
+                - generic [ref=f89e332]: Please read the arbitration agreement below*
+                - generic [ref=f89e333]:
+                  - log [ref=f89e335]
+                  - generic [ref=f89e337]:
+                    - generic [ref=f89e338]:
+                      - generic [ref=f89e339]: Select...
+                      - combobox "Please read the arbitration agreement below" [ref=f89e341]
+                    - button "Toggle flyout" [ref=f89e343] [cursor=pointer]
+                  - textbox
+              - generic [ref=f89e347]:
+                - paragraph [ref=f89e348]
+                - paragraph [ref=f89e349]:
+                  - strong [ref=f89e350]:
+                    - emphasis [ref=f89e351]: Agreement to Arbitrate
+                - paragraph [ref=f89e352]:
+                  - emphasis [ref=f89e353]: I understand and agree that both Anthropic and I waive our respective rights to trial by jury in connection with any claims covered by this agreement to arbitrate. Instead, any disputes arising out of or related to my application for employment with Anthropic shall be settled by final and binding arbitration pursuant to the Federal Arbitration Act. I understand and agree that Anthropic’s employees/agents, Anthropic’s clients, and their employees/agents are third-party beneficiaries to this agreement.
+                - paragraph [ref=f89e354]:
+                  - emphasis [ref=f89e355]: The arbitration shall be conducted in accordance with the Employment Arbitration Rules & Procedures of Judicial Arbitration and Mediation Services, Inc. (“JAMS Rules”), available via the internet at
+                  - link [ref=f89e356] [cursor=pointer]:
+                    - /url: https://www.jamsadr.com/rules-employment-arbitration
+                    - emphasis [ref=f89e357]: https://www.jamsadr.com/rules-employment-arbitration
+                  - emphasis [ref=f89e358]: or by searching for “JAMS Employment Arbitration Rules” in an online search service such as
+                  - link [ref=f89e359] [cursor=pointer]:
+                    - /url: http://www.google.com/
+                    - emphasis [ref=f89e360]: www.google.com
+                  - emphasis [ref=f89e361]: . To the extent the JAMS Rules are inconsistent with the terms of this Agreement, this Agreement shall govern to the extent permitted by law. The parties will select one neutral arbitrator, who will have the authority to award all relief in law or equity that is requested by the parties and supported by credible, relevant, and admissible evidence. The arbitrator shall allow adequate discovery and issue a written, signed, and reasoned award. Judgement may be entered on the arbitrator’s award in any court having jurisdiction, and the award shall be subject to correction, confirmation, or vacation as provided by the applicable law concerning judicial review of arbitration awards. Anthropic will bear the costs that are particular to the arbitration, such as the arbitrator fees. The arbitrator will apply the substantive law of the state in which I sought employment with Anthropic. The arbitrator will determine the arbitration venue, based on fairness and convenience to the parties and witnesses, unless otherwise mutually agreed upon by the parties. The Party initiating a claim under this Agreement must make a written demand for arbitration to the other Party. The demand for arbitration shall identify the claims asserted, the facts upon which such claims are based, and any relief or remedy sought. Written demand for arbitration to Anthropic must be sent to Anthropic PBC at
+                  - link [ref=f89e362] [cursor=pointer]:
+                    - /url: mailto:arbdemands@anthropic.com
+                    - emphasis [ref=f89e363]: arbdemands@anthropic.com
+                  - emphasis [ref=f89e364]: . Anthropic’s demand for arbitration shall be sent to the most recent mailing address and/or email address that Anthropic has on file for you.
+                - paragraph [ref=f89e365]:
+                  - emphasis [ref=f89e366]: This agreement to arbitrate does not apply to claims for workers’ compensation, unemployment compensation benefits, claims or charges before any administrative agency having jurisdiction over such claims, or any other claim that is not subject to arbitration under federal law. If any claims are deemed non-arbitrable, then those claims will be stayed until resolution of any arbitrable claims.
+                - paragraph [ref=f89e367]:
+                  - emphasis [ref=f89e368]: I understand and agree that, except where prohibited by federal law, all claims subject to this agreement to arbitrate must be pursued on an individual basis, and that both I and Anthropic waive any right to bring or be a party to any class or collective action. I agree that any issues pertaining to the enforceability, application or validity of this agreement to arbitrate shall be decided only by a court of competent jurisdiction and not by an arbitrator. This agreement to arbitrate applies only in the United States.
+            - generic [ref=f89e371]:
+              - generic [ref=f89e372]: Agreement to Arbitrate*
+              - generic [ref=f89e373]:
+                - log [ref=f89e375]
+                - generic [ref=f89e377]:
+                  - generic [ref=f89e378]:
+                    - generic [ref=f89e379]: Select...
+                    - combobox "Agreement to Arbitrate" [ref=f89e381]
+                  - button "Toggle flyout" [ref=f89e383] [cursor=pointer]
+                - textbox
+          - generic [ref=f89e386]:
+            - separator [ref=f89e387]
+            - generic [ref=f89e388]:
+              - heading "Voluntary Self-Identification" [level=2] [ref=f89e389]
+              - paragraph [ref=f89e390]: For government reporting purposes, we ask candidates to respond to the below self-identification survey. Completion of the form is entirely voluntary. Whatever your decision, it will not be considered in the hiring process or thereafter. Any information that you do provide will be recorded and maintained in a confidential file.
+              - paragraph [ref=f89e391]: As set forth in Anthropic’s Equal Employment Opportunity policy, we do not discriminate on the basis of any protected group status under any applicable law.
+            - generic [ref=f89e394]:
+              - generic [ref=f89e395]: Gender
+              - generic [ref=f89e396]:
+                - log [ref=f89e398]
+                - generic [ref=f89e400]:
+                  - generic [ref=f89e401]:
+                    - generic [ref=f89e402]: Select...
+                    - combobox "Gender" [ref=f89e404]
+                  - button "Toggle flyout" [ref=f89e406] [cursor=pointer]
+            - generic [ref=f89e409]:
+              - generic [ref=f89e411]:
+                - generic [ref=f89e412]: Are you Hispanic/Latino?
+                - generic [ref=f89e413]:
+                  - log [ref=f89e415]
+                  - generic [ref=f89e417]:
+                    - generic [ref=f89e418]:
+                      - generic [ref=f89e419]: Select...
+                      - combobox "Are you Hispanic/Latino?" [ref=f89e421]
+                    - button "Toggle flyout" [ref=f89e423] [cursor=pointer]
+              - link "Race & Ethnicity Definitions" [ref=f89e426] [cursor=pointer]:
+                - /url: https://job-boards.cdn.greenhouse.io/docs/2023/RaceEthnicityDefinitions.pdf
+            - generic [ref=f89e427]:
+              - paragraph [ref=f89e428]: "If you believe you belong to any of the categories of protected veterans listed below, please indicate by making the appropriate selection. As a government contractor subject to the Vietnam Era Veterans Readjustment Assistance Act (VEVRAA), we request this information in order to measure the effectiveness of the outreach and positive recruitment efforts we undertake pursuant to VEVRAA. Classification of protected categories is as follows:"
+              - paragraph [ref=f89e429]: "A \"disabled veteran\" is one of the following: a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or a person who was discharged or released from active duty because of a service-connected disability."
+              - paragraph [ref=f89e430]: A "recently separated veteran" means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+              - paragraph [ref=f89e431]: An "active duty wartime or campaign badge veteran" means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+              - paragraph [ref=f89e432]: An "Armed forces service medal veteran" means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+            - generic [ref=f89e435]:
+              - generic [ref=f89e436]: Veteran Status
+              - generic [ref=f89e437]:
+                - log [ref=f89e439]
+                - generic [ref=f89e441]:
+                  - generic [ref=f89e442]:
+                    - generic [ref=f89e443]: Select...
+                    - combobox "Veteran Status" [ref=f89e445]
+                  - button "Toggle flyout" [ref=f89e447] [cursor=pointer]
+            - separator [ref=f89e450]
+            - generic [ref=f89e451]:
+              - heading "Voluntary Self-Identification of Disability" [level=2] [ref=f89e452]
+              - generic [ref=f89e453]:
+                - generic [ref=f89e454]:
+                  - generic [ref=f89e455]: Form CC-305
+                  - generic [ref=f89e456]: Page 1 of 1
+                - generic [ref=f89e457]:
+                  - generic [ref=f89e458]: OMB Control Number 1250-0005
+                  - generic [ref=f89e459]: Expires 07/31/2029
+              - strong [ref=f89e460]: Why are you being asked to complete this form?
+              - paragraph [ref=f89e461]: We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.
+              - paragraph [ref=f89e462]:
+                - text: Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at
+                - link "www.dol.gov/ofccp" [ref=f89e463] [cursor=pointer]:
+                  - /url: https://www.dol.gov/ofccp
+                - text: .
+              - strong [ref=f89e464]: How do you know if you have a disability?
+              - paragraph [ref=f89e465]:
+                - text: A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability.
+                - strong [ref=f89e466]: "Disabilities include, but are not limited to:"
+              - list [ref=f89e467]:
+                - listitem [ref=f89e468]: Alcohol or other substance use disorder (not currently using drugs illegally)
+                - listitem [ref=f89e469]: Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDS
+                - listitem [ref=f89e470]: Blind or low vision
+                - listitem [ref=f89e471]: Cancer (past or present)
+                - listitem [ref=f89e472]: Cardiovascular or heart disease
+                - listitem [ref=f89e473]: Celiac disease
+                - listitem [ref=f89e474]: Cerebral palsy
+                - listitem [ref=f89e475]: Deaf or serious difficulty hearing
+                - listitem [ref=f89e476]: Diabetes
+                - listitem [ref=f89e477]: Disfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disorders
+                - listitem [ref=f89e478]: Epilepsy or other seizure disorder
+                - listitem [ref=f89e479]: Gastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndrome
+                - listitem [ref=f89e480]: Intellectual or developmental disability
+                - listitem [ref=f89e481]: Mental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSD
+                - listitem [ref=f89e482]: Missing limbs or partially missing limbs
+                - listitem [ref=f89e483]: Mobility impairment, benefiting from the use of a wheelchair, scooter, walker, leg brace(s) and/or other supports
+                - listitem [ref=f89e484]: Nervous system condition, for example, migraine headaches, Parkinson’s disease, multiple sclerosis (MS)
+                - listitem [ref=f89e485]: Neurodivergence, for example, attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, dyslexia, dyspraxia, other learning disabilities
+                - listitem [ref=f89e486]: Partial or complete paralysis (any cause)
+                - listitem [ref=f89e487]: Pulmonary or respiratory conditions, for example, tuberculosis, asthma, emphysema
+                - listitem [ref=f89e488]: Short stature (dwarfism)
+                - listitem [ref=f89e489]: Traumatic brain injury
+            - generic [ref=f89e492]:
+              - generic [ref=f89e493]: Disability Status
+              - generic [ref=f89e494]:
+                - log [ref=f89e496]
+                - generic [ref=f89e498]:
+                  - generic [ref=f89e499]:
+                    - generic [ref=f89e500]: Select...
+                    - combobox "Disability Status" [ref=f89e502]
+                  - button "Toggle flyout" [ref=f89e504] [cursor=pointer]
+            - paragraph [ref=f89e508]: "PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete."
+          - button "Submit application" [ref=f89e510] [cursor=pointer]
+  - contentinfo [ref=f89e511]:
+    - generic [ref=f89e512]:
+      - paragraph [ref=f89e513]: Powered by
+      - link [ref=f89e514] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f89e515]
+  - iframe [ref=f89e529]:
+    

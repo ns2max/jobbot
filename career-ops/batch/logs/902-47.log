@@ -1,0 +1,18 @@
+Skip done. No PDF (policy excludes generation for out-of-scope role). Output JSON summary:
+
+```json
+{
+  "status": "completed",
+  "id": "47",
+  "report_num": "902",
+  "company": "Vapi",
+  "role": "Member of Technical Staff, Core Backend",
+  "score": null,
+  "legitimacy": "Proceed with Caution",
+  "pdf": null,
+  "report": "reports/902-vapi-2026-08-24.md",
+  "error": null
+}
+```
+
+Role SF US-based, backend infra — hard exclude (Canada-only policy) + archetype mismatch. Same call as sibling report 733 (Vapi DevOps). Report + tracker line written, no CV/PDF generated per policy.

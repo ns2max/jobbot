@@ -1,0 +1,68 @@
+% Job posting: https://jobs.ashbyhq.com/eli/dd8575a8-60e0-472f-a8b9-6f7a6478699d
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: Eli Health - Machine Learning Scientist, Montreal QC (on-site)
+%  Variant: V1 (AI-Industry), applied-science lean. Standard 4-paragraph template.
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.03}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied ML}
+\newcommand{\clRole}{Machine Learning Scientist}
+\newcommand{\clCompany}{Eli Health}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{}, \clCompany{}}
+
+\clAddressee
+
+I am applying for the Machine Learning Scientist role at Eli Health. I am a machine learning research engineer with a PhD from the University of Trento and 10+ years across industry and academia, and my work has consistently been about turning noisy, imperfect real-world sensor data into models that hold up. In my postdoc I designed the frozen-protocol benchmark and ablation suites behind a published real-time audio detector that reaches F1 0.76 in 14 ms on a Raspberry Pi 4, 74 times faster than the DTW baseline it replaced (JAES 2026); the point of that work was telling a real accuracy gain apart from metric noise, and keeping an honest record of what did not work.
+
+Your posting describes signal-processing, statistical and machine-learning modelling on imperfect datasets, distinguishing improvements that are scientifically meaningful from those that only move a metric, and diagnosing production failures and distribution shift. Signal processing on noisy data is my core: DSP, STFT, MFCC and S-transform front ends feeding classical or deep sequence models, chosen by what the problem needs. I built benchmark suites with frozen protocols and ablations (RNN versus DTW, audio versus MIDI, pattern-set sizes 1/3/10) that quantified accuracy against latency and CPU cost. On the production side I owned deployed edge ML with monitoring in my postdoc, shipped computer-vision inspection into live manufacturing at MAS Holdings with a human-in-the-loop adjudication path, and built anomaly-scoring services on messy structured enterprise data at Forestpin, in each case using real-world failures to drive the next round of analysis and data collection.
+
+Eli's Hormometer turns saliva cortisol into a signal someone can track at home in minutes, and doing that reliably from an FDA-registered consumer device is fundamentally a noisy-measurement problem: confounding, measurement variability and distribution shift across users and conditions. The question you hire for, what can we conclude with confidence, what remains uncertain, and what should we do next, is already how I approach an open-ended problem. The closest I have come to health signals is a COVID-19 remote-vitals computer-vision device my team deployed across hospital wards in 2020 (GMOA recognition); assay and biochemistry would be new to me, but learning an applied field cold is a pattern in my record, from apparel manufacturing at MAS to financial forensics at Forestpin. A small, autonomous, mission-driven team building the first daily hormone-monitoring product, backed by a CAD 17M Series A and CES 2025's Best of Innovation in Digital Health, is the environment where I do my best work.
+
+I am a Canadian permanent resident, eligible to work without sponsorship, and available immediately since my postdoctoral contract ended in December 2025. I am based in Toronto and happy to relocate to Montreal for this on-site role, where I would also reconnect with the McGill CIRMMT community from my 2024 visiting appointment. My publications, datasets and portfolio are at \href{\clSite}{nishal.xyz}.
+
+\vspace{10pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

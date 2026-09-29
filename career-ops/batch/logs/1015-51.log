@@ -1,0 +1,18 @@
+Suno role: Boston, onsite 5x/wk, US-eligibility only. Canada-only policy hard excludes it — no scoring, no PDF, per precedent (report 902-vapi). Report + tracker line written, skip logged.
+
+```json
+{
+  "status": "completed",
+  "id": "51",
+  "report_num": "1015",
+  "company": "Suno",
+  "role": "Senior / Staff Software Engineer, AI Engineering",
+  "score": null,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/1015-suno-2026-08-25.md",
+  "error": null
+}
+```
+
+Excluded by location policy — no CV/PDF built. `merge-tracker.mjs` still pending after batch run.

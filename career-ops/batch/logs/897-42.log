@@ -1,0 +1,19 @@
+Job locations: SF, NYC, Seattle only (US) — no Canada/remote-Canada option. Profile policy `[[location & visa]]` in `_profile.md`: Canada-only hard exclude, no evaluation/report/PDF for non-Canadian roles regardless of sponsorship offered.
+
+Skipping full pipeline — no report, no PDF, no tracker line generated per policy.
+
+```json
+{
+  "status": "skipped",
+  "id": "42",
+  "report_num": "897",
+  "company": "Anthropic",
+  "role": "Staff + Senior Software Engineer, Inference Deployment",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role locations (SF/NYC/Seattle, US) outside Canada-only scope per modes/_profile.md location policy. Not evaluated."
+}
+```
+
+Batch 42 done — no files written. Want override to evaluate anyway (e.g. if remote-Canada possible), or skip stands?

@@ -1,0 +1,126 @@
+- generic [ref=f105e2]:
+  - list [ref=f105e4]:
+    - listitem [ref=f105e5]:
+      - link [ref=f105e6] [cursor=pointer]:
+        - /url: https://www.suno.com/
+        - img "Suno" [ref=f105e7]
+    - listitem [ref=f105e8]:
+      - link "Back to Suno’s Job Listings" [ref=f105e9] [cursor=pointer]:
+        - /url: /suno
+    - listitem
+  - generic [ref=f105e12]:
+    - heading "Senior / Staff Data Scientist, Growth Product" [level=1] [ref=f105e14]
+    - generic [ref=f105e15]:
+      - generic [ref=f105e16]:
+        - generic [ref=f105e17]:
+          - heading "Location" [level=2] [ref=f105e18]
+          - paragraph [ref=f105e19]: NYC
+        - generic [ref=f105e20]:
+          - heading "Employment Type" [level=2] [ref=f105e21]
+          - paragraph [ref=f105e22]: Full time
+        - generic [ref=f105e23]:
+          - heading "Location Type" [level=2] [ref=f105e24]
+          - paragraph [ref=f105e25]: On-site
+        - generic [ref=f105e26]:
+          - heading "Department" [level=2] [ref=f105e27]
+          - paragraph [ref=f105e28]: Data
+        - generic [ref=f105e29]:
+          - heading "Compensation" [level=2] [ref=f105e30]
+          - paragraph [ref=f105e32]: $220K – $320K • Offers Equity
+      - generic [ref=f105e33]:
+        - tablist [ref=f105e34]:
+          - tab "Overview" [selected] [ref=f105e35] [cursor=pointer]
+          - tab "Application" [ref=f105e36] [cursor=pointer]
+        - tabpanel "Overview" [ref=f105e38]:
+          - generic [ref=f105e39]:
+            - heading [level=1] [ref=f105e40]:
+              - strong [ref=f105e41]: About Suno
+            - paragraph [ref=f105e42]: "We're building the world's first creative entertainment platform, where the entire world can feel the joy and fulfillment of making music. Music is for everyone: Our users include everyone from grandmothers creating songs for their loved ones, to Grammy winners using Suno Studio, our power tool, to make the most popular hits in the world."
+            - paragraph [ref=f105e43]: "Building the future of entertainment requires ambition. The pace is fast, the problems are hard, and the work demands ownership and intensity. For the right people, it’s incredibly rewarding: a chance to shape a new medium, work with a small team that cares deeply about quality, make music, drink too much coffee, and build something that millions of people use to express themselves in ways that were never before possible."
+            - paragraph [ref=f105e44]: Suno is the fastest growing consumer entertainment company and the leader in AI music. We are backed by leading investors including Bond Capital, Menlo Ventures, Lightspeed Venture Partners, IVP, Forerunner, Union Square Ventures, Alkeon, Quiet, Matrix Partners, Schroders Capital and, NVentures (venture arm of NVIDIA).
+            - paragraph [ref=f105e45]
+            - heading "About the Role" [level=1] [ref=f105e46]
+            - paragraph [ref=f105e47]: "As a data Scientist on Growth Product, you'll own the analytics for the early-life user journey: everything from the moment someone lands on Suno through their first sessions, first songs, and first reasons to come back. A user's first few experiences are some of the most important inflection points in their lifecycle, and getting them right is one of the highest-leverage problems at Suno. You'll lead data science support on the Growth Activation team, working very closely with product, engineering, and design."
+            - paragraph [ref=f105e48]
+            - heading "What You'll Do" [level=1] [ref=f105e49]
+            - list [ref=f105e50]:
+              - listitem [ref=f105e51]:
+                - paragraph [ref=f105e52]: Own the analytics for how new users activate and form habits on Suno, from signup and onboarding through everything that happens in their first week on Suno
+              - listitem [ref=f105e53]:
+                - paragraph [ref=f105e54]: Design experiments that improve the early-life journey, from push notifications and lifecycle messaging to product surfaces like Hooks, Create, and net-new experiences
+              - listitem [ref=f105e55]:
+                - paragraph [ref=f105e56]: Sit on a centralized data science team but serve as the lead DS on Growth Activate, collaborating closely with product, engineering, and design
+              - listitem [ref=f105e57]:
+                - paragraph [ref=f105e58]: Advance our mission of making creative fulfillment a daily reality for everyone by turning first visits into daily creative habits
+              - listitem [ref=f105e59]:
+                - paragraph [ref=f105e60]: Contribute to building strong data foundations as part of our awesome data science team
+                - paragraph [ref=f105e61]
+            - heading "What You'll Need" [level=1] [ref=f105e62]
+            - heading "Must-Haves" [level=3] [ref=f105e63]
+            - list [ref=f105e64]:
+              - listitem [ref=f105e65]:
+                - paragraph [ref=f105e66]: 5-7+ years in data science or product analytics roles, ideally on consumer products
+              - listitem [ref=f105e67]:
+                - paragraph [ref=f105e68]: Advanced proficiency in SQL, Python, and statistical modeling
+              - listitem [ref=f105e69]:
+                - paragraph [ref=f105e70]: "Deep experimentation experience grounded in statistical rigor: designing and running experiments end to end, deriving clear insights, and making strategic recommendations"
+              - listitem [ref=f105e71]:
+                - paragraph [ref=f105e72]: A broad data science toolkit and the judgment to pick the right tool for the right question, all ultimately in service of making thoughtful product decisions
+              - listitem [ref=f105e73]:
+                - paragraph [ref=f105e74]: "A self-starter mentality with an ownership mindset: you thrive in ambiguity, wear multiple hats, and never stop learning"
+              - listitem [ref=f105e75]:
+                - paragraph [ref=f105e76]: "Strong cross-functional collaboration: you work closely with product, eng, and design, and influence stakeholders and teams through data insights"
+            - paragraph [ref=f105e77]
+            - heading "Nice-to-Haves" [level=3] [ref=f105e78]
+            - list [ref=f105e79]:
+              - listitem [ref=f105e80]:
+                - paragraph [ref=f105e81]: Experience at a fast-growing consumer app, or a startup that scaled through strong product-led growth
+              - listitem [ref=f105e82]:
+                - paragraph [ref=f105e83]: Background in activation, lifecycle, or growth analytics
+              - listitem [ref=f105e84]:
+                - paragraph [ref=f105e85]: Hands-on AI usage in day-to-day data science work (agents, prompting, building small tools)
+              - listitem [ref=f105e86]:
+                - paragraph [ref=f105e87]: A love of music or creative tools
+                - paragraph [ref=f105e88]
+            - heading "Work Location Policy" [level=1] [ref=f105e89]
+            - paragraph [ref=f105e90]: This role is expected to work from the designated Suno office 5 days a week, per Suno's company policy. Full-time employees will receive competitive equity packages, and comprehensive benefits. The actual base salary offered may vary depending on location, skills, qualifications, and experience.
+            - paragraph [ref=f105e91]
+            - heading "Additional Notes" [level=1] [ref=f105e92]
+            - paragraph [ref=f105e93]: Applicants must be eligible to work in the US.
+            - paragraph [ref=f105e94]
+            - heading "Perks & Benefits for Full-Time Employees" [level=1] [ref=f105e95]
+            - list [ref=f105e96]:
+              - listitem [ref=f105e97]:
+                - paragraph [ref=f105e98]: Company Equity Package
+              - listitem [ref=f105e99]:
+                - paragraph [ref=f105e100]: 401(k) with 3% Employer Match & Roth 401(k)
+              - listitem [ref=f105e101]:
+                - paragraph [ref=f105e102]: Medical, Dental, & Vision Insurance (PPO w/ HSA & FSA options)
+              - listitem [ref=f105e103]:
+                - paragraph [ref=f105e104]: 11 Paid Holidays + Unlimited PTO & Sick Time
+              - listitem [ref=f105e105]:
+                - paragraph [ref=f105e106]: 16 Weeks of Paid Parental Leave
+              - listitem [ref=f105e107]:
+                - paragraph [ref=f105e108]: Creative Education Stipend
+              - listitem [ref=f105e109]:
+                - paragraph [ref=f105e110]: Generous Commuter Allowance
+              - listitem [ref=f105e111]:
+                - paragraph [ref=f105e112]: In-Office Lunch (5 days per week)
+            - paragraph [ref=f105e113]
+            - paragraph [ref=f105e114]
+            - paragraph [ref=f105e115]: Suno is proud to be an Equal Opportunity Employer. We consider qualified applicants without regard to race, color, ancestry, religion, sex, national origin, sexual orientation, gender identity, age, marital or family status, disability, genetic information, veteran status, or any other legally protected basis under provincial, federal, state, and local laws, regulations, or ordinances. We will also consider qualified applicants with criminal histories in a manner consistent with the requirements of state and local laws, including the Massachusetts Fair Chance in Employment Act, NYC Fair Chance Act, LA City Fair Chance Ordinance, and San Francisco Fair Chance Ordinance.
+          - link [ref=f105e116] [cursor=pointer]:
+            - /url: /suno/7b81d3fa-8a84-4d3a-b681-a6b06974e01e/application
+            - button "Apply for this Job" [ref=f105e117]
+  - contentinfo [ref=f105e118]:
+    - link "Learn more about Ashby" [ref=f105e119] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f105e120]: Powered by
+      - img "Ashby" [ref=f105e121]
+    - paragraph [ref=f105e127]:
+      - link "Privacy Policy" [ref=f105e128] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f105e129] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f105e130] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

@@ -1,0 +1,214 @@
+- generic [active] [ref=f20e1]:
+  - main [ref=f20e2]:
+    - generic [ref=f20e3]:
+      - heading "Current openings at EnCharge AI" [level=1] [ref=f20e4]
+      - generic [ref=f20e6]:
+        - generic [ref=f20e9]:
+          - generic [ref=f20e10]: Search
+          - textbox "Search" [ref=f20e11]
+        - generic [ref=f20e12]:
+          - heading "26 jobs" [level=2] [ref=f20e13]
+          - generic [ref=f20e14]:
+            - generic [ref=f20e15]:
+              - heading "Hardware" [level=3] [ref=f20e16]
+              - table [ref=f20e18]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f20e19]:
+                      - paragraph [ref=f20e20]: Job
+                - rowgroup [ref=f20e21]:
+                  - row [ref=f20e22]:
+                    - cell [ref=f20e23]:
+                      - link [ref=f20e24] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4369637009
+                        - paragraph [ref=f20e25]: Lead DFT Engineer
+                        - paragraph [ref=f20e26]: Canada, Remote - US
+                  - row [ref=f20e27]:
+                    - cell [ref=f20e28]:
+                      - link [ref=f20e29] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4136976009
+                        - paragraph [ref=f20e30]: Lead DFT Engineer (Edge Computing)
+                        - paragraph [ref=f20e31]: Bangalore
+                  - row [ref=f20e32]:
+                    - cell [ref=f20e33]:
+                      - link [ref=f20e34] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4210887009
+                        - paragraph [ref=f20e35]: Physical Design Engineer
+                        - paragraph [ref=f20e36]: Bangalore
+                  - row [ref=f20e37]:
+                    - cell [ref=f20e38]:
+                      - link [ref=f20e39] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4139138009
+                        - paragraph [ref=f20e40]: Principal Physical Design Engineer (RTL-to-GDSII)
+                        - paragraph [ref=f20e41]: Bangalore
+                  - row [ref=f20e42]:
+                    - cell [ref=f20e43]:
+                      - link [ref=f20e44] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4322288009
+                        - paragraph [ref=f20e45]: Principal SOC Physical Verification & Integration Specialist
+                        - paragraph [ref=f20e46]: Bangalore (Hybrid), India (Remote)
+                  - row [ref=f20e47]:
+                    - cell [ref=f20e48]:
+                      - link [ref=f20e49] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4357591009
+                        - paragraph [ref=f20e50]: "Senior PD Engineer: Synthesis & STA"
+                        - paragraph [ref=f20e51]: Bangalore INDIA Hybrid / Remote
+                  - row [ref=f20e52]:
+                    - cell [ref=f20e53]:
+                      - link [ref=f20e54] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4139769009
+                        - paragraph [ref=f20e55]: Senior Physical Design Engineer
+                        - paragraph [ref=f20e56]: Bangalore
+                  - row [ref=f20e57]:
+                    - cell [ref=f20e58]:
+                      - link [ref=f20e59] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4030929009
+                        - paragraph [ref=f20e60]: Senior Physical Design Engineer
+                        - paragraph [ref=f20e61]: United States
+                  - row [ref=f20e62]:
+                    - cell [ref=f20e63]:
+                      - link [ref=f20e64] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4343802009
+                        - paragraph [ref=f20e65]: Senior Staff / Principal SOC Floorplan Lead
+                        - paragraph [ref=f20e66]: Bangalore
+                  - row [ref=f20e67]:
+                    - cell [ref=f20e68]:
+                      - link [ref=f20e69] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4164343009
+                        - paragraph [ref=f20e70]: Staff DFT Engineer
+                        - paragraph [ref=f20e71]: Bangalore (Hybrid) or India (Remote)
+                  - row [ref=f20e72]:
+                    - cell [ref=f20e73]:
+                      - link [ref=f20e74] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4329845009
+                        - paragraph [ref=f20e75]: "Staff Engineer: STA Methodology & Sign-off Lead"
+                        - paragraph [ref=f20e76]: Bangalore
+                  - row [ref=f20e77]:
+                    - cell [ref=f20e78]:
+                      - link [ref=f20e79] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4312902009
+                        - paragraph [ref=f20e80]: Staff / Senior Staff CAD & Methodology Engineer (Digital Implementation & Signoff)
+                        - paragraph [ref=f20e81]: Bangalore (Hybrid), India (Remote)
+                  - row [ref=f20e82]:
+                    - cell [ref=f20e83]:
+                      - link [ref=f20e84] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4140565009
+                        - paragraph [ref=f20e85]: Staff/Senior Staff Physical Design Engineer (Technical Lead)
+                        - paragraph [ref=f20e86]: Bangalore or Remote in India
+                  - row [ref=f20e87]:
+                    - cell [ref=f20e88]:
+                      - link [ref=f20e89] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4179886009
+                        - paragraph [ref=f20e90]: Staff/Senior Staff Physical Design Floorplan & PDN Lead
+                        - paragraph [ref=f20e91]: Bangalore
+            - generic [ref=f20e92]:
+              - heading "Human Resources" [level=3] [ref=f20e93]
+              - table [ref=f20e95]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f20e96]:
+                      - paragraph [ref=f20e97]: Job
+                - rowgroup [ref=f20e98]:
+                  - row [ref=f20e99]:
+                    - cell [ref=f20e100]:
+                      - link [ref=f20e101] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4265335009
+                        - paragraph [ref=f20e102]: Senior HRIS Analyst
+                        - paragraph [ref=f20e103]: Santa Clara, California, United States, Remote - US
+            - generic [ref=f20e104]:
+              - heading "Platform" [level=3] [ref=f20e105]
+              - table [ref=f20e107]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f20e108]:
+                      - paragraph [ref=f20e109]: Job
+                - rowgroup [ref=f20e110]:
+                  - row [ref=f20e111]:
+                    - cell [ref=f20e112]:
+                      - link [ref=f20e113] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4375746009
+                        - paragraph [ref=f20e114]: Principal Solutions Engineer
+                        - paragraph [ref=f20e115]: US Remote
+                  - row [ref=f20e116]:
+                    - cell [ref=f20e117]:
+                      - link [ref=f20e118] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4212464009
+                        - paragraph [ref=f20e119]: Senior Emulation Engineer
+                        - paragraph [ref=f20e120]: India
+                  - row [ref=f20e121]:
+                    - cell [ref=f20e122]:
+                      - link [ref=f20e123] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4254543009
+                        - paragraph [ref=f20e124]: Senior NPU Architect
+                        - paragraph [ref=f20e125]: US-Remote, Canada
+            - generic [ref=f20e126]:
+              - paragraph [ref=f20e128]: Platform
+              - heading "Applied Research" [level=3] [ref=f20e129]
+              - table [ref=f20e131]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f20e132]:
+                      - paragraph [ref=f20e133]: Job
+                - rowgroup [ref=f20e134]:
+                  - row [ref=f20e135]:
+                    - cell [ref=f20e136]:
+                      - link [ref=f20e137] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4252539009
+                        - paragraph [ref=f20e138]: Research Engineer, AI Models
+                        - paragraph [ref=f20e139]: India
+                  - row [ref=f20e140]:
+                    - cell [ref=f20e141]:
+                      - link [ref=f20e142] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4300106009
+                        - paragraph [ref=f20e143]: Research Engineer, AI Models
+                        - paragraph [ref=f20e144]: Germany
+            - generic [ref=f20e145]:
+              - heading "Software" [level=3] [ref=f20e146]
+              - table [ref=f20e148]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f20e149]:
+                      - paragraph [ref=f20e150]: Job
+                - rowgroup [ref=f20e151]:
+                  - row [ref=f20e152]:
+                    - cell [ref=f20e153]:
+                      - link [ref=f20e154] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4008053009
+                        - paragraph [ref=f20e155]: AI Compiler Engineer
+                        - paragraph [ref=f20e156]: India
+                  - row [ref=f20e157]:
+                    - cell [ref=f20e158]:
+                      - link [ref=f20e159] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4280792009
+                        - paragraph [ref=f20e160]: AI Compiler Engineer
+                        - paragraph [ref=f20e161]: Remote-US, Canada, Germany and Norway
+                  - row [ref=f20e162]:
+                    - cell [ref=f20e163]:
+                      - link [ref=f20e164] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4008063009
+                        - paragraph [ref=f20e165]: AI Runtime Engineer
+                        - paragraph [ref=f20e166]: U.S., Canada, Germany, Norway
+                  - row [ref=f20e167]:
+                    - cell [ref=f20e168]:
+                      - link [ref=f20e169] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4008062009
+                        - paragraph [ref=f20e170]: Device Driver Engineer
+                        - paragraph [ref=f20e171]: U.S., Canada, Germany, Norway
+                  - row [ref=f20e172]:
+                    - cell [ref=f20e173]:
+                      - link [ref=f20e174] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4008069009
+                        - paragraph [ref=f20e175]: Embedded SW Engineer
+                        - paragraph [ref=f20e176]: U.S., Canada, Germany, Norway
+                  - row [ref=f20e177]:
+                    - cell [ref=f20e178]:
+                      - link [ref=f20e179] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/enchargeai36/jobs/4376670009
+                        - paragraph [ref=f20e180]: Technical Program Manager - Embedded Software
+                        - paragraph [ref=f20e181]: US Remote
+  - contentinfo [ref=f20e182]:
+    - generic [ref=f20e183]:
+      - paragraph [ref=f20e184]: Powered by
+      - link [ref=f20e185] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f20e186]

@@ -1,0 +1,18 @@
+Done. Output JSON for orchestrator:
+
+```json
+{
+  "status": "completed",
+  "id": "50",
+  "report_num": "1014",
+  "company": "Cohere",
+  "role": "Senior Technical Program Manager, Machine Learning Infrastructure",
+  "score": 2.0,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/1014-cohere-2026-08-25.md",
+  "error": null
+}
+```
+
+Score 2.0/5. Hard blocker: rol pide TPM track record real, candidato solo IC tecnico. No PDF (regla <4.0). Report + tracker line listos.

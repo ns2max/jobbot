@@ -1,0 +1,1979 @@
+- generic [ref=f527e3]:
+  - link "Skip to main content" [ref=f527e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f527e7]:
+    - banner:
+      - banner [ref=f527e8]:
+        - navigation [ref=f527e9]:
+          - generic [ref=f527e10]:
+            - generic [ref=f527e11]:
+              - link "Samsara home" [ref=f527e12] [cursor=pointer]:
+                - /url: /
+              - link [ref=f527e20] [cursor=pointer]:
+                - /url: /company/careers
+                - paragraph [ref=f527e21]: Careers
+            - button "Open navigation menu" [ref=f527e22] [cursor=pointer]
+    - main [ref=f527e27]:
+      - generic [ref=f527e30]:
+        - heading "Open Positions" [level=1] [ref=f527e31]
+        - paragraph [ref=f527e32]: Join us to make a lasting impact.
+      - generic [ref=f527e37]:
+        - generic [ref=f527e39]:
+          - textbox "Search" [ref=f527e41]
+          - button "More Filters (3) +" [ref=f527e42] [cursor=pointer]
+        - generic [ref=f527e43]:
+          - paragraph [ref=f527e44]: "Hoot! We found: 263 roles and 14 departments in 47 locations"
+          - list [ref=f527e45]:
+            - listitem [ref=f527e47]:
+              - heading "Business Operation" [level=3] [ref=f527e48]
+              - list [ref=f527e49]:
+                - listitem [ref=f527e50]:
+                  - link "Business Operations Manager, Technical Support Ops Remote - US" [ref=f527e51] [cursor=pointer]:
+                    - /url: /company/careers/roles/7761103?gh_jid=7761103&gh_board=samsara
+                    - generic [ref=f527e52]:
+                      - heading "Business Operations Manager, Technical Support Ops" [level=4] [ref=f527e53]
+                      - generic [ref=f527e54]: Remote - US
+                - listitem [ref=f527e55]:
+                  - link "Business Operations Manager, Technical Support Ops Remote - Toronto" [ref=f527e56] [cursor=pointer]:
+                    - /url: /company/careers/roles/7852547?gh_jid=7852547&gh_board=samsara
+                    - generic [ref=f527e57]:
+                      - heading "Business Operations Manager, Technical Support Ops" [level=4] [ref=f527e58]
+                      - generic [ref=f527e59]: Remote - Toronto
+                - listitem [ref=f527e60]:
+                  - link "Product Operations Manager Remote - Canada; Remote - US" [ref=f527e61] [cursor=pointer]:
+                    - /url: /company/careers/roles/7729297?gh_jid=7729297&gh_board=samsara
+                    - generic [ref=f527e62]:
+                      - heading "Product Operations Manager" [level=4] [ref=f527e63]
+                      - generic [ref=f527e64]: Remote - Canada; Remote - US
+          - list [ref=f527e65]:
+            - listitem [ref=f527e67]:
+              - heading "Business Technology" [level=3] [ref=f527e68]
+              - list [ref=f527e69]:
+                - listitem [ref=f527e70]:
+                  - link "AI Architect - GTM Systems Remote - US" [ref=f527e71] [cursor=pointer]:
+                    - /url: /company/careers/roles/7578952?gh_jid=7578952&gh_board=samsara
+                    - generic [ref=f527e72]:
+                      - heading "AI Architect - GTM Systems" [level=4] [ref=f527e73]
+                      - generic [ref=f527e74]: Remote - US
+                - listitem [ref=f527e75]:
+                  - link "AI Architect - GTM Systems Remote - Canada" [ref=f527e76] [cursor=pointer]:
+                    - /url: /company/careers/roles/8104166?gh_jid=8104166&gh_board=samsara
+                    - generic [ref=f527e77]:
+                      - heading "AI Architect - GTM Systems" [level=4] [ref=f527e78]
+                      - generic [ref=f527e79]: Remote - Canada
+                - listitem [ref=f527e80]:
+                  - link "AI Engineering Manager Bengaluru - BLR1" [ref=f527e81] [cursor=pointer]:
+                    - /url: /company/careers/roles/8020028?gh_jid=8020028&gh_board=samsara
+                    - generic [ref=f527e82]:
+                      - heading "AI Engineering Manager" [level=4] [ref=f527e83]
+                      - generic [ref=f527e84]: Bengaluru - BLR1
+                - listitem [ref=f527e85]:
+                  - link "AV Events Engineer San Francisco - SF9" [ref=f527e86] [cursor=pointer]:
+                    - /url: /company/careers/roles/8129501?gh_jid=8129501&gh_board=samsara
+                    - generic [ref=f527e87]:
+                      - heading "AV Events Engineer" [level=4] [ref=f527e88]
+                      - generic [ref=f527e89]: San Francisco - SF9
+                - listitem [ref=f527e90]:
+                  - link "Principal Business Technology Product Manager Remote - TX" [ref=f527e91] [cursor=pointer]:
+                    - /url: /company/careers/roles/8060732?gh_jid=8060732&gh_board=samsara
+                    - generic [ref=f527e92]:
+                      - heading "Principal Business Technology Product Manager" [level=4] [ref=f527e93]
+                      - generic [ref=f527e94]: Remote - TX
+                - listitem [ref=f527e95]:
+                  - link "Senior Business Technology Product Manager- Supply Chain Planning Remote - US" [ref=f527e96] [cursor=pointer]:
+                    - /url: /company/careers/roles/8017174?gh_jid=8017174&gh_board=samsara
+                    - generic [ref=f527e97]:
+                      - heading "Senior Business Technology Product Manager- Supply Chain Planning" [level=4] [ref=f527e98]
+                      - generic [ref=f527e99]: Remote - US
+                - listitem [ref=f527e100]:
+                  - link "Senior Data Engineer Remote - Canada" [ref=f527e101] [cursor=pointer]:
+                    - /url: /company/careers/roles/8025794?gh_jid=8025794&gh_board=samsara
+                    - generic [ref=f527e102]:
+                      - heading "Senior Data Engineer" [level=4] [ref=f527e103]
+                      - generic [ref=f527e104]: Remote - Canada
+                - listitem [ref=f527e105]:
+                  - link "Senior Data Engineer Remote - US" [ref=f527e106] [cursor=pointer]:
+                    - /url: /company/careers/roles/7964565?gh_jid=7964565&gh_board=samsara
+                    - generic [ref=f527e107]:
+                      - heading "Senior Data Engineer" [level=4] [ref=f527e108]
+                      - generic [ref=f527e109]: Remote - US
+                - listitem [ref=f527e110]:
+                  - link "Senior Data Engineer II Remote - US" [ref=f527e111] [cursor=pointer]:
+                    - /url: /company/careers/roles/8039914?gh_jid=8039914&gh_board=samsara
+                    - generic [ref=f527e112]:
+                      - heading "Senior Data Engineer II" [level=4] [ref=f527e113]
+                      - generic [ref=f527e114]: Remote - US
+          - list [ref=f527e115]:
+            - listitem [ref=f527e117]:
+              - heading "Finance" [level=3] [ref=f527e118]
+              - list [ref=f527e119]:
+                - listitem [ref=f527e120]:
+                  - link "Accountant II Remote - Mexico" [ref=f527e121] [cursor=pointer]:
+                    - /url: /company/careers/roles/8024328?gh_jid=8024328&gh_board=samsara
+                    - generic [ref=f527e122]:
+                      - heading "Accountant II" [level=4] [ref=f527e123]
+                      - generic [ref=f527e124]: Remote - Mexico
+                - listitem [ref=f527e125]:
+                  - link "Sales Compensation Manager Remote - UT" [ref=f527e126] [cursor=pointer]:
+                    - /url: /company/careers/roles/8120781?gh_jid=8120781&gh_board=samsara
+                    - generic [ref=f527e127]:
+                      - heading "Sales Compensation Manager" [level=4] [ref=f527e128]
+                      - generic [ref=f527e129]: Remote - UT
+                - listitem [ref=f527e130]:
+                  - link "Senior Category Manager Remote - Seattle" [ref=f527e131] [cursor=pointer]:
+                    - /url: /company/careers/roles/8044056?gh_jid=8044056&gh_board=samsara
+                    - generic [ref=f527e132]:
+                      - heading "Senior Category Manager" [level=4] [ref=f527e133]
+                      - generic [ref=f527e134]: Remote - Seattle
+                - listitem [ref=f527e135]:
+                  - link "Senior Director, Finance Operations Remote - US" [ref=f527e136] [cursor=pointer]:
+                    - /url: /company/careers/roles/7836977?gh_jid=7836977&gh_board=samsara
+                    - generic [ref=f527e137]:
+                      - heading "Senior Director, Finance Operations" [level=4] [ref=f527e138]
+                      - generic [ref=f527e139]: Remote - US
+                - listitem [ref=f527e140]:
+                  - link "Senior Manager, Finance and Strategy - R&D Remote - SF Bay Area" [ref=f527e141] [cursor=pointer]:
+                    - /url: /company/careers/roles/7932125?gh_jid=7932125&gh_board=samsara
+                    - generic [ref=f527e142]:
+                      - heading "Senior Manager, Finance and Strategy - R&D" [level=4] [ref=f527e143]
+                      - generic [ref=f527e144]: Remote - SF Bay Area
+                - listitem [ref=f527e145]:
+                  - link "Senior Manager, Finance and Strategy - R&D Remote - Canada" [ref=f527e146] [cursor=pointer]:
+                    - /url: /company/careers/roles/8108844?gh_jid=8108844&gh_board=samsara
+                    - generic [ref=f527e147]:
+                      - heading "Senior Manager, Finance and Strategy - R&D" [level=4] [ref=f527e148]
+                      - generic [ref=f527e149]: Remote - Canada
+                - listitem [ref=f527e150]:
+                  - link "Sr. Manager, Finance & Strategy - Marketing San Francisco, CA, United States" [ref=f527e151] [cursor=pointer]:
+                    - /url: /company/careers/roles/8092918?gh_jid=8092918&gh_board=samsara
+                    - generic [ref=f527e152]:
+                      - heading "Sr. Manager, Finance & Strategy - Marketing" [level=4] [ref=f527e153]
+                      - generic [ref=f527e154]: San Francisco, CA, United States
+          - list [ref=f527e155]:
+            - listitem [ref=f527e157]:
+              - heading "Hardware" [level=3] [ref=f527e158]
+              - list [ref=f527e159]:
+                - listitem [ref=f527e160]:
+                  - link "Manager, Operations Program Management Remote - US" [ref=f527e161] [cursor=pointer]:
+                    - /url: /company/careers/roles/7558150?gh_jid=7558150&gh_board=samsara
+                    - generic [ref=f527e162]:
+                      - heading "Manager, Operations Program Management" [level=4] [ref=f527e163]
+                      - generic [ref=f527e164]: Remote - US
+                - listitem [ref=f527e165]:
+                  - link "Staff Product Design Engineer San Francisco - SF9" [ref=f527e166] [cursor=pointer]:
+                    - /url: /company/careers/roles/7525300?gh_jid=7525300&gh_board=samsara
+                    - generic [ref=f527e167]:
+                      - heading "Staff Product Design Engineer" [level=4] [ref=f527e168]
+                      - generic [ref=f527e169]: San Francisco - SF9
+          - list [ref=f527e170]:
+            - listitem [ref=f527e172]:
+              - heading "Legal" [level=3] [ref=f527e173]
+              - list [ref=f527e174]:
+                - listitem [ref=f527e175]:
+                  - link "Litigation and E-Discovery Counsel Remote - US" [ref=f527e176] [cursor=pointer]:
+                    - /url: /company/careers/roles/8008896?gh_jid=8008896&gh_board=samsara
+                    - generic [ref=f527e177]:
+                      - heading "Litigation and E-Discovery Counsel" [level=4] [ref=f527e178]
+                      - generic [ref=f527e179]: Remote - US
+                - listitem [ref=f527e180]:
+                  - link "Public Policy and Government Affairs Manager, State/Local Remote - US" [ref=f527e181] [cursor=pointer]:
+                    - /url: /company/careers/roles/7989914?gh_jid=7989914&gh_board=samsara
+                    - generic [ref=f527e182]:
+                      - heading "Public Policy and Government Affairs Manager, State/Local" [level=4] [ref=f527e183]
+                      - generic [ref=f527e184]: Remote - US
+                - listitem [ref=f527e185]:
+                  - link "Senior Legal Analyst & Litigation Project Manager Remote - US" [ref=f527e186] [cursor=pointer]:
+                    - /url: /company/careers/roles/8029100?gh_jid=8029100&gh_board=samsara
+                    - generic [ref=f527e187]:
+                      - heading "Senior Legal Analyst & Litigation Project Manager" [level=4] [ref=f527e188]
+                      - generic [ref=f527e189]: Remote - US
+          - list [ref=f527e190]:
+            - listitem [ref=f527e192]:
+              - heading "Marketing" [level=3] [ref=f527e193]
+              - list [ref=f527e194]:
+                - listitem [ref=f527e195]:
+                  - link "Director, Marketing - Mexico Mexico" [ref=f527e196] [cursor=pointer]:
+                    - /url: /company/careers/roles/8069516?gh_jid=8069516&gh_board=samsara
+                    - generic [ref=f527e197]:
+                      - heading "Director, Marketing - Mexico" [level=4] [ref=f527e198]
+                      - generic [ref=f527e199]: Mexico
+                - listitem [ref=f527e200]:
+                  - link "Lead Video Producer San Francisco - SF9" [ref=f527e201] [cursor=pointer]:
+                    - /url: /company/careers/roles/7939301?gh_jid=7939301&gh_board=samsara
+                    - generic [ref=f527e202]:
+                      - heading "Lead Video Producer" [level=4] [ref=f527e203]
+                      - generic [ref=f527e204]: San Francisco - SF9
+                - listitem [ref=f527e205]:
+                  - link "Partner Marketing Manager - Insurance and Strategic Partnerships Remote - SF Bay Area" [ref=f527e206] [cursor=pointer]:
+                    - /url: /company/careers/roles/8142214?gh_jid=8142214&gh_board=samsara
+                    - generic [ref=f527e207]:
+                      - heading "Partner Marketing Manager - Insurance and Strategic Partnerships" [level=4] [ref=f527e208]
+                      - generic [ref=f527e209]: Remote - SF Bay Area
+                - listitem [ref=f527e210]:
+                  - link "Senior AI Data Engineer Remote - US" [ref=f527e211] [cursor=pointer]:
+                    - /url: /company/careers/roles/8091855?gh_jid=8091855&gh_board=samsara
+                    - generic [ref=f527e212]:
+                      - heading "Senior AI Data Engineer" [level=4] [ref=f527e213]
+                      - generic [ref=f527e214]: Remote - US
+                - listitem [ref=f527e215]:
+                  - link "Senior AI Data Engineer Remote - Canada" [ref=f527e216] [cursor=pointer]:
+                    - /url: /company/careers/roles/8126100?gh_jid=8126100&gh_board=samsara
+                    - generic [ref=f527e217]:
+                      - heading "Senior AI Data Engineer" [level=4] [ref=f527e218]
+                      - generic [ref=f527e219]: Remote - Canada
+                - listitem [ref=f527e220]:
+                  - link "Senior Communications Manager - Mexico Remote - Mexico" [ref=f527e221] [cursor=pointer]:
+                    - /url: /company/careers/roles/8052363?gh_jid=8052363&gh_board=samsara
+                    - generic [ref=f527e222]:
+                      - heading "Senior Communications Manager - Mexico" [level=4] [ref=f527e223]
+                      - generic [ref=f527e224]: Remote - Mexico
+                - listitem [ref=f527e225]:
+                  - link "Senior Marketing Analytics Manager - BI & Data Architecture Remote - Toronto" [ref=f527e226] [cursor=pointer]:
+                    - /url: /company/careers/roles/8099653?gh_jid=8099653&gh_board=samsara
+                    - generic [ref=f527e227]:
+                      - heading "Senior Marketing Analytics Manager - BI & Data Architecture" [level=4] [ref=f527e228]
+                      - generic [ref=f527e229]: Remote - Toronto
+                - listitem [ref=f527e230]:
+                  - link "Senior Marketing Analytics Manager - BI & Data Architecture Remote - US" [ref=f527e231] [cursor=pointer]:
+                    - /url: /company/careers/roles/7917475?gh_jid=7917475&gh_board=samsara
+                    - generic [ref=f527e232]:
+                      - heading "Senior Marketing Analytics Manager - BI & Data Architecture" [level=4] [ref=f527e233]
+                      - generic [ref=f527e234]: Remote - US
+                - listitem [ref=f527e235]:
+                  - link "Senior Performance Marketing Manager - Paid Social Remote - Mexico" [ref=f527e236] [cursor=pointer]:
+                    - /url: /company/careers/roles/7992933?gh_jid=7992933&gh_board=samsara
+                    - generic [ref=f527e237]:
+                      - heading "Senior Performance Marketing Manager - Paid Social" [level=4] [ref=f527e238]
+                      - generic [ref=f527e239]: Remote - Mexico
+                - listitem [ref=f527e240]:
+                  - link "Senior Performance Marketing Manager - Paid Social Remote - CA" [ref=f527e241] [cursor=pointer]:
+                    - /url: /company/careers/roles/7941390?gh_jid=7941390&gh_board=samsara
+                    - generic [ref=f527e242]:
+                      - heading "Senior Performance Marketing Manager - Paid Social" [level=4] [ref=f527e243]
+                      - generic [ref=f527e244]: Remote - CA
+                - listitem [ref=f527e245]:
+                  - link "Senior Performance Marketing Manager - Paid Social Remote - Canada" [ref=f527e246] [cursor=pointer]:
+                    - /url: /company/careers/roles/7992926?gh_jid=7992926&gh_board=samsara
+                    - generic [ref=f527e247]:
+                      - heading "Senior Performance Marketing Manager - Paid Social" [level=4] [ref=f527e248]
+                      - generic [ref=f527e249]: Remote - Canada
+                - listitem [ref=f527e250]:
+                  - link "Sr. AI Operations Manager - Product Marketing Remote - SF Bay Area" [ref=f527e251] [cursor=pointer]:
+                    - /url: /company/careers/roles/7864137?gh_jid=7864137&gh_board=samsara
+                    - generic [ref=f527e252]:
+                      - heading "Sr. AI Operations Manager - Product Marketing" [level=4] [ref=f527e253]
+                      - generic [ref=f527e254]: Remote - SF Bay Area
+                - listitem [ref=f527e255]:
+                  - link "Sr. Marketing Operations Manager - Global Lead Flow Remote - US" [ref=f527e256] [cursor=pointer]:
+                    - /url: /company/careers/roles/8053373?gh_jid=8053373&gh_board=samsara
+                    - generic [ref=f527e257]:
+                      - heading "Sr. Marketing Operations Manager - Global Lead Flow" [level=4] [ref=f527e258]
+                      - generic [ref=f527e259]: Remote - US
+          - list [ref=f527e260]:
+            - listitem [ref=f527e262]:
+              - heading "Operations" [level=3] [ref=f527e263]
+              - list [ref=f527e264]:
+                - listitem [ref=f527e265]:
+                  - link "Pricing and Revenue Planner Remote - Dallas" [ref=f527e266] [cursor=pointer]:
+                    - /url: /company/careers/roles/7892020?gh_jid=7892020&gh_board=samsara
+                    - generic [ref=f527e267]:
+                      - heading "Pricing and Revenue Planner" [level=4] [ref=f527e268]
+                      - generic [ref=f527e269]: Remote - Dallas
+                - listitem [ref=f527e270]:
+                  - link "Sr. Manager, Global Supply Remote - US" [ref=f527e271] [cursor=pointer]:
+                    - /url: /company/careers/roles/8064980?gh_jid=8064980&gh_board=samsara
+                    - generic [ref=f527e272]:
+                      - heading "Sr. Manager, Global Supply" [level=4] [ref=f527e273]
+                      - generic [ref=f527e274]: Remote - US
+          - list [ref=f527e275]:
+            - listitem [ref=f527e277]:
+              - heading "Other" [level=3] [ref=f527e278]
+              - list [ref=f527e279]:
+                - listitem [ref=f527e280]:
+                  - link "Account Executive, Commercial Remote - US" [ref=f527e281] [cursor=pointer]:
+                    - /url: /company/careers/roles/7612462?gh_jid=7612462&gh_board=samsara
+                    - generic [ref=f527e282]:
+                      - heading "Account Executive, Commercial" [level=4] [ref=f527e283]
+                      - generic [ref=f527e284]: Remote - US
+                - listitem [ref=f527e285]:
+                  - link "Mid-Market Account Executive - Mexico Remote - Mexico" [ref=f527e286] [cursor=pointer]:
+                    - /url: /company/careers/roles/7618028?gh_jid=7618028&gh_board=samsara
+                    - generic [ref=f527e287]:
+                      - heading "Mid-Market Account Executive - Mexico" [level=4] [ref=f527e288]
+                      - generic [ref=f527e289]: Remote - Mexico
+          - list [ref=f527e290]:
+            - listitem [ref=f527e292]:
+              - heading "People" [level=3] [ref=f527e293]
+              - list [ref=f527e294]:
+                - listitem [ref=f527e295]:
+                  - link "People Operations Specialist II Remote - US" [ref=f527e296] [cursor=pointer]:
+                    - /url: /company/careers/roles/8068005?gh_jid=8068005&gh_board=samsara
+                    - generic [ref=f527e297]:
+                      - heading "People Operations Specialist II" [level=4] [ref=f527e298]
+                      - generic [ref=f527e299]: Remote - US
+                - listitem [ref=f527e300]:
+                  - link "Senior Executive Assistant - Customer Success & Services Remote - SF Bay Area" [ref=f527e301] [cursor=pointer]:
+                    - /url: /company/careers/roles/8140386?gh_jid=8140386&gh_board=samsara
+                    - generic [ref=f527e302]:
+                      - heading "Senior Executive Assistant - Customer Success & Services" [level=4] [ref=f527e303]
+                      - generic [ref=f527e304]: Remote - SF Bay Area
+                - listitem [ref=f527e305]:
+                  - link "Senior People Technology Analyst - Workday Remote - Austin" [ref=f527e306] [cursor=pointer]:
+                    - /url: /company/careers/roles/8083539?gh_jid=8083539&gh_board=samsara
+                    - generic [ref=f527e307]:
+                      - heading "Senior People Technology Analyst - Workday" [level=4] [ref=f527e308]
+                      - generic [ref=f527e309]: Remote - Austin
+                - listitem [ref=f527e310]:
+                  - link "Senior Recruiting Manager London - UK2" [ref=f527e311] [cursor=pointer]:
+                    - /url: /company/careers/roles/8067829?gh_jid=8067829&gh_board=samsara
+                    - generic [ref=f527e312]:
+                      - heading "Senior Recruiting Manager" [level=4] [ref=f527e313]
+                      - generic [ref=f527e314]: London - UK2
+          - list [ref=f527e315]:
+            - listitem [ref=f527e317]:
+              - heading "Product" [level=3] [ref=f527e318]
+              - list [ref=f527e319]:
+                - listitem [ref=f527e320]:
+                  - link "Director, Product Design Remote - US" [ref=f527e321] [cursor=pointer]:
+                    - /url: /company/careers/roles/7839138?gh_jid=7839138&gh_board=samsara
+                    - generic [ref=f527e322]:
+                      - heading "Director, Product Design" [level=4] [ref=f527e323]
+                      - generic [ref=f527e324]: Remote - US
+                - listitem [ref=f527e325]:
+                  - link "Lead Product Designer Remote - US" [ref=f527e326] [cursor=pointer]:
+                    - /url: /company/careers/roles/8007939?gh_jid=8007939&gh_board=samsara
+                    - generic [ref=f527e327]:
+                      - heading "Lead Product Designer" [level=4] [ref=f527e328]
+                      - generic [ref=f527e329]: Remote - US
+                - listitem [ref=f527e330]:
+                  - link "Lead Product Designer Remote - Canada" [ref=f527e331] [cursor=pointer]:
+                    - /url: /company/careers/roles/8018876?gh_jid=8018876&gh_board=samsara
+                    - generic [ref=f527e332]:
+                      - heading "Lead Product Designer" [level=4] [ref=f527e333]
+                      - generic [ref=f527e334]: Remote - Canada
+                - listitem [ref=f527e335]:
+                  - link "Principal Product Manager Remote - SF Bay Area" [ref=f527e336] [cursor=pointer]:
+                    - /url: /company/careers/roles/7604461?gh_jid=7604461&gh_board=samsara
+                    - generic [ref=f527e337]:
+                      - heading "Principal Product Manager" [level=4] [ref=f527e338]
+                      - generic [ref=f527e339]: Remote - SF Bay Area
+                - listitem [ref=f527e340]:
+                  - link "Senior Product Manager Remote - US" [ref=f527e341] [cursor=pointer]:
+                    - /url: /company/careers/roles/8035756?gh_jid=8035756&gh_board=samsara
+                    - generic [ref=f527e342]:
+                      - heading "Senior Product Manager" [level=4] [ref=f527e343]
+                      - generic [ref=f527e344]: Remote - US
+                - listitem [ref=f527e345]:
+                  - link "Senior Product Manager Remote - Canada" [ref=f527e346] [cursor=pointer]:
+                    - /url: /company/careers/roles/8039658?gh_jid=8039658&gh_board=samsara
+                    - generic [ref=f527e347]:
+                      - heading "Senior Product Manager" [level=4] [ref=f527e348]
+                      - generic [ref=f527e349]: Remote - Canada
+                - listitem [ref=f527e350]:
+                  - link "Senior Product Manager Remote - US" [ref=f527e351] [cursor=pointer]:
+                    - /url: /company/careers/roles/8112836?gh_jid=8112836&gh_board=samsara
+                    - generic [ref=f527e352]:
+                      - heading "Senior Product Manager" [level=4] [ref=f527e353]
+                      - generic [ref=f527e354]: Remote - US
+                - listitem [ref=f527e355]:
+                  - link "Senior Product Manager London - UK2; Remote - UK" [ref=f527e356] [cursor=pointer]:
+                    - /url: /company/careers/roles/8039663?gh_jid=8039663&gh_board=samsara
+                    - generic [ref=f527e357]:
+                      - heading "Senior Product Manager" [level=4] [ref=f527e358]
+                      - generic [ref=f527e359]: London - UK2; Remote - UK
+                - listitem [ref=f527e360]:
+                  - link "Sr. Product Manager, Driver Management Remote - US" [ref=f527e361] [cursor=pointer]:
+                    - /url: /company/careers/roles/7786156?gh_jid=7786156&gh_board=samsara
+                    - generic [ref=f527e362]:
+                      - heading "Sr. Product Manager, Driver Management" [level=4] [ref=f527e363]
+                      - generic [ref=f527e364]: Remote - US
+          - list [ref=f527e365]:
+            - listitem [ref=f527e367]:
+              - heading "Sales" [level=3] [ref=f527e368]
+              - list [ref=f527e369]:
+                - listitem [ref=f527e370]:
+                  - link "Account Development Representative - BeNeLux Remote - Netherlands" [ref=f527e371] [cursor=pointer]:
+                    - /url: /company/careers/roles/7617960?gh_jid=7617960&gh_board=samsara
+                    - generic [ref=f527e372]:
+                      - heading "Account Development Representative - BeNeLux" [level=4] [ref=f527e373]
+                      - generic [ref=f527e374]: Remote - Netherlands
+                - listitem [ref=f527e375]:
+                  - link "Account Development Representative - DACH Remote - Germany" [ref=f527e376] [cursor=pointer]:
+                    - /url: /company/careers/roles/7618026?gh_jid=7618026&gh_board=samsara
+                    - generic [ref=f527e377]:
+                      - heading "Account Development Representative - DACH" [level=4] [ref=f527e378]
+                      - generic [ref=f527e379]: Remote - Germany
+                - listitem [ref=f527e380]:
+                  - link "Account Development Representative II Atlanta, Georgia, United States; Phoenix, Arizona, United States" [ref=f527e381] [cursor=pointer]:
+                    - /url: /company/careers/roles/8094367?gh_jid=8094367&gh_board=samsara
+                    - generic [ref=f527e382]:
+                      - heading "Account Development Representative II" [level=4] [ref=f527e383]
+                      - generic [ref=f527e384]: Atlanta, Georgia, United States; Phoenix, Arizona, United States
+                - listitem [ref=f527e385]:
+                  - link "Account Development Representative Intern - Atlanta Atlanta, Georgia, United States" [ref=f527e386] [cursor=pointer]:
+                    - /url: /company/careers/roles/8103119?gh_jid=8103119&gh_board=samsara
+                    - generic [ref=f527e387]:
+                      - heading "Account Development Representative Intern - Atlanta" [level=4] [ref=f527e388]
+                      - generic [ref=f527e389]: Atlanta, Georgia, United States
+                - listitem [ref=f527e390]:
+                  - link "Account Development Representative Intern - Phoenix Phoenix, Arizona, United States" [ref=f527e391] [cursor=pointer]:
+                    - /url: /company/careers/roles/8099799?gh_jid=8099799&gh_board=samsara
+                    - generic [ref=f527e392]:
+                      - heading "Account Development Representative Intern - Phoenix" [level=4] [ref=f527e393]
+                      - generic [ref=f527e394]: Phoenix, Arizona, United States
+                - listitem [ref=f527e395]:
+                  - link "Account Development Representative - UK London, England, United Kingdom" [ref=f527e396] [cursor=pointer]:
+                    - /url: /company/careers/roles/7614550?gh_jid=7614550&gh_board=samsara
+                    - generic [ref=f527e397]:
+                      - heading "Account Development Representative - UK" [level=4] [ref=f527e398]
+                      - generic [ref=f527e399]: London, England, United Kingdom
+                - listitem [ref=f527e400]:
+                  - link "Account Executive, Commercial Boston, MA" [ref=f527e401] [cursor=pointer]:
+                    - /url: /company/careers/roles/6605604?gh_jid=6605604&gh_board=samsara
+                    - generic [ref=f527e402]:
+                      - heading "Account Executive, Commercial" [level=4] [ref=f527e403]
+                      - generic [ref=f527e404]: Boston, MA
+                - listitem [ref=f527e405]:
+                  - link "Account Executive, Commercial Columbus, OH" [ref=f527e406] [cursor=pointer]:
+                    - /url: /company/careers/roles/6605602?gh_jid=6605602&gh_board=samsara
+                    - generic [ref=f527e407]:
+                      - heading "Account Executive, Commercial" [level=4] [ref=f527e408]
+                      - generic [ref=f527e409]: Columbus, OH
+                - listitem [ref=f527e410]:
+                  - link "Account Executive, Commercial Remote - US" [ref=f527e411] [cursor=pointer]:
+                    - /url: /company/careers/roles/6605599?gh_jid=6605599&gh_board=samsara
+                    - generic [ref=f527e412]:
+                      - heading "Account Executive, Commercial" [level=4] [ref=f527e413]
+                      - generic [ref=f527e414]: Remote - US
+                - listitem [ref=f527e415]:
+                  - link "Account Executive, Commercial Atlanta, GA" [ref=f527e416] [cursor=pointer]:
+                    - /url: /company/careers/roles/6605601?gh_jid=6605601&gh_board=samsara
+                    - generic [ref=f527e417]:
+                      - heading "Account Executive, Commercial" [level=4] [ref=f527e418]
+                      - generic [ref=f527e419]: Atlanta, GA
+                - listitem [ref=f527e420]:
+                  - link "Account Executive, Commercial ( West) Remote - US" [ref=f527e421] [cursor=pointer]:
+                    - /url: /company/careers/roles/7612443?gh_jid=7612443&gh_board=samsara
+                    - generic [ref=f527e422]:
+                      - heading "Account Executive, Commercial ( West)" [level=4] [ref=f527e423]
+                      - generic [ref=f527e424]: Remote - US
+                - listitem [ref=f527e425]:
+                  - link "Account Executive, Commercial ( West) Remote - US" [ref=f527e426] [cursor=pointer]:
+                    - /url: /company/careers/roles/7612441?gh_jid=7612441&gh_board=samsara
+                    - generic [ref=f527e427]:
+                      - heading "Account Executive, Commercial ( West)" [level=4] [ref=f527e428]
+                      - generic [ref=f527e429]: Remote - US
+                - listitem [ref=f527e430]:
+                  - link "Account Executive, Majors (Select) - UK&I Remote - UK" [ref=f527e431] [cursor=pointer]:
+                    - /url: /company/careers/roles/7266224?gh_jid=7266224&gh_board=samsara
+                    - generic [ref=f527e432]:
+                      - heading "Account Executive, Majors (Select) - UK&I" [level=4] [ref=f527e433]
+                      - generic [ref=f527e434]: Remote - UK
+                - listitem [ref=f527e435]:
+                  - link "Account Executive, Mid Market (Midwest) Remote - US" [ref=f527e436] [cursor=pointer]:
+                    - /url: /company/careers/roles/7609126?gh_jid=7609126&gh_board=samsara
+                    - generic [ref=f527e437]:
+                      - heading "Account Executive, Mid Market (Midwest)" [level=4] [ref=f527e438]
+                      - generic [ref=f527e439]: Remote - US
+                - listitem [ref=f527e440]:
+                  - link "Account Executive, Mid Market (Northeast) Remote - US" [ref=f527e441] [cursor=pointer]:
+                    - /url: /company/careers/roles/7609147?gh_jid=7609147&gh_board=samsara
+                    - generic [ref=f527e442]:
+                      - heading "Account Executive, Mid Market (Northeast)" [level=4] [ref=f527e443]
+                      - generic [ref=f527e444]: Remote - US
+                - listitem [ref=f527e445]:
+                  - link "Account Executive, Mid Market (Southeast) Remote - US" [ref=f527e446] [cursor=pointer]:
+                    - /url: /company/careers/roles/7609156?gh_jid=7609156&gh_board=samsara
+                    - generic [ref=f527e447]:
+                      - heading "Account Executive, Mid Market (Southeast)" [level=4] [ref=f527e448]
+                      - generic [ref=f527e449]: Remote - US
+                - listitem [ref=f527e450]:
+                  - link "Account Executive, Mid Market (TOLA) Remote - US" [ref=f527e451] [cursor=pointer]:
+                    - /url: /company/careers/roles/7608969?gh_jid=7608969&gh_board=samsara
+                    - generic [ref=f527e452]:
+                      - heading "Account Executive, Mid Market (TOLA)" [level=4] [ref=f527e453]
+                      - generic [ref=f527e454]: Remote - US
+                - listitem [ref=f527e455]:
+                  - link "Account Executive, Mid Market (West) Remote - US" [ref=f527e456] [cursor=pointer]:
+                    - /url: /company/careers/roles/7609057?gh_jid=7609057&gh_board=samsara
+                    - generic [ref=f527e457]:
+                      - heading "Account Executive, Mid Market (West)" [level=4] [ref=f527e458]
+                      - generic [ref=f527e459]: Remote - US
+                - listitem [ref=f527e460]:
+                  - link "Applied AI Specialist, Commercial Customer Success Remote - US" [ref=f527e461] [cursor=pointer]:
+                    - /url: /company/careers/roles/8024110?gh_jid=8024110&gh_board=samsara
+                    - generic [ref=f527e462]:
+                      - heading "Applied AI Specialist, Commercial Customer Success" [level=4] [ref=f527e463]
+                      - generic [ref=f527e464]: Remote - US
+                - listitem [ref=f527e465]:
+                  - link "Associate Sales Engineer, SE Desk (French Bilingual) Remote - US" [ref=f527e466] [cursor=pointer]:
+                    - /url: /company/careers/roles/7624120?gh_jid=7624120&gh_board=samsara
+                    - generic [ref=f527e467]:
+                      - heading "Associate Sales Engineer, SE Desk (French Bilingual)" [level=4] [ref=f527e468]
+                      - generic [ref=f527e469]: Remote - US
+                - listitem [ref=f527e470]:
+                  - link "Associate Sales Engineer, SE Desk - Mid West Remote - US" [ref=f527e471] [cursor=pointer]:
+                    - /url: /company/careers/roles/7311761?gh_jid=7311761&gh_board=samsara
+                    - generic [ref=f527e472]:
+                      - heading "Associate Sales Engineer, SE Desk - Mid West" [level=4] [ref=f527e473]
+                      - generic [ref=f527e474]: Remote - US
+                - listitem [ref=f527e475]:
+                  - link "Associate Sales Engineer, SE Desk - Northeast Remote - US" [ref=f527e476] [cursor=pointer]:
+                    - /url: /company/careers/roles/7311741?gh_jid=7311741&gh_board=samsara
+                    - generic [ref=f527e477]:
+                      - heading "Associate Sales Engineer, SE Desk - Northeast" [level=4] [ref=f527e478]
+                      - generic [ref=f527e479]: Remote - US
+                - listitem [ref=f527e480]:
+                  - link "Associate Sales Engineer, SE Desk - Southeast Remote - US" [ref=f527e481] [cursor=pointer]:
+                    - /url: /company/careers/roles/7848351?gh_jid=7848351&gh_board=samsara
+                    - generic [ref=f527e482]:
+                      - heading "Associate Sales Engineer, SE Desk - Southeast" [level=4] [ref=f527e483]
+                      - generic [ref=f527e484]: Remote - US
+                - listitem [ref=f527e485]:
+                  - link "Associate Sales Engineer, SE Desk - TOLA Remote - US" [ref=f527e486] [cursor=pointer]:
+                    - /url: /company/careers/roles/7848363?gh_jid=7848363&gh_board=samsara
+                    - generic [ref=f527e487]:
+                      - heading "Associate Sales Engineer, SE Desk - TOLA" [level=4] [ref=f527e488]
+                      - generic [ref=f527e489]: Remote - US
+                - listitem [ref=f527e490]:
+                  - link "Associate Sales Engineer, UK&I London, England, United Kingdom; Remote - UK" [ref=f527e491] [cursor=pointer]:
+                    - /url: /company/careers/roles/8083447?gh_jid=8083447&gh_board=samsara
+                    - generic [ref=f527e492]:
+                      - heading "Associate Sales Engineer, UK&I" [level=4] [ref=f527e493]
+                      - generic [ref=f527e494]: London, England, United Kingdom; Remote - UK
+                - listitem [ref=f527e495]:
+                  - link "Associate Specialist Sales Engineer Remote - US" [ref=f527e496] [cursor=pointer]:
+                    - /url: /company/careers/roles/7717258?gh_jid=7717258&gh_board=samsara
+                    - generic [ref=f527e497]:
+                      - heading "Associate Specialist Sales Engineer" [level=4] [ref=f527e498]
+                      - generic [ref=f527e499]: Remote - US
+                - listitem [ref=f527e500]:
+                  - link "Commercial Account Executive Remote - Canada" [ref=f527e501] [cursor=pointer]:
+                    - /url: /company/careers/roles/7612493?gh_jid=7612493&gh_board=samsara
+                    - generic [ref=f527e502]:
+                      - heading "Commercial Account Executive" [level=4] [ref=f527e503]
+                      - generic [ref=f527e504]: Remote - Canada
+                - listitem [ref=f527e505]:
+                  - link "Core Enterprise Account Executive TOLA Remote - US" [ref=f527e506] [cursor=pointer]:
+                    - /url: /company/careers/roles/7679053?gh_jid=7679053&gh_board=samsara
+                    - generic [ref=f527e507]:
+                      - heading "Core Enterprise Account Executive TOLA" [level=4] [ref=f527e508]
+                      - generic [ref=f527e509]: Remote - US
+                - listitem [ref=f527e510]:
+                  - link "Customer Success Manager - Canada Remote - Toronto" [ref=f527e511] [cursor=pointer]:
+                    - /url: /company/careers/roles/7646124?gh_jid=7646124&gh_board=samsara
+                    - generic [ref=f527e512]:
+                      - heading "Customer Success Manager - Canada" [level=4] [ref=f527e513]
+                      - generic [ref=f527e514]: Remote - Toronto
+                - listitem [ref=f527e515]:
+                  - link "Customer Success Manager - French Speaker Remote - Canada" [ref=f527e516] [cursor=pointer]:
+                    - /url: /company/careers/roles/8029097?gh_jid=8029097&gh_board=samsara
+                    - generic [ref=f527e517]:
+                      - heading "Customer Success Manager - French Speaker" [level=4] [ref=f527e518]
+                      - generic [ref=f527e519]: Remote - Canada
+                - listitem [ref=f527e520]:
+                  - link "Customer Success Manager II Remote - US" [ref=f527e521] [cursor=pointer]:
+                    - /url: /company/careers/roles/7580157?gh_jid=7580157&gh_board=samsara
+                    - generic [ref=f527e522]:
+                      - heading "Customer Success Manager II" [level=4] [ref=f527e523]
+                      - generic [ref=f527e524]: Remote - US
+                - listitem [ref=f527e525]:
+                  - link "Customer Success Manager V Remote - CA" [ref=f527e526] [cursor=pointer]:
+                    - /url: /company/careers/roles/7487346?gh_jid=7487346&gh_board=samsara
+                    - generic [ref=f527e527]:
+                      - heading "Customer Success Manager V" [level=4] [ref=f527e528]
+                      - generic [ref=f527e529]: Remote - CA
+                - listitem [ref=f527e530]:
+                  - link "Director, Field Sales Engineering Remote - US" [ref=f527e531] [cursor=pointer]:
+                    - /url: /company/careers/roles/7695309?gh_jid=7695309&gh_board=samsara
+                    - generic [ref=f527e532]:
+                      - heading "Director, Field Sales Engineering" [level=4] [ref=f527e533]
+                      - generic [ref=f527e534]: Remote - US
+                - listitem [ref=f527e535]:
+                  - link "Director, Mid-Market Sales - Canada Remote - Canada" [ref=f527e536] [cursor=pointer]:
+                    - /url: /company/careers/roles/7547204?gh_jid=7547204&gh_board=samsara
+                    - generic [ref=f527e537]:
+                      - heading "Director, Mid-Market Sales - Canada" [level=4] [ref=f527e538]
+                      - generic [ref=f527e539]: Remote - Canada
+                - listitem [ref=f527e540]:
+                  - link "Engagement Services Manager Remote - US" [ref=f527e541] [cursor=pointer]:
+                    - /url: /company/careers/roles/8064909?gh_jid=8064909&gh_board=samsara
+                    - generic [ref=f527e542]:
+                      - heading "Engagement Services Manager" [level=4] [ref=f527e543]
+                      - generic [ref=f527e544]: Remote - US
+                - listitem [ref=f527e545]:
+                  - link "Enterprise Account Executive San Francisco - SF9" [ref=f527e546] [cursor=pointer]:
+                    - /url: /company/careers/roles/8042135?gh_jid=8042135&gh_board=samsara
+                    - generic [ref=f527e547]:
+                      - heading "Enterprise Account Executive" [level=4] [ref=f527e548]
+                      - generic [ref=f527e549]: San Francisco - SF9
+                - listitem [ref=f527e550]:
+                  - link "Enterprise Account Executive - Public Sector, West Remote - SF Bay Area" [ref=f527e551] [cursor=pointer]:
+                    - /url: /company/careers/roles/7954575?gh_jid=7954575&gh_board=samsara
+                    - generic [ref=f527e552]:
+                      - heading "Enterprise Account Executive - Public Sector, West" [level=4] [ref=f527e553]
+                      - generic [ref=f527e554]: Remote - SF Bay Area
+                - listitem [ref=f527e555]:
+                  - link "Enterprise Core Account Executive - Public Sector Remote - US" [ref=f527e556] [cursor=pointer]:
+                    - /url: /company/careers/roles/7423809?gh_jid=7423809&gh_board=samsara
+                    - generic [ref=f527e557]:
+                      - heading "Enterprise Core Account Executive - Public Sector" [level=4] [ref=f527e558]
+                      - generic [ref=f527e559]: Remote - US
+                - listitem [ref=f527e560]:
+                  - link "Enterprise Core Account Executive, UK London - UK2" [ref=f527e561] [cursor=pointer]:
+                    - /url: /company/careers/roles/7759354?gh_jid=7759354&gh_board=samsara
+                    - generic [ref=f527e562]:
+                      - heading "Enterprise Core Account Executive, UK" [level=4] [ref=f527e563]
+                      - generic [ref=f527e564]: London - UK2
+                - listitem [ref=f527e565]:
+                  - link "Enterprise Core Implementation Consultant - East/Central Remote - US" [ref=f527e566] [cursor=pointer]:
+                    - /url: /company/careers/roles/8121318?gh_jid=8121318&gh_board=samsara
+                    - generic [ref=f527e567]:
+                      - heading "Enterprise Core Implementation Consultant - East/Central" [level=4] [ref=f527e568]
+                      - generic [ref=f527e569]: Remote - US
+                - listitem [ref=f527e570]:
+                  - link "Enterprise Core Implementation Consultant - West Remote - US" [ref=f527e571] [cursor=pointer]:
+                    - /url: /company/careers/roles/8121312?gh_jid=8121312&gh_board=samsara
+                    - generic [ref=f527e572]:
+                      - heading "Enterprise Core Implementation Consultant - West" [level=4] [ref=f527e573]
+                      - generic [ref=f527e574]: Remote - US
+                - listitem [ref=f527e575]:
+                  - link "Enterprise Core Sales Engineer - Midwest Remote - US" [ref=f527e576] [cursor=pointer]:
+                    - /url: /company/careers/roles/7848518?gh_jid=7848518&gh_board=samsara
+                    - generic [ref=f527e577]:
+                      - heading "Enterprise Core Sales Engineer - Midwest" [level=4] [ref=f527e578]
+                      - generic [ref=f527e579]: Remote - US
+                - listitem [ref=f527e580]:
+                  - link "Enterprise Core Sales Engineer - Northeast Remote - US" [ref=f527e581] [cursor=pointer]:
+                    - /url: /company/careers/roles/7848486?gh_jid=7848486&gh_board=samsara
+                    - generic [ref=f527e582]:
+                      - heading "Enterprise Core Sales Engineer - Northeast" [level=4] [ref=f527e583]
+                      - generic [ref=f527e584]: Remote - US
+                - listitem [ref=f527e585]:
+                  - link "Enterprise Core Sales Engineer - Southeast Remote - US" [ref=f527e586] [cursor=pointer]:
+                    - /url: /company/careers/roles/7848497?gh_jid=7848497&gh_board=samsara
+                    - generic [ref=f527e587]:
+                      - heading "Enterprise Core Sales Engineer - Southeast" [level=4] [ref=f527e588]
+                      - generic [ref=f527e589]: Remote - US
+                - listitem [ref=f527e590]:
+                  - link "Enterprise Core Sales Engineer - TOLA Remote - US" [ref=f527e591] [cursor=pointer]:
+                    - /url: /company/careers/roles/7848501?gh_jid=7848501&gh_board=samsara
+                    - generic [ref=f527e592]:
+                      - heading "Enterprise Core Sales Engineer - TOLA" [level=4] [ref=f527e593]
+                      - generic [ref=f527e594]: Remote - US
+                - listitem [ref=f527e595]:
+                  - link "Enterprise Core Sales Engineer - West Remote - US" [ref=f527e596] [cursor=pointer]:
+                    - /url: /company/careers/roles/7848529?gh_jid=7848529&gh_board=samsara
+                    - generic [ref=f527e597]:
+                      - heading "Enterprise Core Sales Engineer - West" [level=4] [ref=f527e598]
+                      - generic [ref=f527e599]: Remote - US
+                - listitem [ref=f527e600]:
+                  - link "Enterprise Customer Success Manager Remote - Germany" [ref=f527e601] [cursor=pointer]:
+                    - /url: /company/careers/roles/8132327?gh_jid=8132327&gh_board=samsara
+                    - generic [ref=f527e602]:
+                      - heading "Enterprise Customer Success Manager" [level=4] [ref=f527e603]
+                      - generic [ref=f527e604]: Remote - Germany
+                - listitem [ref=f527e605]:
+                  - link "Enterprise Customer Success Manager Remote - US" [ref=f527e606] [cursor=pointer]:
+                    - /url: /company/careers/roles/7482459?gh_jid=7482459&gh_board=samsara
+                    - generic [ref=f527e607]:
+                      - heading "Enterprise Customer Success Manager" [level=4] [ref=f527e608]
+                      - generic [ref=f527e609]: Remote - US
+                - listitem [ref=f527e610]:
+                  - link "Enterprise Customer Success Manager Remote - IL" [ref=f527e611] [cursor=pointer]:
+                    - /url: /company/careers/roles/7625030?gh_jid=7625030&gh_board=samsara
+                    - generic [ref=f527e612]:
+                      - heading "Enterprise Customer Success Manager" [level=4] [ref=f527e613]
+                      - generic [ref=f527e614]: Remote - IL
+                - listitem [ref=f527e615]:
+                  - link "Enterprise Customer Success Manager - Public Sector Remote - US" [ref=f527e616] [cursor=pointer]:
+                    - /url: /company/careers/roles/8029099?gh_jid=8029099&gh_board=samsara
+                    - generic [ref=f527e617]:
+                      - heading "Enterprise Customer Success Manager - Public Sector" [level=4] [ref=f527e618]
+                      - generic [ref=f527e619]: Remote - US
+                - listitem [ref=f527e620]:
+                  - link "Enterprise Implementation Consultant Remote - US" [ref=f527e621] [cursor=pointer]:
+                    - /url: /company/careers/roles/7852948?gh_jid=7852948&gh_board=samsara
+                    - generic [ref=f527e622]:
+                      - heading "Enterprise Implementation Consultant" [level=4] [ref=f527e623]
+                      - generic [ref=f527e624]: Remote - US
+                - listitem [ref=f527e625]:
+                  - link "Enterprise Implementation Consultant Remote - US" [ref=f527e626] [cursor=pointer]:
+                    - /url: /company/careers/roles/8121332?gh_jid=8121332&gh_board=samsara
+                    - generic [ref=f527e627]:
+                      - heading "Enterprise Implementation Consultant" [level=4] [ref=f527e628]
+                      - generic [ref=f527e629]: Remote - US
+                - listitem [ref=f527e630]:
+                  - link "Enterprise Implementation Consultant Remote - US" [ref=f527e631] [cursor=pointer]:
+                    - /url: /company/careers/roles/8131784?gh_jid=8131784&gh_board=samsara
+                    - generic [ref=f527e632]:
+                      - heading "Enterprise Implementation Consultant" [level=4] [ref=f527e633]
+                      - generic [ref=f527e634]: Remote - US
+                - listitem [ref=f527e635]:
+                  - link "Enterprise Implementation Consultant - German Fluency Remote - Germany" [ref=f527e636] [cursor=pointer]:
+                    - /url: /company/careers/roles/8074109?gh_jid=8074109&gh_board=samsara
+                    - generic [ref=f527e637]:
+                      - heading "Enterprise Implementation Consultant - German Fluency" [level=4] [ref=f527e638]
+                      - generic [ref=f527e639]: Remote - Germany
+                - listitem [ref=f527e640]:
+                  - link "Enterprise Sales Engineer - Public Sector - East Remote - US" [ref=f527e641] [cursor=pointer]:
+                    - /url: /company/careers/roles/8120538?gh_jid=8120538&gh_board=samsara
+                    - generic [ref=f527e642]:
+                      - heading "Enterprise Sales Engineer - Public Sector - East" [level=4] [ref=f527e643]
+                      - generic [ref=f527e644]: Remote - US
+                - listitem [ref=f527e645]:
+                  - link "Enterprise Sales Engineer - Public Sector - West Remote - US" [ref=f527e646] [cursor=pointer]:
+                    - /url: /company/careers/roles/8068209?gh_jid=8068209&gh_board=samsara
+                    - generic [ref=f527e647]:
+                      - heading "Enterprise Sales Engineer - Public Sector - West" [level=4] [ref=f527e648]
+                      - generic [ref=f527e649]: Remote - US
+                - listitem [ref=f527e650]:
+                  - link "Enterprise Sales Engineer - Toronto Remote - Toronto" [ref=f527e651] [cursor=pointer]:
+                    - /url: /company/careers/roles/7818569?gh_jid=7818569&gh_board=samsara
+                    - generic [ref=f527e652]:
+                      - heading "Enterprise Sales Engineer - Toronto" [level=4] [ref=f527e653]
+                      - generic [ref=f527e654]: Remote - Toronto
+                - listitem [ref=f527e655]:
+                  - link "Enterprise Select Implementation Consultant (Central or East) Remote - US" [ref=f527e656] [cursor=pointer]:
+                    - /url: /company/careers/roles/8121329?gh_jid=8121329&gh_board=samsara
+                    - generic [ref=f527e657]:
+                      - heading "Enterprise Select Implementation Consultant (Central or East)" [level=4] [ref=f527e658]
+                      - generic [ref=f527e659]: Remote - US
+                - listitem [ref=f527e660]:
+                  - link "Enterprise Select Implementation Consultant (West) Remote - US" [ref=f527e661] [cursor=pointer]:
+                    - /url: /company/careers/roles/8121327?gh_jid=8121327&gh_board=samsara
+                    - generic [ref=f527e662]:
+                      - heading "Enterprise Select Implementation Consultant (West)" [level=4] [ref=f527e663]
+                      - generic [ref=f527e664]: Remote - US
+                - listitem [ref=f527e665]:
+                  - link "Entry Level Tech Sales - Benelux Market (Dutch speaking) Remote - Netherlands" [ref=f527e666] [cursor=pointer]:
+                    - /url: /company/careers/roles/8095996?gh_jid=8095996&gh_board=samsara
+                    - generic [ref=f527e667]:
+                      - heading "Entry Level Tech Sales - Benelux Market (Dutch speaking)" [level=4] [ref=f527e668]
+                      - generic [ref=f527e669]: Remote - Netherlands
+                - listitem [ref=f527e670]:
+                  - link "Entry Level Tech Sales - Benelux Market (work from the UK, Netherlands, Germany or France - Dutch speaking role) Remote - France; Remote - Germany; Remote - Netherlands; Remote - UK" [ref=f527e671] [cursor=pointer]:
+                    - /url: /company/careers/roles/8127985?gh_jid=8127985&gh_board=samsara
+                    - generic [ref=f527e672]:
+                      - heading "Entry Level Tech Sales - Benelux Market (work from the UK, Netherlands, Germany or France - Dutch speaking role)" [level=4] [ref=f527e673]
+                      - generic [ref=f527e674]: Remote - France; Remote - Germany; Remote - Netherlands; Remote - UK
+                - listitem [ref=f527e675]:
+                  - link "Entry Level Tech Sales - UK&I Market London, England, United Kingdom" [ref=f527e676] [cursor=pointer]:
+                    - /url: /company/careers/roles/8104994?gh_jid=8104994&gh_board=samsara
+                    - generic [ref=f527e677]:
+                      - heading "Entry Level Tech Sales - UK&I Market" [level=4] [ref=f527e678]
+                      - generic [ref=f527e679]: London, England, United Kingdom
+                - listitem [ref=f527e680]:
+                  - link "Especialista en Instalación de Sistemas Vehiculares Remote - Mexico" [ref=f527e681] [cursor=pointer]:
+                    - /url: /company/careers/roles/8073244?gh_jid=8073244&gh_board=samsara
+                    - generic [ref=f527e682]:
+                      - heading "Especialista en Instalación de Sistemas Vehiculares" [level=4] [ref=f527e683]
+                      - generic [ref=f527e684]: Remote - Mexico
+                - listitem [ref=f527e685]:
+                  - link "Especialista en Instalación de Sistemas Vehiculares Remote - Mexico" [ref=f527e686] [cursor=pointer]:
+                    - /url: /company/careers/roles/8073242?gh_jid=8073242&gh_board=samsara
+                    - generic [ref=f527e687]:
+                      - heading "Especialista en Instalación de Sistemas Vehiculares" [level=4] [ref=f527e688]
+                      - generic [ref=f527e689]: Remote - Mexico
+                - listitem [ref=f527e690]:
+                  - link "Especialista en Instalación de Sistemas Vehiculares Remote - Mexico" [ref=f527e691] [cursor=pointer]:
+                    - /url: /company/careers/roles/8073243?gh_jid=8073243&gh_board=samsara
+                    - generic [ref=f527e692]:
+                      - heading "Especialista en Instalación de Sistemas Vehiculares" [level=4] [ref=f527e693]
+                      - generic [ref=f527e694]: Remote - Mexico
+                - listitem [ref=f527e695]:
+                  - link "Especialista en Sistemas Telemáticos Remote - Mexico" [ref=f527e696] [cursor=pointer]:
+                    - /url: /company/careers/roles/8073236?gh_jid=8073236&gh_board=samsara
+                    - generic [ref=f527e697]:
+                      - heading "Especialista en Sistemas Telemáticos" [level=4] [ref=f527e698]
+                      - generic [ref=f527e699]: Remote - Mexico
+                - listitem [ref=f527e700]:
+                  - link "Especialista en Sistemas Telemáticos Remote - Mexico" [ref=f527e701] [cursor=pointer]:
+                    - /url: /company/careers/roles/8073241?gh_jid=8073241&gh_board=samsara
+                    - generic [ref=f527e702]:
+                      - heading "Especialista en Sistemas Telemáticos" [level=4] [ref=f527e703]
+                      - generic [ref=f527e704]: Remote - Mexico
+                - listitem [ref=f527e705]:
+                  - link "Especialista en Sistemas Telemáticos Remote - Mexico" [ref=f527e706] [cursor=pointer]:
+                    - /url: /company/careers/roles/8073240?gh_jid=8073240&gh_board=samsara
+                    - generic [ref=f527e707]:
+                      - heading "Especialista en Sistemas Telemáticos" [level=4] [ref=f527e708]
+                      - generic [ref=f527e709]: Remote - Mexico
+                - listitem [ref=f527e710]:
+                  - link "Field Service Engineer (Automotive) Remote - Mexico" [ref=f527e711] [cursor=pointer]:
+                    - /url: /company/careers/roles/8073247?gh_jid=8073247&gh_board=samsara
+                    - generic [ref=f527e712]:
+                      - heading "Field Service Engineer (Automotive)" [level=4] [ref=f527e713]
+                      - generic [ref=f527e714]: Remote - Mexico
+                - listitem [ref=f527e715]:
+                  - link "Field Service Engineer (Automotive) Remote - Mexico" [ref=f527e716] [cursor=pointer]:
+                    - /url: /company/careers/roles/8073245?gh_jid=8073245&gh_board=samsara
+                    - generic [ref=f527e717]:
+                      - heading "Field Service Engineer (Automotive)" [level=4] [ref=f527e718]
+                      - generic [ref=f527e719]: Remote - Mexico
+                - listitem [ref=f527e720]:
+                  - link "Field Service Engineer (Automotive) Remote - Mexico" [ref=f527e721] [cursor=pointer]:
+                    - /url: /company/careers/roles/8073246?gh_jid=8073246&gh_board=samsara
+                    - generic [ref=f527e722]:
+                      - heading "Field Service Engineer (Automotive)" [level=4] [ref=f527e723]
+                      - generic [ref=f527e724]: Remote - Mexico
+                - listitem [ref=f527e725]:
+                  - link "Implementation Consultant Remote - Mexico" [ref=f527e726] [cursor=pointer]:
+                    - /url: /company/careers/roles/8148243?gh_jid=8148243&gh_board=samsara
+                    - generic [ref=f527e727]:
+                      - heading "Implementation Consultant" [level=4] [ref=f527e728]
+                      - generic [ref=f527e729]: Remote - Mexico
+                - listitem [ref=f527e730]:
+                  - link "Implementation Consultant Remote - UK" [ref=f527e731] [cursor=pointer]:
+                    - /url: /company/careers/roles/7961276?gh_jid=7961276&gh_board=samsara
+                    - generic [ref=f527e732]:
+                      - heading "Implementation Consultant" [level=4] [ref=f527e733]
+                      - generic [ref=f527e734]: Remote - UK
+                - listitem [ref=f527e735]:
+                  - link "Implementation Consultant Remote - UK" [ref=f527e736] [cursor=pointer]:
+                    - /url: /company/careers/roles/8076689?gh_jid=8076689&gh_board=samsara
+                    - generic [ref=f527e737]:
+                      - heading "Implementation Consultant" [level=4] [ref=f527e738]
+                      - generic [ref=f527e739]: Remote - UK
+                - listitem [ref=f527e740]:
+                  - link "Implementation Consultant Remote - Germany" [ref=f527e741] [cursor=pointer]:
+                    - /url: /company/careers/roles/8088205?gh_jid=8088205&gh_board=samsara
+                    - generic [ref=f527e742]:
+                      - heading "Implementation Consultant" [level=4] [ref=f527e743]
+                      - generic [ref=f527e744]: Remote - Germany
+                - listitem [ref=f527e745]:
+                  - link "Implementation Consultant - German Fluency London, England, United Kingdom; Remote - Germany; Remote - UK" [ref=f527e746] [cursor=pointer]:
+                    - /url: /company/careers/roles/8076687?gh_jid=8076687&gh_board=samsara
+                    - generic [ref=f527e747]:
+                      - heading "Implementation Consultant - German Fluency" [level=4] [ref=f527e748]
+                      - generic [ref=f527e749]: London, England, United Kingdom; Remote - Germany; Remote - UK
+                - listitem [ref=f527e750]:
+                  - link "Installation Manager London - UK2" [ref=f527e751] [cursor=pointer]:
+                    - /url: /company/careers/roles/8002357?gh_jid=8002357&gh_board=samsara
+                    - generic [ref=f527e752]:
+                      - heading "Installation Manager" [level=4] [ref=f527e753]
+                      - generic [ref=f527e754]: London - UK2
+                - listitem [ref=f527e755]:
+                  - link "Installation Specialist Remote - Mexico" [ref=f527e756] [cursor=pointer]:
+                    - /url: /company/careers/roles/7950569?gh_jid=7950569&gh_board=samsara
+                    - generic [ref=f527e757]:
+                      - heading "Installation Specialist" [level=4] [ref=f527e758]
+                      - generic [ref=f527e759]: Remote - Mexico
+                - listitem [ref=f527e760]:
+                  - link "Manager, Enterprise Customer Success - Select Remote - US" [ref=f527e761] [cursor=pointer]:
+                    - /url: /company/careers/roles/7702368?gh_jid=7702368&gh_board=samsara
+                    - generic [ref=f527e762]:
+                      - heading "Manager, Enterprise Customer Success - Select" [level=4] [ref=f527e763]
+                      - generic [ref=f527e764]: Remote - US
+                - listitem [ref=f527e765]:
+                  - link "Manager I, Customer Success Remote - Mexico" [ref=f527e766] [cursor=pointer]:
+                    - /url: /company/careers/roles/7743690?gh_jid=7743690&gh_board=samsara
+                    - generic [ref=f527e767]:
+                      - heading "Manager I, Customer Success" [level=4] [ref=f527e768]
+                      - generic [ref=f527e769]: Remote - Mexico
+                - listitem [ref=f527e770]:
+                  - link "Manager II, Customer Success Remote - US" [ref=f527e771] [cursor=pointer]:
+                    - /url: /company/careers/roles/7487344?gh_jid=7487344&gh_board=samsara
+                    - generic [ref=f527e772]:
+                      - heading "Manager II, Customer Success" [level=4] [ref=f527e773]
+                      - generic [ref=f527e774]: Remote - US
+                - listitem [ref=f527e775]:
+                  - link "Manager, Mid Market (Central) Remote - US" [ref=f527e776] [cursor=pointer]:
+                    - /url: /company/careers/roles/8132379?gh_jid=8132379&gh_board=samsara
+                    - generic [ref=f527e777]:
+                      - heading "Manager, Mid Market (Central)" [level=4] [ref=f527e778]
+                      - generic [ref=f527e779]: Remote - US
+                - listitem [ref=f527e780]:
+                  - link "Manager, Mid Market (East) Remote - US" [ref=f527e781] [cursor=pointer]:
+                    - /url: /company/careers/roles/8132381?gh_jid=8132381&gh_board=samsara
+                    - generic [ref=f527e782]:
+                      - heading "Manager, Mid Market (East)" [level=4] [ref=f527e783]
+                      - generic [ref=f527e784]: Remote - US
+                - listitem [ref=f527e785]:
+                  - link "Manager, Mid Market (West) Remote - US" [ref=f527e786] [cursor=pointer]:
+                    - /url: /company/careers/roles/8132385?gh_jid=8132385&gh_board=samsara
+                    - generic [ref=f527e787]:
+                      - heading "Manager, Mid Market (West)" [level=4] [ref=f527e788]
+                      - generic [ref=f527e789]: Remote - US
+                - listitem [ref=f527e790]:
+                  - link "Mexico Major AE Remote - Mexico" [ref=f527e791] [cursor=pointer]:
+                    - /url: /company/careers/roles/7618041?gh_jid=7618041&gh_board=samsara
+                    - generic [ref=f527e792]:
+                      - heading "Mexico Major AE" [level=4] [ref=f527e793]
+                      - generic [ref=f527e794]: Remote - Mexico
+                - listitem [ref=f527e795]:
+                  - link "Mid-Market Account Executive - Canada Ottawa, Ontario" [ref=f527e796] [cursor=pointer]:
+                    - /url: /company/careers/roles/7926756?gh_jid=7926756&gh_board=samsara
+                    - generic [ref=f527e797]:
+                      - heading "Mid-Market Account Executive - Canada" [level=4] [ref=f527e798]
+                      - generic [ref=f527e799]: Ottawa, Ontario
+                - listitem [ref=f527e800]:
+                  - link "Mid-Market Account Executive - Canada Toronto, Canada" [ref=f527e801] [cursor=pointer]:
+                    - /url: /company/careers/roles/7926757?gh_jid=7926757&gh_board=samsara
+                    - generic [ref=f527e802]:
+                      - heading "Mid-Market Account Executive - Canada" [level=4] [ref=f527e803]
+                      - generic [ref=f527e804]: Toronto, Canada
+                - listitem [ref=f527e805]:
+                  - link "Mid Market Account Executive - DACH London, England, United Kingdom; Remote - Germany" [ref=f527e806] [cursor=pointer]:
+                    - /url: /company/careers/roles/7266176?gh_jid=7266176&gh_board=samsara
+                    - generic [ref=f527e807]:
+                      - heading "Mid Market Account Executive - DACH" [level=4] [ref=f527e808]
+                      - generic [ref=f527e809]: London, England, United Kingdom; Remote - Germany
+                - listitem [ref=f527e810]:
+                  - link "Mid-Market Account Executive - France Remote - France" [ref=f527e811] [cursor=pointer]:
+                    - /url: /company/careers/roles/7571463?gh_jid=7571463&gh_board=samsara
+                    - generic [ref=f527e812]:
+                      - heading "Mid-Market Account Executive - France" [level=4] [ref=f527e813]
+                      - generic [ref=f527e814]: Remote - France
+                - listitem [ref=f527e815]:
+                  - link "Mid-Market Account Executive - French Fluent Remote - Montreal" [ref=f527e816] [cursor=pointer]:
+                    - /url: /company/careers/roles/7926750?gh_jid=7926750&gh_board=samsara
+                    - generic [ref=f527e817]:
+                      - heading "Mid-Market Account Executive - French Fluent" [level=4] [ref=f527e818]
+                      - generic [ref=f527e819]: Remote - Montreal
+                - listitem [ref=f527e820]:
+                  - link "Mid-Market Account Executive - Public Sector Remote - US" [ref=f527e821] [cursor=pointer]:
+                    - /url: /company/careers/roles/7612559?gh_jid=7612559&gh_board=samsara
+                    - generic [ref=f527e822]:
+                      - heading "Mid-Market Account Executive - Public Sector" [level=4] [ref=f527e823]
+                      - generic [ref=f527e824]: Remote - US
+                - listitem [ref=f527e825]:
+                  - link "Mid-Market Account Executive - UK&I London - UK2; London, England, United Kingdom" [ref=f527e826] [cursor=pointer]:
+                    - /url: /company/careers/roles/7613161?gh_jid=7613161&gh_board=samsara
+                    - generic [ref=f527e827]:
+                      - heading "Mid-Market Account Executive - UK&I" [level=4] [ref=f527e828]
+                      - generic [ref=f527e829]: London - UK2; London, England, United Kingdom
+                - listitem [ref=f527e830]:
+                  - link "(New Grad) Account Development Representative II - Atlanta Atlanta, Georgia, United States" [ref=f527e831] [cursor=pointer]:
+                    - /url: /company/careers/roles/8094373?gh_jid=8094373&gh_board=samsara
+                    - generic [ref=f527e832]:
+                      - heading "(New Grad) Account Development Representative II - Atlanta" [level=4] [ref=f527e833]
+                      - generic [ref=f527e834]: Atlanta, Georgia, United States
+                - listitem [ref=f527e835]:
+                  - link "(New Grad) Account Development Representative II - Phoenix Phoenix, Arizona, United States" [ref=f527e836] [cursor=pointer]:
+                    - /url: /company/careers/roles/8094371?gh_jid=8094371&gh_board=samsara
+                    - generic [ref=f527e837]:
+                      - heading "(New Grad) Account Development Representative II - Phoenix" [level=4] [ref=f527e838]
+                      - generic [ref=f527e839]: Phoenix, Arizona, United States
+                - listitem [ref=f527e840]:
+                  - link "Pre-Sales Services Consultant (Engagement Services Manager) Remote - US" [ref=f527e841] [cursor=pointer]:
+                    - /url: /company/careers/roles/8070083?gh_jid=8070083&gh_board=samsara
+                    - generic [ref=f527e842]:
+                      - heading "Pre-Sales Services Consultant (Engagement Services Manager)" [level=4] [ref=f527e843]
+                      - generic [ref=f527e844]: Remote - US
+                - listitem [ref=f527e845]:
+                  - link "Public Sector Major Account Executive Remote - US" [ref=f527e846] [cursor=pointer]:
+                    - /url: /company/careers/roles/7612978?gh_jid=7612978&gh_board=samsara
+                    - generic [ref=f527e847]:
+                      - heading "Public Sector Major Account Executive" [level=4] [ref=f527e848]
+                      - generic [ref=f527e849]: Remote - US
+                - listitem [ref=f527e850]:
+                  - link "Renewal Account Executive - CML Remote - CA" [ref=f527e851] [cursor=pointer]:
+                    - /url: /company/careers/roles/8096901?gh_jid=8096901&gh_board=samsara
+                    - generic [ref=f527e852]:
+                      - heading "Renewal Account Executive - CML" [level=4] [ref=f527e853]
+                      - generic [ref=f527e854]: Remote - CA
+                - listitem [ref=f527e855]:
+                  - link "Sales Engineer, Mid Market - Midwest Remote - US" [ref=f527e856] [cursor=pointer]:
+                    - /url: /company/careers/roles/8148303?gh_jid=8148303&gh_board=samsara
+                    - generic [ref=f527e857]:
+                      - heading "Sales Engineer, Mid Market - Midwest" [level=4] [ref=f527e858]
+                      - generic [ref=f527e859]: Remote - US
+                - listitem [ref=f527e860]:
+                  - link "Sales Engineer, Mid Market - Northeast Remote - US" [ref=f527e861] [cursor=pointer]:
+                    - /url: /company/careers/roles/7848428?gh_jid=7848428&gh_board=samsara
+                    - generic [ref=f527e862]:
+                      - heading "Sales Engineer, Mid Market - Northeast" [level=4] [ref=f527e863]
+                      - generic [ref=f527e864]: Remote - US
+                - listitem [ref=f527e865]:
+                  - link "Sales Engineer, Mid Market - Public Sector Remote - US" [ref=f527e866] [cursor=pointer]:
+                    - /url: /company/careers/roles/8036863?gh_jid=8036863&gh_board=samsara
+                    - generic [ref=f527e867]:
+                      - heading "Sales Engineer, Mid Market - Public Sector" [level=4] [ref=f527e868]
+                      - generic [ref=f527e869]: Remote - US
+                - listitem [ref=f527e870]:
+                  - link "Sales Engineer - Mid Market - Southeast Remote - US" [ref=f527e871] [cursor=pointer]:
+                    - /url: /company/careers/roles/8148274?gh_jid=8148274&gh_board=samsara
+                    - generic [ref=f527e872]:
+                      - heading "Sales Engineer - Mid Market - Southeast" [level=4] [ref=f527e873]
+                      - generic [ref=f527e874]: Remote - US
+                - listitem [ref=f527e875]:
+                  - link "Sales Engineer, Mid Market - TOLA Remote - TX" [ref=f527e876] [cursor=pointer]:
+                    - /url: /company/careers/roles/7848459?gh_jid=7848459&gh_board=samsara
+                    - generic [ref=f527e877]:
+                      - heading "Sales Engineer, Mid Market - TOLA" [level=4] [ref=f527e878]
+                      - generic [ref=f527e879]: Remote - TX
+                - listitem [ref=f527e880]:
+                  - link "Sales Engineer - Mid Market - West Remote - US" [ref=f527e881] [cursor=pointer]:
+                    - /url: /company/careers/roles/8148328?gh_jid=8148328&gh_board=samsara
+                    - generic [ref=f527e882]:
+                      - heading "Sales Engineer - Mid Market - West" [level=4] [ref=f527e883]
+                      - generic [ref=f527e884]: Remote - US
+                - listitem [ref=f527e885]:
+                  - link "Sales Manager, Mid-Market, France (Remote) Remote - France" [ref=f527e886] [cursor=pointer]:
+                    - /url: /company/careers/roles/8079877?gh_jid=8079877&gh_board=samsara
+                    - generic [ref=f527e887]:
+                      - heading "Sales Manager, Mid-Market, France (Remote)" [level=4] [ref=f527e888]
+                      - generic [ref=f527e889]: Remote - France
+                - listitem [ref=f527e890]:
+                  - link "Sales Manager, Mid Market UKI London - UK2" [ref=f527e891] [cursor=pointer]:
+                    - /url: /company/careers/roles/8007727?gh_jid=8007727&gh_board=samsara
+                    - generic [ref=f527e892]:
+                      - heading "Sales Manager, Mid Market UKI" [level=4] [ref=f527e893]
+                      - generic [ref=f527e894]: London - UK2
+                - listitem [ref=f527e895]:
+                  - link "Select Major Account Executive (CST) Remote - MI" [ref=f527e896] [cursor=pointer]:
+                    - /url: /company/careers/roles/7818248?gh_jid=7818248&gh_board=samsara
+                    - generic [ref=f527e897]:
+                      - heading "Select Major Account Executive (CST)" [level=4] [ref=f527e898]
+                      - generic [ref=f527e899]: Remote - MI
+                - listitem [ref=f527e900]:
+                  - link "Select Major Account Executive (CST) Remote - US" [ref=f527e901] [cursor=pointer]:
+                    - /url: /company/careers/roles/8095469?gh_jid=8095469&gh_board=samsara
+                    - generic [ref=f527e902]:
+                      - heading "Select Major Account Executive (CST)" [level=4] [ref=f527e903]
+                      - generic [ref=f527e904]: Remote - US
+                - listitem [ref=f527e905]:
+                  - link "Select Major Account Executive (EST) Remote - US" [ref=f527e906] [cursor=pointer]:
+                    - /url: /company/careers/roles/7663706?gh_jid=7663706&gh_board=samsara
+                    - generic [ref=f527e907]:
+                      - heading "Select Major Account Executive (EST)" [level=4] [ref=f527e908]
+                      - generic [ref=f527e909]: Remote - US
+                - listitem [ref=f527e910]:
+                  - link "Senior Strategic Implementation Consultant Remote - US" [ref=f527e911] [cursor=pointer]:
+                    - /url: /company/careers/roles/8104151?gh_jid=8104151&gh_board=samsara
+                    - generic [ref=f527e912]:
+                      - heading "Senior Strategic Implementation Consultant" [level=4] [ref=f527e913]
+                      - generic [ref=f527e914]: Remote - US
+                - listitem [ref=f527e915]:
+                  - link "Solutions Consultant (Engagement Services Manager) Remote - US" [ref=f527e916] [cursor=pointer]:
+                    - /url: /company/careers/roles/8070084?gh_jid=8070084&gh_board=samsara
+                    - generic [ref=f527e917]:
+                      - heading "Solutions Consultant (Engagement Services Manager)" [level=4] [ref=f527e918]
+                      - generic [ref=f527e919]: Remote - US
+                - listitem [ref=f527e920]:
+                  - link "Solutions Integration Engineer II Remote - US" [ref=f527e921] [cursor=pointer]:
+                    - /url: /company/careers/roles/8141615?gh_jid=8141615&gh_board=samsara
+                    - generic [ref=f527e922]:
+                      - heading "Solutions Integration Engineer II" [level=4] [ref=f527e923]
+                      - generic [ref=f527e924]: Remote - US
+                - listitem [ref=f527e925]:
+                  - link "Solutions Integration Engineer IV Remote - US" [ref=f527e926] [cursor=pointer]:
+                    - /url: /company/careers/roles/8094156?gh_jid=8094156&gh_board=samsara
+                    - generic [ref=f527e927]:
+                      - heading "Solutions Integration Engineer IV" [level=4] [ref=f527e928]
+                      - generic [ref=f527e929]: Remote - US
+                - listitem [ref=f527e930]:
+                  - link "Specialist Sales Engineer Remote - NYC" [ref=f527e931] [cursor=pointer]:
+                    - /url: /company/careers/roles/7341443?gh_jid=7341443&gh_board=samsara
+                    - generic [ref=f527e932]:
+                      - heading "Specialist Sales Engineer" [level=4] [ref=f527e933]
+                      - generic [ref=f527e934]: Remote - NYC
+                - listitem [ref=f527e935]:
+                  - link "Specialist Sales Engineer Remote - US" [ref=f527e936] [cursor=pointer]:
+                    - /url: /company/careers/roles/8105738?gh_jid=8105738&gh_board=samsara
+                    - generic [ref=f527e937]:
+                      - heading "Specialist Sales Engineer" [level=4] [ref=f527e938]
+                      - generic [ref=f527e939]: Remote - US
+                - listitem [ref=f527e940]:
+                  - link "Specialist Seller - Connected Maintenance - Public Sector Atlanta, Georgia, United States" [ref=f527e941] [cursor=pointer]:
+                    - /url: /company/careers/roles/7961458?gh_jid=7961458&gh_board=samsara
+                    - generic [ref=f527e942]:
+                      - heading "Specialist Seller - Connected Maintenance - Public Sector" [level=4] [ref=f527e943]
+                      - generic [ref=f527e944]: Atlanta, Georgia, United States
+                - listitem [ref=f527e945]:
+                  - link "Specialist Seller - Connected Maintenance - Public Sector Remote - US" [ref=f527e946] [cursor=pointer]:
+                    - /url: /company/careers/roles/7922805?gh_jid=7922805&gh_board=samsara
+                    - generic [ref=f527e947]:
+                      - heading "Specialist Seller - Connected Maintenance - Public Sector" [level=4] [ref=f527e948]
+                      - generic [ref=f527e949]: Remote - US
+                - listitem [ref=f527e950]:
+                  - link "Specialist Seller - Connected Maintenance - Public Sector Remote - LA" [ref=f527e951] [cursor=pointer]:
+                    - /url: /company/careers/roles/7961471?gh_jid=7961471&gh_board=samsara
+                    - generic [ref=f527e952]:
+                      - heading "Specialist Seller - Connected Maintenance - Public Sector" [level=4] [ref=f527e953]
+                      - generic [ref=f527e954]: Remote - LA
+                - listitem [ref=f527e955]:
+                  - link "Specialist Seller - Connected Maintenance - Public Sector Remote - SF Bay Area" [ref=f527e956] [cursor=pointer]:
+                    - /url: /company/careers/roles/7961464?gh_jid=7961464&gh_board=samsara
+                    - generic [ref=f527e957]:
+                      - heading "Specialist Seller - Connected Maintenance - Public Sector" [level=4] [ref=f527e958]
+                      - generic [ref=f527e959]: Remote - SF Bay Area
+                - listitem [ref=f527e960]:
+                  - link "Specialist Seller - Connected Maintenance - Public Sector Remote - Chicago" [ref=f527e961] [cursor=pointer]:
+                    - /url: /company/careers/roles/7961462?gh_jid=7961462&gh_board=samsara
+                    - generic [ref=f527e962]:
+                      - heading "Specialist Seller - Connected Maintenance - Public Sector" [level=4] [ref=f527e963]
+                      - generic [ref=f527e964]: Remote - Chicago
+                - listitem [ref=f527e965]:
+                  - link "Specialist Seller - Connected Maintenance - Public Sector Remote - NY" [ref=f527e966] [cursor=pointer]:
+                    - /url: /company/careers/roles/7961186?gh_jid=7961186&gh_board=samsara
+                    - generic [ref=f527e967]:
+                      - heading "Specialist Seller - Connected Maintenance - Public Sector" [level=4] [ref=f527e968]
+                      - generic [ref=f527e969]: Remote - NY
+                - listitem [ref=f527e970]:
+                  - link "Specialist Seller - Connected Maintenance - Public Sector Remote - TX" [ref=f527e971] [cursor=pointer]:
+                    - /url: /company/careers/roles/7961459?gh_jid=7961459&gh_board=samsara
+                    - generic [ref=f527e972]:
+                      - heading "Specialist Seller - Connected Maintenance - Public Sector" [level=4] [ref=f527e973]
+                      - generic [ref=f527e974]: Remote - TX
+                - listitem [ref=f527e975]:
+                  - link "Specialist Seller - Connected Maintenance - Public Sector Remote - MA" [ref=f527e976] [cursor=pointer]:
+                    - /url: /company/careers/roles/7961449?gh_jid=7961449&gh_board=samsara
+                    - generic [ref=f527e977]:
+                      - heading "Specialist Seller - Connected Maintenance - Public Sector" [level=4] [ref=f527e978]
+                      - generic [ref=f527e979]: Remote - MA
+                - listitem [ref=f527e980]:
+                  - link "Specialist Seller - Enterprise Remote - US" [ref=f527e981] [cursor=pointer]:
+                    - /url: /company/careers/roles/7292081?gh_jid=7292081&gh_board=samsara
+                    - generic [ref=f527e982]:
+                      - heading "Specialist Seller - Enterprise" [level=4] [ref=f527e983]
+                      - generic [ref=f527e984]: Remote - US
+                - listitem [ref=f527e985]:
+                  - link "Specialist Seller, Mid-Market Remote - US" [ref=f527e986] [cursor=pointer]:
+                    - /url: /company/careers/roles/7409548?gh_jid=7409548&gh_board=samsara
+                    - generic [ref=f527e987]:
+                      - heading "Specialist Seller, Mid-Market" [level=4] [ref=f527e988]
+                      - generic [ref=f527e989]: Remote - US
+                - listitem [ref=f527e990]:
+                  - link "Specialist Seller, Mid-Market Remote - US" [ref=f527e991] [cursor=pointer]:
+                    - /url: /company/careers/roles/8069598?gh_jid=8069598&gh_board=samsara
+                    - generic [ref=f527e992]:
+                      - heading "Specialist Seller, Mid-Market" [level=4] [ref=f527e993]
+                      - generic [ref=f527e994]: Remote - US
+                - listitem [ref=f527e995]:
+                  - link "Sr. Manager, Customer Success Remote - US" [ref=f527e996] [cursor=pointer]:
+                    - /url: /company/careers/roles/8066951?gh_jid=8066951&gh_board=samsara
+                    - generic [ref=f527e997]:
+                      - heading "Sr. Manager, Customer Success" [level=4] [ref=f527e998]
+                      - generic [ref=f527e999]: Remote - US
+                - listitem [ref=f527e1000]:
+                  - link "Sr. Manager, Customer Success Remote - US" [ref=f527e1001] [cursor=pointer]:
+                    - /url: /company/careers/roles/7589195?gh_jid=7589195&gh_board=samsara
+                    - generic [ref=f527e1002]:
+                      - heading "Sr. Manager, Customer Success" [level=4] [ref=f527e1003]
+                      - generic [ref=f527e1004]: Remote - US
+                - listitem [ref=f527e1005]:
+                  - link "Strategic Customer Success Manager Remote - Canada" [ref=f527e1006] [cursor=pointer]:
+                    - /url: /company/careers/roles/8010753?gh_jid=8010753&gh_board=samsara
+                    - generic [ref=f527e1007]:
+                      - heading "Strategic Customer Success Manager" [level=4] [ref=f527e1008]
+                      - generic [ref=f527e1009]: Remote - Canada
+                - listitem [ref=f527e1010]:
+                  - link "Strategic Customer Success Manager Remote - US" [ref=f527e1011] [cursor=pointer]:
+                    - /url: /company/careers/roles/7398075?gh_jid=7398075&gh_board=samsara
+                    - generic [ref=f527e1012]:
+                      - heading "Strategic Customer Success Manager" [level=4] [ref=f527e1013]
+                      - generic [ref=f527e1014]: Remote - US
+                - listitem [ref=f527e1015]:
+                  - link "Strategic Implementation Consultant Remote - US" [ref=f527e1016] [cursor=pointer]:
+                    - /url: /company/careers/roles/8039126?gh_jid=8039126&gh_board=samsara
+                    - generic [ref=f527e1017]:
+                      - heading "Strategic Implementation Consultant" [level=4] [ref=f527e1018]
+                      - generic [ref=f527e1019]: Remote - US
+                - listitem [ref=f527e1020]:
+                  - link "Strategic Implementation Consultant Remote - UK" [ref=f527e1021] [cursor=pointer]:
+                    - /url: /company/careers/roles/8074111?gh_jid=8074111&gh_board=samsara
+                    - generic [ref=f527e1022]:
+                      - heading "Strategic Implementation Consultant" [level=4] [ref=f527e1023]
+                      - generic [ref=f527e1024]: Remote - UK
+          - list [ref=f527e1025]:
+            - listitem [ref=f527e1027]:
+              - heading "Sales Operation" [level=3] [ref=f527e1028]
+              - list [ref=f527e1029]:
+                - listitem [ref=f527e1030]:
+                  - link "Account Validation Specialist - MX Mexico" [ref=f527e1031] [cursor=pointer]:
+                    - /url: /company/careers/roles/7967689?gh_jid=7967689&gh_board=samsara
+                    - generic [ref=f527e1032]:
+                      - heading "Account Validation Specialist - MX" [level=4] [ref=f527e1033]
+                      - generic [ref=f527e1034]: Mexico
+                - listitem [ref=f527e1035]:
+                  - link "AI Learning Experience Designer (AI-LXD) Remote - US" [ref=f527e1036] [cursor=pointer]:
+                    - /url: /company/careers/roles/8041422?gh_jid=8041422&gh_board=samsara
+                    - generic [ref=f527e1037]:
+                      - heading "AI Learning Experience Designer (AI-LXD)" [level=4] [ref=f527e1038]
+                      - generic [ref=f527e1039]: Remote - US
+                - listitem [ref=f527e1040]:
+                  - link "Director, Enablement - Skills and Leadership Excellence Remote - US" [ref=f527e1041] [cursor=pointer]:
+                    - /url: /company/careers/roles/8041418?gh_jid=8041418&gh_board=samsara
+                    - generic [ref=f527e1042]:
+                      - heading "Director, Enablement - Skills and Leadership Excellence" [level=4] [ref=f527e1043]
+                      - generic [ref=f527e1044]: Remote - US
+                - listitem [ref=f527e1045]:
+                  - link "Director, Field Onboarding Remote - US" [ref=f527e1046] [cursor=pointer]:
+                    - /url: /company/careers/roles/7283904?gh_jid=7283904&gh_board=samsara
+                    - generic [ref=f527e1047]:
+                      - heading "Director, Field Onboarding" [level=4] [ref=f527e1048]
+                      - generic [ref=f527e1049]: Remote - US
+                - listitem [ref=f527e1050]:
+                  - link "Director, Revenue Enablement EMEA London, England, United Kingdom" [ref=f527e1051] [cursor=pointer]:
+                    - /url: /company/careers/roles/7791232?gh_jid=7791232&gh_board=samsara
+                    - generic [ref=f527e1052]:
+                      - heading "Director, Revenue Enablement EMEA" [level=4] [ref=f527e1053]
+                      - generic [ref=f527e1054]: London, England, United Kingdom
+                - listitem [ref=f527e1055]:
+                  - link "GTM Business Operations Manager Remote - Houston" [ref=f527e1056] [cursor=pointer]:
+                    - /url: /company/careers/roles/7942733?gh_jid=7942733&gh_board=samsara
+                    - generic [ref=f527e1057]:
+                      - heading "GTM Business Operations Manager" [level=4] [ref=f527e1058]
+                      - generic [ref=f527e1059]: Remote - Houston
+                - listitem [ref=f527e1060]:
+                  - link "Product Manager - Revenue Tools Remote - US" [ref=f527e1061] [cursor=pointer]:
+                    - /url: /company/careers/roles/8042109?gh_jid=8042109&gh_board=samsara
+                    - generic [ref=f527e1062]:
+                      - heading "Product Manager - Revenue Tools" [level=4] [ref=f527e1063]
+                      - generic [ref=f527e1064]: Remote - US
+                - listitem [ref=f527e1065]:
+                  - link "Sales Operations Manager Remote - US" [ref=f527e1066] [cursor=pointer]:
+                    - /url: /company/careers/roles/7555217?gh_jid=7555217&gh_board=samsara
+                    - generic [ref=f527e1067]:
+                      - heading "Sales Operations Manager" [level=4] [ref=f527e1068]
+                      - generic [ref=f527e1069]: Remote - US
+                - listitem [ref=f527e1070]:
+                  - link "Sales Operations Manager Remote - Mexico" [ref=f527e1071] [cursor=pointer]:
+                    - /url: /company/careers/roles/8076592?gh_jid=8076592&gh_board=samsara
+                    - generic [ref=f527e1072]:
+                      - heading "Sales Operations Manager" [level=4] [ref=f527e1073]
+                      - generic [ref=f527e1074]: Remote - Mexico
+                - listitem [ref=f527e1075]:
+                  - link "Sales Operations Manager Remote - US" [ref=f527e1076] [cursor=pointer]:
+                    - /url: /company/careers/roles/8053880?gh_jid=8053880&gh_board=samsara
+                    - generic [ref=f527e1077]:
+                      - heading "Sales Operations Manager" [level=4] [ref=f527e1078]
+                      - generic [ref=f527e1079]: Remote - US
+                - listitem [ref=f527e1080]:
+                  - link "Sales Operations Manager - Enterprise Remote - US" [ref=f527e1081] [cursor=pointer]:
+                    - /url: /company/careers/roles/7815804?gh_jid=7815804&gh_board=samsara
+                    - generic [ref=f527e1082]:
+                      - heading "Sales Operations Manager - Enterprise" [level=4] [ref=f527e1083]
+                      - generic [ref=f527e1084]: Remote - US
+                - listitem [ref=f527e1085]:
+                  - link "Senior AMS Field Enablement Activation Partner (Bilingual Spanish) Remote - US" [ref=f527e1086] [cursor=pointer]:
+                    - /url: /company/careers/roles/8124366?gh_jid=8124366&gh_board=samsara
+                    - generic [ref=f527e1087]:
+                      - heading "Senior AMS Field Enablement Activation Partner (Bilingual Spanish)" [level=4] [ref=f527e1088]
+                      - generic [ref=f527e1089]: Remote - US
+                - listitem [ref=f527e1090]:
+                  - link "Senior Analyst, GTM Business Operations – Public Sector Remote - US" [ref=f527e1091] [cursor=pointer]:
+                    - /url: /company/careers/roles/8115905?gh_jid=8115905&gh_board=samsara
+                    - generic [ref=f527e1092]:
+                      - heading "Senior Analyst, GTM Business Operations – Public Sector" [level=4] [ref=f527e1093]
+                      - generic [ref=f527e1094]: Remote - US
+                - listitem [ref=f527e1095]:
+                  - link "Senior Enablement Specialist Remote - US" [ref=f527e1096] [cursor=pointer]:
+                    - /url: /company/careers/roles/8053884?gh_jid=8053884&gh_board=samsara
+                    - generic [ref=f527e1097]:
+                      - heading "Senior Enablement Specialist" [level=4] [ref=f527e1098]
+                      - generic [ref=f527e1099]: Remote - US
+                - listitem [ref=f527e1100]:
+                  - link "Senior Sales Operations Analyst Remote - US" [ref=f527e1101] [cursor=pointer]:
+                    - /url: /company/careers/roles/8103641?gh_jid=8103641&gh_board=samsara
+                    - generic [ref=f527e1102]:
+                      - heading "Senior Sales Operations Analyst" [level=4] [ref=f527e1103]
+                      - generic [ref=f527e1104]: Remote - US
+                - listitem [ref=f527e1105]:
+                  - link "Senior Training Specialist Remote - US" [ref=f527e1106] [cursor=pointer]:
+                    - /url: /company/careers/roles/7822470?gh_jid=7822470&gh_board=samsara
+                    - generic [ref=f527e1107]:
+                      - heading "Senior Training Specialist" [level=4] [ref=f527e1108]
+                      - generic [ref=f527e1109]: Remote - US
+                - listitem [ref=f527e1110]:
+                  - link "Sr. Business Operations Analyst - Post Sales Remote - US" [ref=f527e1111] [cursor=pointer]:
+                    - /url: /company/careers/roles/8084045?gh_jid=8084045&gh_board=samsara
+                    - generic [ref=f527e1112]:
+                      - heading "Sr. Business Operations Analyst - Post Sales" [level=4] [ref=f527e1113]
+                      - generic [ref=f527e1114]: Remote - US
+                - listitem [ref=f527e1115]:
+                  - link "Sr. Director, Enablement - Shared Services Remote - US" [ref=f527e1116] [cursor=pointer]:
+                    - /url: /company/careers/roles/8041428?gh_jid=8041428&gh_board=samsara
+                    - generic [ref=f527e1117]:
+                      - heading "Sr. Director, Enablement - Shared Services" [level=4] [ref=f527e1118]
+                      - generic [ref=f527e1119]: Remote - US
+                - listitem [ref=f527e1120]:
+                  - link "Sr. Director, Field Activation Remote - US" [ref=f527e1121] [cursor=pointer]:
+                    - /url: /company/careers/roles/8041424?gh_jid=8041424&gh_board=samsara
+                    - generic [ref=f527e1122]:
+                      - heading "Sr. Director, Field Activation" [level=4] [ref=f527e1123]
+                      - generic [ref=f527e1124]: Remote - US
+                - listitem [ref=f527e1125]:
+                  - link "Sr. Manager, New Products Strategy Remote - US" [ref=f527e1126] [cursor=pointer]:
+                    - /url: /company/careers/roles/8065687?gh_jid=8065687&gh_board=samsara
+                    - generic [ref=f527e1127]:
+                      - heading "Sr. Manager, New Products Strategy" [level=4] [ref=f527e1128]
+                      - generic [ref=f527e1129]: Remote - US
+                - listitem [ref=f527e1130]:
+                  - link "Supervisor, Sales and Contract Administration Remote - Mexico" [ref=f527e1131] [cursor=pointer]:
+                    - /url: /company/careers/roles/8079702?gh_jid=8079702&gh_board=samsara
+                    - generic [ref=f527e1132]:
+                      - heading "Supervisor, Sales and Contract Administration" [level=4] [ref=f527e1133]
+                      - generic [ref=f527e1134]: Remote - Mexico
+          - list [ref=f527e1135]:
+            - listitem [ref=f527e1137]:
+              - heading "Software" [level=3] [ref=f527e1138]
+              - list [ref=f527e1139]:
+                - listitem [ref=f527e1140]:
+                  - link "Engineering Manager II - Platform Firmware Remote - US" [ref=f527e1141] [cursor=pointer]:
+                    - /url: /company/careers/roles/7801077?gh_jid=7801077&gh_board=samsara
+                    - generic [ref=f527e1142]:
+                      - heading "Engineering Manager II - Platform Firmware" [level=4] [ref=f527e1143]
+                      - generic [ref=f527e1144]: Remote - US
+                - listitem [ref=f527e1145]:
+                  - link "Finance & Strategy AI Engineer San Francisco - SF9" [ref=f527e1146] [cursor=pointer]:
+                    - /url: /company/careers/roles/8113356?gh_jid=8113356&gh_board=samsara
+                    - generic [ref=f527e1147]:
+                      - heading "Finance & Strategy AI Engineer" [level=4] [ref=f527e1148]
+                      - generic [ref=f527e1149]: San Francisco - SF9
+                - listitem [ref=f527e1150]:
+                  - link "Lead Machine Learning Engineer - ML Infrastructure Remote - Canada" [ref=f527e1151] [cursor=pointer]:
+                    - /url: /company/careers/roles/7746586?gh_jid=7746586&gh_board=samsara
+                    - generic [ref=f527e1152]:
+                      - heading "Lead Machine Learning Engineer - ML Infrastructure" [level=4] [ref=f527e1153]
+                      - generic [ref=f527e1154]: Remote - Canada
+                - listitem [ref=f527e1155]:
+                  - link "Lead Machine Learning Engineer - ML Infrastructure Remote - US" [ref=f527e1156] [cursor=pointer]:
+                    - /url: /company/careers/roles/7721193?gh_jid=7721193&gh_board=samsara
+                    - generic [ref=f527e1157]:
+                      - heading "Lead Machine Learning Engineer - ML Infrastructure" [level=4] [ref=f527e1158]
+                      - generic [ref=f527e1159]: Remote - US
+                - listitem [ref=f527e1160]:
+                  - link "People Analytics AI Engineer Remote - Seattle" [ref=f527e1161] [cursor=pointer]:
+                    - /url: /company/careers/roles/7858719?gh_jid=7858719&gh_board=samsara
+                    - generic [ref=f527e1162]:
+                      - heading "People Analytics AI Engineer" [level=4] [ref=f527e1163]
+                      - generic [ref=f527e1164]: Remote - Seattle
+                - listitem [ref=f527e1165]:
+                  - link "Security Engineer II - Vulnerability Management Bengaluru - BLR1" [ref=f527e1166] [cursor=pointer]:
+                    - /url: /company/careers/roles/8138802?gh_jid=8138802&gh_board=samsara
+                    - generic [ref=f527e1167]:
+                      - heading "Security Engineer II - Vulnerability Management" [level=4] [ref=f527e1168]
+                      - generic [ref=f527e1169]: Bengaluru - BLR1
+                - listitem [ref=f527e1170]:
+                  - link "Senior+ Applied Scientist Remote - US" [ref=f527e1171] [cursor=pointer]:
+                    - /url: /company/careers/roles/8042166?gh_jid=8042166&gh_board=samsara
+                    - generic [ref=f527e1172]:
+                      - heading "Senior+ Applied Scientist" [level=4] [ref=f527e1173]
+                      - generic [ref=f527e1174]: Remote - US
+                - listitem [ref=f527e1175]:
+                  - link "Senior Data Engineer Remote - Canada" [ref=f527e1176] [cursor=pointer]:
+                    - /url: /company/careers/roles/7997311?gh_jid=7997311&gh_board=samsara
+                    - generic [ref=f527e1177]:
+                      - heading "Senior Data Engineer" [level=4] [ref=f527e1178]
+                      - generic [ref=f527e1179]: Remote - Canada
+                - listitem [ref=f527e1180]:
+                  - link "Senior Data Engineer Remote - US" [ref=f527e1181] [cursor=pointer]:
+                    - /url: /company/careers/roles/7859702?gh_jid=7859702&gh_board=samsara
+                    - generic [ref=f527e1182]:
+                      - heading "Senior Data Engineer" [level=4] [ref=f527e1183]
+                      - generic [ref=f527e1184]: Remote - US
+                - listitem [ref=f527e1185]:
+                  - link "Senior Manager, Data Platform Remote - US" [ref=f527e1186] [cursor=pointer]:
+                    - /url: /company/careers/roles/7811931?gh_jid=7811931&gh_board=samsara
+                    - generic [ref=f527e1187]:
+                      - heading "Senior Manager, Data Platform" [level=4] [ref=f527e1188]
+                      - generic [ref=f527e1189]: Remote - US
+                - listitem [ref=f527e1190]:
+                  - link "Senior Manager, Safety AI Remote - US" [ref=f527e1191] [cursor=pointer]:
+                    - /url: /company/careers/roles/7731751?gh_jid=7731751&gh_board=samsara
+                    - generic [ref=f527e1192]:
+                      - heading "Senior Manager, Safety AI" [level=4] [ref=f527e1193]
+                      - generic [ref=f527e1194]: Remote - US
+                - listitem [ref=f527e1195]:
+                  - link "Senior Security Engineer Remote - UK" [ref=f527e1196] [cursor=pointer]:
+                    - /url: /company/careers/roles/8038153?gh_jid=8038153&gh_board=samsara
+                    - generic [ref=f527e1197]:
+                      - heading "Senior Security Engineer" [level=4] [ref=f527e1198]
+                      - generic [ref=f527e1199]: Remote - UK
+                - listitem [ref=f527e1200]:
+                  - link "Senior Security Operations Engineer I Remote - US" [ref=f527e1201] [cursor=pointer]:
+                    - /url: /company/careers/roles/8021105?gh_jid=8021105&gh_board=samsara
+                    - generic [ref=f527e1202]:
+                      - heading "Senior Security Operations Engineer I" [level=4] [ref=f527e1203]
+                      - generic [ref=f527e1204]: Remote - US
+                - listitem [ref=f527e1205]:
+                  - link "Senior Security Operations Engineer I Remote - Canada" [ref=f527e1206] [cursor=pointer]:
+                    - /url: /company/careers/roles/8027084?gh_jid=8027084&gh_board=samsara
+                    - generic [ref=f527e1207]:
+                      - heading "Senior Security Operations Engineer I" [level=4] [ref=f527e1208]
+                      - generic [ref=f527e1209]: Remote - Canada
+                - listitem [ref=f527e1210]:
+                  - link "Senior Software Engineer Remote - US" [ref=f527e1211] [cursor=pointer]:
+                    - /url: /company/careers/roles/7266439?gh_jid=7266439&gh_board=samsara
+                    - generic [ref=f527e1212]:
+                      - heading "Senior Software Engineer" [level=4] [ref=f527e1213]
+                      - generic [ref=f527e1214]: Remote - US
+                - listitem [ref=f527e1215]:
+                  - link "Senior Software Engineer Remote - Canada" [ref=f527e1216] [cursor=pointer]:
+                    - /url: /company/careers/roles/8130819?gh_jid=8130819&gh_board=samsara
+                    - generic [ref=f527e1217]:
+                      - heading "Senior Software Engineer" [level=4] [ref=f527e1218]
+                      - generic [ref=f527e1219]: Remote - Canada
+                - listitem [ref=f527e1220]:
+                  - link "Senior Software Engineer- Agentic Platform & Integrations (Full Stack) Remote - Poland" [ref=f527e1221] [cursor=pointer]:
+                    - /url: /company/careers/roles/8052685?gh_jid=8052685&gh_board=samsara
+                    - generic [ref=f527e1222]:
+                      - heading "Senior Software Engineer- Agentic Platform & Integrations (Full Stack)" [level=4] [ref=f527e1223]
+                      - generic [ref=f527e1224]: Remote - Poland
+                - listitem [ref=f527e1225]:
+                  - link "Senior Software Engineer - Connected Workflows Remote - US" [ref=f527e1226] [cursor=pointer]:
+                    - /url: /company/careers/roles/7847219?gh_jid=7847219&gh_board=samsara
+                    - generic [ref=f527e1227]:
+                      - heading "Senior Software Engineer - Connected Workflows" [level=4] [ref=f527e1228]
+                      - generic [ref=f527e1229]: Remote - US
+                - listitem [ref=f527e1230]:
+                  - link "Senior Software Engineer - Data Platform Remote - US" [ref=f527e1231] [cursor=pointer]:
+                    - /url: /company/careers/roles/7922530?gh_jid=7922530&gh_board=samsara
+                    - generic [ref=f527e1232]:
+                      - heading "Senior Software Engineer - Data Platform" [level=4] [ref=f527e1233]
+                      - generic [ref=f527e1234]: Remote - US
+                - listitem [ref=f527e1235]:
+                  - link "Senior Software Engineer - Data Platform Remote - Canada" [ref=f527e1236] [cursor=pointer]:
+                    - /url: /company/careers/roles/7992889?gh_jid=7992889&gh_board=samsara
+                    - generic [ref=f527e1237]:
+                      - heading "Senior Software Engineer - Data Platform" [level=4] [ref=f527e1238]
+                      - generic [ref=f527e1239]: Remote - Canada
+                - listitem [ref=f527e1240]:
+                  - link "Senior Software Engineer II Remote - Canada" [ref=f527e1241] [cursor=pointer]:
+                    - /url: /company/careers/roles/8129161?gh_jid=8129161&gh_board=samsara
+                    - generic [ref=f527e1242]:
+                      - heading "Senior Software Engineer II" [level=4] [ref=f527e1243]
+                      - generic [ref=f527e1244]: Remote - Canada
+                - listitem [ref=f527e1245]:
+                  - link "Senior Software Engineer II, DevEx, OPX Remote - Canada; Remote - US" [ref=f527e1246] [cursor=pointer]:
+                    - /url: /company/careers/roles/8044126?gh_jid=8044126&gh_board=samsara
+                    - generic [ref=f527e1247]:
+                      - heading "Senior Software Engineer II, DevEx, OPX" [level=4] [ref=f527e1248]
+                      - generic [ref=f527e1249]: Remote - Canada; Remote - US
+                - listitem [ref=f527e1250]:
+                  - link "Senior Software Engineer II - Web Experience Remote - US" [ref=f527e1251] [cursor=pointer]:
+                    - /url: /company/careers/roles/8055217?gh_jid=8055217&gh_board=samsara
+                    - generic [ref=f527e1252]:
+                      - heading "Senior Software Engineer II - Web Experience" [level=4] [ref=f527e1253]
+                      - generic [ref=f527e1254]: Remote - US
+                - listitem [ref=f527e1255]:
+                  - link "Senior Software Engineer - Safety Detection Precision London - UK2" [ref=f527e1256] [cursor=pointer]:
+                    - /url: /company/careers/roles/7966918?gh_jid=7966918&gh_board=samsara
+                    - generic [ref=f527e1257]:
+                      - heading "Senior Software Engineer - Safety Detection Precision" [level=4] [ref=f527e1258]
+                      - generic [ref=f527e1259]: London - UK2
+                - listitem [ref=f527e1260]:
+                  - link "Software Engineer II Remote - US" [ref=f527e1261] [cursor=pointer]:
+                    - /url: /company/careers/roles/8036387?gh_jid=8036387&gh_board=samsara
+                    - generic [ref=f527e1262]:
+                      - heading "Software Engineer II" [level=4] [ref=f527e1263]
+                      - generic [ref=f527e1264]: Remote - US
+                - listitem [ref=f527e1265]:
+                  - link "Software Engineer I (New Grad) London - UK2" [ref=f527e1266] [cursor=pointer]:
+                    - /url: /company/careers/roles/8097345?gh_jid=8097345&gh_board=samsara
+                    - generic [ref=f527e1267]:
+                      - heading "Software Engineer I (New Grad)" [level=4] [ref=f527e1268]
+                      - generic [ref=f527e1269]: London - UK2
+                - listitem [ref=f527e1270]:
+                  - link "Software Engineering Internship - London London - UK2" [ref=f527e1271] [cursor=pointer]:
+                    - /url: /company/careers/roles/8082093?gh_jid=8082093&gh_board=samsara
+                    - generic [ref=f527e1272]:
+                      - heading "Software Engineering Internship - London" [level=4] [ref=f527e1273]
+                      - generic [ref=f527e1274]: London - UK2
+                - listitem [ref=f527e1275]:
+                  - link "Software Engineering Internship - San Francisco San Francisco - SF9" [ref=f527e1276] [cursor=pointer]:
+                    - /url: /company/careers/roles/8082091?gh_jid=8082091&gh_board=samsara
+                    - generic [ref=f527e1277]:
+                      - heading "Software Engineering Internship - San Francisco" [level=4] [ref=f527e1278]
+                      - generic [ref=f527e1279]: San Francisco - SF9
+                - listitem [ref=f527e1280]:
+                  - link "Sr. AI Engineer Remote - CA" [ref=f527e1281] [cursor=pointer]:
+                    - /url: /company/careers/roles/8083352?gh_jid=8083352&gh_board=samsara
+                    - generic [ref=f527e1282]:
+                      - heading "Sr. AI Engineer" [level=4] [ref=f527e1283]
+                      - generic [ref=f527e1284]: Remote - CA
+                - listitem [ref=f527e1285]:
+                  - link "Sr. Security Engineer - Enterprise Security Remote - Vancouver" [ref=f527e1286] [cursor=pointer]:
+                    - /url: /company/careers/roles/7834975?gh_jid=7834975&gh_board=samsara
+                    - generic [ref=f527e1287]:
+                      - heading "Sr. Security Engineer - Enterprise Security" [level=4] [ref=f527e1288]
+                      - generic [ref=f527e1289]: Remote - Vancouver
+                - listitem [ref=f527e1290]:
+                  - link "Sr. Security Engineer - Enterprise Security Remote - CA" [ref=f527e1291] [cursor=pointer]:
+                    - /url: /company/careers/roles/7752492?gh_jid=7752492&gh_board=samsara
+                    - generic [ref=f527e1292]:
+                      - heading "Sr. Security Engineer - Enterprise Security" [level=4] [ref=f527e1293]
+                      - generic [ref=f527e1294]: Remote - CA
+                - listitem [ref=f527e1295]:
+                  - link "Sr. Software Engineer, Cloud Platform Remote - UK" [ref=f527e1296] [cursor=pointer]:
+                    - /url: /company/careers/roles/8042387?gh_jid=8042387&gh_board=samsara
+                    - generic [ref=f527e1297]:
+                      - heading "Sr. Software Engineer, Cloud Platform" [level=4] [ref=f527e1298]
+                      - generic [ref=f527e1299]: Remote - UK
+                - listitem [ref=f527e1300]:
+                  - link "Sr. Software Engineer II, AI Platform Remote - SF Bay Area" [ref=f527e1301] [cursor=pointer]:
+                    - /url: /company/careers/roles/8050373?gh_jid=8050373&gh_board=samsara
+                    - generic [ref=f527e1302]:
+                      - heading "Sr. Software Engineer II, AI Platform" [level=4] [ref=f527e1303]
+                      - generic [ref=f527e1304]: Remote - SF Bay Area
+                - listitem [ref=f527e1305]:
+                  - link "Sr. Software Engineer II - IAM Remote - Canada" [ref=f527e1306] [cursor=pointer]:
+                    - /url: /company/careers/roles/7997916?gh_jid=7997916&gh_board=samsara
+                    - generic [ref=f527e1307]:
+                      - heading "Sr. Software Engineer II - IAM" [level=4] [ref=f527e1308]
+                      - generic [ref=f527e1309]: Remote - Canada
+                - listitem [ref=f527e1310]:
+                  - link "Sr. Software Engineer II - IAM Remote - SF Bay Area" [ref=f527e1311] [cursor=pointer]:
+                    - /url: /company/careers/roles/7892022?gh_jid=7892022&gh_board=samsara
+                    - generic [ref=f527e1312]:
+                      - heading "Sr. Software Engineer II - IAM" [level=4] [ref=f527e1313]
+                      - generic [ref=f527e1314]: Remote - SF Bay Area
+                - listitem [ref=f527e1315]:
+                  - link "Sr. Support Product Manager, Tooling and Ops Remote - US" [ref=f527e1316] [cursor=pointer]:
+                    - /url: /company/careers/roles/7621277?gh_jid=7621277&gh_board=samsara
+                    - generic [ref=f527e1317]:
+                      - heading "Sr. Support Product Manager, Tooling and Ops" [level=4] [ref=f527e1318]
+                      - generic [ref=f527e1319]: Remote - US
+                - listitem [ref=f527e1320]:
+                  - link "Sr. Support Product Manager, Tooling and Ops Remote - Toronto" [ref=f527e1321] [cursor=pointer]:
+                    - /url: /company/careers/roles/7583834?gh_jid=7583834&gh_board=samsara
+                    - generic [ref=f527e1322]:
+                      - heading "Sr. Support Product Manager, Tooling and Ops" [level=4] [ref=f527e1323]
+                      - generic [ref=f527e1324]: Remote - Toronto
+                - listitem [ref=f527e1325]:
+                  - link "Staff Firmware Engineer Remote - SF Bay Area" [ref=f527e1326] [cursor=pointer]:
+                    - /url: /company/careers/roles/8074536?gh_jid=8074536&gh_board=samsara
+                    - generic [ref=f527e1327]:
+                      - heading "Staff Firmware Engineer" [level=4] [ref=f527e1328]
+                      - generic [ref=f527e1329]: Remote - SF Bay Area
+                - listitem [ref=f527e1330]:
+                  - link "Staff Machine Learning Engineer - Edge AI Remote - US" [ref=f527e1331] [cursor=pointer]:
+                    - /url: /company/careers/roles/7266357?gh_jid=7266357&gh_board=samsara
+                    - generic [ref=f527e1332]:
+                      - heading "Staff Machine Learning Engineer - Edge AI" [level=4] [ref=f527e1333]
+                      - generic [ref=f527e1334]: Remote - US
+                - listitem [ref=f527e1335]:
+                  - link "Staff Machine Learning Engineer - Edge AI Remote - Canada" [ref=f527e1336] [cursor=pointer]:
+                    - /url: /company/careers/roles/7431070?gh_jid=7431070&gh_board=samsara
+                    - generic [ref=f527e1337]:
+                      - heading "Staff Machine Learning Engineer - Edge AI" [level=4] [ref=f527e1338]
+                      - generic [ref=f527e1339]: Remote - Canada
+                - listitem [ref=f527e1340]:
+                  - link "Staff Software Engineer Remote - US" [ref=f527e1341] [cursor=pointer]:
+                    - /url: /company/careers/roles/7588828?gh_jid=7588828&gh_board=samsara
+                    - generic [ref=f527e1342]:
+                      - heading "Staff Software Engineer" [level=4] [ref=f527e1343]
+                      - generic [ref=f527e1344]: Remote - US
+                - listitem [ref=f527e1345]:
+                  - link "Staff Software Engineer Remote - Canada" [ref=f527e1346] [cursor=pointer]:
+                    - /url: /company/careers/roles/8115078?gh_jid=8115078&gh_board=samsara
+                    - generic [ref=f527e1347]:
+                      - heading "Staff Software Engineer" [level=4] [ref=f527e1348]
+                      - generic [ref=f527e1349]: Remote - Canada
+                - listitem [ref=f527e1350]:
+                  - link "Staff Software Engineer Remote - US" [ref=f527e1351] [cursor=pointer]:
+                    - /url: /company/careers/roles/8064742?gh_jid=8064742&gh_board=samsara
+                    - generic [ref=f527e1352]:
+                      - heading "Staff Software Engineer" [level=4] [ref=f527e1353]
+                      - generic [ref=f527e1354]: Remote - US
+                - listitem [ref=f527e1355]:
+                  - link "Staff Software Engineer Remote - Canada" [ref=f527e1356] [cursor=pointer]:
+                    - /url: /company/careers/roles/8115102?gh_jid=8115102&gh_board=samsara
+                    - generic [ref=f527e1357]:
+                      - heading "Staff Software Engineer" [level=4] [ref=f527e1358]
+                      - generic [ref=f527e1359]: Remote - Canada
+                - listitem [ref=f527e1360]:
+                  - link "Staff Software Engineer, DevEx Remote - Canada" [ref=f527e1361] [cursor=pointer]:
+                    - /url: /company/careers/roles/8109358?gh_jid=8109358&gh_board=samsara
+                    - generic [ref=f527e1362]:
+                      - heading "Staff Software Engineer, DevEx" [level=4] [ref=f527e1363]
+                      - generic [ref=f527e1364]: Remote - Canada
+                - listitem [ref=f527e1365]:
+                  - link "Staff Software Engineer, DevEx Remote - US" [ref=f527e1366] [cursor=pointer]:
+                    - /url: /company/careers/roles/7752678?gh_jid=7752678&gh_board=samsara
+                    - generic [ref=f527e1367]:
+                      - heading "Staff Software Engineer, DevEx" [level=4] [ref=f527e1368]
+                      - generic [ref=f527e1369]: Remote - US
+                - listitem [ref=f527e1370]:
+                  - link "Staff Software Engineer - External Platform Remote - US" [ref=f527e1371] [cursor=pointer]:
+                    - /url: /company/careers/roles/7266385?gh_jid=7266385&gh_board=samsara
+                    - generic [ref=f527e1372]:
+                      - heading "Staff Software Engineer - External Platform" [level=4] [ref=f527e1373]
+                      - generic [ref=f527e1374]: Remote - US
+                - listitem [ref=f527e1375]:
+                  - link "Staff Software Engineer, Maps Services Remote - US" [ref=f527e1376] [cursor=pointer]:
+                    - /url: /company/careers/roles/8153269?gh_jid=8153269&gh_board=samsara
+                    - generic [ref=f527e1377]:
+                      - heading "Staff Software Engineer, Maps Services" [level=4] [ref=f527e1378]
+                      - generic [ref=f527e1379]: Remote - US
+                - listitem [ref=f527e1380]:
+                  - link "Staff Software Engineer - Platform and Infrastructure Bengaluru - BLR1" [ref=f527e1381] [cursor=pointer]:
+                    - /url: /company/careers/roles/7266287?gh_jid=7266287&gh_board=samsara
+                    - generic [ref=f527e1382]:
+                      - heading "Staff Software Engineer - Platform and Infrastructure" [level=4] [ref=f527e1383]
+                      - generic [ref=f527e1384]: Bengaluru - BLR1
+                - listitem [ref=f527e1385]:
+                  - link "Tech Lead Applied Scientist Remote - US" [ref=f527e1386] [cursor=pointer]:
+                    - /url: /company/careers/roles/7266629?gh_jid=7266629&gh_board=samsara
+                    - generic [ref=f527e1387]:
+                      - heading "Tech Lead Applied Scientist" [level=4] [ref=f527e1388]
+                      - generic [ref=f527e1389]: Remote - US
+          - list [ref=f527e1390]:
+            - listitem [ref=f527e1392]:
+              - heading "Support" [level=3] [ref=f527e1393]
+              - list [ref=f527e1394]:
+                - listitem [ref=f527e1395]:
+                  - link "Bilingual Customer Support Specialist Remote - US" [ref=f527e1396] [cursor=pointer]:
+                    - /url: /company/careers/roles/8079873?gh_jid=8079873&gh_board=samsara
+                    - generic [ref=f527e1397]:
+                      - heading "Bilingual Customer Support Specialist" [level=4] [ref=f527e1398]
+                      - generic [ref=f527e1399]: Remote - US
+                - listitem [ref=f527e1400]:
+                  - link "Data Annotator - Fresh Graduate Bengaluru - BLR1" [ref=f527e1401] [cursor=pointer]:
+                    - /url: /company/careers/roles/8076414?gh_jid=8076414&gh_board=samsara
+                    - generic [ref=f527e1402]:
+                      - heading "Data Annotator - Fresh Graduate" [level=4] [ref=f527e1403]
+                      - generic [ref=f527e1404]: Bengaluru - BLR1
+                - listitem [ref=f527e1405]:
+                  - link "Product Support Engineer Bengaluru - BLR1" [ref=f527e1406] [cursor=pointer]:
+                    - /url: /company/careers/roles/7782002?gh_jid=7782002&gh_board=samsara
+                    - generic [ref=f527e1407]:
+                      - heading "Product Support Engineer" [level=4] [ref=f527e1408]
+                      - generic [ref=f527e1409]: Bengaluru - BLR1
+                - listitem [ref=f527e1410]:
+                  - link "Product Support Engineer III Bengaluru - BLR1" [ref=f527e1411] [cursor=pointer]:
+                    - /url: /company/careers/roles/7960367?gh_jid=7960367&gh_board=samsara
+                    - generic [ref=f527e1412]:
+                      - heading "Product Support Engineer III" [level=4] [ref=f527e1413]
+                      - generic [ref=f527e1414]: Bengaluru - BLR1
+                - listitem [ref=f527e1415]:
+                  - link "Sr. Knowledge Developer Remote - Mexico" [ref=f527e1416] [cursor=pointer]:
+                    - /url: /company/careers/roles/7951885?gh_jid=7951885&gh_board=samsara
+                    - generic [ref=f527e1417]:
+                      - heading "Sr. Knowledge Developer" [level=4] [ref=f527e1418]
+                      - generic [ref=f527e1419]: Remote - Mexico
+                - listitem [ref=f527e1420]:
+                  - link "Technical Support Engineer Remote - Mexico" [ref=f527e1421] [cursor=pointer]:
+                    - /url: /company/careers/roles/8068215?gh_jid=8068215&gh_board=samsara
+                    - generic [ref=f527e1422]:
+                      - heading "Technical Support Engineer" [level=4] [ref=f527e1423]
+                      - generic [ref=f527e1424]: Remote - Mexico
+                - listitem [ref=f527e1425]:
+                  - link "Technical Support Engineer I - Mexico Remote - Mexico" [ref=f527e1426] [cursor=pointer]:
+                    - /url: /company/careers/roles/8112694?gh_jid=8112694&gh_board=samsara
+                    - generic [ref=f527e1427]:
+                      - heading "Technical Support Engineer I - Mexico" [level=4] [ref=f527e1428]
+                      - generic [ref=f527e1429]: Remote - Mexico
+    - contentinfo [ref=f527e1430]:
+      - generic [ref=f527e1431]:
+        - link "Samsara home page" [ref=f527e1432] [cursor=pointer]:
+          - /url: /
+        - navigation "Footer navigation" [ref=f527e1435]:
+          - generic [ref=f527e1436]:
+            - heading [level=3] [ref=f527e1437]:
+              - button "Products" [ref=f527e1438] [cursor=pointer]:
+                - generic [ref=f527e1440]: "[ + ]"
+            - region "Products":
+              - list [ref=f527e1441]:
+                - listitem [ref=f527e1442]:
+                  - link "Cameras and Video" [ref=f527e1443] [cursor=pointer]:
+                    - /url: /products/cameras
+                - listitem [ref=f527e1444]:
+                  - link "AI Multicam" [ref=f527e1445] [cursor=pointer]:
+                    - /url: /products/cameras/ai-multicam-system
+                - listitem [ref=f527e1446]:
+                  - link "Driver Experience" [ref=f527e1447] [cursor=pointer]:
+                    - /url: /products/workforce-management/driver-experience
+                - listitem [ref=f527e1448]:
+                  - link "Driver Coaching" [ref=f527e1449] [cursor=pointer]:
+                    - /url: /products/cameras/driver-coaching
+                - listitem [ref=f527e1450]:
+                  - link "Drowsiness Detection" [ref=f527e1451] [cursor=pointer]:
+                    - /url: /products/cameras/drowsiness-detection
+                - listitem [ref=f527e1452]:
+                  - link "Safety Reporting & Insights" [ref=f527e1453] [cursor=pointer]:
+                    - /url: /products/cameras/reporting-and-insights
+                - listitem [ref=f527e1454]:
+                  - link "Equipment Management" [ref=f527e1455] [cursor=pointer]:
+                    - /url: /products/equipment-tracking
+                - listitem [ref=f527e1456]:
+                  - link "Trailer Tracking" [ref=f527e1457] [cursor=pointer]:
+                    - /url: /products/equipment-tracking/trailer-tracking
+                - listitem [ref=f527e1458]:
+                  - link "Asset Tracking" [ref=f527e1459] [cursor=pointer]:
+                    - /url: /products/equipment-tracking/asset-tracking
+                - listitem [ref=f527e1460]:
+                  - link "Asset Tag" [ref=f527e1461] [cursor=pointer]:
+                    - /url: /products/equipment-tracking/asset-tag
+                - listitem [ref=f527e1462]:
+                  - link "Fleet Telematics" [ref=f527e1463] [cursor=pointer]:
+                    - /url: /products/telematics
+                - listitem [ref=f527e1464]:
+                  - link "GPS Fleet Tracking" [ref=f527e1465] [cursor=pointer]:
+                    - /url: /products/telematics/gps-fleet-tracking
+                - listitem [ref=f527e1466]:
+                  - link "Maintenance" [ref=f527e1467] [cursor=pointer]:
+                    - /url: /products/telematics/fleet-maintenance
+                - listitem [ref=f527e1468]:
+                  - link "Routing & Dispatch" [ref=f527e1469] [cursor=pointer]:
+                    - /url: /products/telematics/routing
+                - listitem [ref=f527e1470]:
+                  - link "Commercial Navigation" [ref=f527e1471] [cursor=pointer]:
+                    - /url: /products/telematics/commercial-navigation
+                - listitem [ref=f527e1472]:
+                  - link "Electric Vehicles" [ref=f527e1473] [cursor=pointer]:
+                    - /url: /solutions/fleet-electrification
+                - listitem [ref=f527e1474]:
+                  - link "First Net" [ref=f527e1475] [cursor=pointer]:
+                    - /url: /products/telematics/firstnet
+                - listitem [ref=f527e1476]:
+                  - link "Samsara Apps" [ref=f527e1477] [cursor=pointer]:
+                    - /url: /products/samsara-apps
+                - listitem [ref=f527e1478]:
+                  - link "Fuel Savings Calculator" [ref=f527e1479] [cursor=pointer]:
+                    - /url: /products/telematics/fleet-fuel-savings-calculator
+                - listitem [ref=f527e1480]:
+                  - link "DVIR" [ref=f527e1481] [cursor=pointer]:
+                    - /url: /products/samsara-apps/dvir
+                - listitem [ref=f527e1482]:
+                  - link "ELD Compliance" [ref=f527e1483] [cursor=pointer]:
+                    - /url: /products/samsara-apps/eld-compliance
+                - listitem [ref=f527e1484]:
+                  - link "Connected Training" [ref=f527e1485] [cursor=pointer]:
+                    - /url: /products/samsara-apps/connected-training
+                - listitem [ref=f527e1486]:
+                  - link "Connected Workflows" [ref=f527e1487] [cursor=pointer]:
+                    - /url: /products/samsara-apps/connected-forms
+                - listitem [ref=f527e1488]:
+                  - link "Samsara Platform" [ref=f527e1489] [cursor=pointer]:
+                    - /url: /products/platform
+                - listitem [ref=f527e1490]:
+                  - link "Samsara Intelligence" [ref=f527e1491] [cursor=pointer]:
+                    - /url: /products/platform/ai-samsara-intelligence
+                - listitem [ref=f527e1492]:
+                  - link "Incident Center" [ref=f527e1493] [cursor=pointer]:
+                    - /url: /products/platform/incident-center
+                - listitem [ref=f527e1494]:
+                  - link "Site Security" [ref=f527e1495] [cursor=pointer]:
+                    - /url: /products/site-visibility
+                - listitem [ref=f527e1496]:
+                  - link "All Product Hardware" [ref=f527e1497] [cursor=pointer]:
+                    - /url: /products/models
+          - generic [ref=f527e1498]:
+            - heading [level=3] [ref=f527e1499]:
+              - button "Industries" [ref=f527e1500] [cursor=pointer]:
+                - generic [ref=f527e1502]: "[ + ]"
+            - region "Industries":
+              - list [ref=f527e1503]:
+                - listitem [ref=f527e1504]:
+                  - link "Transportation & Logistics" [ref=f527e1505] [cursor=pointer]:
+                    - /url: /industries/logistics
+                - listitem [ref=f527e1506]:
+                  - link "Construction" [ref=f527e1507] [cursor=pointer]:
+                    - /url: /industries/construction
+                - listitem [ref=f527e1508]:
+                  - link "Food & Beverage" [ref=f527e1509] [cursor=pointer]:
+                    - /url: /industries/food-and-beverage
+                - listitem [ref=f527e1510]:
+                  - link "Passenger Transit" [ref=f527e1511] [cursor=pointer]:
+                    - /url: /industries/passenger-transit
+                - listitem [ref=f527e1512]:
+                  - link "Field Services" [ref=f527e1513] [cursor=pointer]:
+                    - /url: /industries/field-services
+                - listitem [ref=f527e1514]:
+                  - link "Public Sector" [ref=f527e1515] [cursor=pointer]:
+                    - /url: /industries/public-sector
+                - listitem [ref=f527e1516]:
+                  - link "K-12" [ref=f527e1517] [cursor=pointer]:
+                    - /url: /industries/public-sector/k-12
+                - listitem [ref=f527e1518]:
+                  - link "Government" [ref=f527e1519] [cursor=pointer]:
+                    - /url: /industries/public-sector/state-local-government
+                - listitem [ref=f527e1520]:
+                  - link "Higher Education" [ref=f527e1521] [cursor=pointer]:
+                    - /url: /industries/public-sector/higher-education
+          - generic [ref=f527e1522]:
+            - heading [level=3] [ref=f527e1523]:
+              - button "Integrations" [ref=f527e1524] [cursor=pointer]:
+                - generic [ref=f527e1526]: "[ + ]"
+            - region "Integrations":
+              - list [ref=f527e1527]:
+                - listitem [ref=f527e1528]:
+                  - link "OEM Partnerships" [ref=f527e1529] [cursor=pointer]:
+                    - /url: /products/telematics/oem-integrations
+                - listitem [ref=f527e1530]:
+                  - link "Pre-Delivery Installation" [ref=f527e1531] [cursor=pointer]:
+                    - /url: /products/telematics/pre-delivery-installation
+                - listitem [ref=f527e1532]:
+                  - link "App Marketplace" [ref=f527e1533] [cursor=pointer]:
+                    - /url: /products/app-marketplace
+                - listitem [ref=f527e1534]:
+                  - link "Expert Marketplace" [ref=f527e1535] [cursor=pointer]:
+                    - /url: /resources/experts
+          - generic [ref=f527e1536]:
+            - heading [level=3] [ref=f527e1537]:
+              - button "For Developers" [ref=f527e1538] [cursor=pointer]:
+                - generic [ref=f527e1540]: "[ + ]"
+            - region "For Developers":
+              - list [ref=f527e1541]:
+                - listitem [ref=f527e1542]:
+                  - link "Developer APIs" [ref=f527e1543] [cursor=pointer]:
+                    - /url: /api
+                - listitem [ref=f527e1544]:
+                  - link "API Changelog" [ref=f527e1545] [cursor=pointer]:
+                    - /url: /developers/changelog
+                - listitem [ref=f527e1546]:
+                  - link "Developer Portal" [ref=f527e1547] [cursor=pointer]:
+                    - /url: /support/developers
+          - generic [ref=f527e1548]:
+            - heading [level=3] [ref=f527e1549]:
+              - button "Resources" [ref=f527e1550] [cursor=pointer]:
+                - generic [ref=f527e1552]: "[ + ]"
+            - region "Resources":
+              - list [ref=f527e1553]:
+                - listitem [ref=f527e1554]:
+                  - link "Customer Stories" [ref=f527e1555] [cursor=pointer]:
+                    - /url: /resources/customers
+                - listitem [ref=f527e1556]:
+                  - link "Samsara Community" [ref=f527e1557] [cursor=pointer]:
+                    - /url: https://community.samsara.com
+                - listitem [ref=f527e1558]:
+                  - link "Support Center" [ref=f527e1559] [cursor=pointer]:
+                    - /url: https://kb.samsara.com/hc/en-us
+                - listitem [ref=f527e1560]:
+                  - link "Customer Referral Program" [ref=f527e1561] [cursor=pointer]:
+                    - /url: /referrals
+                - listitem [ref=f527e1562]:
+                  - link "Partner Programs" [ref=f527e1563] [cursor=pointer]:
+                    - /url: /resources/partner-programs
+                - listitem [ref=f527e1564]:
+                  - link "Events" [ref=f527e1565] [cursor=pointer]:
+                    - /url: /events/live
+                - listitem [ref=f527e1566]:
+                  - link "Webinars" [ref=f527e1567] [cursor=pointer]:
+                    - /url: /webinars
+                - listitem [ref=f527e1568]:
+                  - link "Guides" [ref=f527e1569] [cursor=pointer]:
+                    - /url: /resources/guides
+                - listitem [ref=f527e1570]:
+                  - link "Customer Webstore" [ref=f527e1571] [cursor=pointer]:
+                    - /url: https://cloud.samsara.com/webstore
+                - listitem [ref=f527e1572]:
+                  - link "Samsara Signals" [ref=f527e1573] [cursor=pointer]:
+                    - /url: /resources/samsara-signals
+          - generic [ref=f527e1574]:
+            - heading [level=3] [ref=f527e1575]:
+              - button "Company" [ref=f527e1576] [cursor=pointer]:
+                - generic [ref=f527e1578]: "[ + ]"
+            - region "Company":
+              - list [ref=f527e1579]:
+                - listitem [ref=f527e1580]:
+                  - link "Pricing and Plans" [ref=f527e1581] [cursor=pointer]:
+                    - /url: /resources/plans
+                - listitem [ref=f527e1582]:
+                  - link "About Us" [ref=f527e1583] [cursor=pointer]:
+                    - /url: /company/about
+                - listitem [ref=f527e1584]:
+                  - link "Careers" [ref=f527e1585] [cursor=pointer]:
+                    - /url: /company/careers
+                - listitem [ref=f527e1586]:
+                  - link "Belonging" [ref=f527e1587] [cursor=pointer]:
+                    - /url: /company/belonging
+                - listitem [ref=f527e1588]:
+                  - link "Investor Relations" [ref=f527e1589] [cursor=pointer]:
+                    - /url: https://investors.samsara.com/overview/default.aspx
+                - listitem [ref=f527e1590]:
+                  - link "Samsara Ventures" [ref=f527e1591] [cursor=pointer]:
+                    - /url: /samsara-ventures
+                - listitem [ref=f527e1592]:
+                  - link "News" [ref=f527e1593] [cursor=pointer]:
+                    - /url: /company/news
+                - listitem [ref=f527e1594]:
+                  - link "Blog" [ref=f527e1595] [cursor=pointer]:
+                    - /url: /blog
+                - listitem [ref=f527e1596]:
+                  - link "Privacy" [ref=f527e1597] [cursor=pointer]:
+                    - /url: /company/privacy
+                - listitem [ref=f527e1598]:
+                  - link "Security" [ref=f527e1599] [cursor=pointer]:
+                    - /url: /legal/security
+                - listitem [ref=f527e1600]:
+                  - link "Contact" [ref=f527e1601] [cursor=pointer]:
+                    - /url: /company/contact
+                - listitem [ref=f527e1602]:
+                  - link "Trademarks and Goods" [ref=f527e1603] [cursor=pointer]:
+                    - /url: /legal/trademarks-and-goods
+                - listitem [ref=f527e1604]:
+                  - link "Why Choose Samsara" [ref=f527e1605] [cursor=pointer]:
+                    - /url: /resources/why-samsara
+        - generic [ref=f527e1606]:
+          - button "Select language" [ref=f527e1607] [cursor=pointer]:
+            - combobox "Select region" [ref=f527e1617]:
+              - option "English (CA)"
+              - option "Français (CA)"
+              - option "Deutsch (DE,AT,CH)"
+              - option "Français (FR)"
+              - option "Español (MX)"
+              - option "Nederlands (NL,BE,LU)"
+              - option "English (UK)"
+              - option "English (US)" [disabled] [selected]
+          - list [ref=f527e1620]:
+            - listitem [ref=f527e1621]:
+              - link "Samsara on Facebook" [ref=f527e1622] [cursor=pointer]:
+                - /url: https://www.facebook.com/SamsaraHQ/
+            - listitem [ref=f527e1627]:
+              - link "Samsara on X" [ref=f527e1628] [cursor=pointer]:
+                - /url: https://x.com/Samsara
+            - listitem [ref=f527e1632]:
+              - link "Samsara on Instagram" [ref=f527e1633] [cursor=pointer]:
+                - /url: https://www.instagram.com/samsara.iot
+            - listitem [ref=f527e1640]:
+              - link "Samsara on LinkedIn" [ref=f527e1641] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/samsara/
+            - listitem [ref=f527e1645]:
+              - link "Samsara on YouTube" [ref=f527e1646] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/SamsaraHQ
+        - generic [ref=f527e1650]:
+          - navigation "Legal" [ref=f527e1651]:
+            - link "Privacy Policy (opens in new tab)" [ref=f527e1652] [cursor=pointer]:
+              - /url: /support/privacy
+              - text: Privacy Policy
+            - link "Candidate Privacy Notice (opens in new tab)" [ref=f527e1653] [cursor=pointer]:
+              - /url: /legal/candidate-privacy-notice
+              - text: Candidate Privacy Notice
+            - link "Website Terms of Service (opens in new tab)" [ref=f527e1654] [cursor=pointer]:
+              - /url: /legal/website-terms-of-service
+              - text: Website Terms of Service
+            - link "Cookie Policy (opens in new tab)" [ref=f527e1655] [cursor=pointer]:
+              - /url: /legal/cookie-policy
+              - text: Cookie Policy
+            - button "Your Privacy Choices" [ref=f527e1656] [cursor=pointer]
+            - link "Email Preference Center (opens in new tab)" [ref=f527e1657] [cursor=pointer]:
+              - /url: /resources/content/email-preferences-center
+              - text: Email Preference Center
+            - link "Hardware Warranty (opens in new tab)" [ref=f527e1658] [cursor=pointer]:
+              - /url: /support/hardware-warranty
+              - text: Hardware Warranty
+            - link "Product Terms of Service (opens in new tab)" [ref=f527e1659] [cursor=pointer]:
+              - /url: /legal/platform-terms-of-service
+              - text: Product Terms of Service
+            - link "Hosted Software SLA (opens in new tab)" [ref=f527e1660] [cursor=pointer]:
+              - /url: /legal/hosted-software-sla
+              - text: Hosted Software SLA
+            - link "Partner Code of Conduct (opens in new tab)" [ref=f527e1661] [cursor=pointer]:
+              - /url: /legal/partner-code-of-conduct
+              - text: Partner Code of Conduct
+            - link "Data Protection Addendum (opens in new tab)" [ref=f527e1662] [cursor=pointer]:
+              - /url: /legal/data-protection-addendum
+              - text: Data Protection Addendum
+            - link "Modern Slavery Statement (opens in new tab)" [ref=f527e1663] [cursor=pointer]:
+              - /url: /support/modern-slavery-statement
+              - text: Modern Slavery Statement
+          - paragraph [ref=f527e1664]: © 2026 Samsara Inc. All rights reserved.
+  - generic [ref=f527e1666]:
+    - paragraph [ref=f527e1668]: Choose another country or region to see content specific to your location
+    - generic [ref=f527e1669]:
+      - combobox "Select region" [ref=f527e1672]:
+        - option "Change country" [disabled] [selected]
+        - option "English (CA)"
+        - option "Français (CA)"
+        - option "Deutsch (DE,AT,CH)"
+        - option "Français (FR)"
+        - option "Español (MX)"
+        - option "Nederlands (NL,BE,LU)"
+        - option "English (UK)"
+        - option "English (US)"
+      - button "Dismiss country selector" [ref=f527e1673] [cursor=pointer]

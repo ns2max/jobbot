@@ -1,0 +1,15 @@
+Posting dead. Report + tracker line written, no PDF (nothing to evaluate).
+
+```json
+{
+  "status": "failed",
+  "id": "63",
+  "report_num": "1029",
+  "company": "Reddit",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": "reports/1029-reddit-2026-08-25.md",
+  "error": "Job posting inaccessible: Greenhouse API returns 404, public URL 302-redirects to listings page, and JD file /tmp/batch-jd-63.txt was empty/missing. No JD text obtainable via any channel."
+}
+```

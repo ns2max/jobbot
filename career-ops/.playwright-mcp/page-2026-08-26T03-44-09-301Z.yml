@@ -1,0 +1,991 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - link [ref=f1e3] [cursor=pointer]:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - banner [ref=f1e4]:
+      - navigation [ref=f1e5]:
+        - link [ref=f1e6] [cursor=pointer]:
+          - /url: /?trk=public_jobs_nav-header-logo
+          - generic [ref=f1e7]: LinkedIn
+        - generic [ref=f1e12]:
+          - button [ref=f1e13]:
+            - generic [ref=f1e17]: Biosignal Research Engineer in Canada
+            - generic [ref=f1e18]: Expand search
+          - status [ref=f1e19]
+        - link [ref=f1e21] [cursor=pointer]:
+          - /url: https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fca.linkedin.com%2Fjobs%2Fsearch-results%3Fkeywords%3Dbiosignal%2Bresearch%2Bengineer&trk=public_jobs_nav-header-signin
+    - generic [ref=f1e24]:
+      - list [ref=f1e28]:
+        - listitem [ref=f1e29]:
+          - button [ref=f1e32] [cursor=pointer]: Date posted
+        - listitem [ref=f1e36]:
+          - button [ref=f1e39] [cursor=pointer]: Company
+        - listitem [ref=f1e43]:
+          - link [ref=f1e44] [cursor=pointer]:
+            - /url: https://ca.linkedin.com/jobs/search?keywords=biosignal+research+engineer&trk=public_jobs_filters_f_AL&f_AL=true
+            - text: Easy Apply
+        - listitem [ref=f1e45]:
+          - link [ref=f1e46] [cursor=pointer]:
+            - /url: https://ca.linkedin.com/jobs/search?keywords=biosignal+research+engineer&trk=public_jobs_filters_f_EA&f_EA=true
+            - text: Under 10 applicants
+      - button [ref=f1e48] [cursor=pointer]: Where are the filters?
+    - main [ref=f1e53]:
+      - generic [ref=f1e60]:
+        - paragraph [ref=f1e61]:
+          - text: Get notified about new Biosignal Research Engineer jobs in
+          - strong [ref=f1e62]: Canada
+          - text: .
+        - link [ref=f1e63] [cursor=pointer]:
+          - /url: https://www.linkedin.com/login?emailAddress=&fromSignIn=&session_redirect=https%3A%2F%2Fca.linkedin.com%2Fjobs%2Fsearch-results%3Fkeywords%3Dbiosignal%2Bresearch%2Bengineer&trk=public_jobs_job-alert-guest-redirect-cta
+          - text: Sign in to create job alert
+      - heading [level=1] [ref=f1e65]: 1,000+ Biosignal Research Engineer Jobs in Canada
+      - list [ref=f1e67]:
+        - listitem [ref=f1e68]:
+          - generic [ref=f1e69]:
+            - link [ref=f1e70] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/signal-processing-engineer-at-norbert-health-4407475055?position=1&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=Ihqk%2Bgr66U8bsNPRQSFqUQ%3D%3D
+              - generic [ref=f1e71]: Signal Processing Engineer
+            - generic [ref=f1e73]:
+              - heading [level=3] [ref=f1e74]: Signal Processing Engineer
+              - heading [level=4] [ref=f1e75]:
+                - link [ref=f1e76] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/norbert-health?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Norbert Health
+              - generic [ref=f1e77]:
+                - generic [ref=f1e78]: Montreal, Quebec, Canada
+                - time [ref=f1e79]: 4 months ago
+        - listitem [ref=f1e80]:
+          - generic [ref=f1e81]:
+            - link [ref=f1e82] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/r-d-electrical-engineer-on-site-at-myant-4458717278?position=2&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=f5r%2BiNsCp7IXdcosSHTPRQ%3D%3D
+              - generic [ref=f1e83]: R&D Electrical Engineer (On-Site)
+            - generic [ref=f1e85]:
+              - heading [level=3] [ref=f1e86]: R&D Electrical Engineer (On-Site)
+              - heading [level=4] [ref=f1e87]:
+                - link [ref=f1e88] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/myantinc?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Myant
+              - generic [ref=f1e89]:
+                - generic [ref=f1e90]: Mississauga, Ontario, Canada
+                - time [ref=f1e91]: 20 hours ago
+        - listitem [ref=f1e92]:
+          - generic [ref=f1e93]:
+            - link [ref=f1e94] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/research-associate-at-the-university-of-british-columbia-4444094267?position=3&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=dxqcNsIRIunwm8oDsg7VNA%3D%3D
+              - generic [ref=f1e95]: Research Associate
+            - generic [ref=f1e97]:
+              - heading [level=3] [ref=f1e98]: Research Associate
+              - heading [level=4] [ref=f1e99]:
+                - link [ref=f1e100] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/school/universityofbc/?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: The University of British Columbia
+              - generic [ref=f1e101]:
+                - generic [ref=f1e102]: Vancouver, British Columbia, Canada
+                - time [ref=f1e103]: 1 month ago
+        - listitem [ref=f1e104]:
+          - generic [ref=f1e105]:
+            - link [ref=f1e106] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/systems-engineer-analytics-hybrid-at-kardium-inc-4424499328?position=4&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=a5JtEI1LZ9kvxvQcgJu8yA%3D%3D
+              - generic [ref=f1e107]: Systems Engineer - Analytics (Hybrid)
+            - generic [ref=f1e109]:
+              - heading [level=3] [ref=f1e110]: Systems Engineer - Analytics (Hybrid)
+              - heading [level=4] [ref=f1e111]:
+                - link [ref=f1e112] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/kardium-inc.?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Kardium Inc.
+              - generic [ref=f1e113]:
+                - generic [ref=f1e114]: Burnaby, British Columbia, Canada
+                - generic [ref=f1e115]: Actively Hiring
+                - time [ref=f1e118]: 2 weeks ago
+        - listitem [ref=f1e119]:
+          - generic [ref=f1e120]:
+            - link [ref=f1e121] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/r-d-engineer-at-university-health-network-4438661641?position=5&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=eglTZyWCTg8X2OVk84%2BG6w%3D%3D
+              - generic [ref=f1e122]: R&D Engineer
+            - generic [ref=f1e124]:
+              - heading [level=3] [ref=f1e125]: R&D Engineer
+              - heading [level=4] [ref=f1e126]:
+                - link [ref=f1e127] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/university-health-network?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: University Health Network
+              - generic [ref=f1e128]:
+                - generic [ref=f1e129]: Toronto, Ontario, Canada
+                - time [ref=f1e130]: 1 month ago
+        - listitem [ref=f1e131]:
+          - generic [ref=f1e132]:
+            - link [ref=f1e133] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/algorithm-software-engineer-at-garmin-4456364120?position=6&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=ffxFSSGNKmwYy3kE0k1NxQ%3D%3D
+              - generic [ref=f1e134]: Algorithm Software Engineer
+            - generic [ref=f1e136]:
+              - heading [level=3] [ref=f1e137]: Algorithm Software Engineer
+              - heading [level=4] [ref=f1e138]:
+                - link [ref=f1e139] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/garmin?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Garmin
+              - generic [ref=f1e140]:
+                - generic [ref=f1e141]: Cochrane, Alberta, Canada
+                - generic [ref=f1e142]: Actively Hiring
+                - time [ref=f1e145]: 6 days ago
+        - listitem [ref=f1e146]:
+          - generic [ref=f1e147]:
+            - link [ref=f1e148] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/electronics-design-engineer-postdoc-at-sonus-microsystems-4459000253?position=7&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=ns4C4BVf%2FIeNh9%2FvHqggiw%3D%3D
+              - generic [ref=f1e149]: Electronics Design Engineer (Postdoc)
+            - generic [ref=f1e151]:
+              - heading [level=3] [ref=f1e152]: Electronics Design Engineer (Postdoc)
+              - heading [level=4] [ref=f1e153]:
+                - link [ref=f1e154] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/sonus-microsystems?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Sonus Microsystems
+              - generic [ref=f1e155]:
+                - generic [ref=f1e156]: Vancouver, British Columbia, Canada
+                - generic [ref=f1e157]: Be an early applicant
+                - time [ref=f1e160]: 10 hours ago
+        - listitem [ref=f1e161]:
+          - generic [ref=f1e162]:
+            - link [ref=f1e163] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/firmware-engineer-at-b%C3%ADa-neuroscience-4453715960?position=8&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=b98Vv%2F7ELiDrA9fFv%2BqjJg%3D%3D
+              - generic [ref=f1e164]: Firmware Engineer
+            - generic [ref=f1e166]:
+              - heading [level=3] [ref=f1e167]: Firmware Engineer
+              - heading [level=4] [ref=f1e168]:
+                - link [ref=f1e169] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/bianeuroscience?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Bía Neuroscience
+              - generic [ref=f1e170]:
+                - generic [ref=f1e171]: Canada
+                - generic [ref=f1e172]: Actively Hiring
+                - time [ref=f1e175]: 1 week ago
+        - listitem [ref=f1e176]:
+          - generic [ref=f1e177]:
+            - link [ref=f1e178] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/electrical-engineer-at-myo-palate-4445947208?position=9&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=n%2BuGAsAEprJdKR175G6ycw%3D%3D
+              - generic [ref=f1e179]: Electrical Engineer
+            - generic [ref=f1e181]:
+              - heading [level=3] [ref=f1e182]: Electrical Engineer
+              - heading [level=4] [ref=f1e183]:
+                - link [ref=f1e184] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/myo-palate?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Myo Palate
+              - generic [ref=f1e185]:
+                - generic [ref=f1e186]: Toronto, Ontario, Canada
+                - time [ref=f1e187]: 4 weeks ago
+        - listitem [ref=f1e188]:
+          - generic [ref=f1e189]:
+            - link [ref=f1e190] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/dsp-digital-engineer-at-sonele-inc-4372035293?position=10&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=nPmSbBO7ZNNvTz5mpCsf0Q%3D%3D
+              - generic [ref=f1e191]: DSP / Digital Engineer
+            - generic [ref=f1e193]:
+              - heading [level=3] [ref=f1e194]: DSP / Digital Engineer
+              - heading [level=4] [ref=f1e195]:
+                - link [ref=f1e196] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/sonele?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Sonele Inc.
+              - generic [ref=f1e197]:
+                - generic [ref=f1e198]: Markham, Ontario, Canada
+                - time [ref=f1e199]: 6 months ago
+        - listitem [ref=f1e200]:
+          - generic [ref=f1e201]:
+            - link [ref=f1e202] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/tests-and-validations-specialists-at-eers-4452673914?position=11&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=afMnAwutcPkKQkJZceYShw%3D%3D
+              - generic [ref=f1e203]: Tests and Validations Specialists
+            - generic [ref=f1e205]:
+              - heading [level=3] [ref=f1e206]: Tests and Validations Specialists
+              - heading [level=4] [ref=f1e207]:
+                - link [ref=f1e208] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/eers-global?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: EERS
+              - generic [ref=f1e209]:
+                - generic [ref=f1e210]: Montreal, Quebec, Canada
+                - time [ref=f1e211]: 2 weeks ago
+        - listitem [ref=f1e212]:
+          - generic [ref=f1e213]:
+            - link [ref=f1e214] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/signal-processing-engineer-acoustic-at-open-people-network-opn-4454064374?position=12&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=avklDilPO362F%2FVOJI1%2B5A%3D%3D
+              - generic [ref=f1e215]: Signal Processing Engineer (Acoustic)
+            - generic [ref=f1e217]:
+              - heading [level=3] [ref=f1e218]: Signal Processing Engineer (Acoustic)
+              - heading [level=4] [ref=f1e219]:
+                - link [ref=f1e220] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/openpeoplenetwork?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Open People Network (OPN)
+              - generic [ref=f1e221]:
+                - generic [ref=f1e222]: Greater Toronto Area, Canada
+                - time [ref=f1e223]: 1 week ago
+        - listitem [ref=f1e224]:
+          - generic [ref=f1e225]:
+            - link [ref=f1e226] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/electronics-engineer-at-droplab-inc-4457618219?position=13&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=9SQkjFqfFkeBmHkkQu7tFw%3D%3D
+              - generic [ref=f1e227]: Electronics Engineer
+            - generic [ref=f1e229]:
+              - heading [level=3] [ref=f1e230]: Electronics Engineer
+              - heading [level=4] [ref=f1e231]:
+                - link [ref=f1e232] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/droplab-inc?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: DropLab Inc.
+              - generic [ref=f1e233]:
+                - generic [ref=f1e234]: Toronto, Ontario, Canada
+                - time [ref=f1e235]: 9 hours ago
+        - listitem [ref=f1e236]:
+          - generic [ref=f1e237]:
+            - link [ref=f1e238] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/ultrasound-transducer-r-d-engineer-at-sonele-inc-4319433052?position=14&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=Fulrpt45kMX%2FWyGPV3h90w%3D%3D
+              - generic [ref=f1e239]: Ultrasound Transducer R&D Engineer
+            - generic [ref=f1e241]:
+              - heading [level=3] [ref=f1e242]: Ultrasound Transducer R&D Engineer
+              - heading [level=4] [ref=f1e243]:
+                - link [ref=f1e244] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/sonele?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Sonele Inc.
+              - generic [ref=f1e245]:
+                - generic [ref=f1e246]: Markham, Ontario, Canada
+                - time [ref=f1e247]: 10 months ago
+        - listitem [ref=f1e248]:
+          - generic [ref=f1e249]:
+            - link [ref=f1e250] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/systems-test-engineer-at-clarius-mobile-health-4438912054?position=15&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=%2F3Q4bPnyponn6gcsd0P7lA%3D%3D
+              - generic [ref=f1e251]: Systems Test Engineer
+            - generic [ref=f1e253]:
+              - heading [level=3] [ref=f1e254]: Systems Test Engineer
+              - heading [level=4] [ref=f1e255]:
+                - link [ref=f1e256] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/clarius-mobile-heath-corp-?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Clarius Mobile Health
+              - generic [ref=f1e257]:
+                - generic [ref=f1e258]: Vancouver, British Columbia, Canada
+                - generic [ref=f1e259]: Actively Hiring
+                - time [ref=f1e262]: 1 month ago
+        - listitem [ref=f1e263]:
+          - generic [ref=f1e264]:
+            - link [ref=f1e265] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/machine-learning-scientist-at-eli-health-4459099211?position=16&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=vR3tESpxJbmHhaSK7gqI3w%3D%3D
+              - generic [ref=f1e266]: Machine Learning Scientist
+            - generic [ref=f1e268]:
+              - heading [level=3] [ref=f1e269]: Machine Learning Scientist
+              - heading [level=4] [ref=f1e270]:
+                - link [ref=f1e271] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/elihealth?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Eli Health
+              - generic [ref=f1e272]:
+                - generic [ref=f1e273]: Montreal, Quebec, Canada
+                - generic [ref=f1e274]: Be an early applicant
+                - time [ref=f1e277]: 1 hour ago
+        - listitem [ref=f1e278]:
+          - generic [ref=f1e279]:
+            - link [ref=f1e280] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/systems-test-engineer-at-lv1-health-tech-4445573946?position=17&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=ZEfvMAluq4aXKHbJ6sn%2BQg%3D%3D
+              - generic [ref=f1e281]: Systems Test Engineer
+            - generic [ref=f1e283]:
+              - heading [level=3] [ref=f1e284]: Systems Test Engineer
+              - heading [level=4] [ref=f1e285]:
+                - link [ref=f1e286] [cursor=pointer]:
+                  - /url: https://tn.linkedin.com/company/clarius-mobile-health-tunisie?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: LV1 Health Tech
+              - generic [ref=f1e287]:
+                - generic [ref=f1e288]: Greater Vancouver Metropolitan Area
+                - time [ref=f1e289]: 3 weeks ago
+        - listitem [ref=f1e290]:
+          - generic [ref=f1e291]:
+            - link [ref=f1e292] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/dsp-systems-engineer-staff-at-qualcomm-4449746617?position=18&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=jdfmI%2BHoL%2FTL54attiO6Fw%3D%3D
+              - generic [ref=f1e293]: DSP Systems Engineer, Staff
+            - generic [ref=f1e295]:
+              - heading [level=3] [ref=f1e296]: DSP Systems Engineer, Staff
+              - heading [level=4] [ref=f1e297]:
+                - link [ref=f1e298] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/qualcomm?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Qualcomm
+              - generic [ref=f1e299]:
+                - generic [ref=f1e300]: Toronto, Ontario, Canada
+                - generic [ref=f1e301]: Be an early applicant
+                - time [ref=f1e304]: 2 weeks ago
+        - listitem [ref=f1e305]:
+          - generic [ref=f1e306]:
+            - link [ref=f1e307] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/r-d-engineer-ii-at-stathera-inc-4454046486?position=19&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=dAqyvo%2BuvmrvjlAZn5aIOQ%3D%3D
+              - generic [ref=f1e308]: R&D Engineer II
+            - generic [ref=f1e310]:
+              - heading [level=3] [ref=f1e311]: R&D Engineer II
+              - heading [level=4] [ref=f1e312]:
+                - link [ref=f1e313] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/stathera?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Stathera, Inc.
+              - generic [ref=f1e314]:
+                - generic [ref=f1e315]: Vancouver, British Columbia, Canada
+                - time [ref=f1e316]: 1 week ago
+        - listitem [ref=f1e317]:
+          - generic [ref=f1e318]:
+            - link [ref=f1e319] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/staff-electrical-engineer-hybrid-at-kardium-inc-4433287491?position=20&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=0aCXL3NWHIWW8zP9mVQLQw%3D%3D
+              - generic [ref=f1e320]: Staff Electrical Engineer (Hybrid)
+            - generic [ref=f1e322]:
+              - heading [level=3] [ref=f1e323]: Staff Electrical Engineer (Hybrid)
+              - heading [level=4] [ref=f1e324]:
+                - link [ref=f1e325] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/kardium-inc.?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Kardium Inc.
+              - generic [ref=f1e326]:
+                - generic [ref=f1e327]: Burnaby, British Columbia, Canada
+                - generic [ref=f1e328]: Actively Hiring
+                - time [ref=f1e331]: 2 weeks ago
+        - listitem [ref=f1e332]:
+          - generic [ref=f1e333]:
+            - link [ref=f1e334] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/senior-sensor-r-d-engineer-at-reftek-systems-inc-4455664639?position=21&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=gNCyp7ZPJ768La%2FGTQcDMQ%3D%3D
+              - generic [ref=f1e335]: Senior Sensor R&D Engineer
+            - generic [ref=f1e337]:
+              - heading [level=3] [ref=f1e338]: Senior Sensor R&D Engineer
+              - heading [level=4] [ref=f1e339]:
+                - link [ref=f1e340] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/reftek-systems-inc?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Reftek Systems Inc.
+              - generic [ref=f1e341]:
+                - generic [ref=f1e342]: Dartmouth, Nova Scotia, Canada
+                - generic [ref=f1e343]: Be an early applicant
+                - time [ref=f1e346]: 5 days ago
+        - listitem [ref=f1e347]:
+          - generic [ref=f1e348]:
+            - link [ref=f1e349] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/scientifique-en-traitement-de-signal-signal-processing-scientist-at-flyscan-systems-inc-4434616270?position=22&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=Ipar7E98gD9PpSNVuunnCA%3D%3D
+              - generic [ref=f1e350]: Scientifique en Traitement de Signal / Signal Processing Scientist
+            - generic [ref=f1e352]:
+              - heading [level=3] [ref=f1e353]: Scientifique en Traitement de Signal / Signal Processing Scientist
+              - heading [level=4] [ref=f1e354]:
+                - link [ref=f1e355] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/flyscan-systems?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Flyscan Systems Inc.
+              - generic [ref=f1e356]:
+                - generic [ref=f1e357]: Québec, Quebec, Canada
+                - generic [ref=f1e358]: Actively Hiring
+                - time [ref=f1e361]: 3 weeks ago
+        - listitem [ref=f1e362]:
+          - generic [ref=f1e363]:
+            - link [ref=f1e364] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/senior-electrical-engineer-at-natus-medical-incorporated-4453336776?position=23&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=1PbwIw4uM%2FqZ9MqlONcMVg%3D%3D
+              - generic [ref=f1e365]: Senior Electrical Engineer
+            - generic [ref=f1e367]:
+              - heading [level=3] [ref=f1e368]: Senior Electrical Engineer
+              - heading [level=4] [ref=f1e369]:
+                - link [ref=f1e370] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/natus-medical?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Natus Medical Incorporated
+              - generic [ref=f1e371]:
+                - generic [ref=f1e372]: Oakville, Ontario, Canada
+                - generic [ref=f1e373]: Be an early applicant
+                - time [ref=f1e376]: 1 week ago
+        - listitem [ref=f1e377]:
+          - generic [ref=f1e378]:
+            - link [ref=f1e379] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/systems-engineering-developer-at-intellijoint-surgical-inc-4456368324?position=24&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=BoEridtBIZF4Eo0g1WbI7A%3D%3D
+              - generic [ref=f1e380]: Systems Engineering Developer
+            - generic [ref=f1e382]:
+              - heading [level=3] [ref=f1e383]: Systems Engineering Developer
+              - heading [level=4] [ref=f1e384]:
+                - link [ref=f1e385] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/intellijointsurgical?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Intellijoint Surgical Inc.
+              - generic [ref=f1e386]:
+                - generic [ref=f1e387]: Kitchener, Ontario, Canada
+                - time [ref=f1e388]: 6 days ago
+        - listitem [ref=f1e389]:
+          - generic [ref=f1e390]:
+            - link [ref=f1e391] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/systems-engineering-developer-2-openings-at-intellijoint-surgical-inc-4453481685?position=25&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=tkqdONrCsBWIHVxZZTFH0Q%3D%3D
+              - generic [ref=f1e392]: Systems Engineering Developer (2 Openings)
+            - generic [ref=f1e394]:
+              - heading [level=3] [ref=f1e395]: Systems Engineering Developer (2 Openings)
+              - heading [level=4] [ref=f1e396]:
+                - link [ref=f1e397] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/intellijointsurgical?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Intellijoint Surgical Inc.
+              - generic [ref=f1e398]:
+                - generic [ref=f1e399]: Kitchener, Ontario, Canada
+                - generic [ref=f1e400]: Be an early applicant
+                - time [ref=f1e403]: 1 week ago
+        - listitem [ref=f1e404]:
+          - generic [ref=f1e405]:
+            - link [ref=f1e406] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/research-lab-engineer-at-simon-fraser-university-4447309217?position=26&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=OmFv%2FLMZvPetIl4etB%2FkbA%3D%3D
+              - generic [ref=f1e407]: Research Lab Engineer
+            - generic [ref=f1e409]:
+              - heading [level=3] [ref=f1e410]: Research Lab Engineer
+              - heading [level=4] [ref=f1e411]:
+                - link [ref=f1e412] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/school/simon-fraser-university/?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Simon Fraser University
+              - generic [ref=f1e413]:
+                - generic [ref=f1e414]: Surrey, British Columbia, Canada
+                - time [ref=f1e415]: 3 weeks ago
+        - listitem [ref=f1e416]:
+          - generic [ref=f1e417]:
+            - link [ref=f1e418] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/dsp-designer-at-fidus-systems-4440829622?position=27&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=yPOpYyNqW%2BDvWxA%2BA5jldQ%3D%3D
+              - generic [ref=f1e419]: DSP Designer
+            - generic [ref=f1e421]:
+              - heading [level=3] [ref=f1e422]: DSP Designer
+              - heading [level=4] [ref=f1e423]:
+                - link [ref=f1e424] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/fidus-systems?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Fidus Systems
+              - generic [ref=f1e425]:
+                - generic [ref=f1e426]: Kitchener, Ontario, Canada
+                - generic [ref=f1e427]: Be an early applicant
+                - time [ref=f1e430]: 1 month ago
+        - listitem [ref=f1e431]:
+          - generic [ref=f1e432]:
+            - link [ref=f1e433] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/scientist-%E2%80%93-digital-discovery-automation-intelligent-systems-at-amgen-4410994234?position=28&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=IF0w3X86lLfruCB0YXvivw%3D%3D
+              - generic [ref=f1e434]: "Scientist – Digital Discovery: Automation & Intelligent Systems"
+            - generic [ref=f1e436]:
+              - heading [level=3] [ref=f1e437]: "Scientist – Digital Discovery: Automation & Intelligent Systems"
+              - heading [level=4] [ref=f1e438]:
+                - link [ref=f1e439] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/amgen?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Amgen
+              - generic [ref=f1e440]:
+                - generic [ref=f1e441]: Burnaby, British Columbia, Canada
+                - generic [ref=f1e442]: Actively Hiring
+                - time [ref=f1e445]: 3 months ago
+        - listitem [ref=f1e446]:
+          - generic [ref=f1e447]:
+            - link [ref=f1e448] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/dsp-designer-at-fidus-systems-4440830504?position=29&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=IkHC9TB2UvLkj5ddONPTdA%3D%3D
+              - generic [ref=f1e449]: DSP Designer
+            - generic [ref=f1e451]:
+              - heading [level=3] [ref=f1e452]: DSP Designer
+              - heading [level=4] [ref=f1e453]:
+                - link [ref=f1e454] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/fidus-systems?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Fidus Systems
+              - generic [ref=f1e455]:
+                - generic [ref=f1e456]: Ottawa, Ontario, Canada
+                - generic [ref=f1e457]: Be an early applicant
+                - time [ref=f1e460]: 1 month ago
+        - listitem [ref=f1e461]:
+          - generic [ref=f1e462]:
+            - link [ref=f1e463] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/sp%C3%A9cialiste-des-tests-et-validation-at-eers-4452685658?position=30&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=Pc6lERU49dl%2FHAPVAIvZdw%3D%3D
+              - generic [ref=f1e464]: Spécialiste des tests et validation
+            - generic [ref=f1e466]:
+              - heading [level=3] [ref=f1e467]: Spécialiste des tests et validation
+              - heading [level=4] [ref=f1e468]:
+                - link [ref=f1e469] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/eers-global?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: EERS
+              - generic [ref=f1e470]:
+                - generic [ref=f1e471]: Montreal, Quebec, Canada
+                - generic [ref=f1e472]: Be an early applicant
+                - time [ref=f1e475]: 2 weeks ago
+        - listitem [ref=f1e476]:
+          - generic [ref=f1e477]:
+            - link [ref=f1e478] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/senior-research-scientist-at-lululemon-4456523373?position=31&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=dHB7FFaSHTVnMwCDtiAHPg%3D%3D
+              - generic [ref=f1e479]: Senior Research Scientist
+            - generic [ref=f1e481]:
+              - heading [level=3] [ref=f1e482]: Senior Research Scientist
+              - heading [level=4] [ref=f1e483]:
+                - link [ref=f1e484] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/lululemon?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: lululemon
+              - generic [ref=f1e485]:
+                - generic [ref=f1e486]: Vancouver, British Columbia, Canada
+                - generic [ref=f1e487]: Actively Hiring
+                - time [ref=f1e490]: 1 day ago
+        - listitem [ref=f1e491]:
+          - generic [ref=f1e492]:
+            - link [ref=f1e493] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/embedded-systems-engineer-scientific-instrumentation-at-forsta-varme-4448560182?position=32&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=vv%2FTUpWhX3LkfGYbX%2BDYyQ%3D%3D
+              - generic [ref=f1e494]: Embedded Systems Engineer - Scientific Instrumentation
+            - generic [ref=f1e496]:
+              - heading [level=3] [ref=f1e497]: Embedded Systems Engineer - Scientific Instrumentation
+              - heading [level=4] [ref=f1e498]:
+                - link [ref=f1e499] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/forsta-varme?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Forsta Varme
+              - generic [ref=f1e500]:
+                - generic [ref=f1e501]: Fredericton, New Brunswick, Canada
+                - time [ref=f1e502]: 2 weeks ago
+        - listitem [ref=f1e503]:
+          - generic [ref=f1e504]:
+            - link [ref=f1e505] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/ing%C3%A9nieur-e-traitement-du-signal-dsp-fusion-de-capteurs-edge-ia-at-kynze-4450613002?position=33&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=QcuesldI8yi8H6GzxCbVTg%3D%3D
+              - generic [ref=f1e506]: Ingénieur(e) Traitement du signal (DSP / fusion de capteurs / Edge IA)
+            - generic [ref=f1e508]:
+              - heading [level=3] [ref=f1e509]: Ingénieur(e) Traitement du signal (DSP / fusion de capteurs / Edge IA)
+              - heading [level=4] [ref=f1e510]:
+                - link [ref=f1e511] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/kynze?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: KYNZE
+              - generic [ref=f1e512]:
+                - generic [ref=f1e513]: Greater Montreal Metropolitan Area
+                - time [ref=f1e514]: 2 weeks ago
+        - listitem [ref=f1e515]:
+          - generic [ref=f1e516]:
+            - link [ref=f1e517] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/senior-electrical-engineer-at-flosonics-medical-4456893875?position=34&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=szoDdD%2FmO7vcUfi3sblUkw%3D%3D
+              - generic [ref=f1e518]: Senior Electrical Engineer
+            - generic [ref=f1e520]:
+              - heading [level=3] [ref=f1e521]: Senior Electrical Engineer
+              - heading [level=4] [ref=f1e522]:
+                - link [ref=f1e523] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/flosonics-medical?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Flosonics Medical
+              - generic [ref=f1e524]:
+                - generic [ref=f1e525]: Greater Toronto Area, Canada
+                - generic [ref=f1e526]: Be an early applicant
+                - time [ref=f1e529]: 1 day ago
+        - listitem [ref=f1e530]:
+          - generic [ref=f1e531]:
+            - link [ref=f1e532] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/research-associate-in-biomedical-engineering-physiological-signal-processing%E2%80%8B-at-british-sleep-society-4449630522?position=35&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=m4MXW3voy6tJ0GxgOLUbZw%3D%3D
+              - generic [ref=f1e533]: Research Associate in Biomedical Engineering/Physiological Signal Processing
+            - generic [ref=f1e535]:
+              - heading [level=3] [ref=f1e536]: Research Associate in Biomedical Engineering/Physiological Signal Processing
+              - heading [level=4] [ref=f1e537]:
+                - link [ref=f1e538] [cursor=pointer]:
+                  - /url: https://uk.linkedin.com/company/british-sleep-society?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: British Sleep Society
+              - generic [ref=f1e539]:
+                - generic [ref=f1e540]: Denmark, New Brunswick, Canada
+                - generic [ref=f1e541]: Be an early applicant
+                - time [ref=f1e544]: 2 weeks ago
+        - listitem [ref=f1e545]:
+          - generic [ref=f1e546]:
+            - link [ref=f1e547] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/senior-research-software-developer-2026-033-at-circle-cardiovascular-imaging-4445244467?position=36&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=rSeeOyVM5OIJX8gR%2F22YEg%3D%3D
+              - generic [ref=f1e548]: Senior Research Software Developer (2026-033)
+            - generic [ref=f1e550]:
+              - heading [level=3] [ref=f1e551]: Senior Research Software Developer (2026-033)
+              - heading [level=4] [ref=f1e552]:
+                - link [ref=f1e553] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/circle-cardiovascular-imaging-inc-?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Circle Cardiovascular Imaging
+              - generic [ref=f1e554]:
+                - generic [ref=f1e555]: Calgary, Alberta, Canada
+                - time [ref=f1e556]: 1 month ago
+        - listitem [ref=f1e557]:
+          - generic [ref=f1e558]:
+            - link [ref=f1e559] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/research-technician-at-canadian-institute-for-safety-wellness-and-performance-ciswp-4456245100?position=37&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=Y7uiv8rxgIlTat%2BNOhUlgQ%3D%3D
+              - generic [ref=f1e560]: Research Technician
+            - generic [ref=f1e562]:
+              - heading [level=3] [ref=f1e563]: Research Technician
+              - heading [level=4] [ref=f1e564]:
+                - link [ref=f1e565] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/canadian-institute-for-safety-wellness-and-performance?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Canadian Institute for Safety, Wellness, and Performance (CISWP)
+              - generic [ref=f1e566]:
+                - generic [ref=f1e567]: Cambridge, Ontario, Canada
+                - time [ref=f1e568]: 4 days ago
+        - listitem [ref=f1e569]:
+          - generic [ref=f1e570]:
+            - link [ref=f1e571] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/software-engineer-at-sonus-microsystems-4459010119?position=38&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=iuW5O7TBJAxfiMF2OSS55A%3D%3D
+              - generic [ref=f1e572]: Software Engineer
+            - generic [ref=f1e574]:
+              - heading [level=3] [ref=f1e575]: Software Engineer
+              - heading [level=4] [ref=f1e576]:
+                - link [ref=f1e577] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/sonus-microsystems?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Sonus Microsystems
+              - generic [ref=f1e578]:
+                - generic [ref=f1e579]: Vancouver, British Columbia, Canada
+                - time [ref=f1e580]: 10 hours ago
+        - listitem [ref=f1e581]:
+          - generic [ref=f1e582]:
+            - link [ref=f1e583] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/embedded-firmware-engineer-at-lv1-health-tech-4449206651?position=39&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=BhNFogTQLJPpn2wG%2F%2Bzjiw%3D%3D
+              - generic [ref=f1e584]: Embedded Firmware Engineer
+            - generic [ref=f1e586]:
+              - heading [level=3] [ref=f1e587]: Embedded Firmware Engineer
+              - heading [level=4] [ref=f1e588]:
+                - link [ref=f1e589] [cursor=pointer]:
+                  - /url: https://tn.linkedin.com/company/clarius-mobile-health-tunisie?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: LV1 Health Tech
+              - generic [ref=f1e590]:
+                - generic [ref=f1e591]: Greater Vancouver Metropolitan Area
+                - generic [ref=f1e592]: Be an early applicant
+                - time [ref=f1e595]: 2 weeks ago
+        - listitem [ref=f1e596]:
+          - generic [ref=f1e597]:
+            - link [ref=f1e598] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/clocking-systems-engineer-staff-at-qualcomm-4453241498?position=40&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=b35h%2BMCFFg9TuK66xzMmzw%3D%3D
+              - generic [ref=f1e599]: Clocking Systems Engineer, Staff
+            - generic [ref=f1e601]:
+              - heading [level=3] [ref=f1e602]: Clocking Systems Engineer, Staff
+              - heading [level=4] [ref=f1e603]:
+                - link [ref=f1e604] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/qualcomm?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Qualcomm
+              - generic [ref=f1e605]:
+                - generic [ref=f1e606]: Toronto, Ontario, Canada
+                - generic [ref=f1e607]: Be an early applicant
+                - time [ref=f1e610]: 1 week ago
+        - listitem [ref=f1e611]:
+          - generic [ref=f1e612]:
+            - link [ref=f1e613] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/responsable-technique-%E2%80%93-d%C3%A9tection-%C3%A9lectrochimique-technical-lead-%E2%80%93-electrochemical-sensing-at-tandemlaunch-ventures-studio-funds-4455777159?position=41&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=S7pSAT7t1RdYmGPrhZiMow%3D%3D
+              - generic [ref=f1e614]: Responsable technique – Détection Électrochimique / Technical Lead – Electrochemical Sensing
+            - generic [ref=f1e616]:
+              - heading [level=3] [ref=f1e617]: Responsable technique – Détection Électrochimique / Technical Lead – Electrochemical Sensing
+              - heading [level=4] [ref=f1e618]:
+                - link [ref=f1e619] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/tandemlaunch?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: TandemLaunch Ventures Studio & Funds
+              - generic [ref=f1e620]:
+                - generic [ref=f1e621]: Montreal, Quebec, Canada
+                - generic [ref=f1e622]: Be an early applicant
+                - time [ref=f1e625]: 1 week ago
+        - listitem [ref=f1e626]:
+          - generic [ref=f1e627]:
+            - link [ref=f1e628] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/autonomous-systems-engineer-%E2%80%93-quantum-sensors-at-waveryde-instruments-4449781637?position=42&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=ceBtvTDTNixq%2BLyMfckgiQ%3D%3D
+              - generic [ref=f1e629]: Autonomous Systems Engineer – Quantum Sensors
+            - generic [ref=f1e631]:
+              - heading [level=3] [ref=f1e632]: Autonomous Systems Engineer – Quantum Sensors
+              - heading [level=4] [ref=f1e633]:
+                - link [ref=f1e634] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/waveryde-instruments?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: WaveRyde Instruments
+              - generic [ref=f1e635]:
+                - generic [ref=f1e636]: Waterloo, Ontario, Canada
+                - time [ref=f1e637]: 2 weeks ago
+        - listitem [ref=f1e638]:
+          - generic [ref=f1e639]:
+            - link [ref=f1e640] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/embedded-firmware-engineer-at-clarius-mobile-health-4451021016?position=43&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=9qbPgi3YPLQ%2BVV141erlKg%3D%3D
+              - generic [ref=f1e641]: Embedded Firmware Engineer
+            - generic [ref=f1e643]:
+              - heading [level=3] [ref=f1e644]: Embedded Firmware Engineer
+              - heading [level=4] [ref=f1e645]:
+                - link [ref=f1e646] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/clarius-mobile-heath-corp-?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Clarius Mobile Health
+              - generic [ref=f1e647]:
+                - generic [ref=f1e648]: Vancouver, British Columbia, Canada
+                - generic [ref=f1e649]: Actively Hiring
+                - time [ref=f1e652]: 2 weeks ago
+        - listitem [ref=f1e653]:
+          - generic [ref=f1e654]:
+            - link [ref=f1e655] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/embedded%E2%80%AFsoftware-engineer-at-garmin-4414982188?position=44&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=CexpkvC%2BaK5UA7r3Bixreg%3D%3D
+              - generic [ref=f1e656]: Embedded Software Engineer
+            - generic [ref=f1e658]:
+              - heading [level=3] [ref=f1e659]: Embedded Software Engineer
+              - heading [level=4] [ref=f1e660]:
+                - link [ref=f1e661] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/garmin?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Garmin
+              - generic [ref=f1e662]:
+                - generic [ref=f1e663]: Cochrane, Alberta, Canada
+                - generic [ref=f1e664]: Actively Hiring
+                - time [ref=f1e667]: 4 days ago
+        - listitem [ref=f1e668]:
+          - generic [ref=f1e669]:
+            - link [ref=f1e670] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/dsp-engineer-markham-at-evertz-io-4412044976?position=45&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=44O5w%2FlEGT23cvOBfYOgGw%3D%3D
+              - generic [ref=f1e671]: DSP Engineer (Markham)
+            - generic [ref=f1e673]:
+              - heading [level=3] [ref=f1e674]: DSP Engineer (Markham)
+              - heading [level=4] [ref=f1e675]:
+                - link [ref=f1e676] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/evertz-io?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: evertz.io
+              - generic [ref=f1e677]:
+                - generic [ref=f1e678]: Markham, Ontario, Canada
+                - time [ref=f1e679]: 3 months ago
+        - listitem [ref=f1e680]:
+          - generic [ref=f1e681]:
+            - link [ref=f1e682] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/biomedical-electronics-technologist-at-canadian-armed-forces-forces-arm%C3%A9es-canadiennes-4451213877?position=46&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=6tW9eo1JPJrYT5n0rkb9bw%3D%3D
+              - generic [ref=f1e683]: Biomedical Electronics Technologist
+            - generic [ref=f1e685]:
+              - heading [level=3] [ref=f1e686]: Biomedical Electronics Technologist
+              - heading [level=4] [ref=f1e687]:
+                - link [ref=f1e688] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/canadianforces-forcescanada?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Canadian Armed Forces | Forces armées canadiennes
+              - generic [ref=f1e689]:
+                - generic [ref=f1e690]: Victoria, British Columbia, Canada
+                - generic [ref=f1e691]: Be an early applicant
+                - time [ref=f1e694]: 1 week ago
+        - listitem [ref=f1e695]:
+          - generic [ref=f1e696]:
+            - link [ref=f1e697] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/dsp-engineer-markham-at-evertzav-4415816673?position=47&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=u3oUaKKr4hxII%2B%2B5loRB0g%3D%3D
+              - generic [ref=f1e698]: DSP Engineer (Markham)
+            - generic [ref=f1e700]:
+              - heading [level=3] [ref=f1e701]: DSP Engineer (Markham)
+              - heading [level=4] [ref=f1e702]:
+                - link [ref=f1e703] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/evertzav?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: EvertzAV
+              - generic [ref=f1e704]:
+                - generic [ref=f1e705]: Markham, Ontario, Canada
+                - time [ref=f1e706]: 3 months ago
+        - listitem [ref=f1e707]:
+          - generic [ref=f1e708]:
+            - link [ref=f1e709] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/electrical-engineer-at-innovasea-4446308043?position=48&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=HLUtMZB7loQGyNodYdQMUw%3D%3D
+              - generic [ref=f1e710]: Electrical Engineer
+            - generic [ref=f1e712]:
+              - heading [level=3] [ref=f1e713]: Electrical Engineer
+              - heading [level=4] [ref=f1e714]:
+                - link [ref=f1e715] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/innovasea?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Innovasea
+              - generic [ref=f1e716]:
+                - generic [ref=f1e717]: Halifax, Nova Scotia, Canada
+                - time [ref=f1e718]: 4 weeks ago
+        - listitem [ref=f1e719]:
+          - generic [ref=f1e720]:
+            - link [ref=f1e721] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/test-engineer-at-max-planck-institute-for-gravitational-physics-albert-einstein-institute-4445499683?position=49&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=uSNmYTc6N7vRM52l3rNExw%3D%3D
+              - generic [ref=f1e722]: Test Engineer
+            - generic [ref=f1e724]:
+              - heading [level=3] [ref=f1e725]: Test Engineer
+              - heading [level=4] [ref=f1e726]:
+                - link [ref=f1e727] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/company/max-planck-institute-gravitational-physics?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Max Planck Institute for Gravitational Physics (Albert Einstein Institute)
+              - generic [ref=f1e728]:
+                - generic [ref=f1e729]: Engineer, British Columbia, Canada
+                - time [ref=f1e730]: 4 weeks ago
+        - listitem [ref=f1e731]:
+          - generic [ref=f1e732]:
+            - link [ref=f1e733] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/silicon-validation-engineer-at-stathera-inc-4455316788?position=50&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=HBtZPCXxXDNEy1mvYgVMqA%3D%3D
+              - generic [ref=f1e734]: Silicon Validation Engineer
+            - generic [ref=f1e736]:
+              - heading [level=3] [ref=f1e737]: Silicon Validation Engineer
+              - heading [level=4] [ref=f1e738]:
+                - link [ref=f1e739] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/stathera?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Stathera, Inc.
+              - generic [ref=f1e740]:
+                - generic [ref=f1e741]: Vancouver, British Columbia, Canada
+                - time [ref=f1e742]: 1 week ago
+        - listitem [ref=f1e743]:
+          - generic [ref=f1e744]:
+            - link [ref=f1e745] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/system-hardware-engineering-tester-at-natus-medical-incorporated-4452613755?position=51&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=%2BiCGPnWw5QbQ%2FuYfeqs3Nw%3D%3D
+              - generic [ref=f1e746]: System Hardware Engineering Tester
+            - generic [ref=f1e748]:
+              - heading [level=3] [ref=f1e749]: System Hardware Engineering Tester
+              - heading [level=4] [ref=f1e750]:
+                - link [ref=f1e751] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/natus-medical?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Natus Medical Incorporated
+              - generic [ref=f1e752]:
+                - generic [ref=f1e753]: Oakville, Ontario, Canada
+                - time [ref=f1e754]: 1 week ago
+        - listitem [ref=f1e755]:
+          - generic [ref=f1e756]:
+            - link [ref=f1e757] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/hardware-engineering-tech-lead-at-vital-bio-4448915355?position=52&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=KHI63%2BnaAVd5F%2F0u5cpiwQ%3D%3D
+              - generic [ref=f1e758]: Hardware Engineering Tech Lead
+            - generic [ref=f1e760]:
+              - heading [level=3] [ref=f1e761]: Hardware Engineering Tech Lead
+              - heading [level=4] [ref=f1e762]:
+                - link [ref=f1e763] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/vitalbio?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Vital Bio
+              - generic [ref=f1e764]:
+                - generic [ref=f1e765]: Oakville, Ontario, Canada
+                - time [ref=f1e766]: 3 weeks ago
+        - listitem [ref=f1e767]:
+          - generic [ref=f1e768]:
+            - link [ref=f1e769] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/usb-systems-engineer-at-amd-4438430447?position=53&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=AkJrxp2Mv8hnlXYuQ1RMIg%3D%3D
+              - generic [ref=f1e770]: USB Systems Engineer
+            - generic [ref=f1e772]:
+              - heading [level=3] [ref=f1e773]: USB Systems Engineer
+              - heading [level=4] [ref=f1e774]:
+                - link [ref=f1e775] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/amd?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: AMD
+              - generic [ref=f1e776]:
+                - generic [ref=f1e777]: Markham, Ontario, Canada
+                - generic [ref=f1e778]: Actively Hiring
+                - time [ref=f1e781]: 2 weeks ago
+        - listitem [ref=f1e782]:
+          - generic [ref=f1e783]:
+            - link [ref=f1e784] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/control-system-engineer-at-triumf-4422109800?position=54&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=3i%2FGoiBjdlUdVWIi0%2FyFdg%3D%3D
+              - generic [ref=f1e785]: Control System Engineer
+            - generic [ref=f1e787]:
+              - heading [level=3] [ref=f1e788]: Control System Engineer
+              - heading [level=4] [ref=f1e789]:
+                - link [ref=f1e790] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/triumf?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: TRIUMF
+              - generic [ref=f1e791]:
+                - generic [ref=f1e792]: Vancouver, British Columbia, Canada
+                - time [ref=f1e793]: 6 hours ago
+        - listitem [ref=f1e794]:
+          - generic [ref=f1e795]:
+            - link [ref=f1e796] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/electroneurophysiology-technologist-i-at-alberta-health-services-4435707580?position=55&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=SvDx6MjvuYqe7CEDyWgsSQ%3D%3D
+              - generic [ref=f1e797]: Electroneurophysiology Technologist I
+            - generic [ref=f1e799]:
+              - heading [level=3] [ref=f1e800]: Electroneurophysiology Technologist I
+              - heading [level=4] [ref=f1e801]:
+                - link [ref=f1e802] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/alberta-health-services?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Alberta Health Services
+              - generic [ref=f1e803]:
+                - generic [ref=f1e804]: Calgary, Alberta, Canada
+                - generic [ref=f1e805]: Be an early applicant
+                - time [ref=f1e808]: 6 days ago
+        - listitem [ref=f1e809]:
+          - generic [ref=f1e810]:
+            - link [ref=f1e811] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/electronics-designer-at-safariland-4455870263?position=56&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=oA88M9gCbcIoRle0JPprBw%3D%3D
+              - generic [ref=f1e812]: Electronics Designer
+            - generic [ref=f1e814]:
+              - heading [level=3] [ref=f1e815]: Electronics Designer
+              - heading [level=4] [ref=f1e816]:
+                - link [ref=f1e817] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/safariland?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Safariland
+              - generic [ref=f1e818]:
+                - generic [ref=f1e819]: Ottawa, Ontario, Canada
+                - generic [ref=f1e820]: Be an early applicant
+                - time [ref=f1e823]: 1 day ago
+        - listitem [ref=f1e824]:
+          - generic [ref=f1e825]:
+            - link [ref=f1e826] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/embedded-system-engineer-at-world-star-tech-4445949922?position=57&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=av8NEhXl6owhNkhnP21hKA%3D%3D
+              - generic [ref=f1e827]: Embedded System Engineer
+            - generic [ref=f1e829]:
+              - heading [level=3] [ref=f1e830]: Embedded System Engineer
+              - heading [level=4] [ref=f1e831]:
+                - link [ref=f1e832] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/world-star-tech?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: WORLD STAR TECH
+              - generic [ref=f1e833]:
+                - generic [ref=f1e834]: Greater Toronto Area, Canada
+                - generic [ref=f1e835]: Actively Hiring
+                - time [ref=f1e838]: 4 weeks ago
+        - listitem [ref=f1e839]:
+          - generic [ref=f1e840]:
+            - link [ref=f1e841] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/associ%C3%A9-e-de-recherche-at-mcgill-university-4454180179?position=58&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=FMo9aioI2bH0jM%2BtGn2HOg%3D%3D
+              - generic [ref=f1e842]: Associé/e de recherche
+            - generic [ref=f1e844]:
+              - heading [level=3] [ref=f1e845]: Associé/e de recherche
+              - heading [level=4] [ref=f1e846]:
+                - link [ref=f1e847] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/school/mcgill-university/?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: McGill University
+              - generic [ref=f1e848]:
+                - generic [ref=f1e849]: Montreal, Quebec, Canada
+                - generic [ref=f1e850]: Actively Hiring
+                - time [ref=f1e853]: 4 days ago
+        - listitem [ref=f1e854]:
+          - generic [ref=f1e855]:
+            - link [ref=f1e856] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/biomedical-electronics-technologist-at-canadian-armed-forces-forces-arm%C3%A9es-canadiennes-4451216854?position=59&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=fdc%2F4mTLfyJATu2mWg4MGQ%3D%3D
+              - generic [ref=f1e857]: Biomedical Electronics Technologist
+            - generic [ref=f1e859]:
+              - heading [level=3] [ref=f1e860]: Biomedical Electronics Technologist
+              - heading [level=4] [ref=f1e861]:
+                - link [ref=f1e862] [cursor=pointer]:
+                  - /url: https://ca.linkedin.com/company/canadianforces-forcescanada?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: Canadian Armed Forces | Forces armées canadiennes
+              - generic [ref=f1e863]:
+                - generic [ref=f1e864]: Moncton, New Brunswick, Canada
+                - generic [ref=f1e865]: Be an early applicant
+                - time [ref=f1e868]: 1 week ago
+        - listitem [ref=f1e869]:
+          - generic [ref=f1e870]:
+            - link [ref=f1e871] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/jobs/view/r-d-electrical-engineer-at-steris-4417794180?position=60&pageNum=0&refId=aZFOp%2FzMXUa348zZtdjB6Q%3D%3D&trackingId=gwUHuG64f06vN6xLk3uLOg%3D%3D
+              - generic [ref=f1e872]: R&D Electrical Engineer
+            - generic [ref=f1e874]:
+              - heading [level=3] [ref=f1e875]: R&D Electrical Engineer
+              - heading [level=4] [ref=f1e876]:
+                - link [ref=f1e877] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/steris-corporation?trk=public_jobs_jserp-result_job-search-card-subtitle
+                  - text: STERIS
+              - generic [ref=f1e878]:
+                - generic [ref=f1e879]: Québec, Quebec, Canada
+                - generic [ref=f1e880]: Be an early applicant
+                - time [ref=f1e883]: 6 days ago
+    - contentinfo [ref=f1e884]:
+      - list [ref=f1e885]:
+        - generic [ref=f1e886]: LinkedIn
+        - generic [ref=f1e888]: © 2026
+        - listitem [ref=f1e889]:
+          - link [ref=f1e890] [cursor=pointer]:
+            - /url: https://about.linkedin.com?trk=public_jobs_footer-about
+            - text: About
+        - listitem [ref=f1e891]:
+          - link [ref=f1e892] [cursor=pointer]:
+            - /url: https://www.linkedin.com/accessibility?trk=public_jobs_footer-accessibility
+            - text: Accessibility
+        - listitem [ref=f1e893]:
+          - link [ref=f1e894] [cursor=pointer]:
+            - /url: https://www.linkedin.com/legal/user-agreement?trk=public_jobs_footer-user-agreement
+            - text: User Agreement
+        - listitem [ref=f1e895]:
+          - link [ref=f1e896] [cursor=pointer]:
+            - /url: https://www.linkedin.com/legal/privacy-policy?trk=public_jobs_footer-privacy-policy
+            - text: Privacy Policy
+        - listitem [ref=f1e897]:
+          - link [ref=f1e898] [cursor=pointer]:
+            - /url: https://www.linkedin.com/legal/cookie-policy?trk=public_jobs_footer-cookie-policy
+            - text: Cookie Policy
+        - listitem [ref=f1e899]:
+          - link [ref=f1e900] [cursor=pointer]:
+            - /url: https://www.linkedin.com/legal/copyright-policy?trk=public_jobs_footer-copyright-policy
+            - text: Copyright Policy
+        - listitem [ref=f1e901]:
+          - link [ref=f1e902] [cursor=pointer]:
+            - /url: https://brand.linkedin.com/policies?trk=public_jobs_footer-brand-policy
+            - text: Brand Policy
+        - listitem [ref=f1e903]:
+          - link [ref=f1e904] [cursor=pointer]:
+            - /url: https://www.linkedin.com/psettings/guest-controls?trk=public_jobs_footer-guest-controls
+            - text: Guest Controls
+        - listitem [ref=f1e905]:
+          - link [ref=f1e906] [cursor=pointer]:
+            - /url: https://www.linkedin.com/legal/professional-community-policies?trk=public_jobs_footer-community-guide
+            - text: Community Guidelines
+        - listitem [ref=f1e907]:
+          - button [ref=f1e909]: Language
+  - generic [ref=f1e912]:
+    - alert [active] [ref=f1e913]:
+      - paragraph [ref=f1e918]: This job is no longer available, but here are similar jobs you might like.
+    - button [ref=f1e919] [cursor=pointer]
+  - dialog [ref=f1e923]:
+    - button "Dismiss" [ref=f1e924] [cursor=pointer]
+    - generic [ref=f1e929]:
+      - heading "Sign in to view more jobs" [level=2] [ref=f1e931]
+      - generic [ref=f1e932]:
+        - button "Continue with google" [ref=f1e935]:
+          - generic [ref=f1e936]:
+            - button "Continue with Google" [ref=f1e938] [cursor=pointer]
+            - iframe
+        - button "Sign in with Email" [ref=f1e951] [cursor=pointer]
+        - paragraph [ref=f1e957]: or
+        - button "Continue with google" [ref=f1e959]:
+          - generic [ref=f1e960]:
+            - button "Continue with Google" [ref=f1e962] [cursor=pointer]
+            - iframe
+        - paragraph [ref=f1e974]:
+          - text: New to LinkedIn?
+          - link "Join now" [ref=f1e975] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?source=jobs_registration&trk=public_jobs_contextual-sign-in-modal_join-link
+        - paragraph [ref=f1e976]:
+          - text: By clicking Continue to join or sign in, you agree to LinkedIn’s
+          - link "User Agreement" [ref=f1e977] [cursor=pointer]:
+            - /url: /legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement
+          - text: ","
+          - link "Privacy Policy" [ref=f1e978] [cursor=pointer]:
+            - /url: /legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy
+          - text: ", and"
+          - link "Cookie Policy" [ref=f1e979] [cursor=pointer]:
+            - /url: /legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy
+          - text: .

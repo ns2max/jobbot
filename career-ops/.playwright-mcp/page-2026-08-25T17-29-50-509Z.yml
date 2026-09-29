@@ -1,0 +1,144 @@
+- generic [ref=f115e2]:
+  - list [ref=f115e4]:
+    - listitem [ref=f115e5]:
+      - link [ref=f115e6] [cursor=pointer]:
+        - /url: https://www.deepgram.com
+        - img "Deepgram" [ref=f115e7]
+    - listitem [ref=f115e8]:
+      - link "Back to Deepgram’s Job Listings" [ref=f115e9] [cursor=pointer]:
+        - /url: /deepgram
+    - listitem
+  - generic [ref=f115e12]:
+    - heading "Applied ML Engineer" [level=1] [ref=f115e14]
+    - generic [ref=f115e15]:
+      - generic [ref=f115e16]:
+        - generic [ref=f115e17]:
+          - heading "Location" [level=2] [ref=f115e18]
+          - paragraph [ref=f115e19]: USA | Remote
+        - generic [ref=f115e20]:
+          - heading "Employment Type" [level=2] [ref=f115e21]
+          - paragraph [ref=f115e22]: Full time
+        - generic [ref=f115e23]:
+          - heading "Location Type" [level=2] [ref=f115e24]
+          - paragraph [ref=f115e25]: Remote
+        - generic [ref=f115e26]:
+          - heading "Department" [level=2] [ref=f115e27]
+          - paragraph [ref=f115e28]: Engineering
+        - generic [ref=f115e29]:
+          - heading "Compensation" [level=2] [ref=f115e30]
+          - generic [ref=f115e31]:
+            - paragraph [ref=f115e32]: $150K – $220K • Offers Equity • Offers Bonus • 10% Annual Bonus
+            - button "See More" [ref=f115e33] [cursor=pointer]
+      - generic [ref=f115e34]:
+        - tablist [ref=f115e35]:
+          - tab "Overview" [selected] [ref=f115e36] [cursor=pointer]
+          - tab "Application" [ref=f115e37] [cursor=pointer]
+        - tabpanel "Overview" [ref=f115e39]:
+          - generic [ref=f115e40]:
+            - heading [level=1] [ref=f115e41]:
+              - strong [ref=f115e42]: Company Overview
+            - paragraph [ref=f115e43]: Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack in the Box. Deepgram’s voice-native foundation models are accessed through cloud APIs or as self-hosted and on-premises software, with unmatched accuracy, low latency, and cost efficiency. Backed by a recent Series C led by leading global investors and strategic partners, Deepgram has processed over 50,000 years of audio and transcribed more than 1 trillion words. There is no organization in the world that understands voice better than Deepgram.
+            - paragraph [ref=f115e44]
+            - heading [level=1] [ref=f115e45]:
+              - strong [ref=f115e46]: Company Operating Rhythm
+            - paragraph [ref=f115e47]: At Deepgram, we expect an AI-first mindset—AI use and comfort aren’t optional, they’re core to how we operate, innovate, and measure performance.
+            - paragraph [ref=f115e48]: Every team member who works at Deepgram is expected to actively use and experiment with advanced AI tools, and even build your own into your everyday work. We measure how effectively AI is applied to deliver results, and consistent, creative use of the latest AI capabilities is key to success here. Candidates should be comfortable adopting new models and modes quickly, integrating AI into their workflows, and continuously pushing the boundaries of what these technologies can do.
+            - paragraph [ref=f115e49]: Additionally, we move at the pace of AI. Change is rapid, and you can expect your day-to-day work to evolve just as quickly. This may not be the right role if you’re not excited to experiment, adapt, think on your feet, and learn constantly, or if you’re seeking something highly prescriptive with a traditional 9-to-5.
+            - paragraph [ref=f115e50]
+            - paragraph [ref=f115e51]: "Deepgram's research team produces some of the fastest and most accurate speech models in the world. The hardest, highest-leverage problem is what comes next: turning a promising research result into a model that ships reliably, serves at scale, and keeps its accuracy and latency promises under real production traffic. That path — from a checkpoint that works in a research notebook to a model running across our fleet — is where this role lives."
+            - paragraph [ref=f115e52]
+            - paragraph [ref=f115e53]:
+              - text: As an
+              - strong [ref=f115e54]: Applied ML Engineer
+              - text: ", you will own and streamline the research-to-production pipeline. You'll work shoulder-to-shoulder with research scientists to take their models the last mile: hardening training and evaluation workflows, building the packaging and deployment paths that get new models into production safely, and closing the loop so the next model is faster and easier to ship than the last. You'll work across our custom infrastructure — a hybrid training and inference stack spanning our own GPU data centers and the cloud — and the in-house tooling that lets a research idea become a production model without a rewrite."
+            - paragraph [ref=f115e55]
+            - paragraph [ref=f115e56]: This is a builder role at the intersection of ML and systems engineering. You won't just hand models off; you'll own the mechanism that makes shipping models repeatable, measurable, and fast. It's a great fit whether you're a hands-on senior engineer who wants to go deep on the productionization problem, or a staff-level technical leader who wants to define how Deepgram builds and delivers models from research to scale. We'll set the level to your experience.
+            - paragraph [ref=f115e57]
+            - heading "What You'll Do" [level=2] [ref=f115e58]
+            - list [ref=f115e59]:
+              - listitem [ref=f115e60]:
+                - paragraph [ref=f115e61]: "Own the research-to-production pipeline: take research checkpoints and turn them into production models, defining the repeatable path from a working result to a deployed, monitored, scaled service."
+              - listitem [ref=f115e62]:
+                - paragraph [ref=f115e63]: Partner directly with research scientists to productionize new models — translating experimental training and evaluation code into robust, reproducible, well-tested workflows.
+              - listitem [ref=f115e64]:
+                - paragraph [ref=f115e65]: Build and extend the tooling and abstractions that let researchers and engineers move models through training, evaluation, packaging, and deployment with minimal friction and maximal reproducibility.
+              - listitem [ref=f115e66]:
+                - paragraph [ref=f115e67]: Design and own model release gates — automated evaluation, regression detection, and quality/latency/throughput checks that decide whether a model is ready to ship.
+              - listitem [ref=f115e68]:
+                - paragraph [ref=f115e69]: "Optimize models and serving for production: efficient inference, batching, memory and latency tuning, and the profiling work that turns a research model into something that performs economically at scale."
+              - listitem [ref=f115e70]:
+                - paragraph [ref=f115e71]: Strengthen the build and delivery layer for models on our custom infrastructure, spanning our GPU compute and cloud environments, so that shipping a model is fast, safe, and observable.
+              - listitem [ref=f115e72]:
+                - paragraph [ref=f115e73]: Establish benchmarking and validation that runs consistently from model development all the way through production, so performance and quality regressions are caught early.
+              - listitem [ref=f115e74]:
+                - paragraph [ref=f115e75]: "Build the feedback loop: instrument production model behavior, surface what's working and what isn't, and feed it back to research to accelerate the next iteration."
+            - paragraph [ref=f115e76]
+            - heading "You'll Love This Role If You" [level=2] [ref=f115e77]
+            - list [ref=f115e78]:
+              - listitem [ref=f115e79]:
+                - paragraph [ref=f115e80]: Believe the last mile from research to production is the most important — and most underrated — problem in applied ML, and you want to own it.
+              - listitem [ref=f115e81]:
+                - paragraph [ref=f115e82]: Get satisfaction from turning a fragile, brilliant research prototype into something reliable that serves real traffic.
+              - listitem [ref=f115e83]:
+                - paragraph [ref=f115e84]: Like working at the seam between research and engineering, fluent enough in ML to partner with scientists and rigorous enough in systems to ship at scale.
+              - listitem [ref=f115e85]:
+                - paragraph [ref=f115e86]: Treat infrastructure and tooling as a product — you want researchers to move faster because of what you built.
+              - listitem [ref=f115e87]:
+                - paragraph [ref=f115e88]: Care about reproducibility, evaluation rigor, and measurable quality, not just getting a model out the door.
+              - listitem [ref=f115e89]:
+                - paragraph [ref=f115e90]: Want to ship, not just publish — you measure impact by what's running in production.
+            - paragraph [ref=f115e91]
+            - heading "It's Important To Us That You Have" [level=2] [ref=f115e92]
+            - list [ref=f115e93]:
+              - listitem [ref=f115e94]:
+                - paragraph [ref=f115e95]: Strong software engineering fundamentals, with proficiency in Python and experience writing production-quality, well-tested ML code.
+              - listitem [ref=f115e96]:
+                - paragraph [ref=f115e97]: Hands-on experience taking ML models from research or prototype stage into production at scale — not just training models, but shipping and operating them.
+              - listitem [ref=f115e98]:
+                - paragraph [ref=f115e99]: A working understanding of the modern deep learning stack (e.g., PyTorch) and the realities of training, evaluating, and serving large models.
+              - listitem [ref=f115e100]:
+                - paragraph [ref=f115e101]: Experience building ML pipelines and tooling — training orchestration, evaluation harnesses, model packaging, deployment, or CI/CD for models.
+              - listitem [ref=f115e102]:
+                - paragraph [ref=f115e103]: Familiarity with serving and inference optimization — latency, throughput, batching, and resource efficiency for production model workloads.
+              - listitem [ref=f115e104]:
+                - paragraph [ref=f115e105]: Comfort operating across distributed systems and GPU compute, whether in the cloud, on bare metal, or both.
+              - listitem [ref=f115e106]:
+                - paragraph [ref=f115e107]: A collaborative, builder mindset — you can partner with researchers, scope an ambiguous problem, and drive it to a measurable result.
+            - paragraph [ref=f115e108]
+            - heading "It Would Be Great if You Had" [level=2] [ref=f115e109]
+            - list [ref=f115e110]:
+              - listitem [ref=f115e111]:
+                - paragraph [ref=f115e112]: Experience with the research-to-production handoff specifically — building the systems and conventions that let research and engineering iterate together quickly.
+              - listitem [ref=f115e113]:
+                - paragraph [ref=f115e114]: Background in speech, audio, or other real-time/streaming ML domains.
+              - listitem [ref=f115e115]:
+                - paragraph [ref=f115e116]: Experience designing automated model evaluation and release-gating systems, including regression detection across model versions.
+              - listitem [ref=f115e117]:
+                - paragraph [ref=f115e118]: Familiarity with hybrid infrastructure spanning on-premise GPU clusters and cloud, and with workload orchestration across them.
+              - listitem [ref=f115e119]:
+                - paragraph [ref=f115e120]: Experience with inference optimization techniques (quantization, distillation, compilation, or runtime tuning) for production serving.
+              - listitem [ref=f115e121]:
+                - paragraph [ref=f115e122]: A track record of building internal platforms or developer-facing tooling that measurably improved how a team ships models.
+            - paragraph [ref=f115e123]:
+              - emphasis [ref=f115e124]:
+                - strong [ref=f115e125]: Notice
+                - text: ": We're aware of individuals impersonating Deepgram recruiters. All legitimate Deepgram recruiting communication comes from an @"
+              - link [ref=f115e126] [cursor=pointer]:
+                - /url: http://deepgram.com
+                - emphasis [ref=f115e127]: deepgram.com
+              - emphasis [ref=f115e128]: email address. If you've received a message claiming to be Deepgram, please forward it to careers@deepgram.com.
+          - link [ref=f115e129] [cursor=pointer]:
+            - /url: /deepgram/94ae2781-a85f-493a-86c1-ff85a9289355/application
+            - button "Apply for this Job" [ref=f115e130]
+  - contentinfo [ref=f115e131]:
+    - link "Learn more about Ashby" [ref=f115e132] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f115e133]: Powered by
+      - img "Ashby" [ref=f115e134]
+    - paragraph [ref=f115e140]:
+      - link "Privacy Policy" [ref=f115e141] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f115e142] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f115e143] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

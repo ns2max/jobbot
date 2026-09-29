@@ -1,0 +1,193 @@
+- generic [active] [ref=f12e1]:
+  - main [ref=f12e2]:
+    - generic [ref=f12e3]:
+      - link [ref=f12e5] [cursor=pointer]:
+        - /url: https://www.afresh.com/
+        - img "Afresh Logo" [ref=f12e6]
+      - heading "Current openings at Afresh" [level=1] [ref=f12e7]
+      - generic [ref=f12e11]:
+        - paragraph [ref=f12e12]: "Afresh, the AI platform for grocery, began by tackling the most complex problem in the industry: fresh."
+        - paragraph [ref=f12e13]: By leveraging proprietary AI designed for high-volatility environments, we empower partners like Albertsons, Meijer, and Wakefern to drive smarter decisions across their entire enterprise.
+        - paragraph [ref=f12e14]: Following record-breaking 70% revenue growth in 2025, we have scaled to 6 enterprise-grade solutions, with solutions live in over 10% of the U.S. grocery market. Our platform now orchestrates billions of decisions from the store floor to the distribution center and prevented over 200 million pounds of food waste last year alone.
+        - paragraph [ref=f12e15]: If you're looking for a role where your work directly translates into massive scale and social good, and you want to be part of the team that defines how the world eats, there is no better time to join us.
+      - generic [ref=f12e19]:
+        - paragraph [ref=f12e20]: Create a Job Alert
+        - paragraph [ref=f12e21]: Level-up your career by having opportunities at Afresh sent directly to your inbox.
+        - link "Create alert" [ref=f12e22] [cursor=pointer]:
+          - /url: https://my.greenhouse.io/users/sign_in?job_board=afresh&source=job_alert_board
+      - generic [ref=f12e23]:
+        - generic [ref=f12e24]:
+          - generic [ref=f12e26]:
+            - generic [ref=f12e27]: Search
+            - textbox "Search" [ref=f12e28]
+          - generic [ref=f12e30]:
+            - generic [ref=f12e31]: Department
+            - generic [ref=f12e32]:
+              - log [ref=f12e34]
+              - generic [ref=f12e36]:
+                - generic [ref=f12e37]:
+                  - generic [ref=f12e38]: Select...
+                  - combobox "Department" [ref=f12e40]
+                - button "Toggle flyout" [ref=f12e42] [cursor=pointer]
+        - generic [ref=f12e45]:
+          - heading "16 jobs" [level=2] [ref=f12e46]
+          - generic [ref=f12e47]:
+            - generic [ref=f12e48]:
+              - heading "Customer Operations and Delivery" [level=3] [ref=f12e49]
+              - table [ref=f12e51]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f12e52]:
+                      - paragraph [ref=f12e53]: Job
+                - rowgroup [ref=f12e54]:
+                  - row [ref=f12e55]:
+                    - cell [ref=f12e56]:
+                      - link [ref=f12e57] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6131264004
+                        - paragraph [ref=f12e58]: Program Manager
+                        - paragraph [ref=f12e59]: Remote - United States
+            - generic [ref=f12e60]:
+              - heading "Design" [level=3] [ref=f12e61]
+              - table [ref=f12e63]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f12e64]:
+                      - paragraph [ref=f12e65]: Job
+                - rowgroup [ref=f12e66]:
+                  - row [ref=f12e67]:
+                    - cell [ref=f12e68]:
+                      - link [ref=f12e69] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6114148004
+                        - paragraph [ref=f12e70]: Sr. Product Designer, Ordering
+                        - paragraph [ref=f12e71]: Remote - United States
+            - generic [ref=f12e72]:
+              - heading "Engineering" [level=3] [ref=f12e73]
+              - table [ref=f12e75]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f12e76]:
+                      - paragraph [ref=f12e77]: Job
+                - rowgroup [ref=f12e78]:
+                  - row [ref=f12e79]:
+                    - cell [ref=f12e80]:
+                      - link [ref=f12e81] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6119139004
+                        - paragraph [ref=f12e82]: Lead Solutions Engineer, Integrations
+                        - paragraph [ref=f12e83]: Remote - United States
+                  - row [ref=f12e84]:
+                    - cell [ref=f12e85]:
+                      - link [ref=f12e86] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6108311004
+                        - paragraph [ref=f12e87]: Senior AI Platform Engineer
+                        - paragraph [ref=f12e88]: San Francisco, CA
+                  - row [ref=f12e89]:
+                    - cell [ref=f12e90]:
+                      - link [ref=f12e91] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6108303004
+                        - paragraph [ref=f12e92]: Senior Forward Deployed Engineer
+                        - paragraph [ref=f12e93]: San Francisco, CA
+                  - row [ref=f12e94]:
+                    - cell [ref=f12e95]:
+                      - link [ref=f12e96] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6108318004
+                        - paragraph [ref=f12e97]: Staff AI Platform Engineer
+                        - paragraph [ref=f12e98]: San Francisco, CA
+                  - row [ref=f12e99]:
+                    - cell [ref=f12e100]:
+                      - link [ref=f12e101] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6105868004
+                        - paragraph [ref=f12e102]: Staff Applied Scientist (Distribution Center)
+                        - paragraph [ref=f12e103]: Remote - United States
+                  - row [ref=f12e104]:
+                    - cell [ref=f12e105]:
+                      - link [ref=f12e106] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6105870004
+                        - paragraph [ref=f12e107]: Staff Applied Scientist (Distribution Center)
+                        - paragraph [ref=f12e108]: Remote - Ontario, Canada
+                  - row [ref=f12e109]:
+                    - cell [ref=f12e110]:
+                      - link [ref=f12e111] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6101672004
+                        - paragraph [ref=f12e112]: Staff Data Engineer / Tech Lead (Distribution Center)
+                        - paragraph [ref=f12e113]: Remote - United States
+                  - row [ref=f12e114]:
+                    - cell [ref=f12e115]:
+                      - link [ref=f12e116] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6101713004
+                        - paragraph [ref=f12e117]: Staff Data Engineer / Tech Lead (Distribution Center)
+                        - paragraph [ref=f12e118]: Remote - Ontario, Canada
+                  - row [ref=f12e119]:
+                    - cell [ref=f12e120]:
+                      - link [ref=f12e121] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6108299004
+                        - paragraph [ref=f12e122]: Staff Forward Deployed Engineer
+                        - paragraph [ref=f12e123]: San Francisco, CA
+            - generic [ref=f12e124]:
+              - heading "Finance" [level=3] [ref=f12e125]
+              - table [ref=f12e127]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f12e128]:
+                      - paragraph [ref=f12e129]: Job
+                - rowgroup [ref=f12e130]:
+                  - row [ref=f12e131]:
+                    - cell [ref=f12e132]:
+                      - link [ref=f12e133] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6114758004
+                        - paragraph [ref=f12e134]: Controller
+                        - paragraph [ref=f12e135]: Remote - United States
+                  - row [ref=f12e136]:
+                    - cell [ref=f12e137]:
+                      - link [ref=f12e138] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6107816004
+                        - paragraph [ref=f12e139]: Strategic Finance Lead
+                        - paragraph [ref=f12e140]: Remote - United States
+            - generic [ref=f12e141]:
+              - heading "Marketing" [level=3] [ref=f12e142]
+              - table [ref=f12e144]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f12e145]:
+                      - paragraph [ref=f12e146]: Job
+                - rowgroup [ref=f12e147]:
+                  - row [ref=f12e148]:
+                    - cell [ref=f12e149]:
+                      - link [ref=f12e150] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6145647004
+                        - paragraph [ref=f12e151]: Agentic ABM & Demand Gen Lead
+                        - paragraph [ref=f12e152]: San Francisco, CA, United States
+            - generic [ref=f12e153]:
+              - heading "Sales" [level=3] [ref=f12e154]
+              - table [ref=f12e156]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f12e157]:
+                      - paragraph [ref=f12e158]: Job
+                - rowgroup [ref=f12e159]:
+                  - row [ref=f12e160]:
+                    - cell [ref=f12e161]:
+                      - link [ref=f12e162] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/4549492004
+                        - paragraph [ref=f12e163]: Enterprise Account Executive
+                        - paragraph [ref=f12e164]: Remote - United States
+            - generic [ref=f12e165]:
+              - paragraph [ref=f12e167]: Sales
+              - heading "Account Management" [level=3] [ref=f12e168]
+              - table [ref=f12e170]:
+                - rowgroup:
+                  - row "Job":
+                    - columnheader [ref=f12e171]:
+                      - paragraph [ref=f12e172]: Job
+                - rowgroup [ref=f12e173]:
+                  - row [ref=f12e174]:
+                    - cell [ref=f12e175]:
+                      - link [ref=f12e176] [cursor=pointer]:
+                        - /url: https://job-boards.greenhouse.io/afresh/jobs/6139678004
+                        - paragraph [ref=f12e177]: Enterprise Account Manager
+                        - paragraph [ref=f12e178]: Remote - United States
+  - contentinfo [ref=f12e179]:
+    - generic [ref=f12e180]:
+      - paragraph [ref=f12e181]: Powered by
+      - link [ref=f12e182] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f12e183]

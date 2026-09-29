@@ -1,0 +1,142 @@
+- generic [ref=f95e2]:
+  - list [ref=f95e4]:
+    - listitem [ref=f95e5]:
+      - link [ref=f95e6] [cursor=pointer]:
+        - /url: https://liquid.ai
+        - img "Liquid AI" [ref=f95e7]
+    - listitem [ref=f95e8]:
+      - link "Back to Liquid AI’s Job Listings" [ref=f95e9] [cursor=pointer]:
+        - /url: /liquid-ai
+    - listitem
+  - generic [ref=f95e12]:
+    - heading "Member of Technical Staff - Embedded ML Engineer (Audio/Omni)" [level=1] [ref=f95e14]
+    - generic [ref=f95e15]:
+      - generic [ref=f95e16]:
+        - generic [ref=f95e17]:
+          - heading "Location" [level=2] [ref=f95e18]
+          - paragraph [ref=f95e19]: San Francisco
+        - generic [ref=f95e20]:
+          - heading "Employment Type" [level=2] [ref=f95e21]
+          - paragraph [ref=f95e22]: Full time
+        - generic [ref=f95e23]:
+          - heading "Location Type" [level=2] [ref=f95e24]
+          - paragraph [ref=f95e25]: Hybrid
+        - generic [ref=f95e26]:
+          - heading "Department" [level=2] [ref=f95e27]
+          - paragraph [ref=f95e28]:
+            - generic [ref=f95e29]: Research & Engineering
+      - generic [ref=f95e30]:
+        - tablist [ref=f95e31]:
+          - tab "Overview" [selected] [ref=f95e32] [cursor=pointer]
+          - tab "Application" [ref=f95e33] [cursor=pointer]
+        - tabpanel "Overview" [ref=f95e35]:
+          - generic [ref=f95e36]:
+            - heading "About Liquid AI" [level=2] [ref=f95e37]
+            - paragraph [ref=f95e38]: Spun out of MIT CSAIL, we build general-purpose AI systems that run efficiently across deployment targets, from data center accelerators to on-device hardware, ensuring low latency, minimal memory usage, privacy, and reliability. We partner with enterprises across consumer electronics, automotive, life sciences, and financial services. We are scaling rapidly and need exceptional people to help us get there.
+            - paragraph [ref=f95e39]
+            - heading "The Opportunity" [level=2] [ref=f95e40]
+            - paragraph [ref=f95e41]: Liquid AI's models ship inside real products, including vehicles from flagship automotive design partners with hard production release dates.
+            - paragraph [ref=f95e42]: "This role sits at the center of that work: you will run the day-to-day model development pipeline for our marquee automotive engagement, working directly with the engineer who leads our embedded customer R&D."
+            - paragraph [ref=f95e43]: You will take ambiguous feature requests from partner product teams and turn them into trained, evaluated, production-ready model checkpoints. Over your first months, the end-to-end pipeline (requirements, data generation, training, evaluation) is progressively handed to you until you operate it autonomously.
+            - paragraph [ref=f95e44]
+            - heading "What We're Looking For" [level=2] [ref=f95e45]
+            - paragraph [ref=f95e46]: "We need someone who:"
+            - list [ref=f95e47]:
+              - listitem [ref=f95e48]:
+                - paragraph [ref=f95e49]:
+                  - strong [ref=f95e50]: Runs with it
+                  - text: ": You take a loosely-defined task and drive it to done without waiting for step-by-step direction."
+              - listitem [ref=f95e51]:
+                - paragraph [ref=f95e52]:
+                  - strong [ref=f95e53]: Client-ready communicator
+                  - text: ": You can explain something technical you built from first principles to someone with zero context, clearly and without jargon. You will do this daily, with partners and internally."
+              - listitem [ref=f95e54]:
+                - paragraph [ref=f95e55]:
+                  - strong [ref=f95e56]: High energy, high urgency
+                  - text: ": You move fast, you like shipping against real deadlines, and crunch periods around releases don't faze you."
+              - listitem [ref=f95e57]:
+                - paragraph [ref=f95e58]:
+                  - strong [ref=f95e59]: Low ego
+                  - text: ": You are happy doing the unglamorous work that makes fast-moving projects hold together: cleaning data, polishing deliverables, building dashboards, documenting."
+              - listitem [ref=f95e60]:
+                - paragraph [ref=f95e61]:
+                  - strong [ref=f95e62]: Comfortable with shifting requirements
+                  - text: ": Partner specs change constantly. You treat that as the job, not an annoyance."
+            - paragraph [ref=f95e63]
+            - heading "The Work" [level=2] [ref=f95e64]
+            - list [ref=f95e65]:
+              - listitem [ref=f95e66]:
+                - paragraph [ref=f95e67]: Join partner calls, work with partner product managers, and translate broad, ambiguous feature specs into concrete model training requirements.
+              - listitem [ref=f95e68]:
+                - paragraph [ref=f95e69]: "Own the core fine-tuning recipe for an on-device audio-to-function-calling model: keep tool calling accurate and reliable across all supported languages."
+              - listitem [ref=f95e70]:
+                - paragraph [ref=f95e71]: Generate, clean, and analyze training data; build and maintain the large-scale data pipelines that feed training.
+              - listitem [ref=f95e72]:
+                - paragraph [ref=f95e73]: Run training and evaluation cycles against partner requirements on a continuous loop through major software releases.
+              - listitem [ref=f95e74]:
+                - paragraph [ref=f95e75]: "Make fast-moving work presentable: dashboards, analyses, documentation, and polished partner-facing deliverables."
+              - listitem [ref=f95e76]:
+                - paragraph [ref=f95e77]: Progressively take ownership of the end-to-end model development pipeline, from spec intake through delivered checkpoint.
+            - paragraph [ref=f95e78]
+            - heading "Desired Experience" [level=2] [ref=f95e79]
+            - paragraph [ref=f95e80]:
+              - strong [ref=f95e81]: "Must-have:"
+            - list [ref=f95e82]:
+              - listitem [ref=f95e83]:
+                - paragraph [ref=f95e84]: "Hands-on machine learning experience: roughly 2+ years, though we are open to exceptional early-career candidates with strong internship track records."
+              - listitem [ref=f95e85]:
+                - paragraph [ref=f95e86]: You have personally trained models end-to-end, in any modality (computer vision, ADAS, LLMs, audio). Building applications around model APIs does not qualify.
+              - listitem [ref=f95e87]:
+                - paragraph [ref=f95e88]: Experience working with large-scale data pipelines and wrangling large volumes of data.
+              - listitem [ref=f95e89]:
+                - paragraph [ref=f95e90]: Experience in an automotive, embedded-device, or on-device ML context, and the instinct to reason from first principles about those environments.
+              - listitem [ref=f95e91]:
+                - paragraph [ref=f95e92]: Strong communication skills; this is a client-facing role.
+            - paragraph [ref=f95e93]:
+              - strong [ref=f95e94]: "Nice-to-have:"
+            - list [ref=f95e95]:
+              - listitem [ref=f95e96]:
+                - paragraph [ref=f95e97]: Audio or speech model experience.
+              - listitem [ref=f95e98]:
+                - paragraph [ref=f95e99]: Function calling / tool-use fine-tuning experience.
+              - listitem [ref=f95e100]:
+                - paragraph [ref=f95e101]: Multilingual model or data experience.
+              - listitem [ref=f95e102]:
+                - paragraph [ref=f95e103]: Background at automotive, autonomous vehicle, or defense research labs.
+            - paragraph [ref=f95e104]
+            - heading "What Success Looks Like (Year One)" [level=2] [ref=f95e105]
+            - list [ref=f95e106]:
+              - listitem [ref=f95e107]:
+                - paragraph [ref=f95e108]: Within six months, you have made a non-trivial, quantifiable impact on a marquee automotive engagement, validated directly by partner feedback on service quality.
+              - listitem [ref=f95e109]:
+                - paragraph [ref=f95e110]: You operate the core model development pipeline (requirements, data generation, training, evaluation) autonomously across a major software release.
+              - listitem [ref=f95e111]:
+                - paragraph [ref=f95e112]: Function-calling quality holds across an expanding set of supported languages while new capabilities are layered onto the model.
+            - paragraph [ref=f95e113]
+            - heading "What We Offer" [level=2] [ref=f95e114]
+            - list [ref=f95e115]:
+              - listitem [ref=f95e116]:
+                - paragraph [ref=f95e117]: "End-to-end ownership: within months you run a production model pipeline for a global automotive partner, with direct mentorship from the engineer who built it."
+              - listitem [ref=f95e118]:
+                - paragraph [ref=f95e119]: "Compensation: Competitive base salary with equity in a unicorn-stage company"
+              - listitem [ref=f95e120]:
+                - paragraph [ref=f95e121]: "Health: We pay 100% of medical, dental, and vision premiums for employees and dependents"
+              - listitem [ref=f95e122]:
+                - paragraph [ref=f95e123]: "Financial: 401(k) matching up to 4% of base pay"
+              - listitem [ref=f95e124]:
+                - paragraph [ref=f95e125]: "Time Off: Unlimited PTO plus company-wide Refill Days throughout the year"
+          - link [ref=f95e126] [cursor=pointer]:
+            - /url: /liquid-ai/4ee965fc-9a9e-43db-a2e9-2da654a73e86/application
+            - button "Apply for this Job" [ref=f95e127]
+  - contentinfo [ref=f95e128]:
+    - link "Learn more about Ashby" [ref=f95e129] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f95e130]: Powered by
+      - img "Ashby" [ref=f95e131]
+    - paragraph [ref=f95e137]:
+      - link "Privacy Policy" [ref=f95e138] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f95e139] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f95e140] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

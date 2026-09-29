@@ -1,0 +1,71 @@
+% Job posting: https://jobs.lever.co/waabi/70c7e203-8ab2-4e00-a8df-ddc9250fdeb8
+% =====================================================================
+%  COVER LETTER — Nishal Stanislaus Silva, PhD
+%  Variant: V5 (CV / Industrial) — same tagline as the CV.
+%  Changelog: one page, 4 paragraphs. Hook = prototype/iterate perception against data + sim,
+%  safety-relevant standards; 14 ms / F1 0.76. Evidence = MAS CV detection + HITL fallback;
+%  MUSMET multimodal real-time. Honest LiDAR/automotive gap. Ties to Waabi sim + real-time.
+%  F1 0.76, no patent mention.
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Real-Time Perception \& Sensor Fusion Engineer | Multimodal Systems, Embedded Inference, Production-Proven Computer Vision}
+\newcommand{\clRole}{Senior / Staff Perception Engineer}
+\newcommand{\clCompany}{Waabi}
+\newcommand{\clTeam}{the perception team}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+Dear Hiring Team,
+
+Your posting asks for someone who can prototype and iterate on perception algorithms against real-world data and simulation, under engineering standards that hold up in a safety-relevant system. That is the shape of work I have done for the past decade, most recently on the EU-funded MUSMET project at the University of Trento, where I built real-time multimodal detection systems running at 14 ms latency and F1 0.76 on embedded hardware, a tighter constraint than most cloud perception stacks operate under.
+
+Before the PhD I led computer-vision deployment at MAS Holdings, building detection systems that fused camera and sensor streams into live manufacturing workflows: up to 300\% efficiency gains, 99.5\% reduction in inspection time, with human-in-the-loop fallback for cases the model should not decide alone. That is the same shape of problem your team solves at a different scale, real-time detection that has to be right, fast, and trustworthy enough for others to build on. My McGill work fused IMU and audio into a real-time gesture-detection system via a hierarchical state machine, and I used diffusion- and VAE-based synthetic data to shore up limited-label regimes, directly relevant to simulation-augmented training.
+
+I will be direct about the gap: I have not worked with LiDAR or automotive sensor stacks. What I can show instead is a track record of ramping into new sensor domains and shipping measurable results, audio pattern detection, then IMU-based gesture fusion at McGill, then industrial-scale camera systems at MAS, each with published methodology behind it (10 peer-reviewed papers, plus program committee service for IEEE's Internet of Sounds and I3DA). Waabi's bet on high-fidelity simulation plus real-time perception is exactly the hard, latency-constrained systems problem I have built a career around.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, and available immediately. I would welcome the chance to discuss how this experience maps onto \clTeam{}'s work at \clCompany{}. My portfolio and publications are at \href{https://nishal.xyz}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

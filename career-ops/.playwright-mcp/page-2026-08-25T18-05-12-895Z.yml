@@ -1,0 +1,191 @@
+- generic [active] [ref=f547e1]:
+  - img "Banner" [ref=f547e3]
+  - main [ref=f547e4]:
+    - generic [ref=f547e5]:
+      - img "Reddit Logo" [ref=f547e7]
+      - generic [ref=f547e8]:
+        - link "Back to jobs" [ref=f547e9] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/reddit
+        - generic [ref=f547e13]:
+          - generic [ref=f547e14]:
+            - heading "Machine Learning Systems Engineer, Ads ML Platform" [level=1] [ref=f547e15]
+            - generic [ref=f547e16]: Remote - United Kingdom
+          - button "Apply" [ref=f547e20] [cursor=pointer]
+        - generic [ref=f547e21]:
+          - generic [ref=f547e28]:
+            - text: Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit
+            - link "www.redditinc.com" [ref=f547e29] [cursor=pointer]:
+              - /url: http://www.redditinc.com/
+            - text: .
+          - generic [ref=f547e30]:
+            - paragraph [ref=f547e31]:
+              - strong [ref=f547e32]: "Location:"
+              - text: "Reddit has a flexible first workforce. Don't live near our office? No worries: you can work remotely from anywhere in the UK or the Netherlands."
+            - paragraph [ref=f547e33]:
+              - strong [ref=f547e34]: Team Overview
+            - paragraph [ref=f547e35]: We’re building a scalable feature platform that powers Ads ML by making high-quality features and training datasets easy to build, share, and maintain. Our small but growing team works on projects like batch & realtime feature management platform, training set generation platform, sequence features platform and, agentic and automated ML workflows for feature lifecycle management.
+            - paragraph [ref=f547e36]: We are looking for an engineer with experience in building high-scale data infrastructure and exposure to ML platforms to help evolve and scale our feature management systems.
+            - paragraph [ref=f547e37]: This is not a pure ML modeling role. The ideal candidate is excited about building reliable infrastructure, data pipelines, and developer-facing tools that make ML engineers more productive.
+            - paragraph [ref=f547e38]:
+              - strong [ref=f547e39]: What You’ll Do
+            - list [ref=f547e40]:
+              - listitem [ref=f547e41]: Design and build data infrastructure that supports large-scale feature and training set computation, transformation, and storage.
+              - listitem [ref=f547e42]: Develop frameworks for batch and real-time features with a focus on reliability, scalability, and ease of use.
+              - listitem [ref=f547e43]: Build platform capabilities for feature governance, including lineage tracking, validation, drift detection, anomaly monitoring, reproducibility, and versioning
+              - listitem [ref=f547e44]: Partner with ML engineers to ensure smooth integration of feature engineering workflows into ML production systems.
+              - listitem [ref=f547e45]: Build systems that support agentic ML workflows, including automated feature discovery, feature quality evaluation and feature lifecycle management
+              - listitem [ref=f547e46]: Contribute to operational excellence through observability, performance tuning, reliability engineering, and cost optimization initiatives.
+            - paragraph [ref=f547e47]:
+              - strong [ref=f547e48]: What You Bring
+            - list [ref=f547e49]:
+              - listitem [ref=f547e50]: 3+ years in data infrastructure/platform engineering or ML infrastructure platforms.
+              - listitem [ref=f547e51]: Hands-on experience building production services, data pipelines, APIs, workflow systems, or developer tools.
+              - listitem [ref=f547e52]: Experience with at least one distributed data or compute system such as Spark, PySpark, Flink, Kafka, Ray, Airflow, Kubernetes, BigQuery, or similar technologies.
+              - listitem [ref=f547e53]: Familiarity with ML data workflows such as feature generation, training dataset creation, batch processing, real-time data processing, model training, experimentation, or online serving.
+              - listitem [ref=f547e54]: Strong coding skills and ability to write clean, maintainable, well-tested code.
+              - listitem [ref=f547e55]: Experience building intelligent automation or agentic workflows for ML systems is a strong plus
+              - listitem [ref=f547e56]: Experience with ML infrastructure and MLOps workflows spanning feature engineering, training pipelines, experimentation, model deployment, and online serving is a plus
+            - paragraph [ref=f547e57]:
+              - strong [ref=f547e58]: "Benefits:"
+            - list [ref=f547e59]:
+              - listitem [ref=f547e60]: Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support
+              - listitem [ref=f547e61]: Family Planning Support
+              - listitem [ref=f547e62]: Gender-Affirming Care
+              - listitem [ref=f547e63]: Mental Health & Coaching Benefits
+              - listitem [ref=f547e64]: Group Personal Pension Scheme with Employer match
+              - listitem [ref=f547e65]: Private Medical and Dental Scheme
+              - listitem [ref=f547e66]: Income Replacement Programs
+              - listitem [ref=f547e67]: Bike to Work scheme
+              - listitem [ref=f547e68]: Flexible Vacation & Paid Volunteer Time Off
+              - listitem [ref=f547e69]: Generous Paid Parental Leave
+          - generic [ref=f547e70]:
+            - paragraph [ref=f547e71]: In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews.
+            - paragraph [ref=f547e72]:
+              - generic [ref=f547e73]:
+                - text: "During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our"
+                - link "Candidate Privacy Policy for Potential Employees and Contractors" [ref=f547e74] [cursor=pointer]:
+                  - /url: https://redditinc.com/policies/candidate-privacy-policy
+                - text: .
+            - paragraph [ref=f547e75]:
+              - emphasis [ref=f547e76]: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.
+      - separator [ref=f547e77]
+      - generic [ref=f547e78]:
+        - generic [ref=f547e80]:
+          - heading "Apply for this job" [level=2] [ref=f547e82]
+          - generic [ref=f547e83]:
+            - paragraph [ref=f547e85]: "*"
+            - paragraph [ref=f547e86]: indicates a required field
+        - generic [ref=f547e87]:
+          - generic [ref=f547e88]:
+            - generic [ref=f547e91]:
+              - generic [ref=f547e92]: First Name*
+              - textbox "First Name" [ref=f547e93]
+            - generic [ref=f547e96]:
+              - generic [ref=f547e97]: Last Name*
+              - textbox "Last Name" [ref=f547e98]
+            - generic [ref=f547e101]:
+              - generic [ref=f547e102]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f547e103]
+            - generic [ref=f547e106]:
+              - generic [ref=f547e107]: Email*
+              - textbox "Email" [ref=f547e108]
+            - group "Phone" [ref=f547e110]:
+              - generic [ref=f547e114]:
+                - generic [ref=f547e115]: Country*
+                - generic [ref=f547e116]:
+                  - log [ref=f547e118]
+                  - generic [ref=f547e120]:
+                    - combobox "Country" [ref=f547e123]
+                    - button "Toggle flyout" [ref=f547e125] [cursor=pointer]
+                  - textbox
+              - generic [ref=f547e130]:
+                - generic [ref=f547e131]: Phone*
+                - textbox "Phone" [ref=f547e133]
+            - generic [ref=f547e134]:
+              - generic [ref=f547e136]:
+                - generic [ref=f547e137]: Location (City)*
+                - generic [ref=f547e138]:
+                  - log [ref=f547e140]
+                  - combobox "Location (City)" [ref=f547e145]
+                  - textbox
+              - button "Locate me" [ref=f547e146] [cursor=pointer]
+            - group "Resume/CV*" [ref=f547e148]:
+              - generic [ref=f547e151]:
+                - generic [ref=f547e153]:
+                  - button "Attach" [ref=f547e154] [cursor=pointer]
+                  - generic [ref=f547e155]: Attach
+                  - button "Attach" [ref=f547e156]
+                - button "Dropbox" [ref=f547e158] [cursor=pointer]
+                - button "Google Drive" [ref=f547e160] [cursor=pointer]
+                - generic [ref=f547e162]:
+                  - button "Enter manually" [ref=f547e163] [cursor=pointer]
+                  - generic [ref=f547e164]: Enter manually
+                - paragraph [ref=f547e165]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f547e167]:
+              - generic [ref=f547e170]:
+                - generic [ref=f547e172]:
+                  - button "Attach" [ref=f547e173] [cursor=pointer]
+                  - generic [ref=f547e174]: Attach
+                  - button "Attach" [ref=f547e175]
+                - button "Dropbox" [ref=f547e177] [cursor=pointer]
+                - button "Google Drive" [ref=f547e179] [cursor=pointer]
+                - generic [ref=f547e181]:
+                  - button "Enter manually" [ref=f547e182] [cursor=pointer]
+                  - generic [ref=f547e183]: Enter manually
+                - paragraph [ref=f547e184]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f547e185]:
+            - separator [ref=f547e186]
+            - generic [ref=f547e189]:
+              - generic [ref=f547e190]: LinkedIn Profile
+              - textbox "LinkedIn Profile" [ref=f547e191]
+            - generic [ref=f547e194]:
+              - generic [ref=f547e195]: How did you hear about this job?*
+              - textbox "How did you hear about this job?" [ref=f547e196]
+            - generic [ref=f547e197]:
+              - generic [ref=f547e199]:
+                - generic [ref=f547e200]: Please provide the name of your current (or most recent) company*
+                - textbox "Please provide the name of your current (or most recent) company" [ref=f547e201]
+              - paragraph [ref=f547e204]: "Note: if you're currently employed at Reddit, please submit your application via our Internal Job Board"
+            - generic [ref=f547e207]:
+              - generic [ref=f547e208]: Are you currently authorized to work in this country?*
+              - generic [ref=f547e209]:
+                - log [ref=f547e211]
+                - generic [ref=f547e213]:
+                  - generic [ref=f547e214]:
+                    - generic [ref=f547e215]: Select...
+                    - combobox "Are you currently authorized to work in this country?" [ref=f547e217]
+                  - button "Toggle flyout" [ref=f547e219] [cursor=pointer]
+                - textbox
+            - generic [ref=f547e224]:
+              - generic [ref=f547e225]: Do you now, or will you in the future, require immigration sponsorship to work at Reddit?*
+              - generic [ref=f547e226]:
+                - log [ref=f547e228]
+                - generic [ref=f547e230]:
+                  - generic [ref=f547e231]:
+                    - generic [ref=f547e232]: Select...
+                    - combobox "Do you now, or will you in the future, require immigration sponsorship to work at Reddit?" [ref=f547e234]
+                  - button "Toggle flyout" [ref=f547e236] [cursor=pointer]
+                - textbox
+            - generic [ref=f547e239]:
+              - generic [ref=f547e241]:
+                - generic [ref=f547e242]: By selecting "I agree," I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy. *
+                - generic [ref=f547e243]:
+                  - log [ref=f547e245]
+                  - generic [ref=f547e247]:
+                    - generic [ref=f547e248]:
+                      - generic [ref=f547e249]: Select...
+                      - combobox "By selecting \"I agree,\" I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy." [ref=f547e251]
+                    - button "Toggle flyout" [ref=f547e253] [cursor=pointer]
+                  - textbox
+              - paragraph [ref=f547e258]:
+                - link "Reddit's Candidate Privacy Policy" [ref=f547e259] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/candidate-privacy-policy
+          - button "Submit application" [ref=f547e261] [cursor=pointer]
+  - contentinfo [ref=f547e262]:
+    - generic [ref=f547e263]:
+      - paragraph [ref=f547e264]: Powered by
+      - link [ref=f547e265] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f547e266]
+  - iframe [ref=f547e280]:
+    

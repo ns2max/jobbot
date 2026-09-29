@@ -1,0 +1,16 @@
+Done. Anthropic role location = SF/NYC only, not Canada. Profile policy hard-excludes non-Canada roles — no scoring, no PDF. Wrote exclusion report + tracker line only.
+
+```json
+{
+  "status": "completed",
+  "id": "35",
+  "report_num": "890",
+  "company": "Anthropic",
+  "role": "Research Engineer, Code RL",
+  "score": null,
+  "legitimacy": "Proceed with Caution",
+  "pdf": null,
+  "report": "reports/890-anthropic-2026-08-24.md",
+  "error": null
+}
+```

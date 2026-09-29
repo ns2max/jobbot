@@ -1,0 +1,18 @@
+Pipeline done. Output summary:
+
+```json
+{
+  "status": "completed",
+  "id": "70",
+  "report_num": "1036",
+  "company": "Reddit",
+  "role": "Unknown (posting removed)",
+  "score": null,
+  "legitimacy": "Suspicious",
+  "pdf": null,
+  "report": "reports/1036-reddit-2026-08-25.md",
+  "error": "Job posting dead: HTTP 302 redirect + Greenhouse API 404 (job ID not in active 149-job board). No JD text available anywhere — evaluation not possible, no PDF generated to avoid fabricating a generic CV."
+}
+```
+
+Posting dead — API 404 + redirect confirm. No JD anywhere, so no real A-G eval, no PDF (would've been fabricated). Report + tracker line marked Discarded/Suspicious.

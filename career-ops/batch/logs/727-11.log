@@ -1,0 +1,17 @@
+Role locations: SF/NYC/Seattle only, hybrid onsite. Profile policy (`modes/_profile.md`) hard-excludes non-Canadian roles — no eval, no score, no report/PDF/tracker. This job has zero Canada option. Skip per that rule.
+
+No report/PDF/tracker generated — policy says don't even score it.
+
+```json
+{
+  "status": "failed",
+  "id": "11",
+  "report_num": "727",
+  "company": "Anthropic",
+  "role": "Staff + Senior Software Engineer, Inference",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role location (SF/NYC/Seattle, hybrid onsite) has no Canada option — violates candidate's Canada-only location policy in modes/_profile.md. Not evaluated per that rule."
+}
+```

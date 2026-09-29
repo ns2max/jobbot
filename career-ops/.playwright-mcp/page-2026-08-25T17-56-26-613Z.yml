@@ -1,0 +1,260 @@
+- generic [active] [ref=f398e1]:
+  - img "Banner" [ref=f398e3]
+  - main [ref=f398e4]:
+    - generic [ref=f398e5]:
+      - img "Reddit Logo" [ref=f398e7]
+      - generic [ref=f398e8]:
+        - link "Back to jobs" [ref=f398e9] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/reddit
+        - generic [ref=f398e13]:
+          - generic [ref=f398e14]:
+            - heading "Senior Staff Data Scientist - Consumer Experimentation" [level=1] [ref=f398e15]
+            - generic [ref=f398e16]: Remote - Ontario, Canada
+          - button "Apply" [ref=f398e20] [cursor=pointer]
+        - generic [ref=f398e21]:
+          - generic [ref=f398e28]:
+            - text: Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit
+            - link "www.redditinc.com" [ref=f398e29] [cursor=pointer]:
+              - /url: http://www.redditinc.com/
+            - text: .
+          - generic [ref=f398e30]:
+            - paragraph [ref=f398e31]:
+              - text: Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 126 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit
+              - link "www.redditinc.com" [ref=f398e32] [cursor=pointer]:
+                - /url: http://www.redditinc.com/
+              - text: .
+            - paragraph [ref=f398e33]: Reddit is poised to rapidly innovate and grow like no other time in its history. This is a unique opportunity to leave your mark on one of the most influential and trafficked corners of the internet.
+            - paragraph [ref=f398e34]: Consumer data science plays a key role in fulfilling Reddit’s mission of bringing community & belonging to the world through deep understanding of how we can better connect people to the best information and communities for them - the heart of Reddit’s product - from crypto to support groups, gaming to AMAs, travel tips to memes.
+            - paragraph [ref=f398e35]: Reddit's experimentation landscape presents uniquely challenging problems. Our platform is a deeply interconnected network of communities, contributors, and consumers – meaning that standard A/B testing assumptions often break down. We need a senior technical leader who thrives on these hard problems and can raise the bar for causal inference and experimentation rigor across the entire Consumer organization.
+            - paragraph [ref=f398e36]: As a Senior Staff Data Scientist on the Consumer team, you will be the go-to expert on experimentation methodology, owning the most complex and high-stakes experimentation challenges across Consumer. You will shape how Reddit learns from its experiments, ensure we draw valid causal conclusions in the presence of network effects and interference, and influence product strategy through rigorous experimental design and analysis.
+            - paragraph [ref=f398e37]:
+              - strong [ref=f398e38]: "Responsibilities:"
+            - list [ref=f398e39]:
+              - listitem [ref=f398e40]: Serve as the technical authority on experimentation methodology across Consumer, setting standards for design, analysis, and interpretation of experiments in a complex, networked environment
+              - listitem [ref=f398e41]: Tackle the hardest experimentation problems at Reddit, including spillover and network effects, interference between treatment and control, two-sided experimentation, and long-run effect estimation
+              - listitem [ref=f398e42]: Develop and advance methods for causal inference in settings where standard randomization assumptions are violated, such as cluster-randomized designs, switchback experiments, and synthetic control approaches
+              - listitem [ref=f398e43]: Design experimentation frameworks and guardrail metrics that account for ecosystem-level effects, ensuring product teams can measure true causal impact rather than biased local estimates
+              - listitem [ref=f398e44]: Identify opportunities where improved experimentation methodology can unlock product insights that were previously unmeasurable or ambiguous
+              - listitem [ref=f398e45]: Build and scale self-serve experimentation tools, platforms, and best-practice documentation that increase experimentation velocity and literacy across product, engineering, and design teams
+              - listitem [ref=f398e46]: Influence the long-term product strategy by driving learning through well-designed experiments and translating experimental results into clear, actionable recommendations for senior leadership
+              - listitem [ref=f398e47]: Mentor and elevate other data scientists across the organization on experimentation best practices, causal reasoning, and statistical rigor
+              - listitem [ref=f398e48]: Publish and share methodological advances internally and, where appropriate, externally to contribute to the broader experimentation and causal inference community
+            - paragraph [ref=f398e49]:
+              - strong [ref=f398e50]: "Required Qualifications:"
+            - list [ref=f398e51]:
+              - listitem [ref=f398e52]: Ph.D. in Statistics, Econometrics, Economics, Computer Science, or a related quantitative field with a strong focus on causal inference or experimentation methodology; or M.S. with equivalent depth of expertise
+              - listitem [ref=f398e53]: "For M.S. holders: 12+ years of industry experience in applied science, data science, or experimentation-focused roles"
+              - listitem [ref=f398e54]: "For Ph.D. holders: 8+ years of industry experience in applied science, data science, or experimentation-focused roles"
+              - listitem [ref=f398e55]: Deep expertise in causal inference, including practical experience with challenges such as network interference / spillovers, two-sided experimentation, switchback designs, cluster randomization, and/or synthetic control methods
+              - listitem [ref=f398e56]: Strong theoretical grounding in experimental design, including power analysis, variance reduction techniques, sequential testing, and multiple comparison corrections
+              - listitem [ref=f398e57]: Experience with experimentation platforms at scale (e.g., building or significantly extending an internal experimentation platform)
+              - listitem [ref=f398e58]: Expert knowledge of SQL and proficiency in R and/or Python for statistical computing
+              - listitem [ref=f398e59]: Track record of designing and analyzing experiments at scale in complex or networked environments
+              - listitem [ref=f398e60]: Demonstrated ability to influence product and organizational strategy through experimentation insights
+              - listitem [ref=f398e61]: Demonstrated ability to take ambiguous, technically complex problems and solve them in a structured, hypothesis-driven way
+              - listitem [ref=f398e62]: Excellent communication skills with the ability to explain nuanced statistical concepts and tradeoffs to both technical and non-technical senior stakeholders
+              - listitem [ref=f398e63]: Experience mentoring data scientists and building organizational capability in experimentation and causal reasoning
+              - listitem [ref=f398e64]: Comfortable in innovative and fast-paced environments with a bias toward action
+            - paragraph [ref=f398e65]:
+              - strong [ref=f398e66]: "Preferred Qualifications:"
+            - list [ref=f398e67]:
+              - listitem [ref=f398e68]: Published research or industry contributions in areas such as interference in experiments, network experimentation, or marketplace causal inference
+              - listitem [ref=f398e69]: Familiarity with Bayesian experimental methods, bandit algorithms, or adaptive experimental designs
+              - listitem [ref=f398e70]: Experience with social network or user-generated content platforms where community-level dynamics create non-trivial experimentation challenges
+            - paragraph [ref=f398e71]
+            - paragraph [ref=f398e72]:
+              - strong [ref=f398e73]: "Benefits:"
+            - list [ref=f398e74]:
+              - listitem [ref=f398e75]: Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support
+              - listitem [ref=f398e76]: Family Planning Support
+              - listitem [ref=f398e77]: Gender-Affirming Care
+              - listitem [ref=f398e78]: Mental Health & Coaching Benefits
+              - listitem [ref=f398e79]: Comprehensive Medical Benefits & Health Care Spending Account
+              - listitem [ref=f398e80]: Registered Retirement Savings Plan with matching contributions
+              - listitem [ref=f398e81]: Income Replacement Programs
+              - listitem [ref=f398e82]: Flexible Vacation & Paid Volunteer Time Off
+              - listitem [ref=f398e83]: Generous Paid Parental Leave
+            - paragraph [ref=f398e84]
+            - paragraph [ref=f398e85]: "#LI-REMOTE"
+            - paragraph [ref=f398e86]
+          - generic [ref=f398e87]:
+            - paragraph [ref=f398e88]: In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews.
+            - paragraph [ref=f398e89]:
+              - generic [ref=f398e90]:
+                - text: "During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our"
+                - link "Candidate Privacy Policy for Potential Employees and Contractors" [ref=f398e91] [cursor=pointer]:
+                  - /url: https://redditinc.com/policies/candidate-privacy-policy
+                - text: .
+            - paragraph [ref=f398e92]:
+              - emphasis [ref=f398e93]: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.
+      - separator [ref=f398e94]
+      - generic [ref=f398e95]:
+        - generic [ref=f398e97]:
+          - heading "Apply for this job" [level=2] [ref=f398e99]
+          - generic [ref=f398e100]:
+            - paragraph [ref=f398e102]: "*"
+            - paragraph [ref=f398e103]: indicates a required field
+        - generic [ref=f398e104]:
+          - generic [ref=f398e105]:
+            - generic [ref=f398e108]:
+              - generic [ref=f398e109]: First Name*
+              - textbox "First Name" [ref=f398e110]
+            - generic [ref=f398e113]:
+              - generic [ref=f398e114]: Last Name*
+              - textbox "Last Name" [ref=f398e115]
+            - generic [ref=f398e118]:
+              - generic [ref=f398e119]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f398e120]
+            - generic [ref=f398e123]:
+              - generic [ref=f398e124]: Email*
+              - textbox "Email" [ref=f398e125]
+            - group "Phone" [ref=f398e127]:
+              - generic [ref=f398e131]:
+                - generic [ref=f398e132]: Country
+                - generic [ref=f398e133]:
+                  - log [ref=f398e135]
+                  - generic [ref=f398e137]:
+                    - combobox "Country" [ref=f398e140]
+                    - button "Toggle flyout" [ref=f398e142] [cursor=pointer]
+              - generic [ref=f398e147]:
+                - generic [ref=f398e148]: Phone
+                - textbox "Phone" [ref=f398e149]
+            - group "Resume/CV" [ref=f398e151]:
+              - generic [ref=f398e154]:
+                - generic [ref=f398e156]:
+                  - button "Attach" [ref=f398e157] [cursor=pointer]
+                  - generic [ref=f398e158]: Attach
+                  - button "Attach" [ref=f398e159]
+                - button "Dropbox" [ref=f398e161] [cursor=pointer]
+                - button "Google Drive" [ref=f398e163] [cursor=pointer]
+                - generic [ref=f398e165]:
+                  - button "Enter manually" [ref=f398e166] [cursor=pointer]
+                  - generic [ref=f398e167]: Enter manually
+                - paragraph [ref=f398e168]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f398e170]:
+              - generic [ref=f398e173]:
+                - generic [ref=f398e175]:
+                  - button "Attach" [ref=f398e176] [cursor=pointer]
+                  - generic [ref=f398e177]: Attach
+                  - button "Attach" [ref=f398e178]
+                - button "Dropbox" [ref=f398e180] [cursor=pointer]
+                - button "Google Drive" [ref=f398e182] [cursor=pointer]
+                - generic [ref=f398e184]:
+                  - button "Enter manually" [ref=f398e185] [cursor=pointer]
+                  - generic [ref=f398e186]: Enter manually
+                - paragraph [ref=f398e187]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f398e188]:
+            - separator [ref=f398e189]
+            - generic [ref=f398e192]:
+              - generic [ref=f398e193]: LinkedIn Profile*
+              - textbox "LinkedIn Profile" [ref=f398e194]
+            - generic [ref=f398e195]:
+              - generic [ref=f398e197]:
+                - generic [ref=f398e198]: Please provide the name of your current (or most recent) company*
+                - textbox "Please provide the name of your current (or most recent) company" [ref=f398e199]
+              - paragraph [ref=f398e202]: "Note: if you're currently employed at Reddit, please submit your application via our Internal Job Board"
+            - generic [ref=f398e205]:
+              - generic [ref=f398e206]: "Do you hold an advanced degree (masters or Ph.D) in one of the following fields?: Mathematics, Statistics, Computer Science, Computational Science, Scientific Computing, Operations Research, Physics, Astrophysics, Geophysics, Biophysics, Industrial Engineering, Chemical Engineering, Nuclear Engineering, Biostatistics, Biophysics, Neuroscience, Financial Engineering, Mathematical Finance, Economics*"
+              - generic [ref=f398e207]:
+                - log [ref=f398e209]
+                - generic [ref=f398e211]:
+                  - generic [ref=f398e212]:
+                    - generic [ref=f398e213]: Select...
+                    - 'combobox "Do you hold an advanced degree (masters or Ph.D) in one of the following fields?: Mathematics, Statistics, Computer Science, Computational Science, Scientific Computing, Operations Research, Physics, Astrophysics, Geophysics, Biophysics, Industrial Engineering, Chemical Engineering, Nuclear Engineering, Biostatistics, Biophysics, Neuroscience, Financial Engineering, Mathematical Finance, Economics" [ref=f398e215]'
+                  - button "Toggle flyout" [ref=f398e217] [cursor=pointer]
+                - textbox
+            - generic [ref=f398e222]:
+              - generic [ref=f398e223]: Do you have a Masters degree and 10+ years of industry experience or a Ph.D and 6+ years of industry experience in applied science or data science roles? This does not include research or internships.*
+              - generic [ref=f398e224]:
+                - log [ref=f398e226]
+                - generic [ref=f398e228]:
+                  - generic [ref=f398e229]:
+                    - generic [ref=f398e230]: Select...
+                    - combobox "Do you have a Masters degree and 10+ years of industry experience or a Ph.D and 6+ years of industry experience in applied science or data science roles? This does not include research or internships." [ref=f398e232]
+                  - button "Toggle flyout" [ref=f398e234] [cursor=pointer]
+                - textbox
+            - generic [ref=f398e239]:
+              - generic [ref=f398e240]: How did you hear about this job?*
+              - textbox "How did you hear about this job?" [ref=f398e241]
+            - generic [ref=f398e244]:
+              - generic [ref=f398e245]: Are you currently authorized to work in Canada?*
+              - generic [ref=f398e246]:
+                - log [ref=f398e248]
+                - generic [ref=f398e250]:
+                  - generic [ref=f398e251]:
+                    - generic [ref=f398e252]: Select...
+                    - combobox "Are you currently authorized to work in Canada?" [ref=f398e254]
+                  - button "Toggle flyout" [ref=f398e256] [cursor=pointer]
+                - textbox
+            - generic [ref=f398e261]:
+              - generic [ref=f398e262]: Do you now, or will you in the future, require immigration sponsorship to work at Reddit?*
+              - generic [ref=f398e263]:
+                - log [ref=f398e265]
+                - generic [ref=f398e267]:
+                  - generic [ref=f398e268]:
+                    - generic [ref=f398e269]: Select...
+                    - combobox "Do you now, or will you in the future, require immigration sponsorship to work at Reddit?" [ref=f398e271]
+                  - button "Toggle flyout" [ref=f398e273] [cursor=pointer]
+                - textbox
+            - generic [ref=f398e276]:
+              - generic [ref=f398e278]:
+                - generic [ref=f398e279]: By selecting "I agree," I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy. *
+                - generic [ref=f398e280]:
+                  - log [ref=f398e282]
+                  - generic [ref=f398e284]:
+                    - generic [ref=f398e285]:
+                      - generic [ref=f398e286]: Select...
+                      - combobox "By selecting \"I agree,\" I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy." [ref=f398e288]
+                    - button "Toggle flyout" [ref=f398e290] [cursor=pointer]
+                  - textbox
+              - paragraph [ref=f398e295]:
+                - link "Reddit's Candidate Privacy Policy" [ref=f398e296] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/candidate-privacy-policy
+          - separator [ref=f398e297]
+          - generic [ref=f398e298]:
+            - heading "Reddit Canada Equal Employment Information" [level=3] [ref=f398e299]
+            - generic [ref=f398e301]:
+              - paragraph [ref=f398e302]: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. To bring community and belonging to everyone in the world, Reddit’s employees must represent communities and redditors on our platform.
+              - paragraph [ref=f398e303]: The Company is committed to treating all people in a way that allows them to maintain their dignity and independence. We believe in integration and equal opportunity. Accommodations are available throughout the recruitment process and applicants with a disability may request to be accommodated throughout the recruitment process.
+              - paragraph [ref=f398e304]: We will work with all applicants to accommodate their individual accessibility needs
+              - paragraph [ref=f398e305]: Our vision at Reddit is to have a workforce representative of people with different perspectives and experiences, including but not limited to, gender, race and ethnicity, sexual orientation, age, national origin, religion, and political views.
+              - paragraph [ref=f398e306]: We invite you to self-identify across the identities below so we can better understand our talent pools and assess our effectiveness in attracting and recruiting people to Reddit from all backgrounds.
+              - paragraph [ref=f398e307]: Answering these questions will not impact your application, nor will this information be shared with anyone making a hiring decision.
+            - generic [ref=f398e309]:
+              - generic [ref=f398e310]: What gender identity do you most closely identify with? *
+              - generic [ref=f398e311]:
+                - log [ref=f398e313]
+                - generic [ref=f398e315]:
+                  - generic [ref=f398e316]:
+                    - generic [ref=f398e317]: Select...
+                    - combobox "What gender identity do you most closely identify with?" [ref=f398e319]
+                  - button "Toggle flyout" [ref=f398e321] [cursor=pointer]
+                - textbox
+            - generic [ref=f398e325]:
+              - generic [ref=f398e326]: Are you a person of transgender experience?*
+              - generic [ref=f398e327]:
+                - log [ref=f398e329]
+                - generic [ref=f398e331]:
+                  - generic [ref=f398e332]:
+                    - generic [ref=f398e333]: Select...
+                    - combobox "Are you a person of transgender experience?" [ref=f398e335]
+                  - button "Toggle flyout" [ref=f398e337] [cursor=pointer]
+                - textbox
+            - generic [ref=f398e341]:
+              - generic [ref=f398e342]: What sexual orientation do you most closely identify with? *
+              - generic [ref=f398e343]:
+                - log [ref=f398e345]
+                - generic [ref=f398e347]:
+                  - generic [ref=f398e348]:
+                    - generic [ref=f398e349]: Select...
+                    - combobox "What sexual orientation do you most closely identify with?" [ref=f398e351]
+                  - button "Toggle flyout" [ref=f398e353] [cursor=pointer]
+                - textbox
+          - separator [ref=f398e356]
+          - button "Submit application" [ref=f398e358] [cursor=pointer]
+  - contentinfo [ref=f398e359]:
+    - generic [ref=f398e360]:
+      - paragraph [ref=f398e361]: Powered by
+      - link [ref=f398e362] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f398e363]

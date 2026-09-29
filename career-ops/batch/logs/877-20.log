@@ -1,0 +1,19 @@
+Job is **Engineering Manager, Evals** at Cursor — San Francisco, onsite, US only (`isRemote: false`, `workplaceType: OnSite`, no Canada option in secondary locations either — NY is the only alt, also US).
+
+Per `_profile.md` location policy: Canada-only hard exclude, non-Canadian roles (including onsite US) are excluded outright — "do not evaluate, do not score, do not generate CV/report for them." Stopping here, no report/CV/tracker line generated.
+
+```json
+{
+  "status": "skipped",
+  "id": "20",
+  "report_num": "877",
+  "company": "Cursor",
+  "role": "Engineering Manager, Evals",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role is San Francisco onsite (US), no Canada option. Location policy in modes/_profile.md filters non-Canadian roles before evaluation — not scored, no report/CV generated."
+}
+```
+
+Also role shape (EM, people leadership, not IC) doesn't match your target archetypes anyway — second reason it'd be a skip even without location.

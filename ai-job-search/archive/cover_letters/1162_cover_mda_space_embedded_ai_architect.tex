@@ -1,0 +1,71 @@
+% Job posting: https://ca.linkedin.com/jobs/view/embedded-artificial-intelligence-architect-at-mda-space-4414774301
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: MDA Space - Embedded Artificial Intelligence Architect (Technical Lead)
+%          Satellite Systems team, Sainte-Anne-de-Bellevue, QC
+%  Variant: V3 (Edge / Embedded). Honest reach-role letter per 1162_evaluation.md
+%           (architect-level step up; satellite comms/RF new; ITAR raised as a
+%           logistics question, not a disqualification).
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.03}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{ML Research Engineer | Real-Time \& Edge Inference | Audio, Sensor \& Time-Series}
+\newcommand{\clRole}{Embedded Artificial Intelligence Architect (Technical Lead)}
+\newcommand{\clCompany}{MDA Space}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{}, \clCompany{} (Satellite Systems)}
+
+\clAddressee
+
+I am applying for the Embedded Artificial Intelligence Architect role with the Satellite Systems team. I am an ML research engineer who prototypes and deploys models on embedded targets under a hard device budget, with a PhD from the University of Trento and 10+ years across industry and academia. My most recent published result is a real-time detector running inference in 14 ms on a Raspberry Pi 4 at 31.4\% CPU, F1 0.76, 74 times faster than the 1038 ms baseline it replaced (JAES 2026). That number came from the methodology as much as the model: a frozen-protocol benchmark suite that measured model performance, latency, CPU and memory on the target platform for every design choice, including the ones that failed and were recorded as such.
+
+Several parts of this role are work I already do. I deploy and prototype ML on embedded targets, with Raspberry Pi and ARM embedded Linux as my production environment, and I select model architectures to fit an embedded compute, power, memory and latency budget rather than assuming the compute is free. I design simulators and rule-based generators to produce representative training data when real data is scarce: rule-based synthetic-variation generators at roughly 10k variants per pattern, plus VAE- and diffusion-based synthetic audio for low-label regimes. I create and curate datasets for training, validation and testing with frozen protocols, and I define metrics and evaluate robustness and resource utilization on device. My toolchain is Python with TensorFlow for embedded deployment and PyTorch, production C/C++17, embedded Linux, and Git with CI/CD. Network traffic prediction is a time-series forecasting problem, and sequence modelling over streaming signals (RNN, LSTM, GRU) is the core of my research, so it is a problem I am equipped to formulate and prototype.
+
+I want to be direct about the stretch. Satellite communications and RF, and the comms-specific stack the posting names (DVB-S2X, cognitive radio, anti-jamming), are new to me; my signal-processing and DSP fundamentals transfer, but I would be learning the communications domain. This is also a step up into an architect and technical-lead role. What I bring to it is end-to-end ownership of edge-ML delivery, from acquisition through DSP front-ends, training, evaluation methodology and on-device deployment with monitoring, plus experience defining evaluation protocols and mentoring engineers and graduate students. I am ready to be the accountable architect for the AI, work a phased roadmap from ground prototypes to on-board inference, and grow into the comms specifics with the team.
+
+MDA's AURORA software-defined satellites, and the goal of running useful AI on the platform itself, are the kind of hard-constraint problem I want to work on: the compute, power and thermal budget in orbit is exactly where my benchmark-first approach earns its keep. I am a Canadian permanent resident, eligible to work without sponsorship, available immediately, and open to relocating to the Sainte-Anne-de-Bellevue office. I am willing to obtain reliability-status security clearance and complete the Controlled Goods Program assessment. On the ITAR requirement, I am a Canadian permanent resident and a Sri Lankan citizen, so I would want to confirm early in the process how that condition applies to this role, and I am glad to complete whatever security processes are required. My publications, datasets and portfolio are at \href{\clSite}{nishal.xyz}.
+
+\vspace{10pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

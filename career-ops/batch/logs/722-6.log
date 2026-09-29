@@ -1,0 +1,15 @@
+Job US-only (NYC/Seattle/SF) — profile hard-exclude non-Canada roles. Also role itself (Lead Data Scientist, Platform Product) mismatch vs ML/research archetypes — but location alone kills it. Per `_profile.md` policy: no eval, no score, no report/CV for non-Canada roles. Stop here, no report/PDF/tracker generated.
+
+```json
+{
+  "status": "failed",
+  "id": "6",
+  "report_num": "722",
+  "company": "Anthropic",
+  "role": "Lead Data Scientist, Platform Product",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard-excluded: role location is NYC/Seattle/SF (US-only, no remote-Canada option). Profile policy (modes/_profile.md) requires Canada-only roles — non-Canadian roles are a hard filter, not scored. No report/PDF/tracker generated per policy."
+}
+```

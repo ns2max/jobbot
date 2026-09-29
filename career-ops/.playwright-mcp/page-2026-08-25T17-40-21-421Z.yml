@@ -1,0 +1,297 @@
+- generic [active] [ref=f237e1]:
+  - img "Banner" [ref=f237e3]
+  - main [ref=f237e4]:
+    - generic [ref=f237e5]:
+      - img "Reddit Logo" [ref=f237e7]
+      - generic [ref=f237e8]:
+        - link "Back to jobs" [ref=f237e9] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/reddit
+        - generic [ref=f237e13]:
+          - generic [ref=f237e14]:
+            - heading "Machine Learning Manager, Feed Ecosystems" [level=1] [ref=f237e15]
+            - generic [ref=f237e16]: Remote - United States
+          - button "Apply" [ref=f237e20] [cursor=pointer]
+        - generic [ref=f237e21]:
+          - generic [ref=f237e28]:
+            - text: Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit
+            - link "www.redditinc.com" [ref=f237e29] [cursor=pointer]:
+              - /url: http://www.redditinc.com/
+            - text: .
+          - generic [ref=f237e30]:
+            - paragraph [ref=f237e31]: Reddit is looking for an experienced Engineering Manager to lead our Feed Ecosystems team. In this role, you’ll lead a high-impact team of Machine Learning Engineers focused on building recommendation systems that support sustainable growth across users, posts, and communities. Your team will improve relevance for new, low-signal, and logged-out users; help new posts and communities find the right audiences; and develop ML systems that balance personalization, discovery, and ecosystem quality across Reddit’s 100,000+ active communities.
+            - paragraph [ref=f237e32]: If applying ML / AI in production to improve Reddit Relevance and strengthen Reddit’s community ecosystem excites you, then you’ve found the right place.
+            - paragraph [ref=f237e33]:
+              - strong [ref=f237e34]: "Responsibilities:"
+            - list [ref=f237e35]:
+              - listitem [ref=f237e36]:
+                - strong [ref=f237e37]: "Define Technical Vision & Strategy:"
+                - text: Define the technical vision and long-term roadmap for Feed Ecosystems, aligning recommender-system investments with Reddit’s goals around user growth, contribution, community health, and high-quality discovery.
+              - listitem [ref=f237e38]:
+                - strong [ref=f237e39]: "Team Leadership & Development:"
+                - text: Coach and support the development of your team, constantly seeking opportunities to grow their skills and impact.
+              - listitem [ref=f237e40]:
+                - strong [ref=f237e41]: "Cross-Functional Partnership:"
+                - text: Work closely with product, design, data science, safety, community, ads, and platform partners to identify opportunities, set expectations, and communicate your team’s work.
+              - listitem [ref=f237e42]:
+                - strong [ref=f237e43]: "Technical Execution & Delivery:"
+                - text: Oversee the design, development, and optimization of ML systems that improve cold-start relevance, new post and community distribution, community discovery, and feed quality.
+              - listitem [ref=f237e44]:
+                - strong [ref=f237e45]: "Quality & Ecosystem Measurement:"
+                - text: Help define and operationalize signals for subjective and objective quality, ensuring Feed systems optimize not only for engagement, but also for user value, community health, contribution, and long-term ecosystem outcomes.
+              - listitem [ref=f237e46]:
+                - strong [ref=f237e47]: "Platform & Infrastructure Collaboration:"
+                - text: Collaborate with platform and infrastructure teams to build scalable AI-powered systems that support discovery, personalization, and healthy content distribution across Reddit.
+              - listitem [ref=f237e48]:
+                - strong [ref=f237e49]: "Operational Excellence:"
+                - text: Maintain high standards for system performance, reliability, efficiency, and responsible AI practices in alignment with user needs and ecosystem health.
+              - listitem [ref=f237e50]:
+                - strong [ref=f237e51]: "Recruiting & Growth:"
+                - text: Partner with our recruiting team to attract, interview, and hire diverse and talented machine learning engineers, growing a world-class team.
+            - paragraph [ref=f237e52]:
+              - strong [ref=f237e53]: "Qualifications:"
+            - list [ref=f237e54]:
+              - listitem [ref=f237e55]:
+                - strong [ref=f237e56]: "Experience Leading ML Teams:"
+                - text: 2+ years of experience building and managing high-performing ML or recommender-systems teams.
+              - listitem [ref=f237e57]:
+                - strong [ref=f237e58]: "Deep ML Expertise:"
+                - text: Hands-on experience with large-scale production ML systems, ideally including recommender systems, personalization, cold-start modeling, content understanding, or LLM-powered recommendation applications.
+              - listitem [ref=f237e59]:
+                - strong [ref=f237e60]: "Technical Domain Knowledge:"
+                - text: Strong understanding of recommender systems, including candidate retrieval, ranking, value modeling, ecosystem dynamics, and measurement strategies.
+              - listitem [ref=f237e61]:
+                - strong [ref=f237e62]: "Strategic Thinking:"
+                - text: Ability to develop and communicate a clear, compelling technical strategy across ambiguous problem spaces, balancing user relevance, community growth, content quality, safety, and business impact.
+              - listitem [ref=f237e63]:
+                - strong [ref=f237e64]: "Impact-Driven Mindset:"
+                - text: Passion for developing scalable, well-designed, and responsible AI systems that improve user value while supporting a healthy and sustainable content ecosystem.
+              - listitem [ref=f237e65]:
+                - strong [ref=f237e66]: "Exceptional Communication & Collaboration:"
+                - text: Strong interpersonal skills and a collaborative mindset, with the ability to effectively communicate complex technical topics to diverse audiences and build strong relationships with cross-functional partners.
+            - paragraph [ref=f237e67]:
+              - strong [ref=f237e68]: "Benefits:"
+            - list [ref=f237e69]:
+              - listitem [ref=f237e70]: Comprehensive Healthcare Benefits and Income Replacement Programs
+              - listitem [ref=f237e71]: 401k with Employer Match
+              - listitem [ref=f237e72]: Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support
+              - listitem [ref=f237e73]: Family Planning Support
+              - listitem [ref=f237e74]: Gender-Affirming Care
+              - listitem [ref=f237e75]: Mental Health & Coaching Benefits
+              - listitem [ref=f237e76]: Flexible Vacation & Paid Volunteer Time Off
+              - listitem [ref=f237e77]: Generous Paid Parental Leave
+            - paragraph [ref=f237e78]: "#LI-remote, #LI-JS5"
+          - generic [ref=f237e80]:
+            - generic [ref=f237e83]:
+              - paragraph [ref=f237e84]:
+                - strong [ref=f237e85]: "Pay Transparency:"
+              - paragraph [ref=f237e86]: This job posting may span more than one career level.
+              - paragraph [ref=f237e87]:
+                - text: In addition to base salary, this job is eligible to receive equity in the form of restricted stock units, and depending on the position offered, it may also be eligible to receive a commission. Additionally, Reddit offers a wide range of benefits to U.S.-based employees, including medical, dental, and vision insurance, 401(k) program with employer match, generous time off for vacation, and parental leave. To learn more, please visit
+                - link "https://www.redditinc.com/careers/" [ref=f237e88] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/careers/
+                - text: .
+              - paragraph [ref=f237e89]: To provide greater transparency to candidates, we share base salary ranges for all US-based job postings regardless of state. We set standard base pay ranges for all roles based on function, level, and country location, benchmarked against similar stage growth companies. Final offer amounts are determined by multiple factors including, skills, depth of work experience and relevant licenses/credentials, and may vary from the amounts listed below.
+            - paragraph [ref=f237e90]: "The base salary range for this position is:"
+            - paragraph [ref=f237e91]: $253,300 - $354,600 USD
+          - generic [ref=f237e92]:
+            - paragraph [ref=f237e93]: In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews.
+            - paragraph [ref=f237e94]:
+              - generic [ref=f237e95]:
+                - text: "During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our"
+                - link "Candidate Privacy Policy for Potential Employees and Contractors" [ref=f237e96] [cursor=pointer]:
+                  - /url: https://redditinc.com/policies/candidate-privacy-policy
+                - text: .
+            - paragraph [ref=f237e97]:
+              - emphasis [ref=f237e98]: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.
+      - separator [ref=f237e99]
+      - generic [ref=f237e100]:
+        - generic [ref=f237e102]:
+          - heading "Apply for this job" [level=2] [ref=f237e104]
+          - generic [ref=f237e105]:
+            - paragraph [ref=f237e107]: "*"
+            - paragraph [ref=f237e108]: indicates a required field
+        - generic [ref=f237e109]:
+          - generic [ref=f237e110]:
+            - generic [ref=f237e113]:
+              - generic [ref=f237e114]: First Name*
+              - textbox "First Name" [ref=f237e115]
+            - generic [ref=f237e118]:
+              - generic [ref=f237e119]: Last Name*
+              - textbox "Last Name" [ref=f237e120]
+            - generic [ref=f237e123]:
+              - generic [ref=f237e124]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f237e125]
+            - generic [ref=f237e128]:
+              - generic [ref=f237e129]: Email*
+              - textbox "Email" [ref=f237e130]
+            - group "Phone" [ref=f237e132]:
+              - generic [ref=f237e136]:
+                - generic [ref=f237e137]: Country*
+                - generic [ref=f237e138]:
+                  - log [ref=f237e140]
+                  - generic [ref=f237e142]:
+                    - combobox "Country" [ref=f237e145]
+                    - button "Toggle flyout" [ref=f237e147] [cursor=pointer]
+                  - textbox
+              - generic [ref=f237e152]:
+                - generic [ref=f237e153]: Phone*
+                - textbox "Phone" [ref=f237e154]
+            - generic [ref=f237e155]:
+              - generic [ref=f237e157]:
+                - generic [ref=f237e158]: Location (City)*
+                - generic [ref=f237e159]:
+                  - log [ref=f237e161]
+                  - combobox "Location (City)" [ref=f237e166]
+                  - textbox
+              - button "Locate me" [ref=f237e167] [cursor=pointer]
+            - group "Resume/CV*" [ref=f237e169]:
+              - generic [ref=f237e172]:
+                - generic [ref=f237e174]:
+                  - button "Attach" [ref=f237e175] [cursor=pointer]
+                  - generic [ref=f237e176]: Attach
+                  - button "Attach" [ref=f237e177]
+                - button "Dropbox" [ref=f237e179] [cursor=pointer]
+                - button "Google Drive" [ref=f237e181] [cursor=pointer]
+                - generic [ref=f237e183]:
+                  - button "Enter manually" [ref=f237e184] [cursor=pointer]
+                  - generic [ref=f237e185]: Enter manually
+                - paragraph [ref=f237e186]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f237e188]:
+              - generic [ref=f237e191]:
+                - generic [ref=f237e193]:
+                  - button "Attach" [ref=f237e194] [cursor=pointer]
+                  - generic [ref=f237e195]: Attach
+                  - button "Attach" [ref=f237e196]
+                - button "Dropbox" [ref=f237e198] [cursor=pointer]
+                - button "Google Drive" [ref=f237e200] [cursor=pointer]
+                - generic [ref=f237e202]:
+                  - button "Enter manually" [ref=f237e203] [cursor=pointer]
+                  - generic [ref=f237e204]: Enter manually
+                - paragraph [ref=f237e205]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f237e206]:
+            - separator [ref=f237e207]
+            - generic [ref=f237e210]:
+              - generic [ref=f237e211]: LinkedIn Profile
+              - textbox "LinkedIn Profile" [ref=f237e212]
+            - generic [ref=f237e215]:
+              - generic [ref=f237e216]: How did you hear about this job?*
+              - textbox "How did you hear about this job?" [ref=f237e217]
+            - generic [ref=f237e218]:
+              - generic [ref=f237e220]:
+                - generic [ref=f237e221]: Please provide the name of your current (or most recent) company*
+                - textbox "Please provide the name of your current (or most recent) company" [ref=f237e222]
+              - paragraph [ref=f237e225]: "Note: if you're currently employed at Reddit, please submit your application via our Internal Job Board"
+            - generic [ref=f237e228]:
+              - generic [ref=f237e229]: Are you currently authorized to work in the U.S.?*
+              - generic [ref=f237e230]:
+                - log [ref=f237e232]
+                - generic [ref=f237e234]:
+                  - generic [ref=f237e235]:
+                    - generic [ref=f237e236]: Select...
+                    - combobox "Are you currently authorized to work in the U.S.?" [ref=f237e238]
+                  - button "Toggle flyout" [ref=f237e240] [cursor=pointer]
+                - textbox
+            - generic [ref=f237e245]:
+              - generic [ref=f237e246]: Do you now, or will you in the future, require immigration sponsorship to work at Reddit?*
+              - generic [ref=f237e247]:
+                - log [ref=f237e249]
+                - generic [ref=f237e251]:
+                  - generic [ref=f237e252]:
+                    - generic [ref=f237e253]: Select...
+                    - combobox "Do you now, or will you in the future, require immigration sponsorship to work at Reddit?" [ref=f237e255]
+                  - button "Toggle flyout" [ref=f237e257] [cursor=pointer]
+                - textbox
+            - generic [ref=f237e260]:
+              - generic [ref=f237e262]:
+                - generic [ref=f237e263]: By selecting "I agree," I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy. *
+                - generic [ref=f237e264]:
+                  - log [ref=f237e266]
+                  - generic [ref=f237e268]:
+                    - generic [ref=f237e269]:
+                      - generic [ref=f237e270]: Select...
+                      - combobox "By selecting \"I agree,\" I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy." [ref=f237e272]
+                    - button "Toggle flyout" [ref=f237e274] [cursor=pointer]
+                  - textbox
+              - paragraph [ref=f237e279]:
+                - link "Reddit's Candidate Privacy Policy" [ref=f237e280] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/candidate-privacy-policy
+          - separator [ref=f237e281]
+          - generic [ref=f237e282]:
+            - heading "Reddit U.S. Equal Employment Information" [level=3] [ref=f237e283]
+            - generic [ref=f237e285]:
+              - paragraph [ref=f237e286]: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. To bring community and belonging to everyone in the world, Reddit’s employees must represent communities and redditors on our platform.
+              - paragraph [ref=f237e287]: Our vision at Reddit is to have a workforce representative of people with different perspectives and experiences, including but not limited to, gender, race and ethnicity, sexual orientation, age, national origin, religion, and political views.
+              - paragraph [ref=f237e288]: We invite you to self-identify across the identities below so we can better understand our talent pools and assess our effectiveness in attracting and recruiting people to Reddit from all backgrounds.
+              - paragraph [ref=f237e289]:
+                - text: Answering these questions will not impact your application, nor will this information be shared with anyone making a hiring decision. For more information, please refer to our statement
+                - link "here" [ref=f237e290] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/assets/documents/eeoc-statement.pdf
+                - text: .
+            - generic [ref=f237e292]:
+              - generic [ref=f237e293]: What gender identity do you most closely identify with? *
+              - generic [ref=f237e294]:
+                - log [ref=f237e296]
+                - generic [ref=f237e298]:
+                  - generic [ref=f237e299]:
+                    - generic [ref=f237e300]: Select...
+                    - combobox "What gender identity do you most closely identify with?" [ref=f237e302]
+                  - button "Toggle flyout" [ref=f237e304] [cursor=pointer]
+                - textbox
+            - generic [ref=f237e308]:
+              - generic [ref=f237e309]: Are you a person of transgender experience? *
+              - generic [ref=f237e310]:
+                - log [ref=f237e312]
+                - generic [ref=f237e314]:
+                  - generic [ref=f237e315]:
+                    - generic [ref=f237e316]: Select...
+                    - combobox "Are you a person of transgender experience?" [ref=f237e318]
+                  - button "Toggle flyout" [ref=f237e320] [cursor=pointer]
+                - textbox
+            - generic [ref=f237e324]:
+              - generic [ref=f237e325]: What sexual orientation do you most closely identify with? *
+              - generic [ref=f237e326]:
+                - log [ref=f237e328]
+                - generic [ref=f237e330]:
+                  - generic [ref=f237e331]:
+                    - generic [ref=f237e332]: Select...
+                    - combobox "What sexual orientation do you most closely identify with?" [ref=f237e334]
+                  - button "Toggle flyout" [ref=f237e336] [cursor=pointer]
+                - textbox
+            - generic [ref=f237e340]:
+              - generic [ref=f237e341]: Do you live with a disability (as outlined by the ADA)?*
+              - generic [ref=f237e342]:
+                - log [ref=f237e344]
+                - generic [ref=f237e346]:
+                  - generic [ref=f237e347]:
+                    - generic [ref=f237e348]: Select...
+                    - combobox "Do you live with a disability (as outlined by the ADA)?" [ref=f237e350]
+                  - button "Toggle flyout" [ref=f237e352] [cursor=pointer]
+                - textbox
+            - generic [ref=f237e356]:
+              - generic [ref=f237e357]: Are you a veteran/have you served in the military? *
+              - generic [ref=f237e358]:
+                - log [ref=f237e360]
+                - generic [ref=f237e362]:
+                  - generic [ref=f237e363]:
+                    - generic [ref=f237e364]: Select...
+                    - combobox "Are you a veteran/have you served in the military?" [ref=f237e366]
+                  - button "Toggle flyout" [ref=f237e368] [cursor=pointer]
+                - textbox
+            - generic [ref=f237e372]:
+              - generic [ref=f237e373]: Please select up to 2 ethnicities that you most closely identify with.*
+              - generic [ref=f237e374]:
+                - log [ref=f237e376]
+                - generic [ref=f237e378]:
+                  - generic [ref=f237e379]:
+                    - generic [ref=f237e380]: Select...
+                    - combobox "Please select up to 2 ethnicities that you most closely identify with." [ref=f237e382]
+                  - button "Toggle flyout" [ref=f237e384] [cursor=pointer]
+                - textbox
+          - separator [ref=f237e387]
+          - button "Submit application" [ref=f237e389] [cursor=pointer]
+  - contentinfo [ref=f237e390]:
+    - generic [ref=f237e391]:
+      - paragraph [ref=f237e392]: Powered by
+      - link [ref=f237e393] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f237e394]

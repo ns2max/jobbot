@@ -1,0 +1,326 @@
+- generic [active] [ref=f841e1]:
+  - link "Skip to content" [ref=f841e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=f841e3]:
+    - banner [ref=f841e4]:
+      - generic [ref=f841e7]:
+        - figure [ref=f841e8]:
+          - link [ref=f841e9] [cursor=pointer]:
+            - /url: https://employmenthero.com/en-ca/
+            - img "Employment Hero Canada" [ref=f841e10]
+        - generic [ref=f841e12]:
+          - generic [ref=f841e13] [cursor=pointer]
+          - generic [ref=f841e17]:
+            - generic [ref=f841e18] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - link "Employee Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Business HR Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Business Payroll Login":
+                      - /url: https://employmenthero.yourpayroll.com.au/
+                - generic:
+                  - generic:
+                    - link "Business Recruitment Login":
+                      - /url: https://secure.employmenthero.com/users/sign_in
+                - generic:
+                  - generic:
+                    - link "Jobseeker Login (Jobs Board)":
+                      - /url: https://jobs.employmenthero.com/AU/sign_in?callbackUrl=https%3A%2F%2Fjobs.employmenthero.com%2FAU%2F
+                - generic:
+                  - generic:
+                    - link "Humi by Employment Hero Login":
+                      - /url: https://hr.humi.ca/login
+          - img "Group" [ref=f841e25] [cursor=pointer]
+    - generic [ref=f841e34]:
+      - generic [ref=f841e35]:
+        - button "Share" [ref=f841e36] [cursor=pointer]
+        - button "Report this job" [ref=f841e41] [cursor=pointer]
+        - button "Refer a friend" [ref=f841e42] [cursor=pointer]
+      - navigation "breadcrumb" [ref=f841e44]:
+        - list [ref=f841e45]:
+          - listitem [ref=f841e46]:
+            - link "Jobs" [ref=f841e47] [cursor=pointer]:
+              - /url: https://employmenthero.com/en-ca/jobs/
+          - listitem [ref=f841e49]:
+            - link "Science & Research" [ref=f841e50] [cursor=pointer]:
+              - /url: https://employmenthero.com/en-ca/jobs/science-research/
+          - listitem [ref=f841e52]:
+            - 'link "Machine Learning Resident – Client: ZeroKey (12 month term)"':
+              - /url: https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-resident-client-zerokey-12-month-term-j1f03/
+    - generic [ref=f841e55]:
+      - 'heading "Machine Learning Resident – Client: ZeroKey (12 month term)" [level=1] [ref=f841e56]'
+      - generic [ref=f841e58]:
+        - text: at
+        - link "Alberta Machine Intelligence Institute" [ref=f841e59] [cursor=pointer]:
+          - /url: https://employmenthero.com/en-ca/jobs/organisations/alberta-machine-intelligence-institute/
+      - generic [ref=f841e60]:
+        - link "Edmonton, Alberta" [ref=f841e61] [cursor=pointer]:
+          - /url: https://employmenthero.com/en-ca/jobs/edmonton/
+        - text: ", Canada • Full-time"
+    - main [ref=f841e62]:
+      - generic [ref=f841e63]:
+        - generic [ref=f841e64]:
+          - heading "Role Type" [level=3] [ref=f841e65]
+          - generic [ref=f841e66]: Contract • Full-time • Entry Level
+        - generic [ref=f841e67]:
+          - heading "Description" [level=3] [ref=f841e68]
+          - generic [ref=f841e69]:
+            - paragraph [ref=f841e70]:
+              - emphasis [ref=f841e71]: “If you are excited about applying machine learning to tackle real-world challenges in spatial movement analysis , this is a perfect opportunity for you. Be a part of the team of research and machine learning scientists building deployable real-world ML applications from ground up and get mentored by some of the best minds in AI during the process.”
+            - paragraph [ref=f841e72]: – Xu, Machine Learning Scientist and Amor Provins, Product Owner, Advanced Technology
+            - heading [level=2] [ref=f841e73]:
+              - strong [ref=f841e74]: About the Role
+            - paragraph [ref=f841e75]: "This is a paid Residency that will be undertaken over a twelve-month period with the potential to be hired by our client, ZeroKey, afterwards (note: at the discretion of the client). The Resident will report to an Amii Scientist and regularly consult with the client team to share insights and engage in knowledge transfer activities."
+            - paragraph [ref=f841e76]: Successful candidates will be members of a cross-functional project team with backgrounds in ML research, project management, software engineering, and new product development. This is a rare opportunity to be mentored by world-class scientists and to develop something truly impactful.
+            - heading [level=2] [ref=f841e77]:
+              - strong [ref=f841e78]: About the Client
+            - paragraph [ref=f841e79]: ZeroKey is building the spatial data layer for Physical AI.
+            - paragraph [ref=f841e80]: AI transformed the digital economy because every keystroke was captured as data. The physical economy has no equivalent. On a factory floor, every human action, material movement, tool motion, and assembly step is invisible to software, and therefore to AI. ZeroKey closes that gap.
+            - paragraph
+            - paragraph [ref=f841e81]: ZeroKey’s patented Quantum RTLS® (35+ patents) is the industry’s most accurate large-scale 3D real-time location system. It tracks people, tools, robots, and materials across entire factories to an accuracy of 1.5 millimetres, over 100 times more precise than anything else on the market, using ultrasound instead of cameras. That precision is the foundation of something bigger. The spatial data feeds OmniVisor AI™, an agentic platform that puts a dedicated AI process engineer in every work cell. The OmniVisor AI™ platform combines agentic intelligence with physical motion dynamics to continuously analyze workflows and process efficiencies in real time. Driven by a commitment to eliminate waste, improve worker safety, and unlock operational efficiency, ZeroKey is building the foundation for the self-diagnosing, autonomous factories of the future.
+            - heading [level=2] [ref=f841e82]:
+              - strong [ref=f841e83]: About the Project
+            - paragraph [ref=f841e84]: A central objective of this project is to use machine learning to prevent anomalies, inefficiencies, ergonomic risks, or non-compliant operations. Analysis will be performed both continuously and proactively by the OmniVisor AI platform, and upon request by end users with specific queries.
+            - paragraph [ref=f841e85]: This project will deliver machine learning models that can be deployed in production environments, optimized for real-time performance to efficiently run on edge-devices. The models will be capable of operating live on the millimeter-accurate positioning data and other observables in programmed workflows, analyzing the spatial-temporal patterns.
+            - heading [level=2] [ref=f841e86]:
+              - strong [ref=f841e87]: Required Skills / Expertise
+            - paragraph [ref=f841e88]: Are you passionate about building great solutions? You’ll be presented with opportunities to both personally and professionally develop as you build your career. We’re looking for a talented and enthusiastic individual with a solid background in machine learning, AI agents, along with proven experience in applied settings.
+            - heading [level=2] [ref=f841e89]:
+              - strong [ref=f841e90]: "Key Responsibilities:"
+            - list [ref=f841e91]:
+              - listitem [ref=f841e92]: Build predictive models that can detect risky behaviors in the system.
+              - listitem [ref=f841e93]: Prepare, clean, and curate datasets for model training, fine-tuning, benchmarking, and evaluation.
+              - listitem [ref=f841e94]: Conduct applied research in advanced models for spatial-temporal multimodal analysis on complex patterns.
+              - listitem [ref=f841e95]: Explore potential agentic AI solutions for advanced business problems.
+              - listitem [ref=f841e96]: Collaborate with the project team and stakeholders to develop MVP and client focused solutions.
+              - listitem [ref=f841e97]: Engage in regular client meetings, contributing to presentations and reports on project progress.
+            - heading [level=2] [ref=f841e98]:
+              - strong [ref=f841e99]: "Required Qualifications:"
+            - list [ref=f841e100]:
+              - listitem [ref=f841e101]: Completion of a Computer Science (or a related graduate degree program) MSc. or PhD with specialization in Artificial Intelligence, Machine Learning, Computer Vision, Spatial Intelligence, Physical AI, Data Science, or related fields.
+              - listitem [ref=f841e102]: "Research or project experience in one or more of the following: computer vision, time series analysis, video analysis, virtual reality, motion sensing, pose estimation."
+              - listitem [ref=f841e103]: Proficiency in Python and modern AI frameworks such as PyTorch, Hugging Face Transformers, Sklearn, and other common machine learning and statistics libraries.
+              - listitem [ref=f841e104]: Capable of building custom machine learning algorithms from scratch (e.g. developing a transformer model).
+              - listitem [ref=f841e105]: Familiarity with Kalman Filtering, signal processing, and 3D spatial computing.
+              - listitem [ref=f841e106]: Familiarity with linux, Git version control, and writing clean code.
+              - listitem [ref=f841e107]: A positive attitude towards learning and understanding a new applied domain.
+              - listitem [ref=f841e108]: Must be legally eligible to work in Canada.
+            - heading [level=2] [ref=f841e109]:
+              - strong [ref=f841e110]: "Preferred Qualifications:"
+            - list [ref=f841e111]:
+              - listitem [ref=f841e112]: Experience with multimodal foundation models (VLMs/LLMs) and AI agents.
+              - listitem [ref=f841e113]: Expertise in 3D spatial AI, 3D reconstruction, and any form of 3D physical simulations.
+              - listitem [ref=f841e114]: Experience with real world noisy data is a big plus.
+              - listitem [ref=f841e115]: Experience with building, training, evaluating, and quantizing machine learning models to achieve optimized performance in production environments, with a focus on low-latency, resource-efficient edge-device deployment.
+              - listitem [ref=f841e116]: Experience with CI/CD, deploying machine learning models in production environments or strong software engineering (or MLE) skills is a plus.
+              - listitem [ref=f841e117]: Publication record in peer-reviewed academic conferences or relevant journals in ML or Applied AI (especially in computer vision and 3D spatial intelligence).
+            - heading [level=2] [ref=f841e118]:
+              - strong [ref=f841e119]: "Non-Technical Requirements:"
+            - list [ref=f841e120]:
+              - listitem [ref=f841e121]: Desire to take ownership of a problem and demonstrated leadership skills
+              - listitem [ref=f841e122]: Interdisciplinary team player enthusiastic about working together to achieve excellence
+              - listitem [ref=f841e123]: Capable of critical and independent thought
+              - listitem [ref=f841e124]: Able to communicate technical concepts clearly and advise on the application of machine intelligence
+              - listitem [ref=f841e125]: Intellectual curiosity and the desire to learn new things, techniques, and technologies
+            - heading [level=2] [ref=f841e126]:
+              - strong [ref=f841e127]: Why You Should Apply
+            - paragraph [ref=f841e128]: "Besides gaining industry experience, additional perks include:"
+            - list [ref=f841e129]:
+              - listitem [ref=f841e130]: Work under the mentorship of an Amii Scientist for the duration of the project
+              - listitem [ref=f841e131]: Participate in professional development activities
+              - listitem [ref=f841e132]: Gain access to the Amii community and events
+              - listitem [ref=f841e133]: Get paid for your work (a fair and equitable rate of pay will be negotiated at the time of offer)
+              - listitem [ref=f841e134]: Build your professional network
+              - listitem [ref=f841e135]: The opportunity for an ongoing machine learning role at the client’s organization at the end of the term (at the client’s discretion)
+            - heading [level=2] [ref=f841e136]:
+              - strong [ref=f841e137]: About Amii
+            - paragraph [ref=f841e138]: One of Canada’s three main institutes for artificial intelligence (AI) and machine learning, our world-renowned researchers drive fundamental and applied research at the University of Alberta (and other academic institutions), training some of the world’s top scientific talent. Our cross-functional teams work collaboratively with Alberta-based businesses and organizations to build AI capacity and translate scientific advancement into industry adoption and economic impact.
+            - heading [level=2] [ref=f841e139]:
+              - strong [ref=f841e140]: How to Apply
+            - paragraph [ref=f841e141]:
+              - text: If this sounds like the opportunity you’ve been waiting for, please don’t wait for the closing August 25, 2026 to apply – we’re excited to add a new member to the Amii team for this role, and the posting may come down sooner than the closing date if we find the right candidate before the posting closes! When sending your application, please send your
+              - strong [ref=f841e142]: resume and cover letter
+              - text: indicating why you think you’d be a fit for Amii. In your cover letter, please include one professional accomplishment you are most proud of and why.
+            - paragraph
+            - paragraph [ref=f841e143]:
+              - strong [ref=f841e144]: Applicants must be legally eligible to work in Canada at the time of application.
+            - paragraph:
+              - strong
+            - paragraph [ref=f841e145]: Amii is an equal opportunity employer and values a diverse workforce. We encourage applications from all qualified individuals without regard to ethnicity, religion, gender identity, sexual orientation, age or disability. Accommodations for disability-related needs throughout the recruitment and selection process are available upon request. Any information provided by you for accommodations will be kept confidential and won’t be used in the selection process.
+            - paragraph [ref=f841e146]
+    - button "Apply now" [ref=f841e148] [cursor=pointer]
+    - contentinfo [ref=f841e151]:
+      - contentinfo [ref=f841e152]:
+        - generic [ref=f841e153]:
+          - generic [ref=f841e154]:
+            - paragraph [ref=f841e155]:
+              - strong [ref=f841e156]: Company
+            - paragraph [ref=f841e157]:
+              - link "About us" [ref=f841e158] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/about-us/
+            - paragraph [ref=f841e159]:
+              - link "About humi" [ref=f841e160] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/about-humi/
+            - paragraph [ref=f841e161]:
+              - link "Careers" [ref=f841e162] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/careers/
+            - paragraph [ref=f841e163]:
+              - link "Become a partner" [ref=f841e164] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/partner-network/
+            - paragraph [ref=f841e165]:
+              - link "Newsroom" [ref=f841e166] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/news/
+          - generic [ref=f841e167]:
+            - paragraph [ref=f841e168]:
+              - strong [ref=f841e169]: Get in Touch
+            - paragraph [ref=f841e170]:
+              - link "Contact Us" [ref=f841e171] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/contact/
+            - paragraph [ref=f841e172]:
+              - link "Sales" [ref=f841e173] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/request-a-demo/
+            - paragraph [ref=f841e174]:
+              - link "Report a bug" [ref=f841e175] [cursor=pointer]:
+                - /url: mailto:casupport@employmenthero.com
+            - paragraph [ref=f841e176]:
+              - link "HR login" [ref=f841e177] [cursor=pointer]:
+                - /url: https://secure.employmenthero.com/users/sign_in
+          - generic [ref=f841e178]:
+            - paragraph [ref=f841e179]:
+              - strong [ref=f841e180]: Support
+            - paragraph [ref=f841e181]:
+              - link "Help Centre" [ref=f841e182] [cursor=pointer]:
+                - /url: https://help.employmenthero.info/hc/en-ca/
+            - paragraph [ref=f841e183]:
+              - link "Humi by EH Help Centre" [ref=f841e184] [cursor=pointer]:
+                - /url: https://support.humi.ca/hc/en-us
+          - generic [ref=f841e185]:
+            - paragraph [ref=f841e186]:
+              - strong [ref=f841e187]: Pick your region
+            - paragraph [ref=f841e188]:
+              - link "Australia" [ref=f841e189] [cursor=pointer]:
+                - /url: https://employmenthero.com/
+            - paragraph [ref=f841e190]:
+              - link "New Zealand" [ref=f841e191] [cursor=pointer]:
+                - /url: https://employmenthero.com/nz/
+            - paragraph [ref=f841e192]:
+              - link "United Kingdom" [ref=f841e193] [cursor=pointer]:
+                - /url: https://employmenthero.com/uk/
+            - paragraph [ref=f841e194]:
+              - link "Singapore" [ref=f841e195] [cursor=pointer]:
+                - /url: https://employmenthero.com/sg/
+            - paragraph [ref=f841e196]:
+              - link "Malaysia" [ref=f841e197] [cursor=pointer]:
+                - /url: https://employmenthero.com/my/
+            - paragraph [ref=f841e198]:
+              - link "Canada" [ref=f841e199] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/
+          - generic [ref=f841e200]:
+            - paragraph [ref=f841e201]:
+              - strong [ref=f841e202]: Product
+            - paragraph [ref=f841e203]:
+              - link "Products" [ref=f841e204] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/products/
+            - paragraph [ref=f841e205]:
+              - link "Integrations" [ref=f841e206] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/integrations/
+            - paragraph [ref=f841e207]:
+              - link "Quick Demos" [ref=f841e208] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/quick-demos/
+            - paragraph [ref=f841e209]:
+              - link "Employment Hero work app" [ref=f841e210] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/products/work-app/
+          - generic [ref=f841e211]:
+            - paragraph [ref=f841e212]:
+              - strong [ref=f841e213]: Connect
+            - list [ref=f841e214]:
+              - listitem [ref=f841e215]:
+                - link "LinkedIn" [ref=f841e216] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/employment-hero/%20
+              - listitem [ref=f841e219]:
+                - link "X" [ref=f841e220] [cursor=pointer]:
+                  - /url: https://x.com/EmploymentHero
+              - listitem [ref=f841e223]:
+                - link "YouTube" [ref=f841e224] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@Employmenthero
+              - listitem [ref=f841e227]:
+                - link "Facebook" [ref=f841e228] [cursor=pointer]:
+                  - /url: https://www.facebook.com/EmploymentHero
+              - listitem [ref=f841e231]:
+                - link "Instagram" [ref=f841e232] [cursor=pointer]:
+                  - /url: https://www.instagram.com/employmenthero/
+              - listitem [ref=f841e235]:
+                - link "TikTok" [ref=f841e236] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@employmenthero
+        - separator [ref=f841e239]
+        - generic [ref=f841e240]:
+          - generic [ref=f841e241]:
+            - paragraph [ref=f841e242]:
+              - strong [ref=f841e243]: Land acknowledgement
+            - paragraph [ref=f841e244]: We acknowledge the traditional and unceded territory of First Nations, Inuit and Métis peoples on which we live, learn and work.
+            - paragraph [ref=f841e245]:
+              - strong [ref=f841e246]: What we do
+            - paragraph [ref=f841e247]: Employment Hero is an end-to-end HR, payroll and recruitment solution designed for Canadian businesses. Our suite of powerful employment tools help streamline your workday, so you can focus on what matters.
+          - generic [ref=f841e248]:
+            - paragraph [ref=f841e249]:
+              - strong [ref=f841e250]: News, resources and insights – delivered to your inbox. Subscribe.
+            - generic [ref=f841e253]:
+              - generic [ref=f841e256]:
+                - generic: "*"
+                - textbox "*" [ref=f841e257]:
+                  - /placeholder: Work email
+              - generic [ref=f841e261]:
+                - text: By clicking ‘Subscribe’, you consent to receiving marketing from the
+                - link "Employment Hero Group" [ref=f841e262] [cursor=pointer]:
+                  - /url: https://employmenthero.com/legals/privacy-policy/data-processing/affiliates/
+                - text: by email, text, and social media channels about its services and activities. You may withdraw your consent at any time. See the
+                - link "Privacy Policy" [ref=f841e263] [cursor=pointer]:
+                  - /url: https://employmenthero.com/legals/privacy-policy/
+                - text: for information on how your data is processed.
+              - button "Subscribe" [ref=f841e266] [cursor=pointer]
+        - separator [ref=f841e267]
+        - generic [ref=f841e268]:
+          - paragraph [ref=f841e269]: Copyright © 2026 Employment Hero
+          - list [ref=f841e270]:
+            - listitem [ref=f841e271]:
+              - link "Trust & Legal Centre" [ref=f841e272] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/
+            - listitem [ref=f841e273]:
+              - link "Terms & Conditions" [ref=f841e274] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/terms-conditions/
+            - listitem [ref=f841e275]:
+              - link "Privacy Policy" [ref=f841e276] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/privacy-policy/
+            - listitem [ref=f841e277]:
+              - link "Data Processing Addendum" [ref=f841e278] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/privacy-policy/data-processing/
+            - listitem [ref=f841e279]:
+              - link "Cookie Policy" [ref=f841e280] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/cookie-policy/
+            - listitem [ref=f841e281]:
+              - link "Accessibility" [ref=f841e282] [cursor=pointer]:
+                - /url: https://employmenthero.com/en-ca/legals/#compliance
+  - region "Cookie banner" [ref=f841e284]:
+    - dialog "Cookie notice" [ref=f841e285]:
+      - generic [ref=f841e286]:
+        - generic [ref=f841e288]:
+          - heading "Cookie notice" [level=2] [ref=f841e289]
+          - generic [ref=f841e290]:
+            - text: We use cookies or similar technologies on our sites to perform analytics, provide you with tailored content, and make your experience better. By clicking 'Allow', you agree to our use of cookies on the journey you take with us. Learn more by reading
+            - link "Cookie policy, opens in a new tab" [ref=f841e291] [cursor=pointer]:
+              - /url: https://employmenthero.com/legals/cookie-policy/
+              - text: our cookie policy
+        - generic [ref=f841e293]:
+          - button "Your choices, Opens the preference center dialog" [ref=f841e294] [cursor=pointer]: Your choices
+          - generic [ref=f841e295]:
+            - button "Reject All" [ref=f841e296] [cursor=pointer]
+            - button "Allow" [ref=f841e297] [cursor=pointer]
+        - button "Continue without Accepting" [ref=f841e299] [cursor=pointer]

@@ -1,0 +1,40 @@
+% Job posting: https://ca.linkedin.com/jobs/view/architect-machine-learning-principal-scientist-at-kinaxis-4391129477
+\documentclass[11pt]{article}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.1}
+\pagenumbering{gobble}
+\begin{document}
+\pagestyle{empty}
+
+\begin{flushleft}
+Nishal Stanislaus Silva, PhD\\
+Toronto, ON\\
+nishal.silva@hotmail.com \,|\, +1 613 200 2030\\
+\href{https://nishal.xyz}{nishal.xyz} \,|\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}
+\end{flushleft}
+
+\vspace{1em}
+Dear Hiring Manager,
+
+\vspace{0.5em}
+The core of my work as a postdoctoral researcher at the University of Trento has been evaluation methodology, not just model-building: I designed frozen-protocol benchmark suites and ablation studies (RNN vs.\ DTW, audio vs.\ MIDI, pattern-set sizes of 1, 3, and 10) that quantified accuracy, latency, and CPU trade-offs for a real-time pattern-detection system, and kept a written record of negative results alongside the positive ones. That rigor produced a detector running at 14 ms on a Raspberry Pi 4 with F1 0.76, 74x faster than the 1038 ms baseline it replaced, published in the Journal of the Audio Engineering Society. I extended the same reasoning to MIRaaS, a UDP edge-to-server offload architecture (accepted at IEEE IS2 2026), where the paper itself is a latency-characterization study of the architectural trade-off between local and remote inference. This is the discipline I would bring to an ML-architecture role: treat every design decision as a hypothesis with a measurable, falsifiable answer.
+
+I have also owned production ML systems end to end, not only research prototypes. At Trento I was responsible for the full pipeline behind MUSMET's real-time detector, from data acquisition and DSP feature engineering through training, evaluation, edge deployment, and monitoring. Earlier, as a Research Engineer at MAS Holdings for five and a half years, I built real-time IoT ETL and operational time-series pipelines across manufacturing sites in South Asia, North America, and Africa -- multi-site operational data at a scale and cadence closer to what supply-chain planning systems deal with than my more recent audio work. At Forestpin, I built SQL and Python anomaly-scoring services for financial forensics and compliance, which is the same shape of problem as flagging exceptions in a planning system: decision-support built on structured, high-volume operational data.
+
+I want to be direct about two gaps. First, I have no supply-chain or operations-research-specific experience -- my domain background is audio, sensor fusion, and industrial CV/IoT, and I would be learning Kinaxis's planning domain rather than arriving fluent in it. Second, "Principal Scientist" implies a scope and seniority I have not yet held by tenure: I am early in my career after finishing my PhD in January 2025, not at an architect-level track record of leading ML systems at that scale. What I can offer is the research rigor and systems-architecture thinking above, and a genuine interest in growing into that scope on a team that can supply the supply-chain context I am missing.
+
+I am a Canadian permanent resident and do not require sponsorship, based in Toronto and open to relocating to Ottawa, and available to start immediately. I would welcome the chance to discuss how my evaluation-methodology and systems-architecture background could contribute to your team.
+
+\vspace{1em}
+Sincerely,\\
+Nishal Stanislaus Silva
+
+\end{document}

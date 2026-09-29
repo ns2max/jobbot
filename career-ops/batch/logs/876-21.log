@@ -1,0 +1,3 @@
+Cohere MTS Multilingual role done. Score 3.0/5, Proceed w/ Caution — JD sparse (WebFetch only got title, reconstructed via aggregators), one mirror flagged possibly closed. Big gap: no direct multilingual NLP proof point, but ETL/pipeline experience (MAS Holdings, Forestpin, MUSMET) transfers.
+
+Output per memory prefs: markdown CV + cover letter only (no PDF), job URL at top, `output/108-cohere-mts-multilingual{,-coverletter}.md`. Report saved `reports/876-cohere-2026-08-24.md`, tracker TSV at `batch/tracker-additions/21.tsv` (not merged yet — leaving for orchestrator to run `merge-tracker.mjs` once all batch workers finish).

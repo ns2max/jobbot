@@ -1,0 +1,15 @@
+JD file missing AND job ID 6042236 returns 404 on Greenhouse (posting removed/invalid). Both sources fail per pipeline rule — stopping here, no report/PDF/tracker generated.
+
+```json
+{
+  "status": "failed",
+  "id": "62",
+  "report_num": "1028",
+  "company": "unknown",
+  "role": "unknown",
+  "score": null,
+  "pdf": null,
+  "report": null,
+  "error": "JD file /tmp/batch-jd-62.txt missing/empty; fallback URL https://job-boards.greenhouse.io/reddit/jobs/6042236 returns 404 on Greenhouse API (posting removed or invalid job ID). No JD content available to evaluate."
+}
+```

@@ -1,0 +1,20 @@
+TSV line good, 9 tabs-separated cols confirmed. Done — report, PDF (skipped per user policy), tracker TSV all set.
+
+Final output JSON:
+
+```json
+{
+  "status": "completed",
+  "id": "22",
+  "report_num": "878",
+  "company": "Cohere",
+  "role": "Senior Member of Technical Staff, Web Data",
+  "score": 2.9,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/878-cohere-2026-08-24.md",
+  "error": null
+}
+```
+
+Score 2.9/5 — below 4.0 threshold, recommend against applying. Domain mismatch (LLM pretraining data/web-corpus/Spark-Beam) vs candidate's audio/CV/embedded ML background; no Spark/Beam, no web-corpus dedup experience. ETL/benchmark methodology transfers but this is a reach compared to prior Cohere audio roles (e.g. #329 scored 4.6). PDF skipped — repo has no `cv-template.html`/`generate-pdf.mjs`, and memory notes user wants markdown-only CV outputs anyway. Tracker line written to `batch/tracker-additions/22.tsv`, num 879, pending `merge-tracker.mjs`.

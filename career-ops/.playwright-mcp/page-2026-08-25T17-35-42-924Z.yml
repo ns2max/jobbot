@@ -1,0 +1,154 @@
+- generic [ref=f153e2]:
+  - list [ref=f153e4]:
+    - listitem [ref=f153e5]:
+      - link [ref=f153e6] [cursor=pointer]:
+        - /url: https://www.baseten.co/
+        - img "Baseten" [ref=f153e7]
+    - listitem [ref=f153e8]:
+      - link "Back to Baseten’s Job Listings" [ref=f153e9] [cursor=pointer]:
+        - /url: /baseten
+    - listitem
+  - generic [ref=f153e12]:
+    - heading "Frontend Engineer - Dedicated Inference" [level=1] [ref=f153e14]
+    - generic [ref=f153e15]:
+      - generic [ref=f153e16]:
+        - generic [ref=f153e17]:
+          - heading "Location" [level=2] [ref=f153e18]
+          - paragraph [ref=f153e19]: San Francisco; Montreal; New York; Remote; Toronto
+        - generic [ref=f153e20]:
+          - heading "Employment Type" [level=2] [ref=f153e21]
+          - paragraph [ref=f153e22]: Full time
+        - generic [ref=f153e23]:
+          - heading "Location Type" [level=2] [ref=f153e24]
+          - paragraph [ref=f153e25]: Hybrid
+        - generic [ref=f153e26]:
+          - heading "Department" [level=2] [ref=f153e27]
+          - paragraph [ref=f153e28]:
+            - generic [ref=f153e29]: EPD ›
+            - generic [ref=f153e30]: Engineering ›
+            - generic [ref=f153e31]: Dedicated Inference
+        - generic [ref=f153e32]:
+          - heading "Compensation" [level=2] [ref=f153e33]
+          - generic [ref=f153e34]:
+            - paragraph [ref=f153e35]: $190K – $300K • Offers Equity
+            - button "See More" [ref=f153e36] [cursor=pointer]
+      - generic [ref=f153e37]:
+        - tablist [ref=f153e38]:
+          - tab "Overview" [selected] [ref=f153e39] [cursor=pointer]
+          - tab "Application" [ref=f153e40] [cursor=pointer]
+        - tabpanel "Overview" [ref=f153e42]:
+          - generic [ref=f153e43]:
+            - paragraph [ref=f153e44]:
+              - strong [ref=f153e45]: ABOUT BASETEN
+            - paragraph [ref=f153e46]:
+              - text: Baseten powers mission-critical inference for the world's most dynamic AI companies, like Cursor, Notion, OpenEvidence, Abridge, Clay, Gamma and Writer. By uniting applied AI research, flexible infrastructure, and seamless developer tooling, we enable companies operating at the frontier of AI to bring cutting-edge models into production. We're growing quickly and recently raised our
+              - link "$1.5B Series F" [ref=f153e47] [cursor=pointer]:
+                - /url: https://www.baseten.co/blog/announcing-our-series-f/
+              - text: ", led by Altimeter Capital, Conviction Partners, and Spark Capital. Join us and help build the platform engineers turn to to ship AI products."
+            - paragraph [ref=f153e48]
+            - paragraph [ref=f153e49]:
+              - strong [ref=f153e50]: THE ROLE
+            - paragraph [ref=f153e51]: We’re looking for a seasoned Frontend Engineer to craft performant and delightful user experiences across Baseten’s core platform. You’ll own critical parts of our web application stack and collaborate cross-functionally with product, design, and backend teams to launch impactful features that help users deploy and manage AI systems at scale.
+            - paragraph [ref=f153e52]
+            - paragraph [ref=f153e53]:
+              - strong [ref=f153e54]: EXAMPLE INITIATIVES
+            - paragraph [ref=f153e55]: "You'll get to work on these types of projects as part of our Core Product team:"
+            - list [ref=f153e56]:
+              - listitem [ref=f153e57]:
+                - paragraph [ref=f153e58]:
+                  - link "Rolling Deployments" [ref=f153e59] [cursor=pointer]:
+                    - /url: https://www.baseten.co/blog/rolling-deployments-zero-downtime-model-updates/
+              - listitem [ref=f153e60]:
+                - paragraph [ref=f153e61]:
+                  - link "Model APIs for frontier models" [ref=f153e62] [cursor=pointer]:
+                    - /url: https://www.baseten.co/products/model-apis/
+              - listitem [ref=f153e63]:
+                - paragraph [ref=f153e64]:
+                  - link "Model training built for production inference" [ref=f153e65] [cursor=pointer]:
+                    - /url: https://www.baseten.co/products/training/
+            - paragraph [ref=f153e66]
+            - paragraph [ref=f153e67]:
+              - strong [ref=f153e68]: RESPONSIBILITIES
+            - list [ref=f153e69]:
+              - listitem [ref=f153e70]:
+                - paragraph [ref=f153e71]: Design, implement, and maintain responsive, accessible, and user-friendly frontend interfaces using React and TypeScript
+              - listitem [ref=f153e72]:
+                - paragraph [ref=f153e73]: Collaborate closely with product designers to turn complex ideas into elegant, intuitive UIs
+              - listitem [ref=f153e74]:
+                - paragraph [ref=f153e75]: Optimize application performance and reliability, with a focus on rendering speed and responsiveness
+              - listitem [ref=f153e76]:
+                - paragraph [ref=f153e77]: Drive major frontend initiatives, including partnering with backend teams to define APIs and test and refine end-to-end flows
+              - listitem [ref=f153e78]:
+                - paragraph [ref=f153e79]: Establish best practices, and mentor other engineers on frontend technologies
+              - listitem [ref=f153e80]:
+                - paragraph [ref=f153e81]: Build reusable component libraries and frontend infrastructure that accelerate product development
+              - listitem [ref=f153e82]:
+                - paragraph [ref=f153e83]: Partner with backend and platform teams to define and refine APIs and end-to-end flows
+            - paragraph [ref=f153e84]
+            - paragraph [ref=f153e85]:
+              - strong [ref=f153e86]: REQUIREMENTS
+            - list [ref=f153e87]:
+              - listitem [ref=f153e88]:
+                - paragraph [ref=f153e89]: 5+ years of experience building production-grade web applications
+              - listitem [ref=f153e90]:
+                - paragraph [ref=f153e91]: Deep expertise in React, TypeScript, and modern web development tooling
+              - listitem [ref=f153e92]:
+                - paragraph [ref=f153e93]: Track record of building well-crafted, performant, and scalable UIs
+              - listitem [ref=f153e94]:
+                - paragraph [ref=f153e95]: Strong product intuition and empathy for the user experience
+              - listitem [ref=f153e96]:
+                - paragraph [ref=f153e97]: Experience working in cross-functional product teams in a fast-paced environment
+              - listitem [ref=f153e98]:
+                - paragraph [ref=f153e99]: Excellent communication and collaboration skills
+            - paragraph [ref=f153e100]
+            - paragraph [ref=f153e101]:
+              - strong [ref=f153e102]: NICE TO HAVE
+            - list [ref=f153e103]:
+              - listitem [ref=f153e104]:
+                - paragraph [ref=f153e105]: Familiarity with Tailwind CSS, Next.js, or other modern frontend frameworks
+              - listitem [ref=f153e106]:
+                - paragraph [ref=f153e107]: Background in developer tools or data/ML infrastructure products
+              - listitem [ref=f153e108]:
+                - paragraph [ref=f153e109]: Experience with WebSockets, real-time data, or custom visualization tooling
+              - listitem [ref=f153e110]:
+                - paragraph [ref=f153e111]: Contributions to open-source projects or public engineering work
+            - paragraph [ref=f153e112]
+            - paragraph [ref=f153e113]:
+              - strong [ref=f153e114]: BENEFITS
+            - list [ref=f153e115]:
+              - listitem [ref=f153e116]:
+                - paragraph [ref=f153e117]: Competitive compensation, including meaningful equity.
+              - listitem [ref=f153e118]:
+                - paragraph [ref=f153e119]: 100% coverage of medical, dental, and vision insurance for employee and dependents
+              - listitem [ref=f153e120]:
+                - paragraph [ref=f153e121]: Flexible PTO policy including company wide Winter Break (our offices are closed from Christmas Eve to New Year's Day!)
+              - listitem [ref=f153e122]:
+                - paragraph [ref=f153e123]: Paid parental leave
+              - listitem [ref=f153e124]:
+                - paragraph [ref=f153e125]: Fertility and family-building stipend through Carrot
+              - listitem [ref=f153e126]:
+                - paragraph [ref=f153e127]: Company-facilitated 401(k)
+              - listitem [ref=f153e128]:
+                - paragraph [ref=f153e129]: Exposure to a variety of ML startups, offering unparalleled learning and networking opportunities.
+            - paragraph [ref=f153e130]:
+              - strong [ref=f153e131]: Apply now
+              - text: to embark on a rewarding journey in shaping the future of AI! If you are a motivated individual with a passion for machine learning and a desire to be part of a collaborative and forward-thinking team, we would love to hear from you.
+            - paragraph [ref=f153e132]:
+              - emphasis [ref=f153e133]: At Baseten, we are committed to fostering a diverse and inclusive workplace. We provide equal employment opportunities to all employees and applicants without regard to race, color, religion, gender, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, or veteran status.
+            - paragraph [ref=f153e134]:
+              - emphasis [ref=f153e135]: We are an Equal Opportunity Employer and will consider qualified applicants with criminal histories in a manner consistent with applicable law (by example, the requirements of the San Francisco Fair Chance Ordinance, where applicable).
+          - link [ref=f153e136] [cursor=pointer]:
+            - /url: /baseten/3622a1ee-50a9-4c45-af6e-aa12bd5de22f/application
+            - button "Apply for this Job" [ref=f153e137]
+  - contentinfo [ref=f153e138]:
+    - link "Learn more about Ashby" [ref=f153e139] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f153e140]: Powered by
+      - img "Ashby" [ref=f153e141]
+    - paragraph [ref=f153e147]:
+      - link "Privacy Policy" [ref=f153e148] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f153e149] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f153e150] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

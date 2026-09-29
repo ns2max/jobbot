@@ -1,0 +1,104 @@
+% Job posting: https://ca.linkedin.com/jobs/view/algorithm-software-engineer-at-garmin-4456364120
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.04}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{Algorithm Engineer | Wearable Sensor Fusion, Embedded ML \& Power-Constrained Systems}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \cvTagline}\\[1pt]
+    {\footnotesize\textit{\cvStatus}}\\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
+    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+Algorithm engineer specializing in wearable sensor fusion and real-time embedded ML. As a Visiting Researcher at McGill University's IDMIL/CIRMMT, built a self-powered wearable device instrumented with a BNO055 inertial measurement unit (I2C, 100Hz sampling) and fused its IMU stream with audio via a hierarchical finite-state-machine gesture classifier, reaching F1 0.78 on a 500-event corpus (IEEE IS2 2025) -- the same class of problem as fusing IMU, heart-rate, and GPS streams on a sports watch, solved end to end on battery-constrained, self-powered hardware with an explicit power budget. As a Postdoctoral Researcher at the University of Trento, owned the full pipeline for streaming audio and IMU/gesture data -- acquisition, DSP/feature engineering, training, embedded deployment -- shipping a real-time detector at 14ms inference on Raspberry Pi 4, F1 0.76, 31.4\% CPU, 74x faster than the 1038ms baseline it replaced (JAES 2026), backed by frozen-protocol benchmark suites and ablations quantifying accuracy/latency/CPU trade-offs. Five and a half years as a Research Engineer at MAS Holdings add production C++/Python embedded inference and real-time IoT ETL discipline at manufacturing scale. Canadian Permanent Resident based in Toronto, available immediately, open to relocating to Cochrane, AB.
+
+\section*{Core Competencies}
+\textbf{Wearable Sensor Fusion \& Algorithm Design:} IMU integration and calibration (BNO055, I2C, 100Hz sampling), multimodal sensor fusion (inertial + audio), hierarchical state machines for real-time event classification, sequence modelling (LSTM/GRU) for gesture and pattern detection, frozen-protocol benchmark and ablation design. \\
+\textbf{Embedded \& Power-Constrained Systems:} Real-time inference on ARM/Raspberry Pi, self-powered and battery-budget hardware design, latency/CPU/power profiling and optimization, C++17 real-time engines, embedded deployment pipelines (acquisition to monitoring).
+
+\section*{Technical Stack}
+\textbf{Languages:} C++17, Python, SQL, C. \quad
+\textbf{ML/DSP:} TensorFlow, PyTorch, scikit-learn, STFT, MFCC, S-transform. \quad
+\textbf{Embedded/Hardware:} Raspberry Pi, ARM, BNO055 IMU, I2C, HiFiBerry. \quad
+\textbf{Infra:} AWS, Docker, CI/CD, ETL pipelines, Git, pytest.
+
+\section*{Education}
+\noindent\textbf{PhD, Information Engineering and Computer Science} -- University of Trento, Italy \hfill 2021 - 2025 \\
+\noindent\textbf{MSc, Telecommunication and Electronic Engineering} -- Sheffield Hallam University, UK \hfill 2016 - 2018 \\
+\noindent\textbf{BEng (Hons), Electronic Engineering} -- Sheffield Hallam University, UK \hfill 2013 - 2014
+
+\section*{Research and Work Experience}
+
+\begin{cvrole}{Independent Researcher}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+  \item Authored two accepted peer-reviewed papers (Smart Drums, JAES; MIRaaS, IEEE IS2) extending real-time pattern-detection and embedded-inference work from the postdoc.
+  \item Maintain Nebula, a C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks, using AI-assisted workflows including Claude Code.
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+  \item Owned the full ML pipeline for streaming audio + IMU/gesture data: acquisition, DSP/feature engineering, training/evaluation, embedded deployment (Raspberry Pi 4), and monitoring, on the EU Horizon EIC Pathfinder project MUSMET.
+  \item Shipped a real-time pattern detector at 14ms inference on Raspberry Pi 4, F1 0.76, 31.4\% CPU -- 74x faster than the 1038ms DTW baseline it replaced (JAES 2026).
+  \item Designed frozen-protocol benchmark suites and ablations quantifying accuracy/latency/CPU trade-offs for edge-class deployment.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University, IDMIL/CIRMMT}{Montreal, Canada}{May 2024}{Aug 2024}
+  \item Built a self-powered smart electric guitar instrumented with a BNO055 IMU (I2C, 100Hz sampling) and a Raspberry Pi 4 + HiFiBerry audio front end -- a wearable-class inertial sensing setup mounted on the instrument itself.
+  \item Fused the inertial (IMU) and audio signal streams via a hierarchical finite-state machine driving a single-LSTM-256 gesture classifier, reaching F1 0.78 on a 500-event corpus (IEEE IS2 2025) -- the same sensor-fusion algorithm-design problem as fusing IMU, heart-rate, and GPS data on a wearable device.
+  \item Profiled compute load and power draw on the self-powered, battery-constrained hardware to validate real-time feasibility within a strict on-device power budget.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+  \item Ran a human-centred evaluation of musicians' perception of smart instruments with embedded real-time pattern detection (IEEE I3DA 2025).
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+  \item Built ML and statistical pipelines for financial forensics, compliance monitoring, and risk detection on large structured enterprise data.
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+  \item Designed and shipped end-to-end computer-vision and IoT systems for manufacturing at scale, lifting operational efficiency by up to 300\%, over 5.5 years.
+  \item Built real-time IoT ETL and C++/Python embedded inference running on production floor hardware; introduced CI/CD and code review practices; mentored engineers.
+  \item Automated multilingual care-label quality inspection (OpenCV, conveyor + PLC reject integration), cutting inspection time by 99.5\%.
+\end{cvrole}
+
+\section*{Publications}
+Silva, N. \& Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. \textit{Journal of the Audio Engineering Society}, 74(3). Silva, N., Wanderley, M. \& Turchet, L. (2025). Melody and Motion. \textit{IEEE International Symposium on the Internet of Sounds (IS2)}. Silva, N. \& Turchet, L. (2026, in press). Smart Drums. \textit{Journal of the Audio Engineering Society}.
+
+\section*{Highlights}
+MIDI Innovation Awards 2023 Finalist ("Hot Licks", Prototypes \& Non-Commercial Software). GMOA recognition (Government Medical Officers' Association, Sri Lanka, 2020) for a COVID-19 remote vitals monitoring deployment.
+
+\end{document}

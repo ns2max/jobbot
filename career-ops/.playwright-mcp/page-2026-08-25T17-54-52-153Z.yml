@@ -1,0 +1,143 @@
+- generic [ref=f382e2]:
+  - list [ref=f382e4]:
+    - listitem [ref=f382e5]:
+      - link [ref=f382e6] [cursor=pointer]:
+        - /url: https://www.baseten.co/
+        - img "Baseten" [ref=f382e7]
+    - listitem [ref=f382e8]:
+      - link "Back to Baseten’s Job Listings" [ref=f382e9] [cursor=pointer]:
+        - /url: /baseten
+    - listitem
+  - generic [ref=f382e12]:
+    - heading "Software Engineer - Dedicated Inference" [level=1] [ref=f382e14]
+    - generic [ref=f382e15]:
+      - generic [ref=f382e16]:
+        - generic [ref=f382e17]:
+          - heading "Location" [level=2] [ref=f382e18]
+          - paragraph [ref=f382e19]: San Francisco; Montreal; New York; Toronto
+        - generic [ref=f382e20]:
+          - heading "Employment Type" [level=2] [ref=f382e21]
+          - paragraph [ref=f382e22]: Full time
+        - generic [ref=f382e23]:
+          - heading "Location Type" [level=2] [ref=f382e24]
+          - paragraph [ref=f382e25]: Hybrid
+        - generic [ref=f382e26]:
+          - heading "Department" [level=2] [ref=f382e27]
+          - paragraph [ref=f382e28]:
+            - generic [ref=f382e29]: EPD ›
+            - generic [ref=f382e30]: Engineering ›
+            - generic [ref=f382e31]: Dedicated Inference
+        - generic [ref=f382e32]:
+          - heading "Compensation" [level=2] [ref=f382e33]
+          - generic [ref=f382e34]:
+            - paragraph [ref=f382e35]: $165K – $330K • Offers Equity
+            - button "See More" [ref=f382e36] [cursor=pointer]
+      - generic [ref=f382e37]:
+        - tablist [ref=f382e38]:
+          - tab "Overview" [selected] [ref=f382e39] [cursor=pointer]
+          - tab "Application" [ref=f382e40] [cursor=pointer]
+        - tabpanel "Overview" [ref=f382e42]:
+          - generic [ref=f382e43]:
+            - paragraph [ref=f382e44]:
+              - strong [ref=f382e45]: ABOUT BASETEN
+            - paragraph [ref=f382e46]:
+              - text: Baseten powers mission-critical inference for the world's most dynamic AI companies, like Cursor, Notion, OpenEvidence, Abridge, Clay, Gamma and Writer. By uniting applied AI research, flexible infrastructure, and seamless developer tooling, we enable companies operating at the frontier of AI to bring cutting-edge models into production. We're growing quickly and recently raised our
+              - link "$1.5B Series F" [ref=f382e47] [cursor=pointer]:
+                - /url: https://www.baseten.co/blog/announcing-our-series-f/
+              - text: ", led by Altimeter Capital, Conviction Partners, and Spark Capital. Join us and help build the platform engineers turn to to ship AI products."
+            - paragraph [ref=f382e48]
+            - paragraph [ref=f382e49]:
+              - strong [ref=f382e50]: THE ROLE
+            - paragraph [ref=f382e51]: As a Product Engineer on the Dedicated Inference team, you'll shape the state-of-the-art developer experience for deploying and operating AI workloads in production. From the CLI and SDKs to APIs, observability, and debugging workflows, you'll build the tools customers rely on every day to manage mission-critical inference deployments.
+            - paragraph [ref=f382e52]: Few teams at Baseten have as much breadth and visibility as Dedicated Inference. The team is often at the forefront of new product development, giving engineers the opportunity to shape the experience of some of our most important customers.
+            - paragraph [ref=f382e53]
+            - paragraph [ref=f382e54]:
+              - strong [ref=f382e55]: EXAMPLE INITIATIVES
+            - paragraph [ref=f382e56]: "You'll get to work on these types of projects as part of our Dedicated Inference team:"
+            - list [ref=f382e57]:
+              - listitem [ref=f382e58]:
+                - paragraph [ref=f382e59]:
+                  - link "Chains for multi-component workflows" [ref=f382e60] [cursor=pointer]:
+                    - /url: https://www.baseten.co/blog/baseten-chains-explained/
+              - listitem [ref=f382e61]:
+                - paragraph [ref=f382e62]:
+                  - link "Asynchronous inference" [ref=f382e63] [cursor=pointer]:
+                    - /url: https://www.baseten.co/blog/using-asynchronous-inference-in-production/
+              - listitem [ref=f382e64]:
+                - paragraph [ref=f382e65]:
+                  - link "Model APIs for frontier models" [ref=f382e66] [cursor=pointer]:
+                    - /url: https://www.baseten.co/products/model-apis/
+              - listitem [ref=f382e67]:
+                - paragraph [ref=f382e68]:
+                  - link "Model training built for production inference" [ref=f382e69] [cursor=pointer]:
+                    - /url: https://www.baseten.co/products/training/
+            - paragraph [ref=f382e70]
+            - paragraph [ref=f382e71]:
+              - strong [ref=f382e72]: RESPONSIBILITIES
+            - list [ref=f382e73]:
+              - listitem [ref=f382e74]:
+                - paragraph [ref=f382e75]: Implement new features and products for the team
+              - listitem [ref=f382e76]:
+                - paragraph [ref=f382e77]: Design ergonomic APIs and abstractions to solve customer problems
+              - listitem [ref=f382e78]:
+                - paragraph [ref=f382e79]: Fix bugs and resolve customer issues with urgency
+              - listitem [ref=f382e80]:
+                - paragraph [ref=f382e81]: Work across the stack - regardless of where you start, you’ll end up touching both React Components and Kubernetes Pods
+              - listitem [ref=f382e82]:
+                - paragraph [ref=f382e83]: Work closely with the product and forward deployed engineering teams to develop and drive new product ideas
+            - paragraph [ref=f382e84]
+            - paragraph [ref=f382e85]:
+              - strong [ref=f382e86]: REQUIREMENTS
+            - list [ref=f382e87]:
+              - listitem [ref=f382e88]:
+                - paragraph [ref=f382e89]: Bachelor's degree or higher in Computer Science or related field
+              - listitem [ref=f382e90]:
+                - paragraph [ref=f382e91]: Proficient coding abilities in one or more popular programming or scripting languages; Python, Go, or Javascript proficiency is a plus
+              - listitem [ref=f382e92]:
+                - paragraph [ref=f382e93]: Familiarity with web applications & databases
+              - listitem [ref=f382e94]:
+                - paragraph [ref=f382e95]: Good taste in product, particularly developer-oriented tools
+              - listitem [ref=f382e96]:
+                - paragraph [ref=f382e97]: Interest in ML/AI infrastructure and willingness to learn
+              - listitem [ref=f382e98]:
+                - paragraph [ref=f382e99]: Strong collaboration and communication skills
+            - paragraph [ref=f382e100]
+            - paragraph [ref=f382e101]:
+              - strong [ref=f382e102]: BENEFITS
+            - list [ref=f382e103]:
+              - listitem [ref=f382e104]:
+                - paragraph [ref=f382e105]: Competitive compensation, including meaningful equity.
+              - listitem [ref=f382e106]:
+                - paragraph [ref=f382e107]: 100% coverage of medical, dental, and vision insurance for employee and dependents
+              - listitem [ref=f382e108]:
+                - paragraph [ref=f382e109]: Flexible PTO policy including company wide Winter Break (our offices are closed from Christmas Eve to New Year's Day!)
+              - listitem [ref=f382e110]:
+                - paragraph [ref=f382e111]: Paid parental leave
+              - listitem [ref=f382e112]:
+                - paragraph [ref=f382e113]: Fertility and family-building stipend through Carrot
+              - listitem [ref=f382e114]:
+                - paragraph [ref=f382e115]: Company-facilitated 401(k)
+              - listitem [ref=f382e116]:
+                - paragraph [ref=f382e117]: Exposure to a variety of ML startups, offering unparalleled learning and networking opportunities.
+            - paragraph [ref=f382e118]:
+              - strong [ref=f382e119]: Apply now
+              - text: to embark on a rewarding journey in shaping the future of AI! If you are a motivated individual with a passion for machine learning and a desire to be part of a collaborative and forward-thinking team, we would love to hear from you.
+            - paragraph [ref=f382e120]:
+              - emphasis [ref=f382e121]: At Baseten, we are committed to fostering a diverse and inclusive workplace. We provide equal employment opportunities to all employees and applicants without regard to race, color, religion, gender, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, or veteran status.
+            - paragraph [ref=f382e122]:
+              - emphasis [ref=f382e123]: We are an Equal Opportunity Employer and will consider qualified applicants with criminal histories in a manner consistent with applicable law (by example, the requirements of the San Francisco Fair Chance Ordinance, where applicable).
+          - link [ref=f382e124] [cursor=pointer]:
+            - /url: /baseten/fc6e5f2e-eb2d-4a6c-8a51-8422e8662bde/application
+            - button "Apply for this Job" [ref=f382e125]
+  - contentinfo [ref=f382e126]:
+    - link "Learn more about Ashby" [ref=f382e127] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f382e128]: Powered by
+      - img "Ashby" [ref=f382e129]
+    - paragraph [ref=f382e135]:
+      - link "Privacy Policy" [ref=f382e136] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f382e137] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f382e138] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

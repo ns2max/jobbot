@@ -1,0 +1,58 @@
+- generic [active] [ref=f21e1]:
+  - paragraph [ref=f21e8]: The job you are looking for is no longer open.
+  - main [ref=f21e9]:
+    - generic [ref=f21e10]:
+      - link [ref=f21e12] [cursor=pointer]:
+        - /url: http://corp.narvar.com/
+        - img "Narvar Logo" [ref=f21e13]
+      - heading "Current openings at Narvar" [level=1] [ref=f21e14]
+      - generic [ref=f21e19]:
+        - paragraph [ref=f21e20]: Create a Job Alert
+        - paragraph [ref=f21e21]: Level-up your career by having opportunities at Narvar sent directly to your inbox.
+        - link "Create alert" [ref=f21e22] [cursor=pointer]:
+          - /url: https://my.greenhouse.io/users/sign_in?job_board=narvar&source=job_alert_board
+      - generic [ref=f21e23]:
+        - generic [ref=f21e24]:
+          - generic [ref=f21e26]:
+            - generic [ref=f21e27]: Search
+            - textbox "Search" [ref=f21e28]
+          - generic [ref=f21e30]:
+            - generic [ref=f21e31]: Department
+            - generic [ref=f21e32]:
+              - log [ref=f21e34]
+              - generic [ref=f21e36]:
+                - generic [ref=f21e37]:
+                  - generic [ref=f21e38]: Select...
+                  - combobox "Department" [ref=f21e40]
+                - button "Toggle flyout" [ref=f21e42] [cursor=pointer]
+          - generic [ref=f21e46]:
+            - generic [ref=f21e47]: Office
+            - generic [ref=f21e48]:
+              - log [ref=f21e50]
+              - generic [ref=f21e52]:
+                - generic [ref=f21e53]:
+                  - generic [ref=f21e54]: Select...
+                  - combobox "Office" [ref=f21e56]
+                - button "Toggle flyout" [ref=f21e58] [cursor=pointer]
+        - generic [ref=f21e61]:
+          - heading "1 job" [level=2] [ref=f21e62]
+          - generic [ref=f21e64]:
+            - heading "Engineering" [level=3] [ref=f21e65]
+            - table [ref=f21e67]:
+              - rowgroup:
+                - row "Job":
+                  - columnheader [ref=f21e68]:
+                    - paragraph [ref=f21e69]: Job
+              - rowgroup [ref=f21e70]:
+                - row [ref=f21e71]:
+                  - cell [ref=f21e72]:
+                    - link [ref=f21e73] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/narvar/jobs/8045397
+                      - paragraph [ref=f21e74]: Senior Software Developer, Rust
+                      - paragraph [ref=f21e75]: Remote - Canada
+  - contentinfo [ref=f21e76]:
+    - generic [ref=f21e77]:
+      - paragraph [ref=f21e78]: Powered by
+      - link [ref=f21e79] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f21e80]

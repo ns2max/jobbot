@@ -1,0 +1,163 @@
+- generic [ref=f384e2]:
+  - list [ref=f384e4]:
+    - listitem [ref=f384e5]:
+      - link [ref=f384e6] [cursor=pointer]:
+        - /url: https://www.baseten.co/
+        - img "Baseten" [ref=f384e7]
+    - listitem [ref=f384e8]:
+      - link "Back to Baseten’s Job Listings" [ref=f384e9] [cursor=pointer]:
+        - /url: /baseten
+    - listitem
+  - generic [ref=f384e12]:
+    - heading "Software Engineer - Baseten Inference Stack" [level=1] [ref=f384e14]
+    - generic [ref=f384e15]:
+      - generic [ref=f384e16]:
+        - generic [ref=f384e17]:
+          - heading "Location" [level=2] [ref=f384e18]
+          - paragraph [ref=f384e19]: San Francisco; Montreal; New York; Toronto
+        - generic [ref=f384e20]:
+          - heading "Employment Type" [level=2] [ref=f384e21]
+          - paragraph [ref=f384e22]: Full time
+        - generic [ref=f384e23]:
+          - heading "Location Type" [level=2] [ref=f384e24]
+          - paragraph [ref=f384e25]: Hybrid
+        - generic [ref=f384e26]:
+          - heading "Department" [level=2] [ref=f384e27]
+          - paragraph [ref=f384e28]:
+            - generic [ref=f384e29]: EPD ›
+            - generic [ref=f384e30]: Engineering
+        - generic [ref=f384e31]:
+          - heading "Compensation" [level=2] [ref=f384e32]
+          - generic [ref=f384e33]:
+            - paragraph [ref=f384e34]: $180K – $360K • Offers Equity
+            - button "See More" [ref=f384e35] [cursor=pointer]
+      - generic [ref=f384e36]:
+        - tablist [ref=f384e37]:
+          - tab "Overview" [selected] [ref=f384e38] [cursor=pointer]
+          - tab "Application" [ref=f384e39] [cursor=pointer]
+        - tabpanel "Overview" [ref=f384e41]:
+          - generic [ref=f384e42]:
+            - paragraph [ref=f384e43]:
+              - strong [ref=f384e44]: ABOUT BASETEN
+            - paragraph [ref=f384e45]:
+              - text: Baseten powers mission-critical inference for the world's most dynamic AI companies, like Cursor, Notion, OpenEvidence, Abridge, Clay, Gamma and Writer. By uniting applied AI research, flexible infrastructure, and seamless developer tooling, we enable companies operating at the frontier of AI to bring cutting-edge models into production. We're growing quickly and recently raised our
+              - link "$1.5B Series F" [ref=f384e46] [cursor=pointer]:
+                - /url: https://www.baseten.co/blog/announcing-our-series-f/
+              - text: ", led by Altimeter Capital, Conviction Partners, and Spark Capital. Join us and help build the platform engineers turn to to ship AI products."
+            - paragraph [ref=f384e47]
+            - paragraph [ref=f384e48]:
+              - strong [ref=f384e49]: THE ROLE
+            - paragraph [ref=f384e50]: Baseten’s Inference Stack team builds the distributed runtime that powers large-scale LLM inference across our platform. We operate at the intersection of distributed systems, model performance, infrastructure, and developer experience. We enable customers to deploy and operate cutting-edge LLM models with industry-leading performance, scalability, reliability, and ease of use.
+            - paragraph [ref=f384e51]: As a Software Engineer on the Inference Stack team, you’ll work across the stack - from the developer experience customers use to deploy models, the libraries used for features like tool calling and reasoning, all the way down to the systems we use to orchestrate deployments in Kubernetes and route traffic efficiently.
+            - paragraph [ref=f384e52]: This is an ideal role for engineers who enjoy owning systems in production, solving hard integration problems, and making complex infrastructure simple and reliable for users.
+            - paragraph [ref=f384e53]
+            - paragraph [ref=f384e55]:
+              - strong [ref=f384e56]: EXAMPLE INITIATIVES
+            - paragraph [ref=f384e57]: Blog Posts
+            - paragraph [ref=f384e58]:
+              - link "https://www.baseten.co/blog/nvidia-dynamo-day-baseten-inference-stack/" [ref=f384e59] [cursor=pointer]:
+                - /url: https://www.baseten.co/blog/nvidia-dynamo-day-baseten-inference-stack/
+            - paragraph [ref=f384e60]:
+              - link "https://www.baseten.co/blog/how-baseten-achieved-2x-faster-inference-with-nvidia-dynamo/" [ref=f384e61] [cursor=pointer]:
+                - /url: https://www.baseten.co/blog/how-baseten-achieved-2x-faster-inference-with-nvidia-dynamo/
+            - paragraph [ref=f384e62]:
+              - link "https://www.baseten.co/blog/how-baseten-multi-cloud-capacity-management-mcm-powers-cloud-self-hosted-and-hybr/#comparing-deployment-options-cloud-vs-self-hosted-vs-hybrid" [ref=f384e63] [cursor=pointer]:
+                - /url: https://www.baseten.co/blog/how-baseten-multi-cloud-capacity-management-mcm-powers-cloud-self-hosted-and-hybr/#comparing-deployment-options-cloud-vs-self-hosted-vs-hybrid
+            - paragraph [ref=f384e65]
+            - paragraph [ref=f384e66]:
+              - strong [ref=f384e67]: RESPONSIBILITIES
+            - list [ref=f384e68]:
+              - listitem [ref=f384e69]:
+                - paragraph [ref=f384e70]: Develop infrastructure and orchestration systems for deploying and managing large-scale distributed LLM inference
+              - listitem [ref=f384e71]:
+                - paragraph [ref=f384e72]: Work across the stack, from customer-facing features to low-level infrastructure components
+              - listitem [ref=f384e73]:
+                - paragraph [ref=f384e74]: Build platform capabilities related to routing, autoscaling, scheduling, observability, and runtime management
+              - listitem [ref=f384e75]:
+                - paragraph [ref=f384e76]: Improve the reliability, scalability, and usability of our inference stack
+              - listitem [ref=f384e77]:
+                - paragraph [ref=f384e78]: Collaborate closely with Model Performance engineers to make new inference optimizations broadly available to customers and easy to configure
+              - listitem [ref=f384e79]:
+                - paragraph [ref=f384e80]: Help define best practices around testing, release automation, benchmarking, and operational excellence
+              - listitem [ref=f384e81]:
+                - paragraph [ref=f384e82]: Debug complex production systems spanning Kubernetes, distributed runtimes, networking, and GPU workloads
+              - listitem [ref=f384e83]:
+                - paragraph [ref=f384e84]: Make thoughtful engineering tradeoffs balancing performance, reliability, operational simplicity, and developer experience
+              - listitem [ref=f384e85]:
+                - paragraph [ref=f384e86]: "Own projects end-to-end: from architecture and implementation through deployment, monitoring, and iteration based on customer feedback"
+            - paragraph [ref=f384e87]
+            - paragraph [ref=f384e88]:
+              - strong [ref=f384e89]: REQUIREMENTS
+            - list [ref=f384e90]:
+              - listitem [ref=f384e91]:
+                - paragraph [ref=f384e92]: Bachelor's, Master's, or Ph.D. in Computer Science, Engineering, or a related field
+              - listitem [ref=f384e93]:
+                - paragraph [ref=f384e94]: Strong background in distributed systems, backend infrastructure, or platform engineering
+              - listitem [ref=f384e95]:
+                - paragraph [ref=f384e96]: Experience building and operating production systems where reliability, latency, and scale are first-class concerns
+              - listitem [ref=f384e97]:
+                - paragraph [ref=f384e98]: "Strong sense of developer experience: you think about how systems are used, not just how they work"
+              - listitem [ref=f384e99]:
+                - paragraph [ref=f384e100]: Motivated and willing to learn new languages, frameworks, and systems as needed
+              - listitem [ref=f384e101]:
+                - paragraph [ref=f384e102]: Ability to debug complex systems across multiple layers of the stack
+              - listitem [ref=f384e103]:
+                - paragraph [ref=f384e104]: Genuine interest in inference engineering. You don’t need to have hands on experience but are willing to learn
+              - listitem [ref=f384e105]:
+                - paragraph [ref=f384e106]: Excellent communication and collaboration skills
+            - paragraph [ref=f384e107]
+            - paragraph [ref=f384e108]:
+              - strong [ref=f384e109]: NICE TO HAVE
+            - list [ref=f384e110]:
+              - listitem [ref=f384e111]:
+                - paragraph [ref=f384e112]: Experience with Kubernetes, including concepts like operators and custom resources
+              - listitem [ref=f384e113]:
+                - paragraph [ref=f384e114]: Prior work on Dynamo, vLLM, SGLang, TensorRT-LLM, or similar inference frameworks
+              - listitem [ref=f384e115]:
+                - paragraph [ref=f384e116]: Experience with distributed scheduling, autoscaling, or service orchestration
+              - listitem [ref=f384e117]:
+                - paragraph [ref=f384e118]: Experience operating GPU workloads in production
+              - listitem [ref=f384e119]:
+                - paragraph [ref=f384e120]: Familiarity with observability tooling, CI/CD systems, or release automation
+              - listitem [ref=f384e121]:
+                - paragraph [ref=f384e122]: Experience contributing to open-source infrastructure or ML systems
+            - paragraph [ref=f384e123]
+            - paragraph [ref=f384e124]:
+              - strong [ref=f384e125]: BENEFITS
+            - list [ref=f384e126]:
+              - listitem [ref=f384e127]:
+                - paragraph [ref=f384e128]: Competitive compensation, including meaningful equity.
+              - listitem [ref=f384e129]:
+                - paragraph [ref=f384e130]: 100% coverage of medical, dental, and vision insurance for employee and dependents
+              - listitem [ref=f384e131]:
+                - paragraph [ref=f384e132]: Flexible PTO policy including company wide Winter Break (our offices are closed from Christmas Eve to New Year's Day!)
+              - listitem [ref=f384e133]:
+                - paragraph [ref=f384e134]: Paid parental leave
+              - listitem [ref=f384e135]:
+                - paragraph [ref=f384e136]: Fertility and family-building stipend through Carrot
+              - listitem [ref=f384e137]:
+                - paragraph [ref=f384e138]: Company-facilitated 401(k)
+              - listitem [ref=f384e139]:
+                - paragraph [ref=f384e140]: Exposure to a variety of ML startups, offering unparalleled learning and networking opportunities.
+            - paragraph [ref=f384e141]:
+              - strong [ref=f384e142]: Apply now
+              - text: to embark on a rewarding journey in shaping the future of AI! If you are a motivated individual with a passion for machine learning and a desire to be part of a collaborative and forward-thinking team, we would love to hear from you.
+            - paragraph [ref=f384e143]:
+              - emphasis [ref=f384e144]: At Baseten, we are committed to fostering a diverse and inclusive workplace. We provide equal employment opportunities to all employees and applicants without regard to race, color, religion, gender, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, or veteran status.
+            - paragraph [ref=f384e145]:
+              - emphasis [ref=f384e146]: We are an Equal Opportunity Employer and will consider qualified applicants with criminal histories in a manner consistent with applicable law (by example, the requirements of the San Francisco Fair Chance Ordinance, where applicable).
+          - link [ref=f384e147] [cursor=pointer]:
+            - /url: /baseten/c8701794-bdc1-4932-bffa-a444ce57ed73/application
+            - button "Apply for this Job" [ref=f384e148]
+  - contentinfo [ref=f384e149]:
+    - link "Learn more about Ashby" [ref=f384e150] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f384e151]: Powered by
+      - img "Ashby" [ref=f384e152]
+    - paragraph [ref=f384e158]:
+      - link "Privacy Policy" [ref=f384e159] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f384e160] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f384e161] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

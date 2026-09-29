@@ -1,0 +1,153 @@
+\documentclass[11pt]{article}
+
+% --------- BASIC PACKAGES ----------
+\usepackage[left=0.55in,top=0.5in,right=0.55in,bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % SANDBOX SUBSTITUTE -- restore \usepackage{newtxtext,newtxmath} locally
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\setstretch{1.0}
+\pagenumbering{gobble}
+
+% ---------- SECTION FORMATTING ----------
+\titleformat{\section}{\large\scshape}{}{4em}{}[\vspace{-0.75em}\rule{\linewidth}{0.4pt}\vspace{-0.15em}]
+\titlespacing*{\section}{0pt}{0.6em}{0.3em}
+
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{#1} | \textit{\small #2, #3}\hfill \textit{\small #4 -- #5}\par
+  \begin{itemize}[leftmargin=1.4em, itemsep=-0.3em, topsep=-0.15em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{-0.55em}%
+}
+
+% ---------- HEADER ----------
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{Nishal Stanislaus Silva}}{\large \textit {, PhD}}
+    \\[1pt]
+    {\small Machine Learning Research Engineer | NLP \& Information Extraction, LLM/RAG Systems, Evaluation Science}
+    \\[1pt]
+    {\footnotesize\textit{Canadian Permanent Resident, eligible to work in Canada without sponsorship, open to relocation within Canada}}
+    \\[1pt]
+    {\small
+    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}
+    \,\,|\,\, \href{https://github.com/ns2max}{github.com/ns2max}}
+\end{center}
+
+% =====================================================
+\section*{Professional Summary}
+
+% I turn unstructured documents into machine-readable structure, then prove the output is correct. At MAS Holdings I built the pre-LLM version of the accessNavigator problem: an OCR and layout-segmentation pipeline that ingested a large archive of unstructured technical specifications and emitted structured records into a live ERP, replacing manual configuration entirely. At Forestpin I translated written compliance policy into executable detection logic that analysts had to trust before acting on it. Across a PhD, a postdoc, and 10+ years in industry, my deepest competency is evaluation: benchmarks, ablations, dataset curation, and statistics applied honestly enough that failure modes are known before deployment, not after.
+
+Machine Learning Research Engineer with a PhD and 10+ years of applied research and production experience across industry and academia. Experienced in information extraction, evaluation science, and turning unstructured documents into reliable machine-readable structure. Built and deployed an OCR and layout-segmentation pipeline that converted a large archive of unstructured technical specifications into structured ERP records and digitized archive for textured fabrics and laces, alongside context-aware retrieval systems still in production use. Published researcher (JAES, IEEE, DAFx) with four public benchmark datasets.
+
+% =====================================================
+\section*{Signature Results}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.3em, topsep=0em]
+    \item OCR + layout segmentation converting a physical specification archive into structured, searchable ERP records, along with a context-aware retrieval system is still in production use today.
+    \item Deployed four public benchmark datasets for sequence pattern detection (7,000+ recordings, 70 contributors) released on Zenodo with documented protocols; 10 peer-reviewed publications across JAES, IEEE, and DAFx.
+    \item Achieved a a real-time performance 14\,ms inference at F1 0.76 on a Raspberry Pi 4, 74$\times$ faster than the DTW baseline.
+    \item Deployed vision based inspection systems that yielded up to 300\% throughput gain on deployed industrial systems.
+    \item Computer Vision vitals-monitoring system fielded across COVID-19 hospital wards; recognized by the Government Medical Officers' Association of Sri Lanka.
+\end{itemize}
+
+% =====================================================
+\section*{Core Competencies}
+
+\textbf{NLP \& Language Models:} Transformer Architectures, Attention, Tokenization, Decoding Strategies, Context-Window Behaviour, Generative Failure Modes, Prompt \& Context Engineering, Long-Context Document Processing, Structured \& Constrained Output Generation, Retrieval-Augmented Generation (RAG), Embeddings, Hybrid Search, Re-Ranking, Unstructured Text Data\\
+\textbf{Information Extraction:} OCR, Layout Segmentation, Rule Extraction from Policy Documents, Schema-Constrained Data Generation, Evidence Attribution, Human-in-the-Loop Validation, Anomaly Detection\\
+\textbf{Evaluation \& Applied Research:} Benchmark Design, Ablation Studies, Dataset Curation \& Preprocessing, Applied Statistics for Evaluation, Reproducible Experimental Design, Error Analysis, Human-Centred Evaluation\\
+\textbf{ML Engineering:} End-to-End ML Lifecycle, Fine-Tuning, Model Compression, Low-Latency Inference, Optimising Pipelines for Throughput/Cost/Reproducibility, Batch Document Processing, MLOps, Agile Delivery, Client Liaison
+
+% =====================================================
+\section*{Technical Stack}
+
+\textbf{Languages:} Python, C++, C, SQL, Linux Shell Scripting, MATLAB, JavaScript\\
+\textbf{ML \& NLP:} PyTorch, HuggingFace, scikit-learn, TensorFlow, Keras, JAX, Pandas, NumPy, SciPy, OpenCV, ONNX\\
+\textbf{Data \& Dev:} AWS (EC2, S3, ECS, MWAA, RDS), Snowflake, ETL Pipelines, Apache Airflow, Docker, REST APIs, Git, Linux/UNIX, Pytest, CI/CD (Jenkins)
+
+% =====================================================
+\section*{Education}
+\textbf{Ph.D - Information Engineering and Computer Science} \textit{\small{ - University of Trento, Italy}} \hfill \textit{Jan 2025}\\[1pt]
+\noindent\textbf{M.Sc - Telecommunication and Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[1pt]
+\noindent\textbf{B.Eng (Hons) - Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+% =====================================================
+\section*{Professional Experience}
+
+\begin{cvrole}{Independent Machine Learning Researcher}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+    \item Currently researching foundation-model-based music generation and synthetic variation generation for training under low labelled data.
+    % \item Researching on deep learning-based methods to qualitatively evaluate pronunciation for speech applications.
+    \item Released Nebula, an open-source C++ audio feature extraction library designed for constrained hardware.
+    \item 2 manuscripts on edge-to-server offloading and real-time pattern detection accepted for publication.
+\end{cvrole}
+
+% \newpage
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Owned full ML pipelines within the EU-funded MUSMET project: dataset curation and preprocessing, feature engineering, training and fine-tuning, evaluation, and constrained deployment with monitoring.
+    % \item Designed benchmark suites (baselines plus systematic ablations) with applied statistics, so architecture and feature decisions were driven by measured evidence rather than intuition.
+    \item Curated and publicly released benchmark datasets with documented annotation protocols and reproducible splits.
+    \item Optimised inference pipelines for throughput, cost, and reproducibility under hard compute budgets; acted as technical liaison between academic and industry partners, presenting progress in talks and written reports. Three peer-reviewed publications in 2025 alone.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Built diffusion- and VAE-based generative models to synthesise training data for low-resource conditions, and to address the limited-labelled-data bottlenecks typical of specialist domains; presented findings to a cross-institutional team.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo 02, Sri Lanka}{Jan 2024}{Mar 2024}
+    \item Ran human-centred evaluations of ML-driven interactive systems, combining quantitative metrics with structured user feedback to produce usability, interpretability, and adoption recommendations for non-technical operators.
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo 05, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item Translated compliance and regulatory requirements into machine-executable detection logic and formal technical specifications; worked with compliance stakeholders to keep business intent and implementation aligned.
+    \item Designed and deployed ML and statistical modelling pipelines for financial forensics, compliance monitoring, and risk detection over large structured enterprise datasets.
+    % \item Built Python backend scoring services that flagged anomalies for human triage, keeping every automated decision reviewable by an analyst before action.
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Built an end-to-end document-understanding pipeline (OCR + layout segmentation) that ingested a large archive of unstructured technical specifications and emitted structured, machine-readable records into a live ERP.
+    \item Designed a context-aware search and retrieval system over digitised archives, integrated into the client's ERP and still in production use today.
+    \item Owned deployment of ML and computer vision systems for manufacturing at scale, cutting inspection time by 99.5\% and improving operational efficiency by up to 300\%; built the supporting ingestion and ETL pipelines across distributed sites, with quality checks and monitoring.
+    \item Mentored engineers and established CI/CD, code review, and documentation practices that scaled ML adoption across engineering and operations teams.
+\end{cvrole}
+
+% =====================================================
+\section*{Selected Publications \footnotesize {\normalfont{(full list: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}}.})}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.3em, topsep=0em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Mar. 2026. \textit{(F1 0.76 at 14\,ms on Raspberry Pi 4, 74$\times$ faster than baseline)}
+    \item Silva, N., Wanderley, M. and Turchet, L. \textit{Melody and Motion: Integrating Guitar Gesture Detection with Musical Patterns for Extended Control in Live Performance and Metaverse Applications}. IEEE International Symposium on the Internet of Sounds, Oct. 2025.
+    \item Silva, N. and Turchet, L. \textit{A Structural Similarity Index Based Method to Detect Symbolic Monophonic Patterns in Real-Time}. 25th International Conference on Digital Audio Effects (DAFx), Sep. 2022.
+\end{itemize}
+
+% =====================================================
+\section*{Datasets \& Peer Review}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.3em, topsep=0em]
+    \item \textbf{Public benchmark datasets (Zenodo):} DoMP, DoPP, DoDP, DoDP2. DOIs \href{https://doi.org/10.5281/zenodo.10818617}{10818617}, \href{https://doi.org/10.5281/zenodo.14497998}{14497998}, \href{https://doi.org/10.5281/zenodo.14497974}{14497974}, \href{https://doi.org/10.5281/zenodo.18395007}{18395007}.
+    \item \textbf{Reviewer:} IEEE Access; Journal of the National Science Foundation, Sri Lanka. \textbf{Program Committee:} IEEE Internet of Sounds Symposium; IEEE Immersive and 3D Audio Conference.
+    \item \textbf{Finalist, MIDI Innovation Awards} (Sep 2023), real-time symbolic pattern detection for smart instruments. 
+    \item \textbf{GMOA Recognition (Sri Lanka)} for a computer vision system monitoring COVID-19 patient vitals across hospital wards, reducing healthcare worker exposure.
+\end{itemize}
+
+\end{document}
+
+
+
+\section*{Service, Recognition \& Highlights}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Peer Review:} IEEE Access, Journal of the National Science Foundation (Sri Lanka). \textbf{Program Committee:} IEEE Internet of Sounds Symposium, IEEE Immersive and 3D Audio Conference.
+    \item \textbf{Finalist, MIDI Innovation Awards} (Sep 2023), real-time symbolic pattern detection for smart instruments. 
+    \item \textbf{GMOA Recognition (Sri Lanka)} for a computer vision system monitoring COVID-19 patient vitals across hospital wards, reducing healthcare worker exposure.
+\end{itemize}

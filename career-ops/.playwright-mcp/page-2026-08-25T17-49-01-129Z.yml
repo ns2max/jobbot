@@ -1,0 +1,139 @@
+- generic [active] [ref=f291e1]:
+  - main [ref=f291e2]:
+    - generic [ref=f291e3]:
+      - generic [ref=f291e4]:
+        - link "Back to jobs" [ref=f291e5] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/togetherai
+        - generic [ref=f291e9]:
+          - generic [ref=f291e10]:
+            - heading "Solutions Architect (Inference)" [level=1] [ref=f291e11]
+            - generic [ref=f291e12]: London
+          - button "Apply" [ref=f291e16] [cursor=pointer]
+        - generic [ref=f291e18]:
+          - heading [level=3] [ref=f291e19]:
+            - strong [ref=f291e20]: About the Role
+          - paragraph [ref=f291e21]: As a Solutions Architect (Inference) at Together AI, you will work with customers and prospects to create business value through Generative AI applications. Solutions Architects at Together are trusted advisors to our customers that evaluate, identify and demonstrate how Together can solve their AI needs. As key contributors to our sales organization, Solution Engineers add tremendous value to the customer journey and directly impact company growth and revenue. This is an exciting opportunity for a deeply technical professional passionate about AI and customer success to make a significant impact in a fast-paced, innovative environment.
+          - heading [level=3] [ref=f291e22]:
+            - strong [ref=f291e23]: Responsibilities
+          - list [ref=f291e24]:
+            - listitem [ref=f291e25]: Act as a technical advisor to our most strategic customers, deeply embedding with them to support the ideation and development of innovative applications using OSS models on Together AI
+            - listitem [ref=f291e26]: Run complex demonstrations and POCs of Together’s entire stack, including both hardware and software solutions
+            - listitem [ref=f291e27]: Collaborate with sales to qualify new prospects and support existing customers along their journey to build cutting-edge Generative AI solutions
+            - listitem [ref=f291e28]: Build and maintain strong relationships with customer leadership and stakeholders, ensuring the successful deployment and scaling of their applications
+            - listitem [ref=f291e29]: Deliver high-value feedback to our Product, Engineering, and Research teams, ensuring our platform continues to evolve to meet customer needs
+            - listitem [ref=f291e30]: Build educational content and tooling for both internal and external use around Together’s solutions (i.e., playbooks, blogs, demos, etc.)
+          - heading [level=3] [ref=f291e31]:
+            - strong [ref=f291e32]: Qualifications
+          - list [ref=f291e33]:
+            - listitem [ref=f291e34]: 7+ years of experience in a customer-facing technical role with at least 2 years in a pre-sales function
+            - listitem [ref=f291e35]: Must have a demonstrable background in building and delivering technical solutions within a Solutions Consulting / Pre-Sales environment, with strong experience leveraging the latest open-source models, ideally within inference-driven use cases.
+            - listitem [ref=f291e36]: Excellent communication and interpersonal skills, with the ability to explain complex technical concepts to non-technical stakeholders.
+            - listitem [ref=f291e37]: Ability to consult with new and existing customers to map business needs to technical solutions
+            - listitem [ref=f291e38]: Strong technical background, with knowledge of AI, ML, GPU technologies and their integration into high-performance computing (HPC) environments.
+            - listitem [ref=f291e39]: Strong understanding of training, fine-tuning and inference in the context of open source LLMs
+            - listitem [ref=f291e40]: Proficiency in Python and JavaScript, with experience building and delivering prototypes on API platforms.
+            - listitem [ref=f291e41]: Familiarity with infrastructure services (e.g., Kubernetes, SLURM), infrastructure as code solutions (e.g., Ansible), container infrastructure Docker), and scripting and programming languages (Python, Javascript)
+            - listitem [ref=f291e42]: Strong sense of ownership and willingness to learn new skills to ensure both team and customer success.
+            - listitem [ref=f291e43]: Ability to operate in dynamic environments, adept at managing multiple projects, and comfortable with frequent context switching and prioritization.
+          - heading [level=3] [ref=f291e44]:
+            - strong [ref=f291e45]: About Together AI
+          - paragraph [ref=f291e46]: Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancement such as FlashAttention, Hyena, FlexGen, and RedPajama. We invite you to join a passionate group of researchers in our journey in building the next generation AI infrastructure.
+          - heading [level=3] [ref=f291e47]:
+            - strong [ref=f291e48]: Equal Opportunity
+          - paragraph [ref=f291e49]: Together AI is an Equal Opportunity Employer and is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and more.
+          - paragraph [ref=f291e50]:
+            - text: Please see our Privacy Policy at
+            - link "https://www.together.ai/privacy" [ref=f291e51] [cursor=pointer]:
+              - /url: https://www.together.ai/privacy
+        - generic [ref=f291e55]:
+          - paragraph [ref=f291e56]: Get new jobs like this in your inbox
+          - paragraph [ref=f291e57]: We'll email you when Together AI posts a job like this one.
+          - link "Create alert" [ref=f291e58] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=togetherai&source=job_alert_post&variant=job_alert_post_b
+      - separator [ref=f291e59]
+      - generic [ref=f291e60]:
+        - generic [ref=f291e61]:
+          - generic [ref=f291e62]:
+            - heading "Apply for this job" [level=2] [ref=f291e64]
+            - generic [ref=f291e65]:
+              - paragraph [ref=f291e67]: "*"
+              - paragraph [ref=f291e68]: indicates a required field
+          - button "Autofill my application" [ref=f291e71] [cursor=pointer]
+        - generic [ref=f291e72]:
+          - generic [ref=f291e73]:
+            - generic [ref=f291e76]:
+              - generic [ref=f291e77]: First Name*
+              - textbox "First Name" [ref=f291e78]
+            - generic [ref=f291e81]:
+              - generic [ref=f291e82]: Last Name*
+              - textbox "Last Name" [ref=f291e83]
+            - generic [ref=f291e86]:
+              - generic [ref=f291e87]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f291e88]
+            - generic [ref=f291e91]:
+              - generic [ref=f291e92]: Email*
+              - textbox "Email" [ref=f291e93]
+            - group "Phone" [ref=f291e95]:
+              - generic [ref=f291e99]:
+                - generic [ref=f291e100]: Country*
+                - generic [ref=f291e101]:
+                  - log [ref=f291e103]
+                  - generic [ref=f291e105]:
+                    - combobox "Country" [ref=f291e108]
+                    - button "Toggle flyout" [ref=f291e110] [cursor=pointer]
+                  - textbox
+              - generic [ref=f291e115]:
+                - generic [ref=f291e116]: Phone*
+                - textbox "Phone" [ref=f291e118]
+            - generic [ref=f291e119]:
+              - generic [ref=f291e121]:
+                - generic [ref=f291e122]: Location (City)*
+                - generic [ref=f291e123]:
+                  - log [ref=f291e125]
+                  - combobox "Location (City)" [ref=f291e130]
+                  - textbox
+              - button "Locate me" [ref=f291e131] [cursor=pointer]
+            - group "Resume/CV*" [ref=f291e133]:
+              - generic [ref=f291e136]:
+                - generic [ref=f291e138]:
+                  - button "Attach" [ref=f291e139] [cursor=pointer]
+                  - generic [ref=f291e140]: Attach
+                  - button "Attach" [ref=f291e141]
+                - button "Dropbox" [ref=f291e143] [cursor=pointer]
+                - button "Google Drive" [ref=f291e145] [cursor=pointer]
+                - generic [ref=f291e147]:
+                  - button "Enter manually" [ref=f291e148] [cursor=pointer]
+                  - generic [ref=f291e149]: Enter manually
+                - paragraph [ref=f291e150]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f291e152]:
+              - generic [ref=f291e155]:
+                - generic [ref=f291e157]:
+                  - button "Attach" [ref=f291e158] [cursor=pointer]
+                  - generic [ref=f291e159]: Attach
+                  - button "Attach" [ref=f291e160]
+                - button "Dropbox" [ref=f291e162] [cursor=pointer]
+                - button "Google Drive" [ref=f291e164] [cursor=pointer]
+                - generic [ref=f291e166]:
+                  - button "Enter manually" [ref=f291e167] [cursor=pointer]
+                  - generic [ref=f291e168]: Enter manually
+                - paragraph [ref=f291e169]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f291e170]:
+            - separator [ref=f291e171]
+            - generic [ref=f291e174]:
+              - generic [ref=f291e175]: Website
+              - textbox "Website" [ref=f291e176]
+            - generic [ref=f291e179]:
+              - generic [ref=f291e180]: LinkedIn Profile*
+              - textbox "LinkedIn Profile" [ref=f291e181]
+            - generic [ref=f291e184]:
+              - generic [ref=f291e185]: Are you willing to work four days per week in our San Francisco office?*
+              - textbox "Are you willing to work four days per week in our San Francisco office?" [ref=f291e186]
+          - button "Submit application" [ref=f291e188] [cursor=pointer]
+  - contentinfo [ref=f291e189]:
+    - generic [ref=f291e190]:
+      - paragraph [ref=f291e191]: Powered by
+      - link [ref=f291e192] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f291e193]
+  - iframe [ref=f291e207]:
+    

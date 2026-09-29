@@ -1,0 +1,139 @@
+% Job posting: https://ca.linkedin.com/jobs/view/research-engineer-sensor-signal-processing-at-waabi-4466325762
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.04}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{ML Research Engineer | Real-Time \& Edge Inference | Audio, Sensor \& Time-Series}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \cvTagline}\\[1pt]
+    {\footnotesize\textit{\cvStatus}}\\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
+    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+Signal-processing-trained ML research engineer with a PhD in real-time embedded pattern detection and a track record of shipping sensor-fusion systems under hard latency, compute, and power constraints. Foundation in time-frequency signal processing (S-transform onset detection, IEEE Asilomar 2018), extended through a PhD and postdoc building streaming DSP feature pipelines, RNN-based sequence models, and edge inference (14~ms on Raspberry Pi~4, F1 0.76, 74x faster than the DTW baseline it replaced). Direct multi-sensor fusion experience combining inertial (IMU) and audio streams via hierarchical state machines (F1 0.78, McGill IDMIL/CIRMMT). Comfortable owning a signal-processing pipeline end to end -- acquisition, feature engineering, model training/evaluation, embedded deployment, and benchmarking -- and translating it across research and engineering audiences.
+
+\section*{Core Competencies}
+\begin{itemize}[leftmargin=1.4em, itemsep=-0.2em, topsep=0.1em]
+  \item \textbf{Signal Processing:} STFT, MFCC/LFCC/PLP/GFCC, S-transform (Stockwell transform), CQT, chroma features, onset/beat tracking, YIN pitch estimation, time-frequency analysis of noisy real-world signals
+  \item \textbf{Sensor Fusion \& Embedded Systems:} multi-sensor fusion (IMU + audio, BCI/EEG, XR head/hand tracking), I2C sensor integration, ARM/Raspberry Pi latency and CPU profiling, PLC/conveyor interfacing, real-time inference under strict latency budgets
+  \item \textbf{Modelling \& Evaluation:} RNN/LSTM/GRU sequence models, frozen-protocol benchmark design, ablation studies (accuracy/latency/CPU trade-offs), VAE/diffusion prototyping for limited-label regimes
+  \item \textbf{Systems Engineering:} C++17 real-time engines, Python ML stack, CI/CD, code review, production-grade anomaly-scoring services
+\end{itemize}
+
+\section*{Technical Stack}
+\textbf{Languages:} Python, C++17, C, MATLAB, SQL \\
+\textbf{ML/DSP:} TensorFlow, Keras, PyTorch, scikit-learn, Librosa, SciPy, FFTW, libsndfile, NumPy, Pandas \\
+\textbf{Embedded/Real-time:} Raspberry Pi, ARM, Elk Audio OS, JUCE, VST, OSC, MIDI, I2C sensor integration \\
+\textbf{Infrastructure:} AWS (EC2/S3/ECS/RDS), Docker, Airflow, Jenkins, CI/CD, Git, pytest \\
+\textbf{Other:} Unity + Meta XR SDK, QLC+, LaTeX (XeLaTeX)
+
+\section*{Portfolio}
+\begin{itemize}[leftmargin=1.4em, itemsep=-0.2em, topsep=0.1em]
+  \item \textbf{Nebula} -- open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks. \href{https://github.com/ns2max/nebula}{github.com/ns2max/nebula}
+  \item \textbf{Hot Licks} -- real-time smart-instrument pattern-detection demo, MIDI Innovation Awards 2023 Finalist. \href{https://youtu.be/gkOqfOT8zXM}{youtu.be/gkOqfOT8zXM}
+\end{itemize}
+
+\section*{Education}
+\textbf{PhD, Information Engineering and Computer Science} -- University of Trento, Italy \hfill 2021 - 2025 \\
+\textit{\small DISI, CIMIL lab. Supervisor: Prof. Luca Turchet. Thesis: "Embedded Real-time Musical Pattern Detection for Smart Musical Instruments"} \\[2pt]
+\textbf{MSc, Telecommunication and Electronic Engineering} -- Sheffield Hallam University, UK \hfill 2016 - 2018 \\
+\textit{\small Thesis: "On Musical Onset Detection via the S-Transform" (published, IEEE Asilomar 2018)} \\[2pt]
+\textbf{BEng (Hons), Electronic Engineering} -- Sheffield Hallam University, UK \hfill 2013 - 2014
+
+\section*{Research and Work Experience}
+
+\begin{cvrole}{Independent Researcher}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+  \item Continued signal-processing and embedded-ML research following postdoc completion; two papers accepted in this period (Smart Drums, JAES; MIRaaS, IEEE IS2 2026)
+  \item Maintain Nebula, an open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks
+  \item Continued applied engineering work using AI-assisted development workflows, including Claude Code, for rapid prototyping and pipeline tooling
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+  \item Owned the full ML pipeline for streaming audio + IMU/gesture sensor data on the EU Horizon EIC Pathfinder project MUSMET: acquisition, DSP/feature engineering, training/evaluation, edge deployment, monitoring
+  \item Published a real-time pattern-detection system: 14~ms inference on Raspberry Pi~4, F1 0.76, 31.4\% CPU, 74x faster than the 1038~ms DTW baseline it replaced (JAES 2026)
+  \item Designed frozen-protocol benchmark suites and ablations (RNN vs.\ DTW; audio vs.\ MIDI; pattern-set sizes 1/3/10) quantifying accuracy/latency/CPU trade-offs
+  \item Prototyped VAE- and diffusion-based synthetic time-series generation for limited-label regimes
+  \item Built a real-time multimodal sync pipeline fusing audio, BCI/EEG (g.tec), and mixed-reality head/hand tracking across 4 simultaneous performers, with SAE Institute Barcelona; ran a user study across 2 live concerts
+  \item Designed MIRaaS, a UDP edge-to-server offload architecture for music information retrieval (paper accepted, IEEE IS2 2026)
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University (IDMIL/CIRMMT)}{Montreal, Canada}{May 2024}{Aug 2024}
+  \item Built a self-powered smart electric guitar instrumented with a BNO055 IMU (I2C, 100~Hz), HiFiBerry audio interface, and Raspberry Pi~4 -- direct multi-sensor fusion hardware
+  \item Fused inertial (IMU) and audio streams via a hierarchical finite-state machine with a single-LSTM-256 gesture model, achieving F1 0.78 on a 500-event corpus (IEEE IS2 2025)
+  \item Profiled compute and power budgets for real-time feasibility on self-powered embedded hardware
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+  \item Ran a human-centred evaluation of musicians' perception of smart instruments with embedded pattern detection, combining quantitative and qualitative methods (IEEE I3DA 2025)
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+  \item Designed and deployed ML and statistical pipelines for financial forensics, compliance monitoring, and risk detection on large structured enterprise data
+  \item Built SQL and Python backend anomaly-scoring services running in production
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+  \item Designed and deployed end-to-end computer-vision and IoT systems for manufacturing at scale across South Asia, North America, and Africa; camera/sensor/IoT streams into production workflows; operational efficiency up to +300\%
+  \item Automated multilingual care-label QC (OpenCV template and feature matching, conveyor + PLC reject integration), cutting inspection time by 99.5\%
+  \item Built loom-side fabric-defect detection using a microscopic camera array, cutting operator headcount by 50\%
+  \item Designed the geometry-alignment algorithm and built the RIP integration for on-demand direct-to-garment printing (Promptly), and consulted on the flipping mechanism; now a commercial product deployed in 4 countries
+  \item Ran C++/Python inference on embedded hardware for real-time IoT ETL; introduced CI/CD and code review practices; mentored engineers
+\end{cvrole}
+
+\section*{Datasets}
+Creator of four open-access musical-pattern datasets on Zenodo (DoMP, DoPP, DoDP, DoDP2): 9,800+ time-aligned sensor/audio recordings across 70+ musicians, used for benchmarking real-time pattern-detection and sequence models.
+
+\section*{Publications}
+\begin{itemize}[leftmargin=1.4em, itemsep=-0.2em, topsep=0.1em]
+  \item Silva, N., Weeraddana, P.C., Fischione, C. \textbf{On Musical Onset Detection via the S-Transform.} IEEE Asilomar Conference on Signals, Systems, and Computers, 2018. \textit{(Stockwell-transform-based time-frequency signal processing for onset detection in noisy audio.)}
+  \item Silva, N. \& Turchet, L. \textbf{Real-Time Audio Pattern Detection for Smart Musical Instruments.} J. Audio Eng. Soc. 74(3), 2026. DOI 10.17743/jaes.2022.0250
+  \item Silva, N. \& Turchet, L. \textbf{Smart Drums.} J. Audio Eng. Soc., 2026 (in press).
+  \item Silva, N. \& Turchet, L. \textbf{MIRaaS: Music Information Retrieval as a Service.} IEEE International Symposium on the Internet of Sounds, 2026 (accepted).
+  \item Silva, N., Wanderley, M., Turchet, L. \textbf{Melody and Motion.} IEEE International Symposium on the Internet of Sounds, 2025.
+  \item Silva, N. \& Turchet, L. \textbf{Real-Time Pattern Recognition of Symbolic Monophonic Music.} ACM Audio Mostly, 2024.
+  \item Silva, N. \& Turchet, L. \textbf{An SSIM-Based Training-Free Method for Pattern Detection.} DAFx, 2022. \textit{(95\% detection accuracy without training data.)}
+\end{itemize}
+
+\section*{Highlights and Recognition}
+\begin{itemize}[leftmargin=1.4em, itemsep=-0.2em, topsep=0.1em]
+  \item MIDI Innovation Awards 2023 -- Finalist ("Hot Licks", Prototypes \& Non-Commercial Software; covered by Sound On Sound and MusicRadar)
+  \item GMOA recognition (Government Medical Officers' Association, Sri Lanka, 2020) -- COVID-19 remote vitals monitoring deployment
+  \item Academic service: Reviewer, IEEE Access and JNSF Sri Lanka; Programme Committee, IEEE IS2 and IEEE I3DA; supervised 2 BSc students at University of Trento
+\end{itemize}
+
+\end{document}

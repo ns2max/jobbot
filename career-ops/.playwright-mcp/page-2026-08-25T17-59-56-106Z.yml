@@ -1,0 +1,364 @@
+- generic [active] [ref=f474e1]:
+  - paragraph [ref=f474e8]: The job you are looking for is no longer open.
+  - main [ref=f474e9]:
+    - generic [ref=f474e10]:
+      - link [ref=f474e12] [cursor=pointer]:
+        - /url: https://x.ai/
+        - img "SpaceXAI Logo" [ref=f474e13]
+      - heading "Current openings at SpaceXAI" [level=1] [ref=f474e14]
+      - generic [ref=f474e19]:
+        - paragraph [ref=f474e20]: Create a Job Alert
+        - paragraph [ref=f474e21]: Level-up your career by having opportunities at SpaceXAI sent directly to your inbox.
+        - link "Create alert" [ref=f474e22] [cursor=pointer]:
+          - /url: https://my.greenhouse.io/users/sign_in?job_board=xai&source=job_alert_board
+      - generic [ref=f474e23]:
+        - generic [ref=f474e26]:
+          - generic [ref=f474e27]: Search
+          - textbox "Search" [ref=f474e28]
+        - generic [ref=f474e29]:
+          - heading "262 jobs" [level=2] [ref=f474e30]
+          - generic [ref=f474e32]:
+            - heading "Data Center" [level=3] [ref=f474e33]
+            - table [ref=f474e35]:
+              - rowgroup:
+                - row "Job":
+                  - columnheader [ref=f474e36]:
+                    - paragraph [ref=f474e37]: Job
+              - rowgroup [ref=f474e38]:
+                - row [ref=f474e39]:
+                  - cell [ref=f474e40]:
+                    - link [ref=f474e41] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5168434007
+                      - paragraph [ref=f474e42]: Associate Data Center Operations Technician
+                      - paragraph [ref=f474e43]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e44]:
+                  - cell [ref=f474e45]:
+                    - link [ref=f474e46] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5212968007
+                      - paragraph [ref=f474e47]: Barista
+                      - paragraph [ref=f474e48]: Memphis, Tennessee
+                - row [ref=f474e49]:
+                  - cell [ref=f474e50]:
+                    - link [ref=f474e51] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5214336007
+                      - paragraph [ref=f474e52]: BIM Designer (Data Center)
+                      - paragraph [ref=f474e53]: Memphis, Tennessee
+                - row [ref=f474e54]:
+                  - cell [ref=f474e55]:
+                    - link [ref=f474e56] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5150780007
+                      - paragraph [ref=f474e57]: CAD Designer
+                      - paragraph [ref=f474e58]: Memphis, Tennessee
+                - row [ref=f474e59]:
+                  - cell [ref=f474e60]:
+                    - link [ref=f474e61] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5142936007
+                      - paragraph [ref=f474e62]: Civil Engineer
+                      - paragraph [ref=f474e63]: Memphis, Tennessee
+                - row [ref=f474e64]:
+                  - cell [ref=f474e65]:
+                    - link "Civil Engineer (SpaceXAI Battery Storage) New Memphis, Tennessee" [ref=f474e66] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5215355007
+                      - paragraph [ref=f474e67]:
+                        - text: Civil Engineer (SpaceXAI Battery Storage)
+                        - generic [ref=f474e68]: New
+                      - paragraph [ref=f474e70]: Memphis, Tennessee
+                - row [ref=f474e71]:
+                  - cell [ref=f474e72]:
+                    - link "Construction Manager New Memphis, Tennessee; Southaven, Mississippi" [ref=f474e73] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5218144007
+                      - paragraph [ref=f474e74]:
+                        - text: Construction Manager
+                        - generic [ref=f474e75]: New
+                      - paragraph [ref=f474e77]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e78]:
+                  - cell [ref=f474e79]:
+                    - link [ref=f474e80] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5123063007
+                      - paragraph [ref=f474e81]: Construction Manager (Electrical)
+                      - paragraph [ref=f474e82]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e83]:
+                  - cell [ref=f474e84]:
+                    - link [ref=f474e85] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5119679007
+                      - paragraph [ref=f474e86]: Construction Manager (Mechanical)
+                      - paragraph [ref=f474e87]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e88]:
+                  - cell [ref=f474e89]:
+                    - link [ref=f474e90] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5123051007
+                      - paragraph [ref=f474e91]: Construction Manager (Structural)
+                      - paragraph [ref=f474e92]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e93]:
+                  - cell [ref=f474e94]:
+                    - link [ref=f474e95] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5123837007
+                      - paragraph [ref=f474e96]: Construction Superintendent, Electrical
+                      - paragraph [ref=f474e97]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e98]:
+                  - cell [ref=f474e99]:
+                    - link [ref=f474e100] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5124647007
+                      - paragraph [ref=f474e101]: Construction Superintendent, Electrical (Night Shift)
+                      - paragraph [ref=f474e102]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e103]:
+                  - cell [ref=f474e104]:
+                    - link [ref=f474e105] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5123845007
+                      - paragraph [ref=f474e106]: Construction Superintendent, Mechanical
+                      - paragraph [ref=f474e107]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e108]:
+                  - cell [ref=f474e109]:
+                    - link [ref=f474e110] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5124669007
+                      - paragraph [ref=f474e111]: Construction Superintendent, Mechanical (Night Shift)
+                      - paragraph [ref=f474e112]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e113]:
+                  - cell [ref=f474e114]:
+                    - link [ref=f474e115] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5123852007
+                      - paragraph [ref=f474e116]: Construction Superintendent, Structural
+                      - paragraph [ref=f474e117]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e118]:
+                  - cell [ref=f474e119]:
+                    - link [ref=f474e120] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5124681007
+                      - paragraph [ref=f474e121]: Construction Superintendent, Structural (Night Shift)
+                      - paragraph [ref=f474e122]: Memphis, Tennessee
+                - row [ref=f474e123]:
+                  - cell [ref=f474e124]:
+                    - link [ref=f474e125] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/4611087007
+                      - paragraph [ref=f474e126]: Controls Engineer
+                      - paragraph [ref=f474e127]: Memphis, TN
+                - row [ref=f474e128]:
+                  - cell [ref=f474e129]:
+                    - link [ref=f474e130] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5150932007
+                      - paragraph [ref=f474e131]: Controls Technician
+                      - paragraph [ref=f474e132]: Southaven, Mississippi
+                - row [ref=f474e133]:
+                  - cell [ref=f474e134]:
+                    - link [ref=f474e135] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5212987007
+                      - paragraph [ref=f474e136]: Cook
+                      - paragraph [ref=f474e137]: Memphis, Tennessee
+                - row [ref=f474e138]:
+                  - cell [ref=f474e139]:
+                    - link [ref=f474e140] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5064636007
+                      - paragraph [ref=f474e141]: Critical Facilities Engineer
+                      - paragraph [ref=f474e142]: Memphis, Tennessee
+                - row [ref=f474e143]:
+                  - cell [ref=f474e144]:
+                    - link [ref=f474e145] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5112514007
+                      - paragraph [ref=f474e146]: Data Analyst - Physical Infrastructure
+                      - paragraph [ref=f474e147]: Memphis, Tennessee
+                - row [ref=f474e148]:
+                  - cell [ref=f474e149]:
+                    - link "Data Center Operations Technician New Atlanta, Georgia" [ref=f474e150] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5216248007
+                      - paragraph [ref=f474e151]:
+                        - text: Data Center Operations Technician
+                        - generic [ref=f474e152]: New
+                      - paragraph [ref=f474e154]: Atlanta, Georgia
+                - row [ref=f474e155]:
+                  - cell [ref=f474e156]:
+                    - link [ref=f474e157] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/4741579007
+                      - paragraph [ref=f474e158]: Data Center Operations Technician
+                      - paragraph [ref=f474e159]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e160]:
+                  - cell [ref=f474e161]:
+                    - link "Data Center Operations Technician (MMR/MDF & Fiber Infrastructure) New Memphis, Tennessee; Southaven, Mississippi" [ref=f474e162] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5215585007
+                      - paragraph [ref=f474e163]:
+                        - text: Data Center Operations Technician (MMR/MDF & Fiber Infrastructure)
+                        - generic [ref=f474e164]: New
+                      - paragraph [ref=f474e166]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e167]:
+                  - cell [ref=f474e168]:
+                    - link [ref=f474e169] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5085890007
+                      - paragraph [ref=f474e170]: Data Center Operations Technician (Night Shift)
+                      - paragraph [ref=f474e171]: Hillsboro, Oregon
+                - row [ref=f474e172]:
+                  - cell [ref=f474e173]:
+                    - link [ref=f474e174] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5214350007
+                      - paragraph [ref=f474e175]: Design Engineer
+                      - paragraph [ref=f474e176]: Memphis, Tennessee
+                - row [ref=f474e177]:
+                  - cell [ref=f474e178]:
+                    - link "Director, Memphis Power Plant Operations New Southaven, Mississippi" [ref=f474e179] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5216112007
+                      - paragraph [ref=f474e180]:
+                        - text: Director, Memphis Power Plant Operations
+                        - generic [ref=f474e181]: New
+                      - paragraph [ref=f474e183]: Southaven, Mississippi
+                - row [ref=f474e184]:
+                  - cell [ref=f474e185]:
+                    - link [ref=f474e186] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5150787007
+                      - paragraph [ref=f474e187]: Documentation Control Specialist - Infrastructure (Datacenters & Power Plants)
+                      - paragraph [ref=f474e188]: Austin, Texas
+                - row [ref=f474e189]:
+                  - cell [ref=f474e190]:
+                    - link [ref=f474e191] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5134220007
+                      - paragraph [ref=f474e192]: Electrical Commissioning Technician
+                      - paragraph [ref=f474e193]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e194]:
+                  - cell [ref=f474e195]:
+                    - link [ref=f474e196] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5136043007
+                      - paragraph [ref=f474e197]: Electrical Engineer
+                      - paragraph [ref=f474e198]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e199]:
+                  - cell [ref=f474e200]:
+                    - link [ref=f474e201] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5182357007
+                      - paragraph [ref=f474e202]: Electrical Engineer (Data Center Infrastructure)
+                      - paragraph [ref=f474e203]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e204]:
+                  - cell [ref=f474e205]:
+                    - link [ref=f474e206] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5189148007
+                      - paragraph [ref=f474e207]: Electrical Reliability Engineer (Data Center Infrastructure)
+                      - paragraph [ref=f474e208]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e209]:
+                  - cell [ref=f474e210]:
+                    - link [ref=f474e211] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5142979007
+                      - paragraph [ref=f474e212]: Electrician (Construction)
+                      - paragraph [ref=f474e213]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e214]:
+                  - cell [ref=f474e215]:
+                    - link "Electrician, Construction (Colossus) New Memphis, Tennessee" [ref=f474e216] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5215038007
+                      - paragraph [ref=f474e217]:
+                        - text: Electrician, Construction (Colossus)
+                        - generic [ref=f474e218]: New
+                      - paragraph [ref=f474e220]: Memphis, Tennessee
+                - row [ref=f474e221]:
+                  - cell [ref=f474e222]:
+                    - link [ref=f474e223] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5214372007
+                      - paragraph [ref=f474e224]: Electrician, Operations
+                      - paragraph [ref=f474e225]: Memphis, Tennessee
+                - row [ref=f474e226]:
+                  - cell [ref=f474e227]:
+                    - link [ref=f474e228] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5190139007
+                      - paragraph [ref=f474e229]: Energy & Infrastructure Counsel
+                      - paragraph [ref=f474e230]: Austin, Texas; Palo Alto, California; Seattle, Washington
+                - row [ref=f474e231]:
+                  - cell [ref=f474e232]:
+                    - link "Energy & Infrastructure Counsel New Memphis, Tennessee" [ref=f474e233] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5218801007
+                      - paragraph [ref=f474e234]:
+                        - text: Energy & Infrastructure Counsel
+                        - generic [ref=f474e235]: New
+                      - paragraph [ref=f474e237]: Memphis, Tennessee
+                - row [ref=f474e238]:
+                  - cell [ref=f474e239]:
+                    - link [ref=f474e240] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5213016007
+                      - paragraph [ref=f474e241]: Executive Chef
+                      - paragraph [ref=f474e242]: Memphis, Tennessee
+                - row [ref=f474e243]:
+                  - cell [ref=f474e244]:
+                    - link [ref=f474e245] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5213022007
+                      - paragraph [ref=f474e246]: Executive Sous Chef
+                      - paragraph [ref=f474e247]: Memphis, Tennessee
+                - row [ref=f474e248]:
+                  - cell [ref=f474e249]:
+                    - link [ref=f474e250] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5182374007
+                      - paragraph [ref=f474e251]: Facilities Infrastructure Engineer (Data Center Infrastructure)
+                      - paragraph [ref=f474e252]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e253]:
+                  - cell [ref=f474e254]:
+                    - link [ref=f474e255] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/4939298007
+                      - paragraph [ref=f474e256]: Facilities Maintenance Assistant
+                      - paragraph [ref=f474e257]: Memphis, Tennessee
+                - row [ref=f474e258]:
+                  - cell [ref=f474e259]:
+                    - link [ref=f474e260] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5201130007
+                      - paragraph [ref=f474e261]: Facilities Maintenance Technician
+                      - paragraph [ref=f474e262]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e263]:
+                  - cell [ref=f474e264]:
+                    - link [ref=f474e265] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/4538639007
+                      - paragraph [ref=f474e266]: Facilities Operations Technician
+                      - paragraph [ref=f474e267]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e268]:
+                  - cell [ref=f474e269]:
+                    - link [ref=f474e270] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5212253007
+                      - paragraph [ref=f474e271]: Facilities Specialist (Data Center)
+                      - paragraph [ref=f474e272]: Memphis, Tennessee
+                - row [ref=f474e273]:
+                  - cell [ref=f474e274]:
+                    - link [ref=f474e275] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5212286007
+                      - paragraph [ref=f474e276]: Facilities Technician
+                      - paragraph [ref=f474e277]: Memphis, Tennessee
+                - row [ref=f474e278]:
+                  - cell [ref=f474e279]:
+                    - link [ref=f474e280] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5175158007
+                      - paragraph [ref=f474e281]: Fiber Foreman
+                      - paragraph [ref=f474e282]: Memphis, Tennessee; Southaven, Mississippi
+                - row [ref=f474e283]:
+                  - cell [ref=f474e284]:
+                    - link [ref=f474e285] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5192318007
+                      - paragraph [ref=f474e286]: Fiber Superintendent
+                      - paragraph [ref=f474e287]: Memphis, Tennessee
+                - row [ref=f474e288]:
+                  - cell [ref=f474e289]:
+                    - link [ref=f474e290] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5148882007
+                      - paragraph [ref=f474e291]: Fiber Technician
+                      - paragraph [ref=f474e292]: Memphis, Tennessee
+                - row [ref=f474e293]:
+                  - cell [ref=f474e294]:
+                    - link [ref=f474e295] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5201304007
+                      - paragraph [ref=f474e296]: Fire Protection Engineer
+                      - paragraph [ref=f474e297]: Memphis, Tennessee
+                - row [ref=f474e298]:
+                  - cell [ref=f474e299]:
+                    - link "Food Services Specialist - All Shifts New Memphis, Tennessee" [ref=f474e300] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/xai/jobs/5220531007
+                      - paragraph [ref=f474e301]:
+                        - text: Food Services Specialist - All Shifts
+                        - generic [ref=f474e302]: New
+                      - paragraph [ref=f474e304]: Memphis, Tennessee
+          - navigation "Pagination" [ref=f474e306]:
+            - button "Previous page" [disabled] [ref=f474e307]
+            - list [ref=f474e310]:
+              - listitem [ref=f474e311]:
+                - button "Go to page 1": "1"
+              - listitem [ref=f474e312]:
+                - button "Go to page 2" [ref=f474e313] [cursor=pointer]: "2"
+              - listitem [ref=f474e314]:
+                - button "Go to page 3" [ref=f474e315] [cursor=pointer]: "3"
+              - listitem [ref=f474e316]:
+                - button "Go to page 4" [ref=f474e317] [cursor=pointer]: "4"
+              - listitem [ref=f474e318]: ...
+              - listitem [ref=f474e319]:
+                - button "Go to page 6" [ref=f474e320] [cursor=pointer]: "6"
+            - button "Next page" [ref=f474e321] [cursor=pointer]
+  - contentinfo [ref=f474e324]:
+    - generic [ref=f474e325]:
+      - paragraph [ref=f474e326]: Powered by
+      - link [ref=f474e327] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f474e328]

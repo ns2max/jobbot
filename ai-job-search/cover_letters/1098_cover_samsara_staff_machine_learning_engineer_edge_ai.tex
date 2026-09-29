@@ -1,0 +1,79 @@
+% Job posting: https://www.samsara.com/company/careers/roles/7431070?gh_jid=7431070&gh_board=samsara
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: Samsara - Staff Machine Learning Engineer, Edge AI (Remote, Canada)
+%  Variant: V1 (AI-Industry), edge-leaning
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+\newcommand{\clTagline}{Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied ML}
+\newcommand{\clRole}{Staff Machine Learning Engineer, Edge AI}
+\newcommand{\clCompany}{Samsara}
+\newcommand{\clTeam}{the Edge AI team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{} (JR00088)}
+
+\clAddressee
+
+I am applying for the Staff Machine Learning Engineer, Edge AI role at Samsara. I am a Machine Learning Research Engineer who has been shipping production inference on constrained hardware since 2015, with more than ten years of continuous work across industry and academia and a PhD from the University of Trento. My focus is making models accurate enough to trust inside hard latency, compute and power budgets on the device itself. My published work runs real-time audio pattern detection in 14 ms on a Raspberry Pi 4, F1 0.76, 74 times faster than the method it replaced (JAES 2026).
+
+The role calls for someone who can optimize ML for edge constraints, ship production code at scale, and translate business and customer needs into crisp problem definitions. At MAS Holdings I built and ran C++ and Python inference engines on embedded and IoT hardware across factories on three continents, ingesting millions of operational events per day and turning stakeholder and compliance requirements into deployed systems, including computer-vision inspection that cut QC time by 99.5 percent. During my PhD and postdoc I owned the full pipeline for streaming sensor and camera data end to end, and designed the benchmark and ablation suites that made the accuracy, latency and CPU tradeoffs measurable rather than assumed. I have set CI/CD and code-review practice, mentored engineers, and supervised two thesis students. I work in Python and C++ and would pick up Rust quickly.
+
+What makes Samsara a strong fit is that the Connected Operations platform runs safety-critical inference, such as collision and blind-spot warnings, on the dash cam at the edge, where latency is not negotiable. That is precisely the constraint I have built for. In the first months I would help push more of the Intelligence roadmap onto the device, bringing model-side rigour to what runs on-hardware versus in the cloud and how that tradeoff is measured. I prototype quickly, including with agentic coding tools such as Claude Code.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship and available immediately, and this remote Canada role fits me directly. I would welcome the chance to discuss how my experience in real-time and edge ML can support \clTeam{} at Samsara. My portfolio, publications and open datasets are at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

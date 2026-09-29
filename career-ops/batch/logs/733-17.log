@@ -1,0 +1,17 @@
+```json
+{
+  "status": "completed",
+  "id": "17",
+  "report_num": "733",
+  "company": "Vapi",
+  "role": "Member of Technical Staff, DevOps",
+  "score": null,
+  "legitimacy": "Proceed with Caution",
+  "pdf": null,
+  "report": "reports/733-vapi-2026-08-24.md",
+  "error": null,
+  "note": "Excluded — Canada-only location policy (SF, Hybrid, US role). No CV/PDF generated per policy."
+}
+```
+
+Vapi role: SF, hybrid, US comp — hard exclude by profile Canada-only policy. No score, no PDF, no full A-G eval (per rule). Report + tracker line written as SKIP.

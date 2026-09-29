@@ -1,0 +1,334 @@
+- generic [active] [ref=f576e1]:
+  - img "Banner" [ref=f576e3]
+  - main [ref=f576e4]:
+    - generic [ref=f576e5]:
+      - img "Reddit Logo" [ref=f576e7]
+      - generic [ref=f576e8]:
+        - link "Back to jobs" [ref=f576e9] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/reddit
+        - generic [ref=f576e13]:
+          - generic [ref=f576e14]:
+            - heading "Staff Data Scientist, Ads" [level=1] [ref=f576e15]
+            - generic [ref=f576e16]: Remote - United States
+          - button "Apply" [ref=f576e20] [cursor=pointer]
+        - generic [ref=f576e21]:
+          - generic [ref=f576e28]:
+            - text: Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit
+            - link "www.redditinc.com" [ref=f576e29] [cursor=pointer]:
+              - /url: http://www.redditinc.com/
+            - text: .
+          - generic [ref=f576e30]:
+            - paragraph [ref=f576e31]:
+              - strong [ref=f576e32]: "Location: US remote-friendly"
+            - paragraph [ref=f576e33]: Reddit has a flexible first workforce. At Reddit we continue to grow our teams with the best talent. We're completely remote friendly and will continue to be.
+            - paragraph [ref=f576e34]: Advertising is Reddit’s primary revenue driver and we have an ambitious goal to turn it into a massive business. Although several large digital ad platforms already exist, advertisers are being increasingly drawn to Reddit because of our passionate communities. We believe our community-centric platform has created the opportunity for Reddit to build a highly differentiated ads business.
+            - paragraph [ref=f576e35]:
+              - strong [ref=f576e36]: "About the Ads Data Science Team:"
+            - paragraph [ref=f576e37]: The Ads Data Science team at Reddit leverages data to maximize advertiser value on Reddit through robust data foundations, metrics, and strategic insights generated through experimentation and cutting-edge DS methods.
+            - paragraph [ref=f576e38]: We work on a wide range of challenging problems in the areas of ads and platform measurement, campaign and creative management, advertiser growth and retention, monetization, and the intersection of brand and community engagement. We are a highly collaborative team of passionate data scientists and engineers who are constantly pushing the boundaries of what's possible with machine learning and statistical modeling.
+            - paragraph [ref=f576e39]:
+              - strong [ref=f576e40]: "About the Role:"
+            - paragraph [ref=f576e41]: Reddit’s Ads Data Science team is looking for a highly experienced Staff Data Scientist to advance the intelligence powering the advertiser experience on Reddit. In this role, you'll take deep ownership of a high-impact problem space within advertising, specializing in measurement, identity, and signal quality.
+            - paragraph [ref=f576e42]: This is a high-impact, high-autonomy role where you'll influence strategic direction, set a high technical bar, and drive cross-functional initiatives across one or more critical focus areas in the Ads organization.
+            - paragraph [ref=f576e43]:
+              - strong [ref=f576e44]: "Responsibilities:"
+            - list [ref=f576e45]:
+              - listitem [ref=f576e46]:
+                - strong [ref=f576e47]: "Design the Future of Ads Identity:"
+                - text: Develop/employ probabilistic models for identity resolution. Design the methodology that links on-platform and off-platform actions to maximize addressability while honoring privacy.
+              - listitem [ref=f576e48]:
+                - strong [ref=f576e49]: "Advance Lift Methodologies & Experimentation:"
+                - text: Own the statistical rigor behind Reddit’s Brand and Conversion Lift products. Innovate experimental design and develop infrastructure that supports large-scale, high-velocity, low-bias testing for advertisers.
+              - listitem [ref=f576e50]:
+                - strong [ref=f576e51]: "Maximize Signal for Predictive Performance:"
+                - text: Define the strategy for new signal sources. You will mathematically quantify the value of these signals and work with modeling teams to incorporate them into predictive models, directly improving bidding efficiency and ROAS.
+              - listitem [ref=f576e52]:
+                - strong [ref=f576e53]: "Define Ground Truth & Evaluation Frameworks:"
+                - text: Solve the industry-wide challenge of validating identity and measurement. Design the objective functions and truth sets used to train our models and measure the incremental impact of our identity graph.
+              - listitem [ref=f576e54]:
+                - strong [ref=f576e55]: "Lead Through Cross-Functional and Technical Influence:"
+                - text: Collaborate deeply with engineering, product, and sales to align on strategic goals, translate insights into action, and drive execution. Set a high technical bar by mentoring others and championing best practices across modeling, experimentation, and measurement.
+            - paragraph [ref=f576e56]:
+              - strong [ref=f576e57]: "Qualifications:"
+            - list [ref=f576e58]:
+              - listitem [ref=f576e59]:
+                - strong [ref=f576e60]: "Required:"
+                - list [ref=f576e61]:
+                  - listitem [ref=f576e62]: Advanced degree (Master's or Ph.D.) in Statistics, Mathematics, Physics, Economics, or Operations Research
+                  - listitem [ref=f576e63]: "For M.S. holders: 10+ years of industry experience in applied science or data science roles"
+                  - listitem [ref=f576e64]: "For Ph.D. holders: 6+ years of industry experience in applied science or data science roles"
+                  - listitem [ref=f576e65]: Deep understanding of the ads ecosystem
+                  - listitem [ref=f576e66]:
+                    - text: "Demonstrated expertise in at least one of the following areas:"
+                    - list [ref=f576e67]:
+                      - listitem [ref=f576e68]: Measurement & Experimentation at Scale (with focus on lift and attribution)
+                      - listitem [ref=f576e69]: Identity Graph Creation & Resolution Methodology and Infrastructure
+                      - listitem [ref=f576e70]: Predictive Modeling with Signal Loss
+                  - listitem [ref=f576e71]: Advanced proficiency in statistical programming (Python or R) and SQL
+                  - listitem [ref=f576e72]: Experience with machine learning or optimization techniques
+                  - listitem [ref=f576e73]: Strong understanding of experimental design, causal inference, or A/B testing methodologies
+                  - listitem [ref=f576e74]: Exceptional problem-solving and communication skills, with a track record of influencing product and engineering partners
+                  - listitem [ref=f576e75]: Experience working in fast-paced, ambiguous environments with cross-functional teams
+            - paragraph [ref=f576e76]:
+              - strong [ref=f576e77]: "Benefits:"
+            - list [ref=f576e78]:
+              - listitem [ref=f576e79]: Comprehensive Healthcare Benefits and Income Replacement Programs
+              - listitem [ref=f576e80]: 401k with Employer Match
+              - listitem [ref=f576e81]: Global Benefit programs that fit your lifestyle, from workspace to professional development to caregiving support
+              - listitem [ref=f576e82]: Family Planning Support
+              - listitem [ref=f576e83]: Gender-Affirming Care
+              - listitem [ref=f576e84]: Mental Health & Coaching Benefits
+              - listitem [ref=f576e85]: Flexible Vacation & Paid Volunteer Time Off
+              - listitem [ref=f576e86]: Generous Paid Parental Leave
+            - paragraph [ref=f576e87]
+            - paragraph [ref=f576e88]: "#LI-Remote"
+          - generic [ref=f576e90]:
+            - generic [ref=f576e93]:
+              - paragraph [ref=f576e94]:
+                - strong [ref=f576e95]: "Pay Transparency:"
+              - paragraph [ref=f576e96]: This job posting may span more than one career level.
+              - paragraph [ref=f576e97]:
+                - text: In addition to base salary, this job is eligible to receive equity in the form of restricted stock units, and depending on the position offered, it may also be eligible to receive a commission. Additionally, Reddit offers a wide range of benefits to U.S.-based employees, including medical, dental, and vision insurance, 401(k) program with employer match, generous time off for vacation, and parental leave. To learn more, please visit
+                - link "https://www.redditinc.com/careers/" [ref=f576e98] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/careers/
+                - text: .
+              - paragraph [ref=f576e99]: To provide greater transparency to candidates, we share base salary ranges for all US-based job postings regardless of state. We set standard base pay ranges for all roles based on function, level, and country location, benchmarked against similar stage growth companies. Final offer amounts are determined by multiple factors including, skills, depth of work experience and relevant licenses/credentials, and may vary from the amounts listed below.
+            - paragraph [ref=f576e100]: "The base salary range for this position is:"
+            - paragraph [ref=f576e101]: $217,000 - $303,900 USD
+          - generic [ref=f576e102]:
+            - paragraph [ref=f576e103]: In select roles and locations, the interviews will be recorded, transcribed and summarized by artificial intelligence (AI). You will have the opportunity to opt out of recording, transcription and summarization prior to any scheduled interviews.
+            - paragraph [ref=f576e104]:
+              - generic [ref=f576e105]:
+                - text: "During the interview, we will collect the following categories of personal information: Identifiers, Professional and Employment-Related Information, Sensory Information (audio/video recording), and any other categories of personal information you choose to share with us. We will use this information to evaluate your application for employment or an independent contractor role, as applicable. We will not sell your personal information or disclose it to any third party for their marketing purposes. We will delete any recording of your interview promptly after making a hiring decision. For more information about how we will handle your personal information, including our retention of it, please refer to our"
+                - link "Candidate Privacy Policy for Potential Employees and Contractors" [ref=f576e106] [cursor=pointer]:
+                  - /url: https://redditinc.com/policies/candidate-privacy-policy
+                - text: .
+            - paragraph [ref=f576e107]:
+              - emphasis [ref=f576e108]: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. Reddit is committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If, due to a disability, you need an accommodation during the interview process, please let your recruiter know.
+      - separator [ref=f576e109]
+      - generic [ref=f576e110]:
+        - generic [ref=f576e112]:
+          - heading "Apply for this job" [level=2] [ref=f576e114]
+          - generic [ref=f576e115]:
+            - paragraph [ref=f576e117]: "*"
+            - paragraph [ref=f576e118]: indicates a required field
+        - generic [ref=f576e119]:
+          - generic [ref=f576e120]:
+            - generic [ref=f576e123]:
+              - generic [ref=f576e124]: First Name*
+              - textbox "First Name" [ref=f576e125]
+            - generic [ref=f576e128]:
+              - generic [ref=f576e129]: Last Name*
+              - textbox "Last Name" [ref=f576e130]
+            - generic [ref=f576e133]:
+              - generic [ref=f576e134]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f576e135]
+            - generic [ref=f576e138]:
+              - generic [ref=f576e139]: Email*
+              - textbox "Email" [ref=f576e140]
+            - group "Phone" [ref=f576e142]:
+              - generic [ref=f576e146]:
+                - generic [ref=f576e147]: Country*
+                - generic [ref=f576e148]:
+                  - log [ref=f576e150]
+                  - generic [ref=f576e152]:
+                    - combobox "Country" [ref=f576e155]
+                    - button "Toggle flyout" [ref=f576e157] [cursor=pointer]
+                  - textbox
+              - generic [ref=f576e162]:
+                - generic [ref=f576e163]: Phone*
+                - textbox "Phone" [ref=f576e165]
+            - generic [ref=f576e166]:
+              - generic [ref=f576e168]:
+                - generic [ref=f576e169]: Location (City)*
+                - generic [ref=f576e170]:
+                  - log [ref=f576e172]
+                  - combobox "Location (City)" [ref=f576e177]
+                  - textbox
+              - button "Locate me" [ref=f576e178] [cursor=pointer]
+            - group "Resume/CV*" [ref=f576e180]:
+              - generic [ref=f576e183]:
+                - generic [ref=f576e185]:
+                  - button "Attach" [ref=f576e186] [cursor=pointer]
+                  - generic [ref=f576e187]: Attach
+                  - button "Attach" [ref=f576e188]
+                - button "Dropbox" [ref=f576e190] [cursor=pointer]
+                - button "Google Drive" [ref=f576e192] [cursor=pointer]
+                - generic [ref=f576e194]:
+                  - button "Enter manually" [ref=f576e195] [cursor=pointer]
+                  - generic [ref=f576e196]: Enter manually
+                - paragraph [ref=f576e197]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f576e199]:
+              - generic [ref=f576e202]:
+                - generic [ref=f576e204]:
+                  - button "Attach" [ref=f576e205] [cursor=pointer]
+                  - generic [ref=f576e206]: Attach
+                  - button "Attach" [ref=f576e207]
+                - button "Dropbox" [ref=f576e209] [cursor=pointer]
+                - button "Google Drive" [ref=f576e211] [cursor=pointer]
+                - generic [ref=f576e213]:
+                  - button "Enter manually" [ref=f576e214] [cursor=pointer]
+                  - generic [ref=f576e215]: Enter manually
+                - paragraph [ref=f576e216]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f576e217]:
+            - separator [ref=f576e218]
+            - generic [ref=f576e221]:
+              - generic [ref=f576e222]: LinkedIn Profile*
+              - textbox "LinkedIn Profile" [ref=f576e223]
+            - generic [ref=f576e224]:
+              - generic [ref=f576e226]:
+                - generic [ref=f576e227]: Please provide the name of your current (or most recent) company*
+                - textbox "Please provide the name of your current (or most recent) company" [ref=f576e228]
+              - paragraph [ref=f576e231]: "Note: if you're currently employed at Reddit, please submit your application via our Internal Job Board"
+            - generic [ref=f576e234]:
+              - generic [ref=f576e235]: "Do you hold an advanced degree (masters or Ph.D) in one of the following fields?: Mathematics, Statistics, Computer Science, Computational Science, Scientific Computing, Operations Research, Physics, Astrophysics, Geophysics, Biophysics, Industrial Engineering, Chemical Engineering, Nuclear Engineering, Biostatistics, Biophysics, Neuroscience, Financial Engineering, Mathematical Finance, Economics*"
+              - generic [ref=f576e236]:
+                - log [ref=f576e238]
+                - generic [ref=f576e240]:
+                  - generic [ref=f576e241]:
+                    - generic [ref=f576e242]: Select...
+                    - 'combobox "Do you hold an advanced degree (masters or Ph.D) in one of the following fields?: Mathematics, Statistics, Computer Science, Computational Science, Scientific Computing, Operations Research, Physics, Astrophysics, Geophysics, Biophysics, Industrial Engineering, Chemical Engineering, Nuclear Engineering, Biostatistics, Biophysics, Neuroscience, Financial Engineering, Mathematical Finance, Economics" [ref=f576e244]'
+                  - button "Toggle flyout" [ref=f576e246] [cursor=pointer]
+                - textbox
+            - generic [ref=f576e251]:
+              - generic [ref=f576e252]: Do you have a Masters degree and 10+ years of industry experience or a Ph.D and 6+ years of industry experience in applied science or data science roles? This does not include research or internships.*
+              - generic [ref=f576e253]:
+                - log [ref=f576e255]
+                - generic [ref=f576e257]:
+                  - generic [ref=f576e258]:
+                    - generic [ref=f576e259]: Select...
+                    - combobox "Do you have a Masters degree and 10+ years of industry experience or a Ph.D and 6+ years of industry experience in applied science or data science roles? This does not include research or internships." [ref=f576e261]
+                  - button "Toggle flyout" [ref=f576e263] [cursor=pointer]
+                - textbox
+            - generic [ref=f576e268]:
+              - generic [ref=f576e269]: Do you have a deep understanding of / experience in the ads domain?*
+              - generic [ref=f576e270]:
+                - log [ref=f576e272]
+                - generic [ref=f576e274]:
+                  - generic [ref=f576e275]:
+                    - generic [ref=f576e276]: Select...
+                    - combobox "Do you have a deep understanding of / experience in the ads domain?" [ref=f576e278]
+                  - button "Toggle flyout" [ref=f576e280] [cursor=pointer]
+                - textbox
+            - generic [ref=f576e285]:
+              - generic [ref=f576e286]: How did you hear about this job?*
+              - textbox "How did you hear about this job?" [ref=f576e287]
+            - generic [ref=f576e290]:
+              - generic [ref=f576e291]: Are you currently authorized to work in the U.S.?*
+              - generic [ref=f576e292]:
+                - log [ref=f576e294]
+                - generic [ref=f576e296]:
+                  - generic [ref=f576e297]:
+                    - generic [ref=f576e298]: Select...
+                    - combobox "Are you currently authorized to work in the U.S.?" [ref=f576e300]
+                  - button "Toggle flyout" [ref=f576e302] [cursor=pointer]
+                - textbox
+            - generic [ref=f576e307]:
+              - generic [ref=f576e308]: Do you now, or will you in the future, require immigration sponsorship to work at Reddit?*
+              - generic [ref=f576e309]:
+                - log [ref=f576e311]
+                - generic [ref=f576e313]:
+                  - generic [ref=f576e314]:
+                    - generic [ref=f576e315]: Select...
+                    - combobox "Do you now, or will you in the future, require immigration sponsorship to work at Reddit?" [ref=f576e317]
+                  - button "Toggle flyout" [ref=f576e319] [cursor=pointer]
+                - textbox
+            - generic [ref=f576e322]:
+              - generic [ref=f576e324]:
+                - generic [ref=f576e325]: By selecting "I agree," I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy. *
+                - generic [ref=f576e326]:
+                  - log [ref=f576e328]
+                  - generic [ref=f576e330]:
+                    - generic [ref=f576e331]:
+                      - generic [ref=f576e332]: Select...
+                      - combobox "By selecting \"I agree,\" I understand that the information I have provided as part of this job application will be processed in accordance with Reddit's Candidate Privacy Policy." [ref=f576e334]
+                    - button "Toggle flyout" [ref=f576e336] [cursor=pointer]
+                  - textbox
+              - paragraph [ref=f576e341]:
+                - link "Reddit's Candidate Privacy Policy" [ref=f576e342] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/policies/candidate-privacy-policy
+          - separator [ref=f576e343]
+          - generic [ref=f576e344]:
+            - heading "Reddit U.S. Equal Employment Information" [level=3] [ref=f576e345]
+            - generic [ref=f576e347]:
+              - paragraph [ref=f576e348]: Reddit is proud to be an equal opportunity employer, and is committed to building a workforce representative of the diverse communities we serve. To bring community and belonging to everyone in the world, Reddit’s employees must represent communities and redditors on our platform.
+              - paragraph [ref=f576e349]: Our vision at Reddit is to have a workforce representative of people with different perspectives and experiences, including but not limited to, gender, race and ethnicity, sexual orientation, age, national origin, religion, and political views.
+              - paragraph [ref=f576e350]: We invite you to self-identify across the identities below so we can better understand our talent pools and assess our effectiveness in attracting and recruiting people to Reddit from all backgrounds.
+              - paragraph [ref=f576e351]:
+                - text: Answering these questions will not impact your application, nor will this information be shared with anyone making a hiring decision. For more information, please refer to our statement
+                - link "here" [ref=f576e352] [cursor=pointer]:
+                  - /url: https://www.redditinc.com/assets/documents/eeoc-statement.pdf
+                - text: .
+            - generic [ref=f576e354]:
+              - generic [ref=f576e355]: What gender identity do you most closely identify with? *
+              - generic [ref=f576e356]:
+                - log [ref=f576e358]
+                - generic [ref=f576e360]:
+                  - generic [ref=f576e361]:
+                    - generic [ref=f576e362]: Select...
+                    - combobox "What gender identity do you most closely identify with?" [ref=f576e364]
+                  - button "Toggle flyout" [ref=f576e366] [cursor=pointer]
+                - textbox
+            - generic [ref=f576e370]:
+              - generic [ref=f576e371]: Are you a person of transgender experience? *
+              - generic [ref=f576e372]:
+                - log [ref=f576e374]
+                - generic [ref=f576e376]:
+                  - generic [ref=f576e377]:
+                    - generic [ref=f576e378]: Select...
+                    - combobox "Are you a person of transgender experience?" [ref=f576e380]
+                  - button "Toggle flyout" [ref=f576e382] [cursor=pointer]
+                - textbox
+            - generic [ref=f576e386]:
+              - generic [ref=f576e387]: What sexual orientation do you most closely identify with? *
+              - generic [ref=f576e388]:
+                - log [ref=f576e390]
+                - generic [ref=f576e392]:
+                  - generic [ref=f576e393]:
+                    - generic [ref=f576e394]: Select...
+                    - combobox "What sexual orientation do you most closely identify with?" [ref=f576e396]
+                  - button "Toggle flyout" [ref=f576e398] [cursor=pointer]
+                - textbox
+            - generic [ref=f576e402]:
+              - generic [ref=f576e403]: Do you live with a disability (as outlined by the ADA)?*
+              - generic [ref=f576e404]:
+                - log [ref=f576e406]
+                - generic [ref=f576e408]:
+                  - generic [ref=f576e409]:
+                    - generic [ref=f576e410]: Select...
+                    - combobox "Do you live with a disability (as outlined by the ADA)?" [ref=f576e412]
+                  - button "Toggle flyout" [ref=f576e414] [cursor=pointer]
+                - textbox
+            - generic [ref=f576e418]:
+              - generic [ref=f576e419]: Are you a veteran/have you served in the military? *
+              - generic [ref=f576e420]:
+                - log [ref=f576e422]
+                - generic [ref=f576e424]:
+                  - generic [ref=f576e425]:
+                    - generic [ref=f576e426]: Select...
+                    - combobox "Are you a veteran/have you served in the military?" [ref=f576e428]
+                  - button "Toggle flyout" [ref=f576e430] [cursor=pointer]
+                - textbox
+            - generic [ref=f576e434]:
+              - generic [ref=f576e435]: Please select up to 2 ethnicities that you most closely identify with.*
+              - generic [ref=f576e436]:
+                - log [ref=f576e438]
+                - generic [ref=f576e440]:
+                  - generic [ref=f576e441]:
+                    - generic [ref=f576e442]: Select...
+                    - combobox "Please select up to 2 ethnicities that you most closely identify with." [ref=f576e444]
+                  - button "Toggle flyout" [ref=f576e446] [cursor=pointer]
+                - textbox
+          - separator [ref=f576e449]
+          - generic [ref=f576e451]:
+            - checkbox "By checking this box, I consent to Reddit collecting, storing, and processing my responses to the demographic data surveys above.*" [ref=f576e453]
+            - generic [ref=f576e454]: By checking this box, I consent to Reddit collecting, storing, and processing my responses to the demographic data surveys above.*
+          - button "Submit application" [ref=f576e456] [cursor=pointer]
+  - contentinfo [ref=f576e457]:
+    - generic [ref=f576e458]:
+      - paragraph [ref=f576e459]: Powered by
+      - link [ref=f576e460] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f576e461]
+  - iframe [ref=f576e475]:
+    

@@ -1,0 +1,91 @@
+- generic [active] [ref=f262e1]:
+  - link [ref=f262e4] [cursor=pointer]:
+    - /url: https://jobs.lever.co/waabi
+    - img "Waabi logo" [ref=f262e5]
+  - generic [ref=f262e7]:
+    - generic [ref=f262e9]:
+      - generic [ref=f262e10]:
+        - heading "Senior / Staff Research Engineer, Simulation Assets & Content Systems" [level=2] [ref=f262e11]
+        - generic [ref=f262e12]:
+          - generic [ref=f262e13]: Toronto, ON / San Francisco, CA / Pittsburgh, PA / Remote US & Canada
+          - generic [ref=f262e14]: Software – Autonomy & Algorithms /
+          - generic [ref=f262e15]: Full-time /
+          - generic [ref=f262e16]: Hybrid
+      - link "apply for this job" [ref=f262e18] [cursor=pointer]:
+        - /url: https://jobs.lever.co/waabi/a51f8167-0aef-4df7-8672-b5ebd8f566f2/apply
+    - generic [ref=f262e19]:
+      - generic [ref=f262e20]:
+        - generic [ref=f262e21]: Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical AI. With a world-class team, we're unlocking the next era of autonomous transportation with technology that's powering commercial autonomous trucks and robotaxis. Waabi is backed by and partners with world leaders in AI, automotive, logistics, and deep tech.
+        - generic [ref=f262e23]:
+          - text: "With offices in Toronto, San Francisco, Dallas, and Pittsburgh, Waabi is growing quickly and looking for diverse, innovative and collaborative candidates who want to impact the world in a positive way. To learn more visit:"
+          - link "www.waabi.ai" [ref=f262e24] [cursor=pointer]:
+            - /url: http://www.waabi.ai
+        - heading "You will…" [level=2] [ref=f262e26]
+        - list [ref=f262e27]:
+          - listitem [ref=f262e28]:
+            - paragraph [ref=f262e29]: Be part of a multidisciplinary team of Research Scientists and Engineers building the content backbone of a best-in-class multi-sensor simulation stack.
+          - listitem [ref=f262e30]:
+            - paragraph [ref=f262e31]:
+              - strong [ref=f262e32]: Architect and own asset pipelines end-to-end
+              - text: ": From raw sensor logs all the way into simulation-ready representations (e.g., 3DGS, NeRF, mesh, hybrid), validation, packaging, and serving into Waabi World."
+          - listitem [ref=f262e33]:
+            - paragraph [ref=f262e34]:
+              - strong [ref=f262e35]: Design schemas, formats, and storage
+              - text: for a heterogeneous asset library spanning traditional mesh/material assets, neural representations, and generative-model outputs. Ownership of design decisions ranging from formats and compression, to streaming, and cross-renderer interop.
+          - listitem [ref=f262e36]:
+            - paragraph [ref=f262e37]:
+              - strong [ref=f262e38]: Build tooling and visualization
+              - text: that lets research scientists, simulation engineers, and technical artists inspect, compare, debug, and curate assets at the scale of tens of thousands of items — including search, similarity, lineage, and regression review.
+          - listitem [ref=f262e39]:
+            - paragraph [ref=f262e40]:
+              - strong [ref=f262e41]: Integrate cutting-edge research into the pipeline
+              - text: — collaborate with the neural rendering and generative AI teams to productionize the latest reconstruction, diffusion, and world-model techniques as first-class steps in the asset lifecycle.
+          - listitem [ref=f262e42]:
+            - paragraph [ref=f262e43]:
+              - strong [ref=f262e44]: Collaborate with autonomy and safety teams
+              - text: to ensure the asset catalog meets the diversity, realism, and coverage demands of training and closed-loop evaluation.
+        - heading "Qualifications:" [level=2] [ref=f262e45]
+        - list [ref=f262e46]:
+          - listitem [ref=f262e47]:
+            - paragraph [ref=f262e48]:
+              - strong [ref=f262e49]: Shipping Production Software.
+              - text: You have experience reading and developing production-quality software at scale, not just prototypes. You have shipped systems that other engineers and researchers depend on day-to-day.
+          - listitem [ref=f262e50]:
+            - paragraph [ref=f262e51]:
+              - strong [ref=f262e52]: 3D Content Pipelines.
+              - text: "You have built or extended large-scale 3D content pipelines — ingestion, processing, validation, versioning, and serving: for graphics, simulation, VFX, games, robotics, or AV. You understand the failure modes that emerge at tens of thousands of assets."
+          - listitem [ref=f262e53]:
+            - paragraph [ref=f262e54]:
+              - strong [ref=f262e55]: Modern 3D Representations.
+              - text: "You are fluent across at least several of: traditional mesh/material/PBR, OpenUSD, NeRF, 3D Gaussian Splatting, and procedural/generative content. You understand the trade-offs between paradigms — fidelity, edit-ability, runtime cost, storage, interop, and can make pragmatic choices."
+          - listitem [ref=f262e56]:
+            - paragraph [ref=f262e57]:
+              - strong [ref=f262e58]: Cloud Infrastructure at Scale.
+              - text: Experience designing, launching, and debugging GPU jobs in the cloud (AWS, GCP, or equivalent), including job orchestration, cost modeling, and throughput optimization for batch and pipeline workloads.
+          - listitem [ref=f262e59]:
+            - paragraph [ref=f262e60]:
+              - strong [ref=f262e61]: Strong software engineering fundamentals.
+              - text: You write efficient and maintainable code in Python, as well as in at least one native systems language such as C++ or Rust
+      - generic [ref=f262e62]:
+        - generic [ref=f262e63]: "The US yearly salary range for this role is: $155,000 - $269,000 USD in addition to competitive perks & benefits. Waabi US Inc.’s yearly salary ranges are determined based on several factors in accordance with the Company’s compensation practices. The salary base range is reflective of the minimum and maximum target for new hire salaries for the position across all US locations. Note: The Company provides additional compensation for employees in this role, including equity incentive awards and an annual performance bonus."
+        - generic [ref=f262e65]: "Perks/Benefits:"
+        - generic [ref=f262e67]: "- Competitive compensation and equity awards."
+        - generic [ref=f262e68]: "- Health and Wellness benefits encompassing Medical, Dental and Vision coverage (for full-time employees only)."
+        - generic [ref=f262e69]: "- Unlimited Vacation."
+        - generic [ref=f262e70]: "- Flexible hours and Work from Home support."
+        - generic [ref=f262e71]: "- Daily drinks, snacks and catered meals (when in office)."
+        - generic [ref=f262e72]: "- Regularly scheduled team building activities and social events both on-site, off-site & virtually."
+        - generic [ref=f262e73]: "- As we grow, this list continues to evolve!"
+        - generic [ref=f262e75]: Waabi is a technology start-up building technologies to transform the way the world moves. Join our talented team to be a part of the future and to make an impact!
+        - generic [ref=f262e77]: Waabi is an equal opportunity employer. We celebrate diversity and are committed to creating a supportive, inclusive, and accessible workplace for all our employees. We seek applicants of all backgrounds and identities, across race, color, ethnicity, national origin or ancestry, age, citizenship, religion, sex, sexual orientation, gender identity or expression, military or veteran status, marital status, pregnancy or parental status, caregiver status, disability, or any other characteristic protected by law. We make workplace accommodations for qualified individuals with disabilities as required by applicable law. If reasonable accommodation is needed to participate in the job application or interview process please let our recruiting team know.
+      - generic [ref=f262e78]: We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+      - link "apply for this job" [ref=f262e81] [cursor=pointer]:
+        - /url: https://jobs.lever.co/waabi/a51f8167-0aef-4df7-8672-b5ebd8f566f2/apply
+  - generic [ref=f262e83]:
+    - paragraph [ref=f262e84]:
+      - link "Waabi Home Page" [ref=f262e85] [cursor=pointer]:
+        - /url: http://www.waabi.ai
+    - link "Jobs powered by Lever logo" [ref=f262e86] [cursor=pointer]:
+      - /url: https://www.lever.co/job-seeker-support/
+      - generic [ref=f262e87]: Jobs powered by
+      - img "Lever logo" [ref=f262e88]

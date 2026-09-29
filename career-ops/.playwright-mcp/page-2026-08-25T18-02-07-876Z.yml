@@ -1,0 +1,129 @@
+- generic [ref=f495e2]:
+  - list [ref=f495e4]:
+    - listitem [ref=f495e5]:
+      - link [ref=f495e6] [cursor=pointer]:
+        - /url: https://www.suno.com/
+        - img "Suno" [ref=f495e7]
+    - listitem [ref=f495e8]:
+      - link "Back to Suno’s Job Listings" [ref=f495e9] [cursor=pointer]:
+        - /url: /suno
+    - listitem
+  - generic [ref=f495e12]:
+    - heading "Senior / Staff Software Engineer, AI Engineering" [level=1] [ref=f495e14]
+    - generic [ref=f495e15]:
+      - generic [ref=f495e16]:
+        - generic [ref=f495e17]:
+          - heading "Location" [level=2] [ref=f495e18]
+          - paragraph [ref=f495e19]: Boston
+        - generic [ref=f495e20]:
+          - heading "Employment Type" [level=2] [ref=f495e21]
+          - paragraph [ref=f495e22]: Full time
+        - generic [ref=f495e23]:
+          - heading "Location Type" [level=2] [ref=f495e24]
+          - paragraph [ref=f495e25]: On-site
+        - generic [ref=f495e26]:
+          - heading "Department" [level=2] [ref=f495e27]
+          - paragraph [ref=f495e28]: Engineering
+        - generic [ref=f495e29]:
+          - heading "Compensation" [level=2] [ref=f495e30]
+          - paragraph [ref=f495e32]: $228,960 – $363,510
+      - generic [ref=f495e33]:
+        - tablist [ref=f495e34]:
+          - tab "Overview" [selected] [ref=f495e35] [cursor=pointer]
+          - tab "Application" [ref=f495e36] [cursor=pointer]
+        - tabpanel "Overview" [ref=f495e38]:
+          - generic [ref=f495e39]:
+            - heading [level=1] [ref=f495e40]:
+              - strong [ref=f495e41]: About Suno
+            - paragraph [ref=f495e42]: "We're building the world's first creative entertainment platform, where the entire world can feel the joy and fulfillment of making music. Music is for everyone: Our users include everyone from grandmothers creating songs for their loved ones, to Grammy winners using Suno Studio, our power tool, to make the most popular hits in the world."
+            - paragraph [ref=f495e43]: "Building the future of entertainment requires ambition. The pace is fast, the problems are hard, and the work demands ownership and intensity. For the right people, it’s incredibly rewarding: a chance to shape a new medium, work with a small team that cares deeply about quality, make music, drink too much coffee, and build something that millions of people use to express themselves in ways that were never before possible."
+            - paragraph [ref=f495e44]: Suno is the fastest growing consumer entertainment company and the leader in AI music. We are backed by leading investors including Bond Capital, Menlo Ventures, Lightspeed Venture Partners, IVP, Forerunner, Union Square Ventures, Alkeon, Quiet, Matrix Partners, Schroders Capital and, NVentures (venture arm of NVIDIA).
+            - paragraph [ref=f495e45]
+            - paragraph [ref=f495e46]:
+              - strong [ref=f495e47]: About the Role
+            - paragraph [ref=f495e48]: "Suno is hiring a Senior-Staff Software Engineer, AI Engineering - responsible for writing the software that helps our non-engineering functions move faster, work smarter, and scale. As an engineer on this team, you'll own the AI-powered systems that support our operations functions: support, legal, finance and beyond. You'll work closely with partners across the business to understand what they actually need, then build and maintain the systems that deliver it. This is a 0→1 role with real ownership, real infrastructure, and a direct line to company-wide impact."
+            - paragraph [ref=f495e49]
+            - paragraph [ref=f495e50]:
+              - strong [ref=f495e51]: What You'll Do
+            - list [ref=f495e52]:
+              - listitem [ref=f495e53]:
+                - paragraph [ref=f495e54]: Design and build AI-powered internal systems for a range of functions across Suno
+              - listitem [ref=f495e55]:
+                - paragraph [ref=f495e56]: Own the underlying infrastructure that keeps those systems running in production — reliable, observable, and easy to extend to new use cases
+              - listitem [ref=f495e57]:
+                - paragraph [ref=f495e58]: Embed with cross-functional partners to understand their workflows, surface the right problems to solve, and prioritize what gets built next
+              - listitem [ref=f495e59]:
+                - paragraph [ref=f495e60]: Partner with engineering teams to expand AI-enabled tooling and ensure our internal systems benefit from the company's broader AI infrastructure
+              - listitem [ref=f495e61]:
+                - paragraph [ref=f495e62]: Help non-engineering teams move faster and with more capability, contributing to Suno's mission of making creative fulfillment a daily reality for everyone
+              - listitem [ref=f495e63]:
+                - paragraph [ref=f495e64]: Establish the engineering foundation and operational patterns for a function that will grow alongside the company
+            - paragraph [ref=f495e65]
+            - paragraph [ref=f495e66]:
+              - strong [ref=f495e67]: What You'll Need
+            - paragraph [ref=f495e68]:
+              - emphasis [ref=f495e69]: Must-Haves
+            - list [ref=f495e70]:
+              - listitem [ref=f495e71]:
+                - paragraph [ref=f495e72]: 5-7+ years of full-stack software engineering experience
+              - listitem [ref=f495e73]:
+                - paragraph [ref=f495e74]: Demonstrated experience building and shipping internal tooling or systems that support business functions
+              - listitem [ref=f495e75]:
+                - paragraph [ref=f495e76]: Hands-on familiarity with the current landscape of AI for software engineering, including LLMs, AI APIs, and agentic workflows - you've actually built and shipped something with these tools, not just used AI as a coding assistant
+              - listitem [ref=f495e77]:
+                - paragraph [ref=f495e78]: Strong communicator who can work effectively with non-engineering partners - you can translate between technical and business contexts without losing either audience
+            - paragraph [ref=f495e79]:
+              - emphasis [ref=f495e80]: Nice-to-Haves
+            - list [ref=f495e81]:
+              - listitem [ref=f495e82]:
+                - paragraph [ref=f495e83]: Experience on a platform, developer experience, or enterprise engineering team where internal teams were your primary customers
+              - listitem [ref=f495e84]:
+                - paragraph [ref=f495e85]: Familiarity with support tooling, CRM systems, or workflow automation platforms
+              - listitem [ref=f495e86]:
+                - paragraph [ref=f495e87]: Experience standing up observability and operational practices for internal systems from scratch
+              - listitem [ref=f495e88]:
+                - paragraph [ref=f495e89]: Comfort operating in an early-stage, 0→1 environment where the problem space is still being defined
+                - paragraph [ref=f495e90]
+            - paragraph [ref=f495e91]:
+              - strong [ref=f495e92]: Work Location Policy
+              - text: This role is expected to work from the designated Suno office 5 days a week, per Suno's company policy. Full-time employees will receive competitive equity packages, and comprehensive benefits. The actual base salary offered may vary depending on location, skills, qualifications, and experience.
+            - paragraph [ref=f495e93]
+            - paragraph [ref=f495e94]:
+              - strong [ref=f495e95]: Additional Notes
+            - paragraph [ref=f495e96]: Applicants must be eligible to work in the US.
+            - paragraph [ref=f495e97]:
+              - strong [ref=f495e98]: Perks & Benefits for Full-Time Employees
+            - list [ref=f495e99]:
+              - listitem [ref=f495e100]:
+                - paragraph [ref=f495e101]: Company Equity Package
+              - listitem [ref=f495e102]:
+                - paragraph [ref=f495e103]: 401(k) with 3% Employer Match & Roth 401(k)
+              - listitem [ref=f495e104]:
+                - paragraph [ref=f495e105]: Medical, Dental, & Vision Insurance (PPO w/ HSA & FSA options)
+              - listitem [ref=f495e106]:
+                - paragraph [ref=f495e107]: 11 Paid Holidays + Unlimited PTO & Sick Time
+              - listitem [ref=f495e108]:
+                - paragraph [ref=f495e109]: 16 Weeks of Paid Parental Leave
+              - listitem [ref=f495e110]:
+                - paragraph [ref=f495e111]: Creative Education Stipend
+              - listitem [ref=f495e112]:
+                - paragraph [ref=f495e113]: Generous Commuter Allowance
+              - listitem [ref=f495e114]:
+                - paragraph [ref=f495e115]: In-Office Lunch (5 days per week)
+            - paragraph [ref=f495e116]
+            - paragraph [ref=f495e117]: Suno is proud to be an Equal Opportunity Employer. We consider qualified applicants without regard to race, color, ancestry, religion, sex, national origin, sexual orientation, gender identity, age, marital or family status, disability, genetic information, veteran status, or any other legally protected basis under provincial, federal, state, and local laws, regulations, or ordinances. We will also consider qualified applicants with criminal histories in a manner consistent with the requirements of state and local laws, including the Massachusetts Fair Chance in Employment Act, NYC Fair Chance Act, LA City Fair Chance Ordinance, and San Francisco Fair Chance Ordinance.
+          - link [ref=f495e118] [cursor=pointer]:
+            - /url: /suno/44860a61-5d54-4ba4-b48e-4378d3040da3/application
+            - button "Apply for this Job" [ref=f495e119]
+  - contentinfo [ref=f495e120]:
+    - link "Learn more about Ashby" [ref=f495e121] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f495e122]: Powered by
+      - img "Ashby" [ref=f495e123]
+    - paragraph [ref=f495e129]:
+      - link "Privacy Policy" [ref=f495e130] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f495e131] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f495e132] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

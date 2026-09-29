@@ -1,0 +1,121 @@
+% Job posting: https://jobs.lever.co/waabi/17dda427-f822-4e89-bff7-2b9541fb3a9d
+% =====================================================================
+%  CV - Nishal Stanislaus Silva, PhD
+%  Target: Waabi - Research Scientist, Autonomy & Algorithms (Toronto / Remote CA)
+%  Variant: V2 (AI-Research), domain-transfer framing
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.05}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 -- #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{Research Scientist | Real-Time Multimodal ML, Benchmarks \& Open Datasets}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \cvTagline}\\[1pt]
+    {\footnotesize\textit{\cvStatus}}\\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,\,|\,\, \cvPhone \,\,|\,\, \cvCity
+    \,\,|\,\, \href{\cvSite}{nishal.xyz} \,\,|\,\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,\,|\,\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+
+Research scientist in real-time multimodal machine learning, with a PhD (University of Trento, 2025) and 10+ years across industry and academia. My work fuses and models heterogeneous sensor streams under hard timing constraints: inertial, audio and mixed-reality tracking data synchronized and classified in real time, with hierarchical state machines governing transitions between behavior modes. These are the sensor-fusion, latency, behavior-modeling and safe-deployment problems of autonomy perception, applied in a different domain. My published models run inference in 14 ms on embedded hardware, F1 0.76, 74$\times$ faster than the baseline (JAES 2026); a gesture-and-audio fusion model reaches F1 0.78 across a 500-event corpus (IEEE IS\textsuperscript{2} 2025). I have designed four open benchmark datasets, published 10+ peer-reviewed papers, and reviewed for IEEE venues.
+
+\section*{Core Competencies}
+
+\textbf{ML Research:} multimodal learning and sensor fusion; sequence and time-series modelling (RNN, LSTM, GRU), CNNs, hierarchical state machines, imitation-style rule models; generative modelling (VAE, diffusion) for low-label regimes; benchmark, ablation and dataset design; statistical evaluation; linear algebra, calculus, probability\\
+\textbf{Systems:} Python, C++17; real-time inference under sub-30 ms budgets; multi-stream synchronization and alignment; edge and server deployment with monitoring; profiling; reproducible, tested pipelines\\
+\textbf{Research practice:} 10+ peer-reviewed publications; four open datasets (70+ contributors); reviewer and programme committee for IEEE IS\textsuperscript{2} and IEEE I3DA; student supervision; EU-consortium project delivery
+
+\section*{Technical Stack}
+
+\textbf{Languages:} Python, C++17, C, MATLAB, JavaScript/TypeScript, Shell\\
+\textbf{ML / AI:} PyTorch, TensorFlow, Keras, scikit-learn, ONNX; RNN/CNN, VAE and diffusion prototypes, structural-similarity and synthetic-variation methods; NumPy, Pandas, SciPy\\
+\textbf{Systems \& Data:} real-time streaming pipelines, multi-sensor time synchronization, Docker, Git, pytest, CI/CD, Airflow, AWS; Raspberry Pi / Embedded Linux, IMU / I\textsuperscript{2}C, Unity + Meta XR SDK
+
+\section*{Education}
+\textbf{Ph.D, Information Engineering \& Computer Science} \textit{\small{-- University of Trento}} \hfill \textit{Jan 2025}\\[2pt]
+\noindent\textit{\small Thesis: Embedded Real-time Musical Pattern Detection for Smart Musical Instruments}\\[3pt]
+\noindent\textbf{M.Sc, Telecommunication \& Electronic Engineering} \textit{\small{-- Sheffield Hallam University}} \hfill \textit{Aug 2018}\\[2pt]
+\noindent\textbf{B.Eng (Hons), Electronic Engineering} \textit{\small{-- Sheffield Hallam University}} \hfill \textit{Mar 2014}
+
+\section*{Research \& Work Experience}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Built a real-time multimodal pipeline synchronizing audio, inertial, neural (EEG) and mixed-reality head- and hand-tracking streams across four participants simultaneously, with SAE Institute Barcelona and g.tec; EU Horizon EIC Pathfinder project MUSMET.
+    \item Designed real-time sequence models (stacked RNNs, single-LSTM classifiers) and the baseline and ablation suites quantifying architecture, feature and latency trade-offs; 14 ms inference on embedded hardware, F1 0.76, 74$\times$ faster than DTW (JAES 2026).
+    \item Four peer-reviewed papers in 2025; supervised two BSc thesis students; coordinated across a 12-partner research consortium.
+\end{cvrole}
+
+\needspace{5\baselineskip}
+\begin{cvrole}{Visiting Researcher}{McGill University (IDMIL / CIRMMT)}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Fused inertial (IMU) and audio streams through a hierarchical finite state machine (Idle to Pattern to Gesture), reaching P 0.79 / R 0.76 / F1 0.78 across a 500-event corpus (IEEE IS\textsuperscript{2} 2025).
+    \item Profiled compute and power for real-time feasibility on self-powered embedded compute; explored VAE- and diffusion-based synthetic data for limited-label regimes.
+\end{cvrole}
+
+\needspace{5\baselineskip}
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+    \item Ran a human-centred evaluation of an ML-driven interactive system, combining quantitative metrics with structured interviews to produce usability and adoption findings (IEEE I3DA 2025).
+\end{cvrole}
+
+\needspace{5\baselineskip}
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Built end-to-end computer-vision and sensor systems for manufacturing, integrating camera and IoT streams into production workflows with real-time C++/Python inference on embedded hardware.
+    \item Designed minimal-data detection and registration algorithms; automated inspection cut QC time 99.5\% and lifted throughput up to 300\%; introduced CI/CD and code review; mentored engineers.
+\end{cvrole}
+
+\enlargethispage{4\baselineskip}
+\section*{Publications \footnotesize {\normalfont{(selected; full list: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. J. Audio Eng. Soc. 74(3), Mar.~2026.
+    \item Silva, N. and Turchet, L. \textit{Smart Drums: Comparing Audio and MIDI in Embedded Real-Time Drum Pattern Recognition}. J. Audio Eng. Soc., 2026 (in press).
+    \item Silva, N. and Turchet, L. \textit{Music Information Retrieval as a Service: Latency Characterization of an Edge-to-Server Architecture}. IEEE Int. Symp. on the Internet of Sounds, 2026 (accepted).
+    \item Silva, N., Wanderley, M. and Turchet, L. \textit{Melody and Motion: Integrating Guitar Gestures with Musical Patterns for Extended Control}. IEEE Int. Symp. on the Internet of Sounds, Oct.~2025.
+    \item Silva, N., Boem, A. and Turchet, L. \textit{Interactive IoMusT-Based Concerts: Real-Time Pattern Recognition and Audience Experience}. IEEE Int. Conf. on Immersive and 3D Audio, Sep.~2025.
+    \item Silva, N. and Turchet, L. \textit{Real-Time Pattern Recognition of Symbolic Monophonic Music}. 19th Int. Audio Mostly Conference (ACM), Sep.~2024.
+    \item Silva, N., Weeraddana, P.C. and Fischione, C. \textit{On Musical Onset Detection via the S-Transform}. 52nd Asilomar Conference on Signals, Systems, and Computers, Oct.~2018.
+\end{itemize}
+
+\vspace{-0.3em}
+\section*{Datasets, Service \& Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Open datasets:} DoMP, DoPP, DoDP, DoDP2 -- 9,800+ time-aligned multi-take recordings from 70+ contributors, published on Zenodo as real-time detection benchmarks.
+    \item \textbf{Peer review:} Reviewer for IEEE Access and IEEE I3DA; programme committee for IEEE International Symposium on the Internet of Sounds.
+    \item \textbf{MIDI Innovation Awards:} Finalist (Sep 2023), Prototypes \& Non-Commercial Software category, for a real-time detection system on embedded hardware.
+\end{itemize}
+
+\end{document}

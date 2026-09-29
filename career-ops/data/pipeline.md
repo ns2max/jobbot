@@ -1,0 +1,903 @@
+# Pipeline — Pending Evaluation
+
+## Pending
+
+<!-- ===== codex expanded search 2026-09-03 (4 passes, widening scope). URL-verified via ATS APIs where marked [v]; [?] = 200 OK but Canada/worldwide eligibility unconfirmed — verify with Playwright at eval time. Hard rule applied: Canada OR worldwide-remote only. ===== -->
+
+### codex 2026-09-03 — PROCESSED (triage + eval, /career-ops pipeline 2026-09-03)
+Full A–G evaluations (report + tracker, IDs 1112–1122):
+- [x] #1112 | https://job-boards.greenhouse.io/jumio/jobs/4709657005 | Jumio | Senior Machine Learning Engineer | 4.2/5 Evaluated — APPLY (Montreal, biometrics CV + edge inference)
+- [x] #1113 | https://job-boards.greenhouse.io/innodatainc/jobs/4330331009 | Innodata | AI/ML Research Engineer, LLM Post-Training & Evaluation | 3.5/5 Evaluated — conditional apply
+- [x] #1114 | https://job-boards.greenhouse.io/innodatainc/jobs/4330360009 | Innodata | Applied Research Scientist, LLM Evaluation & Post-Training | 3.7/5 Evaluated — APPLY (V2)
+- [x] #1115 | https://job-boards.greenhouse.io/affirm/jobs/7806920003 | Affirm | Senior Machine Learning Engineer (Fraud) | 3.8/5 Evaluated — APPLY (distinct from #137)
+- [x] #1116 | https://jobs.lever.co/extremenetworks/fe3b7c5c-f855-4993-ad85-f396379fe346 | Extreme Networks | Senior Data Scientist (Gen AI, ML) | 3.5/5 Evaluated — conditional apply (Tech Lead archetype)
+- [x] #1117 | https://jobs.lever.co/waveapps/a16580aa-7947-4d7b-babd-83ee6f922f0c | Wave HQ (waveapps) | Machine Learning Engineer | 3.6/5 Evaluated — conditional (comp below target)
+- [x] #1118 | https://jobs.ashbyhq.com/helm-ai/e8f21952 | Helm.ai | Research Engineer | 3.6/5 Evaluated — conditional apply (AV perception)
+- [x] #1119 | https://jobs.ashbyhq.com/stratum-ai/985fe333-04d7-47a4-beab-1f334df65188 | Stratum AI | Forward Deployed ML Engineer | 3.5/5 Evaluated — conditional (build GNN portfolio first)
+- [x] #1120 | https://jobs.ashbyhq.com/oscilar/a83cfe5b | Oscilar | Staff Data Scientist | 3.7/5 Evaluated — pursue IF Canada-eligible (verify)
+- [x] #1121 | https://jobs.ashbyhq.com/nexxa/df3caaa1-e0e5-4942-b5cc-b30c74cdea62 | Nexxa.AI | AI Vision Engineer | 4.1/5 Evaluated — APPLY (V5, industrial CV + edge)
+- [x] #1122 | https://jobs.ashbyhq.com/nexxa/512311e5-d955-4507-9b65-72753d091257 | Nexxa.AI | Applied AI Engineer (FDE) | 3.6/5 Evaluated — secondary to #1121
+
+SKIP (triage report reports/1123-pipeline-skips-2026-09-03.md, IDs 1123–1135):
+- [x] #1123 | https://job-boards.greenhouse.io/tenstorrent/jobs/5163484007 | Tenstorrent | ML Research Engineer (LLMs & AI Systems) | 3.2/5 SKIP — LLM training + distributed compute (KG deal-breaker)
+- [x] #1124 | https://job-boards.greenhouse.io/northbeam/jobs/4688305006 | Northbeam | Senior Data Scientist | 2.6/5 SKIP — marketing attribution/MMM domain
+- [x] #1125 | https://job-boards.greenhouse.io/novoed/jobs/8055650 | NovoEd | Sr. AI Engineer | 3.0/5 SKIP — LLM-integration backend plumbing
+- [x] #1126 | https://job-boards.greenhouse.io/autotradercanada/jobs/7629293003 | AutoTrader.ca | Senior Data Scientist | 3.2/5 SKIP — generic product DS, under-uses
+- [x] #1127 | https://job-boards.greenhouse.io/securityscorecard/jobs/8126399 | SecurityScorecard | Senior Data Scientist | 3.3/5 SKIP — cyber-ratings DS, analytics-flavoured
+- [x] #1128 | https://job-boards.greenhouse.io/shakepay/jobs/4695148005 | Shakepay | Senior Data Scientist, Growth | 2.5/5 SKIP — growth/experimentation DS, not ML eng
+- [x] #1129 | https://jobs.ashbyhq.com/npv/246b29fb-cd04-4cc6-8587-2161e712d9bb | npv labs / PulsePoint | ML Engineer | 3.3/5 SKIP — adtech recsys, 'classic ML', under-uses
+- [x] #1130 | https://jobs.ashbyhq.com/stratum-ai/b19a7e36 | Stratum AI | ML Ops Engineer | 3.2/5 SKIP — pure MLOps platform (FDE #1119 is the fit)
+- [x] #1131 | https://jobs.ashbyhq.com/affinity.co/d6f77f3c-e3f3-4341-ad5c-8984fcda96bd | Affinity | Senior Machine Learning Engineer | 3.0/5 SKIP — relationship-graph NLP/IE, wrong lean
+- [x] #1132 | https://jobs.ashbyhq.com/nexxa/0593f401-5e49-4569-a5de-11e54ed72734 | Nexxa.AI | Backend AI Engineer | 3.2/5 SKIP — distributed-backend specialty
+- [x] #1133 | https://jobs.ashbyhq.com/xyz-reality/d8bf465c-bf7f-4337-871f-ee6c54fce6bd | XYZ Reality | Senior AI / Computer Vision Engineer | 3.4/5 SKIP — 3D/spatial CV specialisation gap
+- [x] #1134 | https://jobs.ashbyhq.com/xyz-reality/20176f63-fe67-4932-b9c3-a6dfcc371307 | XYZ Reality | AI Platform & ML Engineer | 3.2/5 SKIP — platform-only
+- [x] #1135 | https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/Research-Engineer_JREQ198562 | Thomson Reuters Labs | Research Engineer | 2.8/5 SKIP — NLP gap + CAD $80-100k + junior tier + evergreen
+- [x] DEAD (hallucinated/staled by codex) | EnCharge AI (enchargeai36/4008059009), Narvar (narvar/7363442), Valtech (valtech/4945842101), RBC Borealis RE II (rbc.wd3.../R-0000150239-1) — all redirect to error pages; no tracker entry
+
+### codex 2026-09-03 — parallel track: academic (Canada) — NOT YET PROCESSED (deferred)
+- [ ] https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Electrical-and-Computer-Engineering-(Canada-Impact%2B-Emerging-Leader)-ON/604536017/ | University of Toronto | Assistant Professor, Electrical & Computer Engineering — Toronto; >C$200k; AI-for-engineering, embedded systems, publications + teaching; found 2026-09-03 via codex
+- [ ] https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-MMF2030H1F-Machine-Learning-(Section-LEC-0101)-ON/604520417/ | University of Toronto | Sessional Lecturer, Machine Learning (MMF2030H) — Toronto; ~C$10-11k/section; ML teaching + mentoring; found 2026-09-03 via codex
+- [ ] https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Statistical-Learning-Theory-ON/604277617/ | University of Toronto | Assistant Professor, Statistical Learning Theory — Toronto; C$140-190k; research + teaching; found 2026-09-03 via codex
+
+### codex 2026-09-03 — [?] unconfirmed workday/other — NOT YET PROCESSED (deferred; verify Canada eligibility + fit at eval time)
+- [ ] https://draftkings.wd1.myworkdayjobs.com/en-US/DraftKings/job/Senior-Machine-Learning-Engineer_JR13906-1 | DraftKings | Senior Machine Learning Engineer — codex: Remote Canada; ML infra + real-time analytics; verify; found 2026-09-03 via codex [?]
+- [ ] https://q2ebanking.wd5.myworkdayjobs.com/q2/job/remote-canada/senior-machine-learning-engineer_req-12666 | Q2 | Senior Machine Learning Engineer — Remote Canada; production AI platform, eval, deployment, fintech-anomaly adjacency; found 2026-09-03 via codex [?]
+- [ ] https://job-boards.greenhouse.io/narvar/jobs/7363442 | Narvar | Senior AI Engineer — codex: Remote Canada, CA$180-230k; production evaluation, latency/cost tradeoffs, applied AI systems; verify; found 2026-09-03 via codex [?]
+- [ ] https://jdpa.wd501.myworkdayjobs.com/en-US/JDPower/job/Remote-Canada/Senior-AI-Engineer_R-100379 | J.D. Power | Senior AI Engineer — Remote Canada; production AI/analytics ownership; found 2026-09-03 via codex [?]
+- [ ] https://servicetitan.wd1.myworkdayjobs.com/en-US/ServiceTitan/job/Senior-Data-Scientist_JR114577 | ServiceTitan | Senior Data Scientist — codex: Remote Canada; applied ML/GenAI deployment, industrial-services domain; verify; found 2026-09-03 via codex [?]
+- [ ] https://railtown.ai/careers/senior-machine-learning-engineer-nlp/ | Railtown AI | Senior Machine Learning Engineer (NLP) — Vancouver hybrid; research-to-production ML pipeline + benchmarking; found 2026-09-03 via codex [?]
+- [ ] https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/Senior-Machine-Learning-Engineer_JOBREQ-2615907 | Unity | Senior Machine Learning Engineer — Montreal; low-latency inference, ML-platform engineering; found 2026-09-03 via codex [?]
+- [ ] https://hirevouch.catsone.com/careers/95532/jobs/16824508-Senior-AI-Engineer | HireVouch | Senior AI Engineer — codex: Remote Canada; production ML systems, data pipelines, training workflows; verify; found 2026-09-03 via codex [?]
+
+### codex 2026-09-03 — real URL not yet located (strong-fit candidates worth chasing)
+- [ ] URL-TBD | Blumind | Machine Learning Lead, Edge AI Inferencing — Markham/Toronto hybrid or Canada-remote; codex: CA$140-210k; analog edge hardware, DSP, compression, benchmarking, low-latency — near-exact fit; find on blumind.ai/careers; found 2026-09-03 via codex
+- [ ] URL-TBD | LightArt Laboratories | Senior Machine Learning Engineer (Computer Vision – Medical Device) — Richmond Hill, ON; codex: CA$110-160k; production industrial/medical CV, rigorous evaluation, ONNX deployment; find real posting; found 2026-09-03 via codex
+
+<!-- codex search — DROPPED: Datatonic (no Canada/worldwide role — all UK/Nordics), Cantina (US/Europe only), Yotta Labs (US only), Infisical (no ML/DevRel role, only Full Stack US&Canada), PointClickCare (404), Clarifai (404), CSC Generation (San Francisco), Oscilar original UUID (404 → replaced with a83cfe5b), J.D. Power Research Scientist (remote-usa), Qualcomm aggregator dupes (already tracked #615/#621), most of search-1 aggregator/listing URLs. -->
+
+- [x] CLOSED | https://job-boards.greenhouse.io/life360/jobs/8580612002 | Life360 | Senior MLOps Engineer II — posting dead (redirects to Greenhouse error page) 2026-09-03; not evaluated
+- [x] #1111 | https://jobs.lever.co/kogniz/60f760bd-5b0a-4a07-a650-bfac4ff644f8 | Kogniz | Machine Learning Engineer | 2.7/5 SKIP | junior (1-2 yrs), under-uses PhD
+- [x] #1109 | https://job-boards.greenhouse.io/afresh/jobs/6105870004 | Afresh | Staff Applied Scientist (Distribution Center) | 3.6/5 Evaluated | forecasting/OR domain gap; recommend against unless pivoting
+- [x] DUP | https://job-boards.greenhouse.io/assemblyai/jobs/4729804005 | AssemblyAI | Senior Software Engineer, Inference — already tracked in ai-job-search (id 1107, drafted); not re-evaluated
+- [x] #1110 | https://jobs.ashbyhq.com/wealthsimple/6f8ab2cd-3426-4e9e-bc53-2b5534a29601 | Wealthsimple | Sr Data Scientist, Finance, Brokerage & Market Risk | 2.6/5 SKIP | analytics-engineering/BI, not ML
+- [x] #339 | https://job-boards.greenhouse.io/xai/jobs/4965893007 | xAI (Grok) | Member of Technical Staff - Mid-training | 2.0/5 | CV ❌
+- [x] #340 | https://job-boards.greenhouse.io/xai/jobs/5086324007 | xAI (Grok) | Member of Technical Staff - Model Training | 2.0/5 | CV ❌
+- [x] #341 | https://job-boards.greenhouse.io/xai/jobs/5114737007 | xAI (Grok) | Member of Technical Staff - Post-Training and RL | 2.0/5 | CV ❌
+- [x] #342 | https://job-boards.greenhouse.io/xai/jobs/4378344007 | xAI (Grok) | Member of Technical Staff - Pre-Training | 2.0/5 | CV ❌
+- [x] #343 | https://job-boards.greenhouse.io/togetherai/jobs/4687884007 | Together AI | LLM Inference Frameworks and Optimization Engineer | 2.8/5 | CV ❌
+- [x] #344 | https://job-boards.greenhouse.io/togetherai/jobs/5140763007 | Together AI | Staff Machine Learning Engineer, Voice AI | 3.2/5 | CV ❌
+- [x] #345 | https://job-boards.greenhouse.io/anthropic/jobs/5146028008 | Anthropic | Applied AI Engineer, Beneficial Deployments | 2.5/5 | CV ❌
+- [x] #346 | https://job-boards.greenhouse.io/anthropic/jobs/4778843008 | Anthropic | ML Infrastructure Engineer, Safeguards | 2.5/5 | CV ❌
+- [x] #347 | https://job-boards.greenhouse.io/anthropic/jobs/4949336008 | Anthropic | ML/Research Engineer, Safeguards | 3.2/5 | CV ❌
+- [x] #348 | https://job-boards.greenhouse.io/anthropic/jobs/4949108008 | Anthropic | Privacy Research Engineer, Safeguards | 2.5/5 | CV ❌
+- [x] #349 | https://job-boards.greenhouse.io/anthropic/jobs/5107121008 | Anthropic | Prompt Engineer, Agent Prompts & Evals | 2.8/5 | CV ❌
+- [x] #350 | https://job-boards.greenhouse.io/anthropic/jobs/5125083008 | Anthropic | Research Engineer, AI Observability | 3.0/5 | CV ❌
+- [x] #351 | https://job-boards.greenhouse.io/anthropic/jobs/5025624008 | Anthropic | Research Engineer, Cybersecurity Reinforcement Learning | 2.5/5 | CV ❌
+- [x] #352 | https://job-boards.greenhouse.io/anthropic/jobs/4669581008 | Anthropic | Research Engineer, Discovery | 2.8/5 | CV ❌
+- [x] #353 | https://job-boards.greenhouse.io/anthropic/jobs/5071132008 | Anthropic | Research Engineer, Economic Research Data Platform | 3.2/5 | CV ❌
+- [x] #354 | https://job-boards.greenhouse.io/anthropic/jobs/4951064008 | Anthropic | Research Engineer, Environment Scaling | 3.3/5 | CV ❌
+- [x] #355 | https://job-boards.greenhouse.io/anthropic/jobs/5067100008 | Anthropic | Research Engineer,  Frontier Red Team (Autonomy) | 2.5/5 | CV ❌
+- [x] #356 | https://job-boards.greenhouse.io/anthropic/jobs/4980430008 | Anthropic | Research Engineer, Interpretability | 2.5/5 | CV ❌
+- [x] #357 | https://job-boards.greenhouse.io/anthropic/jobs/4017331008 | Anthropic | Research Engineer, Knowledge Team | 2.5/5 | CV ❌
+- [x] #358 | https://job-boards.greenhouse.io/anthropic/jobs/5115935008 | Anthropic | Research Engineer, Machine Learning (Reinforcement Learning) | 3.2/5 | CV ❌
+- [x] #359 | https://job-boards.greenhouse.io/anthropic/jobs/4613568008 | Anthropic | Research Engineer, Machine Learning (Reinforcement Learning) | 2.5/5 | CV ❌
+- [x] #360 | https://job-boards.greenhouse.io/anthropic/jobs/5198074008 | Anthropic | Research Engineer, Machine Learning (RL Velocity) | 3.4/5 | CV ❌
+- [x] #361 | https://job-boards.greenhouse.io/anthropic/jobs/5198255008 | Anthropic | Research Engineer, Model Evaluations | 2.5/5 | CV ❌
+- [x] #362 | https://job-boards.greenhouse.io/anthropic/jobs/5160330008 | Anthropic | Research Engineer, Performance RL | 2.5/5 | CV ❌
+- [x] #363 | https://job-boards.greenhouse.io/anthropic/jobs/5119713008 | Anthropic | Research Engineer, Pretraining | 2.8/5 | CV ❌
+- [x] #364 | https://job-boards.greenhouse.io/anthropic/jobs/4938432008 | Anthropic | Research Engineer, Pretraining Scaling | 2.0/5 | CV ❌
+- [x] #365 | https://job-boards.greenhouse.io/anthropic/jobs/4938436008 | Anthropic | Research Engineer, Pretraining Scaling - London | 2.5/5 | CV ❌
+- [x] #366 | https://job-boards.greenhouse.io/anthropic/jobs/4613592008 | Anthropic | Research Engineer, Production Model Post-Training | 2.0/5 | CV ❌
+- [x] #367 | https://job-boards.greenhouse.io/anthropic/jobs/5135168008 | Anthropic | Research Engineer / Research Scientist, Pre-training | 2.5/5 | CV ❌
+- [x] #368 | https://job-boards.greenhouse.io/anthropic/jobs/4616971008 | Anthropic | Research Engineer/Research Scientist, Pre-training | 2.0/5 | CV ❌
+- [x] #369 | https://job-boards.greenhouse.io/anthropic/jobs/4951814008 | Anthropic |  Research Engineer / Research Scientist, Tokens | 2.0/5 | CV ❌
+- [x] #370 | https://job-boards.greenhouse.io/anthropic/jobs/5024831008 | Anthropic | Research Engineer, Reward Models Platform | 2.0/5 | CV ❌
+- [x] #371 | https://job-boards.greenhouse.io/anthropic/jobs/5197337008 | Anthropic | Research Engineer, RL Infrastructure (Knowledge Work) | 2.5/5 | CV ❌
+- [x] #372 | https://job-boards.greenhouse.io/anthropic/jobs/5191785008 | Anthropic | Research Engineer, Safeguards Labs | 2.5/5 | CV ❌
+- [x] #373 | https://job-boards.greenhouse.io/anthropic/jobs/5126127008 | Anthropic | Research Engineer, Science of Scaling | 2.5/5 | CV ❌
+- [x] #374 | https://job-boards.greenhouse.io/anthropic/jobs/4631822008 | Anthropic | Research Engineer / Scientist, Alignment Science | 2.5/5 | CV ❌
+- [x] #375 | https://job-boards.greenhouse.io/anthropic/jobs/4610158008 | Anthropic | Research Engineer / Scientist, Alignment Science - London | 2.5/5 | CV ❌
+- [x] #376 | https://job-boards.greenhouse.io/anthropic/jobs/5076477008 | Anthropic | Research Engineer / Scientist, Frontier Red Team (Cyber) | 2.5/5 | CV ❌
+- [x] #377 | https://job-boards.greenhouse.io/anthropic/jobs/5076606008 | Anthropic | Research Engineer / Scientist, Societal Impacts | 2.5/5 | CV ❌
+- [x] #378 | https://job-boards.greenhouse.io/anthropic/jobs/5061517008 | Anthropic | Research Engineer, Universes | 2.5/5 | CV ❌
+- [x] #379 | https://job-boards.greenhouse.io/anthropic/jobs/4946308008 | Anthropic | Research Engineer, Virtual Collaborator (Cowork) | 2.5/5 | CV ❌
+- [x] #380 | https://job-boards.greenhouse.io/anthropic/jobs/5139654008 | Anthropic | Research Lead, Training Insights | 3.2/5 | CV ❌
+- [x] #381 | https://job-boards.greenhouse.io/anthropic/jobs/5103788008 | Anthropic | Research Scientist, Frontier Red Team (Emerging Risks) | 2.8/5 | CV ❌
+- [x] #382 | https://job-boards.greenhouse.io/anthropic/jobs/4980427008 | Anthropic | Research Scientist, Interpretability | 3.0/5 | CV ❌
+- [x] #383 | https://job-boards.greenhouse.io/anthropic/jobs/5076616008 | Anthropic | Research Scientist, Societal Impacts | 2.8/5 | CV ❌
+- [x] #384 | https://job-boards.greenhouse.io/anthropic/jobs/5024835008 | Anthropic | Senior Research Scientist, Reward Models | 2.5/5 | CV ❌
+- [x] #385 | https://job-boards.greenhouse.io/anthropic/jobs/4593216008 | Anthropic | Staff Research Engineer, Discovery Team | 3.2/5 | CV ❌
+- [x] #386 | https://jobs.ashbyhq.com/liquid-ai/a25b97f4-02ee-4453-a2e1-f8d5cfe2c4b4 | Liquid AI | Member of Technical Staff - Distributed Training Engineer | 2.3/5 | CV ❌
+- [x] #387 | https://jobs.ashbyhq.com/liquid-ai/f898850b-a1ca-4c9e-9e15-a9aa1ce306b6 | Liquid AI | Member of Technical Staff - Post Training, Applied | 3.3/5 | CV ❌
+- [x] #388 | https://jobs.ashbyhq.com/liquid-ai/286613f3-3401-4b54-aa0a-deb498ae79df | Liquid AI | Member of Technical Staff - Post Training, Applied (Vision) | 3.2/5 | CV ❌
+- [x] #389 | https://job-boards.greenhouse.io/gleanwork/jobs/4694716005 | Glean | Machine Learning Engineer, LLM Evals & Observability | 2.5/5 | CV ❌
+- [x] #390 | https://jobs.ashbyhq.com/decagon/50051fa8-a07b-4678-ad74-7b2610fcb840 | Decagon | Staff Research Engineer | 2.8/5 | CV ❌
+- [x] #391 | https://jobs.ashbyhq.com/decagon/df98cb0e-3ab1-47aa-9e39-522b968d37f3 | Decagon | Senior Research Engineer | 2.8/5 | CV ❌
+- [x] #392 | https://jobs.ashbyhq.com/decagon/7c1282fb-0ab5-47d1-9d06-6804842317f2 | Decagon | Research Engineer, Agents | 2.5/5 | CV ❌
+- [x] #393 | https://jobs.ashbyhq.com/cohere/443368a3-6276-4b90-9671-27fed40fd6d2 | Cohere | Senior Member of Technical Staff, Multimodal AI | 4.0/5 | CV ✅
+- [x] #394 | https://jobs.ashbyhq.com/cohere/bda8d35e-92c2-4b01-b4ed-e43fe0a49aba | Cohere | Member of Technical Staff, MLE (North) | 3.5/5 | CV ❌
+- [x] #395 | https://jobs.ashbyhq.com/cohere/d42f5fd4-1ffc-45b9-957c-f09862db6af6 | Cohere | Member of Technical Staff, Training Performance Engineer | 2.8/5 | CV ❌
+- [x] #396 | https://jobs.ashbyhq.com/cohere/a13207e7-dc82-473f-8ca4-e832452fe8c3 | Cohere | Member of Technical Staff, Training Infra Engineer | 3.6/5 | CV ❌
+- [x] #397 | https://jobs.ashbyhq.com/cohere/554a9380-ab50-4338-88a9-c6b8ab19d92e | Cohere | Member of Technical Staff, Post-Training | 3.8/5 | CV ❌
+- [x] #398 | https://jobs.ashbyhq.com/cohere/859e2e47-02fb-4afe-bb8a-e83bf4d8c265 | Cohere | Member of Technical Staff, Pre-Training Data | 3.4/5 | CV ❌
+- [x] #399 | https://jobs.ashbyhq.com/cohere/e9ef9420-88e5-403b-82e8-1c36fa010d4d | Cohere | Member of Technical Staff, Integration/RL Team (Research Engineer) | 3.9/5 | CV ❌
+- [x] #400 | https://jobs.ashbyhq.com/cohere/24fe6a0b-6209-4ee0-b622-49c18636d99c | Cohere | Member of Technical Staff, Agents Modeling | 3.8/5 | CV ❌
+- [x] #401 | https://jobs.ashbyhq.com/cohere/70a8dc77-ac84-4790-aff6-13b4dcd4554a | Cohere | Member of Technical Staff, Agent Code | 2.5/5 | CV ❌
+- [x] #402 | https://jobs.ashbyhq.com/cohere/876a2d31-e6c3-497b-9c8e-0b7d111fb4cd | Cohere | Member of Technical Staff, MLE (UK/EU) | 2.5/5 | CV ❌
+- [x] #403 | https://jobs.ashbyhq.com/cohere/c80f0fe9-3fc4-49fe-9f26-a7115350b1fc | Cohere | Staff Research Engineer, Model Efficiency | 3.0/5 | CV ❌
+- [x] #404 | https://jobs.ashbyhq.com/cohere/c99e61c9-ed92-426d-9711-188dfc0f729f | Cohere | Senior ML Systems Engineer, Frameworks & Tooling | 3.2/5 | CV ❌
+- [x] #405 | https://jobs.ashbyhq.com/cohere/1fa01a03-9253-4f62-8f10-0fe368b38cb9 | Cohere | Applied AI Engineer – Agentic Workflows | 3.4/5 | CV ❌
+- [x] #406 | https://jobs.ashbyhq.com/cohere/86b305e5-84fe-47ab-bc5c-b79a74a63194 | Cohere | Member of Technical Staff, Senior/Staff MLE | 3.8/5 | CV ❌
+- [x] #407 | https://jobs.ashbyhq.com/baseten/90e9ff4e-1225-4b1b-b0b4-2362e36d9cfa | Baseten | Applied AI Inference Engineer | 2.5/5 | CV ❌
+- [x] #408 | https://jobs.ashbyhq.com/baseten/7c9d2bb0-ac03-4a3c-86c3-cf720cd314e8 | Baseten | Post-Training Research Scientist | 2.8/5 | CV ❌
+- [x] #409 | https://jobs.ashbyhq.com/cursor/0aa0650b-f93c-416e-9e2f-4fdf1556fd14 | Cursor | Software Engineer, ML Research | 2.5/5 | CV ❌
+- [x] #410 | https://jobs.ashbyhq.com/cursor/cd4bad0a-e2f6-4a8d-9b57-ce1780efedae | Cursor | Research Scientist | 2.8/5 | CV ❌
+- [x] #411 | https://jobs.ashbyhq.com/cursor/c66cde5e-9cb6-4a2e-a330-9323e1edf2a9 | Cursor | Software Engineer, ML Infrastructure | 2.5/5 | CV ❌
+- [x] #412 | https://job-boards.greenhouse.io/scaleai/jobs/4696595005 | Scale AI | Research Scientist, Safety Post Training | 2.5/5 | CV ❌
+- [x] #413 | https://job-boards.greenhouse.io/scaleai/jobs/4625337005 | Scale AI | Staff Machine Learning Research Engineer, Agent Post-training - Enterprise GenAI | 2.0/5 | CV ❌
+- [x] #414 | https://job-boards.greenhouse.io/scaleai/jobs/4628044005 | Scale AI | Staff Machine Learning Research Scientist, LLM Evals | 2.5/5 | CV ❌
+- [x] #415 | https://job-boards.greenhouse.io/reddit/jobs/7891887 | Reddit | Senior Machine Learning Engineer, GenAI Security | 2.5/5 | CV ❌
+- [x] #416 | https://job-boards.greenhouse.io/reddit/jobs/7074776 | Reddit | Senior  Machine Learning Engineer, ML Training Platform | 1.5/5 | CV ❌
+- [x] #417 | https://job-boards.greenhouse.io/reddit/jobs/7772274 | Reddit | Senior Staff Machine Learning Engineer, GenAI Platform | 2.0/5 | CV ❌
+- [x] #418 | https://job-boards.greenhouse.io/reddit/jobs/7847148 | Reddit | Senior Staff Machine Learning Engineer, ML Understanding | 2.0/5 | CV ❌
+- [x] #419 | https://job-boards.greenhouse.io/reddit/jobs/7833622 | Reddit | Senior Staff ML Engineer, Search & Recommendation | 2.0/5 | CV ❌
+- [x] #420 | https://job-boards.greenhouse.io/reddit/jobs/7886459 | Reddit | Staff Machine Learning Engineer, AI Serving | 2.0/5 | CV ❌
+- [x] #421 | https://job-boards.greenhouse.io/bandwidth/jobs/7951507 | Bandwidth | AI Engineer (Research & Development) | 1.5/5 | CV ❌
+- [x] #422 | https://jobs.lever.co/tri/84dfcb59-8368-481c-acdb-50df883eadd4 | Toyota Research Institute (TRI) | ML Research Engineer, Interpretable AI for End-to-End Automated Driving | 2.5/5 | CV ❌
+- [x] #423 | https://jobs.lever.co/tri/e4d761a6-fe06-4494-92d8-4775c0e6f4b9 | Toyota Research Institute (TRI) | Senior Research Engineer, Mechanical Intuition in Multimodal Models | 2.0/5 | CV ❌
+- [x] #424 | https://jobs.lever.co/waabi/4c352ae0-53b0-4510-8d46-894b87d96ede | Waabi | Research Engineer, Calibration | 2.5/5 | CV ❌
+- [x] #425 | https://jobs.lever.co/waabi/99147e5e-c589-452b-87c1-789cbc4f3de8 | Waabi | Research Engineer, Neural Rendering | 0.0/5 | CV ❌
+- [x] #426 | https://jobs.lever.co/waabi/a73a62bd-3ae9-417e-84c6-8a4c94846222 | Waabi | Research Scientist, Learnable Planner | 2.5/5 | CV ❌
+- [x] #427 | https://jobs.lever.co/waabi/37af7fe8-1d7f-458d-9e8a-942ac0c75a3d | Waabi | Research Scientist, World Models | 2.0/5 | CV ❌
+- [x] #428 | https://jobs.lever.co/waabi/eedaf111-0efd-4f8f-9c2d-ce829b5cb0eb | Waabi | Senior / Staff ML Training Optimization Engineer | 3.0/5 | CV ❌
+- [x] #429 | https://jobs.lever.co/mistral/7b20d2c8-d5a7-4efd-a13e-05d920ec5985 | Mistral AI | AI Scientist - Palo Alto | 2.5/5 | CV ❌
+- [x] #430 | https://jobs.lever.co/mistral/675b7f06-a76b-4144-af0c-4dd3282ef489 | Mistral AI | AI Scientist - Paris/London - Onsite or Hybrid or Remote | 2.8/5 | CV ❌
+- [x] #431 | https://jobs.lever.co/mistral/c41d9d9e-f0ea-4621-a4a9-3f10dfa9ae84 | Mistral AI | Applied Scientist / Research Engineer - Singapore | 2.5/5 | CV ❌
+- [x] #432 | https://jobs.lever.co/mistral/249d0ec9-1824-41cb-8c4f-cb17a1d5d111 | Mistral AI | Applied Scientist / Research Engineer, AI4Engineering - EMEA | 3.0/5 | CV ❌
+- [x] #433 | https://jobs.lever.co/mistral/bada0014-0f32-4370-b55f-81c5595c7339 | Mistral AI | Research Engineer, Machine Learning | 2.5/5 | CV ❌
+
+
+
+
+
+## Processed
+- [x] #321 | https://jobs.lever.co/waabi/4a22f57b-cd17-4533-a22b-e927acef834e | Waabi | Research Engineer, Sensor Signal Processing | 4.5/5 | CV ❌ | Strong signal-processing match; Toronto/Remote CA; apply immediately
+- [x] #322 | https://jobs.lever.co/waabi/ef848b04-ad7b-4dcb-b368-370217f63f3b | Waabi | Senior / Staff Applied Scientist | 3.8/5 | CV ❌ | Autonomy evaluation focus; Toronto eligible; below core research fit
+- [x] #323 | https://jobs.lever.co/waabi/df57aa7f-9ce4-46f7-93a5-f8e06c3ae0f3 | Waabi | Applied Scientist | 3.6/5 | CV ❌ | Broad autonomy role; Toronto eligible; generalist gap
+- [x] #324 | https://jobs.lever.co/waabi/37af7fe8-1d7f-458d-9e8a-942ac0c75a3d | Waabi | Research Scientist, World Models | 3.2/5 | CV ❌ | AV world models domain mismatch; skip
+- [x] #325 | https://jobs.lever.co/waabi/eedaf111-0efd-4f8f-9c2d-ce829b5cb0eb | Waabi | Senior / Staff ML Training Optimization Engineer | 3.4/5 | CV ❌ | GPU/CUDA training infra gap; skip
+- [x] #326 | https://jobs.lever.co/waabi/4c352ae0-53b0-4510-8d46-894b87d96ede | Waabi | Research Engineer, Calibration | 3.3/5 | CV ❌ | SLAM/ICP/NeRF AV calibration gap; skip
+- [x] #327 | https://jobs.ashbyhq.com/cohere/cb5d588c-5637-423a-968b-bf637ee2caf9 | Cohere | Senior Research Engineer, Model Evaluation | 3.6/5 | CV ❌ | Benchmark methodology match; LLM eval domain gap; apply with strong cover letter
+- [x] #328 | https://jobs.ashbyhq.com/cohere/830c613b-d4bf-4673-ab33-46ccc12cc415 | Cohere | Senior Research Scientist, Model Evaluation | 3.4/5 | CV ❌ | LLM eval gap; higher research bar; prioritize #327 if applying
+- [x] #329 | https://jobs.ashbyhq.com/cohere/e912d84c-8399-422d-8a7d-918422a3e4b1 | Cohere | Audio Inference Engineer, Model Efficiency | 4.6/5 | CV ✅ | EXCEPTIONAL — audio inference + C++ + real-time + Toronto; Applied 2026-05-28
+- [x] #330 | https://www.samsara.com/company/careers/roles/7431070?gh_jid=7431070 | Samsara | Staff Machine Learning Engineer - Edge AI | 4.5/5 | CV ✅ | STRONG — edge inference + IoT + Remote Canada + $170K-234K CAD; apply immediately
+- [x] #331 | https://www.samsara.com/company/careers/roles/7491153?gh_jid=7491153 | Samsara | AI Engineer | 2.2/5 | CV ❌ | US-only remote; GenAI app dev; hard skip
+- [x] #332 | https://jobs.ashbyhq.com/bland/2e815d0d-8e7a-43cc-8853-c1b029aeb499 | Bland AI | Machine Learning Researcher, Audio | 3.9/5 | CV ❌ | Audio ML match; codec/ASR gaps; posting may be stale; SF onsite
+- [x] #333 | https://jobs.ashbyhq.com/liquid-ai/7ce97c55-52f3-4534-b452-917ae8afdc37 | Liquid AI | MTS - Multi-Modal Audio | 4.1/5 | CV ✅ | Strong audio + pipeline match; SF onsite; Applied 2026-05-28
+- [x] #334 | https://jobs.ashbyhq.com/liquid-ai/df917175-f8fd-4c76-97c0-ffb90db57464 | Liquid AI | MTS - Post Training, Applied (Audio) | 3.7/5 | CV ❌ | Post-training RLHF gap; posting may be inactive; prefer #333
+- [x] #335 | https://jobs.ashbyhq.com/decagon/4ec841cc-786c-459d-bf83-31b0071a85cc | Decagon | Senior Research Engineer, Voice + Speech | 3.8/5 | CV ❌ | Voice+speech match; posting likely closed; LLM gap; SF
+- [x] #336 | https://jobs.ashbyhq.com/decagon/7e727fb5-cc08-4728-97ca-2730e965ce41 | Decagon | Staff Research Engineer, Voice + Speech | 3.6/5 | CV ❌ | LLM post-training gap critical at Staff; posting likely closed; skip
+- [x] #337 | https://jobs.lever.co/mistral/94173e13-3050-4044-862a-e8dfc2deda5e | Mistral AI | AI Scientist - Audio | 3.5/5 | CV ❌ | Paris onsite risks Canadian PR; skip
+- [x] #338 | https://jobs.lever.co/tri/8851c6af-6a0f-4fc2-8805-8d8b266d1dd3 | Toyota Research Institute (TRI) | ML Research Scientist, Mechanical Intuition | 3.4/5 | CV ❌ | Robotics/assembly domain mismatch; skip
+
+- [x] #316 | https://jobs.ebayinc.com/us/en/job/R0073006/Applied-Researcher | eBay | Applied Researcher (Advertising) | 3.1/5 | CV ❌ | Expired; Advertising team; LLM/advertiser guidance; domain gap; comp C$142K-190K; near-sibling to #297
+- [x] #317 | https://jobs.ebayinc.com/us/en/job/R0074348/Applied-Researcher-1 | eBay | Applied Researcher 1 (Search Ranking) | 3.2/5 | CV ❌ | Expired; Search Ranking & Monetization team; best AR1 structural fit; comp C$118K-157.5K (floor exposure)
+- [x] #318 | https://jobs.ebayinc.com/us/en/job/R0074349/Applied-Researcher-1 | eBay | Applied Researcher 1 (Advertising) | 3.1/5 | CV ❌ | Expired; Advertising AR1 variant; auction/causal inference gap wider; prefer #317 at AR1 level
+- [x] #319 | https://jobs.ebayinc.com/us/en/job/R0074350/Applied-Researcher-2 | eBay | Applied Researcher 2 (Advertising) | 3.2/5 | CV ❌ | Expired; best AR2 of the 5; comp C$142K-190K; near-duplicate pair with #320 — apply to one only
+- [x] #320 | https://jobs.ebayinc.com/us/en/job/R0074240/Applied-Researcher-2 | eBay | Applied Researcher 2 (Advertising B) | 3.2/5 | CV ❌ | Expired; near-duplicate of #319 (parallel headcount slot); do not apply to both
+- [x] #310 | https://job-boards.greenhouse.io/maintainx/jobs/4982851007 | MaintainX | Machine Learning Engineer, Predictive Maintenance | 3.6/5 | CV ❌ | Confirm Canada-remote eligibility + posting still active; IoT/time-series ML strong fit
+- [x] #311 | https://clio.wd3.myworkdayjobs.com/en-US/ClioCareerSite/job/Senior-Machine-Learning-Engineer_BF-REQ-2513 | Clio | Senior Machine Learning Engineer | 3.4/5 | CV ❌ | Posting removed May 5 2026; $154-209K CAD comp; legal GenAI domain mismatch — confirm before pursuing
+- [x] #312 | https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/Toronto-ON-CAN/AI-Research-Scientist-Engineer-Multimodal-VLM-and-MLLM_25WD92007-1 | Autodesk Research | AI Research Scientist/Engineer, Multimodal VLM and MLLM | 2.1/5 | CV ❌ | SKIP — posting removed Feb 18 2026; VLM/MLLM domain mismatch
+- [x] #313 | https://www.coveo.com/en/company/careers/open-positions/research-and-development/applied-scientist-nlp/7944424002 | Coveo | Applied Scientist (NLP) | 2.7/5 | CV ❌ | SKIP — Senior II NLP 8yr bar; comp $100-130K below target; third Coveo NLP eval
+- [x] #314 | https://www.coveo.com/en/company/careers/open-positions/research-and-development/machine-learning-developer/8512260002 | Coveo | Machine Learning Developer | 2.4/5 | CV ❌ | SKIP — comp CA$80K avg; mid-level MLOps role below seniority target
+- [x] #315 | https://careers.servicenow.com/jobs/744000026517338/senior-applied-research-scientist-llm-evaluation/ | ServiceNow Research | Senior Applied Research Scientist, LLM Evaluation | 2.0/5 | CV ❌ | SKIP — posting removed Dec 13 2024 (17mo stale); strong thematic fit; set alert for new ServiceNow Research Montreal roles
+
+- [x] #298 | https://zone24x7.com/careers/ | Zone24x7 | ML/AI Engineering | 1.5/5 | CV ❌ | Colombo hybrid hard blocker; no Canada remote
+- [x] #299 | https://www.crossover.com/jobs/ai-engineer/lk/colombo | Crossover/Trilogy | Machine Learning Engineer | 1.8/5 | CV ❌ | Sri Lanka geo-restricted (/lk/colombo URL); not globally remote
+- [x] #300 | https://wd5.myworkdaysite.com/recruiting/sysco/syscocareers | Sysco LABS Sri Lanka | Senior AI/Data Engineering | 1.5/5 | CV ❌ | Colombo hybrid hard blocker; JD unverifiable
+- [x] #301 | https://itpro.lk/job/13510/lead-machine-learning-engineer-at-silverline-it/ | Silverline IT | Lead Machine Learning Engineer | 1.8/5 | CV ❌ | Remote = Sri Lanka-resident only; not open to Canada
+- [x] #302 | https://www.virtusa.com/careers/lk/colombo/ai-ml | Virtusa | Senior AI/ML Engineer | 1.5/5 | CV ❌ | Colombo hybrid hard blocker
+- [x] #303 | https://wso2.com/careers/ | WSO2 | AI/ML Engineering | 1.8/5 | CV ❌ | No active AI/ML role on careers page; only Sri Lanka SWE roles
+- [x] #304 | https://99x.io/join-us | 99X Technology | AI/ML Engineering | 1.5/5 | CV ❌ | Colombo onsite hard blocker
+- [x] #305 | https://www.crossover.com/job-roles/product-management/t-a0s2j00000E2sYiAAJ/totogi-senior-data-scientist | Crossover/Totogi | Senior Data Scientist | 2.8/5 | CV ❌ | Contractor model; surveillance concerns; graph DB + Spark gaps; below target archetype
+- [x] #306 | https://jobs.lever.co/spotify/3738dd16-b387-4daa-bed7-312b2be39418 | Spotify | Research Scientist - Music (EMEA) | 2.2/5 | CV ❌ | New posting (NOT dup of #233); EMEA-only hard blocker; London/Stockholm required
+- [x] #307 | https://www.songscription.ai/careers/founding-music-ai-researcher | Songscription AI | Founding Music AI Researcher/Engineer | 3.6/5 | CV ❌ | Perfect domain fit; confirm SF remote/TN eligibility; $175-225K USD + equity; mention pirates in email
+- [x] #308 | https://job-boards.greenhouse.io/nuancelabs/jobs/4140950009 | Nuance Labs | Founding Research Scientist - Speech Synthesis | 2.5/5 | CV ❌ | Seattle 5d/wk onsite; speech synthesis domain hard gap
+- [x] #309 | https://jobs.workable.com/view/bk3QkZwqskwGBb4BDukXHE/hybrid-scientifique-en-recherche-appliquee-securite-ia-applied-research-scientist-in-montreal-at-mila | Mila | Applied Research Scientist - AI Security | 2.9/5 | CV ❌ | AI safety domain hard gap; comp $35-120K below target; distinct from #156
+
+- [x] #288 | https://job-boards.eu.greenhouse.io/polyai/jobs/4855037101 | PolyAI | Forward Deployed AI Engineer (Toronto) | 2.1/5 | CV ❌ | FDE archetype mismatch; client-facing consulting; comp below target
+- [x] #289 | https://explore.jobs.netflix.net/careers/job/790313701678-machine-learning-scientist-l4-l5-audio-speech-for-games-usa-remote | Netflix | ML Scientist (L4/L5) - Audio & Speech for Games | 3.0/5 | CV ❌ | Expired Apr 9 2026; US-only remote; excellent domain fit but not actionable
+- [x] #290 | https://startup.jobs/ml-senior-audio-research-engineer-izotope-2-4306938 | iZotope | ML Senior Audio Research Engineer | 2.7/5 | CV ❌ | Boston MA onsite; US work auth required; contact to confirm remote eligibility
+- [x] #291 | https://job-boards.greenhouse.io/scaleai/jobs/4488520005 | Scale AI | Senior / Staff ML Research Scientist, Agents | 2.0/5 | CV ❌ | US onsite 3x/wk; NLP pub venue gap; agentic LLM domain hard gap
+- [x] #292 | https://job-boards.greenhouse.io/scaleai/jobs/4631848005 | Scale AI | Senior MLE - Model Evaluations, Public Sector | 2.2/5 | CV ❌ | US security clearance required; CA PR ineligible
+- [x] #293 | https://job-boards.greenhouse.io/grafanalabs/jobs/5559977004 | Grafana Labs | Senior AI Engineer, GenAI & ML Evaluation Frameworks | 3.3/5 | CV ❌ | Remote Canada; CAD $164-197K; LLM eval gap; confirm before CV+CL
+- [x] #294 | https://job-boards.greenhouse.io/reddit/jobs/7095234 | Reddit | Staff MLE, Ads Ranking | 2.3/5 | CV ❌ | Ontario remote but ads ranking domain hard gap; no RecSys/Spark background
+- [x] #295 | https://job-boards.greenhouse.io/samsara/jobs/7412596 | Samsara | Senior ML Engineer | 4.1/5 | CV ✅ | Remote Canada; CAD $170-234K + equity; IoT/CV/real-time ML match; CV+CL generated
+- [x] #281 | https://careers.dolby.com/job/atlanta-multimodal-ai-researcher,-audio-ga-30301/1282436400 | Dolby | Senior Multimodal AI Researcher, Audio | 3.5/5 | CV ❌ | Atlanta GA listed; Canada-remote unconfirmed; confirm before applying
+- [x] #282 | https://job-boards.greenhouse.io/soundcloud71/jobs/8485177002 | SoundCloud | Senior Machine Learning Engineer, Recommendations (Experience) | 2.8/5 | CV ❌ | NYC hybrid; Scala hard gap; no RecSys proof points; SKIP
+- [x] #283 | https://www.metacareers.com/jobs/1582295382440292 | Meta (FAIR) | Research Scientist, Speech & Audio - FAIR (PhD) | 3.2/5 | CV ❌ | US location required; publication venue gap vs ICASSP/NeurIPS
+- [x] #284 | https://www.metacareers.com/profile/job_details/1663048827996120 | Meta (Superintelligence Lab) | AI Research Scientist - Voice AI Team | 3.0/5 | CV ❌ | US-only; RL/RLHF hard gap; posting may be expired
+- [x] #285 | https://jobs.lever.co/spotify/b647c231-bb8c-494f-ad10-8d6d89ec4597 | Spotify | Research Scientist - Language Technologies | 2.8/5 | CV ❌ | NLP domain mismatch; Music RS roles better fit (#233, #234); SKIP
+- [x] #286 | https://job-boards.greenhouse.io/thealleninstitute/jobs/7848655 | AI2 (Allen Institute) | Research Engineer, Robotics | 2.0/5 | CV ❌ | Robotics domain hard mismatch; no ROS/control/sim-to-real; Seattle onsite; SKIP
+- [x] #287 | https://job-boards.greenhouse.io/thealleninstitute/jobs/7848623 | AI2 (Allen Institute) | Research Scientist, Robotics | 2.2/5 | CV ❌ | Robotics domain hard mismatch; no CoRL/ICRA pubs; RL gap; Seattle onsite; SKIP
+
+- [x] #279 | https://jobs.ashbyhq.com/Hippocratic%20AI/ea62478d-3fa8-4719-81e3-c9e55076c4ed | Hippocratic AI | Research Scientist, Speech Technologies | 1.9/5 | CV ❌ | Palo Alto 5-days in-office; ASR domain mismatch; SKIP
+- [x] #280 | https://jobs.ashbyhq.com/david-ai/76754f39-fb37-4d28-a15c-e8aecd257544 | David AI | Applied Audio ML Engineer | 3.5/5 | CV ❌ | SF in-person likely; visa sponsorship available; confirm remote before CV
+- [x] #275 | https://jobs.lever.co/ifm-us/d0c7c7d9-731e-4ce0-982c-ad706363e8c4 | Institute of Foundation Models | Research Scientist - Speech/Audio ML | 3.2/5 | PDF ❌
+- [x] #276 | https://jobs.lever.co/spotify/631e80ca-90b9-4b40-a433-ba6f57d68b52 | Spotify | Senior Research Engineer - Music | 3.8/5 | PDF ❌
+- [x] #277 | https://jobs.lever.co/spotify/b21a510b-d838-4654-9cbb-7973e40a4330 | Spotify | Research Scientist - Personalization | 2.8/5 | PDF ❌
+
+- [x] #237 | https://jobs.ashbyhq.com/openai/46cd47bc-d4de-4826-aa2e-8b2e0da3c409 | OpenAI | Research Engineer / ML Engineer - Applied Voice | 3.8/5 | CV ✅
+- [x] #78 | https://jobs.ashbyhq.com/deepgram/9a030b32-d671-43e0-a221-4653bb73ba29 | Deepgram | Research Engineer, Machine Learning Systems | 2.5/5 | CV ❌
+- [x] #77 | https://jobs.ashbyhq.com/deepgram/96812d52-f0e8-4828-8020-f6e92201cbd5 | Deepgram | Audio Engineer | 2.0/5 | CV ❌
+- [x] #133 | https://jobs.ashbyhq.com/bland/681dfcda-f016-4bda-826e-7e813fae0083 | Bland AI | Machine Learning Researcher, Multimodal LLMs | 3.0/5 | CV ❌ | (duplicate, existing #133 4.3/5)
+- [x] #241 | https://jobs.ashbyhq.com/elevenlabs/fce67b4c-bce8-442c-a334-06f327408f3d | ElevenLabs | Forward Deployed Engineer - Strategist | 2.8/5 | CV ❌
+- [x] #223 | https://jobs.ashbyhq.com/elevenlabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6 | ElevenLabs | Forward Deployed Engineer - Software Engineer | 2.8/5 | CV ❌ | (duplicate, existing #223 3.8/5)
+- [x] #138 | https://jobs.lever.co/mistral/042d7b29-279b-48e2-a44b-c7bdc3180dab | Mistral AI | Applied AI, Technical Lead, Forward Deployed AI Engineer - Montreal | 3.2/5 | CV ❌ | (duplicate, existing #138 4.0/5)
+- [x] #199 | https://jobs.ashbyhq.com/zapier/83ab14be-cd19-4091-84aa-2aa23833ab7d | Zapier | Applied AI Engineer | 2.8/5 | CV ❌ | (duplicate match)
+- [x] #199 | https://jobs.ashbyhq.com/zapier/38434b88-086c-424b-8d18-8d006e0b71b8 | Zapier | Sr. Applied AI Engineer | 2.8/5 | CV ❌ | (duplicate match)
+- [x] #211 | https://job-boards.greenhouse.io/cresta/jobs/5199747008 | Cresta | Senior Machine Learning Engineer, Voice Experience | 3.2/5 | CV ❌
+- [x] #247 | https://job-boards.greenhouse.io/cresta/jobs/5123589008 | Cresta | GTM Engineer | 1.8/5 | CV ❌
+- [x] #248 | https://job-boards.greenhouse.io/gleanwork/jobs/4632997005 | Glean | Machine Learning Engineer, Enterprise Brain | 2.5/5 | CV ❌
+- [x] #249 | https://job-boards.greenhouse.io/gleanwork/jobs/4659412005 | Glean | Founding Forward Deployed Engineer | 3.1/5 | CV ❌
+- [x] #250 | https://job-boards.greenhouse.io/airtable/jobs/8477376002 | Airtable | Forward Deployed Engineer, EMEA | 1.5/5 | CV ❌
+- [x] #251 | https://job-boards.greenhouse.io/airtable/jobs/8409168002 | Airtable | AI Agent Architect, Customer Experience | 2.5/5 | CV ❌
+- [x] #273 | https://job-boards.greenhouse.io/vercel/jobs/5872425004 | Vercel | Forward Deployed Engineer, v0 | 1.5/5 | CV ❌
+- [x] #253 | https://job-boards.greenhouse.io/vercel/jobs/5778418004 | Vercel | Forward-Deployed Engineer | 1.5/5 | CV ❌
+- [x] #254 | https://job-boards.greenhouse.io/vercel/jobs/5777645004 | Vercel | GTM Engineer | 2.0/5 | CV ❌
+- [x] #255 | https://job-boards.greenhouse.io/intercom/jobs/7462098 | Intercom | Senior Forward Deployed Engineer | 2.0/5 | CV ❌
+- [x] #256 | https://job-boards.greenhouse.io/intercom/jobs/7462110 | Intercom | Staff Forward Deployed Engineer | 2.0/5 | CV ❌
+- [x] #257 | https://www.coveo.com/en/company/careers/open-positions/research-and-development/applied-research-scientist-nlp/5801481002 | Coveo | Applied Research Scientist - NLP | 3.0/5 | CV ❌
+- [x] #258 | https://www.coveo.com/en/company/careers/open-positions/research-and-development/machine-learning/nlp-and-deep-learning-specialist/5871059002 | Coveo | NLP and Deep Learning Specialist | 3.0/5 | CV ❌
+- [x] #259 | https://www.shopify.com/careers/applied-ml-engineering-genai-ai-agent_dae1b282-8518-44e9-b247-6ea1bbc2cf13 | Shopify | Applied ML Engineering - GenAI, AI Agent | 3.2/5 | CV ❌
+- [x] #260 | https://www.shopify.com/careers/machine-learning-applied-scientists_28caecaa-bc07-4b11-b8b4-9ad2d7d54ecf | Shopify | Machine Learning Applied Scientists | 3.2/5 | CV ❌
+- [x] #261 | https://www.shopify.com/careers/applied-machine-learning-engineers_19b9dea6-f028-4362-aae5-ab6ef70560a7 | Shopify | Applied Machine Learning Engineers (Americas Remote) | 3.0/5 | CV ❌
+- [x] #262 | https://www.shopify.com/careers/machine-learning-engineer-hstu_04b84b82-81e7-4288-a440-6446ef433299 | Shopify | Machine Learning Engineer - HSTU | 2.8/5 | CV ❌
+- [x] #263 | https://www.shopify.com/careers/senior-staff-engineer-machine-learning-inference_b5bd9306-a689-4428-9b9d-a1f88c3b85d7 | Shopify | Senior Staff Engineer - Machine Learning Inference | 2.5/5 | CV ❌
+- [x] #264 | https://jobs.ashbyhq.com/langchain/aa5f7876-856b-4abc-8657-1640194a28ca | LangChain | Solutions Architect, Applied AI | 2.5/5 | CV ❌
+- [x] #265 | https://jobs.ashbyhq.com/langchain/17264d5c-0ca3-4c26-9683-dd9b020cc155 | LangChain | Deployed Engineer | 2.5/5 | CV ❌
+- [x] #266 | https://jobs.ashbyhq.com/letta/fc0ae0d3-bc03-4afd-ab79-299444885e88 | Letta | Research Engineer / Scientist, Memory | 2.5/5 | CV ❌
+- [x] #267 | https://jobs.ashbyhq.com/letta/57165f1b-e99e-4f9e-bda2-8f220ba68af7 | Letta | Research Engineer / Scientist, Post-Training | 2.0/5 | CV ❌
+- [x] #268 | https://jobs.ashbyhq.com/letta/d95271e3-f1ae-4317-8ecd-f25a79a0165c | Letta | Research Engineer / Scientist, Self-Improvement | 2.0/5 | CV ❌
+- [x] #269 | https://jobs.ashbyhq.com/vapi/deee4fdf-62c3-4575-92b3-5b486b2858c5 | Vapi | Member of Technical Staff, Forward Deployed | 2.5/5 | CV ❌
+- [x] #270 | https://jobs.ashbyhq.com/hopper/24380cbc-bb55-4c1e-b2dd-4420ae9e3eea | Hopper | Forward Deployed Engineer, HTS Assist | 2.5/5 | CV ❌
+- [x] #271 | https://jobs.ashbyhq.com/baseten/6e396eb7-acb3-436a-89ec-05e755c477f2 | Baseten | Software Engineer - Voice AI (Inference Runtime) | 3.2/5 | CV ❌
+- [x] #272 | https://jobs.ashbyhq.com/baseten/84c1801c-1a65-49fb-aaaa-beeafd530e7e | Baseten | Forward Deployed Engineer | 2.8/5 | CV ❌
+- [x] #274 | https://job-boards.greenhouse.io/thealleninstitute/jobs/7819106 | AI2 (Allen Institute) | Research Engineer, FlexOlmo | 2.8/5 | CV ❌
+- [x] #275 | https://job-boards.greenhouse.io/thealleninstitute/jobs/7723570 | AI2 (Allen Institute) | Research Scientist, Agents for Science | 2.5/5 | CV ❌
+
+- [x] #206 | xAI | Member of Technical Staff - Voice Product | 2.8/5 | CV ❌ | Palo Alto on-site; backend SWE not ML research; iOS/Android gap
+- [x] #207 | xAI | Member of Technical Staff - Multimodal Understanding | 3.0/5 | CV ❌ | Palo Alto on-site; LLM/VLM scale gap; no NeurIPS/ICML pubs
+- [x] #208 | Speechmatics | Machine Learning Engineer | 3.2/5 | CV ❌ | Cambridge UK hybrid; domain match but UK relocation required
+- [x] #209 | Speechmatics | ML Platform Engineer | 2.5/5 | CV ❌ | Belgrade Serbia; MLOps role not ML research
+- [x] #210 | Cresta | Senior MLE - ASR | 3.5/5 | CV ✅ | UK Remote; verify Canada eligibility; strong audio ML match
+- [x] #211 | Cresta | Staff Machine Learning Engineer | 2.5/5 | CV ❌ | US Remote; hard LLM/agentic domain gap
+- [x] #212 | Cerebras Systems | AI/ML Research Scientist | 3.8/5 | CV ✅ | Toronto/Vancouver Canada office; hardware-aware ML match; APPLY
+- [x] #213 | Cerebras Systems | ML Research Engineer (Inference) | 2.0/5 | CV ❌ | Bengaluru India; junior level; LLM inference domain gap
+- [x] #214 | Cerebras Systems | Principal ML Investigator | 2.8/5 | CV ❌ | Sunnyvale CA; LLM/RL gap; Principal level stretch
+- [x] #215 | Mercury | AI Solutions Architect | 2.2/5 | CV ❌ | Customer ops chatbot role; not ML engineering
+- [x] #216 | Intercom | Senior AI Deployment Architect | 2.0/5 | CV ❌ | Chicago hybrid; customer success not ML engineering
+- [x] #217 | Intercom | AI Infrastructure Engineer | 2.5/5 | CV ❌ | Dublin Ireland hybrid; LLM training infra + CUDA gap
+- [x] #218 | Scale AI | ML Research Engineer - Robotics | 2.5/5 | CV ❌ | SF on-site; robotics/VLA domain hard gap
+- [x] #219 | Scale AI | ML Research Engineer, ML Systems | 2.8/5 | CV ❌ | SF/Seattle/NYC; LLM distributed training + CUDA gap
+- [x] #220 | Mistral AI | Applied Scientist - Edge Devices and Quantization (EMEA) | 4.0/5 | CV ✅ | EMEA Paris/London; excellent embedded ML match; verify Canada-remote or relocate
+- [x] #221 | Nebius | Senior / Staff ML Engineer (LLMs and Agentic Systems) | 2.5/5 | CV ❌ | Amsterdam hybrid; hard LLM/RL domain gap
+- [x] #222 | Coinbase | Senior ML Platform Engineer | 3.2/5 | CV ❌ | US Remote only; MLOps not ML research; Canada role #146 better match
+- [x] #223 | ElevenLabs | Research Engineer | 3.8/5 | CV ✅ | Remote; strong audio ML + data pipeline match; verify Canada-remote; APPLY
+- [x] #224 | Suno | Machine Learning Scientist | 3.0/5 | CV ❌ | US work authorization required (hard blocker); generative model training gap
+- [x] #225 | Zyphra | Research Engineer - Audio & Speech Models | 4.1/5 | CV ✅ | Palo Alto CA on-site; excellent audio domain match; verify Canada-remote or willing to relocate
+- [x] #226 | Cartesia | Research Engineer | 3.0/5 | CV ❌ | SF in-person required; SSM/Mamba niche gap
+- [x] #227 | Liquid AI | Research Engineer (Liquid Labs) | 3.5/5 | CV ✅ | SF/Boston preferred; verify Canada-remote; novel architecture match
+- [x] #228 | Liquid AI | MTS - ML Research Engineer, Multi-Modal Vision | 2.8/5 | CV ❌ | SF on-site; VLM domain gap
+- [x] #229 | Liquid AI | MTS - ML Research Engineer, Foundation Model Data | 3.0/5 | CV ❌ | SF on-site; data engineering not modeling; comp below target
+- [x] #230 | Liquid AI | MTS - ML Research Engineer, Performance Optimization | 2.8/5 | CV ❌ | SF on-site; CUDA kernel engineering gap
+- [x] #231 | Mistral AI | Applied Scientist - Multimodal (EMEA) | 3.5/5 | CV ✅ | EMEA Paris/London; audio modality match; distributed LLM training gap; open to relocate
+- [x] #232 | Decagon | Machine Learning Research Engineer | 2.3/5 | CV ❌ | SF in-office; LLM fine-tuning gap; conversational AI domain
+- [x] #233 | Spotify | Research Scientist, Music | 4.3/5 | CV ✅ | Remote; strong MIR + audio ML match; APPLY
+- [x] #234 | Spotify | Senior Research Scientist, Music | 4.3/5 | CV ✅ | Remote; possible variant of #202; verify not duplicate; APPLY
+- [x] #235 | Spotify | Staff Research Scientist, Music | 3.8/5 | CV ✅ | Remote; reach application; apply alongside Senior RS
+- [x] #236 | Hopper | Senior Agentic AI Software Engineer | 3.3/5 | CV ❌ | Canada remote; product SWE with AI tooling; Scala gap; not ML research
+- [x] #202 | Spotify | Senior Research Scientist - Music (EMEA) | 4.2/5 | CV ✅ | EMEA remote; strong MIR/audio match; generative modeling gap; verify Canada eligibility
+- [x] #203 | Hook Music | Research Scientist, Recommendation Systems | 3.7/5 | CV ✅ | Remote; music-tech Series A; audio domain adjacency; verify full JD (Ashby unverified)
+- [x] #204 | Google DeepMind | Research Engineer, World Models (Toronto) | 3.2/5 | CV ❌ | Video gen/world models domain gap; infra role; do not apply
+- [x] #205 | Google DeepMind | Research Scientist, World Models (Toronto) | 3.0/5 | CV ❌ | Video gen/world models hard domain gap; ML venue gap; do not apply
+- [x] #201 | Arize AI | AI Application Engineer | 1.8/5 | CV ❌ | BLOCKER: Buenos Aires required; international location
+- [x] #200 | Hume AI | Senior Platform Engineer | 2.8/5 | CV ❌ | Backend infra SWE; not ML/audio research; NYC
+- [x] #199 | Zapier | Staff Engineer, Applied AI | 3.3/5 | CV ❌ | LLM agents domain gap; 2+ yrs LLM prod required
+- [x] #198 | Cursor | Engineer (ML, General, Infra, Product) | 2.8/5 | CV ❌ | [!] Inaccessible; LLM-for-code product; SF
+- [x] #197 | Knak | Forward Deployed Engineer (AI Internal Tools) | 2.2/5 | CV ❌ | Full-stack web SWE (TS/Laravel/Vue); not ML
+- [x] #196 | NICE | AI Forward Deployed Engineer | 2.3/5 | CV ❌ | USA-only remote; Canadian PR work authorization blocker
+- [x] #195 | Cresta | Forward Deployed Engineer (AI Agent) | 1.8/5 | CV ❌ | BLOCKER: Australia-only; international location
+- [x] #194 | Together AI | Solutions Architect | 3.2/5 | CV ❌ | SA adjacent archetype; SF 4d/wk; LLM gap
+- [x] #193 | Together AI | Senior Platform Engineer, Voice AI | 3.0/5 | CV ❌ | Platform infra SWE; not ML research; SF
+- [x] #192 | Deepgram | Solutions Engineer, Enterprise | 2.8/5 | CV ❌ | Pre-sales SE; apply to Deepgram Voice AI (#169) instead
+- [x] #191 | Bland AI | Customer Engineer | 2.3/5 | CV ❌ | Support role mismatch; SF; below-target comp
+- [x] #190 | Bland AI | Forward Deployed Engineer | 3.2/5 | CV ❌ | FDE archetype; SF in-person + travel; apply to Bland ML Researcher instead
+- [x] #189 | Baseten | Customer Engineer | 2.5/5 | CV ❌ | Support role; below-target comp; SF
+- [x] #188 | Baseten | Solution Architect | 3.2/5 | CV ❌ | SA adjacent archetype; SF; pre-sales
+- [x] #187 | Scale AI | Senior Forward Deployed AI Engineer, Enterprise | 3.3/5 | CV ❌ | FDE archetype; SF/NYC on-site; LLM/RAG gap
+- [x] #186 | Anthropic | Forward Deployed Engineer, Applied AI | 1.5/5 | CV ❌ | BLOCKER: Paris + native French required
+- [x] #185 | Perplexity AI | Forward Deployed Engineer - Applied AI | 3.2/5 | CV ❌ | FDE mismatch; SF relocation; LLM production gap
+- [x] #184 | Scale AI | Research Scientist, Agent Robustness | 2.8/5 | CV ❌ | AI safety/agent robustness domain; red-teaming gap
+- [x] #183 | Scale AI | ML Research Scientist/Engineer, Reasoning | 2.8/5 | CV ❌ | NLP/ML top-venue pubs required; LLM reasoning gap
+- [x] #182 | Scale AI | ML Research Engineer, Agents - Enterprise GenAI | 2.8/5 | CV ❌ | NeurIPS/ICLR/ICML pub requirement + LLM agent gap
+- [x] #181 | Deepgram | Research Staff, LLMs | 2.8/5 | CV ❌ | LLM domain (not audio); apply to Deepgram Voice AI (#169)
+- [x] #180 | Together AI | Research Engineer, Frontier Speculative Decoding | 2.8/5 | CV ❌ | Speculative decoding niche LLM gap; relocation
+- [x] #179 | Together AI | Research Engineer, Core ML | 3.0/5 | CV ❌ | SGLang/vLLM + RL gaps; SF on-site 4x/wk
+- [x] #178 | Baseten | Post-Training Research Engineer | 2.8/5 | CV ❌ | LLM post-training hard gap; SF
+- [x] #177 | League Inc. | Senior MLE (Small Language Models) | 3.0/5 | CV ❌ | LoRA/QLoRA/RLHF hard gap; healthcare domain
+- [x] #176 | Scale AI | ML Fellow - Human Frontier Collective (Canada) | 3.5/5 | CV ✅ | Canada remote; contractor 1099; apply as bridge/supplemental
+- [x] #175 | Speechify | Applied AI Engineer & Researcher | 0.0/5 | CV ❌ | [!] Posting closed/inaccessible
+- [x] #174 | AssemblyAI | Lead AI Platform Engineer | 0.0/5 | CV ❌ | [!] Posting closed/inaccessible
+- [x] #173 | AssemblyAI | Applied AI Engineer | 0.0/5 | CV ❌ | [!] Posting closed/inaccessible
+- [x] #172 | Anthropic | Senior/Staff+ SWE, Voice Platform | 2.5/5 | CV ❌ | Platform infra SWE (WebRTC/codecs); not ML research; SF
+- [x] #171 | SoundCloud | Senior Principal Engineer, Machine Learning | 2.8/5 | CV ❌ | Internet-scale recommendations hard gap; NYC; CTO-report level
+- [x] #170 | SoundCloud | Senior MLE, Recommendations | 3.2/5 | CV ❌ | Scala hard gap; recommendations domain; NYC
+- [x] #169 | Deepgram | Research Staff, Voice AI Foundations | 4.0/5 | CV ✅ | Remote-eligible; strong researcher profile match; speech gap manageable; APPLY
+- [x] #168 | Udio | ML Researcher (Music & Audio) | 4.2/5 | CV ✅ | Music tech + MIR domain fit; generative gap manageable; NYC relocation; APPLY
+- [x] #167 | Anthropic | Research Engineer/Research Scientist, Audio | 4.3/5 | CV ✅ | Strongest audio ML match in batch; SF hybrid; $350-500K USD; APPLY
+- [x] #166 | Huawei Canada | Real-Time Embedded OS Researcher | 2.8/5 | CV ❌ | OS/systems research hard blocker; Assembly/kernel gap; Ottawa relocation; do not apply
+- [x] #165 | Huawei Canada | Senior Researcher, Vision-Language Models | 3.0/5 | CV ❌ | [!] URL 404; VLM 3+ yrs required; CVPR/ICCV venue gap; do not apply
+- [x] #164 | Huawei Canada | Researcher, AI - Computer Vision | 3.5/5 | CV ✅ | 12-month contract; MAS CV at scale matches; CVPR venue gap; onsite Markham daily
+- [x] #163 | Huawei Canada | Researcher, Machine Learning | 3.0/5 | CV ❌ | [!] URL 404 closed; Noah's Ark LLM/RL; RL hard gap + NLP domain mismatch
+- [x] #162 | Huawei Canada | Senior Researcher, Voice AI | 4.0/5 | CV ✅ | Highest domain alignment: audio/DSP/embedded match; speech gap manageable; onsite Markham
+- [x] #161 | Deep Genomics | (Senior) Research Scientist, LLMs for Genomics | 2.5/5 | CV ❌ | Genomics + LangChain essential + multi-agent gap; three blockers; do not apply
+- [x] #160 | Deep Genomics | (Senior/Staff) Research Scientist, ML | 2.8/5 | CV ❌ | Genomics domain hard blocker + NeurIPS/ICML/ICLR venue gap; do not apply
+- [x] #159 | Thomson Reuters Labs | Research Engineer, Data & Foundational Research ML | 3.5/5 | CV ✅ | Data pipeline engineering for LLM training; ETL/AWS/Airflow match; hybrid Toronto
+- [x] #158 | Thomson Reuters Labs | Senior Research Scientist, Foundational Research ML | 3.2/5 | CV ❌ | LLM/NLP focus, publication venue gap
+- [x] #148 | Cohere | Senior Research Scientist, Cohere Labs | 3.4/5 | CV ❌ | Domain mismatch: LLM/reasoning research focus vs audio/signal ML profile
+- [x] #149 | Cohere | Research Engineer | 2.8/5 | CV ❌ | LLM post-training infra (RLHF/distributed cluster) — hard domain mismatch
+- [x] #150 | Waabi | Research Engineer | 3.0/5 | CV ❌ | AV domain (perception/planning/sensor simulation) — no AV background
+- [x] #151 | Waabi | Research Scientist | 3.0/5 | CV ❌ | AV domain — no AV publications or background; CVPR/ICRA venue gap
+- [x] #152 | Waabi | Research Engineer, World Models | 2.5/5 | CV ❌ | AV world models (video gen/latent diffusion/VLM) — dual hard gap
+- [x] #153 | Waabi | Research Engineer, Online Mapping | 2.5/5 | CV ❌ | HD mapping/BEV/localization — no AV mapping background
+- [x] #154 | Waabi | Research Scientist, Simulation Agents | 2.2/5 | CV ❌ | RL/imitation learning hard blocker + AV simulation gap
+- [x] #155 | Waabi | Research Scientist, Neural Reconstruction | 2.3/5 | CV ❌ | Neural rendering (NeRF/3DGS) hard blocker + AV domain gap
+- [x] #156 | MILA | Applied Research Scientist | 3.8/5 | CV ✅ | Strong applied research fit; confirm comp ≥ CA$110K before applying; leverage McGill connection
+- [x] #157 | ServiceNow Research | Senior Research Engineer/Scientist (Montreal) | 3.0/5 | CV ❌ | AI agent reliability/LLM safety focus + NeurIPS/ICML venue req — domain and venue gap
+- [x] #122 | Speechmatics | Solutions Engineer | 2.5/5 | CV ❌ | SKIP: pre-sales role, Mexico City
+- [x] #123 | Stability AI | Research Scientist – Controlled 3D Generation | 2.8/5 | CV ❌
+- [x] #124 | Isomorphic Labs | ML Research Engineer, London | 3.5/5 | CV ❌
+- [x] #125 | Wayve | Machine Learning Engineer, AV Engineering | 2.5/5 | CV ❌ | Israel location blocker
+- [x] #126 | Wayve | Principal Machine Learning Engineer, App SW | 2.0/5 | CV ❌ | US location + AV domain blockers
+- [x] #127 | Contentful | Senior Machine Learning Engineer | 3.3/5 | CV ❌ | LLM/NLP, Dublin relocation
+- [x] #128 | GetYourGuide | Senior AI Enablement Engineer | 3.5/5 | CV ❌ | Berlin
+- [x] #129 | GetYourGuide | Senior ML Ops Engineer, AI Platform Team | 3.5/5 | CV ❌ | Berlin
+- [x] #130 | Scandit | Senior Machine Learning Engineer (Computer Vision) | 3.8/5 | CV ❌ | Zurich relocation
+- [x] #131 | Splice | Senior Machine Learning Engineer - Generative Models | 4.0/5 | CV ❌ | Verify Canada remote eligibility first
+- [x] #132 | Telnyx | Senior Machine Learning Engineer (Speech Synthesis) | 2.8/5 | CV ❌
+- [x] #133 | Bland AI | Machine Learning Researcher, Audio | 4.3/5 | CV ✅
+- [x] #134 | Bland AI | Machine Learning Engineer, TTS Systems | 3.8/5 | CV ❌
+- [x] #135 | OpenTable | Senior Machine Learning Engineer (Toronto) | 3.4/5 | CV ❌
+- [x] #136 | GitLab | Senior Machine Learning Engineer, AI Framework | 3.8/5 | CV ❌
+- [x] #137 | Affirm | Senior Staff Machine Learning Engineer (ML Underwriting) | 4.6/5 | CV ✅
+- [x] #138 | Mistral AI | Applied AI, Forward Deployed ML Engineer - Montreal | 3.7/5 | CV ❌
+- [x] #139 | Cerebras Systems | Applied Machine Learning Research Scientist | 3.6/5 | CV ❌
+- [x] #140 | Cerebras Systems | R&D Engineer - AI/ML, HPC | 3.2/5 | CV ❌
+- [x] #141 | Mercury | Senior Machine Learning Engineer (Remote Canada/US) | 4.2/5 | CV ✅
+- [x] #142 | Torc Robotics | Staff ML Engineer - BEV | 3.9/5 | CV ❌
+- [x] #143 | Torc Robotics | Staff ML Engineer - E2E | 3.0/5 | CV ❌
+- [x] #144 | Torc Robotics | Senior ML Engineer - Neural Rendering | 2.8/5 | CV ❌
+- [x] #145 | Torc Robotics | Staff ML Engineer - Learned Behaviors / RL Planning | 2.8/5 | CV ❌ | RL hard blocker
+- [x] #146 | Coinbase | Senior Machine Learning Engineer, Risk AI/ML (Remote Canada) | 4.0/5 | CV ❌
+- [x] #117 | MaintainX | Senior Applied ML Engineer, Asset Intelligence | 4.1/5 | CV ✅
+- [x] #118 | Cresta | Senior ML Engineer (Canada Remote) | 3.2/5 | CV ✅
+- [x] #119 | Vector Institute | Sr. Applied ML Specialist, Research Eng | 4.2/5 | CV ✅
+- [x] #120 | Speechmatics | Principal ML Engineer | 3.2/5 | CV ❌
+- [x] #121 | Speechmatics | Senior ML Engineer | 3.5/5 | CV ✅
+- [x] #115 | MaintainX | Senior Applied ML Developer, Asset Intelligence | 4.6/5 | PDF ✅
+- [x] #116 | Google DeepMind | Research Scientist, AI-powered Scientific Discovery | 3.2/5 | PDF ❌
+- [x] #114 | Layer 6 (TD) | Machine Learning Engineer | 4.1/5 | PDF ✅
+- [x] #112 | Lyft | Machine Learning Engineer, Recommendations | 3.2/5 | PDF ❌
+- [x] #111 | StackAdapt | Senior/Staff Machine Learning Engineer | 3.9/5 | PDF ❌
+- [x] #113 | Geotab | Senior Data Scientist (VLM/CV) | 3.8/5 | PDF ❌
+- [x] #110 | StackAdapt | Senior/Staff Applied Machine Learning Scientist | 4.0/5 | PDF ✅
+- [x] #109 | StackAdapt | Applied Machine Learning Scientist | 3.8/5 | PDF ❌
+- [x] #001 | Spotify | Research Scientist - Music (NYC) | 4.2/5 | PDF ✅
+- [x] #002 | Hume AI | Senior/Staff AI Research Engineer | 3.6/5 | PDF ❌
+- [x] #003 | Speechmatics | Principal Machine Learning Engineer | 3.5/5 | PDF ❌
+- [x] #004 | Isomorphic Labs | Research Scientist (ML), London | 3.6/5 | PDF ❌
+- [x] #005 | Spotify | Senior Research Engineer - Music (NYC) | 4.4/5 | PDF ✅
+- [x] #006 | Spotify | Senior Research Scientist - Music (NYC) | 4.4/5 | PDF ✅
+- [x] #007 | Spotify | Principal Research Scientist - Music (NYC) | 2.8/5 | PDF ❌
+- [x] #008 | AssemblyAI | Research Engineer, Evaluations | 4.3/5 | PDF ✅
+- [x] #009 | AssemblyAI | Senior SW Engineer, ML | 3.7/5 | PDF ❌
+- [x] #010 | Waveshaper AI | Senior Audio AI Engineer | 4.6/5 | PDF ✅
+- [x] #011 | Cohere | Audio Inference Engineer, Model Efficiency | 4.1/5 | PDF ❌
+- [x] #012 | Microsoft | Applied Scientist, Core AI Speech | 4.4/5 | PDF ✅
+- [x] #013 | Runway | Applied Research Science Lead, Generative Audio | 3.3/5 | PDF ❌
+- [x] #014 | Cohere | Senior MTS, Multimodal AI (Toronto) | 3.8/5 | PDF ❌
+- [x] #015 | Wave Mobile Money | Applied AI Scientist, LLMs & Voice | 4.2/5 | PDF ❌
+- [x] #016 | Wave Mobile Money | Senior ML Scientist, LLM & Voice | 4.2/5 | PDF ❌
+- [x] #017 | Dolby | Sr. Foundational Audio AI Researcher | 3.9/5 | PDF ❌
+- [x] #018 | Dolby | Senior AI Researcher | 4.1/5 | PDF ❌
+- [x] #019 | Suno | ML Scientist | 3.8/5 | PDF ❌ | [!] Incomplete JD
+- [x] #020 | Udio | MTS, Quantitative Research | 3.7/5 | PDF ❌
+- [x] #021 | Spotify | Senior RE - Music (Stockholm) | 3.8/5 | PDF ❌
+- [x] #022 | Spotify | Senior RS - Music (London) | 3.8/5 | PDF ❌
+- [x] #023 | Spotify | Staff RS - Music (NYC) | 3.4/5 | PDF ❌
+- [x] #024 | Spotify | Staff RE - Music (NYC) | 3.6/5 | PDF ❌
+- [x] #025 | Helsing | AI Research Eng - Signal Processing | 4.2/5 | PDF ❌
+- [x] #026 | Isomorphic Labs | Research Scientist (ML), Lausanne | 3.3/5 | PDF ❌
+- [x] #027 | Glean | MLE, AI Assistant & Agents | 3.1/5 | PDF ❌
+- [x] #028 | Glean | MLE, LLM Evals & Observability | 3.4/5 | PDF ❌
+- [x] #029 | Wayve | Staff MLE, AI Evaluation | 3.5/5 | PDF ❌
+- [x] #030 | Wayve | Staff ML Perf Engineer (Training) | 2.8/5 | PDF ❌
+- [x] #031 | PhysicsX | Principal MLE (Singapore) | 3.3/5 | PDF ❌
+- [x] #032 | PhysicsX | Senior AI Eng - Applied (London) | 3.4/5 | PDF ❌
+- [x] #033 | PhysicsX | Senior MLE (London) | 3.5/5 | PDF ❌
+- [x] #034 | Anthropic | FDE, Applied AI | 3.3/5 | PDF ❌
+- [x] #035 | Anthropic | Applied AI Engineer (Seoul) | 2.9/5 | PDF ❌
+- [x] #036 | Helsing | AI Research Eng - CV | 3.5/5 | PDF ❌
+- [x] #037 | Helsing | AI Research Eng - Foundation Models | 3.1/5 | PDF ❌
+- [x] #038 | Helsing | AI Research Eng - ML Engineering | 3.2/5 | PDF ❌
+- [x] #039 | Helsing | Deployed AI Engineer | 2.8/5 | PDF ❌
+- [x] #040 | Celonis | Applied AI Engineer | 2.7/5 | PDF ❌
+- [!] Speechmatics | Forward Deployed Engineer — SKIP: frontend/API role
+- [!] Stability AI x3 — pending JD fetch
+- [!] Isomorphic Labs | Research Scientist (Applied LLMs) — SKIP: LLM-specialist, drug discovery
+- [!] PhysicsX | Principal AI Engineer — SKIP: agentic/platform engineering role
+- [!] Black Forest Labs | MTS Image/Video — SKIP: generative image domain mismatch
+- [!] Arize | AI Eng Instrumentation — SKIP: observability tooling, not ML research
+
+- [x] #637 | https://job-boards.greenhouse.io/togetherai/jobs/5213322007 | Together AI | Staff Software Engineer, Inference / Compute Infrastructure Engineering | 1.4/5 | PDF ❌
+- [x] #638 | https://job-boards.greenhouse.io/anthropic/jobs/5390799008 | Anthropic | Applied AI Engineer | 1.2/5 | PDF ❌
+- [x] #639 | https://job-boards.greenhouse.io/anthropic/jobs/5390754008 | Anthropic | Applied AI Engineer, Enterprise | 1.2/5 | PDF ❌
+- [x] #640 | https://job-boards.greenhouse.io/anthropic/jobs/5387564008 | Anthropic | Research Scientist, Life Sciences (Chemistry) | 1.0/5 | PDF ❌
+- [x] #641 | https://job-boards.greenhouse.io/anthropic/jobs/5385998008 | Anthropic | Staff + Senior Software Engineer, Inference | 3.0/5 | PDF ❌
+- [x] #642 | https://job-boards.greenhouse.io/gleanwork/jobs/4723427005 | Glean | Senior Data Scientist, Growth | 1.7/5 | PDF ❌
+- [x] #643 | https://jobs.ashbyhq.com/deepgram/ba60a541-fdf7-44bf-a6bb-0e821f15af54 | Deepgram | Senior Data Scientist, Data Flywheel | 3.3/5 | PDF ❌
+- [x] #644 | https://jobs.ashbyhq.com/decagon/5433ff3a-9a7c-406b-9dd8-23094141b907 | Decagon | Agent Data Scientist | 1.9/5 | PDF ❌
+- [x] #645 | https://jobs.ashbyhq.com/langchain/f7de4819-e7aa-4dfb-9acd-8b81ad8caf2c | LangChain | Frontend Engineer, AI Observability & Evals Platform | 1.0/5 | PDF ❌
+- [x] #646 | https://jobs.ashbyhq.com/langchain/bdc96ffd-2a95-4d63-bf8f-193574961e00 | LangChain | Research Engineer, LangSmith Engine | 3.1/5 | PDF ❌
+- [x] #647 | https://jobs.ashbyhq.com/cohere/8878b0d0-7d88-4ee9-bc17-b0dd237e39a0 | Cohere | Member of Technical Staff, Agentic Environments | 2.3/5 | PDF ❌
+- [x] #648 | https://jobs.ashbyhq.com/cohere/dc523c5b-9477-46c4-a122-4f3b2b8f4b67 | Cohere | Member of Technical Staff - RL Environments | 2.7/5 | PDF ❌
+- [x] #649 | https://jobs.ashbyhq.com/cohere/60de50e9-aba7-4a3a-8cdb-955a456749aa | Cohere | Member of Technical Staff, North Modelling (Evals) | 3.0/5 | PDF ❌
+- [x] #650 | https://jobs.ashbyhq.com/baseten/b13ec426-d09d-4122-8112-cf25adbd7d60 | Baseten | AI Engineer | 3.2/5 | PDF ❌
+- [x] #651 | https://jobs.ashbyhq.com/hopper/241f7145-06b9-4ae5-969e-3cccaff85d98 | Hopper | Principal Product Manager - Conversational AI (New York) | 2.2/5 | PDF ❌
+- [x] #652 | https://jobs.ashbyhq.com/hopper/646bcfcf-3b8a-47b3-a3d7-3baf97f126d0 | Hopper | Principal Product Manager - Conversational AI (Canada) | 2.3/5 | PDF ❌
+- [x] #653 | https://jobs.ashbyhq.com/hopper/718f0398-6489-44e5-b590-830e57d56a19 | Hopper | Principal Product Manager - Conversational AI (Montreal) | 2.2/5 | PDF ❌
+- [x] #654 | https://job-boards.greenhouse.io/reddit/jobs/8104403 | Reddit | Senior Data Scientist, Ads | 2.6/5 | PDF ❌
+- [x] #655 | https://job-boards.greenhouse.io/reddit/jobs/8126946 | Reddit | Senior Data Scientist - Consumer | 2.6/5 | PDF ❌
+- [x] #656 | https://job-boards.greenhouse.io/reddit/jobs/8127022 | Reddit | Senior Machine Learning Infrastructure Engineer, Embedding Platform | 3.9/5 | PDF ✅
+- [x] #657 | https://job-boards.greenhouse.io/reddit/jobs/8125507 | Reddit | Senior Machine Learning Manager, Video Ranking | 2.9/5 | PDF ❌
+- [x] #658 | https://job-boards.greenhouse.io/reddit/jobs/8112967 | Reddit | Senior Machine Learning Systems Engineer, Ads ML Experience Platform | 2.7/5 | PDF ❌
+- [x] #659 | https://job-boards.greenhouse.io/reddit/jobs/8122606 | Reddit | Senior Staff Machine Learning Engineer, Feed Relevance | 2.2/5 | PDF ❌
+- [x] #660 | https://job-boards.greenhouse.io/reddit/jobs/8126982 | Reddit | Staff Machine Learning Infrastructure Engineer, Embedding Platform | 2.3/5 | PDF ❌
+- [x] #661 | https://www.samsara.com/company/careers/roles/8113356?gh_jid=8113356 | Samsara | Finance & Strategy AI Engineer | 1.7/5 | PDF ❌
+- [x] #662 | https://www.samsara.com/company/careers/roles/8083352?gh_jid=8083352 | Samsara | Sr. AI Engineer | 2.6/5 | PDF ❌
+- [x] #663 | https://job-boards.greenhouse.io/thealleninstitute/jobs/8140098 | AI2 (Allen Institute) | Senior Research Engineer, Applied Science | 2.4/5 | PDF ❌
+- [x] #664 | https://job-boards.greenhouse.io/thealleninstitute/jobs/7980660 | AI2 (Allen Institute) | Senior Research Engineer, Olmo + Molmo | 2.6/5 | PDF ❌
+- [x] #665 | https://jobs.ashbyhq.com/perplexity/043d6a58-87a1-4e3c-bf47-4dc351b94cf4 | Perplexity AI | Member of Technical Staff (Software Engineer, Monetization) | N/A/5 | PDF ❌
+- [x] #666 | https://jobs.ashbyhq.com/perplexity/8a976851-9bef-4b07-8d36-567fa9540aef | Perplexity AI | Member of Technical Staff (AI Inference Engineer) | N/A/5 | PDF ❌
+- [x] #667 | https://jobs.ashbyhq.com/perplexity/598e1f7d-b802-4de2-99ac-90eb2bc33315 | Perplexity AI | Member of Technical Staff (AI Infrastructure Engineer) | N/A/5 | PDF ❌
+- [x] #668 | https://jobs.ashbyhq.com/perplexity/dd80ab52-34bd-42af-aa5e-6283b7e6c194 | Perplexity AI | Member of Technical Staff (Backend/Infrastructure Engineer, Search) | 2.7/5 | PDF ❌
+- [x] #669 | https://jobs.ashbyhq.com/perplexity/0190699f-010b-44f2-8399-278899fef018 | Perplexity AI | Member of Technical Staff (Machine Learning Engineer, Search) | 3.1/5 | PDF ❌
+- [x] #670 | https://jobs.ashbyhq.com/perplexity/27aa1a14-bc59-4613-a65a-38598695076f | Perplexity AI | Member of Technical Staff (Search Engine Developer, Search Core) | 2.3/5 | PDF ❌
+- [x] #671 | https://jobs.ashbyhq.com/perplexity/94ccf41e-d3e1-41aa-9569-c3bcbffc4184 | Perplexity AI | Member of Technical Staff (Backend Software Engineer, Search Crawler) | 2.4/5 | PDF ❌
+- [x] #672 | https://jobs.ashbyhq.com/perplexity/8fe61c73-0daf-4432-a47d-44714c1ef764 | Perplexity AI | Member of Technical Staff (AI Researcher) | 3.3/5 | PDF ❌
+- [x] #673 | https://jobs.ashbyhq.com/modal/9b33ebe7-e829-4f03-97ba-5c94dbd7daf6 | Modal Labs | Member of Technical Staff - Systems (New York) | 2.6/5 | PDF ❌
+- [x] #674 | https://jobs.ashbyhq.com/modal/af17da5e-23ca-4802-854d-5f0546e1ed32 | Modal Labs | Member of Technical Staff - ML Performance | 3.0/5 | PDF ❌
+- [x] #675 | https://jobs.ashbyhq.com/modal/265d6127-dd34-433b-819a-1f935572c7d8 | Modal Labs | Member of Technical Staff - Python SDK | 2.0/5 | PDF ❌
+- [x] #676 | https://jobs.ashbyhq.com/modal/a4b8b2b6-5d0c-4ba6-9256-b84be84fb79e | Modal Labs | Member of Technical Staff - Product (Backend) | 2.2/5 | PDF ❌
+- [x] #677 | https://jobs.ashbyhq.com/modal/3b3c6c42-326e-40c5-b78d-9f556739513b | Modal Labs | Member of Technical Staff - Systems (Stockholm) | 2.5/5 | PDF ❌
+- [x] #678 | https://job-boards.greenhouse.io/armada/jobs/5383028008 | Armada | AI Engineer | 3.2/5 | PDF ❌
+
+- [x] #679 | https://job-boards.greenhouse.io/ada18/jobs/5205931007 | Ada | Security and Infrastructure Engineer | 1.4/5 | PDF ❌
+- [x] #680 | https://jobs.lever.co/deepgenomics/74978439-123f-4000-ae76-e70730c6cfa0 | Deep Genomics | Senior Research Scientist, Machine Learning (BioFM) | 2.9/5 | PDF ❌
+- [x] #681 | https://jobs.lever.co/waabi/70c7e203-8ab2-4e00-a8df-ddc9250fdeb8 | Waabi | Senior / Staff Perception Engineer | 3.7/5 | PDF ✅
+
+- [x] #682 | https://jobs.ashbyhq.com/wealthsimple/ca658e54-6569-4081-84ac-a9b7541e7af8 | Wealthsimple | Sr Data Scientist, AI Products | 2.3/5 | PDF ❌
+- [x] #683 | https://jobs.ashbyhq.com/wealthsimple/c51f3ae9-5861-44e7-ab04-264a135910a1 | Wealthsimple | Senior Software Developer, LLM Infrastructure | 1.9/5 | PDF ❌
+- [x] #684 | https://job-boards.greenhouse.io/valencelabs/jobs/7871719 | Valence Labs (Recursion) | Machine Learning Research Scientist | 2.6/5 | PDF ❌
+- [x] #685 | https://jobs.lever.co/achievers/0703cb90-a28f-463a-8af6-e5ba84c7756b | Achievers | Data Scientist | 3.1/5 | PDF ❌
+- [x] #686 | https://jobs.lever.co/fullscript/580fdc9a-9565-4a20-a9d6-a552c606fcaa | Fullscript | Lead Data Scientist — Growth & Experimentation | 2.0/5 | PDF ❌
+
+- [x] #687 | https://jobs.ashbyhq.com/wealthsimple/913df5c5-0e98-46c3-909b-614d3d935b6e | Wealthsimple | Future Opportunities: Sr Software Developer - Platform Engineering | 1.8/5 | PDF ❌
+- [x] #688 | https://job-boards.greenhouse.io/valencelabs/jobs/7871686 | Valence Labs (Recursion) | Research Scientist, Next-Generation Structural Biology & Atomistic Modeling | 2.6/5 | PDF ❌
+- [x] #689 | https://job-boards.greenhouse.io/valencelabs/jobs/7848284 | Valence Labs (Recursion) | Research Scientist, Virtual Cell Modelling & Perturbative Biology Foundation Models | 2.5/5 | PDF ❌
+- [x] #690 | https://jobs.ashbyhq.com/klue/25683e0d-db43-499b-9dd1-7bcecb763e61 | Klue | Senior Software Engineer, AI (Agents) | 3.2/5 | PDF ✅
+
+- [x] #691 | https://job-boards.greenhouse.io/later/jobs/8562535002 | Later | Senior AI Automation Engineer | 2.1/5 | PDF ❌
+
+- [x] #693 | https://jobs.ashbyhq.com/harvey/6ad3902b-2888-4c02-913d-de942e807133 | Harvey AI | Staff Software Engineer, Backend | 2.1/5 | PDF ❌
+- [x] #694 | https://jobs.ashbyhq.com/harvey/18454695-e72d-40a5-a6c1-99677ef516ad | Harvey AI | Senior Software Engineer, Backend | 2.2/5 | PDF ❌
+- [x] #695 | https://job-boards.greenhouse.io/grafanalabs/jobs/5982443004 | Grafana Labs | Staff Backend Engineer - Databases Tempo | 2.1/5 | PDF ❌
+- [x] #696 | https://job-boards.greenhouse.io/grafanalabs/jobs/6007413004 | Grafana Labs | Staff Backend Engineer - Grafana Enterprise | 1.9/5 | PDF ❌
+- [x] #697 | https://job-boards.greenhouse.io/grafanalabs/jobs/6111473004 | Grafana Labs | Staff Backend Engineer - Second Horizon | 2.4/5 | PDF ❌
+- [x] #698 | https://www.samsara.com/company/careers/roles/8126100?gh_jid=8126100 | Samsara | Senior AI Data Engineer | 2.5/5 | PDF ❌
+- [x] #699 | https://www.samsara.com/company/careers/roles/7997311?gh_jid=7997311 | Samsara | Senior Data Engineer | 3.6/5 | PDF ✅
+- [x] #692 | https://jobs.lever.co/waabi/941f9a1b-c3b8-456e-a469-ddf2d7bcd46a | Waabi | Senior / Staff Embedded Software Engineer | 2.9/5 | PDF ❌
+
+- [x] #703 | https://jobs.ashbyhq.com/jobber/aee1a6eb-eaeb-406a-a499-202d177fc016 | Jobber | Senior Business Data Scientist, Marketing | 2.0/5 | PDF ❌
+- [x] #704 | https://job-boards.greenhouse.io/faire/jobs/8610312002 | Faire | Senior Applied AI/ML Scientist - Compass | 2.9/5 | PDF ❌
+- [x] #705 | https://job-boards.greenhouse.io/faire/jobs/8649548002 | Faire | Senior Applied AI/ML Scientist - Retailer Growth | 2.1/5 | PDF ❌
+- [x] #706 | https://job-boards.greenhouse.io/faire/jobs/8618151002 | Faire | Senior Applied ML/AI Scientist - Search | 2.9/5 | PDF ❌
+- [x] #707 | https://job-boards.greenhouse.io/faire/jobs/8618464002 | Faire | Senior Staff Machine Learning Platform Engineer | 2.2/5 | PDF ❌
+- [x] #708 | https://job-boards.greenhouse.io/faire/jobs/8542017002 | Faire | Staff Machine Learning Platform Engineer | 2.3/5 | PDF ❌
+- [x] #709 | https://www.d2l.com/careers/jobs/?job_id=6911941&gh_jid=6911941 | D2L (Desire2Learn) | Senior Software Developer 2, Artificial Intelligence | 2.5/5 | PDF ❌
+- [x] #710 | https://job-boards.greenhouse.io/phaidra/jobs/4724667005 | Phaidra | AI Controls Solutions Engineer (HVAC Systems) | 2.1/5 | PDF ❌
+- [x] #711 | https://jobs.lever.co/waabi/43b92f80-4154-4532-98a6-2e8d44e0bc4e | Waabi | Senior / Staff Software Engineer, High-Performance Onboard Algorithms | 3.6/5 | PDF ✅
+- [x] #712 | https://jobs.lever.co/waabi/98adc020-0aa7-4972-a3be-bd713be72fcc | Waabi | Senior / Staff Software Engineer, Simulation Platform | 2.7/5 | PDF ❌
+- [x] #713 | https://jobs.lever.co/waabi/12052535-2f24-44b0-800d-eca98a6405b5 | Waabi | Senior / Staff ML Optimization Engineer (Onboard) | 3.0/5 | PDF ❌
+- [x] #714 | https://jobs.lever.co/waabi/39f0345f-177c-4feb-8c27-7de26645eb14 | Waabi | Senior / Staff Software Engineer, Motion Planning | 2.1/5 | PDF ❌
+- [x] #715 | https://jobs.lever.co/waabi/12c40987-656a-4ec3-9fc0-3c0801c74238 | Waabi | Senior Software Engineer, Evaluation Infrastructure | 3.3/5 | PDF ❌
+
+- [x] #719 | https://jobs.jobvite.com/voices/job/owxzzfwV | Voices.com | Senior Software Engineer | 1.7/5 | PDF ❌
+
+## Pendientes
+
+- [x] #461 | https://job-boards.greenhouse.io/togetherai/jobs/5147747007 | Together AI | Customer Support Engineer (Inference) | 1.5/5 | PDF ❌
+- [x] #462 | https://job-boards.greenhouse.io/togetherai/jobs/5069532007 | Together AI | Customer Support Engineer (Inference), India | 1.0/5 | PDF ❌
+- [x] #463 | https://job-boards.greenhouse.io/togetherai/jobs/4835763007 | Together AI | Senior Backend Engineer, Inference Platform | 2.5/5 | PDF ❌
+- [x] #464 | https://job-boards.greenhouse.io/anthropic/jobs/5197529008 | Anthropic | Data Scientist, Developer Productivity | 2.3/5 | PDF ❌
+- [x] #465 | https://job-boards.greenhouse.io/anthropic/jobs/5161402008 | Anthropic | Data Scientist, Marketing | 1.8/5 | PDF ❌
+- [x] #466 | https://job-boards.greenhouse.io/anthropic/jobs/5212119008 | Anthropic | Data Scientist, Supply | 2.0/5 | PDF ❌
+- [x] #467 | https://job-boards.greenhouse.io/anthropic/jobs/4741102008 | Anthropic | Engineering Manager, Inference | 2.0/5 | PDF ❌
+- [x] #468 | https://job-boards.greenhouse.io/anthropic/jobs/5155391008 | Anthropic | Engineering Manager, Inference Routing and Performance | 2.0/5 | PDF ❌
+- [x] #469 | https://job-boards.greenhouse.io/anthropic/jobs/4952079008 | Anthropic | Machine Learning Systems Engineer, Research Tools | 2.8/5 | PDF ❌
+- [x] #470 | https://job-boards.greenhouse.io/anthropic/jobs/4952051008 | Anthropic | Machine Learning Systems Engineer, RL Engineering | 2.8/5 | PDF ❌
+- [x] #471 | https://job-boards.greenhouse.io/anthropic/jobs/5224564008 | Anthropic | Performance Engineer, Inference Systems | 2.8/5 | PDF ❌
+- [x] #472 | https://job-boards.greenhouse.io/anthropic/jobs/5198108008 | Anthropic | Research Engineer, Machine Learning (RL Velocity) | 3.0/5 | PDF ❌
+- [x] #473 | https://job-boards.greenhouse.io/anthropic/jobs/5112018008 | Anthropic | Research Engineer, Production Model Post-Training | 2.5/5 | PDF ❌
+- [x] #474 | https://job-boards.greenhouse.io/anthropic/jobs/4641822008 | Anthropic | Senior Software Engineer, Inference | 2.3/5 | PDF ❌
+- [x] #475 | https://job-boards.greenhouse.io/anthropic/jobs/5152348008 | Anthropic | Sr. Software Engineer, Inference | 2.3/5 | PDF ❌
+- [x] #476 | https://job-boards.greenhouse.io/anthropic/jobs/5168829008 | Anthropic | Staff Software Engineer, Cloud Inference Safeguards | 2.3/5 | PDF ❌
+- [x] #477 | https://job-boards.greenhouse.io/anthropic/jobs/5097742008 | Anthropic | Staff Software Engineer, Inference | 2.3/5 | PDF ❌
+- [x] #478 | https://job-boards.greenhouse.io/anthropic/jobs/5107466008 | Anthropic | Staff + Sr. Software Engineer, Cloud Inference | 2.3/5 | PDF ❌
+- [x] #479 | https://job-boards.greenhouse.io/anthropic/jobs/5215028008 | Anthropic | Staff + Sr. Software Engineer, Cloud Inference Launch Engineering | 2.3/5 | PDF ❌
+- [x] #480 | https://job-boards.greenhouse.io/anthropic/jobs/4951696008 | Anthropic | Staff + Sr. Software Engineer, Inference | 2.5/5 | PDF ❌
+- [x] #481 | https://job-boards.greenhouse.io/anthropic/jobs/5111745008 | Anthropic | Staff + Sr. Software Engineer, Inference Deployment | 2.5/5 | PDF ❌
+- [x] #482 | https://job-boards.greenhouse.io/anthropic/jobs/5201264008 | Anthropic | Technical Program Manager, Cloud Inference | 1.8/5 | PDF ❌
+- [x] #483 | https://job-boards.greenhouse.io/anthropic/jobs/5107763008 | Anthropic | Technical Program Manager, Inference Performance | 1.8/5 | PDF ❌
+- [x] #484 | https://job-boards.greenhouse.io/anthropic/jobs/5108695008 | Anthropic | Technical Program Manager, Safeguards (Infrastructure & Evals) | 1.8/5 | PDF ❌
+- [x] #485 | https://job-boards.greenhouse.io/xai/jobs/5044403007 | xAI (Grok) | Member of Technical Staff | 2.0/5 | PDF ❌
+- [x] #486 | https://job-boards.greenhouse.io/xai/jobs/4996796007 | xAI (Grok) | Member of Technical Staff - Ads | 1.8/5 | PDF ❌
+- [x] #487 | https://job-boards.greenhouse.io/xai/jobs/5133071007 | xAI (Grok) | Member Of Technical Staff - Cloud Infrastructure | 1.8/5 | PDF ❌
+- [x] #488 | https://job-boards.greenhouse.io/xai/jobs/5052040007 | xAI (Grok) | Member of Technical Staff - Compute Infrastructure | 2.0/5 | PDF ❌
+- [x] #489 | https://job-boards.greenhouse.io/xai/jobs/4803862007 | xAI (Grok) | Member of Technical Staff - Data Platform | 2.2/5 | PDF ❌
+- [x] #490 | https://job-boards.greenhouse.io/xai/jobs/5051984007 | xAI (Grok) | Member of Technical Staff - Grok Product | 1.8/5 | PDF ❌
+- [x] #491 | https://job-boards.greenhouse.io/xai/jobs/5051985007 | xAI (Grok) | Member of Technical Staff - Imagine Model | 2.5/5 | PDF ❌
+- [x] #492 | https://job-boards.greenhouse.io/xai/jobs/5052027007 | xAI (Grok) | Member of Technical Staff - Imagine Product | 1.8/5 | PDF ❌
+- [x] #493 | https://job-boards.greenhouse.io/xai/jobs/4533894007 | xAI (Grok) | Member of Technical Staff - Inference | 2.5/5 | PDF ❌
+- [x] #494 | https://job-boards.greenhouse.io/xai/jobs/4805874007 | xAI (Grok) | Member of Technical Staff - Media | 1.8/5 | PDF ❌
+- [x] #495 | https://job-boards.greenhouse.io/xai/jobs/5086969007 | xAI (Grok) | Member of Technical Staff - Model Training | 2.3/5 | PDF ❌
+- [x] #496 | https://job-boards.greenhouse.io/xai/jobs/4803905007 | xAI (Grok) | Member of Technical Staff - Observability | 2.0/5 | PDF ❌
+- [x] #497 | https://job-boards.greenhouse.io/xai/jobs/4805886007 | xAI (Grok) | Member of Technical Staff - Real-Time Storage | 2.0/5 | PDF ❌
+- [x] #498 | https://job-boards.greenhouse.io/xai/jobs/5073866007 | xAI (Grok) | Member of Technical Staff - Reasoning | 2.3/5 | PDF ❌
+- [x] #499 | https://job-boards.greenhouse.io/xai/jobs/4703144007 | xAI (Grok) | Member of Technical Staff - Recommendation Systems | 2.3/5 | PDF ❌
+- [x] #500 | https://job-boards.greenhouse.io/xai/jobs/4715499007 | xAI (Grok) | Member of Technical Staff - RL Infrastructure | 2.0/5 | PDF ❌
+- [x] #501 | https://job-boards.greenhouse.io/xai/jobs/5007872007 | xAI (Grok) | Member of Technical Staff - Sandbox Service | 2.0/5 | PDF ❌
+- [x] #502 | https://job-boards.greenhouse.io/xai/jobs/5051966007 | xAI (Grok) | Member of Technical Staff - Voice Model | 3.2/5 | PDF ❌
+- [x] #503 | https://job-boards.greenhouse.io/xai/jobs/5063930007 | xAI (Grok) | Member of Technical Staff – Web Engineering | 1.5/5 | PDF ❌
+- [x] #504 | https://job-boards.greenhouse.io/xai/jobs/5063929007 | xAI (Grok) | Member of Technical Staff – X Core Product | 1.8/5 | PDF ❌
+- [x] #505 | https://job-boards.greenhouse.io/xai/jobs/5108231007 | xAI (Grok) | Member of Technical Staff - X Money | 1.8/5 | PDF ❌
+- [x] #506 | https://job-boards.greenhouse.io/xai/jobs/5125621007 | xAI (Grok) | Member of Technical Staff - X Search | 2.3/5 | PDF ❌
+- [x] #507 | https://jobs.ashbyhq.com/liquid-ai/1ed0e32c-11f4-4f93-bfab-bdfac37f0b1b | Liquid AI | Member of Technical Staff - Edge Inference Engineer | 3.8/5 | PDF ❌
+- [x] #508 | https://jobs.ashbyhq.com/liquid-ai/1e93dbaf-c28a-4ede-bccb-97d0fdddae0e | Liquid AI | Member of Technical Staff - Developer Relations | 2.0/5 | PDF ❌
+- [x] #509 | https://jobs.ashbyhq.com/cursor/e3966cb2-c584-4c8a-9d25-1309af31b3a9 | Cursor | Engineering Manager, Model Routing & Inference | 2.0/5 | PDF ❌
+- [x] #510 | https://jobs.ashbyhq.com/cursor/45c815b0-5100-4934-8558-0e750b8aed79 | Cursor | Software Engineer, Model Routing & Inference | 2.5/5 | PDF ❌
+- [x] #511 | https://jobs.ashbyhq.com/cursor/e46dd189-16d2-4a0f-bfb8-207eb403f92f | Cursor | Data Scientist, Performance and Reliability | 2.3/5 | PDF ❌
+- [x] #512 | https://job-boards.greenhouse.io/intercom/jobs/7749323 | Intercom | Senior Data Scientist | 2.3/5 | PDF ❌
+- [x] #513 | https://job-boards.greenhouse.io/intercom/jobs/7606649 | Intercom | Senior Data Scientist AI Tooling | 2.3/5 | PDF ❌
+- [x] #514 | https://job-boards.greenhouse.io/intercom/jobs/6317929 | Intercom | Senior Data Scientist - Product Analytics | 2.0/5 | PDF ❌
+- [x] #515 | https://job-boards.greenhouse.io/intercom/jobs/7774230 | Intercom | Senior Finance Data Scientist, Existing Business | 1.8/5 | PDF ❌
+- [x] #516 | https://jobs.ashbyhq.com/suno/b4add3f2-9d7b-4b5d-8a39-ad35c47abd0b | Suno | Machine Learning Engineering Manager, Recommendations | 2.0/5 | PDF ❌
+- [x] #517 | https://jobs.ashbyhq.com/suno/11036f7e-adf7-45ef-baf4-e4c3c334039d | Suno | Senior Data Scientist, Content + Social | 2.5/5 | PDF ❌
+- [x] #518 | https://jobs.ashbyhq.com/deepgram/1111c5de-2f90-4f38-a353-115a64a9ca33 | Deepgram | Model Evaluation QA Lead | 2.8/5 | PDF ❌
+- [x] #519 | https://job-boards.greenhouse.io/gleanwork/jobs/4012745005 | Glean | Software Engineer, Machine Learning | 1.8/5 | PDF ❌
+- [x] #520 | https://jobs.ashbyhq.com/vapi/d270d613-30b8-4fdc-96e0-514993ca7a82 | Vapi | Member of Technical Staff, Backend | 2.3/5 | PDF ❌
+- [x] #521 | https://jobs.ashbyhq.com/vapi/295f5269-1bb5-4740-81fa-9716adc32ad5 | Vapi | Member of Technical Staff, Infrastructure | 2.0/5 | PDF ❌
+- [x] #522 | https://jobs.ashbyhq.com/vapi/8c4b886d-da0a-4895-b025-83e35a3ce756 | Vapi | Member of Technical Staff, Product | 1.8/5 | PDF ❌
+- [x] #523 | https://jobs.ashbyhq.com/vapi/94e93b56-c7ac-4765-9ffb-aefcbe0bb795 | Vapi | Member of Technical Staff, QA | 1.5/5 | PDF ❌
+- [x] #524 | https://jobs.ashbyhq.com/n8n/d195a389-6af5-4b95-82e5-2258953c7297 | n8n | Sr AI Engineer | Remote - Europe | TS/Vue/NodeJS | 1.8/5 | PDF ❌
+- [x] #525 | https://jobs.ashbyhq.com/decagon/43cf5cfe-dafc-415e-955f-1572d1dc0a8e | Decagon | Senior Data Scientist | 2.3/5 | PDF ❌
+- [x] #526 | https://jobs.ashbyhq.com/decagon/73aca25c-a457-46fd-b4c4-9f76f356586c | Decagon | Staff Research Engineer, Voice + Speech | 3.3/5 | PDF ❌
+- [x] #527 | https://jobs.ashbyhq.com/decagon/7a98cc79-2503-43c3-a732-0f66b6d06e21 | Decagon | Senior Research Engineer | 2.8/5 | PDF ❌
+- [x] #528 | https://jobs.ashbyhq.com/decagon/9c60e60f-9438-48c7-85af-76b8ffed9f6f | Decagon | Staff Research Engineer | 2.8/5 | PDF ❌
+- [x] #529 | https://jobs.ashbyhq.com/decagon/534658d0-9772-441e-8c06-ed6cdcd355e1 | Decagon | Research Engineer, Agents | 2.5/5 | PDF ❌
+- [x] #530 | https://jobs.ashbyhq.com/cohere/3136a5a5-06fd-4c82-8b72-a43467e6b128 | Cohere | Member of Technical Staff, Modeling | 3.5/5 | PDF ❌
+- [x] #531 | https://jobs.ashbyhq.com/cohere/d5cc437c-2397-4c1a-9d12-3a2bf64d98ea | Cohere | Member of Technical Staff, Search | 3.2/5 | PDF ❌
+- [x] #532 | https://jobs.ashbyhq.com/cohere/61703710-4379-42fd-a508-946f2a5fb6bc | Cohere | Member of Technical Staff, Data Analysis and Evaluation | 3.8/5 | PDF ❌
+- [x] #533 | https://jobs.ashbyhq.com/cohere/2a989030-6d14-4924-88c1-d878911e26fa | Cohere | Member of Technical Staff, Model Efficiency | 3.5/5 | PDF ❌
+- [x] #534 | https://jobs.ashbyhq.com/cohere/2df2da3c-fb69-4d4d-b3c9-077b3df2ba3d | Cohere | Member of Technical Staff, Synthetic Data | 3.8/5 | PDF ❌
+- [x] #535 | https://jobs.ashbyhq.com/cohere/41f23dad-9da2-451a-bd1e-a1800437cb64 | Cohere | Staff Software Engineer, Inference Infrastructure | 2.8/5 | PDF ❌
+- [x] #536 | https://jobs.ashbyhq.com/cohere/f5f727bc-9eab-4fcc-9fdd-92a9ce47c37c | Cohere | Full-Stack Software Engineer, Inference | 2.5/5 | PDF ❌
+- [x] #537 | https://jobs.ashbyhq.com/cohere/8b6696e1-f1c4-4010-bde9-3cec1340a2a6 | Cohere | Site Reliability Engineer, Inference Infrastructure | 2.3/5 | PDF ❌
+- [x] #538 | https://jobs.ashbyhq.com/cohere/39cab400-c976-41d9-9002-880ac6985b64 | Cohere | Lead Data Scientist | 3.0/5 | PDF ❌
+- [x] #539 | https://jobs.ashbyhq.com/cohere/5806a521-8584-4bbe-b60a-49031b919251 | Cohere | Lead Member of Technical Staff, Inference Infrastructure | 3.0/5 | PDF ❌
+- [x] #540 | https://job-boards.greenhouse.io/scaleai/jobs/4695266005 | Scale AI | Strategic Projects Lead, Generative AI | 1.5/5 | PDF ❌
+- [x] #541 | https://job-boards.greenhouse.io/grafanalabs/jobs/5802160004 | Grafana Labs | Senior AI Engineer - Grafana Ops, AI/ML | Canada | Remote | 3.2/5 | PDF ❌
+- [x] #542 | https://job-boards.greenhouse.io/grafanalabs/jobs/5802159004 | Grafana Labs | Senior AI Engineer - Grafana Ops, AI/ML | USA | Remote | 2.3/5 | PDF ❌
+- [x] #543 | https://job-boards.greenhouse.io/grafanalabs/jobs/5839190004 | Grafana Labs | Staff AI Engineer | Canada | Remote | 3.5/5 | PDF ❌
+- [x] #544 | https://job-boards.greenhouse.io/grafanalabs/jobs/5806328004 | Grafana Labs | Staff AI Engineer | US | Remote | 2.5/5 | PDF ❌
+- [x] #545 | https://www.samsara.com/company/careers/roles/7315656?gh_jid=7315656 | Samsara | Senior Machine Learning Engineer - Platform | 4.1/5 | PDF ❌
+- [x] #546 | https://www.samsara.com/company/careers/roles/7746586?gh_jid=7746586 | Samsara | Staff ML Engineer - ML Infrastructure | 4.0/5 | PDF ❌
+- [x] #547 | https://job-boards.greenhouse.io/reddit/jobs/7792848 | Reddit | Ads Conversion Modeling, Machine Learning Engineering Manager | 2.0/5 | PDF ❌
+- [x] #548 | https://job-boards.greenhouse.io/reddit/jobs/7846885 | Reddit | Machine Learning Manager, Notifications Relevance | 2.0/5 | PDF ❌
+- [x] #549 | https://job-boards.greenhouse.io/reddit/jobs/7330347 | Reddit | Principal Data Scientist, Ads | 2.0/5 | PDF ❌
+- [x] #550 | https://job-boards.greenhouse.io/reddit/jobs/7607121 | Reddit | Senior Data Scientist, Ads | 2.0/5 | PDF ❌
+- [x] #551 | https://job-boards.greenhouse.io/reddit/jobs/7275414 | Reddit | Senior Data Scientist, Consumer | 2.2/5 | PDF ❌
+- [x] #552 | https://job-boards.greenhouse.io/reddit/jobs/6960831 | Reddit | Senior Machine Learning Engineer | 2.5/5 | PDF ❌
+- [x] #553 | https://job-boards.greenhouse.io/reddit/jobs/7731772 | Reddit | Senior Machine Learning Systems Engineer | 2.5/5 | PDF ❌
+- [x] #554 | https://job-boards.greenhouse.io/reddit/jobs/7908786 | Reddit | Senior Staff Machine Learning Systems Engineer, Feed Relevance | 2.0/5 | PDF ❌
+- [x] #555 | https://job-boards.greenhouse.io/reddit/jobs/7721851 | Reddit | Staff Data Scientist, Ads | 2.8/5 | PDF ❌
+- [x] #556 | https://job-boards.greenhouse.io/reddit/jobs/7931007 | Reddit | Staff Data Scientist, Consumer | 2.8/5 | PDF ❌
+- [x] #557 | https://job-boards.greenhouse.io/reddit/jobs/7445240 | Reddit | Staff Data Scientist, Marketing | 2.0/5 | PDF ❌
+- [x] #558 | https://job-boards.greenhouse.io/reddit/jobs/7863304 | Reddit | Staff Data Scientist, Safety Insights | 2.0/5 | PDF ❌
+- [x] #559 | https://job-boards.greenhouse.io/reddit/jobs/7851761 | Reddit | Staff Machine Learning Engineer, Ads Content Understanding | 2.3/5 | PDF ❌
+- [x] #560 | https://job-boards.greenhouse.io/reddit/jobs/7890096 | Reddit | Staff Machine Learning Engineer, Ads Measurement Modeling | 2.0/5 | PDF ❌
+- [x] #561 | https://job-boards.greenhouse.io/reddit/jobs/7747244 | Reddit | Staff Machine Learning Engineer, Consumer | 2.5/5 | PDF ❌
+- [x] #562 | https://job-boards.greenhouse.io/reddit/jobs/7867308 | Reddit | Staff Machine Learning Engineer, Embeddings Platform | 2.5/5 | PDF ❌
+- [x] #563 | https://job-boards.greenhouse.io/reddit/jobs/7848689 | Reddit | Staff Machine Learning Engineer, Ranking and Personalization | 2.0/5 | PDF ❌
+- [x] #564 | https://job-boards.greenhouse.io/reddit/jobs/7731788 | Reddit | Staff Machine Learning Systems Engineer | 2.3/5 | PDF ❌
+- [x] #565 | https://jobs.lever.co/tri/8255ca2d-c400-40ac-8676-c9aaef9e8cea | Toyota Research Institute (TRI) | Postdoctoral Researcher, CAD Generation Machine Learning | 3.5/5 | PDF ❌
+- [x] #566 | https://jobs.lever.co/tri/68c7cb5b-c6ce-4cc0-b43b-b262253b0915 | Toyota Research Institute (TRI) | Senior Machine Learning Researcher, Large Behavior Models & Diffusion Policy | 3.8/5 | PDF ❌
+- [x] #567 | https://jobs.lever.co/mistral/a93b2891-9aaa-4c18-855e-37ef159d4eed | Mistral AI | Applied AI Engineer, Site Reliability Engineer - EMEA | 1.5/5 | PDF ❌
+- [x] #568 | https://jobs.lever.co/mistral/bf5bcae2-839b-492e-a5bc-11d4427ee843 | Mistral AI | Data Scientist | 1.8/5 | PDF ❌
+- [x] #569 | https://jobs.lever.co/mistral/ef4c26fc-3fdb-4dd2-a64e-95264ee769dd | Mistral AI | Open-Source Software, Machine Learning Engineer | 2.3/5 | PDF ❌
+- [x] #570 | https://jobs.lever.co/mistral/37f53ee5-dd88-43e3-be6a-70e3db159c8f | Mistral AI | Research Engineer, Data Infrastructure | 2.0/5 | PDF ❌
+- [x] #571 | https://jobs.lever.co/waabi/1b9e7190-acb7-47bb-b6e4-d589d8561082 | Waabi | Senior / Staff Machine Learning Infrastructure Engineer | 3.5/5 | PDF ❌
+- [x] #572 | https://www.shopify.com/careers/machine-learning-engineer-search_c15b011d-bfe1-4eae-af45-9f3955ce408d | Shopify | Machine Learning Engineer - Search | 1.0/5 | PDF ❌
+- [x] #573 | https://www.shopify.com/careers/machine-learning-engineer-ads_5485d8c3-88f7-42ba-b65c-db5d1a3ad047 | Shopify | Machine Learning Engineer - Ads | 1.0/5 | PDF ❌
+- [x] #574 | https://www.shopify.com/careers/machine-learning-infrastructure-engineers_896a7d5f-5925-4915-a8e8-3438068464a4 | Shopify | Machine Learning Infrastructure Engineers | 1.0/5 | PDF ❌
+- [x] #575 | https://www.shopify.com/careers/machine-learning-engineer-hstu_51086d95-bce7-45b2-af30-69beb6d56392 | Shopify | Machine Learning Engineer - HSTU | 1.0/5 | PDF ❌
+- [x] #576 | https://jobs.careers.microsoft.com/global/en/job/1791677/Senior-Machine-Learning-Research-Scientist | Microsoft Research | Senior Machine Learning Research Scientist | 3.5/5 | PDF ❌
+- [x] #577 | https://jobs.careers.microsoft.com/global/en/job/1697936/Senior-Applied-Research-Scientist---Machine-Learning-and-Generative-AI---Microsoft-Research | Microsoft Research | Senior Applied Research Scientist - ML and Generative AI | 3.5/5 | PDF ❌
+- [x] #578 | https://jobs.apple.com/en-ca/details/200492819/audio-speech-algorithm-software-engineer | Apple | Audio & Speech Algorithm Software Engineer (Canada) | 1.0/5 | PDF ❌
+- [x] #579 | https://www.metacareers.com/v2/jobs/1074039200587310/ | Meta (FAIR) | Research Scientist, Generative AI - Speech & Audio | 1.5/5 | PDF ❌
+- [x] #580 | https://www.metacareers.com/jobs/1258462528564850/ | Meta (FAIR) | Research Engineer - Language Models for Audio | 1.5/5 | PDF ❌
+- [x] #581 | https://www.metacareers.com/profile/job_details/939282615434416 | Meta (FAIR) | AI Research Scientist, Audio-Visual Understanding | 1.5/5 | PDF ❌
+- [x] #582 | https://www.coveo.com/en/company/careers/open-positions/research-and-development/machine-learning/senior-ii-applied-scientist-nlp/8362157002 | Coveo | Senior II Applied Scientist (NLP) | 3.2/5 | PDF ❌
+- [x] #583 | https://careers.adobe.com/us/en/job/R155319/Machine-Learning-Engineer-Applied-Research-Scientist | Adobe | Machine Learning Engineer / Applied Research Scientist | 1.0/5 | PDF ❌
+- [x] #584 | https://careers.adobe.com/us/en/job/R161073/Applied-Scientist-Generative-AI-ML | Adobe | Applied Scientist, Generative AI/ML | 1.0/5 | PDF ❌
+- [x] #585 | https://careers.adobe.com/us/en/job/R161074/Staff-Applied-Scientist-Generative-AI-ML | Adobe | Staff Applied Scientist, Generative AI/ML | 1.0/5 | PDF ❌
+- [x] #586 | https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Toronto-Ontario/Research-Machine-Learning-Scientist_R_1418967 | Layer 6 (TD Bank) | Research Machine Learning Scientist | 3.8/5 | PDF ❌
+- [x] #587 | https://job-boards.greenhouse.io/cerebrassystems/jobs/6543319003 | Cerebras Systems | Applied Machine Learning Scientist | 3.5/5 | PDF ❌
+- [x] #588 | https://job-boards.greenhouse.io/deepmind/jobs/7084044 | Google DeepMind | Research Scientist/Engineer, Veo | 2.8/5 | PDF ❌
+- [x] #589 | https://job-boards.greenhouse.io/deepmind/jobs/7312594 | Google DeepMind | Research Scientist, Generative Worlds | 2.8/5 | PDF ❌
+- [x] #590 | https://job-boards.greenhouse.io/deepmind/jobs/7635502 | Google DeepMind | Research Scientist, Autonomous Agents — RL | 2.8/5 | PDF ❌
+- [x] #591 | https://job-boards.greenhouse.io/deepmind/jobs/7627676 | Google DeepMind | Research Scientist, Autonomous Agents — Reward Modelling | 2.8/5 | PDF ❌
+- [x] #592 | https://job-boards.greenhouse.io/deepmind/jobs/7093349 | Google DeepMind | Research Scientist / Engineer, Open-Ended Discovery | 3.0/5 | PDF ❌
+- [x] #593 | https://job-boards.greenhouse.io/deepmind/jobs/7397383 | Google DeepMind | Research Scientist/Engineer, Multimodal Agents | 3.0/5 | PDF ❌
+- [x] #594 | https://job-boards.greenhouse.io/deepmind/jobs/7373829 | Google DeepMind | Research Engineer/Scientist, AI Control | 2.5/5 | PDF ❌
+- [x] #595 | https://job-boards.greenhouse.io/deepmind/jobs/7515907 | Google DeepMind | Research Scientist, SAMBA | 3.2/5 | PDF ❌
+- [x] #596 | https://job-boards.greenhouse.io/assemblyai/jobs/4664024005 | AssemblyAI | Applied AI Engineer | 1.0/5 | PDF ❌
+- [x] #597 | https://huaweicanada.recruitee.com/o/software-engineer-4?lang=en | Huawei Canada | Machine Learning Applied Scientist | 1.0/5 | PDF ❌
+- [x] #598 | https://huaweicanada.recruitee.com/o/research-engineer-machine-learning?lang=en | Huawei Canada | Research Engineer – Machine Learning | 1.0/5 | PDF ❌
+- [x] #599 | https://huaweicanada.recruitee.com/o/senior-machine-learning-research-engineer-acceleration-of-ai-models-2-5?lang=en | Huawei Canada | Senior ML Research Engineer - Acceleration of AI Models | 1.0/5 | PDF ❌
+- [x] #600 | https://huaweicanada.recruitee.com/o/machine-learning-researcher-llm-agents-efficient-deep-learning | Huawei Canada | Machine Learning Researcher - LLM Agents & Efficient Deep Learning | 1.0/5 | PDF ❌
+- [x] #601 | https://huaweicanada.recruitee.com/o/researcher-llms-2?lang=en | Huawei Canada | Researcher - LLMs | 1.0/5 | PDF ❌
+- [x] #602 | https://openai.com/careers/research-engineer-machine-learning-engineer-applied-voice-san-francisco/ | OpenAI | Research Engineer / ML Engineer - Applied Voice | 3.5/5 | PDF ❌
+- [x] #603 | https://openai.com/careers/research-engineer-scientist-multimodal/ | OpenAI | Research Engineer / Research Scientist, Multimodal | 3.2/5 | PDF ❌
+- [x] #604 | https://openai.com/careers/research-engineer-research-scientist-post-training | OpenAI | Research Engineer / Research Scientist, Post-Training | 2.8/5 | PDF ❌
+- [x] #605 | https://job-boards.greenhouse.io/aperaaiinc/jobs/5102577007 | Apera AI | Senior ML / Computer Vision Applied Scientist (Vancouver) | 3.8/5 | PDF ❌
+- [x] #606 | https://jobs.ashbyhq.com/liquid-ai/fe8596ae-becc-49d2-a3dd-f68ed74144a0 | Liquid AI | Member of Technical Staff - ML Research Engineer, VLM Data | 3.0/5 | PDF ❌
+- [x] #607 | https://jobs.ashbyhq.com/liquid-ai/89619f33-101a-445c-85e8-bf8a0d06d4cf | Liquid AI | Member of Technical Staff - Post Training, Reinforcement Learning | 3.2/5 | PDF ❌
+- [x] #608 | https://ciena.wd5.myworkdayjobs.com/careers/job/ottawa/data-scientist---ai-agents---advanced-analytics_r030551 | Ciena | Data Scientist – AI Agents & Advanced Analytics (Ottawa) | 3.5/5 | PDF ❌
+
+- [x] SKIP | https://job-boards.greenhouse.io/togetherai/jobs/4946442007 | Together AI | Solutions Architect (Inference) | London, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/xai/jobs/5151022007 | xAI (Grok) | Member of Technical Staff - Imagine Safety | Palo Alto CA, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/xai/jobs/5107958007 | xAI (Grok) | Software Engineer - X Money | Palo Alto CA (xAI roles are Palo Alto), hard exclude (Canada-only policy)
+- [!] https://job-boards.greenhouse.io/anthropic/jobs/5248983008 | Anthropic | Applied AI Engineer | Posting closed/404, redirects to jobs index
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5196852008 | Anthropic | Data Scientist, GTM | NYC/SF, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5116820008 | Anthropic | Lead Data Scientist, Platform Product | NYC/Seattle/SF, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5232055008 | Anthropic | Data Scientist, Policy | NYC/SF/DC, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5209196008 | Anthropic | Data Scientist, Safeguards | US-only (NYC/SF/Seattle), hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5239733008 | Anthropic | Research Scientist, Life Sciences | San Francisco CA, hard exclude (Canada-only policy); also not archetype match
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5251671008 | Anthropic | Staff+ Software Engineer, Safeguards Evals | San Francisco/NYC, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5245851008 | Anthropic | Staff + Senior Software Engineer, Inference | SF/NYC/Seattle, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5150472008 | Anthropic | Staff Software Engineer, Inference | Dublin, IE, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5231496008 | Anthropic | Staff + Sr. Software Engineer, Cloud Inference | San Francisco CA, hard exclude (Canada-only policy)
+- [!] https://jobs.ashbyhq.com/suno/4bf71557-1cb1-4722-88ec-e401adc0b75a | Suno | Marketing Data Scientist | Posting closed/404 — "Job not found", confirmed via Playwright
+- [!] https://jobs.ashbyhq.com/vapi/96b8ae0d-e2ae-463d-9fc9-0cdeb10ed6df | Vapi | Member of Technical Staff, Core Backend | Posting closed/404 — "Job not found", confirmed via Playwright
+- [x] SKIP | https://jobs.ashbyhq.com/vapi/4b6abd59-ac74-40e9-8cab-74253078aaf4 | Vapi | Member of Technical Staff, Site Reliability Engineer | San Francisco hybrid, hard exclude (Canada-only policy)
+- [x] SKIP | https://jobs.ashbyhq.com/vapi/2d702840-a588-4273-8b98-49ed815c0c50 | Vapi | Member of Technical Staff, DevOps | San Francisco hybrid, hard exclude (Canada-only policy) — already in tracker #733
+- [x] SKIP | https://jobs.ashbyhq.com/vapi/d1c91b8e-d43a-4efb-afb1-2d928294e560 | Vapi | Member of Technical Staff, DevSecOps | San Francisco hybrid (Vapi is SF-based), hard exclude (Canada-only policy)
+- [!] https://jobs.ashbyhq.com/cursor/7bc441a4-9bb6-45cb-a9e0-5ae1b9c7ac5b | Cursor | Data Scientist, GTM | Posting closed/404 — "Job not found", confirmed via Playwright
+- [!] https://jobs.ashbyhq.com/cursor/74a6ac48-d85f-45a0-9775-3cdb8b713e1a | Cursor | Engineering Manager, Evals | Posting closed/404 — "Job not found", confirmed via Playwright
+- [x] #1078 | https://jobs.ashbyhq.com/cohere/a87be947-00f0-4a4c-a690-a4922f88f553 | Cohere | MTS, Multilingual | 3.6/5 | PDF ✅ (Toronto/Montreal, $165K-460K CAD, CV+CL generated)
+- [x] #1079 | https://jobs.ashbyhq.com/cohere/82ec1512-5bc3-49dd-b995-b6abc2a958d7 | Cohere | Sr. MTS, Web Data | 3.0/5 | PDF ❌ (Toronto, but web-scale data eng domain mismatch)
+- [x] #1080 | https://jobs.ashbyhq.com/baseten/fc6e5f2e-eb2d-4a6c-8a51-8422e8662bde | Baseten | Product Engineer, Dedicated Inference | 2.2/5 | PDF ❌ (Toronto, but full-stack product eng, not ML)
+- [x] #879 | https://jobs.ashbyhq.com/baseten/c8701794-bdc1-4932-bffa-a444ce57ed73 | Baseten | Software Engineer - BIS | 3.0/5 | PDF ❌ (already evaluated 2026-08-24, see reports/879-baseten-2026-08-24.md)
+- [x] SKIP | https://www.samsara.com/company/careers/roles/7858719?gh_jid=7858719 | Samsara | People Analytics AI Engineer | Remote-Seattle, hard exclude (Canada-only policy); also not archetype match
+- [!] https://www.samsara.com/company/careers/roles/7618581?gh_jid=7618581 | Samsara | Senior AI Engineer, Platform | Posting closed/404 — redirects to generic careers listing, confirmed via Playwright + WebFetch (2 attempts)
+- [!] https://www.samsara.com/company/careers/roles/7266471?gh_jid=7266471 | Samsara | Senior Machine Learning Engineer - Platform | Posting closed/404 — redirects to generic careers listing, confirmed via Playwright
+- [x] #1081 | https://job-boards.greenhouse.io/reddit/jobs/7974507 | Reddit | Sr Staff DS - Consumer Experimentation (Ontario) | 2.8/5 | PDF ❌ (Ontario, but causal inference domain mismatch)
+- [!] https://job-boards.greenhouse.io/reddit/jobs/7974605 | Reddit | Senior Staff Data Scientist - Consumer Relevance | Posting closed/404, redirects to jobs index
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/7979933 | Reddit | Senior Staff Machine Learning Engineer, Notifications | Remote-US, hard exclude (Canada-only policy)
+- [x] EXPIRED | https://jobs.ashbyhq.com/zyphra/2afb5ef7-09c3-4450-9ba7-799f1a9525e2 | Zyphra | ML Engineer, Audio (posting expired; Zyphra audio covered by #225)
+- [x] #609 | https://jobs.ashbyhq.com/ema/8268af44-d5d8-4a29-9638-3ea30f35f3a9 | Ema | Principal ML Engineer | CV ✅ | Vancouver office
+- [x] EXPIRED | https://job-boards.greenhouse.io/trellis/jobs/5661973004 | Trellis | Senior Machine Learning Engineer (404)
+
+- [x] SKIP | https://job-boards.greenhouse.io/togetherai/jobs/5179372007 | Together AI | Research Engineer, Post-Training Inference | San Francisco, hard exclude (Canada-only policy)
+- [!] https://job-boards.greenhouse.io/anthropic/jobs/5209711008 | Anthropic | Manager, Applied AI Engineering | Posting closed/404, redirects to jobs index
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5277834008 | Anthropic | Manager, Applied AI Engineering, Beneficial Deployments (Life Sciences) | San Francisco/NYC, hard exclude (Canada-only policy)
+- [!] https://job-boards.greenhouse.io/anthropic/jobs/5257763008 | Anthropic | People Research Scientist, Recruiting | Posting closed/404, redirects to jobs index
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5254364008 | Anthropic | Research Engineer, Code RL | SF/NYC, hard exclude (Canada-only policy) — already in tracker #888/#890
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5285246008 | Anthropic | Research Engineer, Computer Use | SF/NYC/Seattle, hard exclude (Canada-only policy) — already in tracker #891
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5271380008 | Anthropic | Research Engineer, Domain Scaling | SF/NYC/Seattle, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5265365008 | Anthropic | Research Engineer, Life Sciences | Not archetype match (computational biology) — same team pattern as prior Life Sciences roles, all SF
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5264619008 | Anthropic | Research Engineer, RL Scaling Science | London UK, hard exclude (Canada-only policy)
+- [!] https://job-boards.greenhouse.io/anthropic/jobs/5278065008 | Anthropic | Research Engineer, Rule of Law | Posting closed/404, redirects to jobs index
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5074217008 | Anthropic | Research Engineer, Visual Knowledge Work | NYC/SF/Seattle, hard exclude (Canada-only policy) — would have been a strong CV/vision archetype fit otherwise
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5285557008 | Anthropic | Staff + Senior Software Engineer, Inference Deployment | SF/NYC/Seattle, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5257650008 | Anthropic | Staff+ Software Engineer, Inference Runtime | SF/NYC/Seattle (Inference team pattern), hard exclude (Canada-only policy)
+- [!] https://job-boards.greenhouse.io/xai/jobs/5173142007 | xAI (Grok) | Member of Technical Staff | Posting closed/404, redirects to jobs index
+- [x] SKIP | https://job-boards.greenhouse.io/xai/jobs/5180223007 | xAI (Grok) | Member of Technical Staff - RL Inference | Palo Alto CA (all xAI roles confirmed Palo Alto), hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/xai/jobs/5007310007 | xAI (Grok) | Member of Technical Staff - X Money | Palo Alto CA (all xAI roles confirmed Palo Alto), hard exclude (Canada-only policy)
+- [x] SKIP | https://jobs.ashbyhq.com/vapi/941f5562-52f1-43f0-92d4-9d05931c0955 | Vapi | Member of Technical Staff, Core Backend | San Francisco hybrid (Vapi is SF-based), hard exclude (Canada-only policy)
+- [x] SKIP | https://jobs.ashbyhq.com/decagon/4a69b01d-6388-462a-8336-7cb288a87a0e | Decagon | Senior Research Engineer, Voice + Speech | NYC/SF on-site, hard exclude (Canada-only policy) — would have been strong audio ML archetype fit otherwise
+- [x] #1082 | https://jobs.ashbyhq.com/cohere/2d4d224f-94d4-40ce-88d5-5d340bc0da4e | Cohere | Sr Research Engineer, Safety Tooling and Data | 4.0/5 | PDF ✅ (Toronto/Montreal $385K-535K CAD, CV+CL generated)
+- [x] SKIP | https://jobs.ashbyhq.com/cohere/582c4a60-14a2-49d5-b4d3-24c4ec50508d | Cohere | Senior Technical Program Manager, ML Infrastructure | Not archetype match (program management, not hands-on engineering/research)
+- [x] SKIP | https://jobs.ashbyhq.com/suno/44860a61-5d54-4ba4-b48e-4378d3040da3 | Suno | Senior / Staff Software Engineer, AI Engineering | LA on-site (Suno is LA on-site company), hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/scaleai/jobs/4711544005 | Scale AI | Machine Learning Engineer, Platform | London UK, hard exclude (Canada-only policy)
+- [x] #1038 | https://job-boards.greenhouse.io/grafanalabs/jobs/6092954004 | Grafana Labs | Staff AI Engineer (Marketing Ops) | 2.1/5 | PDF ❌ (already evaluated earlier this session, GCP/marketing-domain blockers)
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6092955004 | Grafana Labs | Staff AI Engineer (Marketing Ops) | US Remote, hard exclude (Canada-only policy) — same role as Canada posting #1038, already evaluated
+- [x] #1083 | https://job-boards.greenhouse.io/grafanalabs/jobs/6100673004 | Grafana Labs | Staff AI Engineer - Grafana AI/ML | 3.8/5 | PDF ✅ (Canada remote, $186K-230K CAD, CV+CL generated)
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6100672004 | Grafana Labs | Staff AI Engineer - Grafana AI/ML | USA Remote, hard exclude (Canada-only policy) — same role as Canada posting #1083, already evaluated 3.8/5
+- [!] https://www.samsara.com/company/careers/roles/7589442?gh_jid=7589442 | Samsara | AI Engineer | Posting closed/404 — redirects to generic careers listing, confirmed via Playwright
+- [x] SKIP | https://www.samsara.com/company/careers/roles/7266357?gh_jid=7266357 | Samsara | Staff Machine Learning Engineer - Edge AI | Remote-US, hard exclude (Canada-only policy) — already in tracker #619
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8029120 | Reddit | Machine Learning Engineer, Ads Optimization | Remote-US, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/7993514 | Reddit | ML Engineering Manager - Ads Engagement Modeling | Remote-US (anywhere in US), hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8022937 | Reddit | Machine Learning Systems Engineer, Ads ML Platform | Remote-UK, hard exclude (Canada-only policy)
+- [!] https://job-boards.greenhouse.io/reddit/jobs/6042236 | Reddit | Senior Data Scientist, Ads | Posting closed/404, redirects to jobs index
+- [!] https://job-boards.greenhouse.io/reddit/jobs/7931049 | Reddit | Senior Data Scientist, Consumer | Posting closed/404, redirects to jobs index
+- [x] #1084 | https://job-boards.greenhouse.io/reddit/jobs/6960833 | Reddit | Senior Machine Learning Engineer (Ontario) | 4.0/5 | PDF ✅ (Remote-Ontario, CV+CL generated)
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8018513 | Reddit | Staff Machine Learning Engineer, Ads Foundational Representations | Remote-UK, hard exclude (Canada-only policy)
+- [!] https://job-boards.greenhouse.io/reddit/jobs/8022136 | Reddit | Senior Machine Learning Systems Engineer, Ads ML Experience Platform | Posting closed/404, redirects to jobs index
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8009153 | Reddit | Senior Machine Learning Systems Engineer, Ranking Platform | Remote-US, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/7974504 | Reddit | Senior Staff Data Scientist - Consumer Experimentation | Remote-US, hard exclude (Canada-only policy) — Ontario twin already evaluated at #1081 (2.8/5)
+- [!] https://job-boards.greenhouse.io/reddit/jobs/7974647 | Reddit | Senior Staff Data Scientist - Consumer Relevance | Posting closed/404, redirects to jobs index
+- [!] https://job-boards.greenhouse.io/reddit/jobs/7844238 | Reddit | Senior Staff Machine Learning Systems Engineer, Indexing & Retrieval Search | Posting closed/404, redirects to jobs index
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/7721787 | Reddit | Staff Data Scientist, Ads | Remote-US, hard exclude (Canada-only policy) — already in tracker (report 1037)
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/6745284 | Reddit | Staff Data Scientist, Consumer | Remote-US, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/7931000 | Reddit | Staff Data Scientist, Marketing | Not archetype match (marketing analytics DS)
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8018527 | Reddit | Staff Machine Learning Engineer, ML Efficiency | Remote-UK, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/7992035 | Reddit | Staff Machine Learning Engineer, Notifications Relevance | Remote-US, hard exclude (Canada-only policy)
+- [!] https://job-boards.greenhouse.io/reddit/jobs/8001642 | Reddit | Staff Machine Learning Systems Engineer, Embeddings Platform | Posting closed/404, redirects to jobs index
+- [!] https://job-boards.greenhouse.io/reddit/jobs/7555007 | Reddit | Staff Research Engineer, Post-training & Evaluation | Posting closed/404, redirects to jobs index
+- [x] SKIP | https://jobs.lever.co/tri/fcfe4b57-d1a0-47f6-b14f-98a4d30313eb | Toyota Research Institute (TRI) | Senior Research Engineer, Computer Vision (LFV/WFM) | Los Altos CA hybrid, hard exclude (Canada-only policy) — would have been strong CV archetype fit otherwise
+- [x] SKIP | https://jobs.lever.co/tri/d519894c-7feb-430c-9d40-2d9a4a687534 | Toyota Research Institute (TRI) | Senior Research Scientist, Large Behavior Models | Los Altos CA (TRI is Los Altos-based), hard exclude (Canada-only policy)
+- [!] https://jobs.lever.co/tri/dad8e0e8-1718-47c2-afbe-6279ae5747a4 | Toyota Research Institute (TRI) | Senior Robotics Research Engineer | HTTP 404, confirmed via Playwright
+- [!] https://jobs.lever.co/mistral/80358670-36c7-4b00-85f9-9051dc8a341e | Mistral AI | Applied AI Engineer, Senior/Staff Devops/SRE | HTTP 404, confirmed via Playwright
+- [!] https://jobs.lever.co/mistral/98e6a2ea-7049-4c8d-88b7-c9d824eea6f1 | Mistral AI | Applied AI Engineer, CyberSecurity | HTTP 404, confirmed via Playwright
+- [!] https://jobs.lever.co/mistral/4eca6d89-c813-4f50-969c-b3ea88b6b956 | Mistral AI | Applied AI Engineer, Fullstack | HTTP 404, confirmed via Playwright
+- [!] https://jobs.lever.co/mistral/e6accd7d-27d5-45f0-9f35-3454064374af | Mistral AI | Applied AI, Machine Learning Engineer | HTTP 404, confirmed via Playwright
+- [!] https://jobs.lever.co/mistral/ede2a7c2-38d8-4e6a-bd76-4ba3819b2fae | Mistral AI | Applied Scientist / Domain Expert, AI4Engineering - EMEA | HTTP 404, confirmed via Playwright
+- [!] https://jobs.lever.co/mistral/d495bb77-df1f-44ef-9b63-e6f54cc95e41 | Mistral AI | Applied Scientist / Research Engineer | HTTP 404, confirmed via Playwright
+- [!] https://jobs.lever.co/mistral/ceb43b59-b44b-4f39-9ff3-d533e5d77935 | Mistral AI | Lead/Staff Applied AI Engineer, Fullstack | HTTP 404, confirmed via Playwright
+- [!] https://jobs.lever.co/mistral/b985502a-2334-4934-aaf3-8da6501257d0 | Mistral AI | Lead/Staff Applied AI, Machine Learning Engineer | HTTP 404, confirmed via Playwright
+- [!] https://jobs.lever.co/mistral/228e68fa-1deb-4e65-bb48-bfae99628acd | Mistral AI | Lead/Staff Applied Scientist/Research Engineer | HTTP 404, confirmed via Playwright
+- [!] https://jobs.lever.co/mistral/d11af6fc-0ba3-4986-bfd9-873074e5f3d8 | Mistral AI | Senior/Staff Applied AI Engineer, Devops/SRE | HTTP 404, confirmed via Playwright
+
+- [!] https://job-boards.greenhouse.io/xai/jobs/5173208007 | xAI (Grok) | Member of Technical Staff | Posting closed/404, redirects to jobs index
+- [!] https://job-boards.greenhouse.io/assemblyai/jobs/4707265005 | AssemblyAI | Applied AI Engineer | Posting closed/404, redirects to jobs index
+- [x] SKIP | https://job-boards.greenhouse.io/humeai/jobs/4816209008 | Hume AI | Senior Software Engineer - Backend & Machine Learning | New York, NY (US work authorization required, no sponsorship), hard exclude (Canada-only policy)
+- [x] SKIP | https://jobs.ashbyhq.com/deepgram/0b7494b3-a91e-4540-9439-5b10a1e5b391 | Deepgram | Embedded AI Engineer, On-Device Models | USA Remote, hard exclude (Canada-only policy) — excellent embedded ML archetype fit otherwise, biggest miss of the session
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8022942 | Reddit | Machine Learning Systems Engineer, Ads ML Platform | Remote-Netherlands, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8018517 | Reddit | Senior Machine Learning Engineer, Ads Foundational Representations | Remote-Netherlands, hard exclude (Canada-only policy)
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8018532 | Reddit | Staff Machine Learning Engineer, ML Efficiency | Remote-Netherlands, hard exclude (Canada-only policy) 
+- [x] SKIP | https://jobs.lever.co/tri/e6dee431-b611-43fe-b615-d803d7cea57a | Toyota Research Institute | Senior Research Scientist | Los Altos CA hybrid, hard exclude (Canada-only policy); also materials chemistry, not ML archetype match | Toyota Research Institute (TRI) | Senior Research Scientist
+
+- [x] SKIP | https://job-boards.greenhouse.io/togetherai/jobs/5199554007 | Together AI | Research Engineer, Large-Scale Training | San Francisco, hard exclude (Canada-only policy) | Together AI | Research Engineer, Large-Scale Training
+- [x] SKIP | https://job-boards.greenhouse.io/togetherai/jobs/5186628007 | Together AI | Staff Software Engineer, Inference/Compute Infra | San Francisco (4 days onsite), hard exclude (Canada-only policy) | Together AI | Staff Software Engineer, Inference / Compute Infrastructure Engineering
+- [x] SKIP | https://job-boards.greenhouse.io/togetherai/jobs/5202021007 | Together AI | Technical Support Engineer (Inference) - US Weekends | US-scoped, hard exclude (Canada-only policy); also not archetype match | Together AI | Technical Support Engineer (Inference) - US Weekends
+- [!] https://job-boards.greenhouse.io/xai/jobs/5173147007 | xAI | (unknown role) | Posting closed/404 — confirmed via Playwright + WebFetch (2 attempts), redirects to jobs index | xAI (Grok) | Member of Technical Staff
+- [x] SKIP | https://job-boards.greenhouse.io/xai/jobs/5186992007 | xAI | Member of Technical Staff - RL Training Framework | Palo Alto CA, hard exclude (Canada-only policy) | xAI (Grok) | Member of Technical Staff - RL Training Framework
+- [x] SKIP | https://job-boards.greenhouse.io/xai/jobs/5188230007 | xAI | Software Engineer - Evals | Palo Alto CA, hard exclude (Canada-only policy) | xAI (Grok) | Software Engineer - Evals
+- [!] https://job-boards.greenhouse.io/anthropic/jobs/5358094008 | Anthropic | (unknown role) | Posting closed/404 — confirmed via Playwright + WebFetch (2 attempts), redirects to jobs index | Anthropic | Data Scientist, Finance Forecasting
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5367417008 | Anthropic | Pre-training Distributed Systems Tech Lead / Manager | San Francisco CA, hard exclude (Canada-only policy) | Anthropic | Evals Infrastructure Tech Lead / Manager
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5364804008 | Anthropic | Machine Learning Infrastructure Engineer, Safeguards Research | San Francisco/NYC, hard exclude (Canada-only policy) | Anthropic | Machine Learning Infrastructure Engineer, Safeguards Research
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5362838008 | Anthropic | People Research Scientist, Recruiting | Not archetype match (HR/people research, not ML/AI eng) | Anthropic | People Research Scientist, Recruiting
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5231612008 | Anthropic | Research Engineer, Chip Design RL | San Francisco/NYC, hard exclude (Canada-only policy) | Anthropic | Research Engineer, Chip Design RL (Reinforcement Learning)
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5357739008 | Anthropic | Research Scientist, Life Sciences (Computational) | San Francisco CA, hard exclude (Canada-only policy); also not archetype match | Anthropic | Research Scientist, Life Sciences (Computational)
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5370669008 | Anthropic | Research Scientist, Takeoff Intel | San Francisco CA, hard exclude (Canada-only policy) | Anthropic | Research Scientist, Takeoff Intel
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5238296008 | Anthropic | Staff + Sr. SWE, Cloud Inference Launch Engineering | San Francisco CA, hard exclude (Canada-only policy) | Anthropic | Staff + Sr. Software Engineer, Cloud Inference Launch Engineering
+- [x] SKIP | https://jobs.ashbyhq.com/liquid-ai/4ee965fc-9a9e-43db-a2e9-2da654a73e86 | Liquid AI | MTS - Embedded ML Engineer (Audio/Omni) | San Francisco hybrid, hard exclude (Canada-only policy) — strong archetype fit otherwise, flag if policy ever relaxes | Liquid AI | Member of Technical Staff - Embedded ML Engineer (Audio/Omni)
+- [x] SKIP | https://jobs.ashbyhq.com/liquid-ai/24b6d654-d703-4a49-941b-3461f2d7c28e | Liquid AI | MTS - ML Scientist, Japanese Multimodal | Tokyo, hard exclude (Canada-only policy) | Liquid AI | Member of Technical Staff - ML Scientist, Japanese Multimodal
+- [x] SKIP | https://jobs.ashbyhq.com/liquid-ai/091f16ad-5d52-4337-89d8-c166c33577bf | Liquid AI | MTS - Applied ML, Japanese Multimodal | Tokyo (same team as sibling posting), hard exclude (Canada-only policy) | Liquid AI | Member of Technical Staff - Applied ML, Japanese Multimodal
+- [x] SKIP | https://jobs.ashbyhq.com/liquid-ai/ec3912e6-3751-4b5a-8769-4509bdd750c4 | Liquid AI | MTS - GPU Infrastructure Engineer | San Francisco hybrid, hard exclude (Canada-only policy) | Liquid AI | Member of Technical Staff - GPU Infrastructure Engineer
+- [x] SKIP | https://jobs.ashbyhq.com/suno/f99ae445-cfc9-440b-8b81-046bf071d2d7 | Suno | Staff Data Scientist, Mobile Consumer Create | Los Angeles on-site, hard exclude (Canada-only policy) | Suno | Staff Data Scientist, Mobile Consumer Create
+- [x] SKIP | https://jobs.ashbyhq.com/suno/7b81d3fa-8a84-4d3a-b681-a6b06974e01e | Suno | Senior/Staff Data Scientist, Growth Product | LA on-site (Suno is LA on-site company), hard exclude (Canada-only policy); also not archetype match | Suno | Senior / Staff Data Scientist, Growth Product
+- [x] SKIP | https://job-boards.greenhouse.io/arizeai/jobs/6119757004 | Arize AI | Open Source AI Engineer (Typescript) | Remote-US, hard exclude (Canada-only policy) | Arize AI | Open Source AI Engineer (Typescript)
+- [x] SKIP | https://jobs.ashbyhq.com/deepgram/2084edc0-2df0-4bd4-b759-0f05c38d5ef5 | Deepgram | Backend Engineer - Inference Services | USA Remote, hard exclude (Canada-only policy) | Deepgram | Backend Engineer- Inference Services
+- [x] SKIP | https://jobs.ashbyhq.com/deepgram/94ae2781-a85f-493a-86c1-ff85a9289355 | Deepgram | Applied ML Engineer | USA Remote, hard exclude (Canada-only policy) — strong archetype fit otherwise | Deepgram | Applied ML Engineer
+- [x] SKIP | https://jobs.ashbyhq.com/deepgram/6f3d761e-4873-43af-a9b1-daeb147661f9 | Deepgram | Senior SWE - Model Evaluation & AI Systems | USA Remote (Deepgram roles are USA-remote), hard exclude (Canada-only policy) | Deepgram | Senior Software Engineer - Model Evaluation & AI Systems
+- [x] SKIP | https://job-boards.greenhouse.io/gleanwork/jobs/4711484005 | Glean | Machine Learning Engineer, Assistant Quality | San Francisco hybrid, hard exclude (Canada-only policy) | Glean | Machine Learning Engineer, Assistant Quality
+- [x] SKIP | https://job-boards.greenhouse.io/gleanwork/jobs/4712438005 | Glean | Software Engineer, Evals | San Francisco hybrid (same company as sibling posting), hard exclude (Canada-only policy) | Glean | Software Engineer, Evals
+- [x] SKIP | https://jobs.ashbyhq.com/decagon/9231a1ba-d9f5-4ddd-b398-158297ea7db9 | Decagon | Research Engineer | San Francisco/NYC on-site, hard exclude (Canada-only policy) | Decagon | Research Engineer
+- [x] #1069 | https://jobs.ashbyhq.com/cohere/e4603bb7-5bbe-4f73-9556-02c93f78b2af | Cohere | Data Scientist, North Insights | 3.2/5 | PDF ❌ (below 3.5 threshold, recommend against) | Cohere | Data Scientist, North Insights
+- [x] SKIP | https://job-boards.greenhouse.io/scaleai/jobs/4718431005 | Scale AI | Senior Manager, Research Scientist | San Francisco/NYC, hard exclude (Canada-only policy) | Scale AI | Manager, Research Scientist
+- [x] SKIP | https://job-boards.greenhouse.io/scaleai/jobs/4714527005 | Scale AI | Staff/Senior Machine Learning Research Engineer | San Francisco/NYC, hard exclude (Canada-only policy) | Scale AI | Senior Machine Learning Engineer, Agent Oversight
+- [x] SKIP | https://job-boards.greenhouse.io/scaleai/jobs/4720050005 | Scale AI | Staff Applied AI Engineer | London, UK, hard exclude (Canada-only policy) | Scale AI | Staff Applied AI Engineer
+- [x] #1070 | https://jobs.ashbyhq.com/baseten/3622a1ee-50a9-4c45-af6e-aa12bd5de22f | Baseten | Frontend Engineer, Dedicated Inference | 1.3/5 | PDF ❌ (frontend role, no archetype match) | Baseten | Frontend Engineer - Dedicated Inference
+- [x] #1071 | https://jobs.ashbyhq.com/baseten/db6477fc-111a-4340-bf00-525fe023e6f3 | Baseten | AI Inference Engineer (FDE) | 4.2/5 | PDF ✅ (CV+CL generated, recommend applying) | Baseten | AI Inference Engineer
+- [x] #1072 | https://job-boards.greenhouse.io/grafanalabs/jobs/6121756004 | Grafana Labs | Sr MLE, Developer Advocacy (Recommender Systems) | 3.3/5 | PDF ❌ (borderline, Canada-remote, flag for user) | Grafana Labs | Senior Machine Learning Engineer, Developer Advocacy | Canada | Remote
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6121947004 | Grafana Labs | Sr MLE, Developer Advocacy | Germany, hard exclude (Canada-only policy) — same role as #1072, different country posting | Grafana Labs | Senior Machine Learning Engineer, Developer Advocacy | Germany | Remote
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6121948004 | Grafana Labs | Sr MLE, Developer Advocacy | Ireland, hard exclude (Canada-only policy) — same role as #1072, different country posting | Grafana Labs | Senior Machine Learning Engineer, Developer Advocacy | Ireland | Remote
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6121949004 | Grafana Labs | Sr MLE, Developer Advocacy | Spain, hard exclude (Canada-only policy) — same role as #1072, different country posting | Grafana Labs | Senior Machine Learning Engineer, Developer Advocacy | Spain | Remote
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6121954004 | Grafana Labs | Sr MLE, Developer Advocacy | Sweden, hard exclude (Canada-only policy) — same role as #1072, different country posting | Grafana Labs | Senior Machine Learning Engineer, Developer Advocacy | Sweden | Remote
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6121956004 | Grafana Labs | Sr MLE, Developer Advocacy | UK, hard exclude (Canada-only policy) — same role as #1072, different country posting | Grafana Labs | Senior Machine Learning Engineer, Developer Advocacy | UK | Remote
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6121755004 | Grafana Labs | Sr MLE, Developer Advocacy | US, hard exclude (Canada-only policy) — same role as #1072, different country posting | Grafana Labs | Senior Machine Learning Engineer, Developer Advocacy | US | Remote
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6117334004 | Grafana Labs | Staff AI Engineer - 2nd Horizon | Germany, hard exclude (Canada-only policy) | Grafana Labs | Staff AI Engineer - 2nd Horizon | Germany | Remote
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6117338004 | Grafana Labs | Staff AI Engineer - 2nd Horizon | Ireland, hard exclude (Canada-only policy) | Grafana Labs | Staff AI Engineer - 2nd Horizon | Ireland | Remote
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6117336004 | Grafana Labs | Staff AI Engineer - 2nd Horizon | Spain, hard exclude (Canada-only policy) | Grafana Labs | Staff AI Engineer - 2nd Horizon | Spain | Remote
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6117340004 | Grafana Labs | Staff AI Engineer - 2nd Horizon | Sweden, hard exclude (Canada-only policy) | Grafana Labs | Staff AI Engineer - 2nd Horizon | Sweden | Remote
+- [x] SKIP | https://job-boards.greenhouse.io/grafanalabs/jobs/6117339004 | Grafana Labs | Staff AI Engineer - 2nd Horizon | UK, hard exclude (Canada-only policy) — no Canada posting found among this role's 5 country variants | Grafana Labs | Staff AI Engineer - 2nd Horizon | UK | Remote
+- [x] SKIP | https://www.samsara.com/company/careers/roles/8020028?gh_jid=8020028 | Samsara | AI Engineering Manager - Bengaluru | Bengaluru, India, hard exclude (Canada-only policy) | Samsara | AI Engineering Manager
+- [x] SKIP | https://www.samsara.com/company/careers/roles/8042166?gh_jid=8042166 | Samsara | Senior+ Applied Scientist | Remote-US, hard exclude (Canada-only policy) | Samsara | Senior+ Applied Scientist
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8095009 | Reddit | Machine Learning Manager, Feed Ecosystems | Remote-US, hard exclude (Canada-only policy) | Reddit | Machine Learning Manager, Feed Ecosystems
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8094985 | Reddit | Machine Learning Manager, Feed Relevance (Retrieval) | Remote-US, hard exclude (Canada-only policy) | Reddit | Machine Learning Manager, Feed Relevance (Retrieval)
+- [!] https://job-boards.greenhouse.io/reddit/jobs/7729096 | Reddit | (unknown role) | Posting closed/404 — confirmed via Playwright + WebFetch (2 attempts), redirects to jobs index | Reddit | Senior Machine Learning Engineer, Safety
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8072046 | Reddit | Sr. Staff Data Scientist - Ads Measurement, Signals, Privacy | Remote-US, hard exclude (Canada-only policy) | Reddit | Sr. Staff Data Scientist - Ads Measurement, Signals, Privacy
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8072076 | Reddit | Staff Data Scientist - Ads Measurement, Signals, Privacy | Remote-US (same team as sibling posting), hard exclude (Canada-only policy) | Reddit | Staff Data Scientist - Ads Measurement, Signals, Privacy
+- [x] #1073 | https://jobs.lever.co/waabi/a51f8167-0aef-4df7-8672-b5ebd8f566f2 | Waabi | Sr/Staff Research Engineer, Simulation Assets | 3.1/5 | PDF ❌ (Toronto, but 3D graphics domain mismatch) | Waabi | Senior / Staff Research Engineer, Simulation Assets & Content Systems
+
+- [x] #1074 | https://jobs.ashbyhq.com/cohere/3fe03041-347a-479f-8361-6b1f5f81338e | Cohere | Applied AI Engineer, Agents & Automations | 3.7/5 | PDF ✅ (Canada remote, $215K-310K CAD, CV+CL generated) | Cohere | Applied AI Engineer, Agents & Automations
+- [!] https://jobs.ashbyhq.com/langchain/a16d58f7-e210-495c-9e6f-82222267de3a | LangChain | (unknown role) | Posting closed/404 — "Job not found" page, confirmed via Playwright | LangChain | AI Engineer, Enablement (London)
+- [!] https://jobs.ashbyhq.com/langchain/0faf969b-33a8-4cf8-9f7b-0b0b0b327bd4 | LangChain | (unknown role) | Posting closed/404 — "Job not found" page, confirmed via Playwright | LangChain | AI Engineer, Enablement (Amsterdam)
+- [x] #1075 | https://job-boards.greenhouse.io/reddit/jobs/8103594 | Reddit | Sr. Staff Data Scientist, Ads Measurement (Toronto) | 3.0/5 | PDF ❌ (Toronto, but domain mismatch) | Reddit | Sr. Staff Data Scientist - Ads Measurement, Signals, Privacy
+- [x] #1076 | https://job-boards.greenhouse.io/reddit/jobs/8103609 | Reddit | Staff Data Scientist, Ads Measurement (Toronto) | 3.0/5 | PDF ❌ (Toronto, but domain mismatch, same as #1075) | Reddit | Staff Data Scientist - Ads Measurement, Signals, Privacy
+
+- [x] #1077 | https://jobs.ashbyhq.com/elevenlabs/3eede250-d2a7-4f13-b0b2-d8a530cb6130 | ElevenLabs | Audio Engineering Lead | 1.8/5 | PDF ❌ (audio production role, not ML) | ElevenLabs | Audio Engineering Lead
+- [x] SKIP | https://job-boards.greenhouse.io/reddit/jobs/8115838 | Reddit | Staff Machine Learning Engineer, Shopping Ads | Remote-US, hard exclude (Canada-only policy) | Reddit | Staff Machine Learning Engineer, Shopping Ads
+
+
+
+
+
+- [x] #1089 | https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-resident-client-mobia-health-innovations-12-month-term-ahi4n/ | Amii | ML Resident - Mobia Health Innovations | 3.9/5 | PDF ✅ (Edmonton, RAG/healthcare, CV+CL generated)
+- [x] #1090 | https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-resident-client-fillip-fleet-12-month-term-kfxpr/ | Amii | ML Resident - Fillip Fleet | 3.7/5 | PDF ✅ (Edmonton, LLM/agentic, CV+CL generated)
+- [x] #1087 | https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-resident-client-opencycle-12-month-term-qtwt0/ | Amii | ML Resident - OpenCycle | 4.7/5 | PDF ✅ (Calgary, acoustic/edge ML — top fit, CV+CL generated)
+- [x] #1088 | https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-resident-client-nialli-12-month-term-4ohcb/ | Amii | ML Resident - Nialli | 3.2/5 | PDF ❌ (Calgary, construction domain mismatch, deadline was tight)
+- [x] #1086 | https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-resident-client-qualisure-12-month-term-4gmqb/ | Amii | ML Resident - Qualisure | 2.2/5 | PDF ❌ (bioinformatics domain, no fit)
+- [x] #1085 | https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-resident-client-zerokey-12-month-term-j1f03/ | Amii | ML Resident - ZeroKey | 4.5/5 | PDF ✅ (Edmonton, spatial/edge ML near-perfect fit, CV+CL generated)
+- [x] #1091 | https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-scientist-training-45q72/ | Amii | Machine Learning Scientist, Training | 2.5/5 | PDF ❌ (requires people management, candidate lacks)
+- [x] #1092 | https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4ed2be93-8bc5-40e2-915f-931884eac404&ccId=9200420850870_2&lang=en_CA&jobId=442841 | Vector Institute | Vector Distinguished Postdoctoral Fellow | 3.8/5 | PDF ✅ (needs faculty supervisor, deadline Aug 31, CV+CL draft generated)
+
+- [!] https://ca.linkedin.com/jobs/view/biosignal-research-engineer-at-muse-the-brain-sensing-headband-166238377 | InteraXon (Muse) | Biosignal Research Engineer — Error: posting expired/closed. LinkedIn URL redirects to generic search (missing_jd_redirect); Built In Toronto confirms "No jobs to discover at this time" as of 2026-08-26. Track InteraXon for future reopenings — role type is a near-perfect domain match (EEG/biosignal DSP + ML) if it recurs.
+- [x] (dup of #704, not re-added to tracker) https://boards.greenhouse.io/faire/jobs/8610312002?gh_jid=8610312002 | Faire | Senior Applied AI/ML Scientist - Compass | 2.9/5 | PDF ❌ (re-evaluated 2026-08-26, same score as existing #704 — recommend against, no shipped agentic/frontend experience)
+- [x] #1094 | https://boards.greenhouse.io/faire/jobs/8620224002?gh_jid=8620224002 | Faire | Senior Backend Engineer - Brand Platform | 1.8/5 | PDF ❌ (Kotlin/JVM backend, no ML content — title-filter false positive)
+- [x] #1095 | https://boards.greenhouse.io/faire/jobs/8609131002?gh_jid=8609131002 | Faire | Staff Backend Engineer - Ads Formats | 1.7/5 | PDF ❌ (ad-serving infra, Kotlin/Java, ad-tech specific — no domain overlap)
+- [x] #1096 | https://boards.greenhouse.io/faire/jobs/8523771002?gh_jid=8523771002 | Faire | Staff Backend Engineer - Search FX (Discovery Experience) | 2.3/5 | PDF ❌ (search/LLM query understanding, Kotlin/Java, no shipped search system — revisit if search project shipped)
+
+- [x] handled 2026-09-03 (see top of Pending): AssemblyAI Senior SWE Inference (DUP of ai-job-search 1107); Wealthsimple Sr Data Scientist (#1110 SKIP)
+
+<!-- ===== scan.mjs 2026-09-03 (after portals.yml repair: 23 dead ATS slugs fixed/disabled, 15 new Canada companies added). Auto-added from the newly-scannable companies. Some overlap roles already evaluated 1112–1135 (Nexxa Applied #1122, XYZ CV #1133, Extreme SDS #1116, SecurityScorecard #1127, Northbeam #1124, Shakepay Growth #1128, AutoTrader SDS #1126) — the pipeline eval flow will dedup. GENUINELY NEW & worth evaluating: Jumio ML Eng-CV + Jumio Sr ML Eng-Biometrics (2 more beyond #1112), Helm.ai ML Engineer (distinct from #1118 Research Eng), Innodata Finance/Health AI Eval Data Scientist + TSA Evals & Fine-Tuning, Extreme Director of AI Engineering (Toronto), AutoTrader Principal Data Scientist. ===== -->
+- [ ] https://jobs.ashbyhq.com/nexxa/512311e5-d955-4507-9b65-72753d091257 | Nexxa.AI | Applied AI Engineer
+- [ ] https://jobs.ashbyhq.com/nexxa/9532e2f7-d76f-425d-b9b8-d58e16b93d25 | Nexxa.AI | Security & Infrastructure Engineer
+- [ ] https://jobs.ashbyhq.com/helm-ai/2b1fa7cc-a80e-4cb7-af5c-10a3479b8fc5 | Helm.ai | Machine Learning Engineer
+- [ ] https://jobs.ashbyhq.com/xyz-reality/d8bf465c-bf7f-4337-871f-ee6c54fce6bd | XYZ Reality | Senior AI - Computer Vision Engineer
+- [ ] https://job-boards.greenhouse.io/jumio/jobs/4713201005 | Jumio | Machine Learning Engineer - (Computer Vision)
+- [ ] https://job-boards.greenhouse.io/jumio/jobs/4685786005 | Jumio | Senior Machine Learning Engineer - (Biometrics)
+- [ ] https://job-boards.greenhouse.io/innodatainc/jobs/4330337009 | Innodata | Applied Data Scientist, Finance AI Evaluation & Datasets 
+- [ ] https://job-boards.greenhouse.io/innodatainc/jobs/4330346009 | Innodata | Applied Data Scientist, Health AI Evaluation & Datasets 
+- [ ] https://job-boards.greenhouse.io/innodatainc/jobs/4224824009 | Innodata | Generative AI Associate - Flexible Hours
+- [ ] https://job-boards.greenhouse.io/innodatainc/jobs/4330362009 | Innodata | Technical Solutions Architect, Evals & Fine-Tuning 
+- [ ] https://job-boards.greenhouse.io/autotradercanada/jobs/7770120003 | AutoTrader.ca (TRADER Corp) | Engineering Manager, Quality Engineering
+- [ ] https://job-boards.greenhouse.io/autotradercanada/jobs/7543793003 | AutoTrader.ca (TRADER Corp) | Principal Data Scientist (m/f/d)
+- [ ] https://job-boards.greenhouse.io/autotradercanada/jobs/7629293003 | AutoTrader.ca (TRADER Corp) | Senior Data Scientist - Toronto (m/f/d)
+- [ ] https://job-boards.greenhouse.io/autotradercanada/jobs/7753152003 | AutoTrader.ca (TRADER Corp) | Senior Platform Engineer
+- [ ] https://job-boards.greenhouse.io/securityscorecard/jobs/8126399 | SecurityScorecard | Senior Data Scientist 
+- [ ] https://job-boards.greenhouse.io/shakepay/jobs/4723804005 | Shakepay | Data Scientist en chef, Croissance
+- [ ] https://job-boards.greenhouse.io/shakepay/jobs/4723803005 | Shakepay | Staff Data Scientist, Growth
+- [ ] https://job-boards.greenhouse.io/northbeam/jobs/4688305006 | Northbeam | Senior Data Scientist 
+- [ ] https://jobs.lever.co/extremenetworks/964dc7b5-3160-4a3b-99f4-0059942c5139 | Extreme Networks | Director of AI Engineering – Generative AI & Autonomous Systems (10033) Toronto, Canada
+- [ ] https://jobs.lever.co/extremenetworks/fe3b7c5c-f855-4993-ad85-f396379fe346 | Extreme Networks | Senior Data Scientist-Gen AI, Machine Learning (10042)
+
+- [ ] https://job-boards.greenhouse.io/innodatainc/jobs/4248787009 | Innodata | Generative AI Associate - Flexible Hours
+
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5988483004 | Grafana Labs | Staff Backend Engineer - Grafana App Platform | Canada | Remote
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/6146605004 | Grafana Labs | Staff Backend Engineer - Mimir Query, Databases | Canada | Remote
+- [ ] https://jobs.ashbyhq.com/wealthsimple/10e867d5-350d-4114-be79-898d4a755125 | Wealthsimple | Senior Software Developer, AI Platform
+- [ ] https://job-boards.greenhouse.io/leagueinc/jobs/6188428004 | League Inc | Senior or Staff Software Engineer, Backend
+- [ ] https://jobs.ashbyhq.com/helm-ai/a9c443b8-4fc0-4444-afdd-298c25282533 | Helm.ai | Machine Learning Engineer
+- [ ] https://jobs.lever.co/waabi/2af36079-94fb-423d-a2b6-10b3a1ad5aa3 | Waabi | Senior / Staff Software Engineer, AI Tooling
+- [ ] https://jobs.lever.co/waabi/0614b22d-699e-4d08-9149-968e0b010bf4 | Waabi | Senior / Staff Software Engineer, ML-based Controls
+- [ ] https://jobs.lever.co/waabi/cb383962-ad2d-40ab-93ce-e3aead4b3838 | Waabi | Staff Systems Engineer - Safety Methodologies
+- [ ] https://jobs.lever.co/fullscript/fbd252ba-c7c9-4be8-8f97-ac07acd4355a | Fullscript | Senior Machine Learning Engineer
+- [ ] https://jobs.lever.co/extremenetworks/84d9b745-27d3-46f8-ad42-9305c868e932 | Extreme Networks | Senior Full Stack Developer – Generative AI & Autonomous Agents - Toronto, Canada - Hybrid (10038)
+
+- [ ] https://job-boards.greenhouse.io/assemblyai/jobs/4728788005 | AssemblyAI | Senior GTM AI Engineer
+- [ ] https://job-boards.greenhouse.io/assemblyai/jobs/4728911005 | AssemblyAI | Senior Software Engineer, Inference

@@ -1,0 +1,367 @@
+- generic [active] [ref=f424e1]:
+  - paragraph [ref=f424e8]: The job you are looking for is no longer open.
+  - main [ref=f424e9]:
+    - generic [ref=f424e10]:
+      - link [ref=f424e12] [cursor=pointer]:
+        - /url: https://www.anthropic.com/jobs
+        - img "Anthropic Logo" [ref=f424e13]
+      - heading "Open Roles" [level=1] [ref=f424e14]
+      - generic [ref=f424e19]:
+        - paragraph [ref=f424e20]: Create a Job Alert
+        - paragraph [ref=f424e21]: Level-up your career by having opportunities at Anthropic sent directly to your inbox.
+        - link "Create alert" [ref=f424e22] [cursor=pointer]:
+          - /url: https://my.greenhouse.io/users/sign_in?job_board=anthropic&source=job_alert_board
+      - generic [ref=f424e23]:
+        - generic [ref=f424e24]:
+          - generic [ref=f424e26]:
+            - generic [ref=f424e27]: Search
+            - textbox "Search" [ref=f424e28]
+          - generic [ref=f424e30]:
+            - generic [ref=f424e31]: Department
+            - generic [ref=f424e32]:
+              - log [ref=f424e34]
+              - generic [ref=f424e36]:
+                - generic [ref=f424e37]:
+                  - generic [ref=f424e38]: Select...
+                  - combobox "Department" [ref=f424e40]
+                - button "Toggle flyout" [ref=f424e42] [cursor=pointer]
+          - generic [ref=f424e46]:
+            - generic [ref=f424e47]: Office
+            - generic [ref=f424e48]:
+              - log [ref=f424e50]
+              - generic [ref=f424e52]:
+                - generic [ref=f424e53]:
+                  - generic [ref=f424e54]: Select...
+                  - combobox "Office" [ref=f424e56]
+                - button "Toggle flyout" [ref=f424e58] [cursor=pointer]
+        - generic [ref=f424e61]:
+          - heading "537 jobs" [level=2] [ref=f424e62]
+          - generic [ref=f424e64]:
+            - heading "AI Research & Engineering" [level=3] [ref=f424e65]
+            - table [ref=f424e67]:
+              - rowgroup:
+                - row "Job":
+                  - columnheader [ref=f424e68]:
+                    - paragraph [ref=f424e69]: Job
+              - rowgroup [ref=f424e70]:
+                - row [ref=f424e71]:
+                  - cell [ref=f424e72]:
+                    - link [ref=f424e73] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5023394008
+                      - paragraph [ref=f424e74]: Anthropic Fellows Program
+                      - paragraph [ref=f424e75]: London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA
+                - row [ref=f424e76]:
+                  - cell [ref=f424e77]:
+                    - link [ref=f424e78] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5183044008
+                      - paragraph [ref=f424e79]: Anthropic Fellows Program, AI Safety & Security
+                      - paragraph [ref=f424e80]: London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA
+                - row [ref=f424e81]:
+                  - cell [ref=f424e82]:
+                    - link [ref=f424e83] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5183051008
+                      - paragraph [ref=f424e84]: Anthropic Fellows Program, ML Systems & Reinforcement Learning
+                      - paragraph [ref=f424e85]: London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA
+                - row [ref=f424e86]:
+                  - cell [ref=f424e87]:
+                    - link [ref=f424e88] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5183053008
+                      - paragraph [ref=f424e89]: Anthropic Fellows Program, The Anthropic Institute (Economics & Policy)
+                      - paragraph [ref=f424e90]: London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA
+                - row [ref=f424e91]:
+                  - cell [ref=f424e92]:
+                    - link [ref=f424e93] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4741104008
+                      - paragraph [ref=f424e94]: Engineering Manager, GPU (ML Accelerator)
+                      - paragraph [ref=f424e95]: San Francisco, CA | New York City, NY | Seattle, WA
+                - row [ref=f424e96]:
+                  - cell [ref=f424e97]:
+                    - link [ref=f424e98] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4741102008
+                      - paragraph [ref=f424e99]: Engineering Manager, Inference
+                      - paragraph [ref=f424e100]: San Francisco, CA | New York City, NY | Seattle, WA
+                - row [ref=f424e101]:
+                  - cell [ref=f424e102]:
+                    - link [ref=f424e103] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5297059008
+                      - paragraph [ref=f424e104]: Engineering Manager, Research Data Platform
+                      - paragraph [ref=f424e105]: San Francisco, CA | New York City, NY
+                - row [ref=f424e106]:
+                  - cell [ref=f424e107]:
+                    - link [ref=f424e108] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5223093008
+                      - paragraph [ref=f424e109]: Engineering Manager, Research Productivity
+                      - paragraph [ref=f424e110]: San Francisco, CA | New York City, NY
+                - row [ref=f424e111]:
+                  - cell [ref=f424e112]:
+                    - link [ref=f424e113] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5371065008
+                      - paragraph [ref=f424e114]: Engineering Manager, Search
+                      - paragraph [ref=f424e115]: San Francisco, CA | New York City, NY
+                - row [ref=f424e116]:
+                  - cell [ref=f424e117]:
+                    - link [ref=f424e118] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4610158008
+                      - paragraph [ref=f424e119]: "[Expression of Interest] Research Engineer / Scientist, Alignment - London"
+                      - paragraph [ref=f424e120]: London, UK
+                - row [ref=f424e121]:
+                  - cell [ref=f424e122]:
+                    - link [ref=f424e123] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4980436008
+                      - paragraph [ref=f424e124]: "[Expression of Interest] Research Manager, Interpretability"
+                      - paragraph [ref=f424e125]: San Francisco, CA
+                - row [ref=f424e126]:
+                  - cell [ref=f424e127]:
+                    - link [ref=f424e128] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5186067008
+                      - paragraph [ref=f424e129]: Full-Stack Software Engineer, Reinforcement Learning
+                      - paragraph [ref=f424e130]: San Francisco, CA | New York City, NY
+                - row [ref=f424e131]:
+                  - cell [ref=f424e132]:
+                    - link [ref=f424e133] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5326358008
+                      - paragraph [ref=f424e134]: Lead, Frontier Red Team (Cyber)
+                      - paragraph [ref=f424e135]: San Francisco, CA
+                - row [ref=f424e136]:
+                  - cell [ref=f424e137]:
+                    - link [ref=f424e138] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5357746008
+                      - paragraph [ref=f424e139]: Life Sciences Operator, Lead
+                      - paragraph [ref=f424e140]: New York City, NY
+                - row [ref=f424e141]:
+                  - cell [ref=f424e142]:
+                    - link [ref=f424e143] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5364804008
+                      - paragraph [ref=f424e144]: Machine Learning Infrastructure Engineer, Safeguards Research
+                      - paragraph [ref=f424e145]: San Francisco, CA | New York City, NY
+                - row [ref=f424e146]:
+                  - cell [ref=f424e147]:
+                    - link [ref=f424e148] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4949336008
+                      - paragraph [ref=f424e149]: ML/Research Engineer, Safeguards
+                      - paragraph [ref=f424e150]: San Francisco, CA | New York City, NY
+                - row [ref=f424e151]:
+                  - cell [ref=f424e152]:
+                    - link [ref=f424e153] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4020350008
+                      - paragraph [ref=f424e154]: Performance Engineer
+                      - paragraph [ref=f424e155]: San Francisco, CA | New York City, NY | Seattle, WA
+                - row [ref=f424e156]:
+                  - cell [ref=f424e157]:
+                    - link [ref=f424e158] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4926227008
+                      - paragraph [ref=f424e159]: Performance Engineer, GPU
+                      - paragraph [ref=f424e160]: San Francisco, CA | New York City, NY | Seattle, WA
+                - row [ref=f424e161]:
+                  - cell [ref=f424e162]:
+                    - link [ref=f424e163] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5224564008
+                      - paragraph [ref=f424e164]: Performance Engineer, Inference Systems
+                      - paragraph [ref=f424e165]: San Francisco, CA | New York City, NY | Seattle, WA
+                - row [ref=f424e166]:
+                  - cell [ref=f424e167]:
+                    - link [ref=f424e168] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5367417008
+                      - paragraph [ref=f424e169]: Pre-training Distributed Systems Tech Lead / Manager
+                      - paragraph [ref=f424e170]: San Francisco, CA
+                - row [ref=f424e171]:
+                  - cell [ref=f424e172]:
+                    - link [ref=f424e173] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5231612008
+                      - paragraph [ref=f424e174]: Research Engineer, Chip Design RL (Reinforcement Learning)
+                      - paragraph [ref=f424e175]: San Francisco, CA | New York City, NY
+                - row [ref=f424e176]:
+                  - cell [ref=f424e177]:
+                    - link [ref=f424e178] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5254364008
+                      - paragraph [ref=f424e179]: Research Engineer, Code RL (Reinforcement Learning)
+                      - paragraph [ref=f424e180]: San Francisco, CA | New York City, NY
+                - row [ref=f424e181]:
+                  - cell [ref=f424e182]:
+                    - link [ref=f424e183] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5285246008
+                      - paragraph [ref=f424e184]: Research Engineer, Computer Use
+                      - paragraph [ref=f424e185]: San Francisco, CA | New York City, NY | Seattle, WA
+                - row [ref=f424e186]:
+                  - cell [ref=f424e187]:
+                    - link [ref=f424e188] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5025624008
+                      - paragraph [ref=f424e189]: Research Engineer, Cybersecurity RL (Reinforcement Learning)
+                      - paragraph [ref=f424e190]: San Francisco, CA | New York City, NY
+                - row [ref=f424e191]:
+                  - cell [ref=f424e192]:
+                    - link [ref=f424e193] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4669581008
+                      - paragraph [ref=f424e194]: Research Engineer, Discovery
+                      - paragraph [ref=f424e195]: San Francisco, CA
+                - row [ref=f424e196]:
+                  - cell [ref=f424e197]:
+                    - link [ref=f424e198] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5271380008
+                      - paragraph [ref=f424e199]: Research Engineer, Domain Scaling
+                      - paragraph [ref=f424e200]: San Francisco, CA | New York City, NY | Seattle, WA
+                - row [ref=f424e201]:
+                  - cell [ref=f424e202]:
+                    - link [ref=f424e203] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5071132008
+                      - paragraph [ref=f424e204]: Research Engineer, Economic Research Data Platform
+                      - paragraph [ref=f424e205]: San Francisco, CA
+                - row [ref=f424e206]:
+                  - cell [ref=f424e207]:
+                    - link [ref=f424e208] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4980430008
+                      - paragraph [ref=f424e209]: Research Engineer, Interpretability
+                      - paragraph [ref=f424e210]: San Francisco, CA
+                - row [ref=f424e211]:
+                  - cell [ref=f424e212]:
+                    - link [ref=f424e213] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4017331008
+                      - paragraph [ref=f424e214]: Research Engineer, Knowledge Team
+                      - paragraph [ref=f424e215]: Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY
+                - row [ref=f424e216]:
+                  - cell [ref=f424e217]:
+                    - link [ref=f424e218] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5265365008
+                      - paragraph [ref=f424e219]: Research Engineer, Life Sciences
+                      - paragraph [ref=f424e220]: San Francisco, CA
+                - row [ref=f424e221]:
+                  - cell [ref=f424e222]:
+                    - link [ref=f424e223] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5115935008
+                      - paragraph [ref=f424e224]: Research Engineer, Machine Learning (Reinforcement Learning)
+                      - paragraph [ref=f424e225]: London, UK
+                - row [ref=f424e226]:
+                  - cell [ref=f424e227]:
+                    - link [ref=f424e228] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4613568008
+                      - paragraph [ref=f424e229]: Research Engineer, Machine Learning (Reinforcement Learning)
+                      - paragraph [ref=f424e230]: San Francisco, CA | New York City, NY
+                - row [ref=f424e231]:
+                  - cell [ref=f424e232]:
+                    - link [ref=f424e233] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5198108008
+                      - paragraph [ref=f424e234]: Research Engineer, Machine Learning (RL Velocity)
+                      - paragraph [ref=f424e235]: Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY
+                - row [ref=f424e236]:
+                  - cell [ref=f424e237]:
+                    - link [ref=f424e238] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5198074008
+                      - paragraph [ref=f424e239]: Research Engineer, Machine Learning (RL Velocity)
+                      - paragraph [ref=f424e240]: London, UK
+                - row [ref=f424e241]:
+                  - cell [ref=f424e242]:
+                    - link [ref=f424e243] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5198255008
+                      - paragraph [ref=f424e244]: Research Engineer, Model Evaluations
+                      - paragraph [ref=f424e245]: Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY
+                - row [ref=f424e246]:
+                  - cell [ref=f424e247]:
+                    - link [ref=f424e248] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5160330008
+                      - paragraph [ref=f424e249]: Research Engineer, Performance RL (Reinforcement Learning)
+                      - paragraph [ref=f424e250]: San Francisco, CA
+                - row [ref=f424e251]:
+                  - cell [ref=f424e252]:
+                    - link [ref=f424e253] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5119713008
+                      - paragraph [ref=f424e254]: Research Engineer, Pretraining
+                      - paragraph [ref=f424e255]: London, UK
+                - row [ref=f424e256]:
+                  - cell [ref=f424e257]:
+                    - link [ref=f424e258] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4938432008
+                      - paragraph [ref=f424e259]: Research Engineer, Pretraining Scaling
+                      - paragraph [ref=f424e260]: San Francisco, CA
+                - row [ref=f424e261]:
+                  - cell [ref=f424e262]:
+                    - link [ref=f424e263] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4938436008
+                      - paragraph [ref=f424e264]: Research Engineer, Pretraining Scaling - London
+                      - paragraph [ref=f424e265]: London, UK
+                - row [ref=f424e266]:
+                  - cell [ref=f424e267]:
+                    - link [ref=f424e268] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4613592008
+                      - paragraph [ref=f424e269]: Research Engineer, Production Model Post-Training
+                      - paragraph [ref=f424e270]: San Francisco, CA | New York City, NY | Seattle, WA
+                - row [ref=f424e271]:
+                  - cell [ref=f424e272]:
+                    - link [ref=f424e273] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5112018008
+                      - paragraph [ref=f424e274]: Research Engineer, Production Model Post-Training
+                      - paragraph [ref=f424e275]: Zürich, CH
+                - row [ref=f424e276]:
+                  - cell [ref=f424e277]:
+                    - link [ref=f424e278] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4616971008
+                      - paragraph [ref=f424e279]: Research Engineer/Research Scientist, Pre-training
+                      - paragraph [ref=f424e280]: Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY
+                - row [ref=f424e281]:
+                  - cell [ref=f424e282]:
+                    - link [ref=f424e283] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4951814008
+                      - paragraph [ref=f424e284]: Research Engineer / Research Scientist, Tokens
+                      - paragraph [ref=f424e285]: New York City, NY; New York City, NY | Seattle, WA; San Francisco, CA
+                - row [ref=f424e286]:
+                  - cell [ref=f424e287]:
+                    - link [ref=f424e288] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4952051008
+                      - paragraph [ref=f424e289]: Research Engineer, RL Engineering
+                      - paragraph [ref=f424e290]: San Francisco, CA | New York City, NY | Seattle, WA
+                - row [ref=f424e291]:
+                  - cell [ref=f424e292]:
+                    - link [ref=f424e293] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5264619008
+                      - paragraph [ref=f424e294]: Research Engineer, RL Scaling Science
+                      - paragraph [ref=f424e295]: London, UK
+                - row [ref=f424e296]:
+                  - cell [ref=f424e297]:
+                    - link [ref=f424e298] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/4631822008
+                      - paragraph [ref=f424e299]: Research Engineer / Scientist, Alignment
+                      - paragraph [ref=f424e300]: San Francisco, CA
+                - row [ref=f424e301]:
+                  - cell [ref=f424e302]:
+                    - link [ref=f424e303] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5076477008
+                      - paragraph [ref=f424e304]: Research Engineer / Scientist, Frontier Red Team (Cyber)
+                      - paragraph [ref=f424e305]: San Francisco, CA
+                - row [ref=f424e306]:
+                  - cell [ref=f424e307]:
+                    - link [ref=f424e308] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5061517008
+                      - paragraph [ref=f424e309]: Research Engineer, Universes
+                      - paragraph [ref=f424e310]: Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY
+                - row [ref=f424e311]:
+                  - cell [ref=f424e312]:
+                    - link [ref=f424e313] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5074217008
+                      - paragraph [ref=f424e314]: Research Engineer, Visual Knowledge Work
+                      - paragraph [ref=f424e315]: New York City, NY; San Francisco, CA; Seattle, WA
+                - row [ref=f424e316]:
+                  - cell [ref=f424e317]:
+                    - link [ref=f424e318] [cursor=pointer]:
+                      - /url: https://job-boards.greenhouse.io/anthropic/jobs/5304242008
+                      - paragraph [ref=f424e319]: Research Operations Lead, Biology
+                      - paragraph [ref=f424e320]: San Francisco, CA
+          - navigation "Pagination" [ref=f424e322]:
+            - button "Previous page" [disabled] [ref=f424e323]
+            - list [ref=f424e326]:
+              - listitem [ref=f424e327]:
+                - button "Go to page 1": "1"
+              - listitem [ref=f424e328]:
+                - button "Go to page 2" [ref=f424e329] [cursor=pointer]: "2"
+              - listitem [ref=f424e330]:
+                - button "Go to page 3" [ref=f424e331] [cursor=pointer]: "3"
+              - listitem [ref=f424e332]:
+                - button "Go to page 4" [ref=f424e333] [cursor=pointer]: "4"
+              - listitem [ref=f424e334]: ...
+              - listitem [ref=f424e335]:
+                - button "Go to page 11" [ref=f424e336] [cursor=pointer]: "11"
+            - button "Next page" [ref=f424e337] [cursor=pointer]
+  - contentinfo [ref=f424e340]:
+    - generic [ref=f424e341]:
+      - paragraph [ref=f424e342]: Powered by
+      - link [ref=f424e343] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f424e344]

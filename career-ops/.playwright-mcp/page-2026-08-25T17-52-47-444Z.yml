@@ -1,0 +1,167 @@
+- generic [ref=f372e2]:
+  - list [ref=f372e4]:
+    - listitem [ref=f372e5]:
+      - link [ref=f372e6] [cursor=pointer]:
+        - /url: https://www.vapi.ai/
+        - img "Vapi" [ref=f372e7]
+    - listitem [ref=f372e8]:
+      - link "Back to Vapi’s Job Listings" [ref=f372e9] [cursor=pointer]:
+        - /url: /vapi
+    - listitem
+  - generic [ref=f372e12]:
+    - heading "Member of Technical Staff, DevSecOps" [level=1] [ref=f372e14]
+    - generic [ref=f372e15]:
+      - generic [ref=f372e16]:
+        - generic [ref=f372e17]:
+          - heading "Location" [level=2] [ref=f372e18]
+          - paragraph [ref=f372e19]: San Francisco
+        - generic [ref=f372e20]:
+          - heading "Employment Type" [level=2] [ref=f372e21]
+          - paragraph [ref=f372e22]: Full time
+        - generic [ref=f372e23]:
+          - heading "Location Type" [level=2] [ref=f372e24]
+          - paragraph [ref=f372e25]: Hybrid
+        - generic [ref=f372e26]:
+          - heading "Department" [level=2] [ref=f372e27]
+          - paragraph [ref=f372e28]:
+            - generic [ref=f372e29]: Engineering ›
+            - generic [ref=f372e30]: Core Engineering
+        - generic [ref=f372e31]:
+          - heading "Compensation" [level=2] [ref=f372e32]
+          - paragraph [ref=f372e34]: $180K – $280K • Offers Equity
+      - generic [ref=f372e35]:
+        - tablist [ref=f372e36]:
+          - tab "Overview" [selected] [ref=f372e37] [cursor=pointer]
+          - tab "Application" [ref=f372e38] [cursor=pointer]
+        - tabpanel "Overview" [ref=f372e40]:
+          - generic [ref=f372e41]:
+            - paragraph [ref=f372e42]: Voice AI that resolves, not transfers.Most phone systems trap callers in menus and scripts. Vapi is the platform for deploying voice agents that know your business and can listen, adapt, and resolve in minutes.
+            - list [ref=f372e43]:
+              - listitem [ref=f372e44]:
+                - paragraph [ref=f372e45]:
+                  - strong [ref=f372e46]: "The numbers:"
+                  - text: 1 billion calls. 1 million developers. 10x enterprise ARR growth
+              - listitem [ref=f372e47]:
+                - paragraph [ref=f372e48]:
+                  - strong [ref=f372e49]: "The customers:"
+                  - text: Amazon Ring, ServiceTitan, New York Life, Intuit, Kavak, and thousands more, from YC startups to the Fortune 500
+              - listitem [ref=f372e50]:
+                - paragraph [ref=f372e51]:
+                  - strong [ref=f372e52]: "The news:"
+                  - text: "a $50M Series B led by Peak XV Partners, with Bessemer Venture Partners, Kleiner Perkins, M12 (Microsoft's Venture Fund), Y Combinator, and our earlier backers. Total raised: $72M"
+            - paragraph [ref=f372e53]
+            - heading "About the Role" [level=2] [ref=f372e54]
+            - paragraph [ref=f372e55]: Vapi is deployed for multiple large enterprises, including several Fortune 500s, across regions around the world (including the EU and Australia). We're hiring a DevSecOps Lead to build and harden the security posture of our product and underlying infrastructure as we scale upmarket — so we stay compliant, secure, and ahead of what regulated enterprise customers expect.
+            - paragraph [ref=f372e57]: This is a hands-on senior IC / lead role reporting to Tejas Siripurapu in Core Engineering. You'll partner closely with InfoSec, Engineering, and GTM, and your work will directly determine how confidently the largest companies in the world can run on Vapi.
+            - heading "What You'll Do" [level=2] [ref=f372e59]
+            - list [ref=f372e60]:
+              - listitem [ref=f372e61]:
+                - paragraph [ref=f372e62]: Make Vapi's security posture world-class for the enterprise — shift security left, catch regressions during code review and CI, and harden our multi-tenant infrastructure as we onboard the Fortune 500.
+              - listitem [ref=f372e63]:
+                - paragraph [ref=f372e64]: Build automation as a security primitive — including agentic systems that run penetration tests against staging ahead of every release, and that auto-remediate issues as they surface.
+              - listitem [ref=f372e65]:
+                - paragraph [ref=f372e66]: Own the compliance roadmap end-to-end alongside InfoSec, including Drata and the automations that keep us audit-ready as we expand into new regions and regulated industries.
+              - listitem [ref=f372e67]:
+                - paragraph [ref=f372e68]: Partner deeply with Engineering, InfoSec, and GRC — building guardrails developers actually use, not ad-hoc controls bolted on after the fact.
+              - listitem [ref=f372e69]:
+                - paragraph [ref=f372e70]: Be the authority Sales and GTM lean on — giving prospects and enterprise customers the confidence that Vapi's security posture matches the trust they're placing in us.
+            - heading "Who You Are" [level=2] [ref=f372e72]
+            - heading "Must-Haves" [level=3] [ref=f372e73]
+            - list [ref=f372e74]:
+              - listitem [ref=f372e75]:
+                - paragraph [ref=f372e76]: 5–10 years of engineering experience, with significant time in modern cloud-native SaaS — AWS, Kubernetes, Postgres, and ideally VoIP.
+              - listitem [ref=f372e77]:
+                - paragraph [ref=f372e78]: Strong understanding of security in a multi-tenant cloud environment serving regulated enterprise customers with many third-party integrations.
+              - listitem [ref=f372e79]:
+                - paragraph [ref=f372e80]: High proficiency writing and reviewing code — you can ship the fix, not just file the ticket.
+              - listitem [ref=f372e81]:
+                - paragraph [ref=f372e82]: "Invested in shift-left security: catching regressions during code and test, not after production incidents."
+              - listitem [ref=f372e83]:
+                - paragraph [ref=f372e84]: Collaborative by default — you build guardrails with security, engineering, and GRC partners rather than operating as a lone wolf.
+              - listitem [ref=f372e85]:
+                - paragraph [ref=f372e86]: Hands-on by preference; comfortable as a senior IC or lead, not looking to step into pure management.
+            - heading "Nice-to-Haves" [level=3] [ref=f372e88]
+            - list [ref=f372e89]:
+              - listitem [ref=f372e90]:
+                - paragraph [ref=f372e91]: Direct experience securing CI/CD pipelines.
+              - listitem [ref=f372e92]:
+                - paragraph [ref=f372e93]: Background as a backend software engineer.
+              - listitem [ref=f372e94]:
+                - paragraph [ref=f372e95]: Experience with compliance frameworks (SOC 2, ISO 27001, HIPAA) and tools like Drata.
+              - listitem [ref=f372e96]:
+                - paragraph [ref=f372e97]: Familiarity with VoIP / telephony security and the failure modes of real-time systems.
+            - heading "How We Work" [level=2] [ref=f372e99]
+            - list [ref=f372e100]:
+              - listitem [ref=f372e101]:
+                - paragraph [ref=f372e102]:
+                  - strong [ref=f372e103]: "Build something worthy of love:"
+                  - text: We aim to build products and experiences customers genuinely love, not just tolerate.
+              - listitem [ref=f372e104]:
+                - paragraph [ref=f372e105]:
+                  - strong [ref=f372e106]: "Commit and follow through:"
+                  - text: We finish what we start and build trust by being people others can count on.
+              - listitem [ref=f372e107]:
+                - paragraph [ref=f372e108]:
+                  - strong [ref=f372e109]: "Why not today?:"
+                  - text: We value urgency and momentum. The fastest path to customer value usually wins.
+              - listitem [ref=f372e110]:
+                - paragraph [ref=f372e111]:
+                  - strong [ref=f372e112]: "Seek raw input:"
+                  - text: We go directly to customers, data, and teammates instead of relying on summaries or assumptions.
+              - listitem [ref=f372e113]:
+                - paragraph [ref=f372e114]:
+                  - strong [ref=f372e115]: "It's our problem:"
+                  - text: We operate as one team. We share credit, own mistakes together, and support each other when things get hard.
+              - listitem [ref=f372e116]:
+                - paragraph [ref=f372e117]:
+                  - strong [ref=f372e118]: "Be direct and kind:"
+                  - text: We give feedback clearly, respectfully, and without delay.
+            - heading "Why Vapi" [level=2] [ref=f372e120]
+            - list [ref=f372e121]:
+              - listitem [ref=f372e122]:
+                - paragraph [ref=f372e123]:
+                  - strong [ref=f372e124]: "Define the future of human–AI interaction:"
+                  - text: Help pioneer a new era of voice-based AI products that are transforming how people and businesses communicate.
+              - listitem [ref=f372e125]:
+                - paragraph [ref=f372e126]:
+                  - strong [ref=f372e127]: "Own meaningful work at a breakout startup:"
+                  - text: Join early, take real ownership, and have a direct hand in building a category-defining company from the ground up.
+              - listitem [ref=f372e128]:
+                - paragraph [ref=f372e129]:
+                  - strong [ref=f372e130]: "Surround yourself with exceptional people:"
+                  - text: Work alongside a world-class team of engineers, operators, and builders backed by top-tier investors who believe in our mission.
+              - listitem [ref=f372e131]:
+                - paragraph [ref=f372e132]:
+                  - strong [ref=f372e133]: "Accelerate your career in a high-growth environment:"
+                  - text: Grow fast, take on big challenges, and unlock opportunities as we scale one of the most exciting platforms in AI.
+            - heading "What We Offer" [level=2] [ref=f372e135]
+            - list [ref=f372e136]:
+              - listitem [ref=f372e137]:
+                - paragraph [ref=f372e138]: "Competitive compensation: includes a strong base salary and meaningful equity ownership."
+              - listitem [ref=f372e139]:
+                - paragraph [ref=f372e140]: "Comprehensive health coverage: medical, dental, and vision plans."
+              - listitem [ref=f372e141]:
+                - paragraph [ref=f372e142]: "Flexible time off: take-what-you-need vacation policy with an emphasis on rest and balance."
+              - listitem [ref=f372e143]:
+                - paragraph [ref=f372e144]: "Daily meals: catered lunches and dinners provided for in-office days."
+              - listitem [ref=f372e145]:
+                - paragraph [ref=f372e146]: "Lifestyle & wellness stipends: monthly allowances to support rent, transportation, food, fitness, and mental well-being."
+              - listitem [ref=f372e147]:
+                - paragraph [ref=f372e148]: "Professional development: annual learning stipends for courses, conferences, and upskilling."
+              - listitem [ref=f372e149]:
+                - paragraph [ref=f372e150]: "Team connection: regular offsites, team events, and opportunities to build in-person relationships."
+          - link [ref=f372e151] [cursor=pointer]:
+            - /url: /vapi/d1c91b8e-d43a-4efb-afb1-2d928294e560/application
+            - button "Apply for this Job" [ref=f372e152]
+  - contentinfo [ref=f372e153]:
+    - link "Learn more about Ashby" [ref=f372e154] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f372e155]: Powered by
+      - img "Ashby" [ref=f372e156]
+    - paragraph [ref=f372e162]:
+      - link "Privacy Policy" [ref=f372e163] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f372e164] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f372e165] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

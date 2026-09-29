@@ -1,0 +1,165 @@
+- generic [ref=f99e2]:
+  - list [ref=f99e4]:
+    - listitem [ref=f99e5]:
+      - link [ref=f99e6] [cursor=pointer]:
+        - /url: https://liquid.ai
+        - img "Liquid AI" [ref=f99e7]
+    - listitem [ref=f99e8]:
+      - link "Back to Liquid AI’s Job Listings" [ref=f99e9] [cursor=pointer]:
+        - /url: /liquid-ai
+    - listitem
+  - generic [ref=f99e12]:
+    - heading "Member of Technical Staff - Applied ML, Japanese Multimodal" [level=1] [ref=f99e14]
+    - generic [ref=f99e15]:
+      - generic [ref=f99e16]:
+        - generic [ref=f99e17]:
+          - heading "Location" [level=2] [ref=f99e18]
+          - paragraph [ref=f99e19]: Tokyo
+        - generic [ref=f99e20]:
+          - heading "Employment Type" [level=2] [ref=f99e21]
+          - paragraph [ref=f99e22]: Full time
+        - generic [ref=f99e23]:
+          - heading "Location Type" [level=2] [ref=f99e24]
+          - paragraph [ref=f99e25]: Hybrid
+        - generic [ref=f99e26]:
+          - heading "Department" [level=2] [ref=f99e27]
+          - paragraph [ref=f99e28]:
+            - generic [ref=f99e29]: LAIJ
+      - generic [ref=f99e30]:
+        - tablist [ref=f99e31]:
+          - tab "Overview" [selected] [ref=f99e32] [cursor=pointer]
+          - tab "Application" [ref=f99e33] [cursor=pointer]
+        - tabpanel "Overview" [ref=f99e35]:
+          - generic [ref=f99e36]:
+            - heading [level=2] [ref=f99e37]:
+              - strong [ref=f99e38]: About Liquid AI
+            - paragraph [ref=f99e39]: Spun out of MIT CSAIL, we build general-purpose AI systems that run efficiently across deployment targets, from data center accelerators to on-device hardware, ensuring low latency, minimal memory usage, privacy, and reliability. We partner with enterprises across consumer electronics, automotive, life sciences, and financial services. We are scaling rapidly and need exceptional people to help us get there.
+            - paragraph [ref=f99e40]
+            - heading [level=2] [ref=f99e41]:
+              - strong [ref=f99e42]: The Opportunity
+            - paragraph [ref=f99e43]: As an Applied ML Engineer on the Japan team, you will own the technical path from a customer's problem to a deployed AI solution. You will work directly with technical teams at leading companies in Japan and collaborate closely with Liquid's research, model, inference, and product teams in Japan and at our US headquarters.
+            - paragraph [ref=f99e44]: "The center of gravity for this role is deployment: making models perform reliably in the environments where customers actually need them. Depending on the problem, that may also require post-training, careful evaluation, inference optimization, or changes elsewhere in the ML system. Your expertise will shine across these boundaries."
+            - paragraph [ref=f99e45]: You will join a growing Japan organization, with the autonomy to own important customer work and the backing of the teams building Liquid's core technology. This is an opportunity to shape how advanced, efficient foundation models are deployed in one of Liquid's fastest-growing markets.
+            - paragraph [ref=f99e46]
+            - heading [level=2] [ref=f99e47]:
+              - strong [ref=f99e48]: What We're Looking For
+            - paragraph [ref=f99e49]: "We need someone who:"
+            - list [ref=f99e50]:
+              - listitem [ref=f99e51]:
+                - paragraph [ref=f99e52]: "Owns outcomes end to end: You take responsibility from technical discovery through implementation, validation, optimization, and deployment."
+              - listitem [ref=f99e53]:
+                - paragraph [ref=f99e54]: "Enjoys technical customer work: You can explore a problem with a customer's engineers, challenge assumptions constructively, and turn an ambiguous need into a sound technical plan."
+              - listitem [ref=f99e55]:
+                - paragraph [ref=f99e56]: "Builds for the real environment: You treat latency, memory, compute, privacy, reliability, and maintainability as part of the ML problem."
+              - listitem [ref=f99e57]:
+                - paragraph [ref=f99e58]: "Works with rigor: You move quickly while using strong baselines, profiling, careful evaluation, and disciplined error analysis to decide what works."
+              - listitem [ref=f99e59]:
+                - paragraph [ref=f99e60]: "Collaborates across boundaries: You communicate clearly across customers, the Japan team, and globally distributed research and engineering teams."
+            - paragraph [ref=f99e61]
+            - heading [level=2] [ref=f99e62]:
+              - strong [ref=f99e63]: The Work
+            - list [ref=f99e64]:
+              - listitem [ref=f99e65]:
+                - paragraph [ref=f99e66]: Own applied ML projects for customers in Japan, from technical discovery and scoping through production deployment.
+              - listitem [ref=f99e67]:
+                - paragraph [ref=f99e68]: Integrate, profile, and optimize model inference to meet concrete requirements for latency, throughput, memory, power, cost, and reliability.
+              - listitem [ref=f99e69]:
+                - paragraph [ref=f99e70]: Build the surrounding software needed to turn a model into a robust product capability, including data pipelines, evaluation systems, serving components, and reference implementations.
+              - listitem [ref=f99e71]:
+                - paragraph [ref=f99e72]: Fine-tune or post-train models when needed using techniques such as supervised fine-tuning, parameter-efficient fine-tuning, and preference optimization.
+              - listitem [ref=f99e73]:
+                - paragraph [ref=f99e74]: Design task-specific evaluations, conduct systematic error analysis, and iterate across data, models, inference, and system design.
+              - listitem [ref=f99e75]:
+                - paragraph [ref=f99e76]: Work directly with customer engineering teams during design, integration, testing, and rollout, including occasional on-site work.
+              - listitem [ref=f99e77]:
+                - paragraph [ref=f99e78]: Turn lessons from individual deployments into reusable tooling and feedback that improves Liquid's models, inference stack, documentation, and product roadmap.
+            - paragraph [ref=f99e79]
+            - heading [level=2] [ref=f99e80]:
+              - strong [ref=f99e81]: Desired Experience
+            - paragraph [ref=f99e82]:
+              - strong [ref=f99e83]: "Must-have:"
+            - list [ref=f99e84]:
+              - listitem [ref=f99e85]:
+                - paragraph [ref=f99e86]: Strong engineering skills and experience building, testing, and shipping production-quality ML systems.
+              - listitem [ref=f99e87]:
+                - paragraph [ref=f99e88]: Hands-on experience deploying modern language models, multimodal models, or other deep learning systems beyond a notebook or API proof of concept.
+              - listitem [ref=f99e89]:
+                - paragraph [ref=f99e90]: Experience with model serving, performance profiling, or inference optimization, and the judgment to balance model quality with system constraints.
+              - listitem [ref=f99e91]:
+                - paragraph [ref=f99e92]: Proficiency with the open-source ML ecosystem.
+              - listitem [ref=f99e93]:
+                - paragraph [ref=f99e94]: Experience designing evaluations, analyzing model failures, and using the results to drive measurable improvements.
+              - listitem [ref=f99e95]:
+                - paragraph [ref=f99e96]: Comfort leading technical discussions with customers and translating ambiguous requirements into shipped systems.
+              - listitem [ref=f99e97]:
+                - paragraph [ref=f99e98]: Professional proficiency in English, including the ability to collaborate on complex technical work with global teams.
+              - listitem [ref=f99e99]:
+                - paragraph [ref=f99e100]: Experience leveraging agents to amplify your own work.
+            - paragraph [ref=f99e101]:
+              - strong [ref=f99e102]: "Nice-to-have:"
+            - list [ref=f99e103]:
+              - listitem [ref=f99e104]:
+                - paragraph [ref=f99e105]: Working proficiency in Japanese.
+              - listitem [ref=f99e106]:
+                - paragraph [ref=f99e107]: Experience with LLM post-training methods.
+              - listitem [ref=f99e108]:
+                - paragraph [ref=f99e109]: Experience with inference and deployment frameworks such as vLLM, SGLang, llama.cpp, ONNX Runtime, MLX.
+              - listitem [ref=f99e110]:
+                - paragraph [ref=f99e111]: Familiarity with quantization, hardware-aware optimization, or deployment on mobile, embedded, automotive, or other edge platforms.
+              - listitem [ref=f99e112]:
+                - paragraph [ref=f99e113]: Experience with multimodal systems involving text, vision, audio, or sensor data.
+              - listitem [ref=f99e114]:
+                - paragraph [ref=f99e115]: Experience delivering ML systems for enterprise or regulated environments.
+            - paragraph [ref=f99e116]: We care about demonstrated ability, learning speed, and engineering judgment. Degrees and publications are not required, and we encourage you to apply even if your experience does not match every item above.
+            - paragraph [ref=f99e117]
+            - heading [level=2] [ref=f99e118]:
+              - strong [ref=f99e119]: What Success Looks Like (Year One)
+            - list [ref=f99e120]:
+              - listitem [ref=f99e121]:
+                - paragraph [ref=f99e122]: You independently own important customer workstreams and earn trust through technical depth, clear communication, and reliable execution.
+              - listitem [ref=f99e123]:
+                - paragraph [ref=f99e124]: You move high-value use cases from ambiguous requirements to production-ready deployments under real performance constraints.
+              - listitem [ref=f99e125]:
+                - paragraph [ref=f99e126]: You deliver measurable improvements in model quality, latency, memory use, throughput, cost, or another outcome that matters to the customer.
+              - listitem [ref=f99e127]:
+                - paragraph [ref=f99e128]: You create reusable deployment, evaluation, or adaptation workflows that make subsequent projects faster and more reliable.
+              - listitem [ref=f99e129]:
+                - paragraph [ref=f99e130]: Your insights from the field materially influence Liquid's models, inference stack, tooling, or roadmap.
+            - paragraph [ref=f99e131]
+            - heading [level=2] [ref=f99e132]:
+              - strong [ref=f99e133]: How we work
+            - paragraph [ref=f99e134]: This is a primarily remote role for candidates already based in Japan. We typically meet in our Tokyo office once or twice a week. Working hours are fully flexible, with an expectation that you can collaborate effectively with customers in Japan and colleagues in other time zones.
+            - paragraph [ref=f99e135]: The role includes travel to the United States and to relevant conferences, as well as occasional travel within Japan to work with customers in person.
+            - paragraph [ref=f99e136]
+            - heading [level=2] [ref=f99e137]:
+              - strong [ref=f99e138]: What We Offer
+            - list [ref=f99e139]:
+              - listitem [ref=f99e140]:
+                - paragraph [ref=f99e141]: "High-impact work: Take foundation models from promising prototypes to systems that perform reliably in the real world."
+              - listitem [ref=f99e142]:
+                - paragraph [ref=f99e143]: "Distinctive technical problems: Work on deployment challenges where efficiency, privacy, latency, and reliability are first-class requirements."
+              - listitem [ref=f99e144]:
+                - paragraph [ref=f99e145]: "Direct access to core teams: Collaborate closely with the researchers and engineers building Liquid's models and inference technology."
+              - listitem [ref=f99e146]:
+                - paragraph [ref=f99e147]: "Ownership in a growing market: Help define our technical approach in Japan at a time of strong customer demand and rapid growth."
+              - listitem [ref=f99e148]:
+                - paragraph [ref=f99e149]: "Supportive & growth-driven culture: Thrive in a collaborative, feedback-rich environment that prioritizes continuous learning, mentorship, and personal career development."
+              - listitem [ref=f99e150]:
+                - paragraph [ref=f99e151]: "Flexibility: Primarily remote work, flexible working hours, and unlimited paid time off."
+              - listitem [ref=f99e152]:
+                - paragraph [ref=f99e153]: "Competitive rewards: Competitive salary, equity in a unicorn-stage company, and standard benefits for employees in Japan."
+          - link [ref=f99e154] [cursor=pointer]:
+            - /url: /liquid-ai/091f16ad-5d52-4337-89d8-c166c33577bf/application
+            - button "Apply for this Job" [ref=f99e155]
+  - contentinfo [ref=f99e156]:
+    - link "Learn more about Ashby" [ref=f99e157] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f99e158]: Powered by
+      - img "Ashby" [ref=f99e159]
+    - paragraph [ref=f99e165]:
+      - link "Privacy Policy" [ref=f99e166] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f99e167] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f99e168] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

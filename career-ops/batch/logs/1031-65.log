@@ -1,0 +1,16 @@
+Oferta location: Remote — UK/Netherlands only. No Canada option. Per policy in `modes/_profile.md` (Canada-only hard exclude, no exceptions), this fails scope gate — no evaluate/score/report/PDF/tracker allowed. Stopping pipeline, no files written.
+
+```json
+{
+  "status": "skipped",
+  "id": "65",
+  "report_num": "1031",
+  "company": "Reddit",
+  "role": "Staff Machine Learning Engineer, Ads Foundational Representations",
+  "score": null,
+  "legitimacy": null,
+  "pdf": null,
+  "report": null,
+  "error": "Hard exclude: role location is Remote-UK/Netherlands only (no Canada option) — violates Canada-only scope policy in modes/_profile.md (2026-08-20). No evaluation, report, PDF, or tracker line generated per policy."
+}
+```

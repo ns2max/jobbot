@@ -1,0 +1,99 @@
+% Job posting: https://ca.linkedin.com/jobs/view/r-d-biomedical-engineer-on-site-at-myant-4463171428
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.04}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{Biomedical \& Wearable Systems Engineer | Textile Manufacturing, IMU Sensing \& Embedded ML}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \cvTagline}\\[1pt]
+    {\footnotesize\textit{\cvStatus}}\\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
+    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+Biomedical and wearable-systems engineer bringing a rare combination directly relevant to textile-integrated biosensing: 5.5 years inside apparel/textile manufacturing at MAS Holdings (South Asia's largest apparel manufacturer), including a computer-vision device that digitized patient vitals and was deployed across hospital wards during COVID-19 (GMOA recognition, a real clinical health-monitoring deployment); hands-on wearable IMU sensor integration and power-budget engineering on a self-powered, battery-constrained instrument at McGill University's IDMIL; and a PhD plus postdoctoral research program building real-time embedded ML and multimodal biosignal (BCI/EEG) pipelines on Raspberry Pi/ARM hardware. This overlap of textile-manufacturing floor experience, wearable sensor hardware, and clinical CV deployment maps directly onto R\&D for textile-integrated health-monitoring products.
+
+\section*{Core Competencies}
+\textbf{Wearable \& Textile-Integrated Sensing:} IMU sensor integration (BNO055, I2C, 100\,Hz sampling), multimodal sensor fusion (IMU + audio + BCI/EEG), embedded/wearable hardware (Raspberry Pi, ARM), battery/power-budget engineering for self-powered devices, 5.5 years of textile/apparel manufacturing domain expertise (MAS Holdings), OpenCV-based computer vision for quality control and health monitoring. \\
+\textbf{Biomedical / Health Monitoring:} Computer-vision patient-vitals digitization device deployed across hospital wards (COVID-19, GMOA recognition), real-time BCI/EEG (g.tec) biosignal acquisition and synchronization, real-time embedded inference under hard latency/compute constraints, benchmark and dataset design for signal-processing systems.
+
+\section*{Technical Stack}
+C++17, Python (TensorFlow/Keras, PyTorch, scikit-learn), embedded/edge ML (Raspberry Pi, ARM), DSP (STFT, MFCC), OpenCV, IMU/I2C sensor integration, real-time/low-latency systems, AWS, SQL, Pandas/NumPy, Docker, CI/CD, Git, LaTeX.
+
+\textbf{PhD, Information Engineering and Computer Science} -- University of Trento, Italy \hfill 2021 - 2025 \\
+\textbf{MSc, Telecommunication and Electronic Engineering} -- Sheffield Hallam University, UK \hfill 2016 - 2018 \\
+\textbf{BEng (Hons), Electronic Engineering} -- Sheffield Hallam University, UK \hfill 2013 - 2014
+
+\section*{Research and Work Experience}
+\begin{cvrole}{Independent Researcher}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+  \item Maintains Nebula, a C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks.
+  \item Two papers accepted for publication (Smart Drums, JAES; MIRaaS, IEEE IS2), continuing embedded real-time signal-processing research.
+  \item Uses AI-assisted development workflows, including Claude Code, for embedded and data-pipeline projects.
+\end{cvrole}
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+  \item Owned the full ML pipeline for streaming audio and IMU/gesture sensor data on the EU Horizon EIC Pathfinder project MUSMET: acquisition, DSP/feature engineering, training/evaluation, edge deployment on Raspberry Pi 4, and monitoring.
+  \item Shipped a real-time pattern detector at 14\,ms inference on Raspberry Pi 4, F1 0.76, 31.4\% CPU utilization -- 74x faster than the 1038\,ms DTW baseline it replaced (JAES 2026).
+  \item Built a real-time multimodal synchronization pipeline fusing audio, BCI/EEG biosignals (g.tec hardware), and mixed-reality head/hand tracking across four performers simultaneously, in collaboration with SAE Institute Barcelona.
+\end{cvrole}
+\begin{cvrole}{Visiting Researcher}{McGill University, IDMIL/CIRMMT}{Montreal, Canada}{May 2024}{Aug 2024}
+  \item Designed and built a self-powered smart electric guitar integrating a BNO055 IMU (I2C, 100\,Hz, wearable-class inertial sensor) with a HiFiBerry audio codec and a Raspberry Pi 4.
+  \item Fused IMU and audio streams via a hierarchical finite-state machine for gesture detection, reaching F1 0.78 on a 500-event corpus (IEEE IS2 2025).
+  \item Profiled compute and power draw on the self-powered, battery-constrained embedded platform to validate real-time feasibility -- directly transferable to power-budget engineering for a wearable biosensor.
+\end{cvrole}
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+  \item Conducted a human-centred evaluation study of musicians' perception of embedded pattern-detection systems (IEEE I3DA 2025).
+\end{cvrole}
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+  \item Built ML and statistical pipelines for financial forensics, compliance monitoring, and anomaly detection on large structured enterprise data, with a SQL and Python backend.
+\end{cvrole}
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+  \item 5.5 years of end-to-end computer-vision and IoT systems engineering inside South Asia's largest apparel manufacturer, embedding camera/sensor/IoT streams into live textile-production workflows.
+  \item Built a computer-vision device that digitized patient vitals, deployed across hospital wards during the COVID-19 pandemic; recognized by the Government Medical Officers' Association (GMOA), Sri Lanka -- a real clinical health-monitoring deployment.
+  \item Developed automated multilingual care-label quality control (OpenCV template and feature matching with conveyor and PLC-driven reject), cutting inspection time by 99.5\%.
+  \item Built loom-side fabric structural-defect detection using a microscopic camera array for textile material inspection, cutting operator headcount by 50\%; overall operational efficiency across these CV/IoT systems improved by up to 300\%.
+  \item Contributed the geometry-alignment algorithm and RIP integration for an on-demand direct-to-garment printing system, and consulted on its mechanical flipping mechanism.
+  \item Ran real-time IoT data pipelines with C++/Python inference on embedded production hardware; introduced CI/CD and code review practices; mentored engineers.
+\end{cvrole}
+
+\section*{Publications}
+Silva, N. \& Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. \textit{Journal of the Audio Engineering Society}, 74(3). Silva, N., Wanderley, M. \& Turchet, L. (2025). Melody and Motion. \textit{IEEE International Symposium on the Internet of Sounds (IS2)}. Silva, N. \& Turchet, L. (2026, in press). Smart Drums. \textit{Journal of the Audio Engineering Society}.
+
+\enlargethispage{4\baselineskip}
+\section*{Highlights}
+Computer-vision patient-vitals monitoring device deployed across hospital wards during COVID-19, recognized by the Government Medical Officers' Association (GMOA), Sri Lanka -- direct evidence of shipping a health-monitoring device into real clinical use. MIDI Innovation Awards 2023 Finalist ("Hot Licks," Prototypes \& Non-Commercial Software). 5.5 years of manufacturing-floor experience inside South Asia's largest apparel manufacturer, combined with hands-on wearable IMU sensor integration and battery-constrained embedded hardware engineering at McGill University.
+
+\end{document}

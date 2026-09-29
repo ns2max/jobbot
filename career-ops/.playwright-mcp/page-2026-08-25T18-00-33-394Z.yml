@@ -1,0 +1,125 @@
+- generic [ref=f489e2]:
+  - list [ref=f489e4]:
+    - listitem [ref=f489e5]:
+      - link [ref=f489e6] [cursor=pointer]:
+        - /url: https://decagon.ai/
+        - img "Decagon" [ref=f489e7]
+    - listitem [ref=f489e8]:
+      - link "Back to Decagon’s Job Listings" [ref=f489e9] [cursor=pointer]:
+        - /url: /decagon
+    - listitem
+  - generic [ref=f489e12]:
+    - heading "Senior Research Engineer, Voice + Speech" [level=1] [ref=f489e14]
+    - generic [ref=f489e15]:
+      - generic [ref=f489e16]:
+        - generic [ref=f489e17]:
+          - heading "Location" [level=2] [ref=f489e18]
+          - paragraph [ref=f489e19]: New York City; San Francisco
+        - generic [ref=f489e20]:
+          - heading "Employment Type" [level=2] [ref=f489e21]
+          - paragraph [ref=f489e22]: Full time
+        - generic [ref=f489e23]:
+          - heading "Location Type" [level=2] [ref=f489e24]
+          - paragraph [ref=f489e25]: On-site
+        - generic [ref=f489e26]:
+          - heading "Department" [level=2] [ref=f489e27]
+          - paragraph [ref=f489e28]: Engineering
+        - generic [ref=f489e29]:
+          - heading "Compensation" [level=2] [ref=f489e30]
+          - paragraph [ref=f489e32]: $200K – $400K • Offers Equity
+      - generic [ref=f489e33]:
+        - tablist [ref=f489e34]:
+          - tab "Overview" [selected] [ref=f489e35] [cursor=pointer]
+          - tab "Application" [ref=f489e36] [cursor=pointer]
+        - tabpanel "Overview" [ref=f489e38]:
+          - generic [ref=f489e39]:
+            - paragraph [ref=f489e40]:
+              - strong [ref=f489e41]: About Decagon
+            - paragraph [ref=f489e42]: Decagon is the leading conversational AI platform empowering every brand to deliver concierge customer experiences.
+            - paragraph [ref=f489e43]: Our technology enables industry-defining enterprises like Avis Budget Group, Block’s Cash App and Square, Chime, Oura Health, and Hunter Douglas to deploy AI agents that power personalized, deeply satisfying interactions across voice, chat, email, SMS, and every other channel.
+            - paragraph [ref=f489e44]: We’re building a future where customer experiences are being redefined from support tickets and hold music to faster resolutions, richer conversations, and deeper relationships. We’re proud to be backed by world-class investors who share that vision, including a16z, Accel, Bain Capital Ventures, Coatue, and Index Ventures, along with many others.
+            - paragraph [ref=f489e45]: We’re an in-office company, driven by a shared commitment to excellence and velocity. Our values — Just Get It Done, Invent What Customers Want, Winner’s Mindset, and The Polymath Principle — shape how we work and grow as a team.
+            - paragraph [ref=f489e46]
+            - paragraph [ref=f489e47]:
+              - strong [ref=f489e48]: About the Team
+            - paragraph [ref=f489e49]:
+              - text: "Read more about the research team's work here:"
+              - link "https://decagon.ai/blog/introducing-decagon-labs" [ref=f489e50] [cursor=pointer]:
+                - /url: https://decagon.ai/blog/introducing-decagon-labs
+            - paragraph [ref=f489e51]: The Research team develops the model and decision-making stack that powers Decagon’s conversational agents for enterprise support. We research, adapt, and implement state-of-the-art techniques in model training, prompting, orchestration, and evaluation in order to make our agents more accurate, robust, and efficient in real-world deployments.
+            - paragraph [ref=f489e52]: "Our goal is to push the frontier of applied conversational AI: agents that reliably understand nuanced intent, track long context, and take the right actions under uncertainty. We measure success the way customers feel it: higher resolution rates, better user satisfaction, and consistent behavior at scale."
+            - paragraph [ref=f489e53]
+            - paragraph [ref=f489e54]:
+              - strong [ref=f489e55]: About the Role
+            - paragraph [ref=f489e56]: As a Voice Research Engineer, you’ll lead the development of the models and algorithms that power Decagon’s industry-leading, real-time voice agents, and drive them all the way into production. You’ll own multi-quarter initiatives that advance speech understanding, naturalness, turn-taking, and resilience in real-world conditions. You’ll design and implement frontier approaches for training, evaluation, and orchestration across the voice agent.
+            - paragraph [ref=f489e57]: We’re looking for strong engineers who want to build the core models and algorithms behind our AI agents. People here own their work end-to-end, ship real improvements, and are trusted to make high-impact technical decisions.
+            - paragraph [ref=f489e58]
+            - paragraph [ref=f489e59]:
+              - strong [ref=f489e60]: In this role, you will
+            - list [ref=f489e61]:
+              - listitem [ref=f489e62]:
+                - paragraph [ref=f489e63]: Lead research and engineering efforts to improve core conversational capabilities in production, including instruction following, retrieval, memory, and long-horizon task completion
+              - listitem [ref=f489e64]:
+                - paragraph [ref=f489e65]: Build and iterate on end-to-end models and pipelines that optimize for quality, efficiency, and user experience
+              - listitem [ref=f489e66]:
+                - paragraph [ref=f489e67]: Partner with platform and product engineers to integrate new models into production systems
+              - listitem [ref=f489e68]:
+                - paragraph [ref=f489e69]: Break down ambiguous research ideas into clear, iterative milestones and roadmaps.
+              - listitem [ref=f489e70]:
+                - paragraph [ref=f489e71]: Mentor other researchers/engineers, set technical direction, and establish best practices for applied research and engineering
+            - paragraph [ref=f489e72]
+            - paragraph [ref=f489e73]:
+              - strong [ref=f489e74]: Your background looks something like this
+            - list [ref=f489e75]:
+              - listitem [ref=f489e76]:
+                - paragraph [ref=f489e77]: 6+ years of experience in AI/ML engineering or research.
+              - listitem [ref=f489e78]:
+                - paragraph [ref=f489e79]: Prior experience post-training and deploying LLMs in production environments.
+              - listitem [ref=f489e80]:
+                - paragraph [ref=f489e81]: Fluency in Python and modern ML tooling (training, evaluation, data pipelines)
+              - listitem [ref=f489e82]:
+                - paragraph [ref=f489e83]: Track record of taking research ideas from prototype → reliable, measurable production impact
+              - listitem [ref=f489e84]:
+                - paragraph [ref=f489e85]: Ability to define a roadmap, break ambiguity into milestones, and lead cross-functional execution
+            - paragraph [ref=f489e86]
+            - paragraph [ref=f489e87]:
+              - strong [ref=f489e88]: Compensation
+            - paragraph [ref=f489e89]: $200K – $400K + Offers Equity
+            - paragraph [ref=f489e90]
+            - paragraph [ref=f489e91]:
+              - strong [ref=f489e92]: Benefits
+            - paragraph [ref=f489e93]: "We proudly offer the following benefits for our full-time employees:"
+            - list [ref=f489e94]:
+              - listitem [ref=f489e95]:
+                - paragraph [ref=f489e96]: Medical, Dental, and Vision benefits for you and your family
+              - listitem [ref=f489e97]:
+                - paragraph [ref=f489e98]: Life Insurance and Disability Benefits
+              - listitem [ref=f489e99]:
+                - paragraph [ref=f489e100]: Retirement Plan (e.g., 401K, pension)
+              - listitem [ref=f489e101]:
+                - paragraph [ref=f489e102]: Parental Leave
+              - listitem [ref=f489e103]:
+                - paragraph [ref=f489e104]: Fertility and family building benefits through Carrot
+              - listitem [ref=f489e105]:
+                - paragraph [ref=f489e106]: Monthly stipend to support your wellness, lifestyle, and work-life balance
+              - listitem [ref=f489e107]:
+                - paragraph [ref=f489e108]: Daily lunches and snacks in the office to keep you at your best
+              - listitem [ref=f489e109]:
+                - paragraph [ref=f489e110]: Take what you need vacation policy (subject to local requirements; UK employees receive 25 days of statutory leave)
+            - paragraph [ref=f489e111]:
+              - emphasis [ref=f489e112]: These benefits are described in more detail in Decagon’s policies, may vary by location, and can change at any time according to applicable compensation and benefits plans.
+          - link [ref=f489e113] [cursor=pointer]:
+            - /url: /decagon/4a69b01d-6388-462a-8336-7cb288a87a0e/application
+            - button "Apply for this Job" [ref=f489e114]
+  - contentinfo [ref=f489e115]:
+    - link "Learn more about Ashby" [ref=f489e116] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f489e117]: Powered by
+      - img "Ashby" [ref=f489e118]
+    - paragraph [ref=f489e124]:
+      - link "Privacy Policy" [ref=f489e125] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f489e126] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f489e127] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

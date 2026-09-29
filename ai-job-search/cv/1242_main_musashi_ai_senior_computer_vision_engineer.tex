@@ -1,0 +1,102 @@
+% Job posting: https://ca.linkedin.com/jobs/view/senior-computer-vision-engineer-at-musashi-ai-north-america-4462025492
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.04}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{Machine Learning Engineer | Industrial Inspection, IoT \& Edge Deployment}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \cvTagline}\\[1pt]
+    {\footnotesize\textit{\cvStatus}}\\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
+    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+Computer vision engineer with 5.5 years building and deploying production machine-vision and IoT systems on live manufacturing floors at MAS Holdings, South Asia's largest apparel manufacturer -- automated multilingual care-label QC with OpenCV template and feature matching driving a PLC-controlled conveyor reject, cutting inspection time 99.5\%, and a microscopic camera-array system for loom-side fabric structural-defect detection that cut operator headcount 50\%. PhD in Information Engineering and Computer Science (University of Trento) added research rigor in benchmarking, ablation design and real-time embedded inference, including a published detector running at 14 ms on a Raspberry Pi 4 (F1 0.76, 74x faster than a DTW baseline). Combines expert C++17 and Python systems engineering with hands-on experience across the full pipeline: camera and sensor acquisition, feature engineering, model training and evaluation, and edge deployment under hard latency and compute budgets. Canadian Permanent Resident, no sponsorship required, open to relocating to Waterloo, ON.
+
+\section*{Core Competencies}
+\textbf{Computer Vision \& Perception:} OpenCV (template and feature matching, image registration and warping, corner/edge detection), explainable defect overlays for human-in-the-loop QC, industrial and microscopic camera-array systems, projector-camera AR alignment, multilingual label and print inspection. \\[2pt]
+\textbf{Embedded \& Real-Time Systems:} Raspberry Pi and ARM CPU profiling, C++17 real-time inference engines, hard latency-budget deployment (14 ms on-device), PLC integration for automated reject/sort actuation, high-frequency IoT sensor ingestion and ETL.
+
+\section*{Technical Stack}
+C++17, Python, OpenCV, TensorFlow, Keras, PyTorch, scikit-learn, Raspberry Pi / ARM, AWS, SQL, Docker, CI/CD, Git, pytest.
+
+\section*{Education}
+\noindent\textbf{PhD, Information Engineering and Computer Science} -- University of Trento, Italy \hfill 2021 - 2025 \\
+\noindent\textbf{MSc, Telecommunication and Electronic Engineering} -- Sheffield Hallam University, UK \hfill 2016 - 2018 \\
+\noindent\textbf{BEng (Hons), Electronic Engineering} -- Sheffield Hallam University, UK \hfill 2013 - 2014
+
+\section*{Research and Work Experience}
+
+\begin{cvrole}{Independent Researcher}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+\item Two peer-reviewed papers accepted (Smart Drums, JAES; MIRaaS, IEEE IS2 2026) covering real-time audio pattern detection and edge inference.
+\item Maintain Nebula, an open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks.
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+\item Owned the full ML pipeline for streaming audio and IMU/gesture data: acquisition, DSP/feature engineering, training and evaluation, edge deployment on Raspberry Pi 4, and monitoring.
+\item Published a real-time detector achieving 14 ms inference on Raspberry Pi 4, F1 0.76, 31.4\% CPU utilization -- 74x faster than a DTW baseline (JAES 2026).
+\item Designed frozen-protocol benchmark suites and ablation studies quantifying accuracy/latency/CPU trade-offs for embedded deployment.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University, IDMIL/CIRMMT}{Montreal, Canada}{May 2024}{Aug 2024}
+\item Built a self-powered smart electric guitar (BNO055 IMU + HiFiBerry + Raspberry Pi 4); fused IMU and audio signals via a hierarchical finite-state machine, achieving F1 0.78 on a 500-event corpus (IEEE IS2 2025).
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+\item Conducted a human-centred evaluation of musicians' perception of smart-instrument pattern detection (IEEE I3DA 2025).
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+\item Built ML and statistical pipelines for financial forensics, compliance monitoring, and anomaly detection on large structured enterprise data.
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+\item Designed and deployed end-to-end computer-vision and IoT systems for manufacturing at scale, taking camera and sensor streams directly into production workflows; drove operational efficiency gains of up to 300\%.
+\item Built an automated multilingual care-label QC system using OpenCV template and feature matching with an explainable defect overlay; iterated from handheld scanner to industrial camera to a conveyor with PLC-controlled reject, cutting inspection time 99.5\%, with a human-in-the-loop path for borderline cases.
+\item Developed a loom-side fabric structural-defect detection system using a microscopic camera array, cutting operator headcount 50\%.
+\item Built real-time ingestion and ETL for high-frequency IoT and operational time-series data across manufacturing sites in South Asia, North America, and Africa, with C++/Python inference engines running on embedded hardware.
+\item Introduced CI/CD and code review practices; mentored engineers and delivered group-wide computer-vision training.
+\item Designed and deployed a remote patient-vitals computer-vision monitoring device for COVID-19 hospital wards, recognized by Sri Lanka's Government Medical Officers' Association.
+\end{cvrole}
+
+\section*{Publications}
+Silva, N. \& Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. \textit{Journal of the Audio Engineering Society}, 74(3). Silva, N. \& Turchet, L. (2026, in press). Smart Drums. \textit{Journal of the Audio Engineering Society}. Silva, N. \& Turchet, L. (2022). An SSIM-based training-free method for onset detection, achieving 95\% detection without training data. \textit{Proceedings of the International Conference on Digital Audio Effects (DAFx)}.
+
+\section*{Highlights}
+MIDI Innovation Awards 2023 Finalist ("Hot Licks", Prototypes \& Non-Commercial Software). GMOA recognition (Government Medical Officers' Association, Sri Lanka, 2020) for a COVID-19 remote patient-vitals computer-vision monitoring deployment. Uses AI-assisted engineering workflows including Claude Code for tooling and pipeline development.
+
+\end{document}

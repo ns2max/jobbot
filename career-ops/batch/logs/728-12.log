@@ -1,0 +1,18 @@
+Done. Report + tracker line written, no PDF (correctly skipped).
+
+```json
+{
+  "status": "completed",
+  "id": "12",
+  "report_num": "728",
+  "company": "Anthropic",
+  "role": "Staff Software Engineer, Inference",
+  "score": null,
+  "legitimacy": "Not assessed",
+  "pdf": null,
+  "report": "reports/728-anthropic-2026-08-24.md",
+  "error": "Excluded pre-evaluation: Dublin, Ireland-only role, no Canada option — hard exclude per Canada-only location policy in modes/_profile.md"
+}
+```
+
+Role Dublin-only, no Canada option → hard-excluded per candidate's location policy. Skipped full A-G/PDF, same treatment as report 724 (Anthropic Data Scientist role, also excluded today for same reason).

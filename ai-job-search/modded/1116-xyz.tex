@@ -1,0 +1,140 @@
+% Job posting: https://ca.linkedin.com/jobs/view/ai-platform-machine-learning-engineer-at-xyz-reality-4456262756
+% =====================================================================
+%  CV - Nishal Stanislaus Silva, PhD
+%  Target: XYZ Reality - AI Platform & Machine Learning Engineer, Calgary AB
+%  Variant: V1 (AI-Industry, default)
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.05}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied ML}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \cvTagline}\\[1pt]
+    {\footnotesize\textit{\cvStatus}}\\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
+    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+
+Machine learning engineer (PhD, University of Trento) and 10+ years across industry and academia, with extensive experience in taking models from research and experimentation into scalable, production-ready systems. I have owned the full ML lifecycle end to end, from data acquisition and label-ontology design through training, evaluation and cloud-to-edge deployment with monitoring. During my doctoral/postdoctoral research, I built frozen-protocol benchmarking and model-validation pipelines along with a real-time detector at 14ms inference and 0.8 F1, optimized for embedded computing devices. At MAS Holdings, I built real-time dataset ingestion pipelines and ETL for high-frequency IoT streams, along with vision-based quality assurance systems that improved throughput by up to 300\%. Backed by 10+ peer-reviewed papers and four open-access benchmark datasets.
+
+
+% My doctoral/postdoctoral work built automated frozen-protocol benchmarking and model-validation pipelines around a real-time detector running inference in 14 ms on a Raspberry Pi 4 at 31.4\% CPU, F1 0.76, 74$\times$ faster than the DTW baseline it replaced (JAES 2026). At MAS I built real-time dataset ingestion and ETL for high-frequency IoT streams across three continents and introduced CI/CD and code review. Backed by 10+ peer-reviewed papers and four open-access benchmark datasets.
+
+\section*{Core Competencies}
+
+\textbf{ML Engineering:} end-to-end ML lifecycle ownership, benchmarking and model-validation pipelines, large-scale dataset ingestion / management / validation, annotation and label-ontology design, data augmentation, CI/CD, cloud-to-edge and embedded deployment, REST inference APIs, Docker, AWS\\
+\textbf{Domain Expertise:} real-time and low-latency inference; latency, memory, CPU and power profiling; time-series and sequence modelling (RNN, LSTM, GRU); computer vision;, multimodal sensor fusion (IMU, audio, BCI/EEG, XR head/hand tracking); anomaly detection; real-time ingestion pipelines\\
+\textbf{Research \& Leadership:} frozen-protocol benchmark and dataset design, ablation studies, evaluation-metric design for operational outcomes, group-wide training delivery, mentoring engineers, cross-functional work with hardware, embedded and cloud teams
+
+\section*{Technical Stack}
+
+\textbf{Languages:} Python, C++, C, MATLAB, JavaScript/TypeScript, SQL, Shell\\
+\textbf{ML \& AI:} TensorFlow, Keras, PyTorch, scikit-learn, NumPy, Pandas, SciPy; RNN/CNN, VAE, diffusion; model compression, quantization, ONNX, TFLite; ARM latency profiling\\
+\textbf{Data \& Cloud:} AWS (EC2, S3, ECS, MWAA, RDS), ETL, REST APIs, Airflow, Snowflake, SQL\\
+\textbf{Dev \& MLOps:} Docker, Kubernetes, Jenkins, Git, Linux/UNIX, pytest, CI/CD
+
+\section*{Education}
+\textbf{Ph.D - Information Engineering and Computer Science} \textit{\small{ - University of Trento, Italy}} \hfill \textit{Jan 2025}\\[3pt]
+\noindent\textbf{M.Sc - Telecommunication and Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[3pt]
+\noindent\textbf{B.Eng (Hons) - Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+\section*{Portfolio and Demos \footnotesize {\normalfont{(full portfolio: \href{https://nishal.xyz/research}{\textit{nishal.xyz/research}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Project Mystique}: an augmented reality table to prototype designs on finished garments in real-time \href{https://nishal.xyz/research#:~:text=Smart%20Prototyping%20for%20Garment%20Prints}{{\textbf{{(LINK)}}}}
+    \item \textbf{Hot Licks}: Multisensory concert exploring auditory, visual, tactile, olfactory, virtual-reality, and mixed-reality stimuli, enabled by smart musical instruments \href{https://youtu.be/axEHkdnxFB8}{\textit{(https://youtu.be/axEHkdnxFB8)}}
+    \item \textbf{Nebula}: C++17 audio feature-extraction library with latency benchmarks  \href{https://github.com/ns2max/nebula}{\textit{(github.com/ns2max/nebula)}}.
+    \item \textbf{LiveLaTeX}: published VS Code Marketplace extension, real-time compile/preview via Tectonic.
+\end{itemize}
+
+\section*{Professional Experience}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Owned full ML pipelines for streaming multimodal data: acquisition, DSP/feature engineering, data labelling, label-ontology design, training and evaluation, edge deployment and monitoring; EU-funded project MUSMET.
+    \item Built automated frozen-protocol benchmark and model-validation suites to quantify accuracy, latency and CPU trade-offs; delivered real-time, edge device inference at 14 ms and F1 0.76, 74$\times$ faster than DSP baselines.
+    \item Built a real-time multimodal ingestion and synchronization pipeline for audio, BCI/EEG, and mixed-reality headset head/hand tracking data, in collaboration with SAE Institute Barcelona and g.tech GmbH.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University (IDMIL / CIRMMT)}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Fused inertial (IMU) and audio streams through for multidimentional pattern recognition; profiled compute and power for real-time feasibility on self-powered embedded hardware.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo 02, Sri Lanka}{Jan 2024}{Mar 2024}
+    \item Ran human-centred evaluations of interactive machine learning systems, pairing quantitative metrics with structured operator feedback to produce usability and adoption recommendations.
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item Built ML and statistical pipelines for financial forensics and compliance monitoring on large structured enterprise data; SQL + Python backend scoring services for anomaly flagging.
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Built and deployed end-to-end computer-vision and IoT systems for apparel manufacturing at scale, integrating camera, sensor and IoT streams into production workflows; operational efficiency improved by up to 300\%.
+    % and care-label inspection time cut 99.5\% (OpenCV template and feature matching, conveyor with PLC reject).
+    \item Built real-time dataset ingestion and ETL for high-frequency IoT and operational time-series across sites in South Asia, North America and Africa; ran C++/Python inference engines on embedded hardware; mentored engineers and delivered group-wide trainings for non-technical stakeholders.
+    \item Delivered the Promptly on-demand garment-printing system: designed the camera-to-warp geometry-alignment algorithm; now a Twinery/MAS commercial product across four countries.
+\end{cvrole}
+
+
+
+
+% \needspace{4\baselineskip}
+
+\vspace{-5pt}
+% \enlargethispage{5\baselineskip}
+\section*{Selected Publications \footnotesize {\normalfont{(full list: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Vol.~74, No.~3, Mar. 2026. 
+    \item Silva, N. and Turchet, L. \textit{Music Information Retrieval as a Service: Latency Characterization of an Edge-to-Server Architecture...}. IEEE International Symposium on the Internet of Sounds, 2026 (accepted).
+    \item Silva, N., Boem, A. and Turchet, L. \textit{Interactive IoMusT-Based Concerts: Real-Time Pattern Recognition and Audience Experience}. IEEE International Conference on Immersive and 3D Audio, Sep. 2025.
+\end{itemize}
+
+% \enlargethispage{6\baselineskip}
+\vspace{-0.5em}
+\section*{Highlights \& Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{GMOA Recognition (Sri Lanka):} computer-vision device digitizing patient vitals from retrofitted webcams, deployed across hospital wards for COVID-19 remote monitoring.
+    \item \textbf{MIDI Innovation Awards:} Finalist (Sep 2023), Prototypes \& Non-Commercial Software, for real-time pattern detection on embedded hardware.
+    \item Published 10+ peer-reviewed papers (JAES, IEEE, ACM); Released 4 open-access benchmark datasets for sequence pattern detection; reviewer for IEEE Access and programme committee for IEEE IS\textsuperscript{2}.
+    
+    % \item \textbf{Open datasets:} four open-access benchmark datasets on Zenodo, 9,800+ recordings from 70+ participants, each with a frozen evaluation protocol.
+    % \item \textbf{Recognition:} 10+ peer-reviewed papers (JAES, IEEE, ACM); MIDI Innovation Awards 2023 finalist; reviewer for IEEE Access and programme committee for IEEE IS\textsuperscript{2}.
+\end{itemize}
+
+\end{document}

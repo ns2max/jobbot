@@ -1,0 +1,68 @@
+% Job posting: https://ca.linkedin.com/jobs/view/applied-scientist-alexa-smart-home-at-amazon-science-4456974123
+% =====================================================================
+%  Cover Letter - Nishal Stanislaus Silva, PhD
+%  Target: Amazon Science - Senior Applied Scientist, Alexa Smart Home Science, Vancouver BC
+%  Variant: V2 (AI-Research). Standard 4-paragraph template.
+% =====================================================================
+
+\documentclass[11pt]{article}
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setlength{\parindent}{0pt}
+\setstretch{1.03}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\clTagline}{Research Scientist | Real-Time Multimodal ML, Benchmarks \& Open Datasets}
+\newcommand{\clRole}{Senior Applied Scientist, Alexa Smart Home Science}
+\newcommand{\clCompany}{Amazon Science}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}\\[1pt]
+    {\small \clTagline}\\[1pt]
+    {\footnotesize\textit{\clStatus}}\\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail} \,\,|\,\, \clPhone \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz} \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Senior Applied Scientist role with Alexa Smart Home Science. My work has consistently been about turning ambiguous, open-ended problems into production systems and then proving they work. In my postdoc I designed the frozen-protocol benchmarks and ablations behind a published real-time audio detector that reaches F1 0.76 in 14 ms on a Raspberry Pi 4, 74 times faster than the DTW baseline it replaced (JAES 2026); the result came out of the evaluation methodology as much as the model, including an honest record of what did not work. Before the PhD I spent five and a half years at MAS Holdings shipping computer-vision and IoT systems into live manufacturing at scale.
+
+Your posting asks for someone to frame and solve ill-defined research problems with limited guidance, adapt techniques to production constraints of latency, cost and reliability, run rigorous experimentation to quantify impact, mentor scientists and publish. In my postdoc I owned both the science and the pipeline for a novel real-time audio-and-sensor system end to end; at MAS I framed and shipped inspection and IoT problems from a vague brief to a deployed line. Production-constraint tradeoffs are my core: 14 ms inference at 31.4\% CPU on edge hardware, and an edge-to-server offload architecture built and latency-characterized for near-real-time analysis. I have published 10+ peer-reviewed papers, review for journals and program committees, supervised two BSc thesis students, and ran group-wide technical training at MAS. The smart-home problem of real-world heterogeneity across homes, devices and occupants is close to work I have already done: synchronizing audio, IMU, BCI/EEG and mixed-reality telemetry across four musicians live, and integrating heterogeneous camera and sensor streams across factories.
+
+I want to be straight about the domain: large language models and agentic orchestration are an area I would be growing into rather than one I have shipped. What I bring is strong ML fundamentals, a habit of learning applied fields cold, from apparel manufacturing to financial forensics, and AI-assisted workflows using Claude Code in my own tooling. This team is where I would want to do that: applied scientists making the home genuinely intelligent, with research-grounded decisions, hands-on work and long-horizon bets, where scientists own their areas end-to-end and publish. My multimodal-sensor and IoT background is the substantive connection, and the evaluation and end-to-end ownership are what I would contribute from day one.
+
+I am a Canadian permanent resident, eligible to work without sponsorship, and available immediately since my postdoctoral contract ended in December 2025. I am based in Toronto and happy to relocate to Vancouver for this role. My publications, datasets and portfolio are at \href{\clSite}{nishal.xyz}.
+
+\vspace{10pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

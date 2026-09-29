@@ -1,0 +1,115 @@
+# career-ops Profile — Nishal Stanislaus Silva, PhD
+
+candidate:
+  full_name: "Nishal Stanislaus Silva"
+  email: "nishal.silva@hotmail.com"
+  phone: "+1 613 200 2030"
+  location: "Toronto, ON, Canada"
+  linkedin: "linkedin.com/in/nishal-silva"
+  portfolio_url: "https://nishal.xyz"
+  github: "github.com/ns2max"
+  orcid: "orcid.org/0000-0003-0406-7459"
+  researchgate: "researchgate.net/profile/Nishal-Silva-3"
+
+
+target_roles:
+  primary:
+    - "Senior ML Engineer"
+    - "ML Research Engineer"
+    - "Staff ML Engineer"
+    - "Applied Scientist"
+    - "Research Engineer"
+    - "Research Scientist"
+  archetypes:
+    - name: "Senior / Staff ML Engineer"
+      level: "Senior/Staff"
+      fit: "primary"
+    - name: "ML Research Engineer"
+      level: "Senior"
+      fit: "primary"
+    - name: "Applied Scientist"
+      level: "Senior"
+      fit: "primary"
+    - name: "Research Scientist"
+      level: "Senior"
+      fit: "primary"
+    - name: "AI/ML Technical Lead"
+      level: "Senior/Staff"
+      fit: "secondary"
+    - name: "Solutions Architect (AI/ML)"
+      level: "Senior"
+      fit: "adjacent"
+    - name: "Assistant/Adjunct Professor (AI/ML/Signal Processing)"
+      level: "Faculty"
+      fit: "adjacent"
+    - name: "AI/ML Consultant (Independent or Firm)"
+      level: "Senior"
+      fit: "adjacent"
+
+
+narrative:
+  headline: >
+    PhD ML Research Engineer with 10+ years building real-time AI systems across audio,
+    computer vision, and industrial automation.
+  exit_story: >
+    Started in industry building production ML and CV systems at scale (MAS Holdings,
+    up to 300% throughput improvement across manufacturing lines; RIP integration and
+    alignment algorithm for Promptly, now a Twinery on-demand printing product deployed
+    in 4 countries), then pursued a PhD for depth on the research side — real-time
+    signal processing, embedded ML, and Music Information Retrieval. Postdoc on the
+    EU-funded MUSMET project at the University of Trento: 14ms inference on Raspberry Pi 4
+    at F1 0.76, 74x faster than the DTW baseline (JAES 2026), plus a real-time multimodal
+    pipeline syncing audio + BCI/EEG + XR head/hand tracking across 4 musicians live.
+    Now returning to industry to build applied ML at the intersection of research and
+    production engineering.
+  superpowers:
+    - "End-to-end ML pipelines — data ingestion to embedded deployment"
+    - "Real-time and low-latency inference under compute constraints (14ms on RPi4)"
+    - "Signal processing and audio/sensor ML (MFCC, DSP, time-series)"
+    - "Multi-stream time-series synchronization (audio + BCI/EEG + XR telemetry)"
+    - "Experimental design, benchmarking, and ablation methodology; 4 open Zenodo datasets"
+    - "Translating ambiguous research problems into production systems"
+  # proof_points → see modes/_profile.md and input/knowledge-graph.md
+  # metrics: F1 0.76 (never ">90% F1"); Google Scholar 27 citations, h-index 3;
+  #          10+ peer-reviewed publications + 2 in press (JAES, IEEE IS2)
+
+
+compensation:
+  target_range: "$120K-$150K base (ideal); flexible below for a strong role with clear progression"
+  currency: "CAD"
+  minimum: "soft benchmark, not a hard filter"
+  location_flexibility: "Hybrid preferred; willing to work onsite if needed"
+
+
+location:
+  country: "Canada"
+  city: "Toronto, ON"
+  timezone: "EDT"
+  visa_status: "Canadian Permanent Resident — eligible to work in Canada without sponsorship. Willing to relocate within Canada with short notice."
+  relocation: "Open to relocation to major Canadian cities"
+  onsite_availability: "Available for all work modes: onsite, hybrid, and remote"
+
+
+background:
+  education:
+    - degree: "PhD — Information Engineering and Computer Science"
+      institution: "University of Trento, Italy"
+      year: 2025
+    - degree: "MSc — Telecommunication and Electronic Engineering"
+      institution: "Sheffield Hallam University, UK"
+      year: 2018
+    - degree: "BEng (Hons) — Electronic Engineering"
+      institution: "Sheffield Hallam University, UK"
+      year: 2014
+  years_of_experience: 10
+  domain_tags:
+    - "Machine Learning"
+    - "Signal Processing / DSP"
+    - "Audio & Music Information Retrieval"
+    - "Computer Vision"
+    - "Time-Series Analysis"
+    - "Embedded / Real-Time Systems"
+    - "IoT / Sensor Fusion"
+    - "NLP / Generative AI"
+    - "Industrial Automation"
+  # stack → see input/knowledge-graph.md

@@ -1,0 +1,15 @@
+<!-- Job posting: https://clarius.com/career/co/research-development-rd/0D.17C/machine-learning-engineer/all/ -->
+Short personal note for the Clarius application portal. 2026-09-04.
+
+----------------------------------------------------------------
+
+I've spent my career taking models out of the notebook and onto real hardware,
+most recently a real-time detector I got running in 14 ms on a Raspberry Pi,
+and before that computer-vision systems I shipped onto factory floors at
+manufacturing scale. What draws me to Clarius is that Hormometer is the same
+kind of problem I like best: a hard inference-speed and reliability target,
+attached to something that actually helps people. Ultrasound imaging itself is
+new to me, but I've picked up applied domains fast before, and I'd love the
+chance to do it here.
+
+[~85 words]

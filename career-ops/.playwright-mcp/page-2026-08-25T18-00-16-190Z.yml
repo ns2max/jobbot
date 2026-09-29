@@ -1,0 +1,185 @@
+- generic [active] [ref=f481e1]:
+  - main [ref=f481e2]:
+    - generic [ref=f481e3]:
+      - link [ref=f481e5] [cursor=pointer]:
+        - /url: https://x.ai/
+        - img "SpaceXAI Logo" [ref=f481e6]
+      - generic [ref=f481e7]:
+        - link "Back to jobs" [ref=f481e8] [cursor=pointer]:
+          - /url: https://job-boards.greenhouse.io/xai
+        - generic [ref=f481e12]:
+          - generic [ref=f481e13]:
+            - heading "Member of Technical Staff - X Money" [level=1] [ref=f481e14]
+            - generic [ref=f481e15]: Tokyo, Japan
+          - button "Apply" [ref=f481e19] [cursor=pointer]
+        - generic [ref=f481e20]:
+          - paragraph [ref=f481e22]: SpaceXAI’s mission is to create AI systems that can accurately understand the universe and aid humanity in its pursuit of knowledge. Our team is small, highly motivated, and focused on engineering excellence. This organization is for individuals who appreciate challenging themselves and thrive on curiosity. We operate with a flat organizational structure. All employees are expected to be hands-on and to contribute directly to the company’s mission. Leadership is given to those who show initiative and consistently deliver excellence. Work ethic and strong prioritization skills are important. All employees are expected to have strong communication skills. They should be able to concisely and accurately share knowledge with their teammates.
+          - generic [ref=f481e23]:
+            - heading "ABOUT THE ROLE:" [level=3] [ref=f481e24]
+            - paragraph [ref=f481e25]: We are seeking a talented Software Engineer to join our X Money team, focused on building a revolutionary global payment network that will serve over 600 million users and rival the world’s largest financial institutions. In this role, you will specialize in backend development, designing and optimizing robust microservices to ensure scalability, security, and reliability. You will support full-stack efforts, collaborate with cross-functional teams on payments, fraud detection, and compliance initiatives, and contribute to the creation of a high-scale financial products platform. This is an opportunity to work on greenfield projects in a fast-paced, startup-like environment, driving innovation at the intersection of AI and finance.
+            - heading "RESPONSIBILITIES:" [level=3] [ref=f481e26]
+            - list [ref=f481e27]:
+              - listitem [ref=f481e28]: Develop and optimize microservices for high-concurrency transactions using Go, Postgres, and Kafka.
+              - listitem [ref=f481e29]: Collaborate on system architecture, testing, and monitoring to ensure uptime and performance.
+              - listitem [ref=f481e30]: Build internal tools using frontend technologies as needed to support operational efficiency.
+              - listitem [ref=f481e31]: Support the Technical Lead in risk mitigation and align with engineering, product, and compliance teams to drive project success.
+              - listitem [ref=f481e32]: Contribute to the development of secure, scalable systems for handling financial data and transactions.
+              - listitem [ref=f481e33]: Iterate rapidly on feedback to deliver high-quality solutions in a dynamic environment.
+            - heading "BASIC QUALIFICATIONS:" [level=3] [ref=f481e34]
+            - list [ref=f481e35]:
+              - listitem [ref=f481e36]: 5+ years of software engineering experience, with a strong focus on backend development.
+              - listitem [ref=f481e37]: Proficiency in Go or similar languages and experience with databases (e.g., Postgres) and streaming systems (e.g., Kafka).
+              - listitem [ref=f481e38]: Familiarity with building distributed systems for high-scale, low-latency environments.
+              - listitem [ref=f481e39]: Knowledge of handling secure financial data.
+              - listitem [ref=f481e40]: Ability to contribute to frontend development for internal tools when required.
+              - listitem [ref=f481e41]: Strong communication and problem-solving skills, with a collaborative mindset.
+            - heading "PREFERRED SKILLS AND EXPERIENCE:" [level=3] [ref=f481e42]
+            - list [ref=f481e43]:
+              - listitem [ref=f481e44]: Experience in fintech, payments, or regulatory frameworks (e.g., PCI-DSS, AML/KYC).
+              - listitem [ref=f481e45]: Prior work in a fast-paced, startup-like environment on greenfield projects.
+              - listitem [ref=f481e46]: Comfort navigating ambiguous requirements and iterating based on feedback.
+              - listitem [ref=f481e47]: Passion for leveraging AI to transform financial systems.
+            - paragraph [ref=f481e48]
+          - paragraph [ref=f481e50]:
+            - emphasis [ref=f481e51]: SpaceXAI is an equal opportunity employer. For details on data processing, view our
+            - emphasis [ref=f481e52]:
+              - link "Recruitment Privacy Notice" [ref=f481e53] [cursor=pointer]:
+                - /url: https://x.ai/legal/recruitment-privacy-notice
+              - text: .
+        - generic [ref=f481e57]:
+          - paragraph [ref=f481e58]: Create a Job Alert
+          - paragraph [ref=f481e59]: Interested in building your career at SpaceXAI? Get future opportunities sent straight to your email.
+          - link "Create alert" [ref=f481e60] [cursor=pointer]:
+            - /url: https://my.greenhouse.io/users/sign_in?job_board=xai&source=job_alert_post&variant=job_alert_post_a
+      - separator [ref=f481e61]
+      - generic [ref=f481e62]:
+        - generic [ref=f481e63]:
+          - generic [ref=f481e64]:
+            - heading "Apply for this job" [level=2] [ref=f481e66]
+            - generic [ref=f481e67]:
+              - paragraph [ref=f481e69]: "*"
+              - paragraph [ref=f481e70]: indicates a required field
+          - button "Autofill my application" [ref=f481e73] [cursor=pointer]
+        - generic [ref=f481e74]:
+          - generic [ref=f481e75]:
+            - generic [ref=f481e78]:
+              - generic [ref=f481e79]: First Name*
+              - textbox "First Name" [ref=f481e80]
+            - generic [ref=f481e83]:
+              - generic [ref=f481e84]: Last Name*
+              - textbox "Last Name" [ref=f481e85]
+            - generic [ref=f481e88]:
+              - generic [ref=f481e89]: Preferred First Name
+              - textbox "Preferred First Name" [ref=f481e90]
+            - generic [ref=f481e93]:
+              - generic [ref=f481e94]: Email*
+              - textbox "Email" [ref=f481e95]
+            - group "Phone" [ref=f481e97]:
+              - generic [ref=f481e101]:
+                - generic [ref=f481e102]: Country*
+                - generic [ref=f481e103]:
+                  - log [ref=f481e105]
+                  - generic [ref=f481e107]:
+                    - combobox "Country" [ref=f481e110]
+                    - button "Toggle flyout" [ref=f481e112] [cursor=pointer]
+                  - textbox
+              - generic [ref=f481e117]:
+                - generic [ref=f481e118]: Phone*
+                - textbox "Phone" [ref=f481e120]
+            - group "Resume/CV*" [ref=f481e122]:
+              - generic [ref=f481e125]:
+                - generic [ref=f481e127]:
+                  - button "Attach" [ref=f481e128] [cursor=pointer]
+                  - generic [ref=f481e129]: Attach
+                  - button "Attach" [ref=f481e130]
+                - button "Dropbox" [ref=f481e132] [cursor=pointer]
+                - button "Google Drive" [ref=f481e134] [cursor=pointer]
+                - generic [ref=f481e136]:
+                  - button "Enter manually" [ref=f481e137] [cursor=pointer]
+                  - generic [ref=f481e138]: Enter manually
+                - paragraph [ref=f481e139]: "Accepted file types: pdf, doc, docx, txt, rtf"
+            - group "Cover Letter" [ref=f481e141]:
+              - generic [ref=f481e144]:
+                - generic [ref=f481e146]:
+                  - button "Attach" [ref=f481e147] [cursor=pointer]
+                  - generic [ref=f481e148]: Attach
+                  - button "Attach" [ref=f481e149]
+                - button "Dropbox" [ref=f481e151] [cursor=pointer]
+                - button "Google Drive" [ref=f481e153] [cursor=pointer]
+                - generic [ref=f481e155]:
+                  - button "Enter manually" [ref=f481e156] [cursor=pointer]
+                  - generic [ref=f481e157]: Enter manually
+                - paragraph [ref=f481e158]: "Accepted file types: pdf, doc, docx, txt, rtf"
+          - generic [ref=f481e159]:
+            - separator [ref=f481e160]
+            - generic [ref=f481e163]:
+              - generic [ref=f481e164]: Full Legal Name*
+              - textbox "Full Legal Name" [ref=f481e165]
+            - generic [ref=f481e166]:
+              - generic [ref=f481e168]:
+                - generic [ref=f481e169]: Current Company
+                - textbox "Current Company" [ref=f481e170]
+              - paragraph [ref=f481e173]: If you are currently employed in the field, please tell us the name of your employer.
+            - generic [ref=f481e174]:
+              - generic [ref=f481e176]:
+                - generic [ref=f481e177]: LinkedIn Profile*
+                - textbox "LinkedIn Profile" [ref=f481e178]
+              - paragraph [ref=f481e181]: If you have a public LinkedIn profile, please provide its URL.
+            - generic [ref=f481e184]:
+              - generic [ref=f481e185]: Do you speak Japanese? If yes, what’s your proficiency level?*
+              - generic [ref=f481e186]:
+                - log [ref=f481e188]
+                - generic [ref=f481e190]:
+                  - generic [ref=f481e191]:
+                    - generic [ref=f481e192]: Select...
+                    - combobox "Do you speak Japanese? If yes, what’s your proficiency level?" [ref=f481e194]
+                  - button "Toggle flyout" [ref=f481e196] [cursor=pointer]
+                - textbox
+            - generic [ref=f481e201]:
+              - generic [ref=f481e202]: GitHub Profile
+              - textbox "GitHub Profile" [ref=f481e203]
+            - generic [ref=f481e204]:
+              - generic [ref=f481e206]:
+                - generic [ref=f481e207]: Google Scholar
+                - textbox "Google Scholar" [ref=f481e208]
+              - paragraph [ref=f481e211]: If you have a Google Scholar page, please provide its URL.
+            - generic [ref=f481e214]:
+              - generic [ref=f481e215]: X Profile
+              - textbox "X Profile" [ref=f481e216]
+            - generic [ref=f481e219]:
+              - generic [ref=f481e220]: Your Location*
+              - textbox "Your Location" [ref=f481e221]
+            - generic [ref=f481e224]:
+              - generic [ref=f481e225]: If working in Japan, will you now, or in the future, require sponsorship for employment visa status (e.g., H-1B visa) to legally work in Japan*
+              - generic [ref=f481e226]:
+                - log [ref=f481e228]
+                - generic [ref=f481e230]:
+                  - generic [ref=f481e231]:
+                    - generic [ref=f481e232]: Select...
+                    - combobox "If working in Japan, will you now, or in the future, require sponsorship for employment visa status (e.g., H-1B visa) to legally work in Japan" [ref=f481e234]
+                  - button "Toggle flyout" [ref=f481e236] [cursor=pointer]
+                - textbox
+            - generic [ref=f481e241]:
+              - generic [ref=f481e242]: Please indicate your SpaceXAI employment history.*
+              - generic [ref=f481e243]:
+                - log [ref=f481e245]
+                - generic [ref=f481e247]:
+                  - generic [ref=f481e248]:
+                    - generic [ref=f481e249]: Select...
+                    - combobox "Please indicate your SpaceXAI employment history." [ref=f481e251]
+                  - button "Toggle flyout" [ref=f481e253] [cursor=pointer]
+                - textbox
+            - generic [ref=f481e256]:
+              - generic [ref=f481e258]:
+                - generic [ref=f481e259]: What exceptional work have you done?*
+                - textbox "What exceptional work have you done?" [ref=f481e260]
+              - paragraph [ref=f481e263]: In 100 words or less, tell us about a piece of work you are most proud of.
+          - button "Submit application" [ref=f481e265] [cursor=pointer]
+  - contentinfo [ref=f481e266]:
+    - generic [ref=f481e267]:
+      - paragraph [ref=f481e268]: Powered by
+      - link [ref=f481e269] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f481e270]
+  - iframe [ref=f481e284]:
+    
