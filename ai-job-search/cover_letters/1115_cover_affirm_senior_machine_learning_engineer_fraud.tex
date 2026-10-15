@@ -1,0 +1,91 @@
+% Job posting: https://job-boards.greenhouse.io/affirm/jobs/7806920003
+% =====================================================================
+%  COVER LETTER -- Nishal Stanislaus Silva, PhD
+%  Job 1115: Affirm, Senior Machine Learning Engineer (Fraud), Remote Canada
+%  Variant: V1 AI-INDUSTRY (tagline identical to the CV). Compile: tectonic -X compile
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied ML}
+\newcommand{\clRole}{Senior Machine Learning Engineer (Fraud)}
+\newcommand{\clCompany}{Affirm}
+\newcommand{\clTeam}{the ML Fraud team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} - \clCompany{} (Remote Canada)}
+
+\clAddressee
+
+I am applying for the \clRole{} role on \clTeam{} at \clCompany{}. Fraud models that decide on a live transaction have to be right and fast at the same time, and that pairing is the core of my record: I am an ML engineer with a PhD from the University of Trento (2025) and 10+ years across industry and academia, and my most recent deployed detector made real-time decisions in 14 ms on a Raspberry Pi 4 at F1 0.76, 74$\times$ faster than the DTW baseline it replaced (JAES 2026).
+
+You need someone who can take a model from idea to production and keep it healthy. Here is how my work maps to that:
+\begin{itemize}[leftmargin=1.4em, itemsep=0.1em, topsep=0.2em]
+    \item \textbf{Risk models on structured data.} At Forestpin I designed and deployed ML and statistical pipelines for financial forensics, compliance monitoring and risk detection on large structured enterprise datasets, and built the SQL + Python scoring services that flagged anomalies for triage in production.
+    \item \textbf{Low-latency decision systems.} On the EU-funded MUSMET project I owned the full pipeline, from feature engineering to training, deployment and monitoring, with inference held under 30 ms. At MAS Holdings I shipped live accept/reject inspection (OpenCV with PLC reject) that cut inspection time by 99.5\%.
+    \item \textbf{Offline experiments before production.} I design baselines and ablations to choose what ships, and recently benchmarked 6 scoring methods over 100,000 trials for a binary classifier (best ROC-AUC 0.822 vs.\ 0.599 baseline).
+    \item \textbf{Engineering practice.} I introduced CI/CD and code review at MAS, mentored engineers, orchestrate pipelines in Airflow, and use Claude Code daily as part of my development workflow.
+\end{itemize}
+To be direct about the gaps: gradient-boosted tree libraries (LightGBM, XGBoost, CatBoost) and Spark are not yet in my daily toolkit, and I have not modelled transaction graphs. My structured-data scoring at Forestpin and my Python, scikit-learn and PyTorch work make these a fast ramp rather than a restart.
+
+Affirm's FY2026 annual report describes fraud models that draw on roughly 350 data points to make a near-instantaneous decision on whether to block a transaction, at a scale of \$50.2 billion in GMV. That is the problem I want to work on: feature-rich models under a hard latency budget, tuned as a balance between fraud loss, customer experience and conversion. In my first months I would aim to own one model end to end, from features and offline backtests to a monitored production rollout.
+
+I am a Canadian permanent resident living in Ontario, eligible to work without sponsorship, available immediately, and glad to attend in-person onboarding. I would welcome the opportunity to discuss how my experience in real-time ML and risk scoring can support \clTeam{} at \clCompany{}.
+
+\vspace{8pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

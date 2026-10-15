@@ -161,7 +161,10 @@ def cluster_duplicates(co_rows, ajs_rows):
 
 
 CO_APPLIED_STATUSES = {"applied", "responded", "interview", "offer", "rejected", "discarded"}
-AJS_APPLIED_STATUSES = {"applied"}
+# Every ai-job-search status past `drafted` (see ai-job-search/.claude/commands/outcome.md
+# "Tracker status vocabulary"), incl. legacy space spellings; `withdrawn` = closed before sending.
+AJS_APPLIED_STATUSES = {"applied", "interview", "offer", "hired", "rejected", "no_response", "no response",
+                        "offer_declined", "offer declined", "withdrawn"}
 
 
 def co_score_100(score_str):

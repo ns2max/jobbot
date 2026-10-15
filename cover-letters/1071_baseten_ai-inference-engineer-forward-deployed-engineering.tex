@@ -1,13 +1,7 @@
 % Job posting: https://jobs.ashbyhq.com/baseten/db6477fc-111a-4340-bf00-525fe023e6f3
-% =====================================================================
-%  COVER LETTER — Nishal Stanislaus Silva, PhD
-%  Variant: V1 (AI-Industry, FDE framing) — same tagline as the CV.
-%  Changelog: one page, 4 paragraphs. Hook = turn ambiguous business goals into reliable,
-%  observable production services; 14 ms / F1 0.76. Evidence = MAS + Forestpin client-facing
-%  translation; PhD benchmark-first pipeline. Honest pre-sales/customer-success gap. Toronto/Montreal
-%  office openness. F1 0.76, no patent mention.
-% =====================================================================
 \documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
 \usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
@@ -15,23 +9,39 @@
 \usepackage{parskip}
 \usepackage[en-GB]{datetime2}
 \usepackage[T1]{fontenc}
-\usepackage{newtxtext,newtxmath}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
 \ifdefined\pdfgentounicode
   \input{glyphtounicode}
   \pdfgentounicode=1
 \fi
+
 \setlength{\parindent}{0pt}
 \setstretch{1.05}
 \pagenumbering{gobble}
 
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
 \newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
 \newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
-\newcommand{\clTagline}{AI Forward Deployed Engineer | Production ML Deployment, Client-Facing Delivery, Real-Time Systems}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{AI Forward Deployed Engineer | Production ML Deployment, Real-Time Inference, Customer-Facing Delivery}
 \newcommand{\clRole}{AI Inference Engineer, Forward Deployed Engineering}
 \newcommand{\clCompany}{Baseten}
+\newcommand{\clTeam}{the Forward Deployed Engineering team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
 
+% =====================================================================
 \begin{document}
 \pagestyle{empty}
+
+% --------- HEADER (identical to CV) ----------
 \begin{center}
     {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
     \\[1pt]
@@ -40,11 +50,11 @@
     {\footnotesize\textit{\clStatus}}
     \\[1pt]
     {\small
-    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
-    \,\,|\,\, +1 613 200 2030
-    \,\,|\,\, Toronto, ON
-    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
-    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
 \end{center}
 
 \rule{\linewidth}{0.4pt}\vspace{0.6em}
@@ -53,15 +63,17 @@
 
 \textbf{Re: \clRole{} -- \clCompany{}}
 
-Dear Baseten Team,
+\clAddressee
 
-I am applying for the \clRole{} role. The job description asks for someone who can turn ambiguous business goals into reliable, observable production services, owning the journey from exploration through deployment. That is the exact shape of work I have done for the last decade, and my most recent system ships real-time inference at 14 ms and F1 0.76 (JAES 2026).
+I am applying for the Forward Deployed Engineer role at Baseten. I am a machine learning engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and most of that work has been taking an unclear problem to a production service that someone depends on. At MAS Holdings I led end-to-end development and deployment of computer vision systems in live manufacturing sites, improving operational efficiency by up to 300\%.
 
-At MAS Holdings I sat with manufacturing clients, took their production-floor problems, and shipped computer-vision and ML systems on their line rather than in a lab: 300\% throughput improvement and 99.5\% inspection-time reduction. At Forestpin I turned compliance and risk requirements directly into deployed anomaly-detection services. Both required the motion your FDE team runs: frame the problem with the customer, build fast, ship something measured and reliable. My PhD at the University of Trento added a benchmark-first discipline. I do not ship a system without knowing its latency budget, its F1, and where it breaks. The pipeline I owned there, acquisition through monitoring, is the same shape as the one in your job description, applied to embedded audio ML instead of enterprise inference.
+The role asks for ownership from problem framing to evaluation, deployment and monitoring. That is how I worked in my postdoc: I owned the full ML pipeline for streaming sensor data from acquisition to deployment with monitoring, and built real-time inference services under 30 ms. The published version of this work runs at 14 ms on a Raspberry Pi 4, 74x faster than the baseline (F1 0.76). At MAS and at Forestpin I worked directly with operations, compliance and risk stakeholders to turn vague needs into specs, milestones and measurable results. My main language is Python, and I have deployed with Docker, AWS and CI/CD.
 
-I will be direct about the gap: I have not run a formal pre-sales or customer-success motion. What I have is a consistent record of ramping fast into unfamiliar infrastructure stacks under real deadlines and shipping something the client can trust, and I would rather name that upfront than have it surface later. Baseten's bet, that inference is a product problem and not just a systems one, is exactly where a client-facing engineer with deployment scars is useful.
+I do not have a formal pre-sales or customer-success title. My customer-facing experience comes from consulting and stakeholder-driven delivery, and I would be learning the sales and expansion side of the job. I am comfortable writing specs, running proofs of concept and owning a project when the requirements are still moving.
 
-I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, open to the Toronto or Montreal office or hybrid, and available immediately. I would welcome the chance to talk through how this experience maps to Baseten's customers. My portfolio and publications are at \href{https://nishal.xyz}{nishal.xyz}.
+Baseten runs inference for companies that cannot afford it to be slow or unreliable, and that is the problem I have spent years on under tight latency and compute limits. I would like to help your customers get their models into production, measured on quality, latency and cost.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and open to hybrid or remote work from Toronto, or relocation within Canada. I am available to start with short notice. I would welcome the opportunity to discuss how my experience in production ML deployment and real-time systems can support \clTeam{} at \clCompany{}. My portfolio and publications are at \href{\clSite}{nishal.xyz}.
 
 \vspace{12pt}
 Sincerely,\\[2pt]

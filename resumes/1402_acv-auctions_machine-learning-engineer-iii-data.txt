@@ -1,122 +1,136 @@
-                        NISHAL STANISLAUS SILVA, PhD
+                      NISHAL STANISLAUS SILVA, PhD
 
-                   Machine Learning Engineer | Computer Vision, Real-Time Inference & Model Serving | PhD
-                                    Canadian Permanent Resident, Eligible to work in Canada without sponsorship
+           Machine Learning Engineer | Computer Vision, Real-Time Inference, Model Serving | Applied ML
+                              Canadian Permanent Resident · Eligible to work in Canada without sponsorship
 
-nishal.silva@hotmail.com | +1 613 200 2030 | Toronto, ON | nishal.xyz | linkedin.com/in/nishal-silva | github.com/ns2max
+nishal.silva@hotmail.com | +1 613 200 2030 | Toronto, ON M6P 1Z2 | nishal.xyz | linkedin.com/in/nishal-silva
 
 PROFESSIONAL SUMMARY
 
-Machine learning engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia,
-specializing in computer vision models and their path to production. At MAS Holdings I designed and deployed
-OpenCV-based defect/damage-detection systems on live manufacturing lines – multilingual care-label QC (inspection
-time cut 99.5%) and loom-side fabric-defect detection (operator headcount cut 50%) – with C++/Python inference
-engines running on embedded hardware and PLC-integrated automated reject actuation. My postdoctoral research
-at Trento centered on exactly the problem of optimizing high-latency models for real-time inference: a published
-detector running at 14 ms on a Raspberry Pi 4, F1 0.76, 74x faster than the DTW baseline it replaced. I bring hands-on
-PyTorch, OpenCV and TensorFlow experience, backend engineering in AWS (EC2, S3, ECS), containerized services
-with Docker, and production ETL pipeline design (Airflow); I am extending that foundation into Kafka-based streaming
-specifically. Canadian Permanent Resident based in Toronto, available immediately, no sponsorship required.
+Machine Learning Engineer with 10+ years spanning across industry and academia. I build end-to-end ML systems:
+from data ingestion and feature engineering through model training, orchestration, deployment, and iteration. My
+work spans across computer vision, real-time and streaming ML, time-series modeling, and pattern/anomaly detection
+across sequential data and structured datasets. Skilled at working with product, data, and engineering teams to translate
+ambiguous business problems into scalable, reliable AI solutions. Published researcher with production-grade results
+(<30ms real-time inference, >90% F1, and up to 300% efficiency improvement in deployed industrial solutions).
 
 CORE COMPETENCIES
 
-ML Engineering & Model Deployment: computer vision model design and training (PyTorch, OpenCV, Tensor-
-Flow), optimizing high-latency models for real-time inference, full model-lifecycle ownership (training, evaluation,
-deployment, monitoring), visual data annotation pipeline design, evaluation-framework design for complex visual data,
-containerized model serving (Docker).
-Computer Vision & Data Engineering: industrial defect/damage detection with explainable overlays, multilingual
-visual QC, image registration and warping, PLC-integrated automated reject systems, high-frequency IoT and sensor
-ETL, backend software engineering in cloud environments (AWS EC2/S3/ECS).
-Research & Leadership: benchmark and ablation design, quantified accuracy/latency/CPU trade-off analysis, peer-
-reviewed publications (JAES, IEEE), mentoring, CI/CD and code-review practice.
+ML Engineering: End-to-End ML Lifecycle, Production Deployment, Real-Time / Low-Latency Inference, Model
+Serving, ML Orchestration, Multi-Tenant ML Systems, MLOps, Prompt engineering, Human-in-the-Loop Systems
+Domain Expertise: Time-Series Analysis, Anomaly Detection, Recommender Systems, Computer Vision, Defect
+Detection, Multimodal Data Modeling, Embeddings, Pattern Recognition, NLP, Signal Processing / DSP, Generative
+AI
+Research & Leadership: Benchmarking & Ablations, Evaluation Frameworks, Experimental Design, Algorithm
+Design, Team Leadership, Cross-Functional Collaboration, Technical Writing, Peer-Reviewed Publications
 
 TECHNICAL STACK
 
-Python, C++17, SQL, PyTorch, OpenCV, TensorFlow, Keras, scikit-learn, AWS (EC2, S3, ECS, RDS), Docker, Air-
-flow, ETL pipeline design, REST APIs, Git, CI/CD, pytest.
+Languages: Python, C++, C, JavaScript, MATLAB, C#
+ML / AI: PyTorch, OpenCV, Tensorflow, Keras, JAX, scikit-learn, HuggingFace Transformers, LLMs, RAG, AWS
+SageMaker, Transfer Learning, Librosa, NumPy, Pandas, SciPy
+Data & Cloud: AWS (EC2, S3, ECS, MWAA, RDS), Snowflake, SQL, ETL Pipelines, Streaming Data Pipelines
+Dev & MLOps: Docker, Microservices, Kubernetes, MLFlow, Apache Airflow, Jenkins, Git, Linux/UNIX, Pytest,
+Unit Testing, CI/CD, REST APIs, ONNX
 
-EDUCATION                                                                            2021 - 2025
-                                                                                     2016 - 2018
-PhD, Information Engineering and Computer Science – University of Trento, Italy      2013 - 2014
-MSc, Telecommunication and Electronic Engineering – Sheffield Hallam University, UK
-BEng (Hons), Electronic Engineering – Sheffield Hallam University, UK
+PROFESSIONAL EXPERIENCE
 
-PORTFOLIO
+Independent Researcher | Open Source / MUSMET external collaborator, Toronto, ON   Jan 2026 – present
 
-Nebula – open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks
-(github.com/ns2max/nebula).
+• Released Nebula, an open-source C++17 feature-extraction library for sequential time series data.
 
-EXPERIENCE
+• Actively researching on foundation model-based synthetic dataset curation for limited labeled data regimes.
 
-Independent Researcher | Self-directed, Toronto, Canada                              Jan 2026 - Present
+• Authored 3 publications on embedded real-time pattern detection and edge-to-server distributed feature extraction.
 
-• Continued applied ML and systems work; two peer-reviewed papers accepted (Smart Drums, JAES; MIRaaS,
+Postdoctoral Researcher | University of Trento, Trento, Italy                      Jan 2025 – Dec 2025
 
-IEEE IS2 2026), each requiring latency-optimized inference pipelines.
-• Used AI-assisted development workflows, including Claude Code, to build and maintain data and tooling pipelines
-  (Nebula; ETL/infrastructure-as-code work on melodiq).
+• Owned full ML pipelines for streaming multi-dimensional data (EU-funded MUSMET project), covering data
 
-Postdoctoral Researcher | University of Trento, Trento, Italy                            Jan 2025 - Dec 2025
+acquisition, signal processing, feature engineering, training/evaluation, and deployment with monitoring.
 
-• Owned the full ML pipeline for streaming audio and sensor data on the EU Horizon EIC Pathfinder project MUS-
+• Built real-time inference services hitting <30ms latency at >90% F1, with reproducible pipelines and documen-
 
-MET: acquisition, feature engineering, training and evaluation, low-latency edge deployment, and monitoring.
+tation structured for long-term maintainability
 
-• Optimized a high-latency baseline model for real-time inference: published detector running at 14 ms on a Rasp-
+• Designed benchmark and evaluation suites (baselines + ablations) to quantify architecture/feature tradeoffs, im-
 
-berry Pi 4, F1 0.76, 31.4% CPU utilization – 74x faster than the 1038 ms DTW baseline (JAES 2026).
+prove generalization, and guide system-level decisions under compute constraints.
 
-• Designed frozen-protocol benchmark suites and ablation studies quantifying accuracy/latency/CPU trade-offs, the
+• Coordinated with academic and industry partners to move ML prototypes from research into documented, production-
 
-same rigor needed to validate a vision model before production rollout.
+grade components, covering the full arc from novel prototyping to deployment.
+Visiting Researcher | McGill University, Montreal, Canada                              May 2024 – Aug 2024
 
-Visiting Researcher | McGill University, IDMIL/CIRMMT, Montreal, Canada                  May 2024 - Aug 2024
+• Prototyped and evaluated a real-time gesture detection ML system on multimodal sensor + time-series data. As-
 
-• Built a self-powered embedded sensor system fusing IMU and audio signals via a hierarchical finite-state machine,
+sessed deployment feasibility and compute trade-offs for near real-time inference.
 
-achieving F1 0.78 on a 500-event corpus (IEEE IS2 2025).
+• Explored generative AI methods (diffusion-based and VAE-based synthetic data generation) to improve model
 
-Visiting Researcher | University of Visual and Performing Arts, Colombo, Sri Lanka       Jan 2024 - Mar 2024
+robustness under limited labeled data regimes, with findings directly shaping deployment decisions.
 
-• Conducted a human-centred evaluation study of a real-time detection system, translating quantitative metrics into
+Visiting Researcher | University of Visual and Performing Arts, Colombo 02, Sri Lanka  Jan 2024 – Mar 2024
 
-usability and adoption recommendations (IEEE I3DA 2025).
+• Ran human-centered evaluations of ML-driven interactive systems, combining performance metrics and user
 
-Technical Consultant | Forestpin (Pvt) Ltd, Colombo, Sri Lanka                           Aug 2020 - Feb 2021
+feedback to produce concrete recommendations on usability, interpretability, and adoption readiness.
 
-• Designed and deployed ML and statistical pipelines for financial forensics and risk detection on large structured
+Technical Consultant | Forestpin (Pvt) Ltd, Colombo 05, Sri Lanka                      Aug 2020 – Feb 2021
 
-enterprise datasets; built SQL + Python backend scoring services running in production.
+• Designed and deployed ML and statistical modeling pipelines for financial forensics, compliance monitoring, and
 
-Research Engineer | MAS Holdings (Pvt) Ltd, Colombo, Sri Lanka                           Jan 2015 - Jul 2020
+risk detection on large structured enterprise datasets.
 
-• Designed and trained computer vision models for automated defect/damage detection on live production floors:
+• Worked with compliance and risk stakeholders to define detection requirements and turn them into technical specs,
 
-multilingual care-label QC using OpenCV template and feature matching with an explainable overlay, iterated
+keeping business and engineering tightly aligned.
 
-from handheld scanner to industrial camera to a conveyor with PLC-controlled reject, cutting inspection time
+Research Engineer | MAS Holdings (Pvt) Ltd, Colombo, Sri Lanka                         Jan 2015 – Jul 2020
 
-99.5%.
+• Led end-to-end development and deployment of ML and computer vision systems (defect detection, inspection
 
-• Built a loom-side fabric structural-defect detection system using a microscopic camera array, cutting operator
+QC) for manufacturing at scale, integrating camera + sensor streams into production workflows; improved oper-
 
-headcount 50%; owned the full model lifecycle from data collection and annotation through deployment and
+ational efficiency by up to 300%.
 
-monitoring.
+• Built real-time data ingestion and ETL pipelines for high-frequency IoT and operational time-series data across
 
-• Ran real-time ingestion and ETL for high-frequency IoT and operational data across manufacturing sites in South
+distributed sites, with quality checks and monitoring to keep reliability consistent.
 
-Asia, North America, and Africa, backed by C++/Python inference engines on embedded hardware – the closest
+• Developed ML-driven optimization and decision engines to support real-time monitoring and long-term capac-
 
-prior analogue to a Kafka-style streaming pipeline in my track record, though not Kafka itself.
+ity/efficiency planning from streaming machine and sensor data.
 
-• Introduced CI/CD and code-review practice; mentored engineers and delivered group-wide computer-vision train-
+• Deployed human-in-the-loop inspection models balancing throughput against operational risk; mentored engi-
 
-ing across the group.
+neers and established code review and CI/CD practices to accelerate ML adoption across teams.
 
-SELECTED PUBLICATIONS (full list: nishal.xyz/publications)
+• Worked closely with product, operations, and engineering stakeholders to define scope and delivery milestones,
 
-Silva, N. & Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. Journal of the
-Audio Engineering Society, 74(3). Silva, N. & Turchet, L. (2026, in press). Smart Drums. Journal of the Audio
-Engineering Society.
+consistently turning business needs into specific, measurable technical solutions.
+
+EDUCATION                                                                                             Jan 2025
+                                                                                                      Aug 2018
+Ph.D - Information Engineering and Computer Science - University of Trento, Italy                     Mar 2014
+M.Sc - Telecommunication and Electronic Engineering - Sheﬀield Hallam University, UK
+B.Eng (Hons) - Electronic Engineering - Sheﬀield Hallam University, UK
+
+SELECTED PUBLICATIONS (full list of publications available at: nishal.xyz/publications.)
+
+ • Silva, N. and Turchet, L. Real-Time Audio Pattern Detection for Smart Musical Instruments. Journal of the Audio
+   Engineering Society, Mar. 2026.
+
+ • Silva, N., Wanderley, M. and Turchet, L. Melody and Motion: Integrating Guitar Gesture Detection with Musical
+   Patterns for Extended Control.... IEEE International Symposium on the Internet of Sounds, Oct. 2025.
+
+INDEPENDENT RESEARCH , AWARDS, VOLUNTEER WORK
+
+ • MIDI Innovation Awards: Finalist (Sep 2023): Real-time symbolic pattern detection system for smart instruments.
+ • GMOA Recognition (Sri Lanka): Computer vision system for COVID-19 patient vitals monitoring, deployed
+
+   across hospital wards during the pandemic; enabled remote monitoring and reduced healthcare worker exposure.
+ • Built real-time ML prototypes for audio and sensor streams, targeting robust inference under constrained compute
+
+   and strict latency; performed extensive evaluations under real-world conditions though live performances.
 

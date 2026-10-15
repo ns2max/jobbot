@@ -1,0 +1,81 @@
+% Job posting: https://job-boards.greenhouse.io/grafanalabs/jobs/6100673004
+% Variant: V1 AI-INDUSTRY. Job ID 696. Grafana Labs, Staff AI Engineer, Grafana AI/ML.
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Production ML Systems, Time-Series \& Anomaly Detection | Applied AI}
+\newcommand{\clRole}{Staff AI Engineer, Grafana AI/ML}
+\newcommand{\clCompany}{Grafana Labs}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+7 October 2026
+
+\textbf{Re: \clRole{}, \clCompany{} (Canada, Remote)}
+
+\clAddressee
+
+I am applying for the Staff AI Engineer role on the Grafana AI/ML team. I am a machine learning engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and much of that time has gone into a problem at the center of observability: finding the meaningful signal in noisy, high-frequency time-series and getting it to people fast enough to act. At Forestpin I built SQL and Python backend services that scored enterprise data for anomaly flagging and triage in production. At MAS Holdings I built real-time ingestion and ETL for IoT telemetry streaming from factories in South Asia, North America and Africa.
+
+What I would bring to AI features for incident detection, triage and resolution:
+\begin{itemize}[leftmargin=1.4em, itemsep=0pt, topsep=2pt]
+    \item \textbf{Software that ships and gets used.} I designed the alignment algorithm and built the RIP integration for Promptly, now a commercial on-demand printing product with facilities in four countries, and I iterated a care-label inspection system from flatbed scanner to camera to a conveyor with PLC reject, cutting inspection time by 99.5\%.
+    \item \textbf{Fast experiments with honest evaluation.} At Trento I owned a streaming ML pipeline from acquisition to deployment and monitoring, and used benchmark suites and ablations to reach 14 ms inference at F1 0.76, 74x faster than the baseline (JAES 2026). I also characterized end-to-end latency in MIRaaS, an edge-to-server offload service.
+    \item \textbf{Hands-on generative AI.} I LoRA fine-tuned MusicGen-medium with a custom conditioning head across two GPUs, benchmarked Wav2Vec2 transformer embeddings for pronunciation scoring over 100,000 trials, and build daily with Claude Code as an agentic workflow.
+\end{itemize}
+
+I want to be direct about two gaps. I have not yet shipped an LLM- or agent-powered feature to external users; my LLM work is tool-level and personal-project level. And I have used monitoring dashboards and latency profiling to troubleshoot systems, but not Grafana, Prometheus or Loki as a daily stack. What draws me to Grafana Labs is Grafana Assistant Investigations, which forms hypotheses about an incident and proves or disproves each one against the data. That is the hypothesis-and-evidence loop I have run in benchmark work, applied to the kind of telemetry I have spent years cleaning, aligning and scoring. In my first months I would expect to pair agent-based investigation workflows with the time-series anomaly detection and evaluation discipline I already practice, so each AI feature is measured against real incidents rather than demos.
+
+I am a Canadian permanent resident based in \clCity{} (Eastern Time), eligible to work without sponsorship and available immediately. I would welcome the opportunity to discuss how my experience with production ML systems and time-series data could support the Grafana AI/ML team. My portfolio and publications are at \href{\clSite}{nishal.xyz}.
+
+\vspace{10pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

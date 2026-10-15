@@ -1,0 +1,78 @@
+% Job posting: https://jobs.ashbyhq.com/mecka.ai/989517b5-c364-46cf-b5e2-903f8fa4ccf4
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | Edge ML, Computer Vision, Real-Time Inference | Embedded Linux, C++}
+\newcommand{\clRole}{Edge ML Engineer, Computer Vision}
+\newcommand{\clCompany}{Mecka AI}
+\newcommand{\clTeam}{the Hardware Engineering team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Edge ML Engineer, Computer Vision role at Mecka AI. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build ML systems that run on small hardware under hard latency limits. Putting vision models into the devices that capture data for robot learning is the kind of problem I have worked on in both of my main roles.
+
+Three parts of your posting match my work directly. For embedded real-time inference, my published system runs at 14 ms on a Raspberry Pi 4 at 31\% CPU, 74x faster than the DTW baseline (F1 0.76 against 0.65, Journal of the Audio Engineering Society, 2026), and I owned it end-to-end from data acquisition to deployment, with CPU and power profiling for edge feasibility and a C++17 feature library (Nebula) benchmarked on ARM. For computer vision in real operating conditions, I led OpenCV-based inspection and defect detection at MAS Holdings in C++ and Python, taking a care-label checker from a flatbed scanner to an industrial camera with a conveyor and PLC reject (inspection time down 99.5\%), and a loom-side fabric defect detector on a camera array with a few-second alert budget. For evaluation, I design benchmark suites with baselines and ablations, and I released four open datasets on Zenodo.
+
+I should be direct about the gaps. My vision models at MAS were classical OpenCV pipelines, and my deep learning work on edge has been sequence models rather than CNN detectors, so training vision networks in PyTorch for embedded targets is something I have done less of. I have used ONNX but have not shipped quantization, NPU or accelerator runtimes in production. I have built the surrounding pieces on constrained hardware, and I expect to pick up those tools quickly. What draws me to Mecka is that the models sit inside the capture hardware, so accuracy has to hold up in real conditions and within strict latency, memory and power budgets.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, and available immediately for onsite work in the Toronto area. I would welcome the opportunity to discuss how my experience in edge inference and computer vision can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

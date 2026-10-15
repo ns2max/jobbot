@@ -1,47 +1,79 @@
-% Job posting: https://ca.linkedin.com/jobs/view/engineer-ai-software-machine-learning-c%2B%2B-at-qualcomm-4457950472
 \documentclass[11pt]{article}
-\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
 \usepackage[T1]{fontenc}
-\usepackage{newtxtext,newtxmath}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
 \ifdefined\pdfgentounicode
   \input{glyphtounicode}
   \pdfgentounicode=1
 \fi
-\setstretch{1.1}
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
 \pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 - do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Real-Time \& Edge Inference, C++17 | Embedded ML}
+\newcommand{\clRole}{Engineer, AI Software/Machine Learning (C++)}
+\newcommand{\clCompany}{Qualcomm}
+\newcommand{\clTeam}{the AI Software team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+% =====================================================================
 \begin{document}
 \pagestyle{empty}
 
-\noindent Nishal Stanislaus Silva, PhD \\
-Toronto, ON \\
-nishal.silva@hotmail.com \,|\, +1 613 200 2030 \\
-nishal.xyz \,|\, linkedin.com/in/nishal-silva \,|\, github.com/ns2max
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
 
-\vspace{1.5em}
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
 
-\noindent Dear Hiring Manager,
+\today
 
-\vspace{1em}
+\textbf{Re: \clRole{} -- \clCompany{} }
 
-\noindent I am writing to apply for the Engineer, AI Software/Machine Learning (C++) role with Qualcomm's Machine Learning Engineering group in Markham. The posting is explicit that this is a C++ engineering role, not model building or training, and that is exactly the work I have spent my career doing: writing modern C++17 software that makes trained models run fast and reliably on constrained hardware. My own open-source project, Nebula, is a C++17 audio-feature library with per-feature latency benchmarks on ARM, and my published research detector runs at 14 ms on a Raspberry Pi 4, 74x faster than a DTW baseline, at F1 0.76 (JAES 2026).
+\clAddressee
 
-\vspace{1em}
+I am applying for the Engineer, AI Software/Machine Learning (C++) role at Qualcomm. I am a machine learning research engineer with a PhD from the University of Trento (2025) and 10+ years across industry and academia, and my work is real-time inference under tight latency and compute budgets on embedded ARM hardware. I built real-time inference services on a Raspberry Pi 4 that run in under 30ms at over 90\% F1, and I released Nebula, an open-source C++17 feature-extraction library for sequential time series data.
 
-\noindent Against the specifics of the posting: I have built and shipped C++/Python real-time inference engines on embedded and IoT hardware across manufacturing sites for MAS Holdings, including reverse-engineering PLC trigger points and building three closed-loop automation subsystems in custom C++, and I design frozen-protocol benchmark and ablation suites as part of my research practice, the same discipline a model-analysis tool for customers requires. My embedded-toolchain experience is concentrated on Raspberry Pi and embedded Linux (Elk Audio OS) rather than Android or QNX specifically, and I have not worked directly with the Hexagon DSP SDK; both are a natural extension of the cross-platform, memory- and latency-constrained C++ work I already do, and I would expect to be productive on them quickly. I use TensorFlow, PyTorch and ONNX routinely as the consumer of the models my tooling has to serve, and I work daily in Git and Docker.
+On the C++ side, Nebula is written in C++17 and benchmarked per feature on ARM, and at MAS Holdings I wrote custom C++ for a printer integration that coordinated three closed-loop subsystems in real time. On the ML side, I have trained and deployed models in TensorFlow and PyTorch, and I have used ONNX. I work day to day with Linux, Git and Docker, and I have written CI/CD and code review practices for teams.
 
-\vspace{1em}
+I have not written Hexagon DSP kernels or vector-instruction code, and I have not worked with the Hexagon SDK. What I bring is the habit of profiling first, measuring on the target device, and making a design fit its latency budget, and I would learn the Hexagon toolchain quickly. Qualcomm AI Engine Direct is the layer where model performance on real devices is decided, and I would like to work on the operations and tooling that make it fast. In my first months I would aim to contribute optimized C++17 operations and to debug customer use cases.
 
-\noindent Qualcomm's Hexagon-based on-device AI stack is the kind of hard compute-and-power-budget problem I have chosen to specialize in rather than one I am pivoting toward, and the Markham site puts that work close to home. I would be glad to bring my benchmark-driven approach to latency and CPU trade-offs to the team's model-analysis tooling from day one.
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, and available immediately. I would welcome the opportunity to discuss how my experience in real-time ML systems and embedded C++ can support the AI Software team at Qualcomm. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
 
-\vspace{1em}
-
-\noindent I am a Canadian Permanent Resident and do not require sponsorship. I am based in Toronto, a short commute from Markham, and available immediately. I would welcome the chance to discuss how my embedded C++ and ML-systems background can contribute to your team.
-
-\vspace{1.5em}
-
-\noindent Sincerely, \\
-Nishal Stanislaus Silva
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
 
 \end{document}

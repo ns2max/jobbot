@@ -1,0 +1,85 @@
+% Job posting: https://job-boards.greenhouse.io/tubi-canada/jobs/8010441
+% =====================================================================
+%  COVER LETTER - Nishal Stanislaus Silva, PhD
+%  Job 631 | Tubi | Senior Machine Learning Engineer | Toronto (hybrid)
+%  Variant: V1 AI-INDUSTRY
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied ML}
+\newcommand{\clRole}{Senior Machine Learning Engineer}
+\newcommand{\clCompany}{Tubi}
+\newcommand{\clTeam}{the Machine Learning team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}, Toronto (hybrid)}
+
+\clAddressee
+
+I am applying for the Senior Machine Learning Engineer role on Tubi's Machine Learning team in Toronto. I am a Machine Learning Engineer with a PhD from the University of Trento and more than ten years across industry and academia, six of them building production ML systems in industry. The pipeline your posting describes, data extraction, feature development, model training, testing, deployment and monitoring, is the shape of system I have owned end to end in three different domains, most recently shipping real-time deep learning inference at 14 ms and F1 0.76, 74 times faster than the baseline it replaced (JAES 2026).
+
+At MAS Holdings I built ML and computer-vision systems that ran in production across factories in South Asia, North America and Africa, with real-time ingestion and ETL for high-frequency operational data and inspection models that cut QC time by 99.5 percent. At Forestpin I built SQL and Python scoring services that flagged anomalies in large structured datasets. In research I make evaluation the core of the work: I designed the baseline and ablation suites that set our architecture choices, and I recently benchmarked six scoring methods over 100,000 trials, where Wav2Vec2 embeddings reached ROC-AUC 0.822 against 0.599 for the classical baseline. That habit of deep-diving a single component while keeping the whole architecture and the business metric in view is what I would bring to a recommendation stack.
+
+I will be direct about the gap: I have not shipped a production recommendation system, and my recommendation and ranking knowledge is at the working level. What transfers is the hard part around the model: sequence modelling with RNN, LSTM and GRU networks, embedding-based models, statistical evaluation with hypothesis tests, and the discipline of monitoring a deployed model against the metric the product cares about. With 110 million monthly active users and most viewing on Tubi on-demand and personalized rather than lean-back, matching viewers to the right titles is the product itself, and content understanding is where my audio and signal feature-extraction work connects most naturally. In my first months I would aim to own one algorithmic component, build a strong offline evaluation for it, and ship a measured improvement.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship and available immediately; the hybrid Toronto arrangement suits me well. I would welcome the opportunity to discuss how my experience building and evaluating production ML pipelines can support \clTeam{} at \clCompany{}. My portfolio and publications are at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

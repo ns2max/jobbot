@@ -1,0 +1,78 @@
+% Job posting: https://ca.linkedin.com/jobs/view/founding-ml-engineer-computer-vision-object-detection-at-jobgether-4475129983
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | Computer Vision, Object Detection, Real-Time Inference | Applied ML}
+\newcommand{\clRole}{Founding ML Engineer, Computer Vision (Object Detection)}
+\newcommand{\clCompany}{Jobgether (hiring partner)}
+\newcommand{\clTeam}{the founding ML team}
+\newcommand{\clAddressee}{Dear Hiring Team,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Founding ML Engineer, Computer Vision (Object Detection) role posted by Jobgether. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build end-to-end ML systems that run in production under hard latency limits. At MAS Holdings I led computer vision systems for manufacturing, including care-label inspection that cut inspection time by 99.5\% and raised operational efficiency by up to 300\%. Owning the computer vision function from architecture to production is the kind of role I work best in.
+
+Three parts of your posting match my work directly. For production computer vision, I built OpenCV-based inspection systems at MAS, taking a care-label checker from a flatbed scanner to an industrial camera with a conveyor and PLC reject, a loom-side fabric defect detector on a camera array with a few-second alert budget, and garment detection and classification on stock photography. For low-latency inference, my published system runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline (Journal of the Audio Engineering Society, 2026), and I owned its full lifecycle from data acquisition to deployment and monitoring. For evaluation and feedback loops, I design benchmark suites with baselines and ablations, ran human-in-the-loop studies and deployed human-in-the-loop inspection models, and I released four open datasets on Zenodo.
+
+I should be direct about the gaps. My production vision work has been classical OpenCV-based inspection and detection rather than fine-grained, catalog-scale item identification with vision transformers, and I have not shipped calibrated confidence scoring in a marketplace setting. I have benchmarked pretrained models and am currently LoRA fine-tuning a foundation model for a personal project, and I expect to apply that quickly to adapting foundation vision models to a product catalog. Within the first months I would aim to set the evaluation framework and accuracy standards per category, then expand coverage from there.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I would welcome the opportunity to discuss how my experience in computer vision and real-time ML systems can support \clTeam{} at the hiring company. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

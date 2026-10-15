@@ -1,0 +1,108 @@
+% Job posting: https://ca.linkedin.com/jobs/view/founding-ml-engineer-computer-vision-object-detection-at-jobgether-4475129983
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\setstretch{1.05}
+\pagenumbering{gobble}
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 -- #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+    {\LARGE \scshape \textbf{Nishal Stanislaus Silva}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small Machine Learning Engineer | Computer Vision, Object Detection, Real-Time Inference | Applied ML}
+    \\[1pt]
+    {\footnotesize\textit{Canadian Permanent Resident $\cdot$ Eligible to work in Canada without sponsorship}}
+    \\[1pt]
+    {\small \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON M6P 1Z2
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\section*{Professional Summary}
+Machine Learning Engineer with 10+ years spanning across industry and academia. I build end-to-end ML systems: from data ingestion and feature engineering through model training, orchestration, deployment, and iteration. My work spans across computer vision, real-time and streaming ML, time-series modeling, and pattern/anomaly detection across sequential data and structured datasets. Skilled at working with product, data, and engineering teams to translate ambiguous business problems into scalable, reliable AI solutions. Published researcher with production-grade results (<30ms real-time inference, >90\% F1, and up to 300\% efficiency improvement in deployed industrial solutions).
+
+\section*{Core Competencies}
+\textbf{ML Engineering:} End-to-End ML Lifecycle, Production Deployment, Real-Time / Low-Latency Inference, Model Serving, ML Orchestration, Multi-Tenant ML Systems, MLOps, Prompt engineering, Human-in-the-Loop Systems\\
+\textbf{Domain Expertise:} Time-Series Analysis, Anomaly Detection, Recommender Systems, Ranking Systems, Computer Vision, Object Detection, Multimodal Data Modeling, Embeddings, Pattern Recognition, NLP, Signal Processing / DSP, Generative AI\\
+\textbf{Research \& Leadership:} Benchmarking \& Ablations, Evaluation Frameworks, Experimental Design, Algorithm Design, Team Leadership, Cross-Functional Collaboration, Technical Writing, Peer-Reviewed Publications
+
+\section*{Technical Stack}
+\textbf{Languages:} Python, C++, C, JavaScript, MATLAB, C\#\\
+\textbf{ML / AI:} PyTorch, OpenCV, Tensorflow, Keras, JAX, scikit-learn, HuggingFace Transformers, LLMs, RAG, AWS SageMaker, Transfer Learning, Librosa, NumPy, Pandas, SciPy\\
+\textbf{Data \& Cloud:} AWS (EC2, S3, ECS, MWAA, RDS), Snowflake, SQL, ETL Pipelines, Information Retrieval\\
+\textbf{Dev \& MLOps:} Docker, Kubernetes, MLFlow, Apache Airflow, Jenkins, Git, Linux/UNIX, Pytest, Unit Testing, CI/CD, REST APIs, ONNX
+
+\section*{Professional Experience}
+\begin{cvrole}{Independent Researcher}{Open Source / MUSMET external collaborator}{Toronto, ON}{Jan 2026}{present}
+    \item Released Nebula, an open-source C++17 feature-extraction library for sequential time series data.
+    \item Actively researching on foundation model-based synthetic dataset curation for limited labeled data regimes.
+    \item Authored 3 publications on embedded real-time pattern detection and edge-to-server distributed feature extraction.
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Owned full ML pipelines for streaming multi-dimensional data (EU-funded MUSMET project), covering data acquisition, signal processing, feature engineering, training/evaluation, and deployment with monitoring.
+    \item Built real-time inference services hitting <30ms latency at >90\% F1, with reproducible pipelines and documentation structured for long-term maintainability
+    \item Designed benchmark and evaluation suites (baselines + ablations) to quantify architecture/feature tradeoffs, improve generalization, and guide system-level decisions under compute constraints.
+    \item Coordinated with academic and industry partners to move ML prototypes from research into documented, production-grade components, covering the full arc from novel prototyping to deployment.
+\end{cvrole}
+
+\newpage
+\begin{cvrole}{Visiting Researcher}{McGill University}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Prototyped and evaluated a real-time gesture detection ML system on multimodal sensor + time-series data. Assessed deployment feasibility and compute trade-offs for near real-time inference.
+    \item Explored generative AI methods (diffusion-based and VAE-based synthetic data generation) to improve model robustness under limited labeled data regimes, with findings directly shaping deployment decisions.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo 02, Sri Lanka}{Jan 2024}{Mar 2024}
+    \item Ran human-centered evaluations of ML-driven interactive systems, combining performance metrics and user feedback to produce concrete recommendations on usability, interpretability, and adoption readiness.
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo 05, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item Designed and deployed ML and statistical modeling pipelines for financial forensics, compliance monitoring, and risk detection on large structured enterprise datasets.
+    \item Worked with compliance and risk stakeholders to define detection requirements and turn them into technical specs, keeping business and engineering tightly aligned.
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Led end-to-end development and deployment of ML and computer vision systems (defect detection, inspection QC, garment detection and classification) for manufacturing at scale, integrating camera + sensor streams into production workflows; improved operational efficiency by up to 300\%.
+    \item Built real-time data ingestion and ETL pipelines for high-frequency IoT and operational time-series data across distributed sites, with quality checks and monitoring to keep reliability consistent.
+    \item Developed ML-driven optimization and decision engines to support real-time monitoring and long-term capacity/efficiency planning from streaming machine and sensor data.
+    \item Deployed human-in-the-loop inspection models balancing throughput against operational risk; mentored engineers and established code review and CI/CD practices to accelerate ML adoption across teams.
+    \item Worked closely with product, operations, and engineering stakeholders to define scope and delivery milestones, consistently turning business needs into specific, measurable technical solutions.
+\end{cvrole}
+
+\section*{Education}
+\noindent\textbf{Ph.D - Information Engineering and Computer Science} \textit{\small{ - University of Trento, Italy}} \hfill \textit{Jan 2025}\\[2pt]
+\noindent\textbf{M.Sc - Telecommunication and Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[2pt]
+\noindent\textbf{B.Eng (Hons) - Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+\section*{Selected Publications \footnotesize {\normalfont{(full list of publications available at: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}}.)}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Mar. 2026.
+    \item Silva, N., Wanderley, M. and Turchet, L. \textit{Melody and Motion: Integrating Guitar Gesture Detection with Musical Patterns for Extended Control....} IEEE International Symposium on the Internet of Sounds, Oct. 2025.
+\end{itemize}
+
+\section*{Independent Research , Awards, Volunteer Work}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{MIDI Innovation Awards:} Finalist (Sep 2023): Real-time symbolic pattern detection system for smart instruments.
+    \item \textbf{GMOA Recognition (Sri Lanka):} Computer vision system for COVID-19 patient vitals monitoring, deployed across hospital wards during the pandemic; enabled remote monitoring and reduced healthcare worker exposure.
+    \item Built real-time ML prototypes for audio and sensor streams, targeting robust inference under constrained compute and strict latency; performed extensive evaluations under real-world conditions though live performances.
+\end{itemize}
+\end{document}

@@ -1,12 +1,6 @@
-% Job posting: https://jobs.ashbyhq.com/nexxa/df3caaa1-e0e5-4942-b5cc-b30c74cdea62
-% =====================================================================
-%  COVER LETTER — Nishal Stanislaus Silva, PhD
-%  Variant: V5 (CV/Industrial, edge tilt) — same tagline as the CV.
-%  Changelog: one page, 4 paragraphs. Hook = production industrial CV + real-time edge inference;
-%  14 ms / 74x. Evidence = MAS care-label QC / fabric defect / PLC integration; MUSMET benchmarking.
-%  VLMs / multimodal reasoning named as the newer edge (honest). F1 0.76, no patent mention. Toronto.
-% =====================================================================
 \documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
 \usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
@@ -14,23 +8,35 @@
 \usepackage{parskip}
 \usepackage[en-GB]{datetime2}
 \usepackage[T1]{fontenc}
-\usepackage{newtxtext,newtxmath}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
 \ifdefined\pdfgentounicode
   \input{glyphtounicode}
   \pdfgentounicode=1
 \fi
+
 \setlength{\parindent}{0pt}
 \setstretch{1.05}
 \pagenumbering{gobble}
 
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
 \newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
 \newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
-\newcommand{\clTagline}{Computer Vision \& ML Engineer | Industrial Inspection, Real-Time Edge \& Cloud Inference}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Computer Vision, Deep Learning, Real-Time Edge Inference | Applied ML}
 \newcommand{\clRole}{AI Vision Engineer}
 \newcommand{\clCompany}{Nexxa.AI}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
 
 \begin{document}
 \pagestyle{empty}
+
 \begin{center}
     {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
     \\[1pt]
@@ -39,11 +45,11 @@
     {\footnotesize\textit{\clStatus}}
     \\[1pt]
     {\small
-    \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
-    \,\,|\,\, +1 613 200 2030
-    \,\,|\,\, Toronto, ON
-    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
-    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
 \end{center}
 
 \rule{\linewidth}{0.4pt}\vspace{0.6em}
@@ -52,15 +58,15 @@
 
 \textbf{Re: \clRole{} -- \clCompany{}}
 
-Dear Hiring Team,
+\clAddressee
 
-I am applying for the \clRole{} position. Production computer vision for heavy industry, across the full stack, classical and deep learning, running in real time at the edge and in the cloud, is exactly the work I did for five years at MAS Holdings and sharpened during my PhD. My published detector runs at 14 ms on a Raspberry Pi 4, F1 0.76, 74$\times$ faster than the baseline (JAES 2026).
+I am applying for the AI Vision Engineer role at Nexxa.AI. I am a machine learning engineer with a PhD from the University of Trento and 10+ years across industry and academia. For five and a half years at MAS Holdings I led production computer vision for manufacturing, from care-label inspection to loom-side fabric defect detection, and that work is the closest match to what you describe: vision systems for real industrial settings, taken from prototype to deployment.
 
-At MAS I built and deployed camera CV across manufacturing lines: automated label inspection with OpenCV template and feature matching and an explainable overlay that cut inspection time 99.5\% and raised throughput 300\%; a real-time microscopic camera array detecting fabric defects at the loom that cut operators 50\%; and the geometry-alignment algorithm plus RIP integration for an on-demand printing product now deployed across four countries. That work ran next to the camera on constrained hardware and tied into PLC-driven machinery, so algorithm choices had to respect the system, not just the benchmark. My research added the discipline: profiling feature extraction, architecture and OS scheduling to hit latency budgets, and quantifying every trade-off with baselines and ablations.
+The care-label QC system is a good example. I built it with OpenCV (template and feature matching, OCR, an explainable defect overlay) and iterated it three times, from a flatbed scanner to an industrial camera to a conveyor with a PLC reject. It cut inspection time by 99.5\% and improved throughput by up to 300\%. On the edge side, my published work at Trento runs real-time pattern detection in 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline, and I designed the benchmark suites and ablations that decided the architecture. I have also built the data and deployment pipelines around these models, using Python, PyTorch, Docker and AWS.
 
-On vision-language models and multimodal reasoning I am earlier in the curve, my multimodal work has been audio, IMU and sensor fusion rather than image-and-text, but the fusion instinct transfers (a hierarchical fusion state machine got me F1 0.78 on a 500-event corpus), and my cross-domain record, repurposing SSIM from computer vision into an award-shortlisted audio method, is evidence I move methods across domains fast. The classical-plus-deep vision stack and real-time edge deployment are where I am strongest, and that is the core of this role.
+I should be direct about the gaps. My multimodal work is on audio, sensor and time-series data rather than image and text, so I have not yet fine-tuned vision-language models, and I have not worked with YOLO or Detectron2, or with Jetson, TensorRT and quantization in production. I have used HuggingFace Transformers and generative models (diffusion and VAE prototypes at McGill), and I expect to close these gaps quickly, since the evaluation, optimization and deployment fundamentals are the same.
 
-I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, and available immediately. I would welcome the chance to discuss how my production industrial CV and edge-inference experience can support \clCompany{}. My portfolio, publications and open datasets are at \href{https://nishal.xyz}{nishal.xyz}.
+Nexxa's focus on heavy industry is where I have done my best work, and I would like to bring that experience to your vision stack. I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, available immediately and comfortable working remotely. My portfolio, publications and open datasets are at \href{\clSite}{nishal.xyz}.
 
 \vspace{12pt}
 Sincerely,\\[2pt]

@@ -901,3 +901,12 @@ SKIP (triage report reports/1123-pipeline-skips-2026-09-03.md, IDs 1123–1135):
 
 - [ ] https://job-boards.greenhouse.io/assemblyai/jobs/4728788005 | AssemblyAI | Senior GTM AI Engineer
 - [ ] https://job-boards.greenhouse.io/assemblyai/jobs/4728911005 | AssemblyAI | Senior Software Engineer, Inference
+
+- [ ] https://www.samsara.com/company/careers/roles/8250423?gh_jid=8250423 | Samsara | Data Engineer
+- [ ] https://jobs.ashbyhq.com/wealthsimple/b3e03688-c9f4-45f8-a401-8f39598e7ace | Wealthsimple | Senior Software Developer, ML Platform & Infrastructure
+- [ ] https://jobs.ashbyhq.com/wealthsimple/5fd80e67-350e-42ae-a329-4af4b77d2c72 | Wealthsimple | Senior Data Scientist, Growth Data 
+- [ ] https://jobs.ashbyhq.com/wealthsimple/7b8be733-8b6d-4135-b694-1574d02c4dc1 | Wealthsimple | Data Scientist, Sales
+- [ ] https://job-boards.greenhouse.io/later/jobs/8552308002 | Later | MLOps Engineer
+- [ ] https://job-boards.greenhouse.io/later/jobs/8863354002 | Later | Senior Data Platform Engineer
+- [ ] https://boards.greenhouse.io/faire/jobs/8860409002?gh_jid=8860409002 | Faire | Staff Data Infrastructure Engineer
+- [ ] https://job-boards.greenhouse.io/innodatainc/jobs/4438341009 | Innodata | Gen AI Engineer

@@ -1,5 +1,7 @@
 % Job posting: https://ca.linkedin.com/jobs/view/machine-learning-engineer-iii-data-at-acv-auctions-4436410354
 \documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
 \usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
@@ -7,15 +9,18 @@
 \usepackage{parskip}
 \usepackage[en-GB]{datetime2}
 \usepackage[T1]{fontenc}
-\usepackage{newtxtext,newtxmath}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
 \ifdefined\pdfgentounicode
   \input{glyphtounicode}
   \pdfgentounicode=1
 \fi
+
 \setlength{\parindent}{0pt}
 \setstretch{1.05}
 \pagenumbering{gobble}
 
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
 \newcommand{\clName}{Nishal Stanislaus Silva}
 \newcommand{\clEmail}{nishal.silva@hotmail.com}
 \newcommand{\clPhone}{+1 613 200 2030}
@@ -23,9 +28,14 @@
 \newcommand{\clSite}{https://nishal.xyz}
 \newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
 \newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
-\newcommand{\clTagline}{Machine Learning Engineer | Computer Vision, Real-Time Inference \& Model Serving | PhD}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | Computer Vision, Real-Time Inference, Model Serving | Applied ML}
 \newcommand{\clRole}{Machine Learning Engineer III, Data}
 \newcommand{\clCompany}{ACV Auctions}
+\newcommand{\clTeam}{the ML inspection team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
 
 \begin{document}
 \pagestyle{empty}
@@ -51,15 +61,15 @@
 
 \textbf{Re: \clRole{} -- \clCompany{}}
 
-Dear Hiring Manager,
+\clAddressee
 
-I am writing to apply for the Machine Learning Engineer III, Data role at ACV Auctions. Your posting's call for "optimizing high-latency models for real-time inference" closely describes my own postdoctoral research: a published detector running at 14 ms on a Raspberry Pi 4, F1 0.76, 74x faster than the 1038 ms baseline it replaced (Journal of the Audio Engineering Society, 2026). Paired with 5.5 years of production computer vision at MAS Holdings, South Asia's largest apparel manufacturer, this feels like a direct match for a team building damage-detection models on live vehicle imagery.
+I am applying for the Machine Learning Engineer III, Data role on the ML inspection team at ACV Auctions. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build end-to-end ML systems that run in production under hard latency limits. At MAS Holdings I led computer vision systems for manufacturing, including care-label inspection that cut inspection time by 99.5\% and raised operational efficiency by up to 300\%. That is the same kind of problem as turning vehicle inspections into fast, reliable decisions.
 
-Three parts of the role map onto my track record. For CV model design and training, I built an OpenCV-based defect-detection system through three hardware generations (handheld scanner, industrial camera, PLC-controlled conveyor reject), cutting inspection time 99.5\%, with PyTorch and TensorFlow in my postdoctoral work since. For backend engineering in cloud environments, I have run production services on AWS (EC2, S3, ECS) containerized with Docker, with CI/CD practice I introduced at MAS. For streaming data pipelines, I have not used Kafka specifically, but I have built comparable high-throughput ETL: Airflow DAGs feeding real-time IoT sensor ingestion across manufacturing sites on three continents. Picking up Kafka's API is a natural next step from that base, not a new discipline.
+Three parts of your posting match my work directly. For computer vision and damage detection, I built OpenCV-based defect and inspection systems at MAS, taking a care-label checker from a flatbed scanner to an industrial camera with a conveyor and PLC reject, and a loom-side fabric defect detector on a camera array with a few-second alert budget. For real-time inference, my published system runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline (Journal of the Audio Engineering Society, 2026), and I owned its full lifecycle from data acquisition to deployment and monitoring. For evaluation, I design benchmark suites with baselines and ablations, and I released four open datasets on Zenodo.
 
-ACV's acquisition of Monk and the VIPER inspection towers show this team pushing damage detection from single photos toward multi-angle imaging pipelines at scale, exactly where evaluation-framework design matters as much as the model. In the first six months I would expect to contribute on the evaluation side: frozen-protocol benchmarks for the visual annotation pipeline, the same rigor I used to validate models before every production rollout at MAS.
+I should be direct about two gaps. My streaming and serving work has run on real-time ingestion and ETL pipelines, Airflow and Docker on AWS rather than Kafka or gRPC, and I have not used Kubeflow, Databricks or KServe in production. I have built the same pieces with other tools, and I expect to pick up your stack quickly. What draws me to ACV is that the models serve a high-volume marketplace, where precision, recall and throughput all matter and the work is judged by outcomes. Within the first months I would aim to contribute to damage detection quality and serving latency.
 
-I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, available immediately for this onsite role. I would welcome the chance to discuss how my computer vision and real-time inference background can support ACV's inspection team. My portfolio is at \href{\clSite}{nishal.xyz}.
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I would welcome the opportunity to discuss how my experience in computer vision and real-time ML systems can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
 
 \vspace{12pt}
 Sincerely,\\[2pt]

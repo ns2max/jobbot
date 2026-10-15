@@ -1,47 +1,85 @@
-% Job posting: https://ca.linkedin.com/jobs/view/computer-vision-engineer-markham-on-at-tenth-revolution-group-4466906192
 \documentclass[11pt]{article}
-\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
 \usepackage[T1]{fontenc}
-\usepackage{newtxtext,newtxmath}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
 \ifdefined\pdfgentounicode
   \input{glyphtounicode}
   \pdfgentounicode=1
 \fi
-\setstretch{1.1}
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
 \pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 - do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Computer Vision, C++/OpenCV, Pattern Detection | Applied ML}
+\newcommand{\clRole}{Computer Vision Engineer (Markham, ON)}
+\newcommand{\clCompany}{Tenth Revolution Group}
+\newcommand{\clTeam}{your client's vision team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+% =====================================================================
 \begin{document}
 \pagestyle{empty}
 
-\noindent Nishal Stanislaus Silva, PhD \\
-Toronto, ON \\
-nishal.silva@hotmail.com \,|\, +1 613 200 2030 \\
-nishal.xyz \,|\, linkedin.com/in/nishal-silva \,|\, github.com/ns2max
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
 
-\vspace{1.5em}
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
 
-\noindent Dear Hiring Manager,
+\today
 
-\vspace{1em}
+\textbf{Re: \clRole{} -- \clCompany{}}
 
-\noindent I am writing to apply for the Computer Vision Engineer role in Markham that your firm is recruiting for. For 5.5 years at MAS Holdings, South Asia's largest apparel manufacturer, I built and ran computer-vision systems on live production floors, not in a lab: an automated multilingual care-label QC system using OpenCV template and feature matching with an explainable defect overlay, iterated from a handheld scanner to an industrial camera on a conveyor with PLC-controlled reject, cutting inspection time 99.5\% while keeping a human-in-the-loop path for borderline cases. This is the same discipline the posting describes: computer vision and pattern-recognition R\&D that has to survive contact with an automation line, not just a benchmark.
+\clAddressee
 
-\vspace{1em}
+% =====================================================================
 
-\noindent Against the specific requirements: I have reverse-engineered PLC trigger points and coordinated closed-loop electrical/software subsystems in custom C++ for a direct-to-garment printer integration, and separately designed a geometry-alignment algorithm and built the RIP integration for Promptly, MAS's on-demand printing product now running in four countries, so I am comfortable owning the boundary between vision software and factory hardware. I also built a loom-side fabric-defect detection system using a microscopic camera array that cut operator headcount 50\%, and OCR/layout-segmentation pipelines for garment tech-pack digitization. My production C++ work has been on Linux and embedded toolchains rather than Visual Studio on Windows specifically, and I have not done PCB schematic capture in AutoCAD; both are a natural extension of the electrical/software integration work I already do, and I would expect to pick up the Windows-side toolchain quickly. I have also delivered hands-on CV training to engineering teams and represented my group at international trade shows, so customer-facing installation and commissioning work is familiar territory, including the travel that comes with it.
+% ---- PARAGRAPH 1 ----
+I am applying for the Computer Vision Engineer role in Markham. I have a PhD (University of Trento, 2025), a B.Eng in Electronic Engineering, and 10+ years across industry and academia. For 5.5 years at MAS Holdings I built and ran computer vision systems on live production floors in C++ and OpenCV. The clearest example is an automated care-label QC system that used OpenCV template and feature matching and moved from a flatbed scanner to an industrial camera on a conveyor with PLC-controlled reject. It cut inspection time by 99.5\% and raised throughput by up to 300\%, with a human-in-the-loop path for borderline cases.
 
-\vspace{1em}
+% ---- PARAGRAPH 2 ----
+That work lines up with what the posting asks for. I built a loom-side fabric-defect detection system on a microscopic camera array that cut operator headcount by 50\% in the pilot, and OCR and layout-segmentation pipelines for document digitization. I also reverse-engineered PLC trigger points and coordinated three closed-loop subsystems in custom C++ for a direct-to-garment printer integration, so I am used to owning the boundary between vision software and factory hardware. I have trained engineering teams on computer vision and represented my group at international trade shows, so customer-facing work and travel are familiar.
 
-\noindent Manufacturing-floor automation is where I have chosen to build my career, from apparel production in Colombo to a PhD adding formal rigor to how I benchmark and validate a system before it goes live. I would bring that same prototype-to-production discipline to your client's automation and computer-vision programs from day one.
+% ---- PARAGRAPH 3 ----
+On the stated requirements, my production C++ has been on Linux and embedded toolchains rather than Visual Studio on Windows, and I have not worked with Qt, MFC, AutoCAD or PCB schematic capture. My electronics degree and the camera, PLC and sensor integration I have done give me a base for the electrical side, and I would pick up the Windows toolchain quickly.
 
-\vspace{1em}
+% ---- PARAGRAPH 4 ----
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately, including for travel to customer sites. I would welcome the chance to discuss how my experience in industrial computer vision and automation can support \clTeam{} at \clCompany{}. My portfolio and publications are at \href{\clSite}{nishal.xyz}.
 
-\noindent I am a Canadian Permanent Resident and do not require sponsorship. I am based in Toronto, a short commute from Markham, and available immediately, including for the periodic travel the role requires. I would welcome the chance to discuss how my industrial computer-vision background can contribute to your client's team.
-
-\vspace{1.5em}
-
-\noindent Sincerely, \\
-Nishal Stanislaus Silva
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
 
 \end{document}

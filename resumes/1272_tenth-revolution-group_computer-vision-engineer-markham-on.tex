@@ -4,100 +4,103 @@
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
-\usepackage{array}
 \usepackage{setspace}
-\usepackage{needspace}
 \usepackage[T1]{fontenc}
 \usepackage{newtxtext,newtxmath}
 \ifdefined\pdfgentounicode
   \input{glyphtounicode}
   \pdfgentounicode=1
 \fi
-\setstretch{1.04}
+\setstretch{1.05}
 \pagenumbering{gobble}
 \titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
 \titlespacing*{\section}{0pt}{1em}{0.4em}
 \newenvironment{cvrole}[5]{%
-  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 -- #5}\par
   \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
 }{%
   \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
 }
-\newcommand{\cvName}{Nishal Stanislaus Silva}
-\newcommand{\cvEmail}{nishal.silva@hotmail.com}
-\newcommand{\cvPhone}{+1 613 200 2030}
-\newcommand{\cvCity}{Toronto, ON}
-\newcommand{\cvSite}{https://nishal.xyz}
-\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
-\newcommand{\cvGitHub}{https://github.com/ns2max}
-\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
-\newcommand{\cvTagline}{Computer Vision \& ML Engineer | Industrial Inspection, IoT \& Edge Deployment}
 \begin{document}
 \pagestyle{empty}
 \begin{center}
-    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}\\[1pt]
-    {\small \cvTagline}\\[1pt]
-    {\footnotesize\textit{\cvStatus}}\\[1pt]
-    {\small
-    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
-    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
-    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+    {\LARGE \scshape \textbf{Nishal Stanislaus Silva}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small Machine Learning Research Engineer | Computer Vision, C++/OpenCV, Pattern Detection | Applied ML}
+    \\[1pt]
+    {\footnotesize\textit{Canadian Permanent Resident $\cdot$ Eligible to work in Canada without sponsorship}}
+    \\[1pt]
+    {\small \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}
+    \,\,|\,\, +1 613 200 2030
+    \,\,|\,\, Toronto, ON M6P 1Z2
+    \,\,|\,\, \href{https://nishal.xyz}{nishal.xyz}
+    \,\,|\,\, \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}}
 \end{center}
 
 \section*{Professional Summary}
-Computer Vision and ML Engineer with 5.5 years building and deploying production machine-vision and automation systems for manufacturing at MAS Holdings, South Asia's largest apparel manufacturer, plus a PhD in real-time embedded ML. Shipped an automated multilingual care-label QC system (OpenCV template and feature matching, conveyor with PLC-controlled reject) that cut inspection time 99.5\%, and a loom-side fabric structural-defect detection system (microscopic camera array) that cut operator headcount 50\%. Comfortable owning computer-vision R\&D end to end: algorithm design for pattern recognition and OCR, camera and sensor integration, and reverse-engineering PLC and electro-mechanical trigger points to close the loop between vision and automation hardware. C++/Python systems engineer with a track record of taking a system from prototype to a production floor with a human-in-the-loop path for edge cases, and of training operators and support engineers on the result.
+Machine Learning Engineer with 10+ years spanning across industry and academia. I build end-to-end ML systems: from data ingestion and feature engineering through model training, orchestration, deployment, and iteration. My work spans across real-time and streaming ML, time-series modeling, and industrial computer vision (C++/OpenCV), pattern/anomaly detection across sequential data, and structured datasets. Skilled at working with product, data, and engineering teams to translate ambiguous business problems into scalable, reliable AI solutions. Published researcher with production-grade results (<30ms real-time inference, >90\% F1, and up to 300\% efficiency improvement in deployed industrial solutions).
 
 \section*{Core Competencies}
-\textbf{Computer Vision \& Perception:} OpenCV (template and feature matching, image registration and warping, corner/edge detection), OCR and layout segmentation, industrial and microscopic camera-array systems, explainable defect overlays for human-in-the-loop QC, multilingual label and print inspection, projector-camera AR alignment.\\[2pt]
-\textbf{ML Engineering:} TensorFlow, Keras, PyTorch, scikit-learn, pattern-recognition algorithm design, benchmark and ablation-driven evaluation.\\[2pt]
-\textbf{Systems \& Deployment:} C++/Python real-time inference engines, PLC integration and electrical/software co-design for automation systems, high-frequency IoT sensor ingestion and ETL, customer-facing deployment, commissioning support, and technical training delivery.
+\textbf{ML Engineering:} End-to-End ML Lifecycle, Production Deployment, Real-Time / Low-Latency Inference, ML Orchestration, Multi-Tenant ML Systems, MLOps, Prompt engineering, AI Ethics, Human-in-the-Loop Systems\\
+\textbf{Domain Expertise:} Time-Series Analysis, Anomaly Detection, Computer Vision, Image Processing, OCR, Industrial Automation, Multimodal Data Modeling, Embeddings, Pattern Recognition, NLP, Signal Processing / DSP, Generative AI\\
+\textbf{Research \& Leadership:} Benchmarking \& Ablations, Experimental Design, Algorithm Design, Team Leadership, Cross-Functional Collaboration, Technical Writing, Peer-Reviewed Publications
 
 \section*{Technical Stack}
-\textbf{Languages:} C++, Python, C, MATLAB, JavaScript/TypeScript, Shell.\\
-\textbf{ML / AI:} TensorFlow, Keras, PyTorch, scikit-learn.\\
-\textbf{Computer Vision:} OpenCV, image registration and warping, corner/edge detection, industrial camera arrays, microscopic imaging.\\
-\textbf{Data \& Cloud:} AWS, SQL, Pandas/NumPy, ETL pipelines.\\
-\textbf{Dev \& MLOps:} Git, Docker, CI/CD, pytest.
-
-\section*{Education}
-\noindent\textbf{PhD, Information Engineering and Computer Science} -- University of Trento, Italy \hfill 2021 - 2025 \\
-\noindent\textbf{MSc, Telecommunication and Electronic Engineering} -- Sheffield Hallam University, UK \hfill 2016 - 2018 \\
-\noindent\textbf{BEng (Hons), Electronic Engineering} -- Sheffield Hallam University, UK \hfill 2013 - 2014
+\textbf{Languages:} C++, Python, C, JavaScript, MATLAB, C\#\\
+\textbf{ML / AI:} Tensorflow, Keras, PyTorch, JAX, scikit-learn, HuggingFace Transformers, LLMs, RAG, AWS SageMaker, Transfer Learning, OpenCV (C++/Python), Librosa, NumPy, Pandas, SciPy\\
+\textbf{Data \& Cloud:} AWS (EC2, S3, ECS, MWAA, RDS), Snowflake, SQL, ETL Pipelines, Information Retrieval\\
+\textbf{Dev \& MLOps:} Docker, Kubernetes, MLFlow, Apache Airflow, Jenkins, Git, Linux/UNIX, PLC Integration, Pytest, Unit Testing, CI/CD, REST APIs, ONNX
 
 \section*{Professional Experience}
-
-\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
-\item Designed and deployed end-to-end computer-vision and IoT systems for manufacturing at scale, taking camera and sensor streams directly into production and automation workflows; drove operational efficiency gains of up to 300\%.
-\item Built an automated multilingual care-label QC system using OpenCV template and feature matching with an explainable defect overlay, iterating it from a handheld scanner to an industrial camera on a conveyor with PLC-controlled reject, cutting inspection time 99.5\% with a human-in-the-loop path for borderline cases.
-\item Developed a loom-side fabric structural-defect detection system using a microscopic camera array with overlapping fields of view, cutting operator headcount 50\%.
-\item Reverse-engineered non-invasive PLC trigger points and RIP automation hooks for the Aeoon Kyo direct-to-garment printer, coordinating three closed-loop subsystems in custom C++; separately designed the geometry-alignment algorithm and built the RIP integration for Promptly, MAS/Twinery's on-demand two-sided garment printing product, now deployed in the US, Mexico, France and Sri Lanka.
-\item Ran hands-on computer-vision training seminars and exhibited solutions at inter-company expos supporting multi-factory rollouts; introduced CI/CD and code-review practice and mentored engineers.
+\begin{cvrole}{Independent Researcher}{Open Source / MUSMET external collaborator}{Toronto, ON}{Jan 2026}{present}
+    \item Released Nebula, an open-source C++17 feature-extraction library for sequential time series data.
+    \item Actively researching on foundation model-based synthetic dataset curation for limited labeled data regimes.
+    \item Authored 3 publications on embedded real-time pattern detection and edge-to-server distributed feature extraction.
 \end{cvrole}
 
 \begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
-\item Owned the full ML pipeline for streaming audio and IMU/gesture data: acquisition, DSP/feature engineering, training and evaluation, and edge deployment on Raspberry Pi 4, with monitoring.
-\item Designed frozen-protocol benchmark suites and ablation studies quantifying accuracy/latency/CPU trade-offs, the same discipline used to validate the QC systems above against production tolerances.
+    \item Owned full ML pipelines for streaming multi-dimensional data (EU-funded MUSMET project), covering data acquisition, signal processing, feature engineering, training/evaluation, and deployment with monitoring.
+    \item Built real-time inference services hitting <30ms latency at >90\% F1, with reproducible pipelines and documentation structured for long-term maintainability
+    \item Designed benchmark suites (baselines + ablations) to quantify architecture/feature tradeoffs, improve generalization, and guide system-level decisions under compute constraints.
+    \item Coordinated with academic and industry partners to move ML prototypes from research into documented, production-grade components, covering the full arc from novel prototyping to deployment.
 \end{cvrole}
 
-\begin{cvrole}{Visiting Researcher}{McGill University, IDMIL/CIRMMT}{Montreal, Canada}{May 2024}{Aug 2024}
-\item Built a self-powered smart electric guitar (BNO055 IMU + HiFiBerry + Raspberry Pi 4), fusing IMU and audio signals via a hierarchical finite-state machine, achieving F1 0.78 on a 500-event corpus (IEEE IS2 2025).
+\begin{cvrole}{Visiting Researcher}{McGill University}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Prototyped and evaluated a real-time gesture detection ML system on multimodal sensor + time-series data. Assessed deployment feasibility and compute trade-offs for near real-time inference.
+    \item Explored generative AI methods (diffusion-based and VAE-based synthetic data generation) to improve model robustness under limited labeled data regimes, with findings directly shaping deployment decisions.
 \end{cvrole}
 
-\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
-\item Built ML and statistical pipelines for financial forensics, compliance monitoring, and anomaly detection on large structured enterprise data.
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo 02, Sri Lanka}{Jan 2024}{Mar 2024}
+    \item Ran human-centered evaluations of ML-driven interactive systems, combining performance metrics and user feedback to produce concrete recommendations on usability, interpretability, and adoption readiness.
 \end{cvrole}
 
-\section*{Selected Projects \footnotesize {\normalfont{(full portfolio: \href{https://nishal.xyz/research}{\textit{nishal.xyz/research}})}}}
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo 05, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item Designed and deployed ML and statistical modeling pipelines for financial forensics, compliance monitoring, and risk detection on large structured enterprise datasets.
+    \item Worked with compliance and risk stakeholders to define detection requirements and turn them into technical specs, keeping business and engineering tightly aligned.
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Led end-to-end development and deployment of ML and computer vision systems (OpenCV, C++) for manufacturing at scale, integrating cameras, sensor streams and PLCs into production workflows; improved operational efficiency by up to 300\%.
+    \item Built care-label QC and loom-side fabric-defect inspection on industrial cameras with PLC-controlled reject, cutting inspection time by 99.5\% and operator headcount by 50\% (pilot); also built OCR and layout-segmentation pipelines for document digitization.
+    \item Built real-time data ingestion and ETL pipelines for high-frequency IoT and operational time-series data across distributed sites, with quality checks and monitoring to keep reliability consistent.
+    \item Deployed human-in-the-loop inspection models balancing throughput against operational risk; mentored engineers and established code review and CI/CD practices to accelerate ML adoption across teams.
+    \item Worked closely with product, operations, and engineering stakeholders to define scope and delivery milestones, consistently turning business needs into specific, measurable technical solutions.
+\end{cvrole}
+
+\section*{Education}
+\noindent\textbf{Ph.D - Information Engineering and Computer Science} \textit{\small{ - University of Trento, Italy}} \hfill \textit{Jan 2025}\\[2pt]
+\noindent\textbf{M.Sc - Telecommunication and Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[2pt]
+\noindent\textbf{B.Eng (Hons) - Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+\section*{Selected Publications \footnotesize {\normalfont{(full list of publications available at: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}}.)}}}
 \begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
-    \item \textbf{Tech-Pack Digitization:} Pre-LLM OCR and layout segmentation of physical garment blueprints into a searchable digital archive.
-    \item \textbf{Lace Archive \& ERP Search:} Flatbed and microscopic capture preserving lace relief detail with designer metadata tagging and context-aware ERP search; still in production use.
-    \item \textbf{Nebula:} open-source C++17 audio-feature-extraction library with per-feature ARM latency benchmarks (\href{https://github.com/ns2max/nebula}{\textit{nebula on GitHub}})
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Mar. 2026.
+    \item Silva, N., Wanderley, M. and Turchet, L. \textit{Melody and Motion: Integrating Guitar Gesture Detection with Musical Patterns for Extended Control....} IEEE International Symposium on the Internet of Sounds, Oct. 2025.
 \end{itemize}
 
-\section*{Publications}
-Silva, N. \& Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. \textit{Journal of the Audio Engineering Society}, 74(3). Silva, N. \& Turchet, L. (2022). A Structural Similarity Index Based Method to Detect Symbolic Monophonic Patterns in Real-Time, achieving 95\% detection without training data. \textit{Proceedings of the International Conference on Digital Audio Effects (DAFx)}.
-
-\section*{Highlights}
-MIDI Innovation Awards 2023 Finalist ("Hot Licks", Prototypes \& Non-Commercial Software). GMOA recognition (Government Medical Officers' Association, Sri Lanka, 2020) for a COVID-19 remote patient-vitals computer-vision monitoring deployment. Uses AI-assisted engineering workflows including Claude Code for tooling and pipeline development.
-
+\section*{Independent Research , Awards, Volunteer Work}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{MIDI Innovation Awards:} Finalist (Sep 2023): Real-time symbolic pattern detection system for smart instruments.
+    \item \textbf{GMOA Recognition (Sri Lanka):} Computer vision system for COVID-19 patient vitals monitoring, deployed across hospital wards during the pandemic; enabled remote monitoring and reduced healthcare worker exposure.
+\end{itemize}
 \end{document}

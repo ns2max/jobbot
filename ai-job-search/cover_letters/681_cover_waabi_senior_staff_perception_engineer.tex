@@ -1,0 +1,84 @@
+% Job posting: https://jobs.lever.co/waabi/70c7e203-8ab2-4e00-a8df-ddc9250fdeb8
+% =====================================================================
+%  COVER LETTER - Nishal Stanislaus Silva, PhD
+%  Job 681 - Waabi - Senior / Staff Perception Engineer (Autonomy & Algorithms)
+%  Variant: V5 Computer Vision / Industrial
+% =====================================================================
+\documentclass[11pt]{article}
+
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+\newcommand{\clTagline}{Computer Vision \& ML Engineer | Industrial Inspection, IoT \& Edge Deployment}
+\newcommand{\clRole}{Senior / Staff Perception Engineer}
+\newcommand{\clCompany}{Waabi}
+\newcommand{\clTeam}{the Autonomy \& Algorithms team}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{}, Autonomy \& Algorithms - \clCompany{}}
+
+Dear Hiring Manager,
+
+I am applying for the \clRole{} role at \clCompany{}, at the Senior level. Most of my career has been perception work: turning camera and multi-sensor streams into decisions that hold up on deployed hardware. At MAS Holdings I shipped production computer vision for manufacturing, including the camera-to-print geometry alignment behind Promptly, now a commercial on-demand printing product with facilities in four countries. In my PhD and postdoc at the University of Trento I took deep learning detectors for streaming sensor data from prototype to device, reaching 14~ms inference on a Raspberry Pi~4 at F1 0.76, 74x faster than the DTW baseline (JAES 2026).
+
+What draws me to \clCompany{} is that a Toronto-based team is putting research into commercial service: customer operations with Volvo in Texas began this month, and the same end-to-end model is meant to serve both trucks and robotaxis. Waabi World, the company's closed-loop simulator, ties real-world data, simulation and rigorous evaluation together, which is how I already work.
+
+Three parts of the role match what I have done:
+\begin{itemize}[leftmargin=1.4em, itemsep=0.1em, topsep=0.1em]
+    \item \textbf{Multimodal sensor fusion.} At McGill I fused an IMU gesture detector (LSTM) with audio pattern detection through a hierarchical state machine, F1 0.78 on 500 events (IEEE IS2 2025). On the EU MUSMET project I built a real-time pipeline that time-synchronizes audio, EEG and mixed-reality head/hand tracking from four performers at once.
+    \item \textbf{Rigorous experimental validation.} I design benchmark suites and ablations before I trust a model (RNN vs.\ DTW, audio vs.\ MIDI, set sizes 1/3/10), published four open datasets with 9,800+ recordings, and recently ran a 100,000-trial benchmark of six scoring methods.
+    \item \textbf{Production-quality code.} Python and C++17 are my primary languages; I ran C++/Python inference engines on embedded hardware, and introduced CI/CD and code review at MAS.
+\end{itemize}
+
+I have not yet driven projects on 3D detection or tracking of traffic agents, and I have not worked with LiDAR or self-driving data. What transfers directly is camera geometry and registration from Promptly, temporal state over noisy sensor streams, and a habit of proving a model on held-out real data before it ships. In my first months I would learn the domain through Waabi's datasets and simulator while contributing evaluation and fusion tooling to the perception stack.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately for onsite, hybrid or remote work. I would welcome the chance to discuss how my experience in real-time perception and sensor fusion can support \clTeam{}. My publications and open datasets are at \href{\clSite}{nishal.xyz}.
+
+\vspace{8pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

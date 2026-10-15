@@ -37,6 +37,10 @@ There is **one job-ID space** across both tools. career-ops is the authority: wh
 
 `resumes/` and `cover-letters/` hold the one canonical copy of every above-threshold, not-yet-applied CV/cover-letter pair (career-ops score ≥4.0/5 evaluated, or ai-job-search fit_rating ≥80/100 drafted) — named `{canonical_id}_{company-slug}_{role-slug}.{ext}`. Run `python3 tools/unify_documents.py` after any new pair is generated to relocate it there; each tool still records what it did (career-ops gets a `[docs: unified]` tag in its Notes column, ai-job-search's `cv_file`/`cover_letter_file` columns get rewritten to the new path) — the move doesn't erase either tool's own history, it just leaves one copy of the actual files. Full rule in `.claude/skills/pipeline-pm/SKILL.md`.
 
+## Golden resume rule (applies to every CV/cover-letter pair)
+
+Nishal's interviews almost all came from the generic resume or very light edits of it. **`ai-job-search/resume_generic/Nishal_Silva_ML_Research_Engineer.pdf` is the golden standard** (read the `.md` mirror; `.tex` is a reconstructed source). For every role: start from it and make the **absolute minimum edits** for ATS keyword match and JD relevance (swap/reorder a few competency and stack terms, tweak summary/tagline wording, reorder or trim bullets, surface relevant past experience from `ai-job-search/input/knowledge-graph.md`). Replicate his writing style from the golden resume. Major changes (exaggerated content, full/longer publication lists, datasets, project lists) only when truly necessary, with reasoning given to the user. Still compile the PDF and verify the ATS text layer. Never compile inside `resume_generic/` under the golden filename (it overwrites the golden PDF).
+
 ## Rules
 
 - Never edit either tool's system-layer files (`career-ops/modes/_shared.md`, `ai-job-search/.claude/skills/*`) from this root role — customization requests for a specific tool go through that tool's own CLAUDE.md rules.

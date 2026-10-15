@@ -237,3 +237,7 @@ Extract the text layer with `python tools/verify_pdf.py cv/<id>_main_<company>_<
 - [ ] Date ranges use a single ASCII hyphen in date fields (en-dash breaks some ATS date parsers)
 - [ ] Reading order matches visual order
 - [ ] Posting keywords covered or honestly absent (knowledge-graph.md §14 keyword bank); never stuffed
+
+
+## Golden resume rule (overrides CV variant V1-V6 tailoring)
+Start every CV from `resume_generic/Nishal_Silva_ML_Research_Engineer.md/.tex/.pdf` and make only the absolute minimum edits (ATS keywords + JD relevance, in his own writing style). Major changes (exaggeration, full publication/dataset/project lists) only when necessary and with reasoning shown to the user. Never compile in `resume_generic/` under the golden filename.

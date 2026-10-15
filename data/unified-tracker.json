@@ -1,14 +1,14 @@
 {
   "career_ops": {
-    "total": 285,
-    "max_id": 1447
+    "total": 301,
+    "max_id": 1461
   },
   "ai_job_search": {
-    "total": 102,
-    "max_id": 1404
+    "total": 110,
+    "max_id": 1662
   },
-  "unified_total": 376,
-  "next_safe_id": 1448,
+  "unified_total": 394,
+  "next_safe_id": 1663,
   "id_collisions": [],
   "renumber_plan": [
     {
@@ -64,20 +64,9 @@
       "new_id": 109,
       "company": "StackAdapt",
       "role": "Senior/Staff Machine Learning Engineer"
-    },
-    {
-      "old_id": 1146,
-      "new_id": 632,
-      "company": "Amazon",
-      "role": "Applied Scientist, Alexa Connections"
     }
   ],
   "stale_applied": [
-    {
-      "id": 1099,
-      "company": "onsemi",
-      "role": "Machine Learning Engineer, Edge AI"
-    },
     {
       "id": 619,
       "company": "Samsara",
@@ -194,11 +183,6 @@
       "role": "Vision Software Developer II"
     },
     {
-      "id": 1231,
-      "company": "Sonova",
-      "role": "Hearing Performance Developer"
-    },
-    {
       "id": 1176,
       "company": "Epic Games",
       "role": "Senior Software Programmer, Audio Engine"
@@ -212,11 +196,6 @@
       "id": 1178,
       "company": "L'Or\u00e9al (ModiFace)",
       "role": "ModiFace Sr. AI Researcher"
-    },
-    {
-      "id": 1238,
-      "company": "Amazon",
-      "role": "Sr. Applied Scientist, Silicon and Systems Group Edge AI"
     },
     {
       "id": 1179,
@@ -259,11 +238,6 @@
       "role": "Staff Engineer, Computer Vision"
     },
     {
-      "id": 1185,
-      "company": "Geotab",
-      "role": "Computer Vision Engineering"
-    },
-    {
       "id": 1186,
       "company": "Stingray",
       "role": "AI Software Developer"
@@ -276,7 +250,7 @@
     {
       "id": 1195,
       "company": "Huawei Canada",
-      "role": "Research Engineer - Multimodal AI & Interaction (Markham)"
+      "role": "Research Engineer - Multimodal AI & Interaction"
     },
     {
       "id": 1212,
@@ -284,24 +258,9 @@
       "role": "Audio Software Engineer - EA SPORTS UFC"
     },
     {
-      "id": 1233,
-      "company": "Garmin",
-      "role": "Algorithm Software Engineer"
-    },
-    {
-      "id": 1235,
-      "company": "Kepler Communications",
-      "role": "Embedded Software Designer - Processing & Algorithms"
-    },
-    {
       "id": 1241,
       "company": "Kinaxis",
       "role": "Architect, Machine Learning (Principal Scientist)"
-    },
-    {
-      "id": 1242,
-      "company": "Musashi AI North America",
-      "role": "Senior Computer Vision Engineer"
     },
     {
       "id": 1151,
@@ -469,9 +428,9 @@
       "role": "Senior Embedded Engineer, AI IP"
     },
     {
-      "id": 632,
+      "id": 1146,
       "company": "Amazon",
-      "role": "Applied Scientist, Sales AI"
+      "role": "Applied Scientist, Alexa Connections"
     },
     {
       "id": 1155,
@@ -582,6 +541,41 @@
       "id": 1404,
       "company": "Assembler AI",
       "role": "Computer Vision Engineer"
+    },
+    {
+      "id": 1115,
+      "company": "Affirm",
+      "role": "Senior Machine Learning Engineer (Fraud)"
+    },
+    {
+      "id": 696,
+      "company": "Grafana Labs",
+      "role": "Staff AI Engineer, Grafana AI/ML"
+    },
+    {
+      "id": 1074,
+      "company": "Cohere",
+      "role": "Applied AI Engineer, Agents & Automations"
+    },
+    {
+      "id": 681,
+      "company": "Waabi",
+      "role": "Senior / Staff Perception Engineer"
+    },
+    {
+      "id": 631,
+      "company": "Tubi",
+      "role": "Senior Machine Learning Engineer"
+    },
+    {
+      "id": 1635,
+      "company": "Jobgether (recruiter; employer undisclosed)",
+      "role": "Founding ML Engineer, Computer Vision (Object Detection)"
+    },
+    {
+      "id": 1662,
+      "company": "Mecka AI",
+      "role": "Edge ML Engineer - Computer Vision"
     },
     {
       "id": 1124,
@@ -1034,10 +1028,10 @@
       "unified_score": 80.0
     },
     {
-      "id": 1115,
+      "id": 1451,
       "tool": "c",
-      "company": "Affirm",
-      "role": "Senior Machine Learning Engineer (Fraud)",
+      "company": "Autodesk",
+      "role": "Machine Learning Developer (Motion)",
       "unified_score": 76.0
     },
     {
@@ -1048,41 +1042,6 @@
       "unified_score": 76.0
     },
     {
-      "id": 696,
-      "tool": "c",
-      "company": "Grafana Labs",
-      "role": "Staff AI Engineer, Grafana AI/ML",
-      "unified_score": 76.0
-    },
-    {
-      "id": 1114,
-      "tool": "c",
-      "company": "Innodata",
-      "role": "Applied Research Scientist, LLM Evaluation & Post-Training",
-      "unified_score": 74.0
-    },
-    {
-      "id": 1074,
-      "tool": "c",
-      "company": "Cohere",
-      "role": "Applied AI Engineer, Agents & Automations",
-      "unified_score": 74.0
-    },
-    {
-      "id": 681,
-      "tool": "c",
-      "company": "Waabi",
-      "role": "Senior / Staff Perception Engineer",
-      "unified_score": 74.0
-    },
-    {
-      "id": 631,
-      "tool": "c",
-      "company": "Tubi",
-      "role": "Senior Machine Learning Engineer",
-      "unified_score": 74.0
-    },
-    {
       "id": 618,
       "tool": "c",
       "company": "Audimee",
@@ -1090,11 +1049,11 @@
       "unified_score": 74.0
     },
     {
-      "id": 1099,
-      "tool": "a",
-      "company": "onsemi",
-      "role": "Machine Learning Engineer, Edge AI",
-      "unified_score": 73.0
+      "id": 1450,
+      "tool": "c",
+      "company": "Ideogram",
+      "role": "Applied Machine Learning Engineer",
+      "unified_score": 72.0
     },
     {
       "id": 1308,
@@ -1132,20 +1091,6 @@
       "unified_score": 72.0
     },
     {
-      "id": 699,
-      "tool": "c",
-      "company": "Samsara",
-      "role": "Senior Data Engineer",
-      "unified_score": 72.0
-    },
-    {
-      "id": 1113,
-      "tool": "c",
-      "company": "Innodata",
-      "role": "AI/ML Research Engineer, LLM Post-Training & Evaluation",
-      "unified_score": 70.0
-    },
-    {
       "id": 1116,
       "tool": "c",
       "company": "Extreme Networks",
@@ -1160,17 +1105,24 @@
       "unified_score": 70.0
     },
     {
-      "id": 1405,
-      "tool": "c",
-      "company": "Crystal Fountains (via NuBinary)",
-      "role": "Senior Software Developer",
+      "id": 1115,
+      "tool": "c+a",
+      "company": "Affirm",
+      "role": "Senior Machine Learning Engineer (Fraud)",
+      "unified_score": 69.0
+    },
+    {
+      "id": 631,
+      "tool": "c+a",
+      "company": "Tubi",
+      "role": "Senior Machine Learning Engineer",
       "unified_score": 68.0
     },
     {
-      "id": 1406,
+      "id": 1449,
       "tool": "c",
-      "company": "MobilityData",
-      "role": "Software Developer (Remote)",
+      "company": "Picovoice",
+      "role": "Applied Speech Scientist",
       "unified_score": 68.0
     },
     {
@@ -1188,31 +1140,24 @@
       "unified_score": 68.0
     },
     {
-      "id": 1231,
-      "tool": "a",
-      "company": "Sonova",
-      "role": "Hearing Performance Developer",
-      "unified_score": 66.0
+      "id": 681,
+      "tool": "c+a",
+      "company": "Waabi",
+      "role": "Senior / Staff Perception Engineer",
+      "unified_score": 67.5
     },
     {
-      "id": 1127,
-      "tool": "c",
-      "company": "SecurityScorecard",
-      "role": "Senior Data Scientist",
-      "unified_score": 66.0
+      "id": 696,
+      "tool": "c+a",
+      "company": "Grafana Labs",
+      "role": "Staff AI Engineer, Grafana AI/ML",
+      "unified_score": 66.5
     },
     {
       "id": 1129,
       "tool": "c",
       "company": "npv labs / PulsePoint",
       "role": "Machine Learning Engineer",
-      "unified_score": 66.0
-    },
-    {
-      "id": 1072,
-      "tool": "c",
-      "company": "Grafana Labs",
-      "role": "Senior ML Engineer, Developer Advocacy (Recommender Systems)",
       "unified_score": 66.0
     },
     {
@@ -1230,6 +1175,13 @@
       "unified_score": 66.0
     },
     {
+      "id": 1074,
+      "tool": "c+a",
+      "company": "Cohere",
+      "role": "Applied AI Engineer, Agents & Automations",
+      "unified_score": 65.5
+    },
+    {
       "id": 1100,
       "tool": "a",
       "company": "Picovoice",
@@ -1242,20 +1194,6 @@
       "company": "Huawei Canada",
       "role": "Senior Researcher, Edge AI Optimization / Hardware-Aware ML",
       "unified_score": 65.0
-    },
-    {
-      "id": 1238,
-      "tool": "a",
-      "company": "Amazon",
-      "role": "Sr. Applied Scientist, Silicon and Systems Group Edge AI",
-      "unified_score": 65.0
-    },
-    {
-      "id": 1123,
-      "tool": "c",
-      "company": "Tenstorrent",
-      "role": "Machine Learning Research Engineer (LLMs & AI Systems)",
-      "unified_score": 64.0
     },
     {
       "id": 1126,
@@ -1349,10 +1287,31 @@
       "unified_score": 62.0
     },
     {
-      "id": 1446,
+      "id": 1635,
+      "tool": "a",
+      "company": "Jobgether (recruiter; employer undisclosed)",
+      "role": "Founding ML Engineer, Computer Vision (Object Detection)",
+      "unified_score": 62.0
+    },
+    {
+      "id": 1662,
+      "tool": "a",
+      "company": "Mecka AI",
+      "role": "Edge ML Engineer - Computer Vision",
+      "unified_score": 62.0
+    },
+    {
+      "id": 1634,
+      "tool": "a",
+      "company": "AquaEye / VodaSafe",
+      "role": "Lead Applied Scientist - Signal Processing & ML",
+      "unified_score": 62.0
+    },
+    {
+      "id": 1454,
       "tool": "c",
-      "company": "TDK Trusted Positioning",
-      "role": "Sr. Embedded Software Developer (12-month fixed-term)",
+      "company": "Samsara",
+      "role": "Data Engineer",
       "unified_score": 62.0
     },
     {
@@ -1391,13 +1350,6 @@
       "unified_score": 60.0
     },
     {
-      "id": 1185,
-      "tool": "a",
-      "company": "Geotab",
-      "role": "Computer Vision Engineering",
-      "unified_score": 60.0
-    },
-    {
       "id": 1186,
       "tool": "a",
       "company": "Stingray",
@@ -1419,20 +1371,6 @@
       "unified_score": 60.0
     },
     {
-      "id": 1233,
-      "tool": "a",
-      "company": "Garmin",
-      "role": "Algorithm Software Engineer",
-      "unified_score": 60.0
-    },
-    {
-      "id": 1235,
-      "tool": "a",
-      "company": "Kepler Communications",
-      "role": "Embedded Software Designer - Processing & Algorithms",
-      "unified_score": 60.0
-    },
-    {
       "id": 1241,
       "tool": "a",
       "company": "Kinaxis",
@@ -1440,45 +1378,10 @@
       "unified_score": 60.0
     },
     {
-      "id": 1242,
-      "tool": "a",
-      "company": "Musashi AI North America",
-      "role": "Senior Computer Vision Engineer",
-      "unified_score": 60.0
-    },
-    {
-      "id": 1419,
-      "tool": "c",
-      "company": "MRL Consulting (undisclosed client)",
-      "role": "Principal Computer Vision Scientist",
-      "unified_score": 60.0
-    },
-    {
       "id": 1310,
       "tool": "c",
       "company": "Fullscript",
       "role": "Senior Machine Learning Engineer",
-      "unified_score": 60.0
-    },
-    {
-      "id": 1125,
-      "tool": "c",
-      "company": "NovoEd",
-      "role": "Sr. AI Engineer",
-      "unified_score": 60.0
-    },
-    {
-      "id": 1131,
-      "tool": "c",
-      "company": "Affinity",
-      "role": "Senior Machine Learning Engineer",
-      "unified_score": 60.0
-    },
-    {
-      "id": 879,
-      "tool": "c",
-      "company": "Baseten",
-      "role": "Software Engineer - Baseten Inference Stack",
       "unified_score": 60.0
     },
     {
@@ -1496,13 +1399,6 @@
       "unified_score": 60.0
     },
     {
-      "id": 654,
-      "tool": "c",
-      "company": "Reddit",
-      "role": "Sr. Staff Data Scientist, Ads Measurement, Signals, Privacy",
-      "unified_score": 60.0
-    },
-    {
       "id": 674,
       "tool": "c",
       "company": "Modal Labs",
@@ -1517,10 +1413,10 @@
       "unified_score": 59.0
     },
     {
-      "id": 1407,
+      "id": 1448,
       "tool": "c",
-      "company": "Kelluu",
-      "role": "R&D Project Manager",
+      "company": "Evertz",
+      "role": "DSP Engineer",
       "unified_score": 58.0
     },
     {
@@ -1528,13 +1424,6 @@
       "tool": "c",
       "company": "Dartmouth College",
       "role": "Postdoctoral Researcher: Next-Generation Wearable & Sensing Systems",
-      "unified_score": 56.0
-    },
-    {
-      "id": 1423,
-      "tool": "c",
-      "company": "Volatus Aerospace",
-      "role": "Solution Architect",
       "unified_score": 56.0
     },
     {
@@ -1566,13 +1455,6 @@
       "unified_score": 54.0
     },
     {
-      "id": 1410,
-      "tool": "c",
-      "company": "PML Sound International",
-      "role": "Technical Project Manager",
-      "unified_score": 54.0
-    },
-    {
       "id": 1420,
       "tool": "c",
       "company": "Toyota Technological Institute at Chicago (TTIC)",
@@ -1580,18 +1462,18 @@
       "unified_score": 54.0
     },
     {
+      "id": 1455,
+      "tool": "c",
+      "company": "Wealthsimple",
+      "role": "Senior Software Developer, ML Platform & Infrastructure",
+      "unified_score": 52.0
+    },
+    {
       "id": 1307,
       "tool": "c",
       "company": "Waabi",
       "role": "Senior / Staff Software Engineer, AI Tooling",
       "unified_score": 52.0
-    },
-    {
-      "id": 1413,
-      "tool": "c",
-      "company": "Cogeco",
-      "role": "Product Owner, AI Factory",
-      "unified_score": 50.0
     },
     {
       "id": 1422,
@@ -1615,10 +1497,17 @@
       "unified_score": 50.0
     },
     {
-      "id": 1412,
+      "id": 1461,
       "tool": "c",
-      "company": "Teledyne Digital Imaging",
-      "role": "Senior Technical Leader",
+      "company": "Innodata",
+      "role": "Gen AI Engineer",
+      "unified_score": 48.0
+    },
+    {
+      "id": 1458,
+      "tool": "c",
+      "company": "Later",
+      "role": "MLOps Engineer",
       "unified_score": 48.0
     },
     {
@@ -1636,52 +1525,31 @@
       "unified_score": 48.0
     },
     {
-      "id": 1418,
+      "id": 1457,
       "tool": "c",
-      "company": "Greenhouse",
-      "role": "Senior Software Engineer",
-      "unified_score": 48.0
-    },
-    {
-      "id": 1428,
-      "tool": "c",
-      "company": "Vention",
-      "role": "Senior Software Engineer - Simulation",
-      "unified_score": 48.0
-    },
-    {
-      "id": 1409,
-      "tool": "c",
-      "company": "OSI Maritime Systems",
-      "role": "Software Engineering - Systems Test Engineer P3",
+      "company": "Wealthsimple",
+      "role": "Data Scientist, Sales (body: Senior Data Scientist)",
       "unified_score": 46.0
     },
     {
-      "id": 1416,
+      "id": 1459,
       "tool": "c",
-      "company": "Amazon",
-      "role": "Sr. Technical Program Manager, Alexa+ Comms",
-      "unified_score": 46.0
+      "company": "Later",
+      "role": "Senior Data Platform Engineer",
+      "unified_score": 44.0
     },
     {
-      "id": 1411,
+      "id": 1456,
       "tool": "c",
-      "company": "Teledyne DALSA",
-      "role": "Technical Leader (Space & Defense image sensors)",
-      "unified_score": 42.0
+      "company": "Wealthsimple",
+      "role": "Senior Data Scientist, Growth Data",
+      "unified_score": 40.0
     },
     {
-      "id": 1417,
+      "id": 1453,
       "tool": "c",
-      "company": "ORBCOMM",
-      "role": "Test Engineer",
-      "unified_score": 42.0
-    },
-    {
-      "id": 1427,
-      "tool": "c",
-      "company": "Astucemedia",
-      "role": "Lead Software Engineer - AI, Data Visualization & Platform",
+      "company": "Taskclan",
+      "role": "Founding AI/ML Engineer",
       "unified_score": 40.0
     },
     {
@@ -1699,10 +1567,10 @@
       "unified_score": 40.0
     },
     {
-      "id": 1444,
+      "id": 1460,
       "tool": "c",
-      "company": "Safran.AI",
-      "role": "Senior Deep Learning Scientist - IMINT",
+      "company": "Faire",
+      "role": "Staff Data Infrastructure Engineer",
       "unified_score": 36.0
     },
     {
@@ -1720,13 +1588,6 @@
       "unified_score": 32.0
     },
     {
-      "id": 1425,
-      "tool": "c",
-      "company": "Boson AI",
-      "role": "Senior Software Engineer - Ceph",
-      "unified_score": 30.0
-    },
-    {
       "id": 1432,
       "tool": "c",
       "company": "Matrox",
@@ -1734,87 +1595,10 @@
       "unified_score": 30.0
     },
     {
-      "id": 1429,
-      "tool": "c",
-      "company": "GE Vernova",
-      "role": "Technical Leader (Grid Automation, Markham)",
-      "unified_score": 28.0
-    },
-    {
-      "id": 1430,
-      "tool": "c",
-      "company": "Hatch",
-      "role": "Instrumentation & Control Engineer",
-      "unified_score": 28.0
-    },
-    {
-      "id": 1433,
-      "tool": "c",
-      "company": "Binarly",
-      "role": "Product Manager",
-      "unified_score": 28.0
-    },
-    {
-      "id": 1431,
-      "tool": "c",
-      "company": "Equest",
-      "role": "Engineering Manager, Controls & Industrial Automation",
-      "unified_score": 26.0
-    },
-    {
-      "id": 1434,
-      "tool": "c",
-      "company": "Nortak Software",
-      "role": "Technical Architect",
-      "unified_score": 22.0
-    },
-    {
-      "id": 1437,
-      "tool": "c",
-      "company": "Cisco Systems",
-      "role": "Machine Learning Engineer (Ref SJ184D)",
-      "unified_score": 20.0
-    },
-    {
       "id": 1438,
       "tool": "c",
       "company": "NVIDIA",
       "role": "Research Scientist (RS53, New York)",
-      "unified_score": 20.0
-    },
-    {
-      "id": 1439,
-      "tool": "c",
-      "company": "NVIDIA",
-      "role": "Research Scientist (various levels, Santa Clara)",
-      "unified_score": 20.0
-    },
-    {
-      "id": 1440,
-      "tool": "c",
-      "company": "Palo Alto Networks",
-      "role": "Principal Machine Learning Engineer (Ref 9730144)",
-      "unified_score": 20.0
-    },
-    {
-      "id": 1441,
-      "tool": "c",
-      "company": "Cantina",
-      "role": "Lead Applied ML Research Engineer (CL19)",
-      "unified_score": 20.0
-    },
-    {
-      "id": 1442,
-      "tool": "c",
-      "company": "Stoneridge",
-      "role": "Senior Perception Engineer",
-      "unified_score": 20.0
-    },
-    {
-      "id": 1443,
-      "tool": "c",
-      "company": "Robotics and AI Institute",
-      "role": "Machine Learning Engineer",
       "unified_score": 20.0
     },
     {
@@ -1836,13 +1620,6 @@
       "tool": "c",
       "company": "Anthropic",
       "role": "People Research Scientist, Recruiting",
-      "unified_score": null
-    },
-    {
-      "id": 887,
-      "tool": "c",
-      "company": "Anthropic",
-      "role": "Unknown (JD unavailable)",
       "unified_score": null
     },
     {
@@ -1868,12 +1645,14 @@
     }
   ],
   "by_status": {
+    "withdrawn (ai-job-search)": 7,
+    "Applied (career-ops)": 87,
     "drafted (ai-job-search)": 27,
-    "Applied (career-ops)": 85,
     "applied (ai-job-search)": 75,
-    "Discarded (career-ops)": 94,
-    "SKIP (career-ops)": 40,
-    "Evaluated (career-ops)": 65,
+    "Discarded (career-ops)": 135,
+    "SKIP (career-ops)": 36,
+    "Evaluated (career-ops)": 42,
+    "expired (ai-job-search)": 1,
     "Rejected (career-ops)": 1
   },
   "unified_tracker_path": "data/unified-tracker.md"

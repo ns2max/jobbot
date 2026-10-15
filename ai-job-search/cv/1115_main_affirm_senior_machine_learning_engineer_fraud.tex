@@ -1,0 +1,149 @@
+% Job posting: https://job-boards.greenhouse.io/affirm/jobs/7806920003
+% =====================================================================
+%  CV -- Nishal Stanislaus Silva, PhD
+%  Job 1115: Affirm, Senior Machine Learning Engineer (Fraud), Remote Canada
+%  Variant: V1 AI-INDUSTRY (2 pages). Fintech/anomaly framing per KG §15.5:
+%  Forestpin + MAS real-time/IoT foregrounded. Compile: tectonic -X compile
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- SECTION FORMAT ----------
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION ----------
+\newcommand{\cvTagline}{Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied ML}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+% ============================== HEADER ===============================
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \cvTagline}
+    \\[1pt]
+    {\footnotesize\textit{\cvStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail}
+    \,\,|\,\, \cvPhone
+    \,\,|\,\, \cvCity
+    \,\,|\,\, \href{\cvSite}{nishal.xyz}
+    \,\,|\,\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,\,|\,\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+% ========================= PROFESSIONAL SUMMARY ======================
+\section*{Professional Summary}
+Machine learning engineer with 10+ years across industry and academia, delivering ML models that make live decisions under tight latency budgets. I build end-to-end: feature pipelines and training datasets, offline experiments, deployment into real-time and batch decision systems, and monitoring. Domains: financial risk and anomaly detection on structured data (Forestpin), real-time inference on streaming behavioral and sensor time-series, and production computer vision and IoT at manufacturing scale. Verified results include a real-time detector running at 14 ms with F1 0.76, 74$\times$ faster than the DTW baseline it replaced (JAES 2026), and industrial systems that improved operational efficiency by up to 300\%. Published in JAES, IEEE and ACM venues; Claude Code is part of my day-to-day development workflow.
+
+% ========================== CORE COMPETENCIES ========================
+\section*{Core Competencies}
+\textbf{ML Engineering:} low-latency ML inference, classification and anomaly detection on structured (tabular) data, feature pipelines, training datasets, offline experiments and ablations, batch and real-time decision systems, model and data monitoring, sequence models (LSTM/GRU) for behavioral time-series\\
+\textbf{Domain Expertise:} financial forensics, risk detection, compliance monitoring, anomaly scoring and triage, high-frequency IoT time-series, signal processing, industrial computer vision\\
+\textbf{Research \& Leadership:} benchmark and dataset design, evaluation metrics (F1, precision/recall, ROC-AUC, EER), code review and CI/CD, mentoring engineers, stakeholder requirements to technical specs, 10+ peer-reviewed papers
+
+% ============================ TECHNICAL STACK ========================
+\section*{Technical Stack}
+\textbf{Languages:} Python, C++17, SQL, C, JavaScript/TypeScript, MATLAB, Shell\\
+\textbf{ML / AI:} PyTorch, TensorFlow, Keras, scikit-learn, Pandas, NumPy, SciPy\\
+\textbf{Signal \& Audio Processing:} DSP, STFT, MFCC, Librosa, real-time streaming pipelines, Elk Audio OS, OSC\\
+\textbf{Data \& Cloud:} AWS (EC2, S3, ECS, MWAA, RDS), Snowflake, SQL, ETL pipelines\\
+\textbf{ML Lifecycle \& MLOps:} Airflow (training/ETL orchestration), MLflow, Docker, Jenkins, Git, pytest, CI/CD, REST APIs, Claude Code
+
+% =============================== EDUCATION ===========================
+\section*{Education}
+\textbf{Ph.D - Information Engineering and Computer Science} \textit{\small{ - University of Trento, Italy}} \hfill \textit{Jan 2025}\\[2pt]
+\noindent\textbf{M.Sc - Telecommunication and Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[2pt]
+\noindent\textbf{B.Eng (Hons) - Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+% ======================= PROFESSIONAL EXPERIENCE =====================
+\section*{Professional Experience}
+
+\begin{cvrole}{Independent Research \& Open-Source}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+    \item Benchmarked 6 scoring methods across 3 model families for a binary accept/reject classifier over 100,000 scored trials; best model reached ROC-AUC 0.822 (EER 0.267) vs.\ 0.599 for the baseline.
+    \item Built an Airflow feature pipeline (melodiq): ingestion and feature-extraction DAGs, S3-to-Snowflake loading, Dockerized, infrastructure-as-code.
+    \item Build all 2026 projects with AI-assisted workflows in Claude Code; maintain Nebula, an open-source C++17 feature library; two papers accepted (IEEE IS2 2026, JAES).
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Owned the full ML pipeline for streaming audio and IMU/gesture data on the EU Horizon EIC Pathfinder project MUSMET: acquisition, feature engineering, training and evaluation, low-latency deployment, and monitoring.
+    \item Took a real-time detector from prototype to deployment: 14 ms inference on Raspberry Pi 4 at F1 0.76 and 31.4\% CPU, 74$\times$ faster than the 1038 ms DTW baseline (JAES 2026); inference services held under 30 ms.
+    \item Designed offline benchmark suites with baselines and ablations (RNN vs.\ DTW, audio vs.\ MIDI, pattern-set sizes 1/3/10) to quantify accuracy, latency and CPU trade-offs before choosing what ships.
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University (IDMIL / CIRMMT)}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Built real-time behavioral gesture detection (LSTM on a 1 s IMU window) fused with audio pattern detection via a hierarchical state machine; P 0.79 / R 0.76 / F1 0.78 on a 500-event corpus (IEEE IS2 2025).
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+    \item Human-centred evaluation of ML-driven interactive systems: metrics plus user interviews (IEEE I3DA 2025).
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item Designed and deployed ML and statistical pipelines for financial forensics, compliance monitoring and risk detection on large structured enterprise datasets.
+    \item Built SQL + Python backend scoring services for anomaly flagging and triage in production.
+    \item Translated compliance-stakeholder requirements into technical specifications for the modelling work.
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Delivered end-to-end ML and computer-vision systems for manufacturing at scale, integrating camera, sensor and IoT streams into production workflows; improved operational efficiency by up to 300\%. Mentored engineers and introduced CI/CD and code review.
+    \item Built real-time ingestion and ETL for high-frequency IoT and operational time-series across sites in South Asia, North America and Africa, with C++/Python inference engines on embedded hardware.
+    \item Automated care-label quality control as a live accept/reject decision system (OpenCV matching, conveyor with PLC reject), cutting inspection time by 99.5\%.
+\end{cvrole}
+
+% ========================= SELECTED PUBLICATIONS =====================
+\section*{Selected Publications \footnotesize {\normalfont{(full list: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Vol.~74, No.~3, Mar. 2026.
+    \item Silva, N. and Turchet, L. \textit{Smart Drums: Comparing Audio and MIDI in Embedded Real-Time Drum Pattern Recognition}. Journal of the Audio Engineering Society, 2026 (in press).
+    \item Silva, N. and Turchet, L. \textit{Music Information Retrieval as a Service: Latency Characterization of an Edge-to-Server Architecture for Near-Real-Time Audio Analysis}. IEEE International Symposium on the Internet of Sounds, 2026 (accepted).
+\end{itemize}
+
+% ===================== HIGHLIGHTS & RECOGNITION ======================
+\section*{Independent Research, Highlights, \& Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{MIDI Innovation Awards 2023:} Finalist, ``Hot Licks'' real-time pattern detection for smart instruments.
+    \item \textbf{GMOA Recognition (Sri Lanka):} COVID-19 vitals-monitoring CV device deployed across hospital wards.
+    \item \textbf{Open datasets:} Four open-access benchmark datasets on Zenodo, 9,800+ recordings from 70+ musicians.
+\end{itemize}
+
+\end{document}

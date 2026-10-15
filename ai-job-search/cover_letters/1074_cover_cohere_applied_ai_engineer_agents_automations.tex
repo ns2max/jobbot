@@ -1,0 +1,84 @@
+% Job posting: https://jobs.ashbyhq.com/cohere/3fe03041-347a-479f-8361-6b1f5f81338e
+% =====================================================================
+%  COVER LETTER - Nishal Stanislaus Silva, PhD
+%  Job 1074 | Cohere | Applied AI Engineer, Agents & Automations (North)
+%  Variant: V1 AI-Industry (same tagline as the CV)
+% =====================================================================
+\documentclass[11pt]{article}
+
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+\newcommand{\clTagline}{Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied ML}
+\newcommand{\clRole}{Applied AI Engineer, Agents \& Automations}
+\newcommand{\clCompany}{Cohere}
+\newcommand{\clTeam}{North}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{}, \clCompany{} (\clTeam{})}
+
+Dear Hiring Manager,
+
+I am applying for the \clRole{} role on \clTeam{}. The part of the posting I recognise most is the loop it describes: watch a system fail on real tasks, turn that into a stronger eval, and change the workflow so the model is asked to do the right thing. I have run versions of that loop for ten years on ML systems that people depend on, from computer-vision quality control on a manufacturing line to a real-time detector that runs in 14 ms on a Raspberry Pi 4 at F1 0.76, 74x faster than its DTW baseline (JAES 2026).
+
+\clTeam{} puts agents and natural-language automations inside an enterprise's own environment, including private VPC and on-premises deployments, and North 2 now adds a visual workflow builder, memory across sessions and multi-step orchestration. The more steps an automation takes on its own, the more reliability becomes a product problem rather than a model metric: an automation that a user cannot inspect, steer or recover from does not get used. That is the problem I want to work on, and it is close to how I already work:
+
+\begin{itemize}[leftmargin=1.2em, itemsep=0.1em, topsep=0.2em]
+    \item \textbf{Evals before claims.} At the University of Trento I built benchmark suites and ablations (RNN vs DTW, audio vs MIDI, pattern-set sizes 1, 3 and 10) that showed which choices bought accuracy and which bought latency. This year I built an evaluation harness for a pronunciation-feedback web app that scores 6 methods over 100,000 trials (best ROC-AUC 0.822 vs 0.599 for the baseline).
+    \item \textbf{Production feedback into product behaviour.} At MAS Holdings I took a care-label QC system through three versions on the line, from flatbed scanner to industrial camera to a conveyor with PLC reject, with an explainable overlay for operators. Inspection time fell 99.5\%.
+    \item \textbf{Defining ``good'' with the people using the system.} My research includes a user study of how musicians perceive and use ML-driven instruments (IEEE I3DA 2025) and two live concerts evaluated with 20 audience members and 6 performers.
+    \item \textbf{Backend and data.} SQL + Python anomaly-scoring services in production at Forestpin, a personal Airflow-to-Snowflake ETL pipeline, and daily agentic development in Claude Code.
+\end{itemize}
+
+To be direct about the gap: I have not yet shipped an LLM- or agent-powered product into production, and my prompting and tool-use experience is at the practitioner level. What I bring is the half that decides whether such a product earns trust: evals that hold up, instrumentation that makes failures visible, and closing the loop with users. I would expect to contribute early on eval suites for multi-step agent workflows and on turning production failures into regression tests, while ramping quickly on context construction and tool-use strategy.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, and available immediately, either remotely or from Cohere's Toronto office. I would welcome the opportunity to discuss how my experience in evaluation-driven, production ML could support \clTeam{}.
+
+\vspace{8pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

@@ -1,0 +1,135 @@
+% Job posting: https://jobs.ashbyhq.com/cohere/3fe03041-347a-479f-8361-6b1f5f81338e
+% =====================================================================
+%  CV - Nishal Stanislaus Silva, PhD
+%  Job 1074 | Cohere | Applied AI Engineer, Agents & Automations (North)
+%  Variant: V1 AI-Industry (applied/product engineering role; 2 pages)
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[left=0.7in,top=0.7in,right=0.7in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{needspace}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+\titleformat{\section}{\Large\scshape}{}{4em}{}[\vspace{-0.7em}\rule{\linewidth}{0.4pt}\vspace{-0.4em}]
+\titlespacing*{\section}{0pt}{1em}{0.4em}
+
+\newenvironment{cvrole}[5]{%
+  \par\noindent\textbf{\large #1} | \textit{\small #2, #3}\hfill \textit{\small #4 - #5}\par
+  \begin{itemize}[leftmargin=2em, itemsep=-0.3em, topsep=-0.5em]%
+}{%
+  \end{itemize}\par\noindent\mbox{}\par\vspace{0.1em}%
+}
+
+\newcommand{\cvName}{Nishal Stanislaus Silva}
+\newcommand{\cvEmail}{nishal.silva@hotmail.com}
+\newcommand{\cvPhone}{+1 613 200 2030}
+\newcommand{\cvCity}{Toronto, ON}
+\newcommand{\cvSite}{https://nishal.xyz}
+\newcommand{\cvLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\cvGitHub}{https://github.com/ns2max}
+\newcommand{\cvStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+\newcommand{\cvTagline}{Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied ML}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\cvName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \cvTagline}
+    \\[1pt]
+    {\footnotesize\textit{\cvStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\cvEmail}{\cvEmail} \,|\, \cvPhone \,|\, \cvCity
+    \,|\, \href{\cvSite}{nishal.xyz} \,|\, \href{\cvLinkedIn}{linkedin.com/in/nishal-silva}
+    \,|\, \href{\cvGitHub}{github.com/ns2max}}
+\end{center}
+
+\section*{Professional Summary}
+Machine Learning Research Engineer with 10+ years across industry and academia, building ML systems that people rely on in real workflows, plus the evals, monitoring and feedback loops that make them reliable. Designs the evaluation before trusting the model: ablation-driven benchmark suites, and a 100,000-trial eval harness comparing six scoring methods for a pronunciation-feedback web app. Published a real-time detector at 14 ms on a Raspberry Pi 4, F1 0.76, 74x faster than its DTW baseline (JAES 2026); shipped production ML in manufacturing, healthcare and fintech, including QC iterated on the line from operator feedback (inspection time cut 99.5\%). Builds daily with agentic coding tools including Claude Code.
+
+\section*{Core Competencies}
+\textbf{ML Engineering:} evals and benchmark suites, ablation studies, automated testing (pytest, CI/CD), monitoring and \mbox{observability} of deployed models, feedback loops from production failures and user testing, end-to-end ML pipelines, backend scoring services\\
+\textbf{Domain Expertise:} human-AI interaction and collaboration, user studies, industrial computer vision, financial anomaly detection, audio ML and DSP, real-time inference\\
+\textbf{Research \& Leadership:} experiment design, statistical evaluation (F1, ROC-AUC, EER), 10+ peer-reviewed papers, partner coordination, mentoring, code review
+
+\section*{Technical Stack}
+\textbf{Languages:} Python, JavaScript/TypeScript, SQL, C++17, C, MATLAB, Shell\\
+\textbf{ML / AI:} PyTorch, TensorFlow, Keras, scikit-learn, HuggingFace (Wav2Vec2, transformers.js), LoRA fine-tuning, LLMs, prompt engineering\\
+\textbf{Signal \& Audio Processing:} DSP, STFT, MFCC, MIR, Librosa, SciPy, real-time audio (JUCE, Elk Audio OS, OSC)\\
+\textbf{Data \& Cloud:} AWS (EC2, S3, ECS, MWAA, RDS), Snowflake, SQL, ETL, Airflow, NumPy, Pandas\\
+\textbf{Dev \& MLOps:} Claude Code, Docker, Git, pytest, CI/CD, Jenkins, REST APIs, Node.js
+
+\section*{Education}
+\textbf{Ph.D - Information Engineering and Computer Science} \textit{\small{ - University of Trento, Italy}} \hfill \textit{Jan 2025}\\[2pt]
+\noindent\textbf{M.Sc - Telecommunication and Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Aug 2018}\\[2pt]
+\noindent\textbf{B.Eng (Hons) - Electronic Engineering} \textit{\small{ - Sheffield Hallam University, UK}} \hfill \textit{Mar 2014}
+
+\section*{Portfolio and Demos \footnotesize {\normalfont{(full portfolio: \href{https://nishal.xyz/research}{\textit{nishal.xyz/research}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Hot Licks: real-time pattern detection (MIDI Innovation Awards 2023 finalist): \href{https://youtu.be/gkOqfOT8zXM}{\textit{youtu.be/gkOqfOT8zXM}}
+    \item Multisensory concert enabled by smart musical instruments: \href{https://youtu.be/axEHkdnxFB8}{\textit{youtu.be/axEHkdnxFB8}}
+    \item LiveLaTeX: published real-time LaTeX compiler/preview extension for VS Code (Marketplace: \textit{ns2max.livelatex})
+\end{itemize}
+
+\needspace{8\baselineskip}
+\section*{Professional Experience}
+
+\begin{cvrole}{Independent Research \& Open-Source}{Self-directed}{Toronto, Canada}{Jan 2026}{Present}
+    \item Built speakfrench, a client-only pronunciation-scoring web app (JavaScript DSP, Wav2Vec2 via transformers.js), and an eval harness scoring 6 methods over 100,000 trials; best ROC-AUC 0.822 vs 0.599 for the DTW baseline
+    \item Build with agentic development workflows in Claude Code; built melodiq, a Dockerized Airflow-to-Snowflake ETL pipeline; MIRaaS (IEEE IS2 2026) and Smart Drums (JAES, in press) accepted
+\end{cvrole}
+
+\begin{cvrole}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025}{Dec 2025}
+    \item Owned the full ML pipeline for streaming audio and IMU data on EU Horizon project MUSMET: acquisition, feature engineering, training, evaluation, edge deployment (Raspberry Pi 4, Elk Audio OS) and monitoring
+    \item Designed benchmark suites (baselines and ablations: RNN vs DTW, audio vs MIDI, pattern-set sizes 1/3/10) quantifying accuracy, latency and CPU trade-offs; the resulting detector runs at 14 ms with F1 0.76 and 31.4\% CPU, 74x faster than DTW (JAES 2026)
+    \item Synchronized audio, BCI/EEG and mixed-reality tracking across 4 musicians in real time; ran a user study at two live concerts (20 audience, 6 performers)
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{McGill University (IDMIL/CIRMMT)}{Montreal, Canada}{May 2024}{Aug 2024}
+    \item Fused IMU gesture recognition and audio pattern detection through a hierarchical state machine on a self-powered smart guitar; F1 0.78 across a 500-event corpus (IEEE IS2 2025)
+\end{cvrole}
+
+\begin{cvrole}{Visiting Researcher}{University of Visual and Performing Arts}{Colombo, Sri Lanka}{Jan 2024}{Mar 2024}
+    \item Evaluated ML-driven interactive systems with users, combining metrics and interviews (IEEE I3DA 2025)
+\end{cvrole}
+
+\begin{cvrole}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020}{Feb 2021}
+    \item Deployed ML and statistical pipelines for financial forensics, compliance and risk detection on enterprise data
+    \item Built SQL + Python backend scoring services for anomaly flagging and production triage
+\end{cvrole}
+
+\begin{cvrole}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015}{Jul 2020}
+    \item Delivered end-to-end ML and computer-vision systems for manufacturing at scale, integrating camera, sensor and IoT streams into production workflows; operational efficiency improved by up to 300\%
+    \item Iterated care-label QC through three versions on the line (flatbed scanner, industrial camera, conveyor with PLC reject), with an explainable overlay for operators; inspection time cut 99.5\%
+    \item Designed the geometry-alignment algorithm, built the RIP integration and consulted on the flipping mechanism for Promptly, now a Twinery/MAS on-demand printing product in the US, Mexico, France and Sri Lanka
+    \item Built human-in-the-loop inspection balancing throughput against risk; mentored engineers; introduced CI/CD
+\end{cvrole}
+
+\section*{Selected Publications \footnotesize {\normalfont{(full list: \href{https://nishal.xyz/publications}{\textit{nishal.xyz/publications}})}}}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item Silva, N. and Turchet, L. \textit{Real-Time Audio Pattern Detection for Smart Musical Instruments}. Journal of the Audio Engineering Society, Vol.~74, No.~3, Mar. 2026.
+    \item Silva, N. and Turchet, L. \textit{User-Centered Evaluation of Smart Musical Instruments with Embedded Real-Time Pattern Detection}. IEEE International Conference on Immersive and 3D Audio, Sep. 2025.
+    \item Silva, N. and Turchet, L. \textit{Real-Time Pattern Recognition of Symbolic Monophonic Music}. ACM Audio Mostly 2024.
+\end{itemize}
+
+\section*{Highlights \& Recognition}
+\begin{itemize}[leftmargin=1.2em, itemsep=-0.25em]
+    \item \textbf{Open datasets:} four Zenodo datasets (DoMP, DoPP, DoDP, DoDP2), 9,800+ recordings, 70+ musicians.
+    \item \textbf{GMOA Recognition (Sri Lanka):} COVID-19 vitals computer-vision system deployed across hospital wards.
+\end{itemize}
+
+\end{document}
