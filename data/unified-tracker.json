@@ -1,581 +1,26 @@
 {
   "career_ops": {
-    "total": 301,
-    "max_id": 1461
+    "total": 316,
+    "max_id": 1476
   },
   "ai_job_search": {
-    "total": 110,
-    "max_id": 1662
+    "total": 0,
+    "max_id": null
   },
-  "unified_total": 394,
-  "next_safe_id": 1663,
+  "unified_total": 316,
+  "next_safe_id": 1477,
   "id_collisions": [],
-  "renumber_plan": [
-    {
-      "old_id": 1098,
-      "new_id": 619,
-      "company": "Samsara",
-      "role": "Staff Machine Learning Engineer, Edge AI"
-    },
-    {
-      "old_id": 1107,
-      "new_id": 9,
-      "company": "AssemblyAI",
-      "role": "Senior Software Engineer, Inference"
-    },
-    {
-      "old_id": 1150,
-      "new_id": 1134,
-      "company": "XYZ Reality",
-      "role": "AI Platform & Machine Learning Engineer"
-    },
-    {
-      "old_id": 1170,
-      "new_id": 329,
-      "company": "Cohere",
-      "role": "Audio Inference Engineer, Model Efficiency"
-    },
-    {
-      "old_id": 1172,
-      "new_id": 321,
-      "company": "Waabi",
-      "role": "Research Engineer, Sensor Signal Processing"
-    },
-    {
-      "old_id": 1183,
-      "new_id": 612,
-      "company": "Motorola Solutions",
-      "role": "Senior Software Engineer - AI/Computer Vision (Camera Systems)"
-    },
-    {
-      "old_id": 1153,
-      "new_id": 137,
-      "company": "Affirm",
-      "role": "Machine Learning Engineer II (Underwriting ML)"
-    },
-    {
-      "old_id": 1158,
-      "new_id": 636,
-      "company": "Life360",
-      "role": "Staff Firmware Engineer, AI Native, Edge ML"
-    },
-    {
-      "old_id": 1200,
-      "new_id": 109,
-      "company": "StackAdapt",
-      "role": "Senior/Staff Machine Learning Engineer"
-    }
-  ],
+  "renumber_plan": [],
   "stale_applied": [
-    {
-      "id": 619,
-      "company": "Samsara",
-      "role": "Staff Machine Learning Engineer - Edge AI"
-    },
-    {
-      "id": 1100,
-      "company": "Picovoice",
-      "role": "Deep Learning Researcher"
-    },
-    {
-      "id": 9,
-      "company": "AssemblyAI",
-      "role": "Senior Software Engineer, ML"
-    },
-    {
-      "id": 1108,
-      "company": "Waabi",
-      "role": "Research Scientist"
-    },
-    {
-      "id": 1169,
-      "company": "Amii",
-      "role": "Machine Learning Resident, Client: OpenCycle (12 month term)"
-    },
-    {
-      "id": 1165,
-      "company": "Invision AI",
-      "role": "Machine Learning Engineer"
-    },
-    {
-      "id": 1139,
-      "company": "Eli Health",
-      "role": "Machine Learning Scientist"
-    },
-    {
-      "id": 1161,
-      "company": "Huawei Canada",
-      "role": "Senior Researcher, Edge AI Optimization / Hardware-Aware ML"
-    },
-    {
-      "id": 1163,
-      "company": "Qualcomm",
-      "role": "Machine Learning Engineer, AI Processors (Sr to Staff)"
-    },
-    {
-      "id": 1156,
-      "company": "Qualcomm",
-      "role": "AI/Machine Learning Engineer (Embedded Systems, Inference Efficiency)"
-    },
-    {
-      "id": 1137,
-      "company": "Clarius Mobile Health",
-      "role": "Machine Learning Engineer"
-    },
-    {
-      "id": 1167,
-      "company": "Magna International",
-      "role": "A.I Engineer (Machine Learning Engineer)"
-    },
-    {
-      "id": 1111,
-      "company": "Kogniz",
-      "role": "Machine Learning Engineer"
-    },
-    {
-      "id": 1162,
-      "company": "MDA Space",
-      "role": "Embedded Artificial Intelligence Architect (Technical Lead)"
-    },
-    {
-      "id": 1145,
-      "company": "Amazon",
-      "role": "Senior Applied Scientist, Alexa Smart Home Science"
-    },
-    {
-      "id": 1134,
-      "company": "XYZ Reality",
-      "role": "AI Platform & Machine Learning Engineer"
-    },
-    {
-      "id": 1142,
-      "company": "RBC Borealis",
-      "role": "Machine Learning Researcher"
-    },
-    {
-      "id": 329,
-      "company": "Cohere",
-      "role": "Audio Inference Engineer, Model Efficiency"
-    },
-    {
-      "id": 1171,
-      "company": "Cohere",
-      "role": "Senior Research Scientist, Model Evaluation"
-    },
-    {
-      "id": 321,
-      "company": "Waabi",
-      "role": "Research Engineer, Sensor Signal Processing"
-    },
-    {
-      "id": 1173,
-      "company": "Zebra Technologies",
-      "role": "Computer Vision Software Developer, Professional II"
-    },
-    {
-      "id": 1174,
-      "company": "Flyscan Systems",
-      "role": "Signal Processing Scientist"
-    },
-    {
-      "id": 1175,
-      "company": "LMI Technologies",
-      "role": "Vision Software Developer II"
-    },
-    {
-      "id": 1176,
-      "company": "Epic Games",
-      "role": "Senior Software Programmer, Audio Engine"
-    },
-    {
-      "id": 1177,
-      "company": "Hexagon Autonomous Solutions",
-      "role": "Sensor Fusion Software Engineer"
-    },
-    {
-      "id": 1178,
-      "company": "L'Or\u00e9al (ModiFace)",
-      "role": "ModiFace Sr. AI Researcher"
-    },
-    {
-      "id": 1179,
-      "company": "Altis Labs",
-      "role": "Senior Machine Learning Scientist"
-    },
-    {
-      "id": 1180,
-      "company": "Ubisoft Montr\u00e9al",
-      "role": "Senior Audio Programmer"
-    },
-    {
-      "id": 1181,
-      "company": "Per Vices Corporation",
-      "role": "Senior Digital/FPGA Engineer"
-    },
-    {
-      "id": 1182,
-      "company": "Myant",
-      "role": "R&D Biomedical Engineer (On-Site)"
-    },
-    {
-      "id": 612,
-      "company": "Motorola Solutions",
-      "role": "Senior SWE - AI/Computer Vision (Camera Systems)"
-    },
-    {
-      "id": 1230,
-      "company": "Huawei Canada",
-      "role": "Senior Researcher, Edge AI Optimization / Hardware-Aware ML (Edmonton)"
-    },
-    {
-      "id": 1232,
-      "company": "Cerence",
-      "role": "Senior Application Developer - Industrial Voice AI & Edge Apps"
-    },
-    {
-      "id": 1184,
-      "company": "Stryker",
-      "role": "Staff Engineer, Computer Vision"
-    },
-    {
-      "id": 1186,
-      "company": "Stingray",
-      "role": "AI Software Developer"
-    },
-    {
-      "id": 1187,
-      "company": "TD",
-      "role": "Machine Learning Engineer II"
-    },
-    {
-      "id": 1195,
-      "company": "Huawei Canada",
-      "role": "Research Engineer - Multimodal AI & Interaction"
-    },
-    {
-      "id": 1212,
-      "company": "EA SPORTS",
-      "role": "Audio Software Engineer - EA SPORTS UFC"
-    },
-    {
-      "id": 1241,
-      "company": "Kinaxis",
-      "role": "Architect, Machine Learning (Principal Scientist)"
-    },
-    {
-      "id": 1151,
-      "company": "Doppel",
-      "role": "Machine Learning Engineer, Detection (TOR)"
-    },
-    {
-      "id": 137,
-      "company": "Affirm",
-      "role": "Senior Staff Machine Learning Engineer (ML Underwriting)"
-    },
-    {
-      "id": 1154,
-      "company": "EA SPORTS",
-      "role": "Machine Learning Engineer - EA SPORTS FC"
-    },
-    {
-      "id": 636,
-      "company": "Life360",
-      "role": "Staff Firmware Engineer, AI Native, Edge ML"
-    },
-    {
-      "id": 1159,
-      "company": "Dialpad",
-      "role": "AI Engineer, Agentic Voice (TTS)"
-    },
-    {
-      "id": 1188,
-      "company": "AquaEye / VodaSafe Inc",
-      "role": "Head of Machine Learning"
-    },
-    {
-      "id": 1189,
-      "company": "Kinaxis",
-      "role": "Machine Learning/Operations Research Platform Engineer"
-    },
-    {
-      "id": 1190,
-      "company": "Novarc Technologies",
-      "role": "Senior Machine Learning Developer"
-    },
-    {
-      "id": 1191,
-      "company": "Zesty.ai",
-      "role": "Senior Data Scientist - Computer Vision (Remote, Canada)"
-    },
-    {
-      "id": 1192,
-      "company": "Rockwell Automation",
-      "role": "Robotics Researcher"
-    },
-    {
-      "id": 1193,
-      "company": "Definity Financial",
-      "role": "Senior Data Specialist, Enterprise Fraud Analytics"
-    },
-    {
-      "id": 1194,
-      "company": "Schneider Electric",
-      "role": "Senior AI Data Engineering Specialist"
-    },
-    {
-      "id": 1196,
-      "company": "Huawei Canada",
-      "role": "Senior Researcher \u2013 Computer Vision & Human-Centered AI"
-    },
-    {
-      "id": 1197,
-      "company": "Huawei Canada",
-      "role": "Researcher - Physical AI"
-    },
-    {
-      "id": 109,
-      "company": "StackAdapt",
-      "role": "Senior/Staff Machine Learning Engineer"
-    },
-    {
-      "id": 1204,
-      "company": "4iiii Innovations Inc.",
-      "role": "Electrical Engineer"
-    },
-    {
-      "id": 1205,
-      "company": "Cerebras",
-      "role": "Staff Software Engineer - Tools & Infrastructure / DevOps"
-    },
-    {
-      "id": 1208,
-      "company": "Reftek Systems Inc.",
-      "role": "Senior Sensor R&D Engineer"
-    },
-    {
-      "id": 1209,
-      "company": "Ascinta Technologies",
-      "role": "Applied Physicist - Image Reconstruction"
-    },
-    {
-      "id": 1210,
-      "company": "Sonus Microsystems",
-      "role": "Software Engineer"
-    },
-    {
-      "id": 1211,
-      "company": "Sonus Microsystems",
-      "role": "Electronics Design Engineer (Postdoc)"
-    },
-    {
-      "id": 1213,
-      "company": "Warner Music Group",
-      "role": "Software Engineer"
-    },
-    {
-      "id": 1216,
-      "company": "Palona AI",
-      "role": "AI Research Engineer, Computer Vision & VLMs"
-    },
-    {
-      "id": 1218,
-      "company": "LawZero",
-      "role": "Senior ML Research Scientist"
-    },
-    {
-      "id": 1219,
-      "company": "mtl.ai",
-      "role": "Senior Research Engineer \u2013 Machine Learning, Computer Vision"
-    },
-    {
-      "id": 1223,
-      "company": "Flinks",
-      "role": "Senior Data Scientist"
-    },
-    {
-      "id": 1226,
-      "company": "STACK Construction Technologies",
-      "role": "Senior Computer Vision Engineer- Canada"
-    },
-    {
-      "id": 1228,
-      "company": "Innovasea",
-      "role": "Computer Vision Engineer"
-    },
-    {
-      "id": 1229,
-      "company": "Wayve",
-      "role": "Research Scientist, Wayve Labs"
-    },
-    {
-      "id": 1246,
-      "company": "Fleetworthy",
-      "role": "R&D Imaging Specialist"
-    },
-    {
-      "id": 1247,
-      "company": "TecScan Systems",
-      "role": "NDT Specialist (ultrasonic systems)"
-    },
-    {
-      "id": 1248,
-      "company": "Nokia",
-      "role": "Senior DSP Engineer"
-    },
-    {
-      "id": 1141,
-      "company": "Tenstorrent",
-      "role": "Senior Embedded Engineer, AI IP"
-    },
     {
       "id": 1146,
       "company": "Amazon",
       "role": "Applied Scientist, Alexa Connections"
     },
     {
-      "id": 1155,
-      "company": "StackAdapt",
-      "role": "Machine Learning Engineer (Remote)"
-    },
-    {
-      "id": 1166,
-      "company": "Kinaxis",
-      "role": "Machine Learning / Operations Research Platform Engineer"
-    },
-    {
-      "id": 1168,
-      "company": "Lyft",
-      "role": "Machine Learning Engineer, Safety and Customer Care AI"
-    },
-    {
-      "id": 1199,
-      "company": "Qualcomm",
-      "role": "Senior Embedded Software Engineer (C/C++), Machine Learning"
-    },
-    {
-      "id": 1201,
-      "company": "Sonova Group",
-      "role": "Senior Manager, Hardware Integration"
-    },
-    {
-      "id": 1206,
-      "company": "Xanadu",
-      "role": "Photonics Engineer - Systems Integration"
-    },
-    {
-      "id": 1207,
-      "company": "SLR Consulting",
-      "role": "Senior Underwater Acoustics & Bioacoustics Consultant"
-    },
-    {
-      "id": 1217,
-      "company": "Google DeepMind",
-      "role": "Research Developer, Frontier AI Incubation, DeepMind"
-    },
-    {
-      "id": 1220,
-      "company": "ServiceNow",
-      "role": "Principal Research Engineer/Scientist"
-    },
-    {
-      "id": 1221,
-      "company": "Xanadu",
-      "role": "AI Specialist - Simulation & Optimization"
-    },
-    {
-      "id": 1225,
-      "company": "Kinaxis",
-      "role": "Senior Software Developer, Operations Research"
-    },
-    {
-      "id": 1227,
-      "company": "National Research Council Canada",
-      "role": "Software Engineer, Crop Computer Vision and Machine Learning"
-    },
-    {
-      "id": 1234,
-      "company": "Qualcomm",
-      "role": "DSP Systems Engineer, Staff"
-    },
-    {
-      "id": 1240,
-      "company": "Canadian Nuclear Laboratories",
-      "role": "R&D Scientist/Engineer"
-    },
-    {
-      "id": 1245,
-      "company": "Thales",
-      "role": "Scientifique-chercheur en IA Appliqu\u00e9e / Applied AI Research Scientist"
-    },
-    {
-      "id": 1202,
-      "company": "SmartSkin Technologies",
-      "role": "VP Hardware Engineering"
-    },
-    {
-      "id": 1222,
-      "company": "National Bank of Canada",
-      "role": "AI Scientist Generative AI & Agentic Systems"
-    },
-    {
-      "id": 1244,
-      "company": "MDA Space",
-      "role": "Architecte en intelligence artificielle embarqu\u00e9e"
-    },
-    {
-      "id": 1261,
-      "company": "Qualcomm",
-      "role": "Engineer, AI Software/Machine Learning (C++)"
-    },
-    {
-      "id": 1272,
-      "company": "Tenth Revolution Group",
-      "role": "Computer Vision Engineer - Markham, ON"
-    },
-    {
-      "id": 1402,
-      "company": "ACV Auctions",
-      "role": "Machine Learning Engineer III, Data"
-    },
-    {
-      "id": 1404,
-      "company": "Assembler AI",
-      "role": "Computer Vision Engineer"
-    },
-    {
-      "id": 1115,
-      "company": "Affirm",
-      "role": "Senior Machine Learning Engineer (Fraud)"
-    },
-    {
-      "id": 696,
-      "company": "Grafana Labs",
-      "role": "Staff AI Engineer, Grafana AI/ML"
-    },
-    {
-      "id": 1074,
-      "company": "Cohere",
-      "role": "Applied AI Engineer, Agents & Automations"
-    },
-    {
-      "id": 681,
-      "company": "Waabi",
-      "role": "Senior / Staff Perception Engineer"
-    },
-    {
-      "id": 631,
-      "company": "Tubi",
-      "role": "Senior Machine Learning Engineer"
-    },
-    {
-      "id": 1635,
-      "company": "Jobgether (recruiter; employer undisclosed)",
-      "role": "Founding ML Engineer, Computer Vision (Object Detection)"
-    },
-    {
-      "id": 1662,
-      "company": "Mecka AI",
-      "role": "Edge ML Engineer - Computer Vision"
+      "id": 1195,
+      "company": "Huawei Canada",
+      "role": "Research Engineer - Multimodal AI & Interaction"
     },
     {
       "id": 1124,
@@ -688,6 +133,16 @@
       "role": "Senior Staff Data Scientist, Consumer Experimentation"
     },
     {
+      "id": 636,
+      "company": "Life360",
+      "role": "Staff Firmware Engineer, AI Native, Edge ML"
+    },
+    {
+      "id": 619,
+      "company": "Samsara",
+      "role": "Staff Machine Learning Engineer - Edge AI"
+    },
+    {
       "id": 621,
       "company": "Qualcomm",
       "role": "Staff AI Software Engineer (C++)"
@@ -718,6 +173,11 @@
       "role": "Senior C++ Programmer - Machine Learning"
     },
     {
+      "id": 612,
+      "company": "Motorola Solutions",
+      "role": "Senior SWE - AI/Computer Vision (Camera Systems)"
+    },
+    {
       "id": 613,
       "company": "Tenstorrent",
       "role": "Model Research, Optimization, and Training"
@@ -733,9 +193,19 @@
       "role": "Applied Scientist"
     },
     {
+      "id": 329,
+      "company": "Cohere",
+      "role": "Audio Inference Engineer, Model Efficiency"
+    },
+    {
       "id": 322,
       "company": "Waabi",
       "role": "Senior / Staff Applied Scientist"
+    },
+    {
+      "id": 321,
+      "company": "Waabi",
+      "role": "Research Engineer, Sensor Signal Processing"
     },
     {
       "id": 307,
@@ -758,6 +228,11 @@
       "role": "Senior Researcher, Voice AI"
     },
     {
+      "id": 137,
+      "company": "Affirm",
+      "role": "Senior Staff Machine Learning Engineer (ML Underwriting)"
+    },
+    {
       "id": 141,
       "company": "Mercury",
       "role": "Senior Machine Learning Engineer (Remote Canada/US)"
@@ -766,6 +241,11 @@
       "id": 115,
       "company": "MaintainX",
       "role": "Senior Applied ML Engineer, Asset Intelligence"
+    },
+    {
+      "id": 109,
+      "company": "StackAdapt",
+      "role": "Senior/Staff Machine Learning Engineer"
     },
     {
       "id": 110,
@@ -791,6 +271,11 @@
       "id": 8,
       "company": "AssemblyAI",
       "role": "Research Engineer, Evaluations"
+    },
+    {
+      "id": 9,
+      "company": "AssemblyAI",
+      "role": "Senior Software Engineer, ML"
     },
     {
       "id": 10,
@@ -965,6 +450,13 @@
   ],
   "unapplied": [
     {
+      "id": 1462,
+      "tool": "c",
+      "company": "York University",
+      "role": "Tier 2 Canada Research Chair \u2014 AI and the Arts (AMPD, Asst/Assoc Prof, tenure-track)",
+      "unified_score": 84.0
+    },
+    {
       "id": 1112,
       "tool": "c",
       "company": "Jumio",
@@ -986,13 +478,6 @@
       "unified_score": 84.0
     },
     {
-      "id": 1261,
-      "tool": "a",
-      "company": "Qualcomm",
-      "role": "Engineer, AI Software/Machine Learning (C++)",
-      "unified_score": 82.0
-    },
-    {
       "id": 1121,
       "tool": "c",
       "company": "Nexxa.AI",
@@ -1007,17 +492,10 @@
       "unified_score": 82.0
     },
     {
-      "id": 1272,
-      "tool": "a",
-      "company": "Tenth Revolution Group",
-      "role": "Computer Vision Engineer - Markham, ON",
-      "unified_score": 80.0
-    },
-    {
-      "id": 1402,
-      "tool": "a",
-      "company": "ACV Auctions",
-      "role": "Machine Learning Engineer III, Data",
+      "id": 1464,
+      "tool": "c",
+      "company": "SubPac",
+      "role": "Senior DSP Engineer [Advanced algorithms development and integration]",
       "unified_score": 80.0
     },
     {
@@ -1028,10 +506,31 @@
       "unified_score": 80.0
     },
     {
+      "id": 1463,
+      "tool": "c",
+      "company": "York University",
+      "role": "Assistant Professor, Music Technology and Production (tenure-track)",
+      "unified_score": 76.0
+    },
+    {
+      "id": 1465,
+      "tool": "c",
+      "company": "Avid Technology",
+      "role": "Senior Software Developer, Control Surfaces (Pro Tools / S6, S1, Dock)",
+      "unified_score": 76.0
+    },
+    {
       "id": 1451,
       "tool": "c",
       "company": "Autodesk",
       "role": "Machine Learning Developer (Motion)",
+      "unified_score": 76.0
+    },
+    {
+      "id": 1115,
+      "tool": "c",
+      "company": "Affirm",
+      "role": "Senior Machine Learning Engineer (Fraud)",
       "unified_score": 76.0
     },
     {
@@ -1042,11 +541,53 @@
       "unified_score": 76.0
     },
     {
+      "id": 696,
+      "tool": "c",
+      "company": "Grafana Labs",
+      "role": "Staff AI Engineer, Grafana AI/ML",
+      "unified_score": 76.0
+    },
+    {
+      "id": 1074,
+      "tool": "c",
+      "company": "Cohere",
+      "role": "Applied AI Engineer, Agents & Automations",
+      "unified_score": 74.0
+    },
+    {
+      "id": 681,
+      "tool": "c",
+      "company": "Waabi",
+      "role": "Senior / Staff Perception Engineer",
+      "unified_score": 74.0
+    },
+    {
+      "id": 631,
+      "tool": "c",
+      "company": "Tubi",
+      "role": "Senior Machine Learning Engineer",
+      "unified_score": 74.0
+    },
+    {
       "id": 618,
       "tool": "c",
       "company": "Audimee",
       "role": "Audio ML Engineer (SVS/Voice Conversion)",
       "unified_score": 74.0
+    },
+    {
+      "id": 1466,
+      "tool": "c",
+      "company": "Lenbrook",
+      "role": "Senior Software Developer (BluOS / Bluesound-NAD-PSB)",
+      "unified_score": 72.0
+    },
+    {
+      "id": 1468,
+      "tool": "c",
+      "company": "Electronic Arts",
+      "role": "Software Engineer (Audio) \u2014 Creative Innovation, Tools & Technology",
+      "unified_score": 72.0
     },
     {
       "id": 1450,
@@ -1091,6 +632,13 @@
       "unified_score": 72.0
     },
     {
+      "id": 1476,
+      "tool": "c",
+      "company": "Between",
+      "role": "Machine Learning Engineer, Speech/Audio",
+      "unified_score": 70.0
+    },
+    {
       "id": 1116,
       "tool": "c",
       "company": "Extreme Networks",
@@ -1105,17 +653,10 @@
       "unified_score": 70.0
     },
     {
-      "id": 1115,
-      "tool": "c+a",
-      "company": "Affirm",
-      "role": "Senior Machine Learning Engineer (Fraud)",
-      "unified_score": 69.0
-    },
-    {
-      "id": 631,
-      "tool": "c+a",
-      "company": "Tubi",
-      "role": "Senior Machine Learning Engineer",
+      "id": 1467,
+      "tool": "c",
+      "company": "ESS Technology",
+      "role": "Sr. Embedded DSP Engineer (Job Code 3146)",
       "unified_score": 68.0
     },
     {
@@ -1140,18 +681,18 @@
       "unified_score": 68.0
     },
     {
-      "id": 681,
-      "tool": "c+a",
-      "company": "Waabi",
-      "role": "Senior / Staff Perception Engineer",
-      "unified_score": 67.5
+      "id": 1470,
+      "tool": "c",
+      "company": "Ubisoft",
+      "role": "Senior Audio Programmer (unannounced multiplayer, Unreal)",
+      "unified_score": 66.0
     },
     {
-      "id": 696,
-      "tool": "c+a",
-      "company": "Grafana Labs",
-      "role": "Staff AI Engineer, Grafana AI/ML",
-      "unified_score": 66.5
+      "id": 1472,
+      "tool": "c",
+      "company": "Mission.dev",
+      "role": "Senior C/C++ Audio Software Developer (low-latency audio-over-IP)",
+      "unified_score": 66.0
     },
     {
       "id": 1129,
@@ -1175,27 +716,6 @@
       "unified_score": 66.0
     },
     {
-      "id": 1074,
-      "tool": "c+a",
-      "company": "Cohere",
-      "role": "Applied AI Engineer, Agents & Automations",
-      "unified_score": 65.5
-    },
-    {
-      "id": 1100,
-      "tool": "a",
-      "company": "Picovoice",
-      "role": "Deep Learning Researcher",
-      "unified_score": 65.0
-    },
-    {
-      "id": 1161,
-      "tool": "a",
-      "company": "Huawei Canada",
-      "role": "Senior Researcher, Edge AI Optimization / Hardware-Aware ML",
-      "unified_score": 65.0
-    },
-    {
       "id": 1126,
       "tool": "c",
       "company": "AutoTrader.ca",
@@ -1214,6 +734,13 @@
       "tool": "c",
       "company": "Nexxa.AI",
       "role": "Backend AI Engineer",
+      "unified_score": 64.0
+    },
+    {
+      "id": 1134,
+      "tool": "c",
+      "company": "XYZ Reality",
+      "role": "AI Platform & Machine Learning Engineer",
       "unified_score": 64.0
     },
     {
@@ -1245,66 +772,10 @@
       "unified_score": 64.0
     },
     {
-      "id": 1179,
-      "tool": "a",
-      "company": "Altis Labs",
-      "role": "Senior Machine Learning Scientist",
-      "unified_score": 63.0
-    },
-    {
-      "id": 1180,
-      "tool": "a",
-      "company": "Ubisoft Montr\u00e9al",
-      "role": "Senior Audio Programmer",
-      "unified_score": 62.0
-    },
-    {
-      "id": 1181,
-      "tool": "a",
-      "company": "Per Vices Corporation",
-      "role": "Senior Digital/FPGA Engineer",
-      "unified_score": 62.0
-    },
-    {
-      "id": 1182,
-      "tool": "a",
-      "company": "Myant",
-      "role": "R&D Biomedical Engineer (On-Site)",
-      "unified_score": 62.0
-    },
-    {
-      "id": 1230,
-      "tool": "a",
-      "company": "Huawei Canada",
-      "role": "Senior Researcher, Edge AI Optimization / Hardware-Aware ML (Edmonton)",
-      "unified_score": 62.0
-    },
-    {
-      "id": 1232,
-      "tool": "a",
-      "company": "Cerence",
-      "role": "Senior Application Developer - Industrial Voice AI & Edge Apps",
-      "unified_score": 62.0
-    },
-    {
-      "id": 1635,
-      "tool": "a",
-      "company": "Jobgether (recruiter; employer undisclosed)",
-      "role": "Founding ML Engineer, Computer Vision (Object Detection)",
-      "unified_score": 62.0
-    },
-    {
-      "id": 1662,
-      "tool": "a",
-      "company": "Mecka AI",
-      "role": "Edge ML Engineer - Computer Vision",
-      "unified_score": 62.0
-    },
-    {
-      "id": 1634,
-      "tool": "a",
-      "company": "AquaEye / VodaSafe",
-      "role": "Lead Applied Scientist - Signal Processing & ML",
+      "id": 1473,
+      "tool": "c",
+      "company": "Stingray",
+      "role": "Software Developer (Applied AI)",
       "unified_score": 62.0
     },
     {
@@ -1343,38 +814,10 @@
       "unified_score": 62.0
     },
     {
-      "id": 1184,
-      "tool": "a",
-      "company": "Stryker",
-      "role": "Staff Engineer, Computer Vision",
-      "unified_score": 60.0
-    },
-    {
-      "id": 1186,
-      "tool": "a",
-      "company": "Stingray",
-      "role": "AI Software Developer",
-      "unified_score": 60.0
-    },
-    {
-      "id": 1187,
-      "tool": "a",
-      "company": "TD",
-      "role": "Machine Learning Engineer II",
-      "unified_score": 60.0
-    },
-    {
-      "id": 1212,
-      "tool": "a",
-      "company": "EA SPORTS",
-      "role": "Audio Software Engineer - EA SPORTS UFC",
-      "unified_score": 60.0
-    },
-    {
-      "id": 1241,
-      "tool": "a",
-      "company": "Kinaxis",
-      "role": "Architect, Machine Learning (Principal Scientist)",
+      "id": 1469,
+      "tool": "c",
+      "company": "Adamson Systems Engineering",
+      "role": "Firmware Engineer (pro-audio loudspeakers)",
       "unified_score": 60.0
     },
     {
@@ -1406,11 +849,18 @@
       "unified_score": 60.0
     },
     {
-      "id": 1108,
-      "tool": "a",
-      "company": "Waabi",
-      "role": "Research Scientist",
-      "unified_score": 59.0
+      "id": 1471,
+      "tool": "c",
+      "company": "Behaviour Interactive",
+      "role": "Senior Audio Programmer \u2014 Dead by Daylight",
+      "unified_score": 58.0
+    },
+    {
+      "id": 1474,
+      "tool": "c",
+      "company": "Ross Video",
+      "role": "Senior Software Developer - Audio (Job Req #2026-049)",
+      "unified_score": 58.0
     },
     {
       "id": 1448,
@@ -1588,6 +1038,13 @@
       "unified_score": 32.0
     },
     {
+      "id": 1475,
+      "tool": "c",
+      "company": "Audiokinetic",
+      "role": "Intern, Software Development \u2014 Wwise Acoustics (Autumn 2026)",
+      "unified_score": 30.0
+    },
+    {
       "id": 1432,
       "tool": "c",
       "company": "Matrox",
@@ -1645,14 +1102,10 @@
     }
   ],
   "by_status": {
-    "withdrawn (ai-job-search)": 7,
+    "Evaluated (career-ops)": 55,
+    "SKIP (career-ops)": 38,
     "Applied (career-ops)": 87,
-    "drafted (ai-job-search)": 27,
-    "applied (ai-job-search)": 75,
     "Discarded (career-ops)": 135,
-    "SKIP (career-ops)": 36,
-    "Evaluated (career-ops)": 42,
-    "expired (ai-job-search)": 1,
     "Rejected (career-ops)": 1
   },
   "unified_tracker_path": "data/unified-tracker.md"
