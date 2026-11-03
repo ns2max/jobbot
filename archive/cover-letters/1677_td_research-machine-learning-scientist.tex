@@ -1,0 +1,78 @@
+% Job posting: https://ca.linkedin.com/jobs/view/research-machine-learning-scientist-at-td-4442176542
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Scientist | Deep Learning, Generative AI, Time-Series | Applied ML}
+\newcommand{\clRole}{Research Machine Learning Scientist}
+\newcommand{\clCompany}{TD}
+\newcommand{\clTeam}{Layer 6}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Research Machine Learning Scientist role at Layer 6. I have a PhD (University of Trento, 2025), 10+ years across industry and academia, and a publication record in applied deep learning. I am drawn to Layer 6 because it puts research into production with short turnaround, which is how I have worked since my first role: I build ML systems end-to-end and ship them.
+
+Three parts of my work match your requirements. For applied research with publications, I have 10+ peer-reviewed papers, including a Journal of the Audio Engineering Society article (2026) on a real-time pattern detection model that runs in 14 ms on a Raspberry Pi 4 at F1 0.76, 74x faster than the DTW baseline. For deep learning at scale, I designed benchmark suites with baselines and ablations, trained models in PyTorch and TensorFlow, and am currently fine-tuning MusicGen with LoRA across two GPUs on my own 2,276-recording dataset. For financial data, I designed and deployed ML and statistical pipelines for forensic analytics and compliance monitoring on large structured enterprise datasets at Forestpin, and I led production ML at MAS Holdings that raised operational efficiency by up to 300\%.
+
+I should be direct about the gaps. I have not worked with Spark, Azure or reinforcement learning for agent training, and my LLM work is fine-tuning and RAG rather than production post-training. My data work has been in SQL, Snowflake and Airflow on AWS, and I expect to pick up these tools quickly, as I did with each stack I have moved across.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I would welcome the opportunity to discuss how my research and engineering experience can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

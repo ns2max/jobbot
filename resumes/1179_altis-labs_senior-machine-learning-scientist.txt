@@ -1,0 +1,127 @@
+                        NISHAL STANISLAUS SILVA, PhD
+
+                            Research Scientist | Real-Time Multimodal ML, Benchmarks & Open Datasets
+                                    Canadian Permanent Resident, Eligible to work in Canada without sponsorship
+
+nishal.silva@hotmail.com | +1 613 200 2030 | Toronto, ON | nishal.xyz | linkedin.com/in/nishal-silva | github.com/ns2max
+
+PROFESSIONAL SUMMARY
+
+Research scientist (PhD, Trento) whose core discipline is benchmark and evaluation rigor: frozen-protocol test suites,
+controlled ablations, and a written record of negative results built to withstand scrutiny before a system is trusted.
+Domain expertise is real-time audio and multimodal time-series ML, not medical imaging or radiomics – that specific
+domain knowledge would need to be built. What transfers directly is the evaluation methodology itself (quantifying
+accuracy/latency/robustness trade-offs against a fixed protocol, exactly the discipline required to validate an imag-
+ing biomarker against clinical outcomes), hands-on VAE/diffusion work for limited-label regimes (medical imaging’s
+chronic small-labeled-dataset problem), and one direct clinical deployment: a computer-vision device that digitized
+patient vitals across hospital wards during COVID-19, recognized by Sri Lanka’s national physicians’ association.
+
+CORE COMPETENCIES
+
+Evaluation & Benchmark Rigor: Frozen evaluation protocols, controlled ablation design, statistical performance
+analysis, cross-method benchmarking (learned vs. classical baselines), negative-result documentation, reproducible
+dataset design.
+Small-Labeled-Data Methods: VAE-based and diffusion-based synthetic time-series generation for limited-label
+regimes, training-free / low-data detection methods, transfer and fusion across heterogeneous sensor modalities.
+Human-Centred Evaluation: Quantitative + qualitative user studies, structured interviews, real-world usability and
+adoption assessment (audience/performer studies, clinical-deployment feedback).
+
+TECHNICAL STACK
+
+Python (TensorFlow, Keras, PyTorch, scikit-learn, SciPy, NumPy, Pandas), C++17, Computer Vision (OpenCV), SQL,
+AWS, Docker, ETL pipelines, CI/CD, Git, statistical analysis and experiment design, LaTeX.
+
+EDUCATION
+
+PhD, Information Engineering and Computer Science – University of Trento, Italy (2021 - 2025)
+MSc, Telecommunication and Electronic Engineering – Sheffield Hallam University, UK (2016 - 2018)
+BEng (Hons), Electronic Engineering – Sheffield Hallam University, UK (2013 - 2014)
+
+RESEARCH AND WORK EXPERIENCE
+
+Independent Researcher | Self-directed, Toronto, Canada        Jan 2026 - Present
+
+• Continued peer-reviewed research: two papers accepted (Smart Drums, JAES; MIRaaS, IEEE IS2) covering real-
+
+time pattern detection and multimodal information retrieval.
+
+• Maintain Nebula, an open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi
+
+latency benchmarks.
+
+• Applied AI-assisted engineering workflows, including Claude Code, to accelerate research tooling, documenta-
+
+tion, and pipeline development.
+
+Postdoctoral Researcher | University of Trento, Trento, Italy  Jan 2025 - Dec 2025
+
+• Owned the full ML pipeline for streaming audio and IMU/gesture data on the EU Horizon EIC Pathfinder project
+
+MUSMET: acquisition, DSP/feature engineering, training and evaluation, edge deployment, and monitoring.
+• Designed frozen-protocol benchmark suites and controlled ablations (RNN vs. DTW; audio vs. MIDI; pattern-set
+  sizes 1/3/10) that quantified accuracy, latency, and CPU trade-offs, with a written record of negative results.
+
+• Published a real-time detector achieving 14 ms inference on Raspberry Pi 4, F1 0.76, 31.4% CPU utilization –
+  74x faster than the 1038 ms DTW baseline it replaced (JAES 2026).
+
+• Prototyped VAE-based and diffusion-based synthetic time-series generation to address limited-label regimes.
+
+Visiting Researcher | McGill University, IDMIL/CIRMMT, Montreal, Canada             May 2024 - Aug 2024
+
+• Built a self-powered smart electric guitar (embedded IMU and audio capture); fused IMU and audio streams via
+
+a hierarchical finite-state-machine classifier, achieving F1 0.78 on a 500-event corpus (IEEE IS2 2025).
+
+Visiting Researcher | University of Visual and Performing Arts, Colombo, Sri Lanka  Jan 2024 - Mar 2024
+
+• Ran a human-centred evaluation study of musicians’ perception of smart-instrument pattern detection, combining
+
+quantitative metrics with structured interviews to assess real-world usability and adoption (IEEE I3DA 2025).
+
+Technical Consultant | Forestpin (Pvt) Ltd, Colombo, Sri Lanka                      Aug 2020 - Feb 2021
+
+• Built ML and statistical pipelines for financial forensics, compliance monitoring, and risk detection on large
+
+structured enterprise datasets.
+
+Research Engineer | MAS Holdings (Pvt) Ltd, Colombo, Sri Lanka                                Jan 2015 - Jul 2020
+
+• 5.5 years delivering end-to-end computer-vision and IoT systems for manufacturing at scale, driving operational
+
+efficiency gains of up to 300%.
+
+• Developed and deployed a computer-vision device for remote monitoring of patient vitals across hospital wards
+
+during COVID-19, recognized by the Government Medical Officers’ Association (GMOA), Sri Lanka – direct
+
+experience shipping a clinical-facing CV system with real healthcare-worker adoption stakes.
+
+• Automated multilingual care-label quality control (OpenCV template and feature matching) integrated with con-
+
+veyor and PLC reject logic, cutting inspection time by 99.5%.
+
+• Built real-time IoT data pipelines with C++/Python inference on embedded hardware; introduced CI/CD and code
+
+review practices; mentored engineers.
+
+PUBLICATIONS
+
+Silva, N. & Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. J. Audio Eng. Soc.
+74(3). Silva, N. & Turchet, L. (2026, in press). Smart Drums. J. Audio Eng. Soc. Silva, N. & Turchet, L. (2026,
+accepted). MIRaaS. IEEE IS2. Silva, N., Wanderley, M. & Turchet, L. (2025). Melody and Motion. IEEE IS2. Silva,
+N., Boem, A. & Turchet, L. (2025). Interactive IoMusT-Based Concerts. IEEE I3DA – a human-study paper with
+real audience and performer evaluation. Silva, N. & Turchet, L. (2022). An SSIM-based training-free onset-detection
+method achieving 95% detection with no training data. DAFx.
+
+DATASETS
+
+Creator of four open-access musical-pattern datasets on Zenodo (DoMP, DoPP, DoDP, DoDP2), comprising 9,800+
+recordings from 70+ musicians, each released with a frozen evaluation protocol supporting reproducible benchmarking.
+
+HIGHLIGHTS
+
+MIDI Innovation Awards 2023 Finalist (Prototypes & Non-Commercial Software category). GMOA recognition (Gov-
+ernment Medical Officers’ Association, Sri Lanka, 2020) for the COVID-19 remote-vitals monitoring deployment.
+Peer reviewer for IEEE Access and JNSF Sri Lanka; programme committee member for IEEE IS2 and IEEE I3DA;
+supervised two BSc students.
+

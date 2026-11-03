@@ -1,0 +1,78 @@
+% Job posting: https://huaweicanada.recruitee.com/o/senior-researcher-computer-vision-and-image-processing-chercheur-principal-vision-par-ordinateur-et-traitement-dimages
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Computer Vision, Image Processing, Generative Models | Applied ML}
+\newcommand{\clRole}{Senior Researcher, Computer Vision and Image Processing}
+\newcommand{\clCompany}{Huawei Canada}
+\newcommand{\clTeam}{the Noah's Ark Lab team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the 12-month Senior Researcher role in Computer Vision and Image Processing at Huawei Canada. I hold a PhD (University of Trento, 2025) and have 10+ years across industry and academia, with 10+ peer-reviewed publications. Noah's Ark Lab's aim of moving research into real products matches how I work: I have taken ML and computer vision prototypes through to deployed systems, and then written them up.
+
+Three parts of my work relate to your posting. For image processing and vision in production, at MAS Holdings I led OpenCV-based inspection systems, including a care-label checker that cut inspection time by 99.5\% and raised operational efficiency by up to 300\%, and I designed the camera-based image-warp alignment algorithm behind Promptly, a two-sided garment printing product now deployed in four countries. For generative models, at McGill University I prototyped diffusion-based and VAE-based synthetic data generation to improve robustness under limited labeled data. For research output, my real-time pattern detection system runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline (Journal of the Audio Engineering Society, 2026), and I released four open datasets on Zenodo. At MAS I also mentored engineers and set up code review and CI/CD practice.
+
+I should be direct about the gaps. My generative work used audio data, not images, so I have not built image generation, editing or super-resolution models, and my publications are in audio, IEEE and embedded ML venues rather than CVPR, ICCV or NeurIPS. I have done the diffusion and VAE experiments hands-on and I am ready to apply them to image problems. I work fully in English; my French is at A2 level, which the posting notes is not required.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, and available immediately for a Markham-based contract. I would welcome the opportunity to discuss how I can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

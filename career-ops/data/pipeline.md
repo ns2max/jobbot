@@ -910,3 +910,24 @@ SKIP (triage report reports/1123-pipeline-skips-2026-09-03.md, IDs 1123–1135):
 - [ ] https://job-boards.greenhouse.io/later/jobs/8863354002 | Later | Senior Data Platform Engineer
 - [ ] https://boards.greenhouse.io/faire/jobs/8860409002?gh_jid=8860409002 | Faire | Staff Data Infrastructure Engineer
 - [ ] https://job-boards.greenhouse.io/innodatainc/jobs/4438341009 | Innodata | Gen AI Engineer
+
+- [ ] https://jobs.ashbyhq.com/cohere/14aef6d9-763e-4f56-a498-206fb31dd0c6 | Cohere | Senior/Staff Software Engineer (Back-End), Inference
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/6223410004 | Grafana Labs | Senior Backend Engineer - Databases Tempo | Canada | Remote
+- [ ] https://job-boards.greenhouse.io/reddit/jobs/7131934 | Reddit | Machine Learning Engineer
+- [ ] https://jobs.lever.co/waabi/cb96e131-357d-4c73-b69a-7feb744699c2 | Waabi | Senior / Staff Research Engineer, Generative AI Deployment
+
+- [ ] https://job-boards.greenhouse.io/assemblyai/jobs/4744387005 | AssemblyAI | Software Engineer, Agent Experience
+- [ ] https://jobs.ashbyhq.com/sierra/631848ec-1a74-4067-8b9f-cd04a71aab6d | Sierra | Software Engineer, Agent
+- [ ] https://jobs.ashbyhq.com/decagon/e0f5118b-9af7-4d37-87a8-c79c8163116a | Decagon | Agent Development Manager, Implementations
+- [ ] https://jobs.ashbyhq.com/decagon/270e066f-b327-4774-9085-744f4aabde0c | Decagon | Agent Deployment Engineer
+- [ ] https://jobs.ashbyhq.com/decagon/d50361fe-a78a-4ff5-93ad-753e7bd0a800 | Decagon | Agent Strategy Manager 
+- [ ] https://jobs.ashbyhq.com/decagon/e5881147-3d9f-43b2-89bb-2b8614360666 | Decagon | Agent Deployment Engineer - Spanish Speaking
+- [ ] https://jobs.ashbyhq.com/cohere/e906188a-e089-4b86-85b9-aad0d4413c68 | Cohere | Engineering Manager, FDE Agentic Platform
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/6146092004 | Grafana Labs | Senior Product Designer, Knowledge Graph | NASA | Remote
+- [ ] https://jobs.ashbyhq.com/wealthsimple/124545d2-793a-4ad1-8de2-b220bbb841b1 | Wealthsimple | Manager, Brokerage Platform Operations (General Ledger)
+- [ ] https://job-boards.greenhouse.io/northbeam/jobs/4687847006 | Northbeam | Senior Software Engineer, Data Systems (Python)
+- [ ] https://job-boards.greenhouse.io/northbeam/jobs/4705232006 | Northbeam | Senior Software Engineer, Python
+- [ ] https://job-boards.greenhouse.io/northbeam/jobs/4715151006 | Northbeam | Software Engineer, Data Systems (Python)
+- [ ] https://job-boards.greenhouse.io/northbeam/jobs/4715164006 | Northbeam | Software Engineer, Python
+- [ ] https://job-boards.greenhouse.io/northbeam/jobs/4715170006 | Northbeam | Staff Software Engineer, Data Systems (Python)
+- [ ] https://job-boards.greenhouse.io/northbeam/jobs/4715176006 | Northbeam | Staff Software Engineer, Python

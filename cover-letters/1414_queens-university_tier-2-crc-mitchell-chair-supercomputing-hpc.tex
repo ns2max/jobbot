@@ -1,0 +1,84 @@
+% Job posting: https://apply.smithengineering.queensu.ca/124076
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.75in,top=0.55in,right=0.75in,bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.0}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Researcher, Real-Time Edge ML Systems | Edge-to-Server Computing for Audio, Sensor and Time-Series Data}
+\newcommand{\clRole}{Tenure-Track Faculty Position in Supercomputing/High-Performance Computing (Tier 2 CRC and Mitchell positions)}
+\newcommand{\clCompany}{Queen's University}
+\newcommand{\clTeam}{the Department of Electrical and Computer Engineering}
+\newcommand{\clAddressee}{Dear Members of the Search Committee,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{}, Department of Electrical and Computer Engineering, \clCompany{}}
+
+\clAddressee
+
+I am applying for the Assistant Professor position in supercomputing and high-performance computing in the Department of Electrical and Computer Engineering, and I would like to be considered for \textbf{both} the Tier 2 Canada Research Chair and the Bruce Mitchell Research Program position, with a preferred start of 1 September 2027. I completed my PhD in Information Engineering and Computer Science at the University of Trento in January 2025 and was a postdoctoral researcher there on the EU project MUSMET in 2025.
+
+\textbf{Research fit.} The posting lists the interaction of supercomputers with emerging compute paradigms, including edge systems, as an area of expertise. That is where my research sits. My work is the edge half of that continuum: real-time inference under hard latency and compute budgets. My published system detects audio patterns in 14 ms on a Raspberry Pi 4 (F1 0.76) against 1038 ms for a DTW baseline (\textit{Journal of the Audio Engineering Society}, 2026), and my MIRaaS system offloads analysis from embedded devices to a server over UDP, with a full latency characterization accepted at IEEE IS\textsuperscript{2} 2026. I designed the benchmark suites behind these results and released four open datasets on Zenodo (9{,}839 files, 70+ musicians) and the Nebula C++17 feature-extraction library. My five-year program would ask where latency-bounded inference should run across edge devices, servers and HPC or AI infrastructure, and how to schedule and measure it, so that live sensor streams can feed simulation and digital-twin workloads. I would build the HPC side of that program with the department's colleagues and with national research computing resources.
+
+\textbf{Gaps, stated plainly.} The posting asks for a background in supercomputing systems and the common software on them (SLURM, MPI, NCCL, OpenMP, CUDA/HIP, Kokkos, HDF5). I do not have a research record on large supercomputers. My large-scale experience is limited to two-GPU model training, containerized pipelines on AWS and Airflow, and embedded deployment. I have no principal-investigator funding, and my teaching record is two supervised BSc theses at Trento (2023 and 2026, on real-time pattern-detection plugins) and seminars, not a full course. I offer a clear, benchmarked research record at the edge end of the compute spectrum and a plan to extend it, not an established HPC program.
+
+\textbf{Declarations requested in the posting.}
+\begin{enumerate}[leftmargin=1.6em,itemsep=0.1em,topsep=0.2em]
+  \item \textit{Positions and CRC eligibility:} I wish to be considered for both positions. I have not held an independent academic research appointment, so I am within the ten-year Tier 2 window.
+  \item \textit{Work status:} I am a Canadian permanent resident, legally eligible to work in Canada without sponsorship, and available from 1 September 2027 or earlier.
+  \item \textit{Research security:} My proposed research concerns real-time and edge computing for audio and sensor data. I do not believe it advances a Sensitive Technology Research Area, I have no active affiliation with a Named Research Organization, and I would welcome the university's help in confirming this.
+\end{enumerate}
+I understand that Canadian engineering licensure, or eligibility to obtain it (provisional and temporary licences included), is required. Thank you for considering my application.
+
+\vspace{4pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

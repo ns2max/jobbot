@@ -1,0 +1,78 @@
+% Job posting: https://jobs.lever.co/waabi/0614b22d-699e-4d08-9149-968e0b010bf4
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | ML on Real Hardware, Real-Time Inference, Sensor \& Time-Series Data | Applied ML}
+\newcommand{\clRole}{Senior / Staff Machine Learning Engineer, Vehicle Dynamics}
+\newcommand{\clCompany}{Waabi}
+\newcommand{\clTeam}{the Autonomy \& Algorithms team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Senior / Staff Machine Learning Engineer, Vehicle Dynamics role on the Autonomy \& Algorithms team at Waabi. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build end-to-end ML systems that run on real hardware under hard latency limits. Waabi's approach of testing whether a learned method beats the classical baseline in closed-loop simulation and on the vehicle is the way I like to work: measure first, then decide.
+
+Three parts of the posting match my work. For ML on a physical system, my published pattern detection system runs at 14 ms on a Raspberry Pi 4 at F1 0.76, 74x faster than the DTW baseline (Journal of the Audio Engineering Society, 2026), and I tested it live in front of audiences rather than only offline. For gesture sensing, I fused an LSTM on 1-second IMU windows with audio pattern detection through a hierarchical state machine (IEEE IS$^2$ 2025). For closed-loop systems in industry, at MAS Holdings I integrated a camera-based care-label checker with a conveyor and PLC reject, and coordinated three closed-loop subsystems in custom C++ for a direct-to-garment printer. I also design the benchmark suites with baselines and ablations that show whether a new approach actually wins.
+
+I should be direct about the gaps. My control experience is applied rather than theoretical: I have not built MPC, optimal control or vehicle dynamics models, and I have not done state estimation or system identification on a vehicle. My deep learning work is mostly TensorFlow and Keras, with PyTorch at a working level. What I bring is C++ and Python at production quality, linear algebra, signal processing and statistics, and a habit of owning a problem from offline experiments through to deployment on hardware. I expect to learn the vehicle control side quickly.
+
+I am a Canadian permanent resident based in Toronto, ON, eligible to work without sponsorship, and available immediately. I would welcome the opportunity to discuss how my experience can support the Autonomy \& Algorithms team at Waabi. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

@@ -1,0 +1,241 @@
+                   NISHAL STANISLAUS SILVA, PhD
+
+Researcher, Real-Time Edge ML Systems | Edge-to-Server Computing for Audio, Sensor and Time-Series Data
+                         Toronto, ON, Canada | nishal.silva@hotmail.com | +1 613 200 2030
+
+                nishal.xyz | Google Scholar | ORCID 0000-0003-0406-7459 | github.com/ns2max
+                          Canadian Permanent Resident, eligible to work in Canada without sponsorship
+
+RESEARCH INTERESTS
+
+Edge-to-server computing for real-time machine learning: partitioning latency-critical inference between embedded
+devices and servers, latency and throughput characterization, and benchmark design; low-latency ML on embedded
+and edge hardware; time-series and sequential pattern detection; audio signal processing and music information re-
+trieval; multimodal sensing (audio, IMU, EEG, mixed-reality telemetry); smart musical instruments and the Internet
+of Musical Things; benchmark and dataset design; human-centred evaluation of ML-driven interactive systems.
+
+EDUCATION
+
+Ph.D., Information Engineering and Computer Science                                    2021 – Jan 2025
+University of Trento, Italy (DISI; CIMIL lab). Supervisor: Prof. Luca Turchet
+
+• Thesis: Embedded Real-time Musical Pattern Detection for Smart Musical Instruments (defended 31 Jan 2025).
+  iris.unitn.it/handle/11572/445071
+
+M.Sc., Telecommunication and Electronic Engineering                                              Aug 2018
+Sheﬀield Hallam University, UK
+
+• Thesis: On Musical Onset Detection via the S-Transform; published at Asilomar 2018 and arXiv:1712.02567.
+
+B.Eng. (Hons), Electronic Engineering                                                            Mar 2014
+Sheﬀield Hallam University, UK
+
+• Thesis: A Hand Gesture Controlled TV Remote.
+
+ACADEMIC APPOINTMENTS
+
+Postdoctoral Researcher                                                        Jan 2025 – Dec 2025
+
+CIMIL, University of Trento, Italy | EU Horizon EIC Pathfinder project MUSMET (grant 101184379)
+
+• Owned the full ML pipeline for streaming audio and IMU/gesture data: acquisition, DSP and feature engineer-
+  ing, training and evaluation, edge deployment (Raspberry Pi 4, Elk Audio OS, VST, OSC) and monitoring.
+
+• Published system detects audio patterns in 14 ms on a Raspberry Pi 4 (F1 0.76) against 1038 ms for a DTW
+  baseline; real-time inference under 30 ms on edge-class devices.
+
+• Designed benchmark suites (baselines and ablations: RNN vs. DTW, audio vs. MIDI, pattern-set sizes 1/3/10)
+  to quantify accuracy, latency and CPU trade-offs.
+
+• Built a real-time multimodal extraction and synchronization pipeline (audio, EEG/BCI, head and hand tracking
+  from mixed-reality headsets) across four musicians simultaneously, with SAE Institute Barcelona and g.tec
+  medical engineering.
+
+• Co-designed and ran two live multisensory concerts (20 audience members, 6 performers) used as a user study.
+• Supervised two BSc theses (see Supervision). Four peer-reviewed outputs in 2025.
+
+Visiting Researcher                                                            May 2024 – Aug 2024
+
+IDMIL / CIRMMT, McGill University, Montreal, Canada. Host: Prof. Marcelo M. Wanderley
+
+• Built a self-powered smart electric guitar (BNO055 IMU, HiFiBerry, Raspberry Pi 4) with real-time gesture
+  detection (LSTM) fused with audio pattern detection through a hierarchical finite state machine; F1 0.78 on a
+  500-event corpus.
+
+                                                1
+• Case study with five professional guitarists; compute and power profiling for edge feasibility; explored diffusion-
+  and VAE-based synthetic data for low-label regimes.
+
+Visiting Researcher                                           Jan 2024 – Mar 2024
+University of Visual and Performing Arts, Colombo, Sri Lanka
+
+• Ran a user study of musicians’ perception and use of smart musical instruments with embedded pattern detection
+  (published at I3DA 2025).
+
+PEER-REVIEWED PUBLICATIONS
+
+Journal articles
+  [1] N. Silva and L. Turchet. Real-Time Audio Pattern Detection for Smart Musical Instruments. Journal of the
+       Audio Engineering Society, 74(3), Mar 2026. DOI 10.17743/jaes.2022.0250.
+
+  [2] N. Silva and L. Turchet. Smart Drums: Comparing Audio and MIDI in Embedded Real-Time Drum Pattern
+       Recognition. Journal of the Audio Engineering Society, in press (2026).
+
+Conference papers
+  [3] N. Silva and L. Turchet. Music Information Retrieval as a Service (MIRaaS): Latency Characterization of
+       an Edge-to-Server Architecture for Near-Real-Time Audio Analysis. 7th IEEE International Symposium on
+       the Internet of Sounds (IS² 2026), accepted.
+
+  [4] N. Silva, M. Wanderley and L. Turchet. Melody and Motion: Integrating Guitar Gestures with Musical
+       Patterns for Extended Control in Live Performance and Metaverse Applications. IEEE 6th International
+       Symposium on the Internet of Sounds (IS² 2025), pp. 1–9, Oct 2025. DOI 10.1109/IS264627.2025.11284634.
+
+  [5] N. Silva, A. Boem and L. Turchet. Interactive IoMusT-Based Concerts: Real-Time Pattern Recognition and
+       Audience Experience. IEEE International Conference on Immersive and 3D Audio (I3DA 2025), Sep 2025.
+       DOI 10.1109/i3da65421.2025.11202042.
+
+  [6] N. Silva and L. Turchet. User-Centered Evaluation of Smart Musical Instruments with Embedded Real-Time
+       Pattern Detection. IEEE I3DA 2025, Sep 2025. DOI 10.1109/i3da65421.2025.11202088.
+
+  [7] N. Silva and L. Turchet. Real-Time Pattern Recognition of Symbolic Monophonic Music. Audio Mostly
+       2024, ACM, Sep 2024. DOI 10.1145/3678299.3678329.
+
+  [8] N. Silva. Towards an Internet of Musical Things (IoMusT) Ecosystem: Multi-Sensory Performances En-
+       abled Through AI-Based Smart Musical Instruments. 11th International Conference on Arts and Humanities
+       (ICOAH), Mar 2024.
+
+  [9] N. Silva and L. Turchet. A Structural Similarity Index Based Method to Detect Symbolic Monophonic
+       Patterns in Real-Time. 25th International Conference on Digital Audio Effects (DAFx20in22), Vienna, Sep
+       2022.
+
+ [10] N. Silva, C. Fischione and L. Turchet. Towards Real-Time Detection of Symbolic Musical Patterns: Proba-
+       bilistic vs. Deterministic Methods. 27th Conference of Open Innovations Association (FRUCT), pp. 238–246,
+       2020.
+
+ [11] N. Silva, P. C. Weeraddana and C. Fischione. On Musical Onset Detection via the S-Transform. 52nd
+       Asilomar Conference on Signals, Systems and Computers, pp. 1080–1085, Oct 2018. DOI 10.1109/AC-
+       SSC.2018.8645367.
+
+Demo papers
+ [12] N. Silva and L. Turchet. Demo of a Smart Musical Instrument-Based Real Time Pattern Detection System.
+
+       Audio Mostly 2024, ACM, pp. 552–554. DOI 10.1145/3678299.3678359.
+
+                            2
+Theses and preprints
+ [13] N. Silva. Embedded Real-time Musical Pattern Detection for Smart Musical Instruments. Ph.D. thesis,
+
+       University of Trento, 2025.
+
+ [14] N. Silva and P. C. Weeraddana. On Musical Onset Detection via the S-Transform. arXiv:1712.02567, Dec
+       2017.
+
+Google Scholar: 27 citations, h-index 3. Full list: nishal.xyz/publications.
+
+OPEN DATASETS AND SOFTWARE
+
+Datasets (Zenodo, open access; 9,839 files from 70+ musicians in total)
+ • DoMP, Dataset of Monophonic Patterns: 4,392 MIDI files, 40 performers (piano, guitar). DOI 10.5281/zen-
+    odo.10818617.
+ • DoPP, Dataset of Polyphonic Patterns: 2,276 audio recordings (44.1 kHz, 24-bit), 20 performers, 176 patterns.
+    DOI 10.5281/zenodo.14497998.
+ • DoDP and DoDP2, Datasets of Drum Patterns: 994 and 2,177 MIDI files, 10 drummers each. DOIs 10.5281/zen-
+    odo.14497974 and 10.5281/zenodo.18395007.
+
+Software
+ • Nebula: open-source C++17 library for audio feature extraction with per-feature latency benchmarks on ARM
+    and Raspberry Pi. github.com/ns2max/nebula
+ • MIRaaS: edge-to-server Music Information Retrieval service that offloads analysis from embedded devices to
+    a server over UDP, characterized for latency (IS² 2026).
+ • VarianceEngine (in progress): LoRA fine-tuning of MusicGen-medium with a custom audio-to-audio condi-
+    tioning head, trained across two GPUs (RTX 4090 and RTX 3090).
+ • LiveLaTeX: VS Code extension for real-time LaTeX compile and preview (Marketplace: ns2max.livelatex).
+
+GRANTS AND PROJECTS
+
+No principal-investigator funding to date (postdoctoral researcher on a funded consortium project). No career interruptions to
+
+declare. Tier 2 CRC: no prior independent academic appointment.
+
+MUSMET, Musical Metaverse made in Europe                         2025
+
+EU Horizon EIC Pathfinder Open, grant 101184379, 3.0 M EUR, coordinated by University of Trento (12 partners)
+
+• Postdoctoral researcher (not principal investigator); responsible for real-time pattern detection, edge deployment
+  and the multimodal data pipeline.
+
+AWARDS AND RECOGNITION
+
+• Finalist, MIDI Innovation Awards 2023, Prototypes and Non-Commercial Software (”Hot Licks”; 15 finalists
+  worldwide; covered by Sound On Sound and MusicRadar).
+
+• Recognition, Government Medical Officers’ Association, Sri Lanka, 2020, for a computer-vision system for
+  remote COVID-19 patient vitals monitoring deployed across hospital wards.
+
+INVITED TALKS, DEMONSTRATIONS AND PERFORMANCES
+
+Sep 2025  Demo, Notte della Ricerca, MUSE Science Museum, Trento
+2025      Mixed-reality smart-instrument demo, MUSMET kickoff meeting, University of Trento
+Oct 2024  Two live multisensory concerts with smart instruments, lights, MR and haptics, University of Trento
+Sep 2024  Paper and demo, Audio Mostly 2024, University of Milan; demo, ICT Days, University of Trento
+May 2024  Talk, Real-time musical pattern detection, McGill University, Montreal
+Oct 2023  Demo, ISMIR 2023, Politecnico di Milano; demo, SoundMIT Synth Expo, Turin
+
+                                          3
+SUPERVISION
+
+No publications co-authored with the supervised students to date.
+
+ • L. Collizoli, BSc thesis: MIDI plugin for real-time musical pattern recognition, University of Trento, Aug 2023.
+ • D. Battisti, BSc thesis: Plugin Implementation and GUI for Real-Time Musical Pattern Detection, University
+
+    of Trento, Sep 2026.
+
+ACADEMIC SERVICE
+
+• Journal reviewer: IEEE Access; Journal of the National Science Foundation of Sri Lanka.
+• Programme committee / reviewer: IEEE International Symposium on the Internet of Sounds (IS²); Interna-
+
+  tional Conference on Immersive and 3D Audio (I3DA); Colloquio di Informatica Musicale (CIM).
+
+INDUSTRY RESEARCH EXPERIENCE
+
+Independent Researcher                                           Jan 2026 – present
+Toronto, ON | open-source work and MUSMET external collaborator
+
+• Released Nebula; researching foundation-model-based synthetic dataset curation for limited-label regimes; au-
+  thored three publications on embedded real-time pattern detection and edge-to-server feature extraction.
+
+Technical Consultant                                             Aug 2020 – Feb 2021
+Forestpin (Pvt) Ltd, Colombo, Sri Lanka
+
+• ML and statistical pipelines for financial forensics, compliance monitoring and risk detection on large enterprise
+  datasets (SQL, Python).
+
+Research Engineer                                                Jan 2015 – Jul 2020
+MAS Holdings (Pvt) Ltd, Colombo, Sri Lanka
+
+• End-to-end computer-vision and IoT systems for manufacturing at scale, integrating camera and sensor streams
+  into production; efficiency gains of up to 300% in deployed solutions.
+
+• Care-label quality control (inspection time reduced by 99.5%); loom-side fabric inspection pilot; real-time IoT
+  analytics across distributed factories; COVID-19 remote vitals device.
+
+• Mentored engineers and introduced code review and CI/CD practices; ran group-wide computer-vision training.
+
+TECHNICAL SKILLS AND LANGUAGES
+
+Languages: Python, C++17, C, SQL, MATLAB, JavaScript, C#. ML: TensorFlow/Keras, PyTorch, scikit-learn,
+RNN/LSTM/GRU, DTW, transfer learning. Audio and signal processing: MFCC, STFT, S-transform, librosa,
+SciPy, FFTW, JUCE, VST, OSC, MIDI. Systems: Raspberry Pi/ARM, Elk Audio OS, Docker, Airflow, AWS, Git,
+CI/CD. Research: experimental design, benchmark and dataset design, ablations, user studies, LaTeX, technical
+writing. Languages: English (native), Sinhala (mother tongue), Italian (B1), French (A2, learning).
+
+REFERENCES
+
+Available on request. Contact details for three referees supplied in the application portal. Academic referees: Prof.
+Luca Turchet (University of Trento; PhD supervisor and postdoctoral principal investigator) and Prof. Marcelo M.
+Wanderley (McGill University; visiting-researcher host).
+
+                                            4
+

@@ -1,0 +1,78 @@
+% Job posting: https://jobs.smartrecruiters.com/Ubisoft2/744000151049982-senior-c-programmer-machine-learning
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | C++, Real-Time Inference, Deep Learning | Applied ML}
+\newcommand{\clRole}{Senior C++ Programmer - Machine Learning}
+\newcommand{\clCompany}{Ubisoft Montréal}
+\newcommand{\clTeam}{your ML programming team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Senior C++ Programmer - Machine Learning role at Ubisoft Montréal. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia. I build ML systems in C++ and Python that run on constrained hardware under hard latency limits, and I would like to bring that to the inference engines and tools behind your games.
+
+Three parts of your posting match my work directly. For inference under tight budgets, my published system runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline (Journal of the Audio Engineering Society, 2026), with F1 of 0.76, and I owned it from data acquisition to deployment and monitoring. For C++ library work, I released Nebula, an open-source C++17 feature-extraction library with per-feature latency benchmarking on ARM, and at MAS Holdings I wrote custom C++ for real-time inference and closed-loop PLC integration on embedded hardware. For measuring models, I design benchmark suites with baselines and ablations, and I write unit and integration tests for the pipelines I ship.
+
+I should be direct about the gaps. I have written C++ since my years at MAS Holdings, but it has been in embedded and real-time systems rather than shipped games, and I have only used Unity lightly, for mixed-reality concert work. I have not yet accelerated models on NPUs or GPUs inside a game engine; my edge work has been CPU-bound on ARM, plus GPU training for deep learning. I have profiled and optimised under strict budgets, and I expect to extend that quickly. What draws me to Ubisoft is a team that ships ML in real time to players, where performance and maintainability matter equally. I spent a research stint at McGill in Montréal in 2024. My French is basic (about A2) and improving, and I would work in English.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, available immediately, and open to relocating to Montréal. I would welcome the opportunity to discuss how my experience in C++ and real-time ML can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

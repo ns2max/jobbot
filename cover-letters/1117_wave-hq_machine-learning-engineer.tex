@@ -1,0 +1,78 @@
+% Job posting: https://jobs.lever.co/waveapps/a16580aa-7947-4d7b-babd-83ee6f922f0c
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | MLOps, Model Deployment, Anomaly Detection | Applied ML}
+\newcommand{\clRole}{Machine Learning Engineer}
+\newcommand{\clCompany}{Wave HQ}
+\newcommand{\clTeam}{the Machine Learning team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Machine Learning Engineer role on the Machine Learning team at Wave. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build end-to-end ML systems and run them in production: data ingestion, feature engineering, training, orchestration, deployment and monitoring. Building reliable, observable ML pipelines that help small businesses thrive, alongside risk, product and engineering partners, is the kind of work I want to do.
+
+Three parts of your posting match my work directly. For deploying models into production, I owned the full pipeline of a published real-time pattern detection system, from data acquisition to deployment and monitoring, running at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline, at F1 0.76 (Journal of the Audio Engineering Society, 2026). For orchestration and MLOps, I have built Airflow DAGs for ingestion, feature extraction and loading into Snowflake on AWS (S3, RDS, MWAA), with Docker, Jenkins CI/CD and pytest, and I have used MLflow. For financial risk, at Forestpin I designed and deployed ML and statistical pipelines for financial forensics and compliance monitoring, plus SQL and Python scoring services for anomaly flagging, working with compliance stakeholders to turn requirements into technical specs.
+
+I should be direct about the gaps. My AWS work has been on EC2, S3, ECS, MWAA and RDS, with SageMaker only lightly; I have not used Databricks, Redshift, Spark or Glue, Terraform, Kubeflow or SageMaker Feature Store in production, and my governance experience is practical (reproducible pipelines, documentation, monitoring) rather than formal lineage or cataloging tooling. I have built the same pieces with other tools, and I expect to pick up your stack quickly.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I would welcome the opportunity to discuss how my experience can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

@@ -1,0 +1,78 @@
+% Job posting: https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/AI---ML-Product-Engineer_R_1510576-1
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | Applied AI, MLOps, Evaluation Design | Cross-Functional Delivery}
+\newcommand{\clRole}{AI / ML Product Engineer}
+\newcommand{\clCompany}{TD}
+\newcommand{\clTeam}{the Analytics, Insights \& AI team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the AI / ML Product Engineer role in Analytics, Insights \& Artificial Intelligence at TD. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia. I build ML systems end-to-end, and much of my industry work was turning vague business requests into specified, measurable solutions with operations and engineering stakeholders. I understand this is a leadership and enablement role more than a hands-on build role, and the part that fits me is defining the task, setting how success is measured, and helping engineers ship it.
+
+Three parts of my work match your posting. For evaluation, I design benchmark suites with baselines and ablations, and I released four open datasets on Zenodo. My published real-time system runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline (Journal of the Audio Engineering Society, 2026), and I owned its full lifecycle from data acquisition to deployment and monitoring. For stakeholders in a regulated setting, at Forestpin I worked with compliance and risk teams to turn detection requirements into technical specs for financial forensics pipelines. For enablement, at MAS Holdings I mentored engineers, ran group-wide computer vision training seminars and introduced code review and CI/CD, and I supervised two BSc theses at Trento.
+
+I should be direct about the gaps. My generative AI work is applied: I use LLMs, RAG and Claude Code daily, but I have not shipped an LLM or agent product at scale, and I have not used LangChain, LlamaIndex or Semantic Kernel in production. I have not held a formal product owner role or managed a Jira backlog, and I have no banking experience. My cloud work is on AWS (S3, ECS, MWAA, RDS) with Airflow and Docker, not Azure. I expect to pick these up quickly, and I would aim to start with clear acceptance criteria and evaluation sets for the first AI initiatives.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately for the Toronto office. I would welcome the opportunity to discuss how my experience in applied ML, evaluation and mentoring can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

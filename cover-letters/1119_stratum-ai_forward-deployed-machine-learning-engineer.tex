@@ -1,0 +1,78 @@
+% Job posting: https://jobs.ashbyhq.com/stratum-ai/985fe333-04d7-47a4-beab-1f334df65188
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | Deep Learning, Custom Neural Architectures, Applied ML}
+\newcommand{\clRole}{Forward Deployed Machine Learning Engineer}
+\newcommand{\clCompany}{Stratum AI}
+\newcommand{\clTeam}{the Technical Services team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Forward Deployed Machine Learning Engineer role at Stratum AI. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia. I build deep learning systems end-to-end and deploy them where the data is messy and the client is on site. Models that tell a mine what is underground, and that stakeholders must trust, are the kind of problem I want to work on.
+
+Three parts of your posting match my work. For custom neural architectures in PyTorch and Python, I design and train my own models, from stacked RNNs for sequential data to CNNs, and I benchmark them with baselines and ablations. My published system runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline, with F1 0.76 (Journal of the Audio Engineering Society, 2026). For applied work with clients, at MAS Holdings I led computer vision systems deployed in factories, including care-label inspection that cut inspection time by 99.5\% and raised operational efficiency by up to 300\%, and a vitals-monitoring system deployed in hospital wards. For communication, I have presented results to non-ML partners and stakeholders throughout, and I track deployed models with monitoring.
+
+I should be direct about the gaps. My deep learning work has centered on CNNs and recurrent networks, and I have not built graph neural networks or large transformers from scratch; I have used HuggingFace models at a working level. I have not worked in mining or used FastAPI, DynamoDB or Azure in production, though I have run Python services and AWS pipelines. I expect to learn the domain and stack quickly, and I am comfortable with on-site client work.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I would welcome the opportunity to discuss how my experience can support the Technical Services team at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

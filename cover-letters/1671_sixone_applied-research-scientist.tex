@@ -1,0 +1,78 @@
+% Job posting: https://ca.linkedin.com/jobs/view/applied-research-scientist-at-sixone-4479096840
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1, do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Deep Learning, Computer Vision, Sensor \& Time-Series Data | Applied ML}
+\newcommand{\clRole}{Applied Research Scientist}
+\newcommand{\clCompany}{Sixone}
+\newcommand{\clTeam}{the applied research team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Applied Research Scientist role at Sixone. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build end-to-end ML systems that take raw sensor data to deployed decisions. Turning camera and sensor signals into models that run in real operations is what your posting describes, and it is what I have done in manufacturing and in research.
+
+Three parts of my background match the role. For sensor data and high-dimensional signals, I owned the full pipeline for streaming multi-dimensional data on the EU-funded MUSMET project, from acquisition and signal processing to feature extraction, training, deployment and monitoring. For edge deployment, my published system runs at 14 ms on a Raspberry Pi 4 with F1 0.76, 74x faster than the DTW baseline (Journal of the Audio Engineering Society, 2026). For vision in production, at MAS Holdings I led computer vision systems for manufacturing, including a care-label inspection system that cut inspection time by 99.5\% and a loom-side fabric defect detector on a microscopic camera array. I design benchmark suites with baselines and ablations, and I have built CNN, RNN and VAE models in Python, with PyTorch as one of my working frameworks alongside TensorFlow.
+
+I should be direct about the gaps. I have not worked with spectroscopy or hyperspectral instruments, or with sensor calibration for chemical or material properties, and most of my cloud work has been on AWS EC2, S3, ECS and Airflow rather than a dedicated spectral stack. I have not used contrastive learning or vision transformers in production. What carries over is the pipeline discipline, the signal processing background and the habit of linking raw measurements to model inputs, and I expect to learn the spectral side quickly. The recycling mission appeals to me because the models are judged by their effect on a physical process.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I would welcome the chance to discuss how my experience in sensor-driven ML and edge deployment can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

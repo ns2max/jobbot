@@ -1,0 +1,78 @@
+% Job posting: https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Senior-Machine-Learning-Engineer_R_1478728
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Senior Machine Learning Engineer | Deep Learning, Time-Series, Scalable ML Systems | Applied ML}
+\newcommand{\clRole}{Senior Machine Learning Engineer}
+\newcommand{\clCompany}{TD (Layer 6)}
+\newcommand{\clTeam}{the ML engineering team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Senior Machine Learning Engineer role at Layer 6. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build end-to-end ML systems that run in production under hard constraints. Layer 6 is attractive to me because it ships ML into a large regulated business, works on real transaction, text and document data, and still publishes and collaborates with academics. That mix of research and shipped systems is how I have worked since my PhD.
+
+Three parts of your posting match my work directly. For production ML, I owned full pipelines for streaming multi-dimensional data on the EU-funded MUSMET project, from data acquisition and feature engineering to training, deployment and monitoring. Our published system runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline, with F1 0.76 (Journal of the Audio Engineering Society, 2026). For data-intensive and financial work, I built real-time ETL pipelines for high-frequency IoT time-series across distributed sites at MAS Holdings, and designed ML and statistical pipelines for financial forensics and compliance risk detection at Forestpin. For deep learning and research, I work in PyTorch, TensorFlow and JAX, have trained generative models on GPUs, and have 10+ peer-reviewed publications.
+
+I should be direct about the gaps. I have not worked with LangGraph or built agentic systems in production, and my banking experience is limited to the Forestpin consulting work rather than a bank's data platform. My production code is mostly Python and C++, not Java. My Gen AI work covers LLM and RAG tooling and generative models for synthetic data, not large-scale customer-facing systems. I write tested, documented code with CI/CD, and I expect to be productive quickly on your stack.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, available immediately, and comfortable with the onsite Toronto arrangement. I would welcome the opportunity to discuss how my experience can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

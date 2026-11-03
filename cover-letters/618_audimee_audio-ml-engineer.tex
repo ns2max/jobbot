@@ -1,0 +1,78 @@
+% Job posting: https://careers.audimee.com/jobs/7167136-audio-machine-learning-engineer-machine-learning-developer
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Deep Learning, Audio ML, Signal Processing | Applied ML}
+\newcommand{\clRole}{Audio Machine Learning Engineer (Machine Learning Developer)}
+\newcommand{\clCompany}{Audimee}
+\newcommand{\clTeam}{the AI team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Audio Machine Learning Engineer role at Audimee. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and my PhD and postdoc research was real-time audio ML. I have also played guitar for over 20 years, sing, and record in Cubase, so building tools that help musicians make their best work is a problem I care about.
+
+Three parts of your posting match my work directly. For audio modeling and feature pipelines, my published system detects musical patterns in polyphonic audio using MFCC features and stacked RNNs, and it runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline, at F1 0.76 (Journal of the Audio Engineering Society, 2026). I released the audio feature-extraction code as Nebula, an open-source C++17 library. For generative models, at McGill I prototyped diffusion-based and VAE-based synthetic audio generation to improve robustness under limited labeled data. For data and evaluation, I released four open music datasets on Zenodo, recorded with 70+ musicians, and I design benchmark suites with baselines and ablations. I write my models in Python, mostly in Keras and TensorFlow, and also in PyTorch.
+
+I should be direct about the gaps. I have not built singing voice synthesis or voice conversion systems, and my diffusion work was at prototype level on synthetic audio, so I have not trained large neural vocoders such as HiFi-GAN. My production PyTorch experience is lighter than my TensorFlow experience. I have built the audio feature, DSP and low-latency inference pieces end to end, and I expect to ramp up quickly on vocal modeling with your AI team.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I work remotely, and I note your GMT -3 to +4 window: Toronto is GMT -4 in summer and GMT -5 in winter, and I am happy to shift my hours to overlap with the team. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

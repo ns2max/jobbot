@@ -1,0 +1,119 @@
+                         NISHAL STANISLAUS SILVA, PhD
+
+                          ML Research Engineer | Real-Time & Edge Inference | Audio, Sensor & Time-Series
+                                      Canadian Permanent Resident, Eligible to work in Canada without sponsorship
+
+ nishal.silva@hotmail.com | +1 613 200 2030 | Toronto, ON | nishal.xyz | linkedin.com/in/nishal-silva | github.com/ns2max
+
+PROFESSIONAL SUMMARY
+
+Machine learning research engineer specializing in real-time and edge audio inference under hard latency budgets.
+Owned the full pipeline for a published streaming audio pattern detector – acquisition, DSP/feature engineering, train-
+ing, and edge deployment – reaching 14 ms inference on a Raspberry Pi 4 at F1 0.76 and 31.4% CPU, a 74x speed-up
+over the 1038 ms DTW baseline it replaced (JAES 2026). This is direct evidence of shipping voice/audio-adjacent
+ML applications against latency and reliability constraints comparable to automotive-grade requirements, backed by
+C++17 production systems engineering, embedded Linux deployment (Elk Audio OS, JUCE, VST, OSC), and a re-
+search discipline of frozen-protocol benchmarking and ablation studies to quantify accuracy/latency/CPU trade-offs.
+
+CORE COMPETENCIES
+
+Voice/Audio ML on Embedded Systems: DSP feature extraction (STFT, MFCC, LFCC, PLP, GFCC, S-transform,
+CQT), onset/beat tracking, YIN pitch estimation, real-time audio-model deployment on Elk Audio OS with JUCE,
+VST, and OSC integration, embedded/edge inference on Raspberry Pi and ARM CPUs under sub-30 ms latency bud-
+gets, benchmark and ablation design for accuracy/latency/CPU trade-offs. Systems & ML: C++17 (expert, real-time
+engines), Python (TensorFlow, Keras, PyTorch, scikit-learn), embedded Linux, sensor/IMU fusion, time-series and
+sequence modelling (RNN/LSTM/GRU), computer vision (OpenCV) for industrial inspection.
+
+TECHNICAL STACK
+
+C++17, Python, TensorFlow, Keras, PyTorch, scikit-learn, Elk Audio OS, JUCE, VST, OSC, Librosa, SciPy, FFTW,
+libsndfile, Raspberry Pi, ARM, embedded Linux, OpenCV, SQL, AWS, Docker, CI/CD, ETL pipelines, Git, pytest.
+
+EDUCATION
+
+PhD, Information Engineering and Computer Science – University of Trento, Italy (defended Jan 2025)
+MSc, Telecommunication and Electronic Engineering – Sheffield Hallam University, UK (2018)
+BEng (Hons), Electronic Engineering – Sheffield Hallam University, UK (2014)
+
+RESEARCH AND WORK EXPERIENCE
+
+Independent Researcher | Self-directed, Toronto, Canada                                 Jan 2026 - Present
+
+• Two peer-reviewed papers accepted for publication: Smart Drums (JAES, in press) and MIRaaS (IEEE IS2, ac-
+
+cepted), extending the real-time pattern-detection and edge-offload work from the PhD.
+
+• Maintain Nebula, an open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi
+
+latency benchmarks (13 GitHub stars).
+
+• Continue independent benchmark and edge-inference work on audio and time-series ML, using AI-assisted de-
+
+velopment workflows including Claude Code.
+
+Postdoctoral Researcher | University of Trento, Trento, Italy                           Jan 2025 - Dec 2025
+
+• Owned the full ML pipeline for streaming audio and IMU/gesture data on the EU Horizon EIC Pathfinder project
+
+MUSMET: acquisition, DSP/feature engineering, training and evaluation, edge deployment (Raspberry Pi 4, Elk
+
+Audio OS, VST, OSC), and monitoring.
+
+• Published a real-time audio pattern detector achieving 14 ms inference on Raspberry Pi 4 at F1 0.76 and 31.4%
+
+CPU, 74x faster than the 1038 ms DTW baseline it replaced (JAES 2026).
+• Designed frozen-protocol benchmark suites and ablations quantifying accuracy/latency/CPU trade-offs across
+  model variants.
+
+• Built MIRaaS, a UDP-based edge-to-server offload architecture with a latency-characterization study accepted at
+  IEEE IS2 2026.
+
+Visiting Researcher | McGill University (IDMIL / CIRMMT), Montreal, Canada          May 2024 - Aug 2024
+
+• Built a self-powered smart electric guitar combining a BNO055 IMU with a HiFiBerry audio codec on a Raspberry
+
+Pi 4.
+
+• Fused IMU and audio streams via a hierarchical finite-state machine, reaching F1 0.78 on a 500-event corpus
+
+(IEEE IS2 2025).
+
+Visiting Researcher | University of Visual and Performing Arts, Colombo, Sri Lanka  Jan 2024 - Mar 2024
+
+• Conducted a human-centred evaluation study of musicians’ perception of smart instruments with embedded pat-
+
+tern detection (IEEE I3DA 2025).
+
+Technical Consultant | Forestpin (Pvt) Ltd, Colombo, Sri Lanka                      Aug 2020 - Feb 2021
+
+• Built ML and statistical pipelines for financial forensics, compliance monitoring, and anomaly detection on large
+
+structured enterprise data.
+
+Research Engineer | MAS Holdings (Pvt) Ltd, Colombo, Sri Lanka                      Jan 2015 - Jul 2020
+
+• Delivered end-to-end computer-vision and IoT systems for manufacturing at scale across a 5.5-year tenure, with
+
+operational efficiency gains of up to 300%.
+
+• Ran real-time IoT data ETL across production sites and deployed C++/Python inference on embedded hardware;
+
+introduced CI/CD and code review practices and mentored engineers.
+
+• Automated multilingual care-label quality control using OpenCV with conveyor and PLC integration for automatic
+
+reject, cutting inspection time by 99.5%.
+
+PUBLICATIONS
+
+Silva, N. & Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. Journal of the Audio
+Engineering Society, 74(3). DOI 10.17743/jaes.2022.0250. Silva, N. & Turchet, L. (2026, in press). Smart Drums.
+Journal of the Audio Engineering Society. Silva, N. & Turchet, L. (2026, accepted). MIRaaS. IEEE International
+Symposium on the Internet of Sounds (IS2).
+
+HIGHLIGHTS
+
+MIDI Innovation Awards 2023 Finalist (Prototypes & Non-Commercial Software). GMOA recognition (Government
+Medical Officers’ Association, Sri Lanka, 2020) for a COVID-19 remote vitals monitoring deployment. Fluent in
+English (native); basic, actively improving French (approximately A2).
+

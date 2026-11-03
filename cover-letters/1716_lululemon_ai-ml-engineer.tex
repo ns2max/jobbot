@@ -1,0 +1,78 @@
+% Job posting: https://careers.lululemon.com/en_US/careers/JobDetail/AI-ML-Engineer/62452
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 - do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | End-to-End ML Systems, Model Serving, MLOps | Applied ML}
+\newcommand{\clRole}{AI/ML Engineer}
+\newcommand{\clCompany}{lululemon}
+\newcommand{\clTeam}{the Enterprise Data \& AI team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the AI/ML Engineer role on the Enterprise Data \& AI team at lululemon. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build ML systems end to end: dataset curation, feature engineering, training, evaluation, deployment and monitoring. At MAS Holdings I led computer vision and IoT systems for manufacturing at scale, including care-label inspection that cut inspection time by 99.5\% and raised operational efficiency by up to 300\%. Your team's focus on taking models from research into reliable production systems is the work I have done throughout my career.
+
+Three parts of your posting match my work directly. For the full model lifecycle, I owned the ML pipeline for the EU-funded MUSMET project from data acquisition and feature engineering through training, evaluation, deployment and monitoring. The published system runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline, with F1 0.76 (Journal of the Audio Engineering Society, 2026). For evaluation and training decisions, I design benchmark suites with baselines and ablations to choose architectures under compute limits, and I released four open datasets on Zenodo. For MLOps, I have worked with Airflow, MLflow, Docker and Jenkins CI/CD, and built Airflow and Snowflake pipelines on AWS, and at MAS I introduced CI/CD and code review to speed up ML adoption across teams.
+
+I should be direct about the gaps. I have not run distributed training with Horovod or Ray Train, used Spark or feature stores in production, or operated canary releases and A/B testing on a retail-scale serving platform. I have used SageMaker and Kubernetes at a lighter level, and my deployments have been edge and embedded rather than large cloud serving. I have built the same pieces with other tools, and I expect to pick up your stack quickly. Within the first months I would aim to contribute to training pipelines and deployment reliability.
+
+I am a Canadian permanent resident, eligible to work without sponsorship, and available immediately. I am based in Toronto and open to relocating to Vancouver for the onsite requirement. I would welcome the opportunity to discuss how my experience in end-to-end ML systems can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

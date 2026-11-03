@@ -1,0 +1,78 @@
+% Job posting: https://app.careerpuck.com/job-board/lyft/job/8888403002?gh_jid=8888403002
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | Real-Time Inference, Time-Series, Optimization | Applied ML}
+\newcommand{\clRole}{ML Software Engineer, Routing}
+\newcommand{\clCompany}{Lyft}
+\newcommand{\clTeam}{the Routing team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the ML Software Engineer, Routing role at Lyft. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build end-to-end ML systems that run in production under hard latency limits. Routing every ride request with low latency, high reliability and high accuracy is the kind of constraint I have worked under for most of my career, and I would like to do it at Lyft's scale.
+
+Three parts of your posting match my work directly. For accuracy versus runtime trade-offs, my published real-time pattern detector runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline at a higher F1 (0.76 against 0.65, Journal of the Audio Engineering Society, 2026), and I owned its full lifecycle from data acquisition to deployment and monitoring. For optimization and production data work, at MAS Holdings I built real-time ingestion and ETL pipelines for high-frequency time-series data across distributed sites, and ML-driven optimization and decision engines, including a machine-changeover system, in C++ and Python. For engineering practice, I introduced code review and CI/CD at MAS, write tested code with pytest, and design benchmark suites with baselines and ablations to compare ML and non-ML approaches.
+
+I should be direct about the gaps. I have not run Go, Kafka, Flink or Spark in production, and my Kubernetes use is light. My pipelines have run on Airflow, Docker and AWS, with SQL for data work, and I have not worked on a routing or maps system or served millions of requests per day. I expect to pick up your stack quickly, and I am ready to take on code reviews, design reviews and on-call support.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, available immediately, and comfortable with the hybrid schedule in Toronto. I would welcome the opportunity to discuss how my experience can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

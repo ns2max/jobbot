@@ -35,6 +35,8 @@ Primary:
 - **glassdoor.ca** - postings + company reviews
 - **wellfound.com** (formerly AngelList) - startup roles, good for edge-AI and audio-tech startups
 - **Google Jobs** - `site:` searches and the jobs aggregator
+- **naukri.com** - added 2026-10-17. India/Gulf-focused board with sparse Canadian postings. No CLI; use `site:naukri.com` WebSearch, e.g. `site:naukri.com "Machine Learning Engineer" Canada OR Toronto OR Remote`. Public pages are reachable, so no login is needed.
+- **Google Jobs** - added to the portal list 2026-10-17. No CLI: Google disallows `/search` in robots.txt and the jobs panel is JS-only, so do not scrape it. Run plain WebSearch queries (e.g. `machine learning engineer jobs Canada remote`) and treat the hits as discovery; open the employer posting for the real read.
 
 **ATS boards (where most target companies post - highest signal per query):**
 - `job-boards.greenhouse.io` / `boards.greenhouse.io` / `job-boards.eu.greenhouse.io`
