@@ -1,0 +1,116 @@
+                        NISHAL STANISLAUS SILVA, PhD
+
+                            Music Technology ML Research Engineer | Audio, DSP & Real-Time Systems
+                                    Canadian Permanent Resident, Eligible to work in Canada without sponsorship
+
+nishal.silva@hotmail.com | +1 613 200 2030 | Toronto, ON | nishal.xyz | linkedin.com/in/nishal-silva | github.com/ns2max
+
+PROFESSIONAL SUMMARY
+
+Music technology ML research engineer with a PhD focused on real-time audio pattern detection and a research track
+record built almost entirely on music-content analysis. Designed and published MIRaaS, a UDP edge-to-server offload
+architecture for Music Information Retrieval as a service (IEEE IS2 2026) directly analogous to the content-analysis
+infrastructure a music/media platform runs at scale. Created and released four open music-content datasets (DoMP,
+DoPP, DoDP, DoDP2; 9,800+ recordings, 70+ musicians) and shipped symbolic-plus-audio music modelling (on-
+set/beat, chroma, key/chord, MIDI). Complements this with 15+ years as a performing and session guitarist (Trinity
+College London Rock & Pop Guitar, Grade 8), giving direct musical-domain intuition alongside the engineering.
+
+PORTFOLIO & DEMOS
+
+Nebula – C++17 audio-feature-extraction / MIR library with per-feature ARM and Raspberry Pi latency benchmarks:
+github.com/ns2max/nebula. “Hot Licks” demo – MIDI Innovation Awards 2023 Finalist project: youtu.be/gkOqfOT8zXM.
+
+CORE COMPETENCIES
+
+Music Information Retrieval & Audio ML: onset/beat tracking, chroma and key/chord detection, symbolic (MIDI)
+music modelling, DSP feature extraction (STFT, MFCC/LFCC/PLP/GFCC, S-transform, CQT), real-time and low-
+latency inference, edge/embedded deployment, benchmark and dataset design, human-centred evaluation of music
+systems.
+
+TECHNICAL STACK
+
+C++17, Python (TensorFlow, Keras, PyTorch, scikit-learn, Librosa), Elk Audio OS, JUCE, VST, OSC, MIDI, Rasp-
+berry Pi / ARM CPU profiling, AWS, SQL, ETL, Docker, CI/CD, Git.
+
+RESEARCH AND WORK EXPERIENCE
+
+Independent Researcher | Self-directed, Toronto, Canada                 Jan 2026 - Present
+
+• Authored two accepted papers: Smart Drums (JAES 2026, in press) and MIRaaS: Music Information Retrieval
+
+as a Service (IEEE IS2 2026, accepted).
+
+• Maintain Nebula, a public C++17 audio-feature-extraction / MIR toolkit with per-feature ARM and Raspberry Pi
+
+latency benchmarks, 13 stars.
+
+• AI-assisted development workflows using Claude Code for research tooling and documentation.
+
+Postdoctoral Researcher | University of Trento, Trento, Italy           Jan 2025 - Dec 2025
+
+• Owned the full ML pipeline for streaming audio and IMU/gesture data – acquisition, DSP/feature engineering,
+
+training and evaluation, edge deployment, and monitoring – on the EU Horizon EIC Pathfinder project MUSMET.
+
+• Published a real-time audio pattern detector achieving 14 ms inference on a Raspberry Pi 4 at F1 0.76 and 31.4%
+
+CPU, 74x faster than the 1038 ms DTW baseline it replaced (JAES 2026).
+
+• Designed frozen-protocol benchmark suites and ablations quantifying accuracy/latency/CPU trade-offs.
+
+• Built MIRaaS, a UDP edge-to-server offload architecture for music information retrieval, with a latency-characterization
+
+paper accepted at IEEE IS2 2026.
+Visiting Researcher | McGill University (IDMIL / CIRMMT), Montreal, Canada          May 2024 - Aug 2024
+
+• Built a self-powered smart electric guitar, fusing IMU and audio signals via a hierarchical FSM to reach F1 0.78
+
+on a 500-event corpus (IEEE IS2 2025).
+
+Visiting Researcher | University of Visual and Performing Arts, Colombo, Sri Lanka  Jan 2024 - Mar 2024
+
+• Ran a human-centred evaluation of musicians’ perception of smart musical instruments with embedded pattern
+
+detection (IEEE I3DA 2025).
+
+Technical Consultant | Forestpin (Pvt) Ltd, Colombo, Sri Lanka                      Aug 2020 - Feb 2021
+
+• Built ML and statistical pipelines for financial forensics, compliance monitoring, and risk detection on large
+
+structured enterprise data.
+
+Research Engineer | MAS Holdings (Pvt) Ltd, Colombo, Sri Lanka                      Jan 2015 - Jul 2020
+
+• Delivered end-to-end computer-vision and IoT systems for manufacturing at scale over 5.5 years, raising opera-
+
+tional efficiency by up to 300%.
+
+• Built real-time IoT ETL pipelines with C++/Python inference on embedded hardware; introduced CI/CD and code
+
+review practices for the engineering team.
+
+PUBLICATIONS
+
+Silva, N. & Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. Journal of the Audio
+Engineering Society, 74(3). Silva, N. & Turchet, L. (2026, in press). Smart Drums. Journal of the Audio Engineering
+Society. Silva, N. & Turchet, L. (2026, accepted). MIRaaS: Music Information Retrieval as a Service. IEEE IS2. Silva,
+N. & Turchet, L. (2024). Real-Time Pattern Recognition of Symbolic Monophonic Music. ACM Audio Mostly. PhD
+thesis: “Embedded Real-time Musical Pattern Detection for Smart Musical Instruments,” University of Trento, 2025.
+
+EDUCATION
+
+PhD, Information Engineering and Computer Science – University of Trento, Italy (2021 - 2025). Thesis: “Em-
+bedded Real-time Musical Pattern Detection for Smart Musical Instruments.”
+MSc, Telecommunication and Electronic Engineering – Sheffield Hallam University, UK (2016 - 2018).
+BEng (Hons), Electronic Engineering – Sheffield Hallam University, UK (2013 - 2014).
+
+HIGHLIGHTS
+
+Author of four open-access music-content datasets on Zenodo (DoMP, DoPP, DoDP, DoDP2; 9,800+ recordings, 70+
+musicians) and designer of MIRaaS, a music-information-retrieval-as-a-service architecture, giving direct, hands-on
+experience with the kind of audio-content pipelines a music and media company runs in production. MIDI Inno-
+vation Awards 2023 Finalist (“Hot Licks,” Prototypes & Non-Commercial Software; covered by Sound On Sound
+and MusicRadar). Existing Montreal ties through a 2024 visiting research appointment at McGill University’s ID-
+MIL/CIRMMT lab. Fifteen-plus years as a performing and session guitarist, Trinity College London Rock & Pop
+Guitar Grade 8, bringing musician-informed intuition to music-content and audio-ML work.
+

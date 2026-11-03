@@ -1,0 +1,78 @@
+% Job posting: https://jobs.ea.com/en_US/careers/JobDetail/Audio-Software-Engineer-EA-SPORTS-UFC/215824
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | Real-Time Audio, C++, DSP, Pattern Detection | Applied ML}
+\newcommand{\clRole}{Audio Software Engineer, EA SPORTS UFC}
+\newcommand{\clCompany}{EA SPORTS}
+\newcommand{\clTeam}{the UFC Audio team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Audio Software Engineer role on the UFC Audio team at EA SPORTS. I have a PhD (University of Trento, 2025) and 10+ years across industry and academia, and my work is real-time audio software in C++ that has to meet hard latency and CPU limits. I am also a performing guitarist with 15+ years on stage, so audio that feels right to artists and designers matters to me.
+
+Three parts of your posting match my work directly. For C++ on real-time, performance-sensitive systems, I released Nebula, an open-source C++17 audio feature-extraction library with per-feature latency benchmarking on ARM and Raspberry Pi, and at MAS Holdings I wrote custom C++ for closed-loop industrial subsystems. For real-time audio, my published system runs at 14 ms on a Raspberry Pi 4 at 31.4\% CPU, 74x faster than the DTW baseline at F1 0.76 (Journal of the Audio Engineering Society, 2026), delivered as a JUCE VST plugin on Elk Audio OS. For tools and workflows, I built the data acquisition, evaluation and deployment pipelines around it and documented them for long-term maintenance, working with musicians and engineers.
+
+I should be direct about the gaps. I have not shipped a game or worked on console platforms, and I have not used a game audio middleware engine in production. My multithreading experience comes from real-time audio plugins and embedded pipelines rather than a large game codebase. I debug and profile memory and CPU on constrained hardware, and I expect to learn your codebase and tooling quickly. I am also curious about AI-assisted tools and would check their output against profiling and tests before trusting it.
+
+I understand the team works onsite in Burnaby three days a week, Tuesday to Thursday. I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I would welcome the chance to discuss how my real-time audio and C++ experience can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

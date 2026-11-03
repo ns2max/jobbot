@@ -1,0 +1,78 @@
+% Job posting: https://careers.lululemon.com/en_US/careers/JobDetail/Applied-AI-ML-Scientist/60589
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 - do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Applied AI/ML Scientist | Deep Learning, Time-Series, Computer Vision, Multimodal | Applied ML}
+\newcommand{\clRole}{Applied AI/ML Scientist}
+\newcommand{\clCompany}{lululemon}
+\newcommand{\clTeam}{the Enterprise Data \& AI team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Applied AI/ML Scientist role on the Enterprise Data \& AI team at lululemon (Vancouver SSC). I am an Applied AI/ML Scientist and Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build ML systems end-to-end, from data ingestion and modeling through deployment and monitoring. Before my PhD I spent five years at MAS Holdings, an apparel manufacturer, where I led computer vision systems for production lines, including care-label inspection that cut inspection time by 99.5\% and raised operational efficiency by up to 300\%. Applying ML to apparel and turning it into something operations teams rely on is work I know well.
+
+Three parts of your posting match my work directly. For rigorous experimentation and evaluation, I design benchmark suites with baselines and ablations, and I released four open datasets on Zenodo. For latency and production constraints, my published system runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline (Journal of the Audio Engineering Society, 2026), and I owned its full lifecycle from data acquisition to deployment and monitoring. For time-series, computer vision and multimodal modeling, I built real-time pipelines for sensor and camera streams at MAS, and at Trento I time-synchronized audio, EEG and head and hand tracking from four musicians at once. I am also fine-tuning an audio foundation model with LoRA, and I have worked with Python, PyTorch and AWS (SageMaker, S3, ECS).
+
+I should be direct about the gaps. I have not built demand forecasting or personalization models on retail data, and I have not run online A/B tests that measure business impact at enterprise scale. My evaluation work has been offline benchmarks and user studies. Much of my industry background is in manufacturing, and my cloud ML work has been lighter than my research. The underlying methods are the same, and I expect to learn your data and experimentation stack quickly. What draws me to lululemon is applied research that has to ship and be judged on real-world performance, with product and engineering teams working side by side.
+
+I am a Canadian permanent resident based in Toronto, eligible to work without sponsorship, and available immediately. I am open to relocating to Vancouver and to working onsite at least four days a week. I would welcome the opportunity to discuss how my experience can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

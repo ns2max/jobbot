@@ -1,0 +1,78 @@
+% Job posting: https://jobs.lever.co/extremenetworks/fe3b7c5c-f855-4993-ad85-f396379fe346
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Applied ML, Generative AI, Anomaly Detection, Time-Series | Production ML}
+\newcommand{\clRole}{Senior Data Scientist (Gen AI, Machine Learning)}
+\newcommand{\clCompany}{Extreme Networks}
+\newcommand{\clTeam}{the AI Core group}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Senior Data Scientist (Gen AI, Machine Learning) role at Extreme Networks. I am a Machine Learning Research Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build end-to-end ML systems that run in production under hard latency limits. Your AI Core group's focus on real-time multi-agent systems for network management, with anomaly detection and data mining at the centre, is close to the pattern and anomaly detection on streaming data that I have done for most of my career.
+
+Three parts of my work match your posting. For production ownership, I led ML and computer vision systems at MAS Holdings from design to deployment, including care-label inspection that cut inspection time by 99.5\% and raised operational efficiency by up to 300\%, with real-time IoT ingestion and ETL pipelines across distributed sites. For real-time ML, my published system runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline at F1 0.76 (Journal of the Audio Engineering Society, 2026), and I owned its lifecycle from data acquisition to deployment and monitoring on AWS with Docker and Airflow. For generative AI, I have worked with diffusion and VAE based synthetic data generation, and I am currently fine-tuning a pre-trained audio foundation model with LoRA. I also publish regularly, with 10+ peer-reviewed papers, four open datasets on Zenodo and an open-source C++17 library.
+
+I should be direct about the gaps. My generative AI work is applied and tool-level, not three years of production RAG or agent systems, and I have not used GNNs or GraphRAG in production. I have also worked on AWS rather than Azure or GCP, and not on Spark, Flink or Kafka. I have limited experience leading a research organisation, although I mentored engineers and set up code review and CI/CD practices at MAS. I learn new stacks quickly and would aim to contribute first on anomaly detection and evaluation design.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I would welcome the opportunity to discuss how my experience can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

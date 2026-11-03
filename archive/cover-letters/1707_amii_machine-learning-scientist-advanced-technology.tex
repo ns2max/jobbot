@@ -1,0 +1,80 @@
+% Job posting: https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-machine-learning-scientist-bospx/
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Scientist | Applied ML, Deep Learning, Time-Series | Peer-Reviewed Research}
+\newcommand{\clRole}{Machine Learning Scientist, Advanced Technology}
+\newcommand{\clCompany}{Alberta Machine Intelligence Institute (Amii)}
+\newcommand{\clTeam}{the Advanced Technology team}
+\newcommand{\clAddressee}{Dear Hiring Team,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Machine Learning Scientist, Advanced Technology role at Amii. I am a machine learning scientist with a PhD (University of Trento, 2025), 10+ years across industry and academia, and 10+ peer-reviewed publications. Your posting pairs client-facing applied ML with research and manuscripts, which is how I have worked. At MAS Holdings I delivered ML and computer vision systems to operations and engineering stakeholders, and at Trento I moved research prototypes into documented, deployable components with industry partners.
+
+The accomplishment I am most proud of is the real-time audio pattern detection system published in the Journal of the Audio Engineering Society (2026). It runs at 14 ms on a Raspberry Pi 4 with F1 0.76, 74x faster than the DTW baseline. I am proud of it because it went the whole way: from a research question, through benchmark suites with baselines and ablations, to a system performers used in two live concerts, and then to four open datasets on Zenodo that other researchers can build on.
+
+Several requirements in your posting match my work directly. For model development, I work in PyTorch, scikit-learn, Pandas and SciPy, and I have deployed on AWS (SageMaker, ECS, MWAA). For client work, I turned compliance and operations requirements into technical specifications at Forestpin and MAS, and I explained results to non-technical stakeholders. For mentoring, I mentored engineers at MAS, supervised two BSc theses at Trento, and I review for IEEE Access and sit on programme committees for the IEEE Internet of Sounds Symposium and the Immersive and 3D Audio conference. My human-centred evaluation work on usability and interpretability is the closest experience I have to your Principled AI Framework.
+
+I should be direct about the gaps. I have not worked professionally with reinforcement learning, and I have not used Optuna, Weights \& Biases, LightGBM or XGBoost. Most of my modelling has been supervised sequence models, with prototypes in VAE and diffusion methods for limited-label data. I expect to pick up reinforcement learning quickly with a team of experts around me, and I would be glad to start on client problems where my evaluation and deployment experience applies right away.
+
+I am a Canadian permanent resident, eligible to work without sponsorship, available immediately, and open to relocating to Edmonton. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

@@ -1,0 +1,117 @@
+                        NISHAL STANISLAUS SILVA, PhD
+
+                             Machine Learning Engineer | Industrial Inspection, IoT & Edge Deployment
+                                    Canadian Permanent Resident, Eligible to work in Canada without sponsorship
+
+nishal.silva@hotmail.com | +1 613 200 2030 | Toronto, ON | nishal.xyz | linkedin.com/in/nishal-silva | github.com/ns2max
+
+PROFESSIONAL SUMMARY
+
+Computer-vision engineer with 5.5 years leading production CV/IoT systems at MAS Holdings, South Asia’s largest
+apparel manufacturer, including a COVID-19 remote-vitals CV device deployed across hospital wards and recognized
+by the Government Medical Officers’ Association (GMOA) of Sri Lanka – his one direct clinical CV deployment.
+Complements this with a PhD (University of Trento) built on rigorous benchmark and ablation design, quantifying
+accuracy/latency/CPU trade-offs under hard real-time constraints, plus human-centred evaluation work directly relevant
+to validating a CV system for clinical use. Canadian Permanent Resident based in Toronto; open to relocating to
+Burnaby/Vancouver.
+
+CORE COMPETENCIES
+
+Computer Vision & Perception: OpenCV (template and feature matching, image registration and warping, cor-
+ner/edge detection, explainable defect overlays); industrial and microscopic camera-array inspection; real-time em-
+bedded CV pipelines; sensor/IoT fusion.
+Evaluation & Validation Rigor: frozen-protocol benchmark suite design, ablation studies, statistical evaluation of
+accuracy/latency/CPU trade-offs, human-centred usability evaluation.
+
+TECHNICAL STACK
+
+C++17, Python (TensorFlow, Keras, PyTorch, scikit-learn), OpenCV, embedded/edge deployment (Raspberry Pi, ARM
+CPU profiling), real-time inference under hard latency budgets, AWS, SQL, ETL pipelines, Docker, CI/CD, Git.
+
+EDUCATION                                                                            2021 - 2025
+                                                                                     2016 - 2018
+PhD, Information Engineering and Computer Science – University of Trento, Italy      2013 - 2014
+MSc, Telecommunication and Electronic Engineering – Sheffield Hallam University, UK
+BEng (Hons), Electronic Engineering – Sheffield Hallam University, UK
+
+RESEARCH AND WORK EXPERIENCE
+
+Independent Researcher | Self-directed, Toronto, Canada                              Jan 2026 - Present
+
+• Two peer-reviewed papers accepted (Smart Drums, JAES; MIRaaS, IEEE IS2).
+
+• Maintains Nebula, a C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency bench-
+
+marks.
+
+Postdoctoral Researcher | University of Trento, Trento, Italy                        Jan 2025 - Dec 2025
+
+• Owned the full ML pipeline for streaming audio + IMU/gesture data: acquisition, DSP/feature engineering, train-
+
+ing/eval, edge deployment (Raspberry Pi 4), monitoring.
+
+• Published real-time detector: 14 ms inference on Raspberry Pi 4, F1 0.76, 31.4% CPU, 74x faster than a DTW
+
+baseline (JAES 2026).
+
+• Designed frozen-protocol benchmark suites and ablations quantifying accuracy/latency/CPU trade-offs – an eval-
+
+uation methodology directly transferable to validating a medical CV system before clinical deployment.
+
+Visiting Researcher | McGill University (IDMIL/CIRMMT), Montreal, Canada             May 2024 - Aug 2024
+• Built a self-powered smart electric guitar (BNO055 IMU + HiFiBerry + Raspberry Pi 4). Fused IMU and audio
+  signals via a hierarchical FSM, F1 0.78 on a 500-event corpus (IEEE IS2 2025).
+
+Visiting Researcher | University of Visual and Performing Arts, Colombo, Sri Lanka        Jan 2024 - Mar 2024
+
+• Ran a human-centred evaluation of musicians’ perception of smart instrument pattern detection (IEEE I3DA
+
+2025), combining quantitative and qualitative methods – directly relevant to validating a clinical tool’s real-world
+
+usability.
+
+Technical Consultant | Forestpin (Pvt) Ltd, Colombo, Sri Lanka                            Aug 2020 - Feb 2021
+
+• Built ML and statistical pipelines for financial forensics, compliance monitoring, and anomaly detection on large
+
+structured enterprise data.
+
+Research Engineer | MAS Holdings (Pvt) Ltd, Colombo, Sri Lanka                            Jan 2015 - Jul 2020
+
+• Owned end-to-end computer-vision and IoT systems for manufacturing at scale, South Asia’s largest apparel man-
+
+ufacturer, taking camera/sensor/IoT streams into production workflows; operational efficiency gains up to +300%.
+
+• Built and deployed a COVID-19 remote-vitals computer-vision device across hospital wards, digitizing patient vi-
+
+tals under real clinical adoption stakes; deployment recognized by the Government Medical Officers’ Association
+
+(GMOA) of Sri Lanka.
+
+• Automated multilingual care-label QC using OpenCV template and feature matching with an explainable defect
+
+overlay, integrated with conveyor and PLC reject hardware; cut inspection time by 99.5%.
+
+• Built loom-side fabric structural-defect detection using a microscopic camera array; cut operator headcount by
+
+50%.
+
+• Ran real-time IoT ETL across sites in South Asia, North America, and Africa, with C++/Python inference on
+
+embedded hardware.
+
+• Introduced CI/CD and code review practices; mentored engineers across the team.
+
+PUBLICATIONS
+
+Silva, N. & Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. Journal of the
+Audio Engineering Society, 74(3). Silva, N. & Turchet, L. (2026, in press). Smart Drums. Journal of the Audio
+Engineering Society. Silva, N. & Turchet, L. (2022). An SSIM-Based Training-Free Detection Method. Proceedings
+of DAFx, achieving 95% detection accuracy without training data.
+
+HIGHLIGHTS
+
+GMOA (Government Medical Officers’ Association, Sri Lanka) recognition, 2020, for a COVID-19 remote-vitals
+computer-vision device deployed across hospital wards during the pandemic. MIDI Innovation Awards 2023 Finalist
+(”Hot Licks”, Prototypes & Non-Commercial Software).
+

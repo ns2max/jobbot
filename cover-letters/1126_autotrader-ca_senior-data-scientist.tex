@@ -1,0 +1,78 @@
+% Job posting: https://job-boards.greenhouse.io/autotradercanada/jobs/7629293003
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | Production ML Systems, MLOps on AWS, Time-Series | Applied ML}
+\newcommand{\clRole}{Senior Data Scientist}
+\newcommand{\clCompany}{AutoTrader.ca}
+\newcommand{\clTeam}{your Data Science team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Senior Data Scientist role at AutoTrader.ca. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I own ML systems end-to-end in production: problem framing, design, deployment, monitoring and iteration. At MAS Holdings I led computer vision and IoT systems for manufacturing that cut inspection time by 99.5\% and raised operational efficiency by up to 300\%, working with product, operations and engineering stakeholders to turn business needs into measurable results.
+
+Three parts of your posting match my work directly. For production ML, my published system runs at 14 ms and F1 0.76 on a Raspberry Pi 4, 74x faster than the DTW baseline (Journal of the Audio Engineering Society, 2026), and I owned its lifecycle from data acquisition to deployment and monitoring. For AWS and MLOps, I have built Airflow, Docker and ETL pipelines on AWS (S3, ECS, MWAA, RDS) with Snowflake, and at MAS I introduced CI/CD and code review practice and mentored engineers. For methodology, I design benchmark suites with baselines and ablations to guide architecture decisions under compute constraints, and I released four open datasets on Zenodo.
+
+I should be direct about two gaps. My GenAI experience is applied and tool-level (RAG, prompt engineering, and diffusion and VAE based synthetic data work at McGill), not LLM research, and I have not yet operated ML systems across several countries or markets. I have shipped systems across distributed factory sites and I expect to learn the regional differences quickly. What draws me to AutoTrader is a marketplace where ML sits at the core of the product and the work is judged by outcomes, not models. Within the first months I would aim to contribute to production reliability and monitoring of your ML systems.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I would welcome the opportunity to discuss how my experience can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

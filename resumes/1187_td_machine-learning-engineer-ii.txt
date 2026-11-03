@@ -1,0 +1,113 @@
+                        NISHAL STANISLAUS SILVA, PhD
+
+                      Machine Learning Engineer | Anomaly Detection, Risk Modeling & Applied ML | PhD
+                                    Canadian Permanent Resident, Eligible to work in Canada without sponsorship
+
+nishal.silva@hotmail.com | +1 613 200 2030 | Toronto, ON | nishal.xyz | linkedin.com/in/nishal-silva | github.com/ns2max
+
+PROFESSIONAL SUMMARY
+
+Machine learning engineer with direct experience building financial forensics and anomaly-detection pipelines: at
+Forestpin, designed and deployed ML and statistical models for compliance monitoring and risk/anomaly detection
+on large structured enterprise datasets, with SQL + Python backend scoring services running in production for analyst
+triage. This is paired with a PhD-trained discipline in rigorous model evaluation – frozen-protocol benchmark design,
+ablation studies, and quantified accuracy/latency/CPU trade-offs – the same methodology that underpins validating
+a fraud or risk model before deployment. Broader ML engineering background spans real-time inference systems,
+embedded/edge deployment, and production ETL, most recently owning a full pipeline from acquisition through de-
+ployment and monitoring on an EU Horizon-funded project. Canadian Permanent Resident based in Toronto, available
+immediately.
+
+CORE COMPETENCIES
+
+ML Engineering & Anomaly Detection: statistical and ML anomaly/risk-scoring pipelines, compliance monitoring
+on structured enterprise data, SQL + Python production scoring services, feature engineering, model deployment and
+monitoring, ETL pipeline design.
+Research & Evaluation Rigor: benchmark and ablation design, model evaluation methodology, quantified accu-
+racy/latency/resource trade-off analysis, reproducible experiment protocols, technical writing and stakeholder transla-
+tion.
+
+TECHNICAL STACK
+
+Python (TensorFlow, Keras, PyTorch, scikit-learn, Pandas, NumPy, SciPy), C++17, SQL, AWS (EC2, S3, ECS,
+MWAA, RDS), Docker, Airflow, CI/CD, Git, ETL pipeline design.
+
+EDUCATION
+
+PhD, Information Engineering and Computer Science – University of Trento, Italy (defended Jan 2025)
+MSc, Telecommunication and Electronic Engineering – Sheffield Hallam University, UK (2018)
+BEng (Hons), Electronic Engineering – Sheffield Hallam University, UK (2014)
+
+PORTFOLIO
+
+Nebula – C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency benchmarks (github.com/ns2max/neb
+
+EXPERIENCE
+
+Independent Researcher | Self-directed, Toronto, Canada        Jan 2026 - Present
+
+• Continued applied ML and systems work; two papers accepted for publication (JAES, IEEE IS2).
+
+• Maintain Nebula, an open-source C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi
+
+latency benchmarks.
+
+• Used AI-assisted development workflows, including Claude Code, for tooling and pipeline development.
+
+Postdoctoral Researcher | University of Trento, Trento, Italy  Jan 2025 - Dec 2025
+• Owned the full ML pipeline for streaming audio and IMU/gesture data – acquisition, DSP/feature engineering,
+  training and evaluation, edge deployment, and monitoring – on the EU Horizon EIC Pathfinder project MUSMET.
+
+• Designed and deployed a real-time detector achieving 14 ms inference on Raspberry Pi 4 at F1 0.76 and 31.4%
+  CPU utilization, 74x faster than the 1038 ms DTW baseline it replaced (published, JAES 2026).
+
+• Built frozen-protocol benchmark suites and ablation studies quantifying accuracy/latency/CPU trade-offs, with a
+  written record of negative results – methodology directly transferable to validating risk and fraud models before
+  deployment.
+
+Visiting Researcher | McGill University (IDMIL/CIRMMT), Montreal, Canada                      May 2024 - Aug 2024
+
+• Built a self-powered smart electric guitar, fusing IMU and audio signals via a hierarchical finite-state-machine
+
+classifier, achieving F1 0.78 on a 500-event corpus (published, IEEE IS2 2025).
+
+Visiting Researcher | University of Visual and Performing Arts, Colombo, Sri Lanka            Jan 2024 - Mar 2024
+
+• Conducted a human-centred evaluation study of musicians’ perception of smart instrument pattern-detection sys-
+
+tems (published, IEEE I3DA 2025).
+
+Technical Consultant | Forestpin (Pvt) Ltd, Colombo, Sri Lanka                                Aug 2020 - Feb 2021
+
+• Designed and deployed ML and statistical pipelines for financial forensics, compliance monitoring, and risk/anomaly
+
+detection on large structured enterprise datasets.
+
+• Built SQL + Python backend anomaly-scoring services used in production for analyst triage.
+
+• Translated compliance-stakeholder requirements into technical specifications for model development.
+
+Research Engineer | MAS Holdings (Pvt) Ltd, Colombo, Sri Lanka                                Jan 2015 - Jul 2020
+
+• Delivered end-to-end computer-vision and IoT systems for manufacturing at scale over 5.5 years, improving op-
+
+erational efficiency by up to 300%.
+
+• Ran real-time IoT ETL pipelines across multiple sites with C++/Python inference on embedded hardware; intro-
+
+duced CI/CD and code review practices and mentored engineers.
+
+• Automated multilingual care-label quality-control inspection (OpenCV, conveyor and PLC reject integration),
+
+cutting inspection time by 99.5%.
+
+PUBLICATIONS
+
+Silva, N. & Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. Journal of the
+Audio Engineering Society, 74(3). Silva, N. & Turchet, L. (2026, in press). Smart Drums. Journal of the Audio
+Engineering Society.
+
+HIGHLIGHTS
+
+MIDI Innovation Awards 2023 Finalist. GMOA recognition (Government Medical Officers’ Association, Sri Lanka,
+2020) for a COVID-19 remote vitals-monitoring deployment.
+

@@ -1,0 +1,124 @@
+                         NISHAL STANISLAUS SILVA, PhD
+
+                          ML Research Engineer | Real-Time & Edge Inference | Audio, Sensor & Time-Series
+                                      Canadian Permanent Resident, Eligible to work in Canada without sponsorship
+
+ nishal.silva@hotmail.com | +1 613 200 2030 | Toronto, ON | nishal.xyz | linkedin.com/in/nishal-silva | github.com/ns2max
+
+PROFESSIONAL SUMMARY
+
+PhD researcher whose doctoral work is, at its core, hardware-aware ML: designing and validating models under a fixed
+latency, compute, and power envelope on embedded ARM hardware. Headline result: a real-time audio pattern detector
+running at 14 ms inference on a Raspberry Pi 4, F1 0.76, 31.4% CPU utilization – 74x faster than the 1038 ms DTW
+baseline it replaced (JAES 2026). Built MIRaaS, a UDP edge-to-server offload architecture that characterizes exactly
+where accuracy, latency, and compute trade off when deciding what runs on-edge versus off-edge (accepted, IEEE
+IS2 2026). Track record of frozen-protocol benchmark design, ablation studies, and quantified accuracy/latency/CPU
+trade-off reporting across five years of applied ML on embedded and industrial hardware.
+
+CORE COMPETENCIES
+
+Hardware-Aware ML & Edge Optimization: ARM CPU and power profiling; real-time inference under sub-30
+ms budgets; embedded Linux deployment (Raspberry Pi 4); model compression, quantization, and ONNX/TFLite
+familiarity; frozen-protocol benchmark and ablation design; latency/accuracy/CPU trade-off quantification; edge-vs-
+server offload architecture. Also: real-time systems engineering, sensor/time-series pattern detection, computer vision
+at manufacturing scale, ML pipeline ownership (acquisition through deployment and monitoring).
+
+TECHNICAL STACK
+
+C++17, Python, TensorFlow, Keras, PyTorch, scikit-learn, ONNX, TFLite (familiarity), embedded Linux, Raspberry
+Pi/ARM, Docker, CI/CD, AWS, SQL, ETL pipelines, Git, pytest.
+
+EDUCATION
+
+PhD, Information Engineering and Computer Science – University of Trento, Italy      2021 - 2025
+
+Thesis: ”Embedded Real-time Musical Pattern Detection for Smart Musical Instruments” – hardware-aware model
+
+design under fixed latency/compute/power budgets on embedded ARM hardware.
+
+MSc, Telecommunication and Electronic Engineering – Sheffield Hallam University, UK  2016 - 2018
+
+BEng (Hons), Electronic Engineering – Sheffield Hallam University, UK                2013 - 2014
+
+RESEARCH AND WORK EXPERIENCE
+
+Independent Researcher | Self-directed, Toronto, Canada                              Jan 2026 - Present
+
+• Authored two accepted peer-reviewed papers (Smart Drums, JAES; MIRaaS, IEEE IS2 2026) continuing the
+
+hardware-aware ML and edge-vs-server characterization line of work.
+
+• Maintain Nebula, a C++17 audio-feature-extraction library with per-feature ARM/Raspberry Pi latency bench-
+
+marks (github.com/ns2max/nebula, 13 stars).
+
+• Use AI-assisted development workflows, including Claude Code, to accelerate library and tooling development.
+
+Postdoctoral Researcher | University of Trento, Trento, Italy                        Jan 2025 - Dec 2025
+
+• Owned the full ML pipeline for streaming audio and IMU/gesture data on the EU Horizon EIC Pathfinder project
+
+MUSMET: acquisition, DSP/feature engineering, training and evaluation, edge deployment on Raspberry Pi 4,
+
+and monitoring.
+
+• Designed and shipped a real-time audio pattern detector at 14 ms inference, F1 0.76, 31.4% CPU on Raspberry
+
+Pi 4 – 74x faster than the 1038 ms DTW baseline it replaced (JAES 2026).
+• Designed frozen-protocol benchmark suites and ablations (RNN vs. DTW; audio vs. MIDI; pattern-set sizes
+  1/3/10) quantifying accuracy, latency, and CPU trade-offs, with a written record of negative results.
+
+• Built MIRaaS, a UDP edge-to-server offload architecture characterizing latency/compute trade-offs for on-edge
+  vs. off-edge inference decisions (accepted, IEEE IS2 2026).
+
+Visiting Researcher | McGill University (IDMIL / CIRMMT), Montreal, Canada          May 2024 - Aug 2024
+
+• Built a self-powered smart electric guitar (IMU + audio) with gesture fusion via a hierarchical FSM, reaching F1
+
+0.78 on a 500-event corpus (IEEE IS2 2025).
+
+• Profiled compute and power draw to validate real-time feasibility on self-powered embedded hardware – power-
+
+budget hardware-aware engineering.
+
+Visiting Researcher | University of Visual and Performing Arts, Colombo, Sri Lanka  Jan 2024 - Mar 2024
+
+• Conducted a human-centred evaluation of musicians’ perception of smart instruments with embedded pattern
+
+detection (IEEE I3DA 2025).
+
+Technical Consultant | Forestpin, Colombo, Sri Lanka                                Aug 2020 - Feb 2021
+
+• Built ML and statistical pipelines for financial forensics, compliance monitoring, and risk detection on large
+
+structured enterprise data.
+
+Research Engineer | MAS Holdings, Colombo, Sri Lanka                                Jan 2015 - Jul 2020
+
+• Delivered end-to-end computer-vision and IoT systems for manufacturing at scale over 5.5 years, raising opera-
+
+tional efficiency by up to 300%.
+
+• Ran real-time IoT ETL pipelines across sites, deploying C++/Python inference on embedded hardware, and in-
+
+troduced CI/CD and code review practices.
+
+• Automated multilingual care-label quality control (OpenCV, conveyor + PLC reject integration), cutting inspec-
+
+tion time by 99.5%.
+
+PUBLICATIONS
+
+Silva, N. & Turchet, L. (2026). Real-Time Audio Pattern Detection for Smart Musical Instruments. J. Audio Eng. Soc.
+74(3). Silva, N. & Turchet, L. (2026, in press). Smart Drums. J. Audio Eng. Soc. Silva, N. & Turchet, L. (2026,
+accepted). MIRaaS: Latency Characterization of an Edge-to-Server Architecture. IEEE IS2. Silva, N. & Turchet, L.
+(2022). A Training-Free SSIM-Based Method for Onset Detection, achieving 95% detection with no training data.
+DAFx.
+
+HIGHLIGHTS
+
+Finalist, MIDI Innovation Awards 2023 (Prototypes & Non-Commercial Software), for a real-time smart-instrument
+prototype; recognized by the Government Medical Officers’ Association of Sri Lanka (2020) for a COVID-19 remote
+vitals-monitoring deployment; peer reviewer for IEEE Access and the Journal of the National Science Foundation of
+Sri Lanka; programme committee member for IEEE IS2 and IEEE I3DA; supervised two BSc students.
+

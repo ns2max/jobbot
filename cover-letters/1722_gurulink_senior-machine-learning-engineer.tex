@@ -1,0 +1,78 @@
+% Job posting: https://jobs.techto.org/jobs/661730347-senior-machine-learning-engineer
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1, do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Senior Machine Learning Engineer | Deep Learning, Production ML Systems, Real-Time Inference | Applied ML}
+\newcommand{\clRole}{Senior Machine Learning Engineer}
+\newcommand{\clCompany}{GuruLink}
+\newcommand{\clTeam}{the Machine Learning team}
+\newcommand{\clAddressee}{Dear Hiring Team,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Senior Machine Learning Engineer role (remote, Toronto) with your client through GuruLink. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I take ML work from experiment to production. The part of your posting I find most relevant is turning research into reliable systems, with monitoring and evaluation around the model, which is how I have worked at MAS Holdings and at Trento.
+
+Three parts of your posting match my work directly. For deep learning in production, I built and deployed computer vision systems at MAS Holdings that raised operational efficiency by up to 300\%, and cut inspection time by 99.5\% for care-label inspection. For high-performance inference, my published system runs at 14 ms with F1 0.76 on a Raspberry Pi 4, 74x faster than the DTW baseline (Journal of the Audio Engineering Society, 2026), and I owned its full lifecycle from data acquisition to deployment and monitoring. For evaluation and engineering practice, I design benchmark suites with baselines and ablations, I released four open datasets on Zenodo, and at MAS I mentored engineers and introduced code review and CI/CD.
+
+I should be direct about the gaps. I have used PyTorch and TensorFlow/Keras, scikit-learn and Airflow with Docker on AWS, but not Spark, Google Cloud Platform or XGBoost in production, and my recommender and A/B testing experience is lighter than my vision and time-series work. I have built comparable pieces with other tools, and I expect to pick up your stack quickly. I would aim to contribute early on inference performance and on model evaluation and monitoring.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I would welcome the opportunity to discuss how my experience can support \clTeam{} at \clCompany{}'s client. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

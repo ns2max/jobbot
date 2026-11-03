@@ -1,0 +1,78 @@
+% Job posting: https://picovoice.ai/careers/deep-learning-researcher/
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Deep Learning Researcher | Real-Time Inference, Time-Series, Pattern Detection | Applied ML}
+\newcommand{\clRole}{Deep Learning Researcher}
+\newcommand{\clCompany}{Picovoice}
+\newcommand{\clTeam}{the research team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Deep Learning Researcher role at Picovoice. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and my specialty is deep learning that runs in real time on small devices. Picovoice builds on-device voice AI, and that is the constraint I have worked under for most of my research: models that must be accurate and fast on limited compute.
+
+Three parts of your posting match my work directly. For deep learning on constrained hardware, my published audio pattern detection system (Journal of the Audio Engineering Society, 2026) is a recurrent network that runs in 14 ms on a Raspberry Pi 4 at F1 0.76, 74x faster than the DTW baseline, and I owned it from data acquisition to deployment. For probability and algorithms, I compared probabilistic and deterministic pattern detection methods (FRUCT 2020) and wrote Nebula, an open-source C++17 library of audio features (MFCC, STFT, pitch) with per-feature latency benchmarks on ARM. For research method, I design benchmark suites with baselines and ablations, and I released four open datasets on Zenodo.
+
+I should be direct about the gaps. I have not written CUDA kernels, and my C work is lighter than my C++ and Python. I use PyTorch alongside TensorFlow and Keras, which carried most of my published work, and I have not done formal graph theory work beyond the state machines in my gesture and pattern detection systems. I have shipped real-time C++ and Python inference on embedded hardware, and I expect to pick up GPU-level work quickly. What draws me to Picovoice is that the research is measured by what runs on the device.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I am open to relocating to Vancouver. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

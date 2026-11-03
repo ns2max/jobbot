@@ -279,6 +279,24 @@ location_filter:
 # The scanner extracts title, URL, and company from results.
 
 search_queries:
+  # -- Naukri (added 2026-10-17; India/Gulf-focused board, Canada postings sparse, mostly remote/relocation roles) --
+  - name: Naukri — ML Engineer Canada
+    query: 'site:naukri.com "Machine Learning Engineer" OR "Applied Scientist" OR "Research Engineer" Canada OR Toronto OR Montreal OR remote'
+    enabled: true
+
+  - name: Naukri — Edge/Audio/CV
+    query: 'site:naukri.com "Computer Vision" OR "Edge AI" OR "Signal Processing" OR "Time Series" engineer Canada OR remote'
+    enabled: true
+
+  # -- Google Jobs (added 2026-10-17; jobs aggregator has no public API and Google disallows /search in robots.txt, so this runs as plain WebSearch queries, not scraping) --
+  - name: Google Jobs — ML Engineer Canada
+    query: 'machine learning engineer jobs Canada remote OR Toronto OR Montreal posted last 2 weeks'
+    enabled: true
+
+  - name: Google Jobs — Applied/Research Scientist Canada
+    query: 'applied scientist OR research engineer OR "AI engineer" jobs Canada remote OR Toronto OR Montreal'
+    enabled: true
+
   # -- Ashby --
   - name: Ashby — AI PM
     query: 'site:jobs.ashbyhq.com "AI Product Manager" OR "Senior Product Manager AI" remote'

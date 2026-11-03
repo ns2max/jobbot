@@ -1,0 +1,78 @@
+% Job posting: https://careers.ey.com/ey/job/Calgary-AI-and-Data-Manager-AIML-Engineer-AB-T2P-1M4/1386628833/
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | AI/ML Solution Delivery, MLOps, Technical Leadership | Applied ML}
+\newcommand{\clRole}{AI and Data - Manager - AI/ML Engineer}
+\newcommand{\clCompany}{EY}
+\newcommand{\clTeam}{the AI and Data team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the AI and Data - Manager - AI/ML Engineer role in Calgary. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build end-to-end ML systems from use case through design, deployment and monitoring. At MAS Holdings I led ML and computer vision systems for manufacturing, working with operations and engineering stakeholders to turn business needs into measurable results: care-label inspection time cut by 99.5\% and operational efficiency raised by up to 300\%. Delivering AI that clients can rely on is the part of your posting that fits my work best.
+
+Three parts of the posting match my experience. For delivery and leadership, I led the MAS systems from scope to deployment across multiple sites, mentored engineers, and introduced code review, testing and CI/CD practices. For testing and validation, I design benchmark suites with baselines and ablations to quantify tradeoffs before anything ships, and I released four open datasets on Zenodo. For production ML, my published system runs at 14 ms with F1 0.76 on a Raspberry Pi 4, 74x faster than the DTW baseline (Journal of the Audio Engineering Society, 2026), and I owned its full lifecycle from data acquisition to deployment and monitoring, using Python, PyTorch, TensorFlow, scikit-learn, Docker, Git and AWS.
+
+I should be direct about the gaps. My cloud work has been on AWS (S3, ECS, MWAA, SageMaker) and not Azure or GCP in production. I have not worked in professional services or consulting, I have not held a Manager title, and I have not used DeepChecks or run formal bias and fairness audits, though I have worked with LLMs and human-in-the-loop systems. I have led and mentored engineers and delivered against milestones with stakeholders, and I expect to learn client-facing delivery and the tooling quickly.
+
+I am a Canadian permanent resident, eligible to work without sponsorship, based in Toronto, ON and open to relocating to Calgary. I am available immediately. I would welcome the opportunity to discuss how my experience can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

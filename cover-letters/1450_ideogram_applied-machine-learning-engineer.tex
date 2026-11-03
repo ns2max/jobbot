@@ -1,0 +1,78 @@
+% Job posting: https://jobs.ashbyhq.com/ideogram/66610ff2-a888-44cf-b6cb-fd0116949697
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 — do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Applied Machine Learning Engineer | Deep Learning, Generative AI, Evaluation | Applied ML}
+\newcommand{\clRole}{Applied Machine Learning Engineer}
+\newcommand{\clCompany}{Ideogram}
+\newcommand{\clTeam}{the Applied ML team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the Applied Machine Learning Engineer role at Ideogram. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build end-to-end ML systems that go from data and evaluation to production. Ideogram's work of turning frontier generative models into features that creatives actually use, with clear targets for quality, latency and cost, is the kind of applied work I want to do next.
+
+Three parts of your posting match my work directly. For production ML with measurable gains, my published real-time pattern detection system runs at 14 ms on a Raspberry Pi 4 and is 74x faster than the DTW baseline, at F1 0.76 against 0.65 (Journal of the Audio Engineering Society, 2026). I owned it from data acquisition to deployment and monitoring. For evaluation and datasets, I design benchmark suites with baselines and ablations, and I curated and released four open datasets on Zenodo. For generative models, I prototyped diffusion- and VAE-based synthetic data at McGill, and I am fine-tuning MusicGen with LoRA on my own dataset, which is still in progress. Earlier, at MAS Holdings, I led computer vision systems that cut care-label inspection time by 99.5\%.
+
+I should be direct about two gaps. My generative work is in audio rather than text-to-image, and I have not yet shipped a generative model to external clients. My production work has been in PyTorch and TensorFlow with Docker and Airflow on AWS, and I have used JAX less. I have worked closely with product and operations stakeholders to set success criteria, and I expect to learn the image domain and your stack quickly.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. I would welcome the chance to discuss how my experience can support \clTeam{} at \clCompany{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

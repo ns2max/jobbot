@@ -1,0 +1,78 @@
+% Job posting: https://apply.workable.com/assistiq/j/CCB0D9DF54/
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+% pdfTeX-only: improves ATS text extraction. Guarded so XeTeX/Tectonic skip it.
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY (KG §1 - do not edit) ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | Computer Vision, Real-Time Inference, Cloud \& Edge Deployment | Applied ML}
+\newcommand{\clRole}{AI Computer Vision Engineer}
+\newcommand{\clCompany}{AssistIQ}
+\newcommand{\clTeam}{the AssistIQ computer vision team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+\newcommand{\clReqID}{}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} -- \clCompany{}}
+
+\clAddressee
+
+I am applying for the AI Computer Vision Engineer role at AssistIQ. I am a Machine Learning Engineer with a PhD (University of Trento, 2025) and 10+ years across industry and academia, and I build end-to-end ML systems that run in production. At MAS Holdings I led computer vision systems for manufacturing, including care-label inspection that cut inspection time by 99.5\% and raised operational efficiency by up to 300\%. I also built a computer vision device for COVID-19 patient vitals that was deployed across hospital wards in Sri Lanka and recognised by the Government Medical Officers' Association. Using vision to give healthcare teams accurate data is work I want to keep doing, and AssistIQ's supply tracking mission is a good place to do it.
+
+Three parts of your posting match my work directly. For classical computer vision, I built OpenCV-based inspection systems at MAS, taking a care-label checker from a flatbed scanner to an industrial camera with a conveyor and PLC reject, and a loom-side fabric defect detector on a camera array with a few-second alert budget. For real-time inference and edge deployment, my published system runs at 14 ms on a Raspberry Pi 4, 74x faster than the DTW baseline (Journal of the Audio Engineering Society, 2026), and I owned its full lifecycle from data acquisition to deployment and monitoring. For evaluation, I design benchmark suites with baselines and ablations, and I released four open datasets on Zenodo. I also use Claude Code as a core part of my development workflow.
+
+I should be direct about two gaps. My production vision work has been classical, OpenCV-based pipelines, and my deep learning work has been mostly on sequence models and multimodal sensor data, so I have not yet shipped CNN-based detectors or vision-language models. I have worked with PyTorch and HuggingFace Transformers and would build your VLM evaluation on the same benchmarking approach. My MLOps experience is Airflow, Docker, MLflow and CI/CD on AWS, and I have not run a large-scale monitoring stack for a vision product. I have built the same pieces with other tools and expect to pick up yours quickly.
+
+I am a Canadian permanent resident based in \clCity{}, eligible to work without sponsorship, and available immediately. Remote work suits me well. I would welcome the opportunity to discuss how my experience in computer vision and real-time ML systems can support \clTeam{}. My portfolio, publications and open datasets are available at \href{\clSite}{nishal.xyz}.
+
+\vspace{12pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}
