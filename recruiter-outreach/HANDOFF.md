@@ -54,4 +54,8 @@ The task was to tailor a resume for each contact that has a **published email**.
    - Layer 6: he already applied to TD roles, so cite the requisitions in a single thread.
    - Fetch: email Alexia only.
    - LuxTronic: confirm employee vs contractor and whether they can pay him in Canada.
-6. The branch `recruiter-outreach-resumes` hasn't been merged into `main`, and no pull request has been opened.
+6. **Branches merged (2026-11-03):** this work and every `claude/*` branch were merged into `main` and pushed.
+7. **Unified tracker is out of date:** run `python3 tools/pipeline_status.py` on **Nishal's computer**.
+   `ai-job-search/job_search_tracker.csv` is gitignored, so a cloud checkout can't regenerate the tracker without dropping every ai-job-search row.
+   During the merge, `data/unified-tracker.{md,json}` kept main's version. That version still includes ai-job-search's data,
+   but it lacks career-ops jobs #1462-#1476 (the music-tech Canada sweep).
