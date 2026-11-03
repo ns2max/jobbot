@@ -49,14 +49,8 @@ AUDIO_LINE = (r"\\" "\n" r"\textbf{Audio \& Real-Time:} JUCE, VST, Elk Audio OS,
               "Raspberry Pi / ARM")
 
 # ---------------------------------------------------------------- edits applied to every resume
-# Both fixes come from knowledge-graph.md §15-16 / the ai-job-search verification checklist.
+# The golden '>90% F1' wording is kept as-is (confirmed real by Nishal 2026-11-03; KG §16 updated).
 COMMON = [
-    ("Retire '>90% F1' (KG §16: never cite it) -> verified 74x-vs-DTW figure",
-     r"(<30ms real-time inference, >90\% F1, and up to 300\%",
-     r"(<30ms real-time inference, 74x faster than a DTW baseline, and up to 300\%"),
-    ("Postdoc bullet: '>90% F1' -> published 14ms / F1 0.76 on Raspberry Pi 4",
-     r"hitting <30ms latency at >90\% F1, with",
-     r"hitting <30ms latency (published: 14ms on Raspberry Pi 4, F1 0.76), with"),
     ("Line spacing 1.05 -> 1.03 so the minimal edits keep the golden 2-page layout",
      r"\setstretch{1.05}", r"\setstretch{1.03}"),
     ("Date ranges use an ASCII hyphen instead of an en-dash (ATS date parsing)",
@@ -235,7 +229,6 @@ def verify(pdf, txt):
         "no (cid:) / U+FFFD": "(cid:" not in t and "�" not in t,
         "email literal": "nishal.silva@hotmail.com" in t,
         "phone literal": "+1 613 200 2030" in t,
-        "no '>90% F1'": ">90%" not in flat,
         "no en-dash in date ranges": not re.search(r"(19|20)\d\d\s*–", t),
         "PR line present": "Canadian Permanent Resident" in flat,
     }

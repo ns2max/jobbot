@@ -49,7 +49,7 @@
 - **Source of truth:** `input/knowledge-graph.md` (full refresh 2026-09-03). Read it, not the old variant files. `input/knowledge-graph-old.md` is retired — ignore.
 - **Job posting link** goes at the very top of each `.tex` file, but **commented out** (`% Job posting: <url>`).
 - Pick exactly ONE variant (V1–V6, see template header / KG §15.1). Do not mix rows. Emit a short changelog with each doc: variant, why, what was cut, page count.
-- Never write ">90% F1" — cite F1 = 0.76 (KG §16). Verified numbers before self-reported ones.
+- ">90% F1" (MUSMET real-time services) is a real result and may be used; F1 = 0.76 is the published JAES system (KG §16). Verified numbers before self-reported ones.
 - Never mention the Promptly patent (Nishal is not a listed inventor).
 - Output files: `output/{num}-{company-slug}-{role-slug}.tex` and `output/{num}-{company-slug}-{role-slug}-coverletter.tex`.
 

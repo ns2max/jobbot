@@ -10,8 +10,8 @@ from data ingestion and feature engineering through model training, orchestratio
 spans across real-time audio and signal ML, embedded/edge inference, time-series modeling, and pattern/anomaly
 detection across sequential data, computer vision, and structured datasets. Skilled at working with product, data, and
 engineering teams to translate ambiguous business problems into scalable, reliable AI solutions. Published researcher
-with production-grade results (<30ms real-time inference, 74x faster than a DTW baseline, and up to 300% efficiency
-improvement in deployed industrial solutions).
+with production-grade results (<30ms real-time inference, >90% F1, and up to 300% efficiency improvement in
+deployed industrial solutions).
 
 Core Competencies
 ML Engineering: End-to-End ML Lifecycle, Production Deployment, Real-Time / Low-Latency Inference, ML
@@ -40,8 +40,8 @@ Independent Researcher | Open Source / MUSMET external collaborator, Toronto, ON
 Postdoctoral Researcher | University of Trento, Trento, Italy                                                   Jan 2025 - Dec 2025
   • Owned full ML pipelines for streaming audio + IMU data (EU-funded MUSMET project), covering acquisition,
     DSP, feature engineering, training/evaluation, and deployment as VST plugins on Raspberry Pi / Elk Audio OS.
-  • Built real-time inference services hitting <30ms latency (published: 14ms on Raspberry Pi 4, F1 0.76), with
-    reproducible pipelines and documentation structured for long-term maintainability
+  • Built real-time inference services hitting <30ms latency at >90% F1, with reproducible pipelines and documen-
+    tation structured for long-term maintainability
   • Designed benchmark suites (baselines + ablations) to quantify architecture/feature tradeoffs, improve generaliza-
     tion, and guide system-level decisions under compute constraints.
 Visiting Researcher | McGill University, Montreal, Canada                                       May 2024 - Aug 2024

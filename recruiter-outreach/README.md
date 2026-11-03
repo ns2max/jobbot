@@ -15,9 +15,7 @@ To rebuild everything: `python3 recruiter-outreach/build_resumes.py`.
 
 ## Edits applied to all 18 resumes
 
-1. `>90% F1` was removed from the summary and the postdoc bullet. The knowledge graph (§16) retires that figure.
-   The summary now says "74x faster than a DTW baseline". The postdoc bullet now gives the published
-   "14ms on Raspberry Pi 4, F1 0.76".
+1. The golden ">90% F1" wording is kept unchanged in the summary and the postdoc bullet (confirmed real 2026-11-03).
 2. Date ranges use an ASCII hyphen instead of an en-dash, because some ATS date parsers break on en-dashes.
 3. Line spacing went from 1.05 to 1.03, so the small additions still fit the golden 2-page layout.
 4. Where relevant, the PR status line gets a location note, for example "Open to relocation to Montreal".

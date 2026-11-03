@@ -102,7 +102,7 @@ Nishal Silva is a Toronto-based Machine Learning Research Engineer (PhD, Univers
 ### 4.1 Postdoctoral Researcher — University of Trento, Italy · Jan 2025 – Dec 2025 [self; CIMIL page confirms role]
 Project: **MUSMET — "Musical Metaverse made in Europe: an innovation lab for musicians and audiences of the future"**, EU Horizon EIC Pathfinder Open, grant 101184379, €3.0 M, Feb 2025 – Jan 2029, coordinated by University of Trento with 12 partners incl. KTH, Politecnico di Torino, g.tec, Somnium Space [verified via CORDIS].
 - Owned the full ML pipeline for streaming audio + IMU/gesture data: acquisition → DSP/feature engineering → training/eval → edge deployment (Raspberry Pi 4, Elk Audio OS, VST plugin, OSC output) → monitoring.
-- Real-time inference services at <30 ms latency on edge-class devices. Published system: 14 ms / F1 0.76 on RPi4 vs DTW 1038 ms / F1 0.65 [verified, JAES 2026]. (Older CVs say ">90% F1" — retired; use 0.76.)
+- Real-time inference services at <30 ms latency on edge-class devices. Published system: 14 ms / F1 0.76 on RPi4 vs DTW 1038 ms / F1 0.65 [verified, JAES 2026]. **>90% F1 on the MUSMET real-time inference services is a real result (confirmed by Nishal 2026-11-03)** and may be cited, e.g. "<30ms latency at >90% F1" as on the golden resume. The 0.76 figure is the separate published JAES benchmark; keep the two distinct.
 - Designed benchmark suites (baselines + ablations: RNN vs DTW; audio vs MIDI; pattern-set sizes 1/3/10) to quantify accuracy–latency–CPU trade-offs.
 - Built the "Smart Drums" study: DTW vs stacked RNN (LSTM-256 → GRU-128 → SimpleRNN-256) on MIDI and MFCC audio; RNN 15.8 ms (MIDI) / 21.4 ms (audio) vs DTW 366 / 1132 ms [self; JAES paper in press].
 - Built **MIRaaS** (Music Information Retrieval as a Service): offloads MIR computation from edge devices to a server over UDP; latency characterization paper accepted at IEEE IS² 2026 [verified via CIMIL].
@@ -373,7 +373,7 @@ Shared design: `artistID_patternID_versionID` naming, unified artist-ID namespac
 |---|---|---|
 | Sub-30 ms real-time inference on edge hardware | J1: 14 ms on RPi4 at 31.4% CPU; A1: 15.8/21.4 ms; MUSMET services <30 ms | verified / self |
 | 74× faster than baseline | J1: 14 ms vs 1038 ms DTW | verified |
-| Detection accuracy | **Cite F1 = 0.76** for audio pattern detection (J1). Other published figures: F1 0.78 (gesture+pattern fusion, C1), ~98% accuracy (symbolic RNN at 10 patterns, C4), 95% detection (SSIM, C6). Do NOT use the ">90% F1" headline from older CVs. | verified by Nishal |
+| Detection accuracy | **Cite F1 = 0.76** for audio pattern detection (J1). Other published figures: F1 0.78 (gesture+pattern fusion, C1), ~98% accuracy (symbolic RNN at 10 patterns, C4), 95% detection (SSIM, C6). **>90% F1** (MUSMET real-time inference services, <30 ms) is also valid; confirmed by Nishal 2026-11-03. Use it as on the golden resume; use 0.76 when citing the published JAES system specifically. | verified by Nishal |
 | Training-free ML | SSIM method, 95% detection (C6); S-transform beat tracker, no training (C8) | verified |
 | Benchmark & dataset design | 4 Zenodo datasets, 70+ musicians; RNN-vs-DTW ablations at set sizes 1/3/10 | verified |
 | Multimodal ML (audio + IMU) | C1: HFSM fusion, F1 0.78 | verified |
@@ -416,7 +416,7 @@ Shared design: `artistID_patternID_versionID` naming, unified artist-ID namespac
 | V5 | CV/Industrial | Inspection, manufacturing, robotics, retail | Computer Vision & ML Engineer \| Industrial Inspection, IoT & Edge Deployment | **Inverts the bullet weighting**: MAS gets 4–5 bullets, postdoc drops to 2. Third stack line = Computer Vision. Projects drawn from §8.2 | 2 |
 | V6 | Generic | Speculative applications, recruiters, vague JDs | Research Engineer \| Real-Time ML, DSP & Time-Series \| Music Technology | Competencies as **one flat comma list, no group headings**; Education sits *before* the stack | 2 |
 2. Always state PR status + no sponsorship near the top for Canadian roles.
-3. Quantify with the verified numbers first (14 ms, 74×, F1 0.76/0.78, 95%, 98%), then the self-reported industrial numbers (300%, 99.5%, 50%). Never use ">90% F1".
+3. Quantify with the verified numbers first (14 ms, 74×, F1 0.76/0.78, 95%, 98%), then the self-reported industrial numbers (300%, 99.5%, 50%). ">90% F1" (MUSMET real-time services, <30 ms) is a real result and may be used, as on the golden resume.
 4. For LLM-heavy JDs, position honestly: strong ML-systems engineer who uses LLM tooling daily (AI-assisted workflows, RAG-level integration) — not an LLM researcher.
 5. For fintech/anomaly JDs, foreground Forestpin + MAS IoT analytics; for healthcare/medical-signal/neurotech JDs, foreground COVID vitals, the BCI + XR synchronization pipeline (g.tec), and the audio→ultrasound domain-transfer narrative (used for Oncoustics). For product/manufacturing-tech JDs, lead with Promptly as the commercial-impact story. For ed-tech, music-education or accessibility JDs, use the teaching-tool / disabled-musician research thread.
 6. Languages on materials: English (native) always; Sinhala when a JD values South-Asian market/language coverage; Italian (B1) for Italian/EU-linked companies; French (~A2) only as "basic / actively learning" — never claim bilingual for Quebec or federal postings. For Montreal roles, mention the McGill IDMIL/CIRMMT connection; for Toronto HPC/scientific-computing roles, mention SciNet interviews are already in progress (avoid duplicate applications).
@@ -435,7 +435,7 @@ All inconsistencies resolved with Nishal on 2026-09-03. Canonical values:
 | Phone | +1 613 200 2030 (the +1 817 number is retired) |
 | Postdoc dates | 1 Jan 2025 – 31 Dec 2025 |
 | Smart Drums (A1) | JAES 2026, in press |
-| Audio pattern-detection accuracy | F1 = 0.76 (never ">90% F1") |
+| Audio pattern-detection accuracy | Two valid figures: >90% F1 for the MUSMET real-time inference services (confirmed by Nishal 2026-11-03); F1 = 0.76 for the published JAES system (14 ms on RPi4) |
 | LiveLaTeX | Published VS Code Marketplace extension (ns2max.livelatex) |
 | MAS Holdings | One CV entry: Research Engineer, Jan 2015 – Jul 2020 |
 | Dataset sizes | Zenodo file counts (4,392 / 2,276 / 994 / 2,177) |

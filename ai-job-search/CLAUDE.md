@@ -194,7 +194,7 @@ After creating or updating a CV or cover letter, re-read the generated file and 
 
 ### Factual accuracy
 - [ ] All claims match the knowledge graph / candidate profile - no fabricated skills, experience, or achievements
-- [ ] Never write ">90% F1" - cite F1 = 0.76 for audio pattern detection (knowledge-graph.md §16)
+- [ ] F1 figures used correctly: ">90% F1" for the MUSMET real-time services (valid, confirmed 2026-11-03); F1 = 0.76 for the published JAES system (knowledge-graph.md §16)
 - [ ] MAS Holdings is ONE entry, Jan 2015 - Jul 2020
 - [ ] Promptly: alignment algorithm, RIP integration, mechanism consulting only - never the patent
 - [ ] Job titles, dates, company names, and locations are correct
