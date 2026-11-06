@@ -1,0 +1,120 @@
+% Nishal Stanislaus Silva, PhD - ONE-PAGE base resume (derived from the golden resume).
+% Compile: tectonic -X compile <this file>.tex   (also builds with xelatex or pdflatex)
+% Tailoring rules + pre-written bullet pool: README.md in this folder.
+% Option C - COMPACT TWO-LINE ROLES: Charter serif, employer on line 1, title on line 2 (common tech-resume layout).
+\documentclass[10pt]{article}
+\usepackage[letterpaper,top=0.45in,bottom=0.4in,left=0.55in,right=0.55in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{XCharter}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Nishal Stanislaus Silva - Resume}, pdfauthor={Nishal Stanislaus Silva}}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{microtype}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\newcommand{\contactline}{%
+  \href{mailto:nishal.silva@hotmail.com}{nishal.silva@hotmail.com}\SEP
+  +1 613 200 2030\SEP
+  Toronto, ON\SEP
+  \href{https://nishal.xyz}{nishal.xyz}\SEP
+  \href{https://www.linkedin.com/in/nishal-silva}{linkedin.com/in/nishal-silva}\SEP
+  \href{https://github.com/ns2max}{github.com/ns2max}}
+
+\newcommand{\SEP}{\,\,|\,\,}
+\newcommand{\makeheader}{%
+  \begin{center}
+    {\fontsize{20}{22}\selectfont\bfseries Nishal Stanislaus Silva, PhD}\\[3pt]
+    {\cvtagline}\\[2pt]
+    {\small \contactline}
+  \end{center}\vspace{-9pt}}
+\newcommand{\cvsection}[1]{\par\vspace{8pt}{\large\scshape\bfseries #1}\par\vspace{-3pt}\noindent\rule{\linewidth}{0.6pt}\par\vspace{2pt}}
+\newcommand{\skillline}[2]{\textbf{#1:} #2\par}
+\newenvironment{role}[4]{\par\noindent\textbf{#2}\hfill #3\par\noindent\textit{#1}\hfill\textit{#4}\par
+  \begin{itemize}[leftmargin=1.2em,itemsep=0.5pt,parsep=0pt,topsep=1pt,partopsep=0pt,label=\textendash]}
+  {\end{itemize}\par\vspace{4pt}}
+\newcommand{\eduitem}[3]{\textbf{#1,} #2\hfill\textit{#3}\par}
+\newenvironment{plainlist}{\begin{itemize}[leftmargin=1.2em,itemsep=0pt,parsep=0pt,topsep=0pt,partopsep=0pt,label=\textendash]}{\end{itemize}}
+
+% =====================================================================
+%  CONTENT (identical across the A/B/C layout options).
+%  Lines marked  >>> TAILOR  are the per-JD edit points. Keep every
+%  other line as-is unless the JD clearly calls for it (golden rule:
+%  minimum edits). Swap-in bullets/keywords: see README.md in this folder.
+%  Page budget: the base leaves ~3-6 lines of slack at the bottom.
+%  A swap must replace, not add - if you add a bullet, cut one.
+%  Every bullet is ONE line (~108 characters max). After editing, check
+%  `pdftotext -layout` for a bullet that wraps onto a 1-2 word line.
+% =====================================================================
+
+% >>> TAILOR: tagline - mirror the JD title + its 2-3 headline themes.
+\newcommand{\cvtagline}{Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied ML}
+
+\begin{document}
+\makeheader
+
+\cvsection{Summary}
+% >>> TAILOR: keep to 3 lines. Swap the "focused on ..." list for the JD's
+%     top 3-4 themes; keep the results sentence unchanged.
+Machine Learning Engineer with 10+ years across industry and academia. I build end-to-end ML systems (data ingestion, feature engineering, training, deployment, monitoring), focused on real-time inference, time-series, pattern/anomaly detection, and computer vision. Deployed results include <30ms inference at >90\% F1 and up to 300\% efficiency gains.
+
+\cvsection{Skills}
+% >>> TAILOR: put the JD's must-haves first in each line; swap in JD-named tools
+%     from the README keyword pool; drop what the JD ignores. Keep each line to one line.
+\skillline{ML \& AI}{PyTorch, TensorFlow/Keras, scikit-learn, HuggingFace, OpenCV, LLMs, RAG, Generative AI (VAE, Diffusion)}
+\skillline{Specialties}{Time-Series, Real-Time Inference, Anomaly \& Pattern Detection, Computer Vision, DSP, Multimodal Data}
+\skillline{MLOps \& Data}{AWS (EC2, S3, ECS, SageMaker), Docker, Kubernetes, MLflow, Airflow, CI/CD, ONNX, Snowflake, SQL}
+\skillline{Languages \& Tools}{Python, C++, C, JavaScript, MATLAB, Git, Linux, Jenkins, Pytest, REST APIs, NumPy, Pandas}
+
+\cvsection{Experience}
+% >>> TAILOR: reorder bullets inside a role so the most JD-relevant comes first;
+%     swap at most 1-2 bullets per role from the README bullet pool. One line per bullet.
+\begin{role}{Independent Researcher}{Open Source / MUSMET external collaborator}{Toronto, ON}{Jan 2026 - Present}
+  \item Released Nebula, an open-source C++17 time-series feature-extraction library with ARM latency benchmarks.
+  \item Fine-tuning a generative foundation model (LoRA, multi-GPU) to synthesize training data for limited-label regimes.
+  \item Benchmarked DTW, Gaussian and Wav2Vec2 scoring to detect subtle speech deviations; 100k trials, ROC-AUC 0.822.
+  \item Authored 3 papers on embedded real-time pattern detection and edge-to-server distributed feature extraction.
+\end{role}
+
+\begin{role}{Postdoctoral Researcher}{University of Trento}{Trento, Italy}{Jan 2025 - Dec 2025}
+  \item Owned EU-funded ML pipelines (MUSMET) for streaming sensor data: DSP, training, edge deployment, monitoring.
+  \item Built real-time inference services hitting <30ms latency at >90\% F1 on edge devices, with reproducible pipelines.
+  \item Designed benchmark suites (baselines + ablations) to quantify architecture/feature trade-offs under compute limits.
+  \item Developed a real-time pipeline synchronizing audio, EEG, and mixed-reality tracking streams across 4 concurrent users.
+\end{role}
+
+\begin{role}{Visiting Researcher}{McGill University}{Montreal, QC}{May 2024 - Aug 2024}
+  \item Prototyped real-time gesture detection fusing IMU and audio on embedded hardware (F1 0.78), with compute profiling.
+  \item Explored diffusion- and VAE-based synthetic data generation to improve model robustness with limited labels.
+\end{role}
+
+\begin{role}{Technical Consultant}{Forestpin (Pvt) Ltd}{Colombo, Sri Lanka}{Aug 2020 - Feb 2021}
+  \item Designed and deployed ML and statistical pipelines for financial forensics and risk detection on enterprise data.
+  \item Built SQL + Python anomaly-scoring services; turned compliance requirements into technical detection specs.
+\end{role}
+
+\begin{role}{Research Engineer}{MAS Holdings (Pvt) Ltd}{Colombo, Sri Lanka}{Jan 2015 - Jul 2020}
+  \item Led end-to-end development of ML and computer vision systems for manufacturing at scale; up to 300\% efficiency gains.
+  \item Shipped automated visual inspection (OpenCV, PLC reject, human-in-the-loop review), cutting inspection time by 99.5\%.
+  \item Designed the alignment algorithm and printer integration for Promptly, an on-demand printing service now in 4 countries.
+  \item Built real-time ingestion and ETL pipelines for high-frequency IoT time-series data across distributed sites.
+  \item Mentored engineers and established code review and CI/CD practices to accelerate ML adoption across teams.
+\end{role}
+
+\cvsection{Education}
+\eduitem{Ph.D., Information Engineering and Computer Science}{University of Trento, Italy}{Jan 2025}
+\eduitem{M.Sc., Telecommunication and Electronic Engineering}{Sheffield Hallam University, UK}{Aug 2018}
+\eduitem{B.Eng. (Hons), Electronic Engineering}{Sheffield Hallam University, UK}{Mar 2014}
+
+\cvsection{Publications \& Awards}
+% >>> TAILOR: research roles - name 1-2 papers here (README has the citations).
+\begin{plainlist}
+  \item \textbf{Publications:} 10+ peer-reviewed papers (JAES, IEEE, ACM) and 4 open benchmark datasets; \href{https://nishal.xyz/publications}{nishal.xyz/publications}
+  \item \textbf{Awards:} MIDI Innovation Awards finalist (2023); GMOA (Sri Lanka) recognition for COVID-19 vitals monitoring.
+\end{plainlist}
+\end{document}
