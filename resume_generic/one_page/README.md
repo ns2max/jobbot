@@ -1,17 +1,10 @@
 # One-page base resume
 
 Single-page version of the golden resume (`../Nishal_Silva_ML_Research_Engineer.pdf`), built to be tailored per JD.
-All three files have the **same content** and differ only in layout. Pick one, then delete the other two.
 
-| File | Layout |
-|---|---|
-| `Nishal_Silva_1page_A_classic` | Times, small-caps headings, one-line role headers. Closest to the golden resume. |
-| `Nishal_Silva_1page_B_modern` | Source Sans, left-aligned header, navy headings, aligned skill labels. |
-| `Nishal_Silva_1page_C_compact` | Charter. Employer and location on line 1, title and dates on line 2 (a common tech-resume layout). |
+`Nishal_Silva_1page.tex` / `.pdf` is the layout Nishal chose (option C of three). It uses the Charter font, with the employer and location on line 1 of each role and the title and dates on line 2. The classic Times and modern sans options were dropped; they remain in git history (commit `3543a6a`).
 
-`format_options_side_by_side.png` shows all three side by side.
-
-Compile with `tectonic -X compile <file>.tex`. The files also build with `xelatex` and `pdflatex`. All three were checked on both engines: one page, no bullet that wraps onto a one- or two-word line, and a clean text layer (`ai-job-search/tools/verify_pdf.py` passes, with email and phone extracting as literal text and plain-hyphen dates).
+Compile with `tectonic -X compile Nishal_Silva_1page.tex`. It also builds with `xelatex` and `pdflatex`. On both engines it was checked for one page, no bullet that wraps onto a one- or two-word line, and a clean text layer: `ai-job-search/tools/verify_pdf.py` passes, with email and phone extracting as literal text and plain-hyphen dates.
 
 ---
 
@@ -41,7 +34,7 @@ Compile with `tectonic -X compile <file>.tex`. The files also build with `xelate
 
 ## Tailoring a copy for a JD (about 10 minutes)
 
-1. **Copy, don't edit in place:** `cp Nishal_Silva_1page_<X>.tex <id>_<company>_<role>.tex` into the normal per-job output location.
+1. **Copy, don't edit in place:** `cp Nishal_Silva_1page.tex <id>_<company>_<role>.tex` into the normal per-job output location.
 2. **Tagline** (`\cvtagline`): mirror the JD title and its 2-3 headline themes. Pre-approved taglines:
    - Default / AI-industry: `Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied ML`
    - Research: `Research Scientist | Real-Time Multimodal ML, Benchmarks & Open Datasets`
