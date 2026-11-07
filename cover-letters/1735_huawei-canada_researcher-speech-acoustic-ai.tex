@@ -1,0 +1,88 @@
+% Job posting: https://huaweicanada.recruitee.com/o/researcher-speech-acoustic-ai
+% =====================================================================
+%  COVER LETTER -- Nishal Stanislaus Silva, PhD
+%  Job 1735: Huawei Canada, Researcher, Speech \& Acoustic AI, Markham, ON
+%  Golden-resume tailoring (tagline identical to the CV). Compile: tectonic -X compile
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Audio, Speech \& Acoustic AI | Deep Learning, Real-Time Inference}
+\newcommand{\clRole}{Researcher, Speech \& Acoustic AI}
+\newcommand{\clCompany}{Huawei Canada}
+\newcommand{\clTeam}{the Noah's Ark Lab research team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} - \clCompany{} (Markham, ON)}
+
+\clAddressee
+
+I am applying for the \clRole{} position at \clCompany{}. I am a machine learning researcher with a PhD from the University of Trento (2025), 10+ years across industry and academia, and a research focus on audio and sensor-stream ML. My most recent published system made real-time decisions in 14 ms on a Raspberry Pi 4 at F1 0.76, 74$\times$ faster than the DTW baseline it replaced (JAES 2026).
+
+Here is how my work maps to the role:
+\begin{itemize}[leftmargin=1.4em, itemsep=0.1em, topsep=0.2em]
+    \item \textbf{Acoustic and audio projects.} I built audio pattern-detection pipelines end to end (DSP features, RNN/LSTM models, edge deployment), released four open-access musical audio datasets (9,800+ recordings, 70+ musicians), and wrote the open-source C++17 library Nebula for audio feature extraction with per-feature ARM latency benchmarks.
+    \item \textbf{Frontier research to publication.} I design benchmarks with baselines and ablations, most recently 6 methods over 100,000 scored trials for a speech-pronunciation classifier (Wav2Vec2 XLSR-FR reached ROC-AUC 0.822 vs.\ 0.599 for DTW-MFCC), and I have carried work through to 10+ peer-reviewed papers (JAES, IEEE).
+    \item \textbf{Research that lands in products.} On the EU-funded MUSMET project I owned the pipeline from acquisition to deployment, with <30 ms inference at >90\% F1, working with academic and industry partners.
+\end{itemize}
+To be direct about the gaps: my publications are at audio-engineering and IEEE venues (JAES, IEEE IS2, I3DA), not at ACL, ICLR, AAAI or NeurIPS, and my post-PhD record is a one-year postdoc plus independent research. My strengths are rigorous evaluation, constrained-compute deployment and audio signal processing, and I would pair them with modern speech models.
+
+I am based in Toronto, so the Markham office is within reach. I am a Canadian permanent resident, eligible to work in Canada without sponsorship, and available immediately. I would welcome the chance to discuss how my work on speech, acoustic and audio ML can support the research agenda at \clCompany{}.
+
+\vspace{8pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

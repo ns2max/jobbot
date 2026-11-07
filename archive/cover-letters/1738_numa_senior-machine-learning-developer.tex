@@ -1,0 +1,88 @@
+% Job posting: https://job-boards.greenhouse.io/numa/jobs/4417246009
+% =====================================================================
+%  COVER LETTER -- Nishal Stanislaus Silva, PhD
+%  Job 1738: Numa, Senior Machine Learning Developer, Toronto, ON
+%  Golden-resume tailoring (tagline identical to the CV). Compile: tectonic -X compile
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | Real-Time ML, Evaluation, LLM Systems | Production ML}
+\newcommand{\clRole}{Senior Machine Learning Developer}
+\newcommand{\clCompany}{Numa}
+\newcommand{\clTeam}{the engineering team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} - \clCompany{} (Toronto, ON)}
+
+\clAddressee
+
+I am applying for the \clRole{} role at \clCompany{}. I am a machine learning engineer with a PhD from the University of Trento (2025) and 10+ years shipping ML systems, from real-time inference to evaluation pipelines. My most recent published system made real-time decisions in 14 ms on a Raspberry Pi 4 at F1 0.76, 74$\times$ faster than the DTW baseline it replaced (JAES 2026).
+
+Here is how my work maps to the role:
+\begin{itemize}[leftmargin=1.4em, itemsep=0.1em, topsep=0.2em]
+    \item \textbf{Production ML, end to end.} On the EU-funded MUSMET project I owned the pipeline from acquisition to deployment, with <30 ms inference at >90\% F1, reproducible pipelines and monitoring. At MAS Holdings I led deployed ML and vision systems for manufacturing at scale (up to 300\% efficiency gain) and introduced CI/CD and code review.
+    \item \textbf{Evaluation-first mindset.} I design baselines and ablations to separate real improvements from noise, most recently 6 methods over 100,000 scored trials (best ROC-AUC 0.822 vs.\ 0.599 baseline).
+    \item \textbf{Real-time and orchestration.} Low-latency streaming inference is the core of my research, and I have built Airflow DAGs with S3-to-Snowflake pipelines in Docker. I use Claude Code daily for agentic development.
+\end{itemize}
+To be direct about the gaps: I have not built voice or SIP/WebRTC agents, and Ray Serve, Dagster, LiveKit and Vertex AI are new to me. My LLM and RAG work is tool-level rather than production-scale, and I have not worked at a startup in a product squad. My strength is evaluation, latency-constrained deployment and ownership from problem framing to monitoring, and I would ramp on the stack quickly.
+
+I am based in Toronto, a Canadian permanent resident eligible to work in Canada without sponsorship, and available immediately. I would welcome the opportunity to discuss how I can help raise the evaluation and engineering bar at \clCompany{}.
+
+\vspace{8pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

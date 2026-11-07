@@ -1,0 +1,88 @@
+% Job posting: https://careers-kinaxis.icims.com/jobs/35574/senior-staff-applied-scientist,-time-series-&-demand-forecasting/job
+% =====================================================================
+%  COVER LETTER -- Nishal Stanislaus Silva, PhD
+%  Job 1739: Kinaxis, Senior Staff Applied Scientist, Time Series \& Demand Forecasting, Remote (Canada)
+%  Golden-resume tailoring (tagline identical to the CV). Compile: tectonic -X compile
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Scientist | Time-Series Modeling, Benchmarking, Anomaly Detection | PhD}
+\newcommand{\clRole}{Senior Staff Applied Scientist, Time Series \& Demand Forecasting}
+\newcommand{\clCompany}{Kinaxis}
+\newcommand{\clTeam}{the AI team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} - \clCompany{} (Remote (Canada))}
+
+\clAddressee
+
+I am applying for the \clRole{} role at \clCompany{}. I am a machine learning researcher with a PhD from the University of Trento (2025) and 10+ years across industry and academia, with time-series modeling and benchmark design at the centre of my work. My most recent published system made real-time decisions in 14 ms on a Raspberry Pi 4 at F1 0.76, 74$\times$ faster than the DTW baseline it replaced (JAES 2026).
+
+Here is how my work maps to the role:
+\begin{itemize}[leftmargin=1.4em, itemsep=0.1em, topsep=0.2em]
+    \item \textbf{Scientific rigor and benchmarks.} I design benchmark suites with baselines and ablations to quantify architecture and feature trade-offs, and I released four open datasets (9,800+ recordings) so results can be reproduced. My latest benchmark compares 6 methods over 100,000 scored trials.
+    \item \textbf{Time-series in production.} On the EU-funded MUSMET project I owned pipelines for streaming multi-dimensional data from acquisition to deployment (<30 ms, >90\% F1). At MAS Holdings I built ingestion and ETL for high-frequency IoT time series across distributed sites, with quality checks and monitoring.
+    \item \textbf{Technical direction.} I mentored engineers and established code review and CI/CD practices at MAS, and at Trento I documented reproducible pipelines for long-term maintainability.
+\end{itemize}
+To be direct about the gaps: this is a senior-staff scope. I have not done demand forecasting, hierarchical or intermittent demand, supply-chain work, or Spark at millions of series, and I have not led multiple teams. My time-series background is sensor, audio and IoT data. I could contribute most on evaluation standards, reproducible experiment-to-validation practice and moving prototypes to production, and I would be honest that this may be a level above my track record.
+
+I am based in Toronto, a Canadian permanent resident eligible to work in Canada without sponsorship, and available immediately. I would welcome the opportunity to discuss the forecasting science agenda at \clCompany{}.
+
+\vspace{8pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

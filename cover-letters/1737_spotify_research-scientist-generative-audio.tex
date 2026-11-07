@@ -1,0 +1,88 @@
+% Job posting: https://jobs.lever.co/spotify/0eebb462-b5a2-4e3a-b830-d8ef7505b014
+% =====================================================================
+%  COVER LETTER -- Nishal Stanislaus Silva, PhD
+%  Job 1737: Spotify, Research Scientist, Generative Audio, Remote (North America)
+%  Golden-resume tailoring (tagline identical to the CV). Compile: tectonic -X compile
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Generative Audio, Music ML, Signal Processing | PhD}
+\newcommand{\clRole}{Research Scientist, Generative Audio}
+\newcommand{\clCompany}{Spotify}
+\newcommand{\clTeam}{Artist-First AI Music Lab}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} - \clCompany{} (Remote (North America))}
+
+\clAddressee
+
+I am applying for the \clRole{} role at \clCompany{}. I am a machine learning researcher with a PhD from the University of Trento (2025), 10+ years across industry and academia, and a long-standing focus on music and audio ML (I am also a Trinity Grade 8 guitarist). My most recent published system made real-time decisions in 14 ms on a Raspberry Pi 4 at F1 0.76, 74$\times$ faster than the DTW baseline it replaced (JAES 2026).
+
+Here is how my work maps to the role:
+\begin{itemize}[leftmargin=1.4em, itemsep=0.1em, topsep=0.2em]
+    \item \textbf{Generative audio.} I am building VarianceEngine, which generates expressive musical variations from a single performance recording. I evaluated 5 candidate architectures (mel-diffusion, VQ-VAE with transformer prior, retrieval, symbolic transcription, foundation-model fine-tuning) before choosing LoRA fine-tuning of MusicGen-medium with a custom audio-to-audio conditioning head. At McGill I explored diffusion- and VAE-based synthetic data generation.
+    \item \textbf{Audio and signal processing at scale.} I released four open-access musical audio datasets (9,800+ recordings, 70+ musicians) and the C++17 library Nebula for audio feature extraction.
+    \item \textbf{Rigorous experiments and publication.} I benchmark against honest baselines and publish what holds up: 10+ peer-reviewed papers (JAES, IEEE), and 6 methods over 100,000 trials in my latest benchmark.
+\end{itemize}
+To be direct about the gaps: my publications are at JAES and IEEE venues, not ICASSP, ISMIR, NeurIPS or ICML, and I have not yet done preference alignment or reward-model work. VarianceEngine is in progress, not a shipped system. I would start from the editing and conditioning side, where my music-signal background is strongest.
+
+I am based in Toronto and a Canadian permanent resident, eligible to work in Canada without sponsorship, and I understand the posting asks for North American candidates near a Spotify work location. I would welcome the opportunity to discuss how my work can support the \clTeam{}.
+
+\vspace{8pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

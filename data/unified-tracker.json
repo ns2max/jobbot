@@ -1,14 +1,14 @@
 {
   "career_ops": {
-    "total": 301,
-    "max_id": 1461
+    "total": 317,
+    "max_id": 1733
   },
   "ai_job_search": {
-    "total": 133,
-    "max_id": 1730
+    "total": 143,
+    "max_id": 1743
   },
-  "unified_total": 417,
-  "next_safe_id": 1731,
+  "unified_total": 441,
+  "next_safe_id": 1744,
   "id_collisions": [],
   "renumber_plan": [
     {
@@ -64,6 +64,18 @@
       "new_id": 109,
       "company": "StackAdapt",
       "role": "Senior/Staff Machine Learning Engineer"
+    },
+    {
+      "old_id": 1736,
+      "new_id": 12,
+      "company": "Microsoft",
+      "role": "Applied Scientist, CoreAI Voice Agent"
+    },
+    {
+      "old_id": 1740,
+      "new_id": 632,
+      "company": "Amazon",
+      "role": "Applied Scientist, Alexa Connections"
     }
   ],
   "stale_applied": [
@@ -633,6 +645,56 @@
       "role": "Data Scientist, AI & Machine Learning"
     },
     {
+      "id": 1734,
+      "company": "Amii (Alberta Machine Intelligence Institute)",
+      "role": "Applied Research Scientist"
+    },
+    {
+      "id": 1735,
+      "company": "Huawei Canada",
+      "role": "Researcher, Speech & Acoustic AI"
+    },
+    {
+      "id": 12,
+      "company": "Microsoft",
+      "role": "Applied Scientist, Core AI Speech"
+    },
+    {
+      "id": 1737,
+      "company": "Spotify",
+      "role": "Research Scientist, Generative Audio"
+    },
+    {
+      "id": 1738,
+      "company": "Numa",
+      "role": "Senior Machine Learning Developer"
+    },
+    {
+      "id": 1739,
+      "company": "Kinaxis",
+      "role": "Senior Staff Applied Scientist, Time Series & Demand Forecasting"
+    },
+    {
+      "id": 632,
+      "company": "Amazon",
+      "role": "Applied Scientist, Sales AI"
+    },
+    {
+      "id": 1741,
+      "company": "Amazon",
+      "role": "Applied Scientist II, Alexa Daily Essentials"
+    },
+    {
+      "id": 1742,
+      "company": "Amazon Canada",
+      "role": "Applied Scientist, Amazon Canada Technology"
+    },
+    {
+      "id": 1743,
+      "company": "Microsoft",
+      "role": "Senior Machine Learning Engineer / Applied Scientist"
+    },
+    {
       "id": 1121,
       "company": "Nexxa.AI",
       "role": "AI Vision Engineer"
@@ -868,11 +930,6 @@
       "role": "Senior Audio AI Engineer"
     },
     {
-      "id": 12,
-      "company": "Microsoft",
-      "role": "Applied Scientist, Core AI Speech"
-    },
-    {
       "id": 14,
       "company": "Cohere",
       "role": "Senior MTS, Multimodal AI"
@@ -1035,10 +1092,10 @@
   ],
   "unapplied": [
     {
-      "id": 1272,
-      "tool": "a",
-      "company": "Tenth Revolution Group",
-      "role": "Computer Vision Engineer - Markham, ON",
+      "id": 1464,
+      "tool": "c",
+      "company": "SubPac",
+      "role": "Senior DSP Engineer [Advanced algorithms development and integration]",
       "unified_score": 80.0
     },
     {
@@ -1047,6 +1104,13 @@
       "company": "InvenSense TDK",
       "role": "Algorithms Engineer - Sr Staff (ML Engineer with Sensor Background)",
       "unified_score": 80.0
+    },
+    {
+      "id": 1463,
+      "tool": "c",
+      "company": "York University",
+      "role": "Assistant Professor, Music Technology and Production (tenure-track)",
+      "unified_score": 76.0
     },
     {
       "id": 1092,
@@ -1063,10 +1127,10 @@
       "unified_score": 74.0
     },
     {
-      "id": 1670,
-      "tool": "a",
-      "company": "Icentia",
-      "role": "Signal Processing and AI Developer - Medical Software",
+      "id": 1466,
+      "tool": "c",
+      "company": "Lenbrook",
+      "role": "Senior Software Developer (BluOS / Bluesound-NAD-PSB)",
       "unified_score": 72.0
     },
     {
@@ -1098,13 +1162,6 @@
       "unified_score": 72.0
     },
     {
-      "id": 1669,
-      "tool": "a",
-      "company": "AssistIQ",
-      "role": "AI Computer Vision Engineer",
-      "unified_score": 70.0
-    },
-    {
       "id": 1116,
       "tool": "c",
       "company": "Extreme Networks",
@@ -1133,17 +1190,31 @@
       "unified_score": 68.0
     },
     {
-      "id": 1713,
-      "tool": "a",
-      "company": "lululemon",
-      "role": "Applied AI/ML Scientist",
-      "unified_score": 68.0
-    },
-    {
       "id": 1722,
       "tool": "a",
       "company": "GuruLink (recruiter, client undisclosed)",
       "role": "Senior Machine Learning Engineer",
+      "unified_score": 68.0
+    },
+    {
+      "id": 1735,
+      "tool": "a",
+      "company": "Huawei Canada",
+      "role": "Researcher, Speech & Acoustic AI",
+      "unified_score": 68.0
+    },
+    {
+      "id": 1733,
+      "tool": "c",
+      "company": "International Business University (IBU)",
+      "role": "Full-Time Faculty, MSc Artificial Intelligence Program",
+      "unified_score": 68.0
+    },
+    {
+      "id": 1467,
+      "tool": "c",
+      "company": "ESS Technology",
+      "role": "Sr. Embedded DSP Engineer (Job Code 3146)",
       "unified_score": 68.0
     },
     {
@@ -1166,6 +1237,20 @@
       "company": "Waabi",
       "role": "Senior / Staff Perception Engineer",
       "unified_score": 67.5
+    },
+    {
+      "id": 1470,
+      "tool": "c",
+      "company": "Ubisoft",
+      "role": "Senior Audio Programmer (unannounced multiplayer, Unreal)",
+      "unified_score": 66.0
+    },
+    {
+      "id": 1472,
+      "tool": "c",
+      "company": "Mission.dev",
+      "role": "Senior C/C++ Audio Software Developer (low-latency audio-over-IP)",
+      "unified_score": 66.0
     },
     {
       "id": 715,
@@ -1210,20 +1295,6 @@
       "unified_score": 62.0
     },
     {
-      "id": 1181,
-      "tool": "a",
-      "company": "Per Vices Corporation",
-      "role": "Senior Digital/FPGA Engineer",
-      "unified_score": 62.0
-    },
-    {
-      "id": 1182,
-      "tool": "a",
-      "company": "Myant",
-      "role": "R&D Biomedical Engineer (On-Site)",
-      "unified_score": 62.0
-    },
-    {
       "id": 1230,
       "tool": "a",
       "company": "Huawei Canada",
@@ -1235,13 +1306,6 @@
       "tool": "a",
       "company": "Cerence",
       "role": "Senior Application Developer - Industrial Voice AI & Edge Apps",
-      "unified_score": 62.0
-    },
-    {
-      "id": 1635,
-      "tool": "a",
-      "company": "Jobgether (recruiter; employer undisclosed)",
-      "role": "Founding ML Engineer, Computer Vision (Object Detection)",
       "unified_score": 62.0
     },
     {
@@ -1287,6 +1351,13 @@
       "unified_score": 62.0
     },
     {
+      "id": 1473,
+      "tool": "c",
+      "company": "Stingray",
+      "role": "Software Developer (Applied AI)",
+      "unified_score": 62.0
+    },
+    {
       "id": 1454,
       "tool": "c",
       "company": "Samsara",
@@ -1322,17 +1393,17 @@
       "unified_score": 60.0
     },
     {
-      "id": 1241,
-      "tool": "a",
-      "company": "Kinaxis",
-      "role": "Architect, Machine Learning (Principal Scientist)",
-      "unified_score": 60.0
-    },
-    {
       "id": 1674,
       "tool": "a",
       "company": "Ubisoft Montreal",
       "role": "Senior C++ Programmer - Machine Learning",
+      "unified_score": 60.0
+    },
+    {
+      "id": 1469,
+      "tool": "c",
+      "company": "Adamson Systems Engineering",
+      "role": "Firmware Engineer (pro-audio loudspeakers)",
       "unified_score": 60.0
     },
     {
@@ -1355,6 +1426,20 @@
       "company": "Waabi",
       "role": "Research Scientist",
       "unified_score": 59.0
+    },
+    {
+      "id": 1471,
+      "tool": "c",
+      "company": "Behaviour Interactive",
+      "role": "Senior Audio Programmer \u2014 Dead by Daylight",
+      "unified_score": 58.0
+    },
+    {
+      "id": 1474,
+      "tool": "c",
+      "company": "Ross Video",
+      "role": "Senior Software Developer - Audio (Job Req #2026-049)",
+      "unified_score": 58.0
     },
     {
       "id": 1448,
@@ -1406,10 +1491,10 @@
       "unified_score": 55.0
     },
     {
-      "id": 1720,
+      "id": 1737,
       "tool": "a",
-      "company": "TD",
-      "role": "Senior Applied Machine Learning Scientist (predictive analytics)",
+      "company": "Spotify",
+      "role": "Research Scientist, Generative Audio",
       "unified_score": 55.0
     },
     {
@@ -1434,11 +1519,11 @@
       "unified_score": 52.0
     },
     {
-      "id": 1180,
+      "id": 1734,
       "tool": "a",
-      "company": "Ubisoft Montr\u00e9al",
-      "role": "Senior Audio Programmer",
-      "unified_score": 50.0
+      "company": "Amii (Alberta Machine Intelligence Institute)",
+      "role": "Applied Research Scientist",
+      "unified_score": 51.0
     },
     {
       "id": 1422,
@@ -1446,6 +1531,13 @@
       "company": "University of Houston",
       "role": "Assistant Professor - Human-Centered Robotics and Assistive Systems",
       "unified_score": 50.0
+    },
+    {
+      "id": 1739,
+      "tool": "a",
+      "company": "Kinaxis",
+      "role": "Senior Staff Applied Scientist, Time Series & Demand Forecasting",
+      "unified_score": 48.0
     },
     {
       "id": 1461,
@@ -1469,18 +1561,25 @@
       "unified_score": 46.0
     },
     {
-      "id": 1730,
-      "tool": "a",
-      "company": "Bell",
-      "role": "Machine Learning Engineer, Marketing",
-      "unified_score": 45.0
-    },
-    {
       "id": 1459,
       "tool": "c",
       "company": "Later",
       "role": "Senior Data Platform Engineer",
       "unified_score": 44.0
+    },
+    {
+      "id": 1741,
+      "tool": "a",
+      "company": "Amazon",
+      "role": "Applied Scientist II, Alexa Daily Essentials",
+      "unified_score": 42.0
+    },
+    {
+      "id": 1742,
+      "tool": "a",
+      "company": "Amazon Canada",
+      "role": "Applied Scientist, Amazon Canada Technology",
+      "unified_score": 40.0
     },
     {
       "id": 1456,
@@ -1516,13 +1615,6 @@
       "company": "Faire",
       "role": "Staff Data Infrastructure Engineer",
       "unified_score": 36.0
-    },
-    {
-      "id": 1689,
-      "tool": "a",
-      "company": "Altis Technology (staffing, unnamed audio manufacturer)",
-      "role": "Senior Audio Systems Engineer",
-      "unified_score": 35.0
     },
     {
       "id": 1426,
@@ -1570,12 +1662,12 @@
   "by_status": {
     "withdrawn (ai-job-search)": 8,
     "Applied (career-ops)": 90,
-    "drafted (ai-job-search)": 27,
-    "applied (ai-job-search)": 86,
-    "Discarded (career-ops)": 163,
+    "drafted (ai-job-search)": 31,
+    "applied (ai-job-search)": 91,
+    "Discarded (career-ops)": 168,
     "SKIP (career-ops)": 26,
-    "expired (ai-job-search)": 11,
-    "Evaluated (career-ops)": 20,
+    "expired (ai-job-search)": 12,
+    "Evaluated (career-ops)": 31,
     "new (ai-job-search)": 1,
     "Interview (career-ops)": 1,
     "Rejected (career-ops)": 1

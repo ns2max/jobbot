@@ -1,0 +1,90 @@
+% Job posting: https://employmenthero.com/en-ca/jobs/position/alberta-machine-intelligence-institute-applied-research-scientist-5e1p7/
+% =====================================================================
+%  COVER LETTER -- Nishal Stanislaus Silva, PhD
+%  Job 1734: Amii, Applied Research Scientist, Edmonton AB
+%  Golden-resume tailoring (tagline identical to the CV). Compile: tectonic -X compile
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Deep Learning, Time-Series, Pattern Detection | Applied Research}
+\newcommand{\clRole}{Applied Research Scientist}
+\newcommand{\clCompany}{Amii}
+\newcommand{\clTeam}{the AI Trust and Safety team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} - \clCompany{} (Edmonton, AB)}
+
+\clAddressee
+
+I am applying for the \clRole{} role on \clTeam{} at \clCompany{}. I am a machine learning researcher with a PhD from the University of Trento (2025) and 10+ years across industry and academia. My most recent published system made real-time decisions in 14 ms on a Raspberry Pi 4 at F1 0.76, 74$\times$ faster than the DTW baseline it replaced (JAES 2026), the result of benchmarking against honest baselines and publishing what holds up.
+
+Here is how my work maps to the role:
+\begin{itemize}[leftmargin=1.4em, itemsep=0.1em, topsep=0.2em]
+    \item \textbf{Experiments, evaluation pipelines and environments.} I design benchmark suites with baselines and ablations, most recently 6 scoring methods over 100,000 trials for a binary classifier (best ROC-AUC 0.822 vs.\ 0.599 baseline), and released four open datasets (9,800+ recordings) so others can reproduce the work.
+    \item \textbf{Human oversight and control.} At MAS Holdings I deployed human-in-the-loop inspection models that balanced throughput against operational risk. At the University of Visual and Performing Arts I ran human-centered evaluations of ML-driven systems and wrote recommendations on usability, interpretability and adoption readiness.
+    \item \textbf{Question to publication.} On the EU-funded MUSMET project I owned the pipeline from data acquisition to deployment, coordinated academic and industry partners, and carried the work through to peer-reviewed publication (10+ papers, JAES and IEEE).
+\end{itemize}
+To be direct about the gaps: AI safety is new to me as a research field. My exposure is as a builder of human-in-the-loop systems and a daily user of agentic tools such as Claude Code, not yet as a safety researcher, and I have no publications on goal misgeneralization or agent oversight. My post-PhD record is a one-year postdoc plus independent research, on top of a decade of industry delivery. I would close that gap by starting from evaluation, where my skills are strongest.
+
+Amii is a partner in the Canadian AI Safety Institute alongside CIFAR, the National Research Council, Mila and the Vector Institute, and its Trust and Safety program builds on Amii's reinforcement learning strength. Evaluating how agents behave over long tasks with tools is the kind of problem I want to work on: it needs careful experimental design, reproducible harnesses and clear communication to non-specialists. In my first months I would aim to build and document one evaluation environment end to end, with baselines and ablations a funder or partner can follow.
+
+I am a Canadian permanent resident, legally eligible to work in Canada without sponsorship, available immediately and willing to relocate to Edmonton for the downtown office. I would welcome the opportunity to discuss how my experience in evaluation, benchmarking and human-in-the-loop ML systems can support \clTeam{} at \clCompany{}.
+
+\vspace{8pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

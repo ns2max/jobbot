@@ -1,0 +1,88 @@
+% Job posting: https://amazon.jobs/en/jobs/10553157/applied-scientist-ii-alexa-daily-essentials-science-and-analytics
+% =====================================================================
+%  COVER LETTER -- Nishal Stanislaus Silva, PhD
+%  Job 1741: Amazon, Applied Scientist II, Alexa Daily Essentials, Vancouver, BC
+%  Golden-resume tailoring (tagline identical to the CV). Compile: tectonic -X compile
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Evaluation Frameworks, LLM \& Agentic Tooling | Applied ML}
+\newcommand{\clRole}{Applied Scientist II, Alexa Daily Essentials}
+\newcommand{\clCompany}{Amazon}
+\newcommand{\clTeam}{the Alexa Daily Essentials team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} - \clCompany{} (Vancouver, BC)}
+
+\clAddressee
+
+I am applying for the \clRole{} role at \clCompany{}. I am a machine learning researcher with a PhD from the University of Trento (2025) and 10+ years across industry and academia, with evaluation design at the centre of my work. My most recent published system made real-time decisions in 14 ms on a Raspberry Pi 4 at F1 0.76, 74$\times$ faster than the DTW baseline it replaced (JAES 2026).
+
+Here is how my work maps to the role:
+\begin{itemize}[leftmargin=1.4em, itemsep=0.1em, topsep=0.2em]
+    \item \textbf{Evaluation frameworks.} I build benchmark suites with baselines, ablations and regression checks, most recently 6 methods over 100,000 scored trials (best ROC-AUC 0.822 vs.\ 0.599 baseline), and I released four open datasets (9,800+ recordings).
+    \item \textbf{Concept to launch.} I prototyped and deployed systems from idea to production at MAS Holdings and on the EU-funded MUSMET project (<30 ms inference, >90\% F1), with 10+ peer-reviewed publications (JAES, IEEE).
+    \item \textbf{Agentic tooling.} I use Claude Code daily for agentic development, and I work with LLM and RAG tooling at the application level.
+\end{itemize}
+To be direct about the gaps: I have not built multi-step agentic products, applied reinforcement learning to agent behaviour, or built LLM-as-judge pipelines in production. My profile is strongest on evaluation rigor, real-time systems and shipping. This role leans toward foundation-model agents, so I would be learning that part on the job.
+
+I am a Canadian permanent resident, eligible to work in Canada without sponsorship, available immediately, and willing to relocate to Vancouver. I would welcome the opportunity to discuss how I can contribute to \clTeam{} at \clCompany{}.
+
+\vspace{8pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

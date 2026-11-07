@@ -1,0 +1,88 @@
+% Job posting: https://www.amazon.jobs/en/jobs/10557195/applied-scientist-alexa-connections
+% =====================================================================
+%  COVER LETTER -- Nishal Stanislaus Silva, PhD
+%  Job 1740: Amazon, Applied Scientist, Alexa Connections, Toronto, ON
+%  Golden-resume tailoring (tagline identical to the CV). Compile: tectonic -X compile
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Speech, NLP \& Multimodal ML | Applied Science}
+\newcommand{\clRole}{Applied Scientist, Alexa Connections}
+\newcommand{\clCompany}{Amazon}
+\newcommand{\clTeam}{the Alexa Smart Home science team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} - \clCompany{} (Toronto, ON)}
+
+\clAddressee
+
+I am applying for the \clRole{} role at \clCompany{}. I am a machine learning researcher with a PhD from the University of Trento (2025) and 10+ years across industry and academia, working on speech, audio and sequence models. My most recent published system made real-time decisions in 14 ms on a Raspberry Pi 4 at F1 0.76, 74$\times$ faster than the DTW baseline it replaced (JAES 2026).
+
+Here is how my work maps to the role:
+\begin{itemize}[leftmargin=1.4em, itemsep=0.1em, topsep=0.2em]
+    \item \textbf{Speech and ML foundations.} I have built audio DSP and ML pipelines end to end and benchmarked speech models (Wav2Vec2 XLSR-FR vs.\ DTW-MFCC and 4 other methods over 100,000 scored trials, ROC-AUC 0.822 vs.\ 0.599).
+    \item \textbf{Moving models into production.} On the EU-funded MUSMET project I owned the pipeline from acquisition to deployment with <30 ms inference at >90\% F1, and at MAS Holdings I deployed ML systems for manufacturing at scale.
+    \item \textbf{Evaluation frameworks.} I design baselines, ablations and error analysis to show what actually improves a model, and I work with LLM and RAG tooling day to day, including Claude Code.
+\end{itemize}
+To be direct about the gaps: I have not deployed NER, entity-linking or intent-detection models in production, I have not shipped a conversational or messaging product, and my LLM fine-tuning is tool-level rather than at scale. My NLP work to date is lighter than my audio and time-series work, so I would expect to learn the language-understanding stack from the team.
+
+I am a Canadian permanent resident, eligible to work in Canada without sponsorship, based in Toronto, and available immediately. I would welcome the opportunity to discuss how I can contribute to \clTeam{} at \clCompany{}.
+
+\vspace{8pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

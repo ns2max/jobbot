@@ -1,0 +1,88 @@
+% Job posting: https://www.amazon.jobs/en/jobs/10587976/applied-scientist-amazon-canada-technology-amazon-canada
+% =====================================================================
+%  COVER LETTER -- Nishal Stanislaus Silva, PhD
+%  Job 1742: Amazon Canada, Applied Scientist, Amazon Canada Technology, Toronto, ON
+%  Golden-resume tailoring (tagline identical to the CV). Compile: tectonic -X compile
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Research Engineer | Ranking, NLP \& LLMs, Experimentation | Applied Science}
+\newcommand{\clRole}{Applied Scientist, Amazon Canada Technology}
+\newcommand{\clCompany}{Amazon Canada}
+\newcommand{\clTeam}{the Amazon Canada science team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} - \clCompany{} (Toronto, ON)}
+
+\clAddressee
+
+I am applying for the \clRole{} position at \clCompany{}. I am a machine learning researcher with a PhD from the University of Trento (2025) and 10+ years across industry and academia, with experimentation and error analysis at the core of my work. My most recent published system made real-time decisions in 14 ms on a Raspberry Pi 4 at F1 0.76, 74$\times$ faster than the DTW baseline it replaced (JAES 2026).
+
+Here is how my work maps to the role:
+\begin{itemize}[leftmargin=1.4em, itemsep=0.1em, topsep=0.2em]
+    \item \textbf{Experiments and metrics.} I design offline evaluations with baselines and ablations and analyse failure segments, most recently 6 methods over 100,000 scored trials (ROC-AUC 0.822 vs.\ 0.599 baseline).
+    \item \textbf{Models for business applications.} At MAS Holdings I led ML and computer-vision systems in manufacturing, improving operational efficiency by up to 300\%, and at Forestpin I built scoring pipelines on large enterprise datasets.
+    \item \textbf{Python, C++ and large-scale data.} I work daily in Python and C++17, with Airflow, Snowflake and AWS pipelines, and I use Claude Code for agentic development.
+\end{itemize}
+To be direct about the gaps: I have not trained LLMs with continued pre-training or reinforcement learning, I have not worked on e-commerce search or ranking at scale, and my French is basic (A2, actively learning), which matters for a role that reasons in both English and French. I would contribute most on rigorous experimentation and error analysis.
+
+I am a Canadian permanent resident, eligible to work in Canada without sponsorship, based in Toronto, and available immediately. I would welcome the opportunity to discuss how I can support \clCompany{}'s shopping experience.
+
+\vspace{8pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

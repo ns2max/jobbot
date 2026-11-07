@@ -164,7 +164,8 @@ CO_APPLIED_STATUSES = {"applied", "responded", "interview", "offer", "rejected",
 # Every ai-job-search status past `drafted` (see ai-job-search/.claude/commands/outcome.md
 # "Tracker status vocabulary"), incl. legacy space spellings; `withdrawn` = closed before sending.
 AJS_APPLIED_STATUSES = {"applied", "interview", "offer", "hired", "rejected", "no_response", "no response",
-                        "offer_declined", "offer declined", "withdrawn"}
+                        "offer_declined", "offer declined", "withdrawn",
+                        "expired"}  # `expired` = posting down, nothing to apply to
 
 
 def co_score_100(score_str):

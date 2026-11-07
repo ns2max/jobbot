@@ -1,0 +1,88 @@
+% Job posting: https://apply.careers.microsoft.com/careers/job/1970393557053307
+% =====================================================================
+%  COVER LETTER -- Nishal Stanislaus Silva, PhD
+%  Job 1743: Microsoft, Senior Machine Learning Engineer / Applied Scientist, Vancouver BC
+%  Golden-resume tailoring (tagline identical to the CV). Compile: tectonic -X compile
+% =====================================================================
+
+\documentclass[11pt]{article}
+
+% --------- PACKAGES ----------
+\usepackage[left=0.8in,top=0.7in,right=0.8in,bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage[en-GB]{datetime2}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}   % Times-like
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+\setlength{\parindent}{0pt}
+\setstretch{1.05}
+\pagenumbering{gobble}
+
+% --------- FIXED IDENTITY ----------
+\newcommand{\clName}{Nishal Stanislaus Silva}
+\newcommand{\clEmail}{nishal.silva@hotmail.com}
+\newcommand{\clPhone}{+1 613 200 2030}
+\newcommand{\clCity}{Toronto, ON}
+\newcommand{\clSite}{https://nishal.xyz}
+\newcommand{\clLinkedIn}{https://www.linkedin.com/in/nishal-silva}
+\newcommand{\clStatus}{Canadian Permanent Resident, Eligible to work in Canada without sponsorship}
+
+% --------- PER-APPLICATION VARIABLES ----------
+\newcommand{\clTagline}{Machine Learning Engineer | Evaluation Frameworks, LLM \& Multimodal Systems, Real-Time ML | PhD}
+\newcommand{\clRole}{Senior Machine Learning Engineer / Applied Scientist}
+\newcommand{\clCompany}{Microsoft}
+\newcommand{\clTeam}{the Applied Sciences team}
+\newcommand{\clAddressee}{Dear Hiring Manager,}
+
+% =====================================================================
+\begin{document}
+\pagestyle{empty}
+
+% --------- HEADER (identical to CV) ----------
+\begin{center}
+    {\LARGE \scshape \textbf{\clName}}{\large \textit{, PhD}}
+    \\[1pt]
+    {\small \clTagline}
+    \\[1pt]
+    {\footnotesize\textit{\clStatus}}
+    \\[1pt]
+    {\small
+    \href{mailto:\clEmail}{\clEmail}
+    \,\,|\,\, \clPhone
+    \,\,|\,\, \clCity
+    \,\,|\,\, \href{\clSite}{nishal.xyz}
+    \,\,|\,\, \href{\clLinkedIn}{linkedin.com/in/nishal-silva}}
+\end{center}
+
+\rule{\linewidth}{0.4pt}\vspace{0.6em}
+
+\today
+
+\textbf{Re: \clRole{} - \clCompany{} (Vancouver, BC)}
+
+\clAddressee
+
+I am applying for the \clRole{} role at \clCompany{} in Vancouver. I am a machine learning engineer and researcher with a PhD from the University of Trento (2025) and 10+ years across industry and academia, with evaluation design and production deployment at the centre of my work. My most recent published system made real-time decisions in 14 ms on a Raspberry Pi 4 at F1 0.76, 74$\times$ faster than the DTW baseline it replaced (JAES 2026).
+
+Here is how my work maps to the role:
+\begin{itemize}[leftmargin=1.4em, itemsep=0.1em, topsep=0.2em]
+    \item \textbf{Evaluation frameworks and offline experimentation.} I design benchmark suites with baselines, ablations and error analysis. My latest harness scores 6 methods over 100,000 trials (best ROC-AUC 0.822 vs.\ 0.599 baseline), and I released four open datasets (9,800+ recordings, 70+ musicians) so others can reproduce the results.
+    \item \textbf{Production-grade ML.} On the EU-funded MUSMET project I owned the pipeline for streaming multimodal data from acquisition to deployment, with <30 ms inference at >90\% F1, monitoring and reproducible documentation. At MAS Holdings I deployed ML and computer-vision systems into manufacturing, improving operational efficiency by up to 300\%, and introduced CI/CD and code review.
+    \item \textbf{Multimodal systems and LLM tooling.} I built a real-time sync pipeline over audio, EEG and head/hand tracking across 4 musicians, and I use LLMs, RAG and Claude Code in my daily workflow, including for experiment iteration.
+\end{itemize}
+To be direct about the gaps: my hands-on LLM, RAG and agent work is at the application and tooling level, not on a shipped LLM product, and I have not worked on a consumer product team with live user-facing experiments. My strengths are evaluation rigor, latency-constrained deployment and ownership from prototype to monitoring, and I would apply them to grounding, reliability and failure analysis for LLM systems.
+
+I am a Canadian permanent resident, eligible to work in Canada without sponsorship, available immediately, willing to relocate to Vancouver, and able to pass the Microsoft Cloud background check. I would welcome the opportunity to discuss how I can help \clTeam{}.
+
+\vspace{8pt}
+Sincerely,\\[2pt]
+\textbf{\clName}, PhD
+
+\end{document}

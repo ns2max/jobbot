@@ -1981,3 +1981,49 @@ tracked_companies:
     provider: greenhouse
     notes: "Remote Canada. Learning-platform company — LLM integration, RAG, agentic backend. Eval #1125 SKIP (LLM-integration plumbing, under-uses). Low priority. GH slug 'novoed' verified 2026-09-03 (4 jobs)."
     enabled: true
+
+  # -- Academic job boards (added 2026-11-03; zero-token local parsers in parsers/, relevance-filtered in the script) --
+  # Swept 2026-11-03: CAUT AcademicWork and University Affairs are server-rendered, Canada-only, no auth. They overlap
+  # (e.g. Queen's CRC/Mitchell, York CRC, UBC CompE) and carry both faculty and postdoc posts; dedup key is company::title so
+  # the same post can appear once per board. Rejected: akimbo.ca (visual-art admin/curatorial jobs, only ML-relevant post is
+  # the York CRC already on CAUT), Job Bank (1 ML hit), Science Careers/Nature (US-dominated, location filter ignored),
+  # academicpositions.com / CareerBeacon / ACM (403 to scripts; needs a real browser).
+  - name: AcademicWork (CAUT)
+    careers_url: https://www.academicwork.ca/
+    provider: local-parser
+    parser:
+      command: python3
+      script: parsers/academicwork.py
+      args:
+        - "machine learning"
+        - "artificial intelligence"
+        - "signal processing"
+        - "audio"
+        - "music technology"
+        - "speech"
+        - "acoustic"
+        - "embedded"
+        - "edge computing"
+        - "computer engineering"
+        - "electrical engineering"
+        - "computer science"
+        - "data science"
+        - "robotics"
+        - "high-performance computing"
+        - "human-computer interaction"
+        - "sensor"
+        - "postdoctoral"
+        - "research chair"
+      timeout_ms: 180000
+    notes: "CAUT's official academic board. Keyword search is server-side; the script re-filters on title relevance. Region is mapped to '<province>, Canada' so the location filter passes."
+    enabled: true
+
+  - name: University Affairs Jobs
+    careers_url: https://universityaffairs.ca/search-jobs/
+    provider: local-parser
+    parser:
+      command: python3
+      script: parsers/university_affairs.py
+      timeout_ms: 90000
+    notes: "Canadian academic board. One 2 MB request returns every current post (~550); the keyword param is ignored, so the script filters on discipline-prefixed titles (Computer/Electrical/Music/Signal/AI/Postdoc/Research Chair). Includes NRC postdoc fellowships."
+    enabled: true
